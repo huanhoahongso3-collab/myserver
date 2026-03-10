@@ -1,4 +1,4 @@
-name: Minecraft Server with Playit
+name: Minecraft Server with Local Playit
 on:
   workflow_dispatch:
 
@@ -15,44 +15,41 @@ jobs:
       - name: Set up Java
         uses: actions/setup-java@v4
         with:
-          java-version: '21' # Adjust based on your Minecraft version
+          java-version: '21'
           distribution: 'temurin'
 
-      - name: Install Playit.gg
+      - name: Prepare Playit Binary
         run: |
-          curl -SsL https://playit-cloud.github.io/ppa/key.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/playit.gpg > /dev/null
-          echo "deb [signed-by=/etc/apt/trusted.gpg.d/playit.gpg] https://playit-cloud.github.io/ppa/data-benchmark ./ " | sudo tee /etc/apt/sources.list.d/playit-cloud.list
-          sudo apt update
-          sudo apt install playit -y
+          chmod +x ./playit-linux-amd64
 
       - name: Run Server and Backup Loop
         env:
           PLAYIT_SECRET: ${{ secrets.PLAYIT_SECRET }}
         run: |
-          # Start Playit in the background
-          echo "$PLAYIT_SECRET" > playit.toml
-          playit run &
+          # Start Playit using the secret and the local binary
+          # We pass the secret directly to the run command
+          ./playit-linux-amd64 run --secret "$PLAYIT_SECRET" &
 
-          # Start Minecraft (Adjust Xmx/Xms for GitHub's 7GB RAM limit)
+          # Start Minecraft (Adjust RAM to fit within GH Actions 7GB limit)
           java -Xmx6G -Xms6G -jar server.jar nogui &
           
           # Backup Loop (Every 60 minutes)
           while kill -0 $! 2>/dev/null; do
             sleep 3600
-            echo "Performing scheduled backup..."
-            git config --global user.name "github-actions"
-            git config --global user.email "github-actions@github.com"
+            echo "Performing scheduled hourly backup..."
+            git config --local user.name "github-actions"
+            git config --local user.email "github-actions@github.com"
             git add .
-            git commit -m "Scheduled backup: $(date)" || echo "No changes to commit"
+            git commit -m "Automated backup: $(date)" || echo "Nothing to commit"
             git push origin playit-only
           done
 
       - name: Final Commit on Shutdown
         if: always()
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
+          git config --local user.name "github-actions"
+          git config --local user.email "github-actions@github.com"
           git add .
-          git commit -m "Final backup before shutdown" || echo "No changes to commit"
+          git commit -m "Final sync before workflow termination" || echo "Nothing to commit"
           git push origin playit-only
           
