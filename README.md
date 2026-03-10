@@ -6,7 +6,7 @@ This repository automates the setup and deployment of a Minecraft server environ
 > Do not accept pull request. Feel free to use it
 
 > [!NOTE]
-> This only can be run in 5 hours. To continue, trigger a new workflow to play. Game is automatically saved after 1 min and after stopping the server
+> This only can be run in 5 hours. To continue, trigger a new workflow to play. Game is automatically saved every 1 min and after stopping the server
 
 
 ---
