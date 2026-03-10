@@ -26,11 +26,9 @@ jobs:
         env:
           PLAYIT_SECRET: ${{ secrets.PLAYIT_SECRET }}
         run: |
-          # Start Playit without the 'run' subcommand
-          ./playit-linux-amd64 --secret "$PLAYIT_SECRET" &
 
           # Start Minecraft
-          java -Xmx6G -Xms6G -jar server.jar nogui &
+          java -jar server.jar nogui &
           
           # Sync Loop (Every 5 minutes)
           while kill -0 $! 2>/dev/null; do
