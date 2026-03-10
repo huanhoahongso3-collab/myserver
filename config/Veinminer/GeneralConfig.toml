@@ -6,9 +6,9 @@
 	#Prevent Veinminer from activating if the tool would break
 	checkToolDurability = true
 	#Minimum durability to keep when Veinminer activates
-	durabilityCap = 1
+	durabilityCap = 50
 	#ABSOLUTE keeps a fixed number of durability points, PERCENTAGE keeps a percentage
-	durabilityThreshold = "ABSOLUTE"
+	durabilityThreshold = "PERCENTAGE"
 	#Number of worker threads used for asynchronous operations
 	threadCount = 4
 
@@ -16,11 +16,11 @@
 	#Enable a cooldown between Veinminer uses
 	enabled = true
 	#Cooldown duration in seconds
-	seconds = 5
+	seconds = 15
 
 [BlockLimits]
 	#Dynamically adjust max mined blocks based on server TPS
-	dynamicMaxBlocks = true
+	dynamicMaxBlocks = false
 	#Maximum blocks mined when dynamic scaling is disabled
 	maxBlocks = 64
 	#Lower bound for dynamic scaling
