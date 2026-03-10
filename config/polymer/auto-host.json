@@ -9,7 +9,8 @@
   "type": "polymer:automatic",
   "_c4": "Configuration of type, see provider's source for more details",
   "settings": {
-    "forced_address": ""
+  "port": 7410,
+  "external_address": "http://hosting-regarding.gl.joinmc.link/"
   },
   "_c5": "Message sent to clients before pack is loaded",
   "message": "This server uses resource pack to enhance gameplay with custom textures and models. It might be unplayable without them. Máy chủ này sử dụng gói tài nguyên để nâng cao trải nghiệm chơi game với các họa tiết và mô hình tùy chỉnh. Có thể sẽ không chơi được nếu thiếu chúng.",
