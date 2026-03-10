@@ -1,0 +1,28 @@
+{
+  "CONFIG_VERSION_DONT_TOUCH_THIS": 4,
+  "armorStandTool": "minecraft:flint",
+  "requireIsArmorStandEditorTag": false,
+  "holdingToolSpawnsParticles": true,
+  "useLegacyUiByDefault": false,
+  "minimal_scale_value": 0.0625,
+  "maximal_scale_value": 16.0,
+  "player_preset_limit": 16,
+  "blackListedBuildInPresets": [],
+  "allowedByDefault": [
+    "toggle_base",
+    "move",
+    "toggle_no_gravity",
+    "modify_pose",
+    "toggle_visual_fire",
+    "toggle_size",
+    "scale",
+    "open_editor",
+    "inventory",
+    "toggle_visibility",
+    "open_item_frame_editor",
+    "rename",
+    "copy",
+    "change_properties",
+    "toggle_arms"
+  ]
+}
