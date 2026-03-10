@@ -28,19 +28,7 @@ jobs:
         run: |
 
           # Start Minecraft
-          java -jar server.jar nogui &
-          
-          # Sync Loop (Every 1- minutes)
-          while kill -0 $! 2>/dev/null; do
-            sleep 56
-            echo "Performing 5-minute force sync..."
-            git config --local user.name "github-actions"
-            git config --local user.email "github-actions@github.com"
-            git add .
-            # Commit and force push to playit-only branch
-            git commit -m "Automated sync: $(date)" || echo "Nothing to commit"
-            git push origin playit-only --force
-          done
+          java -jar server.jar nogui
 
       - name: Final Force Push
         if: always()
