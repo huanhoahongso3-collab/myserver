@@ -14,10 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 1
-          fetch-tags: false
-          persist-credentials: true
-          token: ${{ secrets.FINE_GRAINED_PAT }}
+          token: ${{ secrets.FINE_GRAINED_PAT }}  # Use fine-grained PAT for checkout
 
       - uses: graalvm/setup-graalvm@v1
         with:
@@ -28,27 +25,39 @@ jobs:
       - name: Debug - List directory contents
         run: ls -la
 
-      - name: Run Spigot with auto-restart and workflow recreation
-        if: "!contains(github.event.head_commit.message, 'Auto commit every 30 seconds [no ci]')"
+      - name: Run Spigot and playit with 30-second commits and workflow deletion
+        if: "!contains(github.event.head_commit.message, 'Auto commit every 30 seconds')"
         continue-on-error: true
         env:
           FINE_GRAINED_PAT: ${{ secrets.FINE_GRAINED_PAT }}
           REPO: ${{ github.repository }}
+          PLAYIT_SECRET: ${{ secrets.PLAYIT_SECRET }}
         run: |
           cd $GITHUB_WORKSPACE
+          chmod +x playit-linux-amd64
 
           start_spigot() {
             echo "Starting Spigot..."
-            # Note: 16GB is the max for standard runners; ensure your runner has this much RAM available.
             java -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true -Xms16G -Xmx16G -jar spigot.jar nogui 2>&1 | sed '/login:/s/.*/<REDACTED>/' &
             SPIGOT_PID=$!
             echo "Spigot started with PID $SPIGOT_PID"
           }
 
+          start_playit() {
+            echo "Starting playit..."
+            ./playit-linux-amd64 --secret ${PLAYIT_SECRET} 2>&1 | sed '/login:/s/.*/<REDACTED>/' &
+            PLAYIT_PID=$!
+            echo "playit started with PID $PLAYIT_PID"
+          }
+
           commit_and_push() {
             git config --local user.email "github-actions[bot]@users.noreply.github.com"
             git config --local user.name "github-actions[bot]"
-            git add -A
+            git add -A  # Stage all changes
+            git reset -- playit.toml
+            git reset -- playit.log
+            git reset -- tunnel-config.yml
+            git reset -- credentials.json
             git reset -- logs/
 
             if ! git commit -m "Auto commit every 30 seconds [no ci]"; then
@@ -65,14 +74,17 @@ jobs:
                     git pull --rebase
                 fi
             done
+
+            echo "Failed to push after 3 attempts"
             return 1
           }
 
           delete_auto_commit_workflows() {
             workflow_ids=$(curl -s -H "Authorization: token $FINE_GRAINED_PAT" \
               "https://api.github.com/repos/${REPO}/actions/runs" | \
-              jq '.workflow_runs[] | select(.head_commit.message | contains("Auto commit every 30 seconds")) | .id')
+              jq '.workflow_runs[] | select(.head_commit.message | contains("Auto commit every 30 seconds [no ci]")) | .id')
             for id in $workflow_ids; do
+              echo "Deleting workflow run $id"
               curl -s -X DELETE -H "Authorization: token $FINE_GRAINED_PAT" \
                 "https://api.github.com/repos/${REPO}/actions/runs/$id"
             done
@@ -81,8 +93,9 @@ jobs:
           create_new_workflow_run() {
             curl -X POST -H "Authorization: token $FINE_GRAINED_PAT" \
               -H "Accept: application/vnd.github.v3+json" \
-              "https://api.github.com/repos/${REPO}/actions/workflows/CI.yml/dispatches" \
+              "https://api.github.com/repos/${REPO}/actions/workflows/blank.yml/dispatches" \
               -d '{"ref":"main"}'
+            echo "New workflow run created"
           }
 
           cancel_old_workflow_runs() {
@@ -91,19 +104,22 @@ jobs:
               "https://api.github.com/repos/${REPO}/actions/runs?branch=main&status=in_progress")
 
             echo "$workflow_runs" | jq -r ".workflow_runs[] | select(.id != $current_run_id) | .id" | while read -r run_id; do
+              echo "Cancelling workflow run $run_id"
               curl -s -X POST -H "Authorization: token $FINE_GRAINED_PAT" \
                 "https://api.github.com/repos/${REPO}/actions/runs/$run_id/cancel"
             done
           }
 
           start_spigot
+          start_playit
+
           START_TIME=$(date +%s)
 
           (sleep 30 && cancel_old_workflow_runs) &
 
           while true; do
             if ! commit_and_push; then
-                echo "Commit failed, continuing..."
+                echo "Commit and push failed, continuing..."
             fi
             delete_auto_commit_workflows
 
@@ -111,13 +127,17 @@ jobs:
             ELAPSED_TIME=$((CURRENT_TIME - START_TIME))
 
             if ! kill -0 $SPIGOT_PID 2>/dev/null; then
-              echo "Restarting Spigot..."
+              echo "Spigot process has stopped. Restarting Spigot..."
               start_spigot
             fi
 
-            # Check if workflow reached the 5-hour limit (18000 seconds)
-            if [ $ELAPSED_TIME -ge 18000 ]; then
-              echo "5-hour limit reached. Cycling workflow..."
+            if ! kill -0 $PLAYIT_PID 2>/dev/null || [ $ELAPSED_TIME -ge 18000 ]; then
+              if ! kill -0 $PLAYIT_PID 2>/dev/null; then
+                echo "PlayIt Tunnel process has stopped."
+              else
+                echo "Workflow has been running for 5 hours."
+              fi
+              echo "Creating new workflow run and exiting current one."
               create_new_workflow_run
               exit 0
             fi
@@ -132,5 +152,6 @@ jobs:
         run: |
           curl -X POST -H "Authorization: token $GITHUB_TOKEN" \
             -H "Accept: application/vnd.github.v3+json" \
-            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/CI.yml/dispatches" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/blank.yml/dispatches" \
             -d '{"ref":"main"}'
+          echo "Workflow rerun triggered due to previous step failure"
