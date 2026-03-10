@@ -1,13 +1,13 @@
 # Default configuration file for Fabric AntiXray mod by DrexHD
 
 # Default values
-enabled = false
+enabled = true
 usePermission = false
 
 # World specific values
 [overworld]
 enabled = true
-engineMode = 3
+engineMode = 1
 maxBlockHeight = 256
 updateRadius = 2
 lavaObscures = false
@@ -19,5 +19,5 @@ enabled = true
 engineMode = 1
 maxBlockHeight = 128
 updateRadius = 2
-lavaObscures = true
+lavaObscures = false
 hiddenBlocks = ["ancient_debris", "nether_quartz_ore", "nether_gold_ore", "gold_block", "gilded_blackstone"]
