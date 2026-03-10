@@ -11,6 +11,7 @@ jobs:
         with:
           token: ${{ secrets.FINE_GRAINED_PAT }}
           ref: playit-only
+          fetch-depth: 0 # Essential for force pushing history
 
       - name: Set up Java
         uses: actions/setup-java@v4
@@ -19,37 +20,36 @@ jobs:
           distribution: 'temurin'
 
       - name: Prepare Playit Binary
-        run: |
-          chmod +x ./playit-linux-amd64
+        run: chmod +x ./playit-linux-amd64
 
-      - name: Run Server and Backup Loop
+      - name: Run Server and Frequent Sync
         env:
           PLAYIT_SECRET: ${{ secrets.PLAYIT_SECRET }}
         run: |
-          # Start Playit using the secret and the local binary
-          # We pass the secret directly to the run command
-          ./playit-linux-amd64 run --secret "$PLAYIT_SECRET" &
+          # Start Playit without the 'run' subcommand
+          ./playit-linux-amd64 --secret "$PLAYIT_SECRET" &
 
-          # Start Minecraft (Adjust RAM to fit within GH Actions 7GB limit)
+          # Start Minecraft
           java -Xmx6G -Xms6G -jar server.jar nogui &
           
-          # Backup Loop (Every 60 minutes)
+          # Sync Loop (Every 5 minutes)
           while kill -0 $! 2>/dev/null; do
-            sleep 3600
-            echo "Performing scheduled hourly backup..."
+            sleep 300
+            echo "Performing 5-minute force sync..."
             git config --local user.name "github-actions"
             git config --local user.email "github-actions@github.com"
             git add .
-            git commit -m "Automated backup: $(date)" || echo "Nothing to commit"
-            git push origin playit-only
+            # Commit and force push to playit-only branch
+            git commit -m "Automated sync: $(date)" || echo "Nothing to commit"
+            git push origin playit-only --force
           done
 
-      - name: Final Commit on Shutdown
+      - name: Final Force Push
         if: always()
         run: |
           git config --local user.name "github-actions"
           git config --local user.email "github-actions@github.com"
           git add .
-          git commit -m "Final sync before workflow termination" || echo "Nothing to commit"
-          git push origin playit-only
+          git commit -m "Final force sync before shutdown" || echo "Nothing to commit"
+          git push origin playit-only --force
           
