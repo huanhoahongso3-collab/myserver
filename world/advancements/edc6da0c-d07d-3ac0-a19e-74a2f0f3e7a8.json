@@ -654,7 +654,8 @@
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
       "onion": "2026-03-10 12:37:23 +0000",
-      "tomato": "2026-03-10 12:37:32 +0000"
+      "tomato": "2026-03-10 12:37:32 +0000",
+      "carrot": "2026-03-10 14:23:44 +0000"
     },
     "done": false
   },
@@ -856,9 +857,118 @@
     },
     "done": true
   },
+  "polydecorations:recipes/decorations/soul_brazier": {
+    "criteria": {
+      "planks": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "polydecorations:recipes/decorations/trashcan": {
+    "criteria": {
+      "planks": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/rabbit_stew": {
+    "criteria": {
+      "has_any_ingredient": "2026-03-10 14:23:43 +0000"
+    },
+    "done": true
+  },
+  "polydecorations:recipes/decorations/hammer": {
+    "criteria": {
+      "planks": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/raw_iron_block": {
     "criteria": {
       "has_raw_iron": "2026-03-10 14:18:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/chicken_soup": {
+    "criteria": {
+      "has_any_ingredient": "2026-03-10 14:23:43 +0000"
+    },
+    "done": true
+  },
+  "craftable_name_tags:recipes/building_blocks/craftable_name_tags/name_tag": {
+    "criteria": {
+      "has_iron": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "equestrian_crafting:recipes/combat/iron_horse_armor": {
+    "criteria": {
+      "has_ingot": "2026-03-10 14:22:03 +0000",
+      "has_the_recipe": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/shears": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/iron_block": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2026-03-10 14:25:09 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/cooking_pot": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/hopper": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_boots": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lantern": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_shovel": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2026-03-10 14:25:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_trapdoor": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-10 14:22:03 +0000"
     },
     "done": true
   },
@@ -868,15 +978,219 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "polydecorations:recipes/decorations/wind_chime": {
+    "criteria": {
+      "planks": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/iron_knife": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "polydecorations:recipes/decorations/globe": {
+    "criteria": {
+      "planks": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/iron_plating": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_pickaxe": "2026-03-10 14:22:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2026-03-10 14:22:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bucket": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/minecart": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_hoe": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipe/building_blocks/pile_of_iron_ingots": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_noodles": {
+    "criteria": {
+      "has_any_ingredient": "2026-03-10 14:23:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/smoker": {
     "criteria": {
       "has_furnace": "2026-03-10 14:21:09 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2026-03-10 14:22:31 +0000"
+    },
+    "done": true
+  },
+  "equestrian_crafting:recipes/misc/iron_horse_armor": {
+    "criteria": {
+      "has_ingot": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chain": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smithing_table": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "polydecorations:recipes/decorations/trowel": {
+    "criteria": {
+      "planks": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_sword": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_pickaxe": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/shield": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/iron_bars": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
     "criteria": {
       "has_raw_iron": "2026-03-10 14:18:35 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/beef_stew": {
+    "criteria": {
+      "has_any_ingredient": "2026-03-10 14:23:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2026-03-10 14:23:43 +0000"
+    },
+    "done": true
+  },
+  "polydecorations:recipes/decorations/brazier": {
+    "criteria": {
+      "planks": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/carrot_crate": {
+    "criteria": {
+      "has_carrot": "2026-03-10 14:23:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_axe": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-10 14:22:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_pickaxe": "2026-03-10 14:22:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2026-03-10 14:22:03 +0000"
     },
     "done": true
   },
