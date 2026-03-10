@@ -1,4 +1,34 @@
-- name: Run Spigot and playit with auto-restart and workflow recreation
+name: CI
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */5 * * *'  # Run every 5 hours
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          fetch-tags: false
+          persist-credentials: true
+          token: ${{ secrets.FINE_GRAINED_PAT }}
+
+      - uses: graalvm/setup-graalvm@v1
+        with:
+          java-version: '22'
+          distribution: 'graalvm'
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Debug - List directory contents
+        run: ls -la
+
+      - name: Run Spigot and playit with auto-restart and workflow recreation
         if: "!contains(github.event.head_commit.message, 'Auto commit every 30 seconds [no ci]')"
         continue-on-error: true
         env:
@@ -53,6 +83,7 @@
               "https://api.github.com/repos/${REPO}/actions/runs" | \
               jq '.workflow_runs[] | select(.head_commit.message | contains("Auto commit every 30 seconds")) | .id')
             for id in $workflow_ids; do
+              echo "Deleting workflow run $id"
               curl -s -X DELETE -H "Authorization: token $FINE_GRAINED_PAT" \
                 "https://api.github.com/repos/${REPO}/actions/runs/$id"
             done
@@ -63,6 +94,7 @@
               -H "Accept: application/vnd.github.v3+json" \
               "https://api.github.com/repos/${REPO}/actions/workflows/CI.yml/dispatches" \
               -d '{"ref":"main"}'
+            echo "New workflow run created"
           }
 
           cancel_old_workflow_runs() {
@@ -71,6 +103,7 @@
               "https://api.github.com/repos/${REPO}/actions/runs?branch=main&status=in_progress")
 
             echo "$workflow_runs" | jq -r ".workflow_runs[] | select(.id != $current_run_id) | .id" | while read -r run_id; do
+              echo "Cancelling workflow run $run_id"
               curl -s -X POST -H "Authorization: token $FINE_GRAINED_PAT" \
                 "https://api.github.com/repos/${REPO}/actions/runs/$run_id/cancel"
             done
@@ -80,23 +113,44 @@
           start_playit
 
           START_TIME=$(date +%s)
+
           (sleep 30 && cancel_old_workflow_runs) &
 
           while true; do
-            commit_and_push || echo "Commit failed"
+            if ! commit_and_push; then
+                echo "Commit and push failed, continuing without stopping the workflow"
+            fi
             delete_auto_commit_workflows
 
             CURRENT_TIME=$(date +%s)
             ELAPSED_TIME=$((CURRENT_TIME - START_TIME))
 
             if ! kill -0 $SPIGOT_PID 2>/dev/null; then
+              echo "Spigot process has stopped. Restarting Spigot..."
               start_spigot
             fi
 
             if ! kill -0 $PLAYIT_PID 2>/dev/null || [ $ELAPSED_TIME -ge 18000 ]; then
+              if ! kill -0 $PLAYIT_PID 2>/dev/null; then
+                echo "Playit process has stopped."
+              else
+                echo "Workflow has been running for 5 hours."
+              fi
+              echo "Creating new workflow run and exiting current one."
               create_new_workflow_run
               exit 0
             fi
 
             sleep 30
           done
+
+      - name: Rerun workflow if previous step failed
+        if: failure()
+        env:
+          GITHUB_TOKEN: ${{ secrets.FINE_GRAINED_PAT }}
+        run: |
+          curl -X POST -H "Authorization: token $GITHUB_TOKEN" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/CI.yml/dispatches" \
+            -d '{"ref":"main"}'
+          echo "Workflow rerun triggered due to previous step failure"
