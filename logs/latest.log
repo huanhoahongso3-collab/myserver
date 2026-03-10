@@ -569,3 +569,7 @@
 [15:47:35] [Server thread/INFO]: [Polydex] Started matching recipes and items...
 [15:47:35] [IO-Worker-6/INFO]: [Polymer] Starting resource pack generation...
 [15:47:40] [Server thread/INFO]: [Polydex] Done! It took 4816 ms
+[15:47:45] [Server thread/INFO]: [Polymer] Resource pack created successfully! You can find it in game folder as polymer/resource_pack.zip
+[15:47:53] [Netty Epoll Server IO #2/WARN]: Modified mixin "vectorwing.farmersdelight.common.mixin.refabricated.RecipeBookSettingsMixin". Check debug logs for more information.
+[15:48:17] [Server thread/INFO]: com.mojang.authlib.GameProfile@6d7b9929[id=edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8,name=FewerSteak1914,properties={}] lost connection: Disconnected
+[15:48:35] [Server thread/INFO]: Server empty for 60 seconds, pausing
