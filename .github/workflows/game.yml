@@ -1,48 +1,28 @@
-name: CI
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-  workflow_dispatch:
-  schedule:
-    - cron: '0 */5 * * *'  # Run every 5 hours
-
-jobs:
-  build:
-    runs-on: ubuntu-24.04
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
-          fetch-tags: false
-          persist-credentials: true
-          token: ${{ secrets.FINE_GRAINED_PAT }}
-
-      - uses: graalvm/setup-graalvm@v1
-        with:
-          java-version: '22'
-          distribution: 'graalvm'
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Debug - List directory contents
-        run: ls -la
-
-      - name: Run Spigot with auto-restart and workflow recreation
+- name: Run Spigot and playit with auto-restart and workflow recreation
         if: "!contains(github.event.head_commit.message, 'Auto commit every 30 seconds [no ci]')"
         continue-on-error: true
         env:
           FINE_GRAINED_PAT: ${{ secrets.FINE_GRAINED_PAT }}
           REPO: ${{ github.repository }}
+          PLAYIT_SECRET: ${{ secrets.PLAYIT_SECRET }}
         run: |
           cd $GITHUB_WORKSPACE
 
+          # Ensure the binary has execution permissions
+          chmod +x ./playit-linux-amd64
+
           start_spigot() {
             echo "Starting Spigot..."
-            # Note: 16GB is the max for standard runners; ensure your runner has this much RAM available.
             java -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true -Xms16G -Xmx16G -jar spigot.jar nogui 2>&1 | sed '/login:/s/.*/<REDACTED>/' &
             SPIGOT_PID=$!
             echo "Spigot started with PID $SPIGOT_PID"
+          }
+
+          start_playit() {
+            echo "Starting Playit..."
+            ./playit-linux-amd64 --secret ${PLAYIT_SECRET} &
+            PLAYIT_PID=$!
+            echo "Playit started with PID $PLAYIT_PID"
           }
 
           commit_and_push() {
@@ -97,40 +77,26 @@ jobs:
           }
 
           start_spigot
-          START_TIME=$(date +%s)
+          start_playit
 
+          START_TIME=$(date +%s)
           (sleep 30 && cancel_old_workflow_runs) &
 
           while true; do
-            if ! commit_and_push; then
-                echo "Commit failed, continuing..."
-            fi
+            commit_and_push || echo "Commit failed"
             delete_auto_commit_workflows
 
             CURRENT_TIME=$(date +%s)
             ELAPSED_TIME=$((CURRENT_TIME - START_TIME))
 
             if ! kill -0 $SPIGOT_PID 2>/dev/null; then
-              echo "Restarting Spigot..."
               start_spigot
             fi
 
-            # Check if workflow reached the 5-hour limit (18000 seconds)
-            if [ $ELAPSED_TIME -ge 18000 ]; then
-              echo "5-hour limit reached. Cycling workflow..."
+            if ! kill -0 $PLAYIT_PID 2>/dev/null || [ $ELAPSED_TIME -ge 18000 ]; then
               create_new_workflow_run
               exit 0
             fi
 
             sleep 30
           done
-
-      - name: Rerun workflow if previous step failed
-        if: failure()
-        env:
-          GITHUB_TOKEN: ${{ secrets.FINE_GRAINED_PAT }}
-        run: |
-          curl -X POST -H "Authorization: token $GITHUB_TOKEN" \
-            -H "Accept: application/vnd.github.v3+json" \
-            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/CI.yml/dispatches" \
-            -d '{"ref":"main"}'
