@@ -30,9 +30,9 @@ jobs:
           # Start Minecraft
           java -jar server.jar nogui &
           
-          # Sync Loop (Every 5 minutes)
+          # Sync Loop (Every 1- minutes)
           while kill -0 $! 2>/dev/null; do
-            sleep 300
+            sleep 56
             echo "Performing 5-minute force sync..."
             git config --local user.name "github-actions"
             git config --local user.email "github-actions@github.com"
