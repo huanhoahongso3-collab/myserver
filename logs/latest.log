@@ -1,17 +1,17 @@
-[10:45:27] [main/INFO]: Loading Minecraft 1.21.8 with Fabric Loader 0.18.4
-[10:45:28] [ForkJoinPool-1-worker-6/WARN]: Mod terrestria uses the version v7.4.0+another_1.20.32d44285 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[10:45:28] [ForkJoinPool-1-worker-6/WARN]: Mod terrestria-client uses the version v7.4.0+another_1.20.32d44285 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[10:45:28] [ForkJoinPool-1-worker-6/WARN]: Mod terrestria-worldgen uses the version v7.4.0+another_1.20.32d44285 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[10:45:28] [ForkJoinPool-1-worker-2/WARN]: Mod terrestria-common uses the version v7.4.0+another_1.20.32d44285 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[10:45:28] [ForkJoinPool-1-worker-5/WARN]: Mod cinderscapes uses the version v5.2.0-beta.1.0+1.21.5+1.20.3.b6c01ca which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v5'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[10:45:28] [ForkJoinPool-1-worker-2/WARN]: Mod cinderscapes-worldgen uses the version v5.2.0-beta.1.0+1.21.5+1.20.3.b6c01ca+polymania which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v5'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[10:45:28] [ForkJoinPool-1-worker-3/WARN]: Mod cinderscapes-client uses the version v5.2.0-beta.1.0+1.21.5+1.20.3.b6c01ca+polymania which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v5'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[10:45:28] [ForkJoinPool-1-worker-7/WARN]: Mod cinderscapes-common uses the version v5.2.0-beta.1.0+1.21.5+1.20.3.b6c01ca+polymania which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v5'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[10:45:28] [main/INFO]: Dependencies overridden for farmersdelight, televator, jsonpatcher, restart_detector, bil, fsit, enderscape, computercraft, filament, braverbundles, puzzleslib, extended_drawers, forgeconfigapiport, leavesbegone, leaves_us_in_peace, openloader, clumps
-[10:45:28] [main/WARN]: Warnings were found!
+[09:15:54] [main/INFO]: Loading Minecraft 1.21.8 with Fabric Loader 0.18.4
+[09:15:54] [ForkJoinPool-1-worker-2/WARN]: Mod terrestria uses the version v7.4.0+another_1.20.32d44285 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[09:15:54] [ForkJoinPool-1-worker-2/WARN]: Mod terrestria-common uses the version v7.4.0+another_1.20.32d44285 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[09:15:54] [ForkJoinPool-1-worker-2/WARN]: Mod terrestria-client uses the version v7.4.0+another_1.20.32d44285 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[09:15:54] [ForkJoinPool-1-worker-2/WARN]: Mod terrestria-worldgen uses the version v7.4.0+another_1.20.32d44285 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[09:15:54] [ForkJoinPool-1-worker-3/WARN]: Mod cinderscapes uses the version v5.2.0-beta.1.0+1.21.5+1.20.3.b6c01ca which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v5'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[09:15:54] [ForkJoinPool-1-worker-4/WARN]: Mod cinderscapes-worldgen uses the version v5.2.0-beta.1.0+1.21.5+1.20.3.b6c01ca+polymania which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v5'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[09:15:54] [ForkJoinPool-1-worker-4/WARN]: Mod cinderscapes-common uses the version v5.2.0-beta.1.0+1.21.5+1.20.3.b6c01ca+polymania which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v5'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[09:15:54] [ForkJoinPool-1-worker-3/WARN]: Mod cinderscapes-client uses the version v5.2.0-beta.1.0+1.21.5+1.20.3.b6c01ca+polymania which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v5'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[09:15:54] [main/INFO]: Dependencies overridden for farmersdelight, televator, jsonpatcher, restart_detector, bil, fsit, enderscape, computercraft, filament, braverbundles, puzzleslib, extended_drawers, forgeconfigapiport, leavesbegone, leaves_us_in_peace, openloader, clumps
+[09:15:54] [main/WARN]: Warnings were found!
  - Mod 'Forge Config API Port' (forgeconfigapiport) 21.8.1 recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
-[10:45:28] [main/INFO]: Loading 239 mods:
+[09:15:54] [main/INFO]: Loading 239 mods:
 	- alternate-current 1.9.0
 	- architectury 17.0.8
 	- armor-stand-editor 2.9.0+1.21.6
@@ -343,295 +343,223 @@
 	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
 	   |-- org_quiltmc_parsers_gson 0.2.1
 	   \-- org_quiltmc_parsers_json 0.2.1
-[10:45:29] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/masterlegendpvp/Downloads/server%20(1)/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[10:45:29] [main/INFO]: Compatibility level set to JAVA_21
-[10:45:29] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[10:45:29] [main/WARN]: Reference map 'kleeslabs.refmap.json' for kleeslabs.mixins.json could not be read. If this is a development environment you can ignore this message
-[10:45:29] [main/WARN]: Reference map 'kleeslabs.refmap.json' for kleeslabs.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[10:45:29] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[10:45:29] [main/INFO]: Loaded configuration file for Lithium: 164 options available, 0 override(s) found.
-[10:45:30] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
-[10:45:30] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[10:45:31] [main/WARN]: Error loading class: net/minecraft/class_9934 (java.lang.ClassNotFoundException: net/minecraft/class_9934)
-[10:45:31] [main/WARN]: @Mixin target net.minecraft.class_9934 was not found farmersdelight.mixins.json:refabricated.GhostSlotsInvoker from mod farmersdelight
-[10:45:32] [main/WARN]: Error loading class: vazkii/botania/common/entity/EntityManaBurst (java.lang.ClassNotFoundException: vazkii/botania/common/entity/EntityManaBurst)
-[10:45:32] [main/WARN]: Error loading class: vazkii/botania/common/item/ItemLaputaShard (java.lang.ClassNotFoundException: vazkii/botania/common/item/ItemLaputaShard)
-[10:45:32] [main/WARN]: @Mixin target vazkii.botania.common.item.ItemLaputaShard was not found goml.mixins.json:compat.BotaniaItemLaputaShardMixin from mod goml
-[10:45:32] [main/WARN]: Error loading class: org/dynmap/Client (java.lang.ClassNotFoundException: org/dynmap/Client)
-[10:45:32] [main/WARN]: Error loading class: lol/sylvie/bedframe/geyser/translator/BlockTranslator (java.lang.ClassNotFoundException: lol/sylvie/bedframe/geyser/translator/BlockTranslator)
-[10:45:32] [main/WARN]: @Mixin target lol.sylvie.bedframe.geyser.translator.BlockTranslator was not found servback.mixin.json:compat.BedframeBlockTranslatorMixin from mod serverbackpacks
-[10:45:32] [main/WARN]: Error loading class: lol/sylvie/bedframe/geyser/translator/ItemTranslator (java.lang.ClassNotFoundException: lol/sylvie/bedframe/geyser/translator/ItemTranslator)
-[10:45:32] [main/WARN]: @Mixin target lol.sylvie.bedframe.geyser.translator.ItemTranslator was not found servback.mixin.json:compat.BedframeItemTranslatorMixin from mod serverbackpacks
-[10:45:33] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
-[10:45:33] [main/INFO]: CustomPacketDisabler is disabled by config
-[10:45:33] [main/INFO]: block.implementations.forceintcontrol.ChunkDeltaUpdateImplementation is disabled automatically
-[10:45:33] [main/INFO]: compat.QuiltFabricRegistrySyncDisabler is disabled automatically
-[10:45:33] [main/INFO]: compat.QuiltRegistrySyncDisabler is disabled automatically
-[10:45:33] [main/INFO]: compat.immersive_portals.ImmPtlChunkTrackingMixin is disabled automatically
-[10:45:33] [main/INFO]: compat.immersive_portals.PlayerChunkLoadingMixin is disabled automatically
-[10:45:33] [main/INFO]: entity.RemoveTickerOnUnloadMixin is disabled automatically
-[10:45:33] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[10:45:37] [main/WARN]: Cancelled mixin net.bunten.enderscape.mixin.LivingEntityMixin. Check debug logs for more information.
-[10:45:38] [main/WARN]: Cancelled mixin net.bunten.enderscape.mixin.ItemEntityMixin. Check debug logs for more information.
-[10:45:38] [main/WARN]: Cancelled mixin net.bunten.enderscape.mixin.NoteBlockInstrumentMixin. Check debug logs for more information.
-[10:45:47] [main/WARN]: Cancelled mixin net.bunten.enderscape.mixin.ExperienceOrbMixin. Check debug logs for more information.
-[10:45:48] [main/WARN]: Cancelled mixin net.bunten.enderscape.mixin.AbstractMinecartMixin. Check debug logs for more information.
-[10:45:56] [main/INFO]: Biolith for Fabric is initializing...
-[10:45:56] [main/INFO]: Enabling Biolith's TerraBlender compatibility layer.
-[10:45:56] [main/INFO]: Tag time :gun:!
-[10:45:57] [main/INFO]: Enabling Cinderscapes' Biolith worldgen module.
-[10:45:57] [main/INFO]: Deserializing EnderscapeConfig from './config/enderscape.json5'
-[10:45:59] [main/ERROR]: No data fixer registered for magnia_sprout
-[10:45:59] [main/ERROR]: No data fixer registered for magnia_radio
-[10:45:59] [main/INFO]: Enderscape initialized!
-[10:45:59] [main/INFO]: Loaded config farmersdelight-common.json
-[10:45:59] [main/INFO]: Loaded config farmersdelight-client.json
-[10:46:00] [main/INFO]: Deserializing FriendsAndFoesConfig from 'config/friendsandfoes.json'
-[10:46:00] [main/WARN]: ItemGroup 'friendsandfoes:main_tab' is already registered in vanilla registry!
-[10:46:01] [main/INFO]: Why are there so many illagers?
-[10:46:02] [main/INFO]: Definitely not up to no good
-[10:46:02] [main/INFO]: MoreFurnaces loaded!
-[10:46:02] [main/INFO]: MoreTools loaded!
-[10:46:02] [main/INFO]: Guns are loaded
-[10:46:02] [main/INFO]: Successfully added mod assets for polychess 0.1.3+1.21.6
-[10:46:08] [main/INFO]: Successfully remapped 27946 vanilla blocks
-[10:46:08] [main/INFO]: Loading polymer-qol config
-[10:46:09] [main/INFO]: [REI] Registered plugin provider CommonREIPlugin [farmersdelight] for REICommonPlugin
-[10:46:09] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
-[10:46:09] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REICommonPlugin
-[10:46:09] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REICommonPlugin
-[10:46:09] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REICommonPlugin
-[10:46:09] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
-[10:46:09] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
-[10:46:09] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
-[10:46:09] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
-[10:46:09] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
-[10:46:09] [main/INFO]: Loaded backpack config: small.json
-[10:46:09] [main/INFO]: Loaded backpack config: medium.json
-[10:46:09] [main/INFO]: Loaded backpack config: large.json
-[10:46:09] [main/INFO]: Finished registering 51 items.
-[10:46:09] [main/INFO]: now 35% more secure
-[10:46:09] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[10:46:09] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[10:46:09] [main/INFO]: Registered region woods_and_mires:biomes to index 1 for type OVERWORLD
-[10:46:10] [main/WARN]: Adding terrestria:basalt_brick_wall as an alias for terrestria:volcanic_rock_brick_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[10:46:10] [main/WARN]: Adding terrestria:basalt_cobblestone_wall as an alias for terrestria:volcanic_rock_cobblestone_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[10:46:10] [main/WARN]: Adding terrestria:mossy_basalt_brick_wall as an alias for terrestria:mossy_volcanic_rock_brick_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[10:46:10] [main/WARN]: Adding terrestria:basalt_wall as an alias for terrestria:volcanic_rock_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[10:46:10] [main/WARN]: Adding terrestria:basalt_stairs as an alias for terrestria:volcanic_rock_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[10:46:10] [main/WARN]: Adding terrestria:smooth_basalt_wall as an alias for terrestria:smooth_volcanic_rock_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[10:46:10] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_stairs as an alias for terrestria:mossy_volcanic_rock_cobblestone_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[10:46:10] [main/WARN]: Adding terrestria:basalt_brick_slab as an alias for terrestria:volcanic_rock_brick_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[10:46:10] [main/WARN]: Adding terrestria:basalt_cobblestone_slab as an alias for terrestria:volcanic_rock_cobblestone_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[10:46:10] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_wall as an alias for terrestria:mossy_volcanic_rock_cobblestone_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[10:46:10] [main/WARN]: Adding terrestria:mossy_basalt_brick_slab as an alias for terrestria:mossy_volcanic_rock_brick_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[10:46:10] [main/WARN]: Adding terrestria:basalt_slab as an alias for terrestria:volcanic_rock_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[10:46:10] [main/WARN]: Adding terrestria:smooth_basalt_slab as an alias for terrestria:smooth_volcanic_rock_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[10:46:10] [main/WARN]: Adding terrestria:basalt_button as an alias for terrestria:volcanic_rock_button, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[10:46:10] [main/WARN]: Adding terrestria:basalt_pressure_plate as an alias for terrestria:volcanic_rock_pressure_plate, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[10:46:10] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_slab as an alias for terrestria:mossy_volcanic_rock_cobblestone_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[10:46:10] [main/WARN]: Adding terrestria:smooth_basalt_stairs as an alias for terrestria:smooth_volcanic_rock_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[10:46:10] [main/WARN]: Adding terrestria:basalt_cobblestone_stairs as an alias for terrestria:volcanic_rock_cobblestone_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[10:46:10] [main/WARN]: Adding terrestria:mossy_basalt_brick_stairs as an alias for terrestria:mossy_volcanic_rock_brick_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[10:46:10] [main/WARN]: Adding terrestria:basalt_brick_stairs as an alias for terrestria:volcanic_rock_brick_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[10:46:10] [main/WARN]: Adding terrestria:basalt_brick_wall as an alias for terrestria:volcanic_rock_brick_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[10:46:10] [main/WARN]: Adding terrestria:basalt_cobblestone_wall as an alias for terrestria:volcanic_rock_cobblestone_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[10:46:10] [main/WARN]: Adding terrestria:mossy_basalt_brick_wall as an alias for terrestria:mossy_volcanic_rock_brick_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[10:46:10] [main/WARN]: Adding terrestria:basalt_wall as an alias for terrestria:volcanic_rock_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[10:46:10] [main/WARN]: Adding terrestria:basalt_stairs as an alias for terrestria:volcanic_rock_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[10:46:10] [main/WARN]: Adding terrestria:smooth_basalt_wall as an alias for terrestria:smooth_volcanic_rock_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[10:46:10] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_stairs as an alias for terrestria:mossy_volcanic_rock_cobblestone_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[10:46:10] [main/WARN]: Adding terrestria:basalt_brick_slab as an alias for terrestria:volcanic_rock_brick_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[10:46:10] [main/WARN]: Adding terrestria:basalt_cobblestone_slab as an alias for terrestria:volcanic_rock_cobblestone_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[10:46:10] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_wall as an alias for terrestria:mossy_volcanic_rock_cobblestone_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[10:46:10] [main/WARN]: Adding terrestria:mossy_basalt_brick_slab as an alias for terrestria:mossy_volcanic_rock_brick_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[10:46:10] [main/WARN]: Adding terrestria:basalt_slab as an alias for terrestria:volcanic_rock_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[10:46:10] [main/WARN]: Adding terrestria:smooth_basalt_slab as an alias for terrestria:smooth_volcanic_rock_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[10:46:10] [main/WARN]: Adding terrestria:basalt_button as an alias for terrestria:volcanic_rock_button, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[10:46:10] [main/WARN]: Adding terrestria:basalt_pressure_plate as an alias for terrestria:volcanic_rock_pressure_plate, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[10:46:10] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_slab as an alias for terrestria:mossy_volcanic_rock_cobblestone_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[10:46:10] [main/WARN]: Adding terrestria:smooth_basalt_stairs as an alias for terrestria:smooth_volcanic_rock_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[10:46:10] [main/WARN]: Adding terrestria:basalt_cobblestone_stairs as an alias for terrestria:volcanic_rock_cobblestone_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[10:46:10] [main/WARN]: Adding terrestria:mossy_basalt_brick_stairs as an alias for terrestria:mossy_volcanic_rock_brick_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[10:46:10] [main/WARN]: Adding terrestria:basalt_brick_stairs as an alias for terrestria:volcanic_rock_brick_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[10:46:10] [main/INFO]: Enabling Terrestria's Biolith worldgen module.
-[10:46:10] [main/INFO]: TPA Utilities has been loaded successfully!
-[10:46:12] [Via-Mappingloader-1/INFO]: Loading block connection mappings ...
-[10:46:13] [Via-Mappingloader-1/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
-[10:46:14] [main/INFO]: Loading translations...
-[10:46:14] [main/INFO]: Registering protocols...
-[10:46:15] [main/INFO]: ViaVersion detected server version: 1.21.7-1.21.8 (772)
-[10:46:15] [main/INFO]: Wlodzimiers Blocks zostało załadowane miaał
-[10:46:15] [ViaFabric-2/INFO]: Finished mapping loading, shutting down loader executor.
-[10:46:16] [ViaFabric-0/INFO]: You are running a development version of the plugin, please report any bugs to GitHub.
-[10:46:20] [main/INFO]: Successfully remapped 27946 vanilla blocks
-[10:46:23] [main/INFO]: Generated main polymap in 3.458 s
-[10:46:24] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[10:46:24] [main/WARN]: Missing data pack computercraft
-[10:46:24] [main/WARN]: Missing data pack extended_drawers
-[10:46:24] [main/WARN]: Missing data pack go-fish
-[10:46:24] [main/WARN]: Missing data pack lovely_snails
-[10:46:24] [main/WARN]: Missing data pack polyfactory
-[10:46:24] [main/WARN]: Missing data pack simpleupdatechecker
-[10:46:24] [main/INFO]: Found new data pack bedrock-cauldrons, loading it automatically
-[10:46:24] [main/INFO]: Found new data pack blossom-homes, loading it automatically
-[10:46:24] [main/INFO]: Found new data pack blossom-lib, loading it automatically
-[10:46:24] [main/INFO]: Found new data pack copperfire, loading it automatically
-[10:46:24] [main/INFO]: Found new data pack goml, loading it automatically
-[10:46:24] [main/INFO]: Found new data pack morefurnaces, loading it automatically
-[10:46:24] [main/INFO]: Found new data pack moretools, loading it automatically
-[10:46:24] [main/INFO]: Found new data pack plasticgun, loading it automatically
-[10:46:24] [main/INFO]: Found new data pack serverbackpacks, loading it automatically
-[10:46:24] [main/INFO]: Found new data pack srl_cm/DarkPaintings.zip, loading it automatically
-[10:46:24] [main/INFO]: Found new data pack srl_cm/polymania, loading it automatically
-[10:46:24] [main/INFO]: Found new data pack sylcurity, loading it automatically
-[10:46:24] [main/INFO]: Found new data pack tsa-bouncy-castle, loading it automatically
-[10:46:24] [main/INFO]: Found new data pack tsa-concrete, loading it automatically
-[10:46:24] [main/INFO]: Found new data pack tsa-decorations, loading it automatically
-[10:46:24] [main/INFO]: Found new data pack tsa-planks, loading it automatically
-[10:46:24] [main/INFO]: Found new data pack tsa-stone, loading it automatically
-[10:46:24] [main/INFO]: Found new data pack wlodzimiers_blocks, loading it automatically
-[10:46:24] [main/INFO]: filament models registered: 2
-[10:46:25] [main/WARN]: Any alias warnings about trim_material which follow this message are harmless.
-[10:46:25] [main/WARN]: Adding cinderscapes:rose_quartz as an alias for cinderscapes:cinderscapes_rose_quartz, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:trim_material]
-[10:46:25] [main/WARN]: Adding cinderscapes:sulfur_quartz as an alias for cinderscapes:cinderscapes_sulfur_quartz, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:trim_material]
-[10:46:25] [main/WARN]: Adding cinderscapes:smoky_quartz as an alias for cinderscapes:cinderscapes_smoky_quartz, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:trim_material]
-[10:46:25] [main/WARN]: Adding enderscape:magnia_crags as an alias for enderscape:magnia_fields, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:worldgen/biome]
-[10:46:27] [main/INFO]: No existing world data, creating new world
-[10:46:27] [main/INFO]: filament models registered: 2
-[10:46:28] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:blocks/snow_block@minecraft:loot_table}.pools[0].entries[0]: Unreachable entry!
-[10:46:30] [Worker-Main-2/ERROR]: Couldn't parse data file 'minecraft:end_stone_bricks' from 'minecraft:recipe/end_stone_bricks.json': DataResult.Error['Input does not contain a key [type]: MapLike[{}]']
-[10:46:30] [Worker-Main-2/ERROR]: Couldn't parse data file 'blockus:rainbow_asphalt' from 'blockus:recipe/rainbow_asphalt.json': DataResult.Error['Map entry '#' : Failed to parse either. First: Not a JSON object: "blockus:rainbow_petals"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "blockus:rainbow_petals"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: blockus:rainbow_petals']
-[10:46:30] [Worker-Main-2/ERROR]: Couldn't parse data file 'blockus:rainbow_block' from 'blockus:recipe/rainbow_block.json': DataResult.Error['Map entry '#' : Failed to parse either. First: Not a JSON object: "blockus:rainbow_petals"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "blockus:rainbow_petals"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: blockus:rainbow_petals']
-[10:46:30] [Worker-Main-2/ERROR]: Couldn't parse data file 'blockus:rainbow_glowstone' from 'blockus:recipe/rainbow_glowstone.json': DataResult.Error['Failed to parse either. First: Not a JSON object: "blockus:rainbow_petals"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "blockus:rainbow_petals"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: blockus:rainbow_petals': net.minecraft.class_1867@35118d58]
-[10:46:30] [Worker-Main-2/ERROR]: Couldn't parse data file 'blockus:rainbow_glowstone_alt' from 'blockus:recipe/rainbow_glowstone_alt.json': DataResult.Error['Map entry 'R' : Failed to parse either. First: Not a JSON object: "blockus:rainbow_petals"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "blockus:rainbow_petals"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: blockus:rainbow_petals']
-[10:46:30] [Worker-Main-2/ERROR]: Couldn't parse data file 'televator:televator' from 'televator:recipe/televator.json': DataResult.Error['Map entry 'X' : Failed to parse either. First: Not a JSON object: "polyfactory:steel_plate"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "polyfactory:steel_plate"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: polyfactory:steel_plate']
-[10:46:30] [Worker-Main-1/ERROR]: Couldn't parse data file 'blockus:recipes/building_blocks/rainbow_block' from 'blockus:advancement/recipes/building_blocks/rainbow_block.json': DataResult.Error['Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "blockus:rainbow_petals"; Second: Failed to get element blockus:rainbow_petals missed input: {"has_rainbow_petals":{"conditions":{"items":[{"items":"blockus:rainbow_petals"}]},"trigger":"minecraft:inventory_changed"}}': class_161[parent=Optional[minecraft:recipes/root], display=Optional.empty, rewards=class_170[experience=0, loot=[], recipes=[ResourceKey[minecraft:recipe / blockus:rainbow_block]], function=Optional.empty], criteria={has_the_recipe=class_175[trigger=net.minecraft.class_2119@36820ae6, triggerInstance=class_2121[player=Optional.empty, recipe=ResourceKey[minecraft:recipe / blockus:rainbow_block]]], has_rainbow_petals=class_175[trigger=net.minecraft.class_2066@594c94da, triggerInstance=class_2068[player=Optional.empty, slots=class_8948[occupied=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], full=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], empty=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty]], items=[class_2073[items=Optional.empty, count=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], components=class_10914[exact=[], partial={}]]]]]}, requirements=[[has_the_recipe, has_rainbow_petals]], sendsTelemetryEvent=false, name=Optional.empty]]
-[10:46:30] [Worker-Main-1/ERROR]: Couldn't parse data file 'blockus:recipes/building_blocks/rainbow_glowstone' from 'blockus:advancement/recipes/building_blocks/rainbow_glowstone.json': DataResult.Error['Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "blockus:rainbow_petals"; Second: Failed to get element blockus:rainbow_petals missed input: {"has_rainbow_petals":{"conditions":{"items":[{"items":"blockus:rainbow_petals"}]},"trigger":"minecraft:inventory_changed"}}': class_161[parent=Optional[minecraft:recipes/root], display=Optional.empty, rewards=class_170[experience=0, loot=[], recipes=[ResourceKey[minecraft:recipe / blockus:rainbow_glowstone]], function=Optional.empty], criteria={has_the_recipe=class_175[trigger=net.minecraft.class_2119@36820ae6, triggerInstance=class_2121[player=Optional.empty, recipe=ResourceKey[minecraft:recipe / blockus:rainbow_glowstone]]], has_rainbow_petals=class_175[trigger=net.minecraft.class_2066@594c94da, triggerInstance=class_2068[player=Optional.empty, slots=class_8948[occupied=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], full=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], empty=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty]], items=[class_2073[items=Optional.empty, count=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], components=class_10914[exact=[], partial={}]]]]]}, requirements=[[has_the_recipe, has_rainbow_petals]], sendsTelemetryEvent=false, name=Optional.empty]]
-[10:46:30] [Worker-Main-1/ERROR]: Couldn't parse data file 'blockus:recipes/building_blocks/rainbow_glowstone_alt' from 'blockus:advancement/recipes/building_blocks/rainbow_glowstone_alt.json': DataResult.Error['Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "blockus:rainbow_petals"; Second: Failed to get element blockus:rainbow_petals missed input: {"has_rainbow_petals":{"conditions":{"items":[{"items":"blockus:rainbow_petals"}]},"trigger":"minecraft:inventory_changed"}}': class_161[parent=Optional[minecraft:recipes/root], display=Optional.empty, rewards=class_170[experience=0, loot=[], recipes=[ResourceKey[minecraft:recipe / minecraft:rainbow_glowstone_alt]], function=Optional.empty], criteria={has_the_recipe=class_175[trigger=net.minecraft.class_2119@36820ae6, triggerInstance=class_2121[player=Optional.empty, recipe=ResourceKey[minecraft:recipe / minecraft:rainbow_glowstone_alt]]], has_rainbow_petals=class_175[trigger=net.minecraft.class_2066@594c94da, triggerInstance=class_2068[player=Optional.empty, slots=class_8948[occupied=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], full=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], empty=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty]], items=[class_2073[items=Optional.empty, count=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], components=class_10914[exact=[], partial={}]]]]]}, requirements=[[has_the_recipe, has_rainbow_petals]], sendsTelemetryEvent=false, name=Optional.empty]]
-[10:46:30] [main/INFO]: Loaded 3615 recipes
-[10:46:30] [main/INFO]: Loaded 3204 advancements
-[10:46:30] [main/INFO]: Loaded 1 moobloom variants
-[10:46:30] [main/INFO]: Loaded 32 entity animations
-[10:46:30] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 778 translation keys
-[10:46:31] [main/WARN]: Recipe polydecorations:canvas_clone can't be placed due to empty ingredients and will be ignored
-[10:46:31] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[10:46:31] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[10:46:32] [main/INFO]: Applied 1961 biome modifications to 131 of 131 new biomes in 405.9 ms
-[10:46:32] [Server thread/INFO]: Loading Server Backpack's data on server starting...
-[10:46:32] [Server thread/ERROR]: Error while loading list data ./world/./data/serverbackpacks.data
-[10:46:32] [Server thread/ERROR]: Failed to load Server Backpack's data.
-[10:46:32] [Server thread/INFO]: Starting background profiler...
-[10:46:33] [Server thread/ERROR]: Invalid path : Invalid path ''
-[10:46:33] [Server thread/ERROR]: Invalid path : Invalid path ''
-[10:46:33] [Server thread/ERROR]: Invalid path : Invalid path ''
-[10:46:33] [Server thread/ERROR]: Invalid path : Invalid path ''
-[10:46:33] [Server thread/ERROR]: Invalid path : Invalid path ''
-[10:46:33] [Server thread/ERROR]: Invalid path : Invalid path ''
-[10:46:33] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[10:46:33] [Server thread/INFO]: Loading properties
-[10:46:33] [Server thread/INFO]: Default game type: SURVIVAL
-[10:46:33] [Server thread/INFO]: Generating keypair
-[10:46:33] [Server thread/INFO]: Starting Minecraft server on *:25565
-[10:46:33] [Server thread/INFO]: Using epoll channel type
-[10:46:33] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[10:46:33] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[10:46:33] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[10:46:33] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[10:46:33] [Server thread/INFO]: Preparing level "world"
-[10:46:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[10:46:54] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[10:46:54] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[10:46:54] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[10:46:54] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[10:46:54] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[10:46:55] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[10:46:55] [Worker-Main-4/INFO]: Preparing spawn area: 2%
-[10:46:55] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[10:46:56] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[10:46:56] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[10:46:57] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[10:46:57] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[10:46:58] [Worker-Main-6/INFO]: Preparing spawn area: 2%
-[10:46:58] [Worker-Main-6/INFO]: Preparing spawn area: 2%
-[10:46:59] [Worker-Main-4/INFO]: Preparing spawn area: 2%
-[10:46:59] [Worker-Main-4/INFO]: Preparing spawn area: 16%
-[10:47:00] [Worker-Main-5/INFO]: Preparing spawn area: 18%
-[10:47:00] [Worker-Main-3/INFO]: Preparing spawn area: 18%
-[10:47:01] [Worker-Main-3/INFO]: Preparing spawn area: 18%
-[10:47:01] [Worker-Main-2/INFO]: Preparing spawn area: 18%
-[10:47:02] [Worker-Main-5/INFO]: Preparing spawn area: 18%
-[10:47:02] [Worker-Main-7/INFO]: Preparing spawn area: 18%
-[10:47:03] [Worker-Main-6/INFO]: Preparing spawn area: 18%
-[10:47:03] [Worker-Main-7/INFO]: Preparing spawn area: 18%
-[10:47:06] [Worker-Main-5/INFO]: Preparing spawn area: 46%
-[10:47:06] [Worker-Main-5/INFO]: Preparing spawn area: 46%
-[10:47:06] [Worker-Main-5/INFO]: Preparing spawn area: 46%
-[10:47:06] [Worker-Main-5/INFO]: Preparing spawn area: 46%
-[10:47:06] [Worker-Main-5/INFO]: Preparing spawn area: 51%
-[10:47:06] [Worker-Main-2/INFO]: Preparing spawn area: 51%
-[10:47:07] [Worker-Main-4/INFO]: Preparing spawn area: 51%
-[10:47:07] [Worker-Main-6/INFO]: Preparing spawn area: 51%
-[10:47:08] [Worker-Main-6/INFO]: Preparing spawn area: 51%
-[10:47:08] [Worker-Main-6/INFO]: Preparing spawn area: 51%
-[10:47:09] [Worker-Main-5/INFO]: Preparing spawn area: 51%
-[10:47:09] [Server thread/INFO]: Time elapsed: 17521 ms
-[10:47:09] [Server thread/INFO]: Done (36.032s)! For help, type "help"
-[10:47:09] [Server thread/INFO]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-[10:47:09] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for START.
-[10:47:09] [Server thread/INFO]: [REI] Plugins (4):
-[10:47:09] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[10:47:09] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[10:47:09] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[10:47:09] [Server thread/INFO]: [REI]  - (0.00) CommonREIPlugin of CommonREIPlugin [farmersdelight]
-[10:47:09] [Server thread/INFO]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-[10:47:10] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for START in 1.842 ms, totaling 121.9 ms.
-[10:47:10] [Server thread/INFO]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[10:47:10] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for END.
-[10:47:10] [Server thread/INFO]: [REI] Plugins (4):
-[10:47:10] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[10:47:10] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[10:47:10] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[10:47:10] [Server thread/INFO]: [REI]  - (0.00) CommonREIPlugin of CommonREIPlugin [farmersdelight]
-[10:47:10] [Server thread/INFO]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[10:47:10] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for END in 710.3 μs, totaling 115.3 ms.
-[10:47:10] [Server thread/INFO]: Running Server Backpack's data old format convertor...
-[10:47:10] [Server thread/ERROR]: Error while loading list data ./world/./data/serverbackpacks.data
-[10:47:10] [Server thread/INFO]: [Polydex] Started matching recipes and items...
-[10:47:10] [IO-Worker-5/INFO]: [Polymer] Starting resource pack generation...
-[10:47:10] [Server thread/INFO]: FewerSteak1914 (/127.0.0.1:59026) lost connection: Disconnected
-[10:47:16] [Netty Epoll Server IO #4/WARN]: Modified mixin "vectorwing.farmersdelight.common.mixin.refabricated.RecipeBookSettingsMixin". Check debug logs for more information.
-[10:47:23] [Server thread/INFO]: [Polydex] Done! It took 13634 ms
-[10:47:33] [Server thread/INFO]: [Polymer] Resource pack created successfully! You can find it in game folder as polymer/resource_pack.zip
-[10:47:58] [Server thread/WARN]: Modified mixin "vectorwing.farmersdelight.common.mixin.refabricated.ServerRecipeBookMixin". Check debug logs for more information.
-[10:47:58] [Server thread/INFO]: FewerSteak1914[/127.0.0.1:34534] logged in with entity id 155 at (7.5, 95.0, 10.5)
-[10:47:59] [Server thread/INFO]: FewerSteak1914 joined the game
-[10:48:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8247ms or 164 ticks behind
-[10:50:15] [Server thread/INFO]: FewerSteak1914 has made the advancement [Stone Age]
-[10:51:19] [Server thread/INFO]: FewerSteak1914 has made the advancement [Getting an Upgrade]
-[10:53:07] [Worker-Main-7/WARN]: [net.minecraft.class_3499] Serialization errors:
-:
-  Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
-  Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
-[10:53:40] [Server thread/INFO]: FewerSteak1914 has made the advancement [Monster Hunter]
-[10:54:21] [Server thread/INFO]: FewerSteak1914 lost connection: Disconnected
-[10:54:21] [Server thread/INFO]: FewerSteak1914 left the game
-[10:54:27] [Server thread/INFO]: Saving the game (this may take a moment!)
-[10:54:27] [Server thread/INFO]: Saved the game
-[10:54:29] [Server thread/INFO]: Stopping the server
-[10:54:59] [Server thread/INFO]: Shutdown countdown complete, stopping the server.
-[10:54:59] [Server thread/INFO]: ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[10:55:04] [Server thread/INFO]: Stopping server
-[10:55:04] [Server thread/INFO]: Saving players
-[10:55:04] [Server thread/INFO]: Saving worlds
-[10:55:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[10:55:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[10:55:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[10:55:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[10:55:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[10:55:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[10:55:07] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[10:55:07] [Server thread/INFO]: Saving Server Backpacks's data!
-[10:55:07] [Thread-5/INFO]: Thread stopped gracefully.
-[10:55:07] [Server Shutdown Thread/INFO]: ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[10:55:07] [Thread-4/INFO]: Thread stopped gracefully.
+[09:15:54] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/runner/work/myserver/myserver/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[09:15:54] [main/INFO]: Compatibility level set to JAVA_21
+[09:15:55] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:15:55] [main/WARN]: Reference map 'kleeslabs.refmap.json' for kleeslabs.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:15:55] [main/WARN]: Reference map 'kleeslabs.refmap.json' for kleeslabs.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:15:55] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[09:15:55] [main/INFO]: Loaded configuration file for Lithium: 164 options available, 0 override(s) found.
+[09:15:55] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:15:55] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:15:56] [main/WARN]: Error loading class: net/minecraft/class_9934 (java.lang.ClassNotFoundException: net/minecraft/class_9934)
+[09:15:56] [main/WARN]: @Mixin target net.minecraft.class_9934 was not found farmersdelight.mixins.json:refabricated.GhostSlotsInvoker from mod farmersdelight
+[09:15:56] [main/WARN]: Error loading class: vazkii/botania/common/entity/EntityManaBurst (java.lang.ClassNotFoundException: vazkii/botania/common/entity/EntityManaBurst)
+[09:15:56] [main/WARN]: Error loading class: vazkii/botania/common/item/ItemLaputaShard (java.lang.ClassNotFoundException: vazkii/botania/common/item/ItemLaputaShard)
+[09:15:56] [main/WARN]: @Mixin target vazkii.botania.common.item.ItemLaputaShard was not found goml.mixins.json:compat.BotaniaItemLaputaShardMixin from mod goml
+[09:15:56] [main/WARN]: Error loading class: org/dynmap/Client (java.lang.ClassNotFoundException: org/dynmap/Client)
+[09:15:56] [main/WARN]: Error loading class: lol/sylvie/bedframe/geyser/translator/BlockTranslator (java.lang.ClassNotFoundException: lol/sylvie/bedframe/geyser/translator/BlockTranslator)
+[09:15:56] [main/WARN]: @Mixin target lol.sylvie.bedframe.geyser.translator.BlockTranslator was not found servback.mixin.json:compat.BedframeBlockTranslatorMixin from mod serverbackpacks
+[09:15:56] [main/WARN]: Error loading class: lol/sylvie/bedframe/geyser/translator/ItemTranslator (java.lang.ClassNotFoundException: lol/sylvie/bedframe/geyser/translator/ItemTranslator)
+[09:15:56] [main/WARN]: @Mixin target lol.sylvie.bedframe.geyser.translator.ItemTranslator was not found servback.mixin.json:compat.BedframeItemTranslatorMixin from mod serverbackpacks
+[09:15:56] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
+[09:15:56] [main/INFO]: CustomPacketDisabler is disabled by config
+[09:15:56] [main/INFO]: block.implementations.forceintcontrol.ChunkDeltaUpdateImplementation is disabled automatically
+[09:15:56] [main/INFO]: compat.QuiltFabricRegistrySyncDisabler is disabled automatically
+[09:15:56] [main/INFO]: compat.QuiltRegistrySyncDisabler is disabled automatically
+[09:15:56] [main/INFO]: compat.immersive_portals.ImmPtlChunkTrackingMixin is disabled automatically
+[09:15:56] [main/INFO]: compat.immersive_portals.PlayerChunkLoadingMixin is disabled automatically
+[09:15:56] [main/INFO]: entity.RemoveTickerOnUnloadMixin is disabled automatically
+[09:15:57] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[09:15:58] [main/WARN]: Cancelled mixin net.bunten.enderscape.mixin.LivingEntityMixin. Check debug logs for more information.
+[09:16:00] [main/WARN]: Cancelled mixin net.bunten.enderscape.mixin.ItemEntityMixin. Check debug logs for more information.
+[09:16:00] [main/WARN]: Cancelled mixin net.bunten.enderscape.mixin.NoteBlockInstrumentMixin. Check debug logs for more information.
+[09:16:03] [main/WARN]: Cancelled mixin net.bunten.enderscape.mixin.ExperienceOrbMixin. Check debug logs for more information.
+[09:16:04] [main/WARN]: Cancelled mixin net.bunten.enderscape.mixin.AbstractMinecartMixin. Check debug logs for more information.
+[09:16:06] [main/INFO]: Biolith for Fabric is initializing...
+[09:16:06] [main/INFO]: Enabling Biolith's TerraBlender compatibility layer.
+[09:16:07] [main/INFO]: Tag time :gun:!
+[09:16:07] [main/INFO]: Enabling Cinderscapes' Biolith worldgen module.
+[09:16:07] [main/INFO]: Deserializing EnderscapeConfig from './config/enderscape.json5'
+[09:16:08] [main/ERROR]: No data fixer registered for magnia_sprout
+[09:16:08] [main/ERROR]: No data fixer registered for magnia_radio
+[09:16:08] [main/INFO]: Enderscape initialized!
+[09:16:08] [main/INFO]: Loaded config farmersdelight-common.json
+[09:16:08] [main/INFO]: Loaded config farmersdelight-client.json
+[09:16:08] [main/INFO]: Deserializing FriendsAndFoesConfig from 'config/friendsandfoes.json'
+[09:16:08] [main/WARN]: ItemGroup 'friendsandfoes:main_tab' is already registered in vanilla registry!
+[09:16:09] [main/INFO]: Why are there so many illagers?
+[09:16:09] [main/INFO]: Definitely not up to no good
+[09:16:09] [main/INFO]: MoreFurnaces loaded!
+[09:16:09] [main/INFO]: MoreTools loaded!
+[09:16:09] [main/INFO]: Guns are loaded
+[09:16:09] [main/INFO]: Successfully added mod assets for polychess 0.1.3+1.21.6
+[09:16:12] [main/INFO]: Successfully remapped 27946 vanilla blocks
+[09:16:12] [main/INFO]: Loading polymer-qol config
+[09:16:12] [main/INFO]: [REI] Registered plugin provider CommonREIPlugin [farmersdelight] for REICommonPlugin
+[09:16:12] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[09:16:12] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REICommonPlugin
+[09:16:12] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REICommonPlugin
+[09:16:12] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REICommonPlugin
+[09:16:12] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[09:16:12] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[09:16:12] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[09:16:12] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[09:16:12] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[09:16:12] [main/INFO]: Loaded backpack config: small.json
+[09:16:12] [main/INFO]: Loaded backpack config: large.json
+[09:16:12] [main/INFO]: Loaded backpack config: medium.json
+[09:16:12] [main/INFO]: Finished registering 51 items.
+[09:16:12] [main/INFO]: now 35% more secure
+[09:16:12] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[09:16:12] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[09:16:12] [main/INFO]: Registered region woods_and_mires:biomes to index 1 for type OVERWORLD
+[09:16:12] [main/WARN]: Adding terrestria:basalt_brick_stairs as an alias for terrestria:volcanic_rock_brick_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[09:16:12] [main/WARN]: Adding terrestria:mossy_basalt_brick_stairs as an alias for terrestria:mossy_volcanic_rock_brick_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[09:16:12] [main/WARN]: Adding terrestria:basalt_cobblestone_stairs as an alias for terrestria:volcanic_rock_cobblestone_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[09:16:12] [main/WARN]: Adding terrestria:smooth_basalt_stairs as an alias for terrestria:smooth_volcanic_rock_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[09:16:12] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_slab as an alias for terrestria:mossy_volcanic_rock_cobblestone_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[09:16:12] [main/WARN]: Adding terrestria:basalt_pressure_plate as an alias for terrestria:volcanic_rock_pressure_plate, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[09:16:12] [main/WARN]: Adding terrestria:basalt_button as an alias for terrestria:volcanic_rock_button, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[09:16:12] [main/WARN]: Adding terrestria:smooth_basalt_slab as an alias for terrestria:smooth_volcanic_rock_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[09:16:12] [main/WARN]: Adding terrestria:basalt_slab as an alias for terrestria:volcanic_rock_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[09:16:12] [main/WARN]: Adding terrestria:mossy_basalt_brick_slab as an alias for terrestria:mossy_volcanic_rock_brick_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[09:16:12] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_wall as an alias for terrestria:mossy_volcanic_rock_cobblestone_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[09:16:12] [main/WARN]: Adding terrestria:basalt_cobblestone_slab as an alias for terrestria:volcanic_rock_cobblestone_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[09:16:12] [main/WARN]: Adding terrestria:basalt_brick_slab as an alias for terrestria:volcanic_rock_brick_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[09:16:12] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_stairs as an alias for terrestria:mossy_volcanic_rock_cobblestone_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[09:16:12] [main/WARN]: Adding terrestria:smooth_basalt_wall as an alias for terrestria:smooth_volcanic_rock_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[09:16:12] [main/WARN]: Adding terrestria:basalt_stairs as an alias for terrestria:volcanic_rock_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[09:16:12] [main/WARN]: Adding terrestria:basalt_wall as an alias for terrestria:volcanic_rock_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[09:16:12] [main/WARN]: Adding terrestria:mossy_basalt_brick_wall as an alias for terrestria:mossy_volcanic_rock_brick_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[09:16:12] [main/WARN]: Adding terrestria:basalt_cobblestone_wall as an alias for terrestria:volcanic_rock_cobblestone_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[09:16:12] [main/WARN]: Adding terrestria:basalt_brick_wall as an alias for terrestria:volcanic_rock_brick_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[09:16:12] [main/WARN]: Adding terrestria:basalt_brick_stairs as an alias for terrestria:volcanic_rock_brick_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[09:16:12] [main/WARN]: Adding terrestria:mossy_basalt_brick_stairs as an alias for terrestria:mossy_volcanic_rock_brick_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[09:16:12] [main/WARN]: Adding terrestria:basalt_cobblestone_stairs as an alias for terrestria:volcanic_rock_cobblestone_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[09:16:12] [main/WARN]: Adding terrestria:smooth_basalt_stairs as an alias for terrestria:smooth_volcanic_rock_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[09:16:12] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_slab as an alias for terrestria:mossy_volcanic_rock_cobblestone_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[09:16:12] [main/WARN]: Adding terrestria:basalt_pressure_plate as an alias for terrestria:volcanic_rock_pressure_plate, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[09:16:12] [main/WARN]: Adding terrestria:basalt_button as an alias for terrestria:volcanic_rock_button, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[09:16:12] [main/WARN]: Adding terrestria:smooth_basalt_slab as an alias for terrestria:smooth_volcanic_rock_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[09:16:12] [main/WARN]: Adding terrestria:basalt_slab as an alias for terrestria:volcanic_rock_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[09:16:12] [main/WARN]: Adding terrestria:mossy_basalt_brick_slab as an alias for terrestria:mossy_volcanic_rock_brick_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[09:16:12] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_wall as an alias for terrestria:mossy_volcanic_rock_cobblestone_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[09:16:12] [main/WARN]: Adding terrestria:basalt_cobblestone_slab as an alias for terrestria:volcanic_rock_cobblestone_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[09:16:12] [main/WARN]: Adding terrestria:basalt_brick_slab as an alias for terrestria:volcanic_rock_brick_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[09:16:12] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_stairs as an alias for terrestria:mossy_volcanic_rock_cobblestone_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[09:16:12] [main/WARN]: Adding terrestria:smooth_basalt_wall as an alias for terrestria:smooth_volcanic_rock_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[09:16:12] [main/WARN]: Adding terrestria:basalt_stairs as an alias for terrestria:volcanic_rock_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[09:16:12] [main/WARN]: Adding terrestria:basalt_wall as an alias for terrestria:volcanic_rock_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[09:16:12] [main/WARN]: Adding terrestria:mossy_basalt_brick_wall as an alias for terrestria:mossy_volcanic_rock_brick_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[09:16:12] [main/WARN]: Adding terrestria:basalt_cobblestone_wall as an alias for terrestria:volcanic_rock_cobblestone_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[09:16:12] [main/WARN]: Adding terrestria:basalt_brick_wall as an alias for terrestria:volcanic_rock_brick_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[09:16:12] [main/INFO]: Enabling Terrestria's Biolith worldgen module.
+[09:16:12] [main/INFO]: TPA Utilities has been loaded successfully!
+[09:16:13] [Via-Mappingloader-1/INFO]: Loading block connection mappings ...
+[09:16:13] [Via-Mappingloader-1/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
+[09:16:14] [main/INFO]: Loading translations...
+[09:16:14] [main/INFO]: Registering protocols...
+[09:16:14] [main/INFO]: ViaVersion detected server version: 1.21.7-1.21.8 (772)
+[09:16:14] [ViaFabric-2/INFO]: Finished mapping loading, shutting down loader executor.
+[09:16:14] [main/INFO]: Wlodzimiers Blocks zostało załadowane miaał
+[09:16:15] [ViaFabric-0/INFO]: You are running a development version of the plugin, please report any bugs to GitHub.
+[09:16:17] [main/INFO]: Successfully remapped 27946 vanilla blocks
+[09:16:19] [main/INFO]: Generated main polymap in 1.900 s
+[09:16:19] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[09:16:19] [main/INFO]: filament models registered: 2
+[09:16:20] [main/WARN]: Any alias warnings about trim_material which follow this message are harmless.
+[09:16:20] [main/WARN]: Adding cinderscapes:smoky_quartz as an alias for cinderscapes:cinderscapes_smoky_quartz, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:trim_material]
+[09:16:20] [main/WARN]: Adding cinderscapes:sulfur_quartz as an alias for cinderscapes:cinderscapes_sulfur_quartz, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:trim_material]
+[09:16:20] [main/WARN]: Adding cinderscapes:rose_quartz as an alias for cinderscapes:cinderscapes_rose_quartz, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:trim_material]
+[09:16:20] [main/WARN]: Adding enderscape:magnia_crags as an alias for enderscape:magnia_fields, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:worldgen/biome]
+[09:16:21] [main/INFO]: filament models registered: 2
+[09:16:22] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:entities/husk@minecraft:loot_table}.pools[2].entries[0]: Missing element more_mob_heads:entities/husk of type minecraft:loot_table
+[09:16:22] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:blocks/snow_block@minecraft:loot_table}.pools[0].entries[0]: Unreachable entry!
+[09:16:23] [Worker-Main-2/ERROR]: Couldn't parse data file 'minecraft:end_stone_bricks' from 'minecraft:recipe/end_stone_bricks.json': DataResult.Error['Input does not contain a key [type]: MapLike[{}]']
+[09:16:23] [Worker-Main-2/ERROR]: Couldn't parse data file 'blockus:rainbow_asphalt' from 'blockus:recipe/rainbow_asphalt.json': DataResult.Error['Map entry '#' : Failed to parse either. First: Not a JSON object: "blockus:rainbow_petals"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "blockus:rainbow_petals"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: blockus:rainbow_petals']
+[09:16:23] [Worker-Main-2/ERROR]: Couldn't parse data file 'blockus:rainbow_block' from 'blockus:recipe/rainbow_block.json': DataResult.Error['Map entry '#' : Failed to parse either. First: Not a JSON object: "blockus:rainbow_petals"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "blockus:rainbow_petals"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: blockus:rainbow_petals']
+[09:16:23] [Worker-Main-2/ERROR]: Couldn't parse data file 'blockus:rainbow_glowstone' from 'blockus:recipe/rainbow_glowstone.json': DataResult.Error['Failed to parse either. First: Not a JSON object: "blockus:rainbow_petals"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "blockus:rainbow_petals"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: blockus:rainbow_petals': net.minecraft.class_1867@13a833f4]
+[09:16:23] [Worker-Main-2/ERROR]: Couldn't parse data file 'blockus:rainbow_glowstone_alt' from 'blockus:recipe/rainbow_glowstone_alt.json': DataResult.Error['Map entry 'R' : Failed to parse either. First: Not a JSON object: "blockus:rainbow_petals"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "blockus:rainbow_petals"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: blockus:rainbow_petals']
+[09:16:23] [Worker-Main-1/ERROR]: Couldn't parse data file 'blockus:recipes/building_blocks/rainbow_block' from 'blockus:advancement/recipes/building_blocks/rainbow_block.json': DataResult.Error['Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "blockus:rainbow_petals"; Second: Failed to get element blockus:rainbow_petals missed input: {"has_rainbow_petals":{"conditions":{"items":[{"items":"blockus:rainbow_petals"}]},"trigger":"minecraft:inventory_changed"}}': class_161[parent=Optional[minecraft:recipes/root], display=Optional.empty, rewards=class_170[experience=0, loot=[], recipes=[ResourceKey[minecraft:recipe / blockus:rainbow_block]], function=Optional.empty], criteria={has_rainbow_petals=class_175[trigger=net.minecraft.class_2066@dd3d998, triggerInstance=class_2068[player=Optional.empty, slots=class_8948[occupied=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], full=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], empty=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty]], items=[class_2073[items=Optional.empty, count=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], components=class_10914[exact=[], partial={}]]]]], has_the_recipe=class_175[trigger=net.minecraft.class_2119@2375d8e8, triggerInstance=class_2121[player=Optional.empty, recipe=ResourceKey[minecraft:recipe / blockus:rainbow_block]]]}, requirements=[[has_the_recipe, has_rainbow_petals]], sendsTelemetryEvent=false, name=Optional.empty]]
+[09:16:23] [Worker-Main-1/ERROR]: Couldn't parse data file 'blockus:recipes/building_blocks/rainbow_glowstone' from 'blockus:advancement/recipes/building_blocks/rainbow_glowstone.json': DataResult.Error['Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "blockus:rainbow_petals"; Second: Failed to get element blockus:rainbow_petals missed input: {"has_rainbow_petals":{"conditions":{"items":[{"items":"blockus:rainbow_petals"}]},"trigger":"minecraft:inventory_changed"}}': class_161[parent=Optional[minecraft:recipes/root], display=Optional.empty, rewards=class_170[experience=0, loot=[], recipes=[ResourceKey[minecraft:recipe / blockus:rainbow_glowstone]], function=Optional.empty], criteria={has_rainbow_petals=class_175[trigger=net.minecraft.class_2066@dd3d998, triggerInstance=class_2068[player=Optional.empty, slots=class_8948[occupied=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], full=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], empty=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty]], items=[class_2073[items=Optional.empty, count=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], components=class_10914[exact=[], partial={}]]]]], has_the_recipe=class_175[trigger=net.minecraft.class_2119@2375d8e8, triggerInstance=class_2121[player=Optional.empty, recipe=ResourceKey[minecraft:recipe / blockus:rainbow_glowstone]]]}, requirements=[[has_the_recipe, has_rainbow_petals]], sendsTelemetryEvent=false, name=Optional.empty]]
+[09:16:23] [Worker-Main-1/ERROR]: Couldn't parse data file 'blockus:recipes/building_blocks/rainbow_glowstone_alt' from 'blockus:advancement/recipes/building_blocks/rainbow_glowstone_alt.json': DataResult.Error['Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "blockus:rainbow_petals"; Second: Failed to get element blockus:rainbow_petals missed input: {"has_rainbow_petals":{"conditions":{"items":[{"items":"blockus:rainbow_petals"}]},"trigger":"minecraft:inventory_changed"}}': class_161[parent=Optional[minecraft:recipes/root], display=Optional.empty, rewards=class_170[experience=0, loot=[], recipes=[ResourceKey[minecraft:recipe / minecraft:rainbow_glowstone_alt]], function=Optional.empty], criteria={has_rainbow_petals=class_175[trigger=net.minecraft.class_2066@dd3d998, triggerInstance=class_2068[player=Optional.empty, slots=class_8948[occupied=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], full=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], empty=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty]], items=[class_2073[items=Optional.empty, count=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], components=class_10914[exact=[], partial={}]]]]], has_the_recipe=class_175[trigger=net.minecraft.class_2119@2375d8e8, triggerInstance=class_2121[player=Optional.empty, recipe=ResourceKey[minecraft:recipe / minecraft:rainbow_glowstone_alt]]]}, requirements=[[has_the_recipe, has_rainbow_petals]], sendsTelemetryEvent=false, name=Optional.empty]]
+[09:16:23] [Worker-Main-2/ERROR]: Couldn't parse data file 'televator:televator' from 'televator:recipe/televator.json': DataResult.Error['Map entry 'X' : Failed to parse either. First: Not a JSON object: "polyfactory:steel_plate"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "polyfactory:steel_plate"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: polyfactory:steel_plate']
+[09:16:24] [main/INFO]: Loaded 3933 recipes
+[09:16:24] [main/INFO]: Loaded 3485 advancements
+[09:16:24] [main/INFO]: Loaded 1 moobloom variants
+[09:16:24] [main/INFO]: Loaded 32 entity animations
+[09:16:24] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 778 translation keys
+[09:16:24] [main/WARN]: Recipe polydecorations:canvas_clone can't be placed due to empty ingredients and will be ignored
+[09:16:24] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[09:16:24] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[09:16:25] [main/INFO]: Applied 1961 biome modifications to 131 of 131 new biomes in 216.2 ms
+[09:16:25] [Server thread/INFO]: Loading Server Backpack's data on server starting...
+[09:16:25] [Server thread/ERROR]: Error while loading list data ./world/./data/serverbackpacks.data
+[09:16:25] [Server thread/ERROR]: Failed to load Server Backpack's data.
+[09:16:25] [Server thread/INFO]: Starting background profiler...
+[09:16:26] [Server thread/ERROR]: Invalid path : Invalid path ''
+[09:16:26] [Server thread/ERROR]: Invalid path : Invalid path ''
+[09:16:26] [Server thread/ERROR]: Invalid path : Invalid path ''
+[09:16:26] [Server thread/ERROR]: Invalid path : Invalid path ''
+[09:16:26] [Server thread/ERROR]: Invalid path : Invalid path ''
+[09:16:26] [Server thread/ERROR]: Invalid path : Invalid path ''
+[09:16:26] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[09:16:26] [Server thread/INFO]: Loading properties
+[09:16:26] [Server thread/INFO]: Default game type: SURVIVAL
+[09:16:26] [Server thread/INFO]: Generating keypair
+[09:16:26] [Server thread/INFO]: Starting Minecraft server on *:25565
+[09:16:26] [Server thread/INFO]: Using epoll channel type
+[09:16:26] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:16:26] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:16:26] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09:16:26] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:16:26] [Server thread/INFO]: Preparing level "world"
+[09:16:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:16:37] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[09:16:37] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[09:16:37] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[09:16:37] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[09:16:37] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[09:16:37] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[09:16:37] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[09:16:37] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[09:16:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[09:16:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[09:16:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[09:16:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[09:16:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[09:16:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[09:16:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[09:16:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[09:16:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[09:16:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[09:16:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[09:16:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[09:16:37] [Server thread/INFO]: Time elapsed: 10073 ms
+[09:16:37] [Server thread/INFO]: Done (10.663s)! For help, type "help"
+[09:16:37] [Server thread/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[09:16:37] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for START.
+[09:16:37] [Server thread/INFO]: [REI] Plugins (4):
+[09:16:37] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[09:16:37] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[09:16:37] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[09:16:37] [Server thread/INFO]: [REI]  - (0.00) CommonREIPlugin of CommonREIPlugin [farmersdelight]
+[09:16:37] [Server thread/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[09:16:37] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for START in 1.408 ms, totaling 71.68 ms.
+[09:16:37] [Server thread/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[09:16:37] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for END.
+[09:16:37] [Server thread/INFO]: [REI] Plugins (4):
+[09:16:37] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[09:16:37] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[09:16:37] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[09:16:37] [Server thread/INFO]: [REI]  - (0.00) CommonREIPlugin of CommonREIPlugin [farmersdelight]
+[09:16:37] [Server thread/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[09:16:37] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for END in 679.9 μs, totaling 235.7 ms.
+[09:16:37] [Server thread/INFO]: Running Server Backpack's data old format convertor...
+[09:16:37] [Server thread/ERROR]: Error while loading list data ./world/./data/serverbackpacks.data
+[09:16:37] [Server thread/INFO]: [Polydex] Started matching recipes and items...
+[09:16:37] [IO-Worker-4/INFO]: [Polymer] Starting resource pack generation...
+[09:16:43] [Server thread/INFO]: [Polydex] Done! It took 5268 ms
+[09:16:48] [Server thread/INFO]: [Polymer] Resource pack created successfully! You can find it in game folder as polymer/resource_pack.zip
+[09:17:37] [Server thread/INFO]: Server empty for 60 seconds, pausing
