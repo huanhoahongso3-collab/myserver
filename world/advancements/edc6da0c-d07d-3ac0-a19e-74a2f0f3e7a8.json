@@ -1,477 +1,604 @@
 {
-  "minecraft:recipes/decorations/ladder": {
-    "criteria": {
-      "has_stick": "2026-03-10 10:49:37 +0700"
-    },
-    "done": true
-  },
-  "polydecorations:recipes/decorations/cherry_stump": {
-    "criteria": {
-      "planks": "2026-03-10 10:48:26 +0700"
-    },
-    "done": true
-  },
-  "blockus:recipes/building_blocks/bread_box": {
-    "criteria": {
-      "has_bread": "2026-03-10 10:53:30 +0700"
-    },
-    "done": true
-  },
-  "minecraft:story/mine_stone": {
-    "criteria": {
-      "get_stone": "2026-03-10 10:50:15 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/furnace": {
-    "criteria": {
-      "has_cobblestone": "2026-03-10 10:50:15 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cherry_fence": {
-    "criteria": {
-      "has_planks": "2026-03-10 10:49:59 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_axe": {
-    "criteria": {
-      "has_stick": "2026-03-10 10:49:37 +0700"
-    },
-    "done": true
-  },
-  "polydecorations:recipes/decorations/cherry_bench": {
-    "criteria": {
-      "planks": "2026-03-10 10:49:59 +0700"
-    },
-    "done": true
-  },
-  "minecraft:adventure/distant_lands": {
-    "criteria": {
-      "minecraft:cherry_grove": "2026-03-10 10:48:07 +0700",
-      "minecraft:plains": "2026-03-10 10:51:55 +0700"
-    },
-    "done": false
-  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2026-03-10 10:47:59 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/chest": {
-    "criteria": {
-      "has_lots_of_items": "2026-03-10 10:51:49 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/stick": {
-    "criteria": {
-      "has_planks": "2026-03-10 10:49:59 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
-    "criteria": {
-      "has_cobblestone": "2026-03-10 10:50:15 +0700"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_all_mobs": {
-    "criteria": {
-      "minecraft:skeleton": "2026-03-10 10:53:40 +0700"
-    },
-    "done": false
-  },
-  "minecraft:recipes/building_blocks/cherry_planks": {
-    "criteria": {
-      "has_log": "2026-03-10 10:48:27 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone": {
-    "criteria": {
-      "has_cobblestone": "2026-03-10 10:50:15 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/bread": {
-    "criteria": {
-      "has_wheat": "2026-03-10 10:53:29 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/hay_block": {
-    "criteria": {
-      "has_wheat": "2026-03-10 10:53:29 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/target": {
-    "criteria": {
-      "has_hay_block": "2026-03-10 10:53:08 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/stone_pickaxe": {
-    "criteria": {
-      "has_cobblestone": "2026-03-10 10:50:15 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cherry_sign": {
-    "criteria": {
-      "has_planks": "2026-03-10 10:49:59 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/campfire": {
-    "criteria": {
-      "has_stick": "2026-03-10 10:49:37 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_hoe": {
-    "criteria": {
-      "has_stick": "2026-03-10 10:49:37 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/charcoal": {
-    "criteria": {
-      "has_log": "2026-03-10 10:48:27 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/cherry_pressure_plate": {
-    "criteria": {
-      "has_planks": "2026-03-10 10:49:59 +0700"
-    },
-    "done": true
-  },
-  "blockus:recipes/building_blocks/sturdy_stone_alt": {
-    "criteria": {
-      "has_cobblestone": "2026-03-10 10:50:15 +0700"
-    },
-    "done": true
-  },
-  "goml:recipes/all_recipes": {
-    "criteria": {
-      "has_chest": "2026-03-10 10:48:27 +0700"
-    },
-    "done": true
-  },
-  "blockus:recipes/building_blocks/limestone": {
-    "criteria": {
-      "has_cobblestone": "2026-03-10 10:50:15 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_shovel": {
-    "criteria": {
-      "has_stick": "2026-03-10 10:49:37 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipe/building_blocks/pebbles": {
-    "criteria": {
-      "has_cobblestone": "2026-03-10 10:50:15 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cobblestone_slab": {
-    "criteria": {
-      "has_cobblestone": "2026-03-10 10:50:15 +0700"
-    },
-    "done": true
-  },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_something": "2026-03-10 10:53:40 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/wooden_sword": {
-    "criteria": {
-      "has_stick": "2026-03-10 10:49:37 +0700"
-    },
-    "done": true
-  },
-  "polydecorations:recipes/decorations/cherry_mailbox": {
-    "criteria": {
-      "planks": "2026-03-10 10:49:59 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/barrel": {
-    "criteria": {
-      "has_planks": "2026-03-10 10:49:59 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
-    "criteria": {
-      "has_cobblestone": "2026-03-10 10:50:15 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cobblestone_stairs": {
-    "criteria": {
-      "has_cobblestone": "2026-03-10 10:50:15 +0700"
-    },
-    "done": true
-  },
-  "polydecorations:recipes/decorations/cherry_sign_post": {
-    "criteria": {
-      "planks": "2026-03-10 10:49:59 +0700"
-    },
-    "done": true
-  },
-  "blockus:recipes/building_blocks/thatch": {
-    "criteria": {
-      "has_wheat": "2026-03-10 10:53:29 +0700"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/pie_crust": {
-    "criteria": {
-      "has_wheat": "2026-03-10 10:53:29 +0700"
-    },
-    "done": true
-  },
-  "polydecorations:recipes/decorations/cherry_tool_rack": {
-    "criteria": {
-      "planks": "2026-03-10 10:49:59 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/cherry_door": {
-    "criteria": {
-      "has_planks": "2026-03-10 10:49:59 +0700"
-    },
-    "done": true
-  },
-  "blockus:recipes/building_blocks/sturdy_stone": {
-    "criteria": {
-      "has_cobblestone": "2026-03-10 10:50:15 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/stone_shovel": {
-    "criteria": {
-      "has_cobblestone": "2026-03-10 10:50:15 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/lever": {
-    "criteria": {
-      "has_cobblestone": "2026-03-10 10:50:15 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/pink_dye_from_pink_petals": {
-    "criteria": {
-      "has_pink_petals": "2026-03-10 10:53:09 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cherry_slab": {
-    "criteria": {
-      "has_planks": "2026-03-10 10:49:59 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/stone_sword": {
-    "criteria": {
-      "has_cobblestone": "2026-03-10 10:50:15 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cobblestone_wall": {
-    "criteria": {
-      "has_cobblestone": "2026-03-10 10:50:15 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/stone_axe": {
-    "criteria": {
-      "has_cobblestone": "2026-03-10 10:50:15 +0700"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/combat/flint_knife": {
-    "criteria": {
-      "has_stick": "2026-03-10 10:49:37 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cherry_stairs": {
-    "criteria": {
-      "has_planks": "2026-03-10 10:49:59 +0700"
-    },
-    "done": true
-  },
-  "polydecorations:recipes/decorations/cherry_table": {
-    "criteria": {
-      "planks": "2026-03-10 10:49:59 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/cherry_trapdoor": {
-    "criteria": {
-      "has_planks": "2026-03-10 10:49:59 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/cherry_button": {
-    "criteria": {
-      "has_planks": "2026-03-10 10:49:59 +0700"
-    },
-    "done": true
-  },
-  "brewery:recipe/brewery_group/barrel_spigot": {
-    "criteria": {
-      "item_required2": "2026-03-10 10:49:37 +0700"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/root": {
-    "criteria": {
-      "consumed_item": "2026-03-10 10:53:35 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cherry_wood": {
-    "criteria": {
-      "has_log": "2026-03-10 10:48:27 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/coal_block": {
-    "criteria": {
-      "has_coal": "2026-03-10 10:50:08 +0700"
-    },
-    "done": true
-  },
-  "polydecorations:recipes/decorations/cherry_shelf": {
-    "criteria": {
-      "planks": "2026-03-10 10:49:59 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/torch": {
-    "criteria": {
-      "has_stone_pickaxe": "2026-03-10 10:51:19 +0700"
-    },
-    "done": true
-  },
-  "blockus:recipes/food/bread": {
-    "criteria": {
-      "has_the_recipe": "2026-03-10 10:53:29 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipe/building_blocks/vertical_cherry_planks": {
-    "criteria": {
-      "has_cherry_planks": "2026-03-10 10:49:59 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/cherry_fence_gate": {
-    "criteria": {
-      "has_planks": "2026-03-10 10:49:59 +0700"
+      "unlock_right_away": "2026-03-10 03:47:59 +0000"
     },
     "done": true
   },
   "minecraft:recipe/building_blocks/carpentry_table": {
     "criteria": {
-      "unlock_right_away": "2026-03-10 10:47:59 +0700"
+      "unlock_right_away": "2026-03-10 03:47:59 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/tools/wooden_pickaxe": {
+  "minecraft:adventure/distant_lands": {
     "criteria": {
-      "has_stick": "2026-03-10 10:49:37 +0700"
+      "minecraft:cherry_grove": "2026-03-10 03:48:07 +0000",
+      "minecraft:plains": "2026-03-10 03:51:55 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:cherry_grove": "2026-03-10 03:48:07 +0000",
+      "minecraft:plains": "2026-03-10 03:51:55 +0000"
+    },
+    "done": false
+  },
+  "polydecorations:recipes/decorations/cherry_stump": {
+    "criteria": {
+      "planks": "2026-03-10 03:48:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_planks": {
+    "criteria": {
+      "has_log": "2026-03-10 03:48:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2026-03-10 03:48:27 +0000"
+    },
+    "done": true
+  },
+  "goml:recipes/all_recipes": {
+    "criteria": {
+      "has_chest": "2026-03-10 03:48:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_wood": {
+    "criteria": {
+      "has_log": "2026-03-10 03:48:27 +0000"
     },
     "done": true
   },
   "farmersdelight:main/root": {
     "criteria": {
-      "seeds": "2026-03-10 10:48:27 +0700"
-    },
-    "done": true
-  },
-  "minecraft:story/upgrade_tools": {
-    "criteria": {
-      "stone_pickaxe": "2026-03-10 10:51:19 +0700"
+      "seeds": "2026-03-10 03:48:27 +0000"
     },
     "done": true
   },
   "blockus:recipes/misc/charcoal": {
     "criteria": {
-      "has_the_recipe": "2026-03-10 10:48:27 +0700"
+      "has_the_recipe": "2026-03-10 03:48:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2026-03-10 03:49:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2026-03-10 03:49:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2026-03-10 03:49:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2026-03-10 03:49:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2026-03-10 03:49:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2026-03-10 03:49:37 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/flint_knife": {
+    "criteria": {
+      "has_stick": "2026-03-10 03:49:37 +0000"
+    },
+    "done": true
+  },
+  "brewery:recipe/brewery_group/barrel_spigot": {
+    "criteria": {
+      "item_required2": "2026-03-10 03:49:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2026-03-10 03:49:37 +0000"
     },
     "done": true
   },
   "terrestria:recipes/tools/log_turner": {
     "criteria": {
-      "has_sticks": "2026-03-10 10:49:37 +0700"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_a_mob": {
-    "criteria": {
-      "minecraft:skeleton": "2026-03-10 10:53:40 +0700"
-    },
-    "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:cherry_grove": "2026-03-10 10:48:07 +0700",
-      "minecraft:plains": "2026-03-10 10:51:55 +0700"
-    },
-    "done": false
-  },
-  "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
-    "criteria": {
-      "has_cobblestone": "2026-03-10 10:50:15 +0700"
-    },
-    "done": true
-  },
-  "blockus:recipes/building_blocks/herringbone_cherry_planks": {
-    "criteria": {
-      "has_cherry_planks": "2026-03-10 10:49:59 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/wheat": {
-    "criteria": {
-      "has_hay_block": "2026-03-10 10:53:08 +0700"
+      "has_sticks": "2026-03-10 03:49:37 +0000"
     },
     "done": true
   },
   "farmersdelight:recipes/decorations/cutting_board": {
     "criteria": {
-      "has_stick": "2026-03-10 10:49:37 +0700"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/balanced_diet": {
-    "criteria": {
-      "bread": "2026-03-10 10:53:35 +0700"
-    },
-    "done": false
-  },
-  "minecraft:recipes/tools/stone_hoe": {
-    "criteria": {
-      "has_cobblestone": "2026-03-10 10:50:15 +0700"
+      "has_stick": "2026-03-10 03:49:37 +0000"
     },
     "done": true
   },
   "minecraft:story/root": {
     "criteria": {
-      "crafting_table": "2026-03-10 10:49:44 +0700"
+      "crafting_table": "2026-03-10 03:49:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cherry_fence": {
+    "criteria": {
+      "has_planks": "2026-03-10 03:49:59 +0000"
+    },
+    "done": true
+  },
+  "polydecorations:recipes/decorations/cherry_bench": {
+    "criteria": {
+      "planks": "2026-03-10 03:49:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2026-03-10 03:49:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cherry_sign": {
+    "criteria": {
+      "has_planks": "2026-03-10 03:49:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-03-10 03:49:59 +0000"
+    },
+    "done": true
+  },
+  "polydecorations:recipes/decorations/cherry_mailbox": {
+    "criteria": {
+      "planks": "2026-03-10 03:49:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2026-03-10 03:49:59 +0000"
+    },
+    "done": true
+  },
+  "polydecorations:recipes/decorations/cherry_sign_post": {
+    "criteria": {
+      "planks": "2026-03-10 03:49:59 +0000"
+    },
+    "done": true
+  },
+  "polydecorations:recipes/decorations/cherry_tool_rack": {
+    "criteria": {
+      "planks": "2026-03-10 03:49:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_door": {
+    "criteria": {
+      "has_planks": "2026-03-10 03:49:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_slab": {
+    "criteria": {
+      "has_planks": "2026-03-10 03:49:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_stairs": {
+    "criteria": {
+      "has_planks": "2026-03-10 03:49:59 +0000"
+    },
+    "done": true
+  },
+  "polydecorations:recipes/decorations/cherry_table": {
+    "criteria": {
+      "planks": "2026-03-10 03:49:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-03-10 03:49:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_button": {
+    "criteria": {
+      "has_planks": "2026-03-10 03:49:59 +0000"
+    },
+    "done": true
+  },
+  "polydecorations:recipes/decorations/cherry_shelf": {
+    "criteria": {
+      "planks": "2026-03-10 03:49:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipe/building_blocks/vertical_cherry_planks": {
+    "criteria": {
+      "has_cherry_planks": "2026-03-10 03:49:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-03-10 03:49:59 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/herringbone_cherry_planks": {
+    "criteria": {
+      "has_cherry_planks": "2026-03-10 03:49:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2026-03-10 03:50:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2026-03-10 03:50:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2026-03-10 03:50:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2026-03-10 03:50:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone": {
+    "criteria": {
+      "has_cobblestone": "2026-03-10 03:50:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2026-03-10 03:50:15 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/sturdy_stone_alt": {
+    "criteria": {
+      "has_cobblestone": "2026-03-10 03:50:15 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/limestone": {
+    "criteria": {
+      "has_cobblestone": "2026-03-10 03:50:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipe/building_blocks/pebbles": {
+    "criteria": {
+      "has_cobblestone": "2026-03-10 03:50:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2026-03-10 03:50:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2026-03-10 03:50:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2026-03-10 03:50:15 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/sturdy_stone": {
+    "criteria": {
+      "has_cobblestone": "2026-03-10 03:50:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2026-03-10 03:50:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2026-03-10 03:50:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2026-03-10 03:50:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2026-03-10 03:50:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2026-03-10 03:50:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2026-03-10 03:50:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2026-03-10 03:50:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_stone_pickaxe": "2026-03-10 03:51:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2026-03-10 03:51:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2026-03-10 03:51:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_hay_block": "2026-03-10 03:53:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2026-03-10 03:53:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_pink_petals": {
+    "criteria": {
+      "has_pink_petals": "2026-03-10 03:53:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2026-03-10 03:53:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2026-03-10 03:53:29 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/thatch": {
+    "criteria": {
+      "has_wheat": "2026-03-10 03:53:29 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/pie_crust": {
+    "criteria": {
+      "has_wheat": "2026-03-10 03:53:29 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/food/bread": {
+    "criteria": {
+      "has_the_recipe": "2026-03-10 03:53:29 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/bread_box": {
+    "criteria": {
+      "has_bread": "2026-03-10 03:53:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2026-03-10 03:53:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "bread": "2026-03-10 03:53:35 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2026-03-10 03:53:40 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2026-03-10 03:53:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:skeleton": "2026-03-10 03:53:40 +0000"
+    },
+    "done": true
+  },
+  "vanillatweaks:glass_always_drops": {
+    "criteria": {
+      "tick": "2026-03-10 12:33:31 +0000"
+    },
+    "done": true
+  },
+  "vanillatweaks:root": {
+    "criteria": {
+      "tick": "2026-03-10 12:33:31 +0000"
+    },
+    "done": true
+  },
+  "vanillatweaks:durability_ping": {
+    "criteria": {
+      "tick": "2026-03-10 12:33:31 +0000"
+    },
+    "done": true
+  },
+  "vanillatweaks:husks_drop_sand": {
+    "criteria": {
+      "tick": "2026-03-10 12:33:31 +0000"
+    },
+    "done": true
+  },
+  "vanillatweaks:armored_elytra": {
+    "criteria": {
+      "tick": "2026-03-10 12:33:31 +0000"
+    },
+    "done": true
+  },
+  "vanillatweaks:silence_mobs": {
+    "criteria": {
+      "tick": "2026-03-10 12:33:31 +0000"
+    },
+    "done": true
+  },
+  "vanillatweaks:chunk_loaders": {
+    "criteria": {
+      "tick": "2026-03-10 12:33:31 +0000"
+    },
+    "done": true
+  },
+  "vanillatweaks:custom_villager_shops": {
+    "criteria": {
+      "tick": "2026-03-10 12:33:31 +0000"
+    },
+    "done": true
+  },
+  "slabs_stairs_to_block:recipes/building_blocks/slabs/cobblestone": {
+    "criteria": {
+      "has_slab": "2026-03-10 12:33:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/slabs/cobblestone_slab": {
+    "criteria": {
+      "has_block": "2026-03-10 12:33:31 +0000"
+    },
+    "done": true
+  },
+  "slabs_stairs_to_block:recipes/building_blocks/stairs/cherry_planks": {
+    "criteria": {
+      "has_stairs": "2026-03-10 12:33:31 +0000"
+    },
+    "done": true
+  },
+  "vanillatweaks:spawn": {
+    "criteria": {
+      "tick": "2026-03-10 12:33:31 +0000"
+    },
+    "done": true
+  },
+  "vanillatweaks:cauldron_concrete": {
+    "criteria": {
+      "tick": "2026-03-10 12:33:31 +0000"
+    },
+    "done": true
+  },
+  "slabs_stairs_to_block:recipes/building_blocks/slabs/cherry_planks": {
+    "criteria": {
+      "has_slab": "2026-03-10 12:33:31 +0000"
+    },
+    "done": true
+  },
+  "craftable_blackstone:recipes/building_blocks/coral/blackstone": {
+    "criteria": {
+      "has_coal": "2026-03-10 12:33:31 +0000"
+    },
+    "done": true
+  },
+  "craftable_blackstone:recipes/building_blocks/coral/polished_blackstone": {
+    "criteria": {
+      "has_coal": "2026-03-10 12:33:31 +0000",
+      "has_the_recipe": "2026-03-10 12:33:31 +0000"
+    },
+    "done": true
+  },
+  "slabs_stairs_to_block:recipes/building_blocks/stairs/cobblestone": {
+    "criteria": {
+      "has_stairs": "2026-03-10 12:33:31 +0000"
+    },
+    "done": true
+  },
+  "vanillatweaks:coordinates_hud": {
+    "criteria": {
+      "tick": "2026-03-10 12:33:31 +0000"
+    },
+    "done": true
+  },
+  "dropper_to_dispenser:recipes/building_blocks/dropper_to_dispenser/dispenser_alternate": {
+    "criteria": {
+      "has_stick": "2026-03-10 12:33:31 +0000"
+    },
+    "done": true
+  },
+  "vanillatweaks:more_effective_tools": {
+    "criteria": {
+      "tick": "2026-03-10 12:33:31 +0000"
+    },
+    "done": true
+  },
+  "vanillatweaks:age_lock": {
+    "criteria": {
+      "tick": "2026-03-10 12:33:31 +0000"
     },
     "done": true
   },
