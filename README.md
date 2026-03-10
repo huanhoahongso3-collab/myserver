@@ -9,31 +9,32 @@ Do not accept pull request. Feel free to use it
 
 To use this automation, you must add the following **GitHub Secrets** to your repository (**Settings > Secrets and variables > Actions**):
 
-* **`PLAYIT_SECRET`**: Your [playit.gg](https://playit.gg) agent key to enable the global network tunnel.
+* **`PLAYIT_SECRET`**: Your [playit.gg](https://playit.gg) agent secret key to enable the global network tunnel. Usually be found after using playit-gg client.
 * **`FINE_GRAINED_PAT`**: A GitHub Personal Access Token with repository permissions for handling builds and assets.
 
 ---
 
-## 🚀 Deployment Process
+## 🚀 How to make it work:
 
-The automation script performs the following tasks:
+Please do these tasks to make sure it works perfectly
 
 1.  **Dependency Management**:
-    * Downloads the latest `spigot.jar`.
+    * Fork this repo
+    * Downloads the latest server file and save it as `spigot.jar`.
     * **Keeps** `server.jar` (the primary launcher).
-    * **Keeps** the existing build artifacts.
+    * **Keeps** the existing new.yaml (workflow) file
 2.  **Environment Cleanup**:
-    * **Deletes** all world-related data (`world`, `world_nether`, `world_the_end`) to ensure a fresh start and prevent corruption from previous sessions.
-3.  **Tunneling**:
-    * Initializes the `playit` agent using your secret key to map your local port to a public IP.
+    * **Deletes** all my world-related data (`world`, `world_nether`, `world_the_end`) to ensure a fresh start and prevent corruption from previous sessions.
+3.  **Starting**:
+    * Now you can start your server.
 
 ---
 
 ## 🎮 Getting Started
 
-1.  Push your changes or manually trigger the GitHub Action.
-2.  Wait for the "Cleanup and Download" steps to complete.
-3.  Once the server is live, use your Playit.gg address to connect.
+1.  Manually trigger the GitHub Action using workflow_dispatch
+2.  Once the server is live, use your Playit.gg address to connect.
+3.  Enjoy!
 
 **Enjoy your fresh server build!**
 
