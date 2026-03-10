@@ -608,15 +608,45 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/cherry_boat": {
+  "farmersdelight:recipes/cooking/dumplings": {
     "criteria": {
-      "in_water": "2026-03-10 12:37:35 +0000"
+      "has_any_ingredient": "2026-03-10 12:37:21 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/bamboo_raft": {
+  "farmersdelight:recipes/cooking/fish_stew": {
     "criteria": {
-      "in_water": "2026-03-10 12:37:35 +0000"
+      "has_any_ingredient": "2026-03-10 12:37:21 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/barbecue_stick": {
+    "criteria": {
+      "has_onion": "2026-03-10 12:37:21 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/fried_rice": {
+    "criteria": {
+      "has_any_ingredient": "2026-03-10 12:37:21 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/ratatouille": {
+    "criteria": {
+      "has_any_ingredient": "2026-03-10 12:37:21 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/onion_crate": {
+    "criteria": {
+      "has_onion": "2026-03-10 12:37:21 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_soup": {
+    "criteria": {
+      "has_any_ingredient": "2026-03-10 12:37:21 +0000"
     },
     "done": true
   },
@@ -627,9 +657,15 @@
     },
     "done": false
   },
-  "farmersdelight:recipes/cooking/dumplings": {
+  "minecraft:recipes/transportation/cherry_boat": {
     "criteria": {
-      "has_any_ingredient": "2026-03-10 12:37:21 +0000"
+      "in_water": "2026-03-10 12:37:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2026-03-10 12:37:35 +0000"
     },
     "done": true
   },
@@ -651,18 +687,6 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/fish_stew": {
-    "criteria": {
-      "has_any_ingredient": "2026-03-10 12:37:21 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/barbecue_stick": {
-    "criteria": {
-      "has_onion": "2026-03-10 12:37:21 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "in_water": "2026-03-10 12:37:35 +0000"
@@ -681,33 +705,9 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/fried_rice": {
-    "criteria": {
-      "has_any_ingredient": "2026-03-10 12:37:21 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/mangrove_boat": {
     "criteria": {
       "in_water": "2026-03-10 12:37:35 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/ratatouille": {
-    "criteria": {
-      "has_any_ingredient": "2026-03-10 12:37:21 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/building_blocks/onion_crate": {
-    "criteria": {
-      "has_onion": "2026-03-10 12:37:21 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/vegetable_soup": {
-    "criteria": {
-      "has_any_ingredient": "2026-03-10 12:37:21 +0000"
     },
     "done": true
   },
