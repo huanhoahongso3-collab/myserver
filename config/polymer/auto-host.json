@@ -12,7 +12,7 @@
     "forced_address": ""
   },
   "_c5": "Message sent to clients before pack is loaded",
-  "message": "Download resource pack to play at: / Tải gói tài nguyên để chơi tại: https://dhp2010.is-a.dev/resourcepack",
+  "message": "{\"text\":\"Tải gói tài nguyên tại: \",\"color\":\"white\",\"extra\":[{\"text\":\"https://dhp2010.is-a.dev/resourcepack\",\"color\":\"aqua\",\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://dhp2010.is-a.dev/resourcepack\"}}]}",
   "_c6": "Disconnect message in case of failure",
   "disconnect_message": "Couldn't apply server resourcepack! Không thể áp dụng gói tài nguyên!",
   "_c8": "Allows to define more external resource packs. It's an object with 'id' for uuid, 'url' for the pack url and 'hash' for the SHA1 hash.",
