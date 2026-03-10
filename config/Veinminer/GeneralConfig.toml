@@ -22,7 +22,7 @@
 	#Dynamically adjust max mined blocks based on server TPS
 	dynamicMaxBlocks = false
 	#Maximum blocks mined when dynamic scaling is disabled
-	maxBlocks = 64
+	maxBlocks = 16
 	#Lower bound for dynamic scaling
 	minBlocks = 16
 	#Upper bound for dynamic scaling
