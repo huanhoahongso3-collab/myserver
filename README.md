@@ -1,7 +1,9 @@
 # Minecraft Server Auto-Deploy
 
 This repository automates the setup and deployment of a Minecraft server environment, ensuring a clean state and secure connectivity on every run.
-Do not accept pull request. Feel free to use it
+
+> [!WARNING]
+> Do not accept pull request. Feel free to use it
 
 ---
 
