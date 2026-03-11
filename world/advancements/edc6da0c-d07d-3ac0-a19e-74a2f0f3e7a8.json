@@ -464,6 +464,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2026-03-10 03:53:40 +0000",
+      "minecraft:drowned": "2026-03-11 00:04:52 +0000",
       "minecraft:zombie_villager": "2026-03-10 14:15:43 +0000"
     },
     "done": false
@@ -1213,6 +1214,66 @@
   "minecraft:recipes/building_blocks/red_sandstone": {
     "criteria": {
       "has_sand": "2026-03-10 14:30:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2026-03-11 00:03:34 +0000"
+    },
+    "done": true
+  },
+  "rotten_flesh_to_leather:recipes/misc/leather": {
+    "criteria": {
+      "has_flesh": "2026-03-11 00:04:53 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/dog_food": {
+    "criteria": {
+      "has_any_ingredient": "2026-03-11 00:04:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2026-03-11 00:03:39 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/sandy_bricks": {
+    "criteria": {
+      "has_sand": "2026-03-11 00:00:39 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/rotten_flesh_block": {
+    "criteria": {
+      "has_rotten_flesh": "2026-03-11 00:04:53 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/bone_broth": {
+    "criteria": {
+      "has_bone": "2026-03-11 00:03:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2026-03-11 00:00:39 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/organic_compost_from_rotten_flesh": {
+    "criteria": {
+      "has_rotten_flesh": "2026-03-11 00:04:53 +0000"
+    },
+    "done": true
+  },
+  "sandstone_dyeing:recipes/building_blocks/red_sand": {
+    "criteria": {
+      "has_block": "2026-03-11 00:00:39 +0000"
     },
     "done": true
   },
