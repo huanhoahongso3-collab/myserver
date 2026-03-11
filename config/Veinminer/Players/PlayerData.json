@@ -1,6 +1,25 @@
 {
-  "veinminer": {},
-  "particles": {},
-  "messages": {},
-  "input": {}
+  "veinminer": {
+    "edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8": true
+  },
+  "particles": {
+    "edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8": true
+  },
+  "messages": {
+    "edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8": {
+      "permission": true,
+      "disabled": true,
+      "cooldown": true,
+      "durability": true
+    }
+  },
+  "input": {
+    "edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8": {
+      "useKeybind": true,
+      "keyToggle": false,
+      "keyToggleState": false,
+      "crouchToggle": false,
+      "crouchToggleState": false
+    }
+  }
 }
