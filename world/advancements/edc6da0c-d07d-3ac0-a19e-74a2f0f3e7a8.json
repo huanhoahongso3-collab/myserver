@@ -1217,15 +1217,159 @@
     },
     "done": true
   },
+  "universal_dyeing:recipes/building_blocks/universal_dyeing/candle": {
+    "criteria": {
+      "has_dye": "2026-03-11 00:11:08 +0000"
+    },
+    "done": false
+  },
   "minecraft:story/deflect_arrow": {
     "criteria": {
       "deflected_projectile": "2026-03-11 00:03:34 +0000"
     },
     "done": true
   },
+  "terrestria:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_the_recipe": "2026-03-11 00:12:56 +0000"
+    },
+    "done": true
+  },
+  "polychess:recipes/decorations/chess_king_white_from_white_concrete_stonecutting": {
+    "criteria": {
+      "has_white_concrete": "2026-03-11 00:14:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_pink_harness": {
+    "criteria": {
+      "has_needed_dye": "2026-03-11 00:11:08 +0000"
+    },
+    "done": true
+  },
+  "powder_to_glass:recipes/misc/white_stained_glass": {
+    "criteria": {
+      "has_powder": "2026-03-11 00:13:40 +0000"
+    },
+    "done": true
+  },
+  "polychess:recipes/decorations/chess_bishop_white_from_white_concrete_stonecutting": {
+    "criteria": {
+      "has_white_concrete": "2026-03-11 00:14:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_the_recipe": "2026-03-11 00:12:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_white_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-03-11 00:12:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
+    "criteria": {
+      "has_pink_dye": "2026-03-11 00:11:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_candle": {
+    "criteria": {
+      "has_pink_dye": "2026-03-11 00:11:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
+    "criteria": {
+      "has_pink_dye": "2026-03-11 00:11:08 +0000"
+    },
+    "done": true
+  },
+  "polychess:recipes/decorations/chess_rook_white_from_white_concrete_stonecutting": {
+    "criteria": {
+      "has_white_concrete": "2026-03-11 00:14:19 +0000"
+    },
+    "done": true
+  },
+  "universal_dyeing:recipes/building_blocks/universal_dyeing/stained_glass_pane": {
+    "criteria": {
+      "has_dye": "2026-03-11 00:11:08 +0000"
+    },
+    "done": false
+  },
   "rotten_flesh_to_leather:recipes/misc/leather": {
     "criteria": {
       "has_flesh": "2026-03-11 00:04:53 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/white_colored_tiles": {
+    "criteria": {
+      "has_white_concrete": "2026-03-11 00:14:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipe/building_blocks/white_bouncy_block": {
+    "criteria": {
+      "has_white_concrete": "2026-03-11 00:14:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_white_dye": "2026-03-11 00:12:56 +0000"
+    },
+    "done": true
+  },
+  "polychess:recipes/decorations/chess_pawn_white_from_white_concrete_stonecutting": {
+    "criteria": {
+      "has_white_concrete": "2026-03-11 00:14:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
+    "criteria": {
+      "has_white_dye": "2026-03-11 00:12:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_white_harness": {
+    "criteria": {
+      "has_needed_dye": "2026-03-11 00:12:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
+    "criteria": {
+      "has_white_dye": "2026-03-11 00:12:56 +0000"
+    },
+    "done": true
+  },
+  "powder_to_glass:recipes/misc/pink_stained_glass": {
+    "criteria": {
+      "has_powder": "2026-03-11 00:11:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_white_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-03-11 00:12:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_white_dye": "2026-03-11 00:12:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+    "criteria": {
+      "has_white_dye": "2026-03-11 00:12:56 +0000"
     },
     "done": true
   },
@@ -1235,9 +1379,63 @@
     },
     "done": true
   },
+  "polydecorations:recipes/decorations/dye_yellow_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2026-03-11 00:12:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipe/building_blocks/pink_bouncy_block": {
+    "criteria": {
+      "has_pink_concrete": "2026-03-11 00:14:01 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/pink_colored_tiles": {
+    "criteria": {
+      "has_pink_concrete": "2026-03-11 00:14:01 +0000"
+    },
+    "done": true
+  },
+  "polydecorations:recipes/decorations/dye_pink_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2026-03-11 00:11:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/white_bundle": {
+    "criteria": {
+      "has_white_dye": "2026-03-11 00:12:56 +0000"
+    },
+    "done": true
+  },
+  "polychess:recipes/decorations/chess_queen_white_from_white_concrete_stonecutting": {
+    "criteria": {
+      "has_white_concrete": "2026-03-11 00:14:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_pink_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-03-11 00:11:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_candle": {
+    "criteria": {
+      "has_white_dye": "2026-03-11 00:12:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bone_meal": {
     "criteria": {
       "has_bone": "2026-03-11 00:03:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/pink_bundle": {
+    "criteria": {
+      "has_pink_dye": "2026-03-11 00:11:08 +0000"
     },
     "done": true
   },
@@ -1247,9 +1445,51 @@
     },
     "done": true
   },
+  "universal_dyeing:recipes/building_blocks/universal_dyeing/stained_glass": {
+    "criteria": {
+      "has_dye": "2026-03-11 00:11:08 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/pink_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_pink_dye": "2026-03-11 00:11:08 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/rotten_flesh_block": {
     "criteria": {
       "has_rotten_flesh": "2026-03-11 00:04:53 +0000"
+    },
+    "done": true
+  },
+  "polychess:recipes/decorations/chess_knight_white_from_white_concrete_stonecutting": {
+    "criteria": {
+      "has_white_concrete": "2026-03-11 00:14:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_white_dye": "2026-03-11 00:12:56 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/white_colored_tiles_from_white_concrete_stonecutting": {
+    "criteria": {
+      "has_white_concrete": "2026-03-11 00:14:19 +0000"
+    },
+    "done": true
+  },
+  "universal_dyeing:recipes/building_blocks/universal_dyeing/terracotta": {
+    "criteria": {
+      "has_dye": "2026-03-11 00:11:08 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/dye_pink_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-03-11 00:11:08 +0000"
     },
     "done": true
   },
@@ -1259,9 +1499,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dye_white_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-03-11 00:12:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sandstone": {
     "criteria": {
       "has_sand": "2026-03-11 00:00:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipe/building_blocks/white_concrete_bricks": {
+    "criteria": {
+      "has_white_concrete": "2026-03-11 00:14:19 +0000"
     },
     "done": true
   },
@@ -1271,9 +1523,52 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
+    "criteria": {
+      "has_white_dye": "2026-03-11 00:12:56 +0000"
+    },
+    "done": true
+  },
+  "universal_dyeing:recipes/building_blocks/universal_dyeing/glazed_terracotta": {
+    "criteria": {
+      "has_dye": "2026-03-11 00:11:08 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/dye_pink_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-03-11 00:11:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
+    "criteria": {
+      "has_white_dye": "2026-03-11 00:12:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipe/building_blocks/pink_concrete_bricks": {
+    "criteria": {
+      "has_pink_concrete": "2026-03-11 00:14:01 +0000"
+    },
+    "done": true
+  },
   "sandstone_dyeing:recipes/building_blocks/red_sand": {
     "criteria": {
       "has_block": "2026-03-11 00:00:39 +0000"
+    },
+    "done": true
+  },
+  "universal_dyeing:recipes/building_blocks/universal_dyeing/concrete_powder": {
+    "criteria": {
+      "has_dye": "2026-03-11 00:11:08 +0000",
+      "has_block": "2026-03-11 00:11:52 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/pink_colored_tiles_from_pink_concrete_stonecutting": {
+    "criteria": {
+      "has_pink_concrete": "2026-03-11 00:14:01 +0000"
     },
     "done": true
   },
