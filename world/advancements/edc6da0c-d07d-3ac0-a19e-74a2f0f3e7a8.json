@@ -1301,6 +1301,12 @@
     },
     "done": false
   },
+  "minecraft:recipe/building_blocks/black_concrete_bricks": {
+    "criteria": {
+      "has_black_concrete": "2026-03-11 00:22:25 +0000"
+    },
+    "done": true
+  },
   "rotten_flesh_to_leather:recipes/misc/leather": {
     "criteria": {
       "has_flesh": "2026-03-11 00:04:53 +0000"
@@ -1310,6 +1316,18 @@
   "blockus:recipes/building_blocks/white_colored_tiles": {
     "criteria": {
       "has_white_concrete": "2026-03-11 00:14:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_black_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-03-11 00:21:05 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/black_colored_tiles_from_black_concrete_stonecutting": {
+    "criteria": {
+      "has_black_concrete": "2026-03-11 00:22:25 +0000"
     },
     "done": true
   },
@@ -1355,6 +1373,12 @@
     },
     "done": true
   },
+  "polydecorations:recipes/decorations/dye_black_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2026-03-11 00:21:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/dye_white_bed": {
     "criteria": {
       "has_needed_dye": "2026-03-11 00:12:56 +0000"
@@ -1370,6 +1394,12 @@
   "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
     "criteria": {
       "has_white_dye": "2026-03-11 00:12:56 +0000"
+    },
+    "done": true
+  },
+  "polychess:recipes/decorations/chess_queen_black_from_black_concrete_stonecutting": {
+    "criteria": {
+      "has_black_concrete": "2026-03-11 00:22:25 +0000"
     },
     "done": true
   },
@@ -1409,9 +1439,27 @@
     },
     "done": true
   },
+  "polychess:recipes/decorations/chess_bishop_black_from_black_concrete_stonecutting": {
+    "criteria": {
+      "has_black_concrete": "2026-03-11 00:22:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_black_harness": {
+    "criteria": {
+      "has_needed_dye": "2026-03-11 00:21:05 +0000"
+    },
+    "done": true
+  },
   "polychess:recipes/decorations/chess_queen_white_from_white_concrete_stonecutting": {
     "criteria": {
       "has_white_concrete": "2026-03-11 00:14:19 +0000"
+    },
+    "done": true
+  },
+  "polychess:recipes/decorations/chess_king_black_from_black_concrete_stonecutting": {
+    "criteria": {
+      "has_black_concrete": "2026-03-11 00:22:25 +0000"
     },
     "done": true
   },
@@ -1436,6 +1484,12 @@
   "minecraft:recipes/tools/pink_bundle": {
     "criteria": {
       "has_pink_dye": "2026-03-11 00:11:08 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/black_colored_tiles": {
+    "criteria": {
+      "has_black_concrete": "2026-03-11 00:22:25 +0000"
     },
     "done": true
   },
@@ -1475,9 +1529,33 @@
     },
     "done": true
   },
+  "powder_to_glass:recipes/misc/black_stained_glass": {
+    "criteria": {
+      "has_powder": "2026-03-11 00:21:57 +0000"
+    },
+    "done": true
+  },
+  "polychess:recipes/decorations/chess_pawn_black_from_black_concrete_stonecutting": {
+    "criteria": {
+      "has_black_concrete": "2026-03-11 00:22:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/black_bundle": {
+    "criteria": {
+      "has_black_dye": "2026-03-11 00:21:05 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/white_colored_tiles_from_white_concrete_stonecutting": {
     "criteria": {
       "has_white_concrete": "2026-03-11 00:14:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_black_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-03-11 00:21:05 +0000"
     },
     "done": true
   },
@@ -1493,9 +1571,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_black_dye": "2026-03-11 00:21:05 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/cooking/bone_broth": {
     "criteria": {
       "has_bone": "2026-03-11 00:03:39 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/caution_block": {
+    "criteria": {
+      "has_black_dye": "2026-03-11 00:21:05 +0000"
+    },
+    "done": true
+  },
+  "polychess:recipes/decorations/chess_knight_black_from_black_concrete_stonecutting": {
+    "criteria": {
+      "has_black_concrete": "2026-03-11 00:22:25 +0000"
     },
     "done": true
   },
@@ -1541,6 +1637,12 @@
     },
     "done": true
   },
+  "polychess:recipes/decorations/chess_rook_black_from_black_concrete_stonecutting": {
+    "criteria": {
+      "has_black_concrete": "2026-03-11 00:22:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
     "criteria": {
       "has_white_dye": "2026-03-11 00:12:56 +0000"
@@ -1553,9 +1655,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_candle": {
+    "criteria": {
+      "has_black_dye": "2026-03-11 00:21:05 +0000"
+    },
+    "done": true
+  },
   "sandstone_dyeing:recipes/building_blocks/red_sand": {
     "criteria": {
       "has_block": "2026-03-11 00:00:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-03-11 00:21:05 +0000"
     },
     "done": true
   },
