@@ -638,3 +638,13 @@
 [10:10:49] [Worker-Main-3/WARN]: Empty or non-existent pool: minecraft:
 [10:11:24] [Server thread/INFO]: [FewerSteak1914: Saved the game]
 [10:11:52] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=217, y=48, z=159}
+[10:13:57] [Worker-Main-2/WARN]: [net.minecraft.class_3499] Serialization errors:
+: Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+[10:13:57] [Worker-Main-2/WARN]: [net.minecraft.class_3499] Serialization errors:
+: Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+[10:14:05] [Worker-Main-1/WARN]: [net.minecraft.class_3499] Serialization errors:
+:
+  Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+  Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+[10:14:20] [Server thread/INFO]: FewerSteak1914 lost connection: Disconnected
+[10:14:20] [Server thread/INFO]: FewerSteak1914 left the game
