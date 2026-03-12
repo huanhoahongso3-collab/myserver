@@ -1901,9 +1901,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2026-03-12 09:43:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
       "has_string": "2026-03-12 09:38:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2026-03-12 09:43:40 +0000"
     },
     "done": true
   },
@@ -2117,6 +2129,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2026-03-12 09:43:40 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/light_gray_colored_tiles_from_light_gray_concrete_stonecutting": {
     "criteria": {
       "has_light_gray_concrete": "2026-03-12 09:32:41 +0000"
@@ -2180,6 +2198,12 @@
   "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
     "criteria": {
       "has_porkchop": "2026-03-12 09:34:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2026-03-12 09:43:40 +0000"
     },
     "done": true
   },
