@@ -667,3 +667,38 @@
 [11:10:46] [Server thread/INFO]: [FewerSteak1914: Stopping the server]
 [11:10:47] [Server thread/INFO]: FewerSteak1914 lost connection: Disconnected
 [11:10:47] [Server thread/INFO]: FewerSteak1914 left the game
+[11:11:16] [Server thread/INFO]: Shutdown countdown complete, stopping the server.
+[11:11:16] [Server thread/INFO]: ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[11:11:20] [spark-async-sampler-worker-thread/WARN]: Exception occurred while getting world info
+java.util.concurrent.RejectedExecutionException: Server already shutting down
+	at knot/net.minecraft.server.MinecraftServer.method_40000(MinecraftServer.java:1446) ~[server-intermediary.jar:?]
+	at knot/me.lucko.spark.fabric.plugin.FabricServerSparkPlugin.executeSync(FabricServerSparkPlugin.java:123) ~[spark-1.10.142-fabric.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005) ~[?:?]
+	at knot/me.lucko.spark.common.platform.world.AsyncWorldInfoProvider.async(AsyncWorldInfoProvider.java:55) ~[spark-1.10.142-fabric.jar:?]
+	at knot/me.lucko.spark.common.platform.world.AsyncWorldInfoProvider.pollCounts(AsyncWorldInfoProvider.java:77) ~[spark-1.10.142-fabric.jar:?]
+	at knot/me.lucko.spark.common.platform.world.AsyncWorldInfoProvider.getCounts(AsyncWorldInfoProvider.java:93) ~[spark-1.10.142-fabric.jar:?]
+	at knot/me.lucko.spark.common.sampler.window.WindowStatisticsCollector.measure(WindowStatisticsCollector.java:186) ~[spark-1.10.142-fabric.jar:?]
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708) ~[?:?]
+	at knot/me.lucko.spark.common.sampler.window.WindowStatisticsCollector.measureNow(WindowStatisticsCollector.java:124) ~[spark-1.10.142-fabric.jar:?]
+	at knot/me.lucko.spark.common.sampler.async.AsyncSampler.rotateProfilerJob(AsyncSampler.java:153) ~[spark-1.10.142-fabric.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[11:11:21] [Server thread/INFO]: Stopping server
+[11:11:21] [Server thread/INFO]: Saving players
+[11:11:21] [Server thread/INFO]: Saving worlds
+[11:11:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:11:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[11:11:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[11:11:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:11:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:11:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:11:21] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:11:21] [Server thread/INFO]: Saving Server Backpacks's data!
+[11:11:21] [Thread-6/INFO]: Thread stopped gracefully.
+[11:11:21] [Thread-5/INFO]: Thread stopped gracefully.
+[11:11:21] [Server Shutdown Thread/INFO]: ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
