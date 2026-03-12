@@ -652,3 +652,25 @@
 [10:23:13] [Server thread/INFO]: FewerSteak1914[/127.155.199.86:51945] logged in with entity id 32979 at (2667.1941543898743, 68.0, -2484.8005394661573)
 [10:23:13] [Server thread/INFO]: FewerSteak1914 joined the game
 [10:23:52] [Worker-Main-6/WARN]: Empty or non-existent pool: minecraft:minecraft_empty
+[10:27:19] [Worker-Main-5/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[10:28:10] [Server thread/INFO]: [FewerSteak1914: Saved the game]
+[10:28:13] [Server thread/INFO]: [FewerSteak1914: Stopping the server]
+[10:28:21] [Worker-Main-4/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[10:28:43] [Server thread/INFO]: Shutdown countdown complete, stopping the server.
+[10:28:43] [Server thread/INFO]: ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[10:28:49] [Server thread/INFO]: Stopping server
+[10:28:49] [Server thread/INFO]: Saving players
+[10:28:49] [Server thread/INFO]: FewerSteak1914 lost connection: Server closed
+[10:28:49] [Server thread/INFO]: FewerSteak1914 left the game
+[10:28:49] [Server thread/INFO]: Saving worlds
+[10:28:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10:28:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[10:28:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[10:28:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:28:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:28:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:28:50] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10:28:50] [Server thread/INFO]: Saving Server Backpacks's data!
+[10:28:50] [Server Shutdown Thread/INFO]: ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[10:28:50] [Thread-4/INFO]: Thread stopped gracefully.
+[10:28:50] [Thread-5/INFO]: Thread stopped gracefully.
