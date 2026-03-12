@@ -18,7 +18,8 @@
       "minecraft:cherry_grove": "2026-03-10 03:48:07 +0000",
       "minecraft:sunflower_plains": "2026-03-12 09:56:49 +0000",
       "minecraft:river": "2026-03-10 14:33:28 +0000",
-      "minecraft:plains": "2026-03-10 03:51:55 +0000"
+      "minecraft:plains": "2026-03-10 03:51:55 +0000",
+      "clifftree:granite_shore": "2026-03-12 10:02:52 +0000"
     },
     "done": false
   },
@@ -30,6 +31,7 @@
       "minecraft:cherry_grove": "2026-03-10 03:48:07 +0000",
       "minecraft:sunflower_plains": "2026-03-12 09:56:49 +0000",
       "minecraft:river": "2026-03-10 14:33:28 +0000",
+      "minecraft:stony_shore": "2026-03-12 10:02:52 +0000",
       "minecraft:plains": "2026-03-10 03:51:55 +0000"
     },
     "done": false
@@ -2369,9 +2371,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/dye_magenta_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-03-12 09:58:18 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/cooking/stuffed_pumpkin_block": {
     "criteria": {
       "has_pumpkin": "2026-03-12 09:57:18 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/love_block": {
+    "criteria": {
+      "has_red_dye": "2026-03-12 09:58:16 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/misc/rainbow_petal_from_rainbow_rose": {
+    "criteria": {
+      "has_rainbow_rose": "2026-03-12 10:00:02 +0000"
     },
     "done": true
   },
@@ -2405,9 +2425,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/dye_magenta_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-03-12 09:58:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2026-03-12 10:01:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_candle": {
+    "criteria": {
+      "has_magenta_dye": "2026-03-12 09:58:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/pumpkin_pie": {
     "criteria": {
       "has_pumpkin": "2026-03-12 09:57:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/magenta_bundle": {
+    "criteria": {
+      "has_magenta_dye": "2026-03-12 09:58:18 +0000"
     },
     "done": true
   },
@@ -2417,9 +2461,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dye_red_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-03-12 09:58:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/orange_dye_from_red_yellow": {
     "criteria": {
       "has_yellow_dye": "2026-03-12 09:58:03 +0000"
+    },
+    "done": true
+  },
+  "sandstone_dyeing:recipes/building_blocks/red_sandstone": {
+    "criteria": {
+      "has_dye": "2026-03-12 09:58:16 +0000"
+    },
+    "done": true
+  },
+  "sandstone_dyeing:recipes/building_blocks/smooth_red_sandstone": {
+    "criteria": {
+      "has_dye": "2026-03-12 09:58:16 +0000"
+    },
+    "done": true
+  },
+  "polydecorations:recipes/decorations/dye_red_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2026-03-12 09:58:16 +0000"
     },
     "done": true
   },
@@ -2429,15 +2497,51 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/dye_red_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-03-12 09:58:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_orange_tulip": {
+    "criteria": {
+      "has_orange_tulip": "2026-03-12 10:00:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/yellow_dye_from_sunflower": {
     "criteria": {
       "has_sunflower": "2026-03-12 09:57:40 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/decorations/red_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_red_dye": "2026-03-12 09:58:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_white_tulip": {
+    "criteria": {
+      "has_white_tulip": "2026-03-12 09:59:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
+    "criteria": {
+      "has_orange_tulip": "2026-03-12 10:00:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/magenta_dye_from_lilac": {
     "criteria": {
       "has_lilac": "2026-03-12 09:58:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_allium": {
+    "criteria": {
+      "has_allium": "2026-03-12 10:01:17 +0000"
     },
     "done": true
   },
@@ -2453,9 +2557,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/magenta_dye_from_allium": {
+    "criteria": {
+      "has_allium": "2026-03-12 10:01:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
+    "criteria": {
+      "has_white_tulip": "2026-03-12 09:59:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/dye_yellow_bed": {
     "criteria": {
       "has_needed_dye": "2026-03-12 09:58:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2026-03-12 10:01:29 +0000"
     },
     "done": true
   },
@@ -2468,6 +2590,66 @@
   "minecraft:recipes/decorations/dye_yellow_carpet": {
     "criteria": {
       "has_needed_dye": "2026-03-12 09:58:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_red_dye": "2026-03-12 09:58:16 +0000"
+    },
+    "done": true
+  },
+  "polydecorations:recipes/decorations/dye_magenta_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2026-03-12 09:58:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_red_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-03-12 09:58:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_magenta_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-03-12 09:58:18 +0000"
+    },
+    "done": true
+  },
+  "friendsandfoes:misc/yellow_dye_from_buttercup": {
+    "criteria": {
+      "has_buttercup": "2026-03-12 09:58:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_candle": {
+    "criteria": {
+      "has_red_dye": "2026-03-12 09:58:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/red_bundle": {
+    "criteria": {
+      "has_red_dye": "2026-03-12 09:58:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_magenta_harness": {
+    "criteria": {
+      "has_needed_dye": "2026-03-12 09:58:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_magenta_dye": "2026-03-12 09:58:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_red_harness": {
+    "criteria": {
+      "has_needed_dye": "2026-03-12 09:58:16 +0000"
     },
     "done": true
   },
