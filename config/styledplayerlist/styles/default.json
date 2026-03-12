@@ -1,21 +1,21 @@
 {
-  "style_name": "Default",
-  "update_tick_time": 30,
-  "list_header": [
-    "",
-    "",
-    "<shadow value:#0></> <font 'unsanded:default'><gr #f7e1a7 #f39240><shadow scale:0.4>dhpOS</></> Server! </>",
-    "<gray><font 'unsanded:default'>1.21.5-v0.3.0",
-    "",
-    "<#555555> <strikethrough>          </strikethrough>[ </><#FF5555>%server:online%<#666666>/</>%server:max_players%</><#555555> ]<strikethrough>          </strikethrough> </>",
-    ""
-  ],
-  "list_footer": [
-    "",
-    "<#555555><strikethrough>                              </strikethrough></>",
-    "",
-    "<gray>TPS: %spark:tps 5s% <dark_gray>|</dark_gray> <gray>Ping: <#ffba26>%player:ping%</>",
-    ""
-  ],
-  "hidden_in_commands": false
-}
+	"style_name": "Default",
+	"update_tick_time": 30,
+	"list_header": [
+	  "",
+	  "",
+	  "<shadow value:#0><font 'polymania:icons'>0</></> <font 'unsanded:default'><gr #f7e1a7 #f39240><shadow scale:0.4>Polymania</></> Modpack! </>",
+	  "<gray><font 'unsanded:default'>{ %simpleupdatechecker:version% }",
+	  "",
+	  "<#555555> <strikethrough>          </strikethrough>[ </><#FF5555>%server:online%<#666666>/</>%server:max_players%</><#555555> ]<strikethrough>          </strikethrough> </>",
+	  ""
+	],
+	"list_footer": [
+	  "",
+	  "<#555555><strikethrough>                              </strikethrough></>",
+	  "",
+	  "<gray>TPS: %spark:tps 5s% <dark_gray>|</dark_gray> <gray>Ping: <#ffba26>%player:ping%</>",
+	  ""
+	],
+	"hidden_in_commands": false
+  }
