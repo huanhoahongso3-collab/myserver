@@ -661,7 +661,10 @@
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
       "onion": "2026-03-10 12:37:23 +0000",
+      "potato": "2026-03-12 09:41:04 +0000",
+      "wheat": "2026-03-12 09:42:19 +0000",
       "tomato": "2026-03-10 12:37:32 +0000",
+      "beetroot": "2026-03-12 09:41:44 +0000",
       "carrot": "2026-03-10 14:23:44 +0000"
     },
     "done": false
@@ -1862,6 +1865,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2026-03-12 09:41:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/dye_gray_bed": {
     "criteria": {
       "has_needed_dye": "2026-03-12 09:30:21 +0000"
@@ -1886,9 +1895,33 @@
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/beetroot_crate": {
+    "criteria": {
+      "has_beetroot": "2026-03-12 09:41:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2026-03-12 09:38:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2026-03-12 09:38:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/leather_horse_armor": {
     "criteria": {
       "has_leather": "2026-03-12 09:35:38 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/squid_ink_pasta": {
+    "criteria": {
+      "has_any_ingredient": "2026-03-12 09:40:41 +0000"
     },
     "done": true
   },
@@ -1922,6 +1955,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/building_blocks/tomato_crate": {
+    "criteria": {
+      "has_tomato": "2026-03-12 09:40:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dye_light_gray_wool": {
     "criteria": {
       "has_needed_dye": "2026-03-12 09:32:01 +0000"
@@ -1931,6 +1970,12 @@
   "polydecorations:recipes/decorations/white_sleeping_bag": {
     "criteria": {
       "planks": "2026-03-12 09:37:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2026-03-12 09:41:41 +0000"
     },
     "done": true
   },
@@ -1949,6 +1994,18 @@
   "minecraft:recipes/decorations/light_gray_candle": {
     "criteria": {
       "has_light_gray_dye": "2026-03-12 09:32:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/slabs/bread": {
+    "criteria": {
+      "has_item": "2026-03-12 09:42:15 +0000"
+    },
+    "done": true
+  },
+  "craftable_bundles_rabbit_hide:recipes/bundle_rabbit_hide": {
+    "criteria": {
+      "has_string": "2026-03-12 09:38:41 +0000"
     },
     "done": true
   },
@@ -1973,6 +2030,12 @@
   "minecraft:recipes/food/cooked_porkchop_from_smoking": {
     "criteria": {
       "has_porkchop": "2026-03-12 09:34:34 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2026-03-12 09:41:41 +0000"
     },
     "done": true
   },
@@ -2009,6 +2072,12 @@
   "blockus:recipes/building_blocks/light_gray_colored_tiles": {
     "criteria": {
       "has_light_gray_concrete": "2026-03-12 09:32:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/bundle": {
+    "criteria": {
+      "has_the_recipe": "2026-03-12 09:38:38 +0000"
     },
     "done": true
   },
@@ -2054,6 +2123,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2026-03-12 09:38:41 +0000"
+    },
+    "done": true
+  },
   "polydecorations:recipes/decorations/dye_gray_sleeping_bag": {
     "criteria": {
       "has_needed_dye": "2026-03-12 09:30:21 +0000"
@@ -2087,6 +2162,12 @@
   "toms_mobs:recipes/building_blocks/lime_elephant_harness": {
     "criteria": {
       "has_leather": "2026-03-12 09:35:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2026-03-12 09:38:41 +0000"
     },
     "done": true
   },
@@ -2130,6 +2211,12 @@
   "powder_to_glass:recipes/misc/light_gray_stained_glass": {
     "criteria": {
       "has_powder": "2026-03-12 09:32:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_string": "2026-03-12 09:38:41 +0000"
     },
     "done": true
   },
@@ -2193,9 +2280,39 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/cooking/tomato_sauce": {
+    "criteria": {
+      "has_tomato": "2026-03-12 09:40:41 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/tomato_seeds": {
+    "criteria": {
+      "has_tomato": "2026-03-12 09:40:41 +0000"
+    },
+    "done": true
+  },
+  "polydecorations:recipes/decorations/rope": {
+    "criteria": {
+      "planks": "2026-03-12 09:38:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2026-03-12 09:38:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipe/building_blocks/light_gray_bouncy_block": {
     "criteria": {
       "has_light_gray_concrete": "2026-03-12 09:32:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "beetroots": "2026-03-12 09:41:44 +0000"
     },
     "done": true
   },
@@ -2208,6 +2325,12 @@
   "minecraft:recipes/building_blocks/dye_gray_wool": {
     "criteria": {
       "has_needed_dye": "2026-03-12 09:30:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2026-03-12 09:38:41 +0000"
     },
     "done": true
   },
