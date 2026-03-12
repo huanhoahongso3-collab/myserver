@@ -1,39 +1,475 @@
-[13:45:27] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.13
-[13:45:27] [ForkJoinPool-1-worker-4/WARN]: Mod cinderscapes uses the version cinderscapes-v5.2.0-beta.1.0+1.21.4+1.20.3.4087688 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'cinderscapes'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[13:45:27] [ForkJoinPool-1-worker-4/WARN]: Mod cinderscapes-common uses the version cinderscapes-v5.2.0-beta.1.0+1.21.4+1.20.3.4087688+polymania which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'cinderscapes'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[13:45:27] [ForkJoinPool-1-worker-3/WARN]: Mod terrestria uses the version v7.2.0-beta.1.2+1.21.4+another_1.20.bd3724e9 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[13:45:27] [ForkJoinPool-1-worker-3/WARN]: Mod terrestria-client uses the version v7.2.0-beta.1.2+1.21.4+another_1.20.bd3724e9 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[13:45:27] [ForkJoinPool-1-worker-3/WARN]: Mod terrestria-common uses the version v7.2.0-beta.1.2+1.21.4+another_1.20.bd3724e9 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[13:45:27] [ForkJoinPool-1-worker-3/WARN]: Mod terrestria-worldgen uses the version v7.2.0-beta.1.2+1.21.4+another_1.20.bd3724e9 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[13:45:27] [ForkJoinPool-1-worker-3/WARN]: Mod cinderscapes-worldgen uses the version cinderscapes-v5.2.0-beta.1.0+1.21.4+1.20.3.4087688+polymania which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'cinderscapes'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[13:45:27] [ForkJoinPool-1-worker-4/WARN]: Mod cinderscapes-client uses the version cinderscapes-v5.2.0-beta.1.0+1.21.4+1.20.3.4087688+polymania which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'cinderscapes'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[13:45:27] [main/INFO]: Dependencies overridden for puzzleslib, forgeconfigapiport, televator, jsonpatcher, bil, leavesbegone, computercraft, openloader, filament, braverbundles
-[13:45:27] [main/WARN]: Mod resolution failed
-[13:45:27] [main/INFO]: Immediate reason: [HARD_DEP_NO_CANDIDATE wlodzimiers_blocks 1.1.4+1.21.5 {depends fabricloader @ [>=0.17.3]}, ROOT_FORCELOAD_SINGLE wlodzimiers_blocks 1.1.4+1.21.5]
-[13:45:27] [main/INFO]: Reason: [HARD_DEP wlodzimiers_blocks 1.1.4+1.21.5 {depends fabricloader @ [>=0.17.3]}, HARD_DEP viafabric-mc1144 0.4.18+104-main {depends minecraft @ [1.14.4]}, HARD_DEP viafabric-mc1152 0.4.18+104-main {depends minecraft @ [1.15.2]}, HARD_DEP viafabric-mc1165 0.4.18+104-main {depends minecraft @ [1.16.4 || 1.16.5]}, HARD_DEP viafabric-mc1171 0.4.18+104-main {depends minecraft @ [1.17.1]}, HARD_DEP viafabric-mc1182 0.4.18+104-main {depends minecraft @ [1.18.2]}, HARD_DEP viafabric-mc1194 0.4.18+104-main {depends minecraft @ [1.19.4]}, HARD_DEP viafabric-mc1201 0.4.18+104-main {depends minecraft @ [1.20 || 1.20.1]}, HARD_DEP viafabric-mc1206 0.4.18+104-main {depends minecraft @ [1.20.5 || 1.20.6]}]
-[13:45:27] [main/INFO]: SERVER environment disabled: [fabric-model-loading-api-v1, fabric-renderer-api-v1, fabric-keybindings-v0, cinderscapes-client, cotton-client-commands, fabric-client-tags-api-v1, fabric-sound-api-v1, fabric-screen-api-v1, fabric-key-binding-api-v1, fabric-rendering-v1, fabric-renderer-indigo, fabric-blockrenderlayer-v1]
-[13:45:27] [main/INFO]: Fix: add [], remove [], replace [[fabricloader 0.16.13] -> add:fabricloader 0.17.3 ([[0.17.3,∞)])]
-[13:45:27] [main/ERROR]: Incompatible mods found!
-net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
-A potential solution has been determined, this may resolve your problem:
-	 - Replace mod 'Fabric Loader' (fabricloader) 0.16.13 with version 0.17.3 or later.
-More details:
-	 - Mod 'Wlodzimiers Blocks' (wlodzimiers_blocks) 1.1.4+1.21.5 requires version 0.17.3 or later of mod 'Fabric Loader' (fabricloader), but only the wrong version is present: 0.16.13!
-	 - Mod 'ViaFabric for 1.14' (viafabric-mc1144) 0.4.18+104-main requires version 1.14.4 of 'Minecraft' (minecraft), but only the wrong version is present: 1.21.5!
-	 - Mod 'ViaFabric for 1.15' (viafabric-mc1152) 0.4.18+104-main requires version 1.15.2 of 'Minecraft' (minecraft), but only the wrong version is present: 1.21.5!
-	 - Mod 'ViaFabric for 1.16' (viafabric-mc1165) 0.4.18+104-main requires version 1.16.4 or version 1.16.5 of 'Minecraft' (minecraft), but only the wrong version is present: 1.21.5!
-	 - Mod 'ViaFabric for 1.17' (viafabric-mc1171) 0.4.18+104-main requires version 1.17.1 of 'Minecraft' (minecraft), but only the wrong version is present: 1.21.5!
-	 - Mod 'ViaFabric for 1.18' (viafabric-mc1182) 0.4.18+104-main requires version 1.18.2 of 'Minecraft' (minecraft), but only the wrong version is present: 1.21.5!
-	 - Mod 'ViaFabric for 1.19' (viafabric-mc1194) 0.4.18+104-main requires version 1.19.4 of 'Minecraft' (minecraft), but only the wrong version is present: 1.21.5!
-	 - Mod 'ViaFabric for 1.20.1' (viafabric-mc1201) 0.4.18+104-main requires version 1.20 or version 1.20.1 of 'Minecraft' (minecraft), but only the wrong version is present: 1.21.5!
-	 - Mod 'ViaFabric for 1.20.5/6' (viafabric-mc1206) 0.4.18+104-main requires version 1.20.5 or version 1.20.6 of 'Minecraft' (minecraft), but only the wrong version is present: 1.21.5!
-	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.16.13.jar:?]
-	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:196) ~[fabric-loader-0.16.13.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:146) ~[fabric-loader-0.16.13.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) [fabric-loader-0.16.13.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.13.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.13.jar:?]
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [mc-1.21.5_fab-0.16.13_inst_1.1.1.jar:1.1.1]
-	at eu.pb4.mrpackserver.launch.Launcher.execute(Launcher.java:118) [spigot.jar:0.5.0]
-	at eu.pb4.mrpackserver.launch.Launcher.launchFinal(Launcher.java:141) [spigot.jar:0.5.0]
-	at eu.pb4.mrpackserver.Main.main(Main.java:128) [spigot.jar:0.5.0]
+[13:49:28] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.17.3
+[13:49:28] [main/INFO]: Fabric is preparing JARs on first launch, this may take a few seconds...
+[13:49:28] [ForkJoinPool-1-worker-1/WARN]: Mod cinderscapes uses the version cinderscapes-v5.2.0-beta.1.0+1.21.4+1.20.3.4087688 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'cinderscapes'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[13:49:28] [ForkJoinPool-1-worker-1/WARN]: Mod cinderscapes-common uses the version cinderscapes-v5.2.0-beta.1.0+1.21.4+1.20.3.4087688+polymania which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'cinderscapes'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[13:49:28] [ForkJoinPool-1-worker-3/WARN]: Mod terrestria uses the version v7.2.0-beta.1.2+1.21.4+another_1.20.bd3724e9 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[13:49:28] [ForkJoinPool-1-worker-1/WARN]: Mod cinderscapes-client uses the version cinderscapes-v5.2.0-beta.1.0+1.21.4+1.20.3.4087688+polymania which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'cinderscapes'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[13:49:28] [ForkJoinPool-1-worker-3/WARN]: Mod terrestria-worldgen uses the version v7.2.0-beta.1.2+1.21.4+another_1.20.bd3724e9 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[13:49:28] [ForkJoinPool-1-worker-1/WARN]: Mod cinderscapes-worldgen uses the version cinderscapes-v5.2.0-beta.1.0+1.21.4+1.20.3.4087688+polymania which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'cinderscapes'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[13:49:28] [ForkJoinPool-1-worker-3/WARN]: Mod terrestria-client uses the version v7.2.0-beta.1.2+1.21.4+another_1.20.bd3724e9 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[13:49:28] [ForkJoinPool-1-worker-3/WARN]: Mod terrestria-common uses the version v7.2.0-beta.1.2+1.21.4+another_1.20.bd3724e9 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[13:49:28] [main/INFO]: Dependencies overridden for puzzleslib, forgeconfigapiport, televator, jsonpatcher, bil, leavesbegone, computercraft, openloader, filament, braverbundles
+[13:49:28] [main/WARN]: Warnings were found!
+ - Mod 'Extended Drawers' (extended_drawers) 4.1.0+mc.1.21.5 recommends any version of patchouli, which is missing!
+	 - You should install any version of patchouli for the optimal experience.
+ - Mod 'Forge Config API Port' (forgeconfigapiport) 21.5.1 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+[13:49:28] [main/INFO]: Loading 221 mods:
+	- alternate-current 1.9.0
+	- antixray 1.4.10
+	   |-- com_moandjiezana_toml_toml4j 0.7.2
+	   \-- fabric-permissions-api-v0 0.3.3
+	- architectury 16.1.4
+	- armor-stand-editor 2.8.0+1.21.5-rc1
+	   |-- common-protection-api 1.0.0
+	   |-- fabric-permissions-api-v0 0.3.3
+	   |-- player-data-api 0.7.0+1.21.5
+	   \-- sgui 1.9.0+1.21.5
+	- audaki_cart_engine 4.2.0
+	- babyfat 1.0.2+1.21.5
+	- balloons 1.0.0+1.21.5
+	   \-- bil 1.4.0-dev+1.21.5
+	- balm 21.5.14
+	   \-- kuma_api 21.5.2
+	- biome_tag_villagers 1.4.0
+	- blahaj 3.1.0+1.21.4
+	- blockus 2.12.0+1.21.5
+	   \-- terraform-wood-api-v1 14.0.0-alpha.2
+	- blossom-homes 2.2.10+1.21.5
+	- blossom-lib 2.5.15+1.21.5
+	   \-- server_translations_api 2.5.1+1.21.5
+	        \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	- borukva-food 0.1.12+1.21.5
+	   |-- fabric-permissions-api-v0 0.3.3
+	   |-- factorytools 0.6.1+1.21.5
+	   \-- sgui 1.9.0+1.21.5
+	- braverbundles 1.21.5-1.0.5
+	- brewery 0.11.1+1.21.5
+	   |-- fabric-permissions-api-v0 0.3.3
+	   |-- net_objecthunter_exp4j 0.4.8
+	   \-- sgui 1.9.0+1.21.5
+	- brutalnightmare 5.3
+	- cinderscapes cinderscapes-v5.2.0-beta.1.0+1.21.4+1.20.3.4087688
+	   |-- biolith 3.3.0-alpha.4
+	   |-- cinderscapes-client cinderscapes-v5.2.0-beta.1.0+1.21.4+1.20.3.4087688+polymania
+	   |-- cinderscapes-common cinderscapes-v5.2.0-beta.1.0+1.21.4+1.20.3.4087688+polymania
+	   |-- cinderscapes-worldgen cinderscapes-v5.2.0-beta.1.0+1.21.4+1.20.3.4087688+polymania
+	   |-- mixson 1.3.1.1
+	   |-- terraform-biome-remapper-api-v1 14.0.0-alpha.2
+	   |-- terraform-shapes-api-v1 14.0.0-alpha.2
+	   |-- terraform-surfaces-api-v1 14.0.0-alpha.2
+	   \-- terraform-wood-api-v1 14.0.0-alpha.2
+	- cloth-config 18.0.145
+	   \-- cloth-basic-math 0.6.1
+	- clumps 23.0.0.1
+	- danse 2.1.3+1.21.5
+	- easyeula 1.1.1
+	- explorify 1.6.2
+	- extended-drawers-polymer-patch 4.1.0.0+1.21.5
+	   \-- sgui 1.9.0+1.21.5
+	- extended_drawers 4.1.0+mc.1.21.5
+	   |-- config_toolkit 1.1.2
+	   |    |-- io_determann_shadow-api-17 0.2.0
+	   |    \-- net_fabricmc_javapoet 0.1.0
+	   |-- graphlib 2.0.3-beta.1+1.21.5
+	   |    |-- codextra 2.0.0+1.21
+	   |    \-- common_events 1.0.0+1.21
+	   \-- yet_another_config_lib_v3 3.6.6+1.21.5-fabric
+	        |-- com_twelvemonkeys_common_common-image 3.12.0
+	        |-- com_twelvemonkeys_common_common-io 3.12.0
+	        |-- com_twelvemonkeys_common_common-lang 3.12.0
+	        |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	        |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	        |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+	        |-- org_quiltmc_parsers_gson 0.2.1
+	        \-- org_quiltmc_parsers_json 0.2.1
+	- fabric-api 0.122.0+1.21.5
+	   |-- fabric-api-base 0.4.62+73a52b4b49
+	   |-- fabric-api-lookup-api-v1 1.6.96+86c3a9f149
+	   |-- fabric-biome-api-v1 16.0.7+2dd063df49
+	   |-- fabric-block-api-v1 1.0.37+86c3a9f149
+	   |-- fabric-block-view-api-v2 1.0.26+aa6d566c49
+	   |-- fabric-blockrenderlayer-v1 2.0.16+86c3a9f149
+	   |-- fabric-client-tags-api-v1 1.1.37+86c3a9f149
+	   |-- fabric-command-api-v1 1.2.70+f71b366f49
+	   |-- fabric-command-api-v2 2.2.49+73a52b4b49
+	   |-- fabric-commands-v0 0.2.87+df3654b349
+	   |-- fabric-content-registries-v0 10.0.13+3e6c1f7d49
+	   |-- fabric-convention-tags-v1 2.1.30+7f945d5b49
+	   |-- fabric-convention-tags-v2 2.14.4+fca633a049
+	   |-- fabric-crash-report-info-v1 0.3.12+86c3a9f149
+	   |-- fabric-data-attachment-api-v1 1.7.1+3848f36e49
+	   |-- fabric-data-generation-api-v1 22.3.5+fd2b524049
+	   |-- fabric-dimensions-v1 4.0.17+3e6c1f7d49
+	   |-- fabric-entity-events-v1 2.0.25+27c1078f49
+	   |-- fabric-events-interaction-v0 4.0.13+73a52b4b49
+	   |-- fabric-game-rule-api-v1 1.0.70+c327076a49
+	   |-- fabric-item-api-v1 11.4.0+e46fd76a49
+	   |-- fabric-item-group-api-v1 4.2.8+3459fc6149
+	   |-- fabric-key-binding-api-v1 1.0.63+ecf51cdc49
+	   |-- fabric-keybindings-v0 0.2.61+df3654b349
+	   |-- fabric-lifecycle-events-v1 2.6.0+230071a049
+	   |-- fabric-loot-api-v2 3.0.47+3f89f5a549
+	   |-- fabric-loot-api-v3 1.0.35+86c3a9f149
+	   |-- fabric-message-api-v1 6.0.33+86c3a9f149
+	   |-- fabric-model-loading-api-v1 5.2.0+c982b95149
+	   |-- fabric-networking-api-v1 4.4.0+f3ffa98949
+	   |-- fabric-object-builder-api-v1 21.0.0+7b20cbb049
+	   |-- fabric-particles-v1 4.1.1+112e550e49
+	   |-- fabric-recipe-api-v1 8.1.6+052a85d049
+	   |-- fabric-registry-sync-v0 6.1.20+b556383249
+	   |-- fabric-renderer-api-v1 6.0.2+c982b95149
+	   |-- fabric-renderer-indigo 3.0.3+3e6c1f7d49
+	   |-- fabric-rendering-data-attachment-v1 0.3.64+73761d2e49
+	   |-- fabric-rendering-fluids-v1 3.1.27+86c3a9f149
+	   |-- fabric-rendering-v1 11.1.11+5490746649
+	   |-- fabric-resource-conditions-api-v1 5.0.21+73a52b4b49
+	   |-- fabric-resource-loader-v0 3.1.6+02ca679649
+	   |-- fabric-screen-api-v1 2.0.46+86c3a9f149
+	   |-- fabric-screen-handler-api-v1 1.3.127+c327076a49
+	   |-- fabric-sound-api-v1 1.0.38+86c3a9f149
+	   |-- fabric-tag-api-v1 1.0.16+ecf51cdc49
+	   |-- fabric-transfer-api-v1 5.4.24+7b20cbb049
+	   \-- fabric-transitive-access-wideners-v1 6.3.17+f17a180c49
+	- fabric-language-kotlin 1.13.2+kotlin.2.1.20
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.1.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.1.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.1.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.1.20
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.27.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.1
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.1
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.2
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.7.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.7.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.8.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.8.0
+	- fabricloader 0.17.3
+	   \-- mixinextras 0.5.0
+	- farmtweaks 1.4
+	- ferritecore 8.0.0
+	- filament 0.16.3+1.21.5
+	- fokusapi 4.0
+	- forgeconfigapiport 21.5.1
+	   |-- com_electronwill_night-config_core 3.8.1
+	   \-- com_electronwill_night-config_toml 3.8.1
+	- fsit 2.7.8+mc1.21.2
+	- glideaway 1.5.1+1.21.5
+	   \-- common-protection-api 1.0.0
+	- go-fish 1.7.2+1.21.5
+	- goml 1.16.0+1.21.5
+	   |-- cardinal-components-world 6.3.0-alpha.1+25w09b
+	   |-- common-protection-api 1.0.0
+	   |-- fabric-permissions-api-v0 0.3.3
+	   |-- playerabilitylib 1.12.0-alpha.patbox
+	   |-- rtree-3i-lite-fabric 0.3.0
+	   \-- sgui 1.9.0+1.21.5
+	- illagerexp 1.2.0
+	   |-- mm 2.3
+	   \-- sgui 1.9.0+1.21.5
+	- java 21
+	- jsonpatcher 1.1.2+mc.1.21.4
+	   |-- com_github_mattidragon_jsonpatcherlang_jsonpatcher-docs 1.0.0
+	   |-- config_toolkit 1.1.2
+	   |    |-- io_determann_shadow-api-17 0.2.0
+	   |    \-- net_fabricmc_javapoet 0.1.0
+	   \-- jsonpatcher-lang 1.0.0
+	- kleeslabs 21.5.1
+	- leaves_us_in_peace 1.8.2
+	- lithium 0.16.2+mc1.21.5
+	- microfighters 1.0.4+1.21.5
+	- midnightlib 1.7.2
+	- minecraft 1.21.5
+	- morefurnaces 1.2.0+1.21.5
+	   \-- dev_smto_simpleconfig 1.1.0
+	- moretools 1.8.2+1.21.5
+	- mr_banner_text 1.3.3
+	- mr_clifftree 2.1.1
+	- mr_dungeons_andtaverns 1-v4.7
+	- mr_nightosphere 2.0
+	- nethermap 4.2.0+1.21.5
+	- open_sesame 1.2.0.0
+	- ouch 1.4.0+1.21.5
+	   \-- predicate-api 0.6.0+1.21.2
+	- perplayerwanderingtraders 1.0.2+1.21.5-rc1
+	- placeholder-api 2.6.3+1.21.5
+	- plasticgun 2.0.2
+	- polyconfig 0.3.9
+	   \-- dev_hbeck_kdl_kdl4j 0.2.0
+	- polydecorations 0.7.4+1.21.5
+	   |-- common-protection-api 1.0.0
+	   |-- factorytools 0.6.1+1.21.5
+	   |-- map-canvas-api 0.5.0+1.21.3
+	   \-- sgui 1.9.0+1.21.5
+	- polydex 1.5.0+1.21.5-rc2
+	   |-- fabric-permissions-api-v0 0.3.3
+	   |-- player-data-api 0.7.0+1.21.5
+	   |-- predicate-api 0.6.0+1.21.2
+	   \-- sgui 1.9.0+1.21.5
+	- polyfactory 0.7.1+1.21.5
+	   |-- common-protection-api 1.0.0
+	   |-- graphlib 2.0.3-beta.1+1.21.5
+	   |    |-- codextra 2.0.0+1.21
+	   |    \-- common_events 1.0.0+1.21
+	   |-- map-canvas-api 0.5.0+1.21.3
+	   |-- sgui 1.9.0+1.21.5
+	   \-- sidebar-api 0.5.1+1.21.1
+	- polymc 5.7.0-rev.94a1f65+1.21.5
+	   \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	- polymer-bundled 0.12.4+1.21.5
+	   |-- polymer-autohost 0.12.4+1.21.5
+	   |    \-- io_netty_netty-codec-http 4.1.82
+	   |-- polymer-blocks 0.12.4+1.21.5
+	   |-- polymer-common 0.12.4+1.21.5
+	   |    \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	   |-- polymer-core 0.12.4+1.21.5
+	   |    |-- polymer-networking 0.12.4+1.21.5
+	   |    |    \-- polymer-common 0.12.4+1.21.5
+	   |    |         \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	   |    \-- polymer-registry-sync-manipulator 0.12.4+1.21.5
+	   |-- polymer-resource-pack 0.12.4+1.21.5
+	   |    \-- polymer-common 0.12.4+1.21.5
+	   |         \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	   |-- polymer-resource-pack-extras 0.12.4+1.21.5
+	   \-- polymer-virtual-entity 0.12.4+1.21.5
+	        \-- polymer-common 0.12.4+1.21.5
+	             \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	- puddles 2.0.2
+	- rail-placement-fix 1.1.0
+	- reactify 1.2
+	- resource-locator-api 0.6.2+1.21.4
+	- restart_detector 1.2.5+1.21.5
+	- rocks 1.9.3+1.21.5
+	- serverbackpacks 1.3.8+1.21.5
+	   |-- fabric-permissions-api-v0 0.3.3
+	   |-- server_translations_api 2.5.1+1.21.5
+	   |    \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	   \-- sgui 1.9.0+1.21.5
+	- simple-registry-aliases 1.0.0+1.21.4
+	- simple-server-links 2.0.0
+	   \-- folk_sisby_kaleido-config 0.3.0+1.3.0
+	- simpleresourceloader 1.0.0+1.21.1
+	- simpleupdatechecker 1.1.0+1.21.3
+	- skinrestorer 2.6.0+1.21.5-fabric
+	   \-- org_mineskin_java-client 3.2.1-SNAPSHOT
+	- sleepwarp 2.7.0+1.21.5
+	- spark 1.10.128
+	   \-- fabric-permissions-api-v0 0.3.3
+	- styledchat 2.8.0+1.21.5
+	   |-- fabric-permissions-api-v0 0.3.3
+	   |-- player-data-api 0.7.0+1.21.5
+	   \-- predicate-api 0.6.0+1.21.2
+	- styledplayerlist 3.7.0+1.21.5
+	   |-- fabric-permissions-api-v0 0.3.3
+	   |-- player-data-api 0.7.0+1.21.5
+	   \-- predicate-api 0.6.0+1.21.2
+	- televator 1.2.4
+	- terrablender 5.0.0.1
+	- terrestria v7.2.0-beta.1.2+1.21.4+another_1.20.bd3724e9
+	   |-- biolith 3.3.0-alpha.4
+	   |-- terraform-biome-remapper-api-v1 14.0.0-alpha.2
+	   |-- terraform-config-api-v1 14.0.0-alpha.2
+	   |-- terraform-dirt-api-v1 14.0.0-alpha.2
+	   |-- terraform-shapes-api-v1 14.0.0-alpha.2
+	   |-- terraform-surfaces-api-v1 14.0.0-alpha.2
+	   |-- terraform-tree-api-v1 14.0.0-alpha.2
+	   |-- terraform-wood-api-v1 14.0.0-alpha.2
+	   |-- terrestria-client v7.2.0-beta.1.2+1.21.4+another_1.20.bd3724e9
+	   |-- terrestria-common v7.2.0-beta.1.2+1.21.4+another_1.20.bd3724e9
+	   \-- terrestria-worldgen v7.2.0-beta.1.2+1.21.4+another_1.20.bd3724e9
+	- toms_mobs 2.2.5+1.21.5
+	- tpa-utilities 1.2.0
+	- trinkets 3.11.0-beta.1+polymerport.1
+	   |-- cardinal-components-base 6.3.0
+	   |-- cardinal-components-entity 6.3.0
+	   |-- player-data-api 0.7.0+1.21.5
+	   \-- sgui 1.9.0+1.21.5
+	- tsa-concrete 1.1.1+1.21.2-rc1-1.21.2-rc1
+	- tsa-decorations 2.1.6+1.21.5
+	   \-- sgui 1.9.0+1.21.5
+	- tsa-planks 1.1.2+1.21.2-rc1
+	- tsa-stone 1.1.5
+	- universal-graves 3.7.1+1.21.5
+	   |-- common-protection-api 1.0.0
+	   |-- fabric-permissions-api-v0 0.3.3
+	   |-- predicate-api 0.6.0+1.21.2
+	   \-- sgui 1.9.0+1.21.5
+	- universal_shops 1.10.1+1.21.5
+	   |-- common-economy-api 1.1.1
+	   |-- common-protection-api 1.0.0
+	   |-- fabric-permissions-api-v0 0.3.3
+	   \-- sgui 1.9.0+1.21.5
+	- vaulted-end 1.3.1
+	- viabackwards 5.7.2
+	- viafabric 0.4.18+104-main
+	   |-- cotton-client-commands 1.1.0+1.15.2
+	   \-- viafabric-mc1215 0.4.18+104-main
+	- viaversion 5.7.3-SNAPSHOT
+	- visualjukebox 1.0.3+1.21.5
+	- wlodzimiers_blocks 1.1.4+1.21.5
+	- woods_and_mires 2.1.2-polymania+1.21.5
+	   \-- com_typesafe_config 1.4.2
+[13:49:28] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/runner/work/myserver/myserver/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[13:49:28] [main/INFO]: Compatibility level set to JAVA_16
+[13:49:28] [main/INFO]: Compatibility level set to JAVA_17
+[13:49:28] [main/INFO]: Compatibility level set to JAVA_21
+[13:49:29] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:49:29] [main/WARN]: Reference map 'kleeslabs.refmap.json' for kleeslabs.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:49:29] [main/WARN]: Reference map 'kleeslabs.refmap.json' for kleeslabs.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:49:29] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[13:49:29] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 0 override(s) found.
+[13:49:29] [main/WARN]: Error loading class: vazkii/botania/common/entity/EntityManaBurst (java.lang.ClassNotFoundException: vazkii/botania/common/entity/EntityManaBurst)
+[13:49:29] [main/WARN]: Error loading class: vazkii/botania/common/item/ItemLaputaShard (java.lang.ClassNotFoundException: vazkii/botania/common/item/ItemLaputaShard)
+[13:49:29] [main/WARN]: @Mixin target vazkii.botania.common.item.ItemLaputaShard was not found goml.mixins.json:compat.BotaniaItemLaputaShardMixin from mod goml
+[13:49:29] [main/WARN]: Error loading class: org/dynmap/Client (java.lang.ClassNotFoundException: org/dynmap/Client)
+[13:49:30] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
+[13:49:30] [main/INFO]: CustomPacketDisabler is disabled by config
+[13:49:30] [main/INFO]: block.implementations.forceintcontrol.ChunkDeltaUpdateImplementation is disabled automatically
+[13:49:30] [main/INFO]: block.implementations.forceintcontrol.WriteRegistryValueImplementation is disabled automatically
+[13:49:30] [main/INFO]: compat.QuiltFabricRegistrySyncDisabler is disabled automatically
+[13:49:30] [main/INFO]: compat.QuiltRegistrySyncDisabler is disabled automatically
+[13:49:30] [main/INFO]: compat.immersive_portals.ImmPtlChunkTrackingMixin is disabled automatically
+[13:49:30] [main/INFO]: compat.immersive_portals.PlayerChunkLoadingMixin is disabled automatically
+[13:49:30] [main/INFO]: entity.RemoveTickerOnUnloadMixin is disabled automatically
+[13:49:30] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[13:49:38] [main/INFO]: Successfully initialized antixray for fabric
+[13:49:39] [main/INFO]: Biolith for Fabric is initializing...
+[13:49:39] [main/INFO]: Enabling Biolith's TerraBlender compatibility layer.
+[13:49:39] [main/INFO]: Tag time :gun:!
+[13:49:40] [main/INFO]: Register Mod Items
+[13:49:40] [main/INFO]: Blocks register
+[13:49:40] [main/INFO]: Gui Textures register
+[13:49:40] [main/INFO]: Successfully added mod assets for borukva-food
+[13:49:40] [main/INFO]: Enabling Cinderscapes' Biolith worldgen module.
+[13:49:40] [main/INFO]: Initializing Common Events 1.0.0+1.21...
+[13:49:40] [main/INFO]: [Common Events] Finding mods to scan...
+[13:49:40] [main/INFO]: [Common Events] Scanning 0 mods...
+[13:49:40] [main/INFO]: [Common Events] Scanned 0 mods in 0s, 71ms.
+[13:49:41] [main/INFO]: Initializing GraphLib...
+[13:49:41] [main/INFO]: GraphLib Initialized.
+[13:49:41] [main/INFO]: Why are there so many illagers?
+[13:49:41] [main/INFO]: Definitely not up to no good
+[13:49:41] [main/INFO]: MoreFurnaces loaded!
+[13:49:41] [main/INFO]: MoreTools loaded!
+[13:49:41] [main/INFO]: Guns are loaded
+[13:49:44] [main/INFO]: Successfully remapped 27914 vanilla blocks
+[13:49:44] [main/INFO]: Finished registering 48 items.
+[13:49:45] [ForkJoinPool.commonPool-worker-1/INFO]: =====================================================================
+[13:49:45] [ForkJoinPool.commonPool-worker-1/INFO]: Modpack update available! Current version 0.3.0, latest 0.6.2.
+[13:49:45] [ForkJoinPool.commonPool-worker-1/INFO]: Download it here: https://modrinth.com/mod/polymania/version/FDiFPHFg
+[13:49:45] [ForkJoinPool.commonPool-worker-1/INFO]: =====================================================================
+[13:49:45] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[13:49:45] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[13:49:45] [main/INFO]: Registered region woods_and_mires:biomes to index 1 for type OVERWORLD
+[13:49:45] [main/WARN]: Adding terrestria:smooth_basalt_slab as an alias for terrestria:smooth_volcanic_rock_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:49:45] [main/WARN]: Adding terrestria:basalt_button as an alias for terrestria:volcanic_rock_button, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:49:45] [main/WARN]: Adding terrestria:basalt_pressure_plate as an alias for terrestria:volcanic_rock_pressure_plate, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:49:45] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_slab as an alias for terrestria:mossy_volcanic_rock_cobblestone_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:49:45] [main/WARN]: Adding terrestria:smooth_basalt_stairs as an alias for terrestria:smooth_volcanic_rock_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:49:45] [main/WARN]: Adding terrestria:basalt_cobblestone_stairs as an alias for terrestria:volcanic_rock_cobblestone_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:49:45] [main/WARN]: Adding terrestria:mossy_basalt_brick_stairs as an alias for terrestria:mossy_volcanic_rock_brick_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:49:45] [main/WARN]: Adding terrestria:basalt_brick_stairs as an alias for terrestria:volcanic_rock_brick_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:49:45] [main/WARN]: Adding terrestria:basalt_brick_wall as an alias for terrestria:volcanic_rock_brick_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:49:45] [main/WARN]: Adding terrestria:basalt_cobblestone_wall as an alias for terrestria:volcanic_rock_cobblestone_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:49:45] [main/WARN]: Adding terrestria:mossy_basalt_brick_wall as an alias for terrestria:mossy_volcanic_rock_brick_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:49:45] [main/WARN]: Adding terrestria:basalt_wall as an alias for terrestria:volcanic_rock_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:49:45] [main/WARN]: Adding terrestria:basalt_stairs as an alias for terrestria:volcanic_rock_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:49:45] [main/WARN]: Adding terrestria:smooth_basalt_wall as an alias for terrestria:smooth_volcanic_rock_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:49:45] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_stairs as an alias for terrestria:mossy_volcanic_rock_cobblestone_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:49:45] [main/WARN]: Adding terrestria:basalt_brick_slab as an alias for terrestria:volcanic_rock_brick_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:49:45] [main/WARN]: Adding terrestria:basalt_cobblestone_slab as an alias for terrestria:volcanic_rock_cobblestone_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:49:45] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_wall as an alias for terrestria:mossy_volcanic_rock_cobblestone_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:49:45] [main/WARN]: Adding terrestria:mossy_basalt_brick_slab as an alias for terrestria:mossy_volcanic_rock_brick_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:49:45] [main/WARN]: Adding terrestria:basalt_slab as an alias for terrestria:volcanic_rock_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:49:45] [main/WARN]: Adding terrestria:smooth_basalt_slab as an alias for terrestria:smooth_volcanic_rock_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:49:45] [main/WARN]: Adding terrestria:basalt_button as an alias for terrestria:volcanic_rock_button, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:49:45] [main/WARN]: Adding terrestria:basalt_pressure_plate as an alias for terrestria:volcanic_rock_pressure_plate, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:49:45] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_slab as an alias for terrestria:mossy_volcanic_rock_cobblestone_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:49:45] [main/WARN]: Adding terrestria:smooth_basalt_stairs as an alias for terrestria:smooth_volcanic_rock_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:49:45] [main/WARN]: Adding terrestria:basalt_cobblestone_stairs as an alias for terrestria:volcanic_rock_cobblestone_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:49:45] [main/WARN]: Adding terrestria:mossy_basalt_brick_stairs as an alias for terrestria:mossy_volcanic_rock_brick_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:49:45] [main/WARN]: Adding terrestria:basalt_brick_stairs as an alias for terrestria:volcanic_rock_brick_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:49:45] [main/WARN]: Adding terrestria:basalt_brick_wall as an alias for terrestria:volcanic_rock_brick_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:49:45] [main/WARN]: Adding terrestria:basalt_cobblestone_wall as an alias for terrestria:volcanic_rock_cobblestone_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:49:45] [main/WARN]: Adding terrestria:mossy_basalt_brick_wall as an alias for terrestria:mossy_volcanic_rock_brick_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:49:45] [main/WARN]: Adding terrestria:basalt_wall as an alias for terrestria:volcanic_rock_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:49:45] [main/WARN]: Adding terrestria:basalt_stairs as an alias for terrestria:volcanic_rock_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:49:45] [main/WARN]: Adding terrestria:smooth_basalt_wall as an alias for terrestria:smooth_volcanic_rock_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:49:45] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_stairs as an alias for terrestria:mossy_volcanic_rock_cobblestone_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:49:45] [main/WARN]: Adding terrestria:basalt_brick_slab as an alias for terrestria:volcanic_rock_brick_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:49:45] [main/WARN]: Adding terrestria:basalt_cobblestone_slab as an alias for terrestria:volcanic_rock_cobblestone_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:49:45] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_wall as an alias for terrestria:mossy_volcanic_rock_cobblestone_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:49:45] [main/WARN]: Adding terrestria:mossy_basalt_brick_slab as an alias for terrestria:mossy_volcanic_rock_brick_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:49:45] [main/WARN]: Adding terrestria:basalt_slab as an alias for terrestria:volcanic_rock_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:49:45] [main/INFO]: Enabling Terrestria's Biolith worldgen module.
+[13:49:45] [main/INFO]: TPA Utilities has been loaded successfully!
+[13:49:46] [Via-Mappingloader-1/INFO]: Loading block connection mappings ...
+[13:49:46] [Via-Mappingloader-1/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
+[13:49:46] [main/INFO]: Loading translations...
+[13:49:46] [main/INFO]: Registering protocols...
+[13:49:46] [main/INFO]: ViaVersion detected server version: 1.21.5 (770)
+[13:49:46] [ViaFabric-1/INFO]: Finished mapping loading, shutting down loader executor.
+[13:49:46] [main/INFO]: Wlodzimiers Blocks zostało załadowane miaał
+[13:49:47] [main/ERROR]: Failed to start the minecraft server
+java.lang.RuntimeException: Could not execute entrypoint stage 'main' due to errors, provided by 'filament' at 'de.tomalbrc.filament.Filament'!
+	at net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$0(FabricLoaderImpl.java:409) ~[fabric-loader-0.17.3.jar:?]
+	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33) ~[fabric-loader-0.17.3.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:407) ~[fabric-loader-0.17.3.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startServer(Hooks.java:63) ~[fabric-loader-0.17.3.jar:?]
+	at knot/net.minecraft.server.Main.main(Main.java:113) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:506) [fabric-loader-0.17.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72) [fabric-loader-0.17.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.17.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.17.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [spigot.jar:1.1.1]
+	Suppressed: java.lang.NoSuchFieldError: Class net.fabricmc.fabric.api.entity.event.v1.ServerPlayerEvents does not have member field 'net.fabricmc.fabric.api.event.Event LEAVE'
+		at knot/com.rouesvm.servback.ServerBackpacks.backupEvents(ServerBackpacks.java:103) ~[serverbackpacks-1.3.8+1.21.5.jar:?]
+		at knot/com.rouesvm.servback.ServerBackpacks.serverEvents(ServerBackpacks.java:99) ~[serverbackpacks-1.3.8+1.21.5.jar:?]
+		at knot/com.rouesvm.servback.ServerBackpacks.onInitialize(ServerBackpacks.java:74) ~[serverbackpacks-1.3.8+1.21.5.jar:?]
+		at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:405) ~[fabric-loader-0.17.3.jar:?]
+		at net.fabricmc.loader.impl.game.minecraft.Hooks.startServer(Hooks.java:63) ~[fabric-loader-0.17.3.jar:?]
+		at knot/net.minecraft.server.Main.main(Main.java:113) [server-intermediary.jar:?]
+		at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:506) [fabric-loader-0.17.3.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72) [fabric-loader-0.17.3.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.17.3.jar:?]
+		at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.17.3.jar:?]
+		at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [spigot.jar:1.1.1]
+	Suppressed: java.lang.NoClassDefFoundError: de/tomalbrc/bil/json/JSON$ResourceLocationSerializer
+		at knot/de.tomalbrc.toms_mobs.ModConfig.<clinit>(ModConfig.java:22) ~[toms_mobs-2.2.5+1.21.5.jar:?]
+		at knot/de.tomalbrc.toms_mobs.registry.MobRegistry.registerMobs(MobRegistry.java:202) ~[toms_mobs-2.2.5+1.21.5.jar:?]
+		at knot/de.tomalbrc.toms_mobs.TomsMobs.onInitialize(TomsMobs.java:18) ~[toms_mobs-2.2.5+1.21.5.jar:?]
+		at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:405) ~[fabric-loader-0.17.3.jar:?]
+		at net.fabricmc.loader.impl.game.minecraft.Hooks.startServer(Hooks.java:63) ~[fabric-loader-0.17.3.jar:?]
+		at knot/net.minecraft.server.Main.main(Main.java:113) [server-intermediary.jar:?]
+		at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:506) [fabric-loader-0.17.3.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72) [fabric-loader-0.17.3.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.17.3.jar:?]
+		at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.17.3.jar:?]
+		at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [spigot.jar:1.1.1]
+	Caused by: java.lang.ClassNotFoundException: de.tomalbrc.bil.json.JSON$ResourceLocationSerializer
+		at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+		at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:239) ~[fabric-loader-0.17.3.jar:?]
+		at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.17.3.jar:?]
+		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+		... 11 more
+Caused by: java.lang.NoClassDefFoundError: de/tomalbrc/bil/json/JSON$ResourceLocationSerializer
+	at knot/de.tomalbrc.filament.util.Json.<clinit>(Json.java:61) ~[filament-0.16.3+1.21.5.jar:?]
+	at knot/de.tomalbrc.filament.util.FilamentConfig.load(FilamentConfig.java:46) ~[filament-0.16.3+1.21.5.jar:?]
+	at knot/de.tomalbrc.filament.util.FilamentConfig.getInstance(FilamentConfig.java:35) ~[filament-0.16.3+1.21.5.jar:?]
+	at knot/de.tomalbrc.filament.Filament.onInitialize(Filament.java:44) ~[filament-0.16.3+1.21.5.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:405) ~[fabric-loader-0.17.3.jar:?]
+	... 7 more
+Caused by: java.lang.ClassNotFoundException: de.tomalbrc.bil.json.JSON$ResourceLocationSerializer
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:239) ~[fabric-loader-0.17.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.17.3.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at knot/de.tomalbrc.filament.util.Json.<clinit>(Json.java:61) ~[filament-0.16.3+1.21.5.jar:?]
+	at knot/de.tomalbrc.filament.util.FilamentConfig.load(FilamentConfig.java:46) ~[filament-0.16.3+1.21.5.jar:?]
+	at knot/de.tomalbrc.filament.util.FilamentConfig.getInstance(FilamentConfig.java:35) ~[filament-0.16.3+1.21.5.jar:?]
+	at knot/de.tomalbrc.filament.Filament.onInitialize(Filament.java:44) ~[filament-0.16.3+1.21.5.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:405) ~[fabric-loader-0.17.3.jar:?]
+	... 7 more
