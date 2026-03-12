@@ -1,0 +1,12 @@
+{
+  "configVersion": 1,
+  "fertilityGrowthModifier": 2.0,
+  "soilDegradation": true,
+  "c_soilDegradationChance": "Soil degradation chance when crop is grown (in percent)",
+  "soilDegradationChance": 10.0,
+  "c_onlyGoodEffects": "Soil with low fertility doesn\u0027t reduce vanilla grown speed if true",
+  "onlyGoodEffects": true,
+  "c_acidityEffects": "Changes acidity behaviour. \"default\" - if acidity lower than 3 or greater than 7 crops grown divided by 3. \"fertility\" - works same as fertility, in this case uses fertility growth modifier. \"disabled\" - disabled.",
+  "acidityEffects": "default",
+  "replaceCompostOutputWithFertilizer": true
+}
