@@ -1,20 +1,19 @@
-[13:49:28] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.17.3
-[13:49:28] [main/INFO]: Fabric is preparing JARs on first launch, this may take a few seconds...
-[13:49:28] [ForkJoinPool-1-worker-1/WARN]: Mod cinderscapes uses the version cinderscapes-v5.2.0-beta.1.0+1.21.4+1.20.3.4087688 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'cinderscapes'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[13:49:28] [ForkJoinPool-1-worker-1/WARN]: Mod cinderscapes-common uses the version cinderscapes-v5.2.0-beta.1.0+1.21.4+1.20.3.4087688+polymania which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'cinderscapes'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[13:49:28] [ForkJoinPool-1-worker-3/WARN]: Mod terrestria uses the version v7.2.0-beta.1.2+1.21.4+another_1.20.bd3724e9 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[13:49:28] [ForkJoinPool-1-worker-1/WARN]: Mod cinderscapes-client uses the version cinderscapes-v5.2.0-beta.1.0+1.21.4+1.20.3.4087688+polymania which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'cinderscapes'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[13:49:28] [ForkJoinPool-1-worker-3/WARN]: Mod terrestria-worldgen uses the version v7.2.0-beta.1.2+1.21.4+another_1.20.bd3724e9 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[13:49:28] [ForkJoinPool-1-worker-1/WARN]: Mod cinderscapes-worldgen uses the version cinderscapes-v5.2.0-beta.1.0+1.21.4+1.20.3.4087688+polymania which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'cinderscapes'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[13:49:28] [ForkJoinPool-1-worker-3/WARN]: Mod terrestria-client uses the version v7.2.0-beta.1.2+1.21.4+another_1.20.bd3724e9 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[13:49:28] [ForkJoinPool-1-worker-3/WARN]: Mod terrestria-common uses the version v7.2.0-beta.1.2+1.21.4+another_1.20.bd3724e9 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[13:49:28] [main/INFO]: Dependencies overridden for puzzleslib, forgeconfigapiport, televator, jsonpatcher, bil, leavesbegone, computercraft, openloader, filament, braverbundles
-[13:49:28] [main/WARN]: Warnings were found!
+[13:53:30] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.17.3
+[13:53:31] [ForkJoinPool-1-worker-2/WARN]: Mod cinderscapes uses the version cinderscapes-v5.2.0-beta.1.0+1.21.4+1.20.3.4087688 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'cinderscapes'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[13:53:31] [ForkJoinPool-1-worker-2/WARN]: Mod cinderscapes-worldgen uses the version cinderscapes-v5.2.0-beta.1.0+1.21.4+1.20.3.4087688+polymania which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'cinderscapes'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[13:53:31] [ForkJoinPool-1-worker-2/WARN]: Mod cinderscapes-common uses the version cinderscapes-v5.2.0-beta.1.0+1.21.4+1.20.3.4087688+polymania which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'cinderscapes'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[13:53:31] [ForkJoinPool-1-worker-1/WARN]: Mod terrestria uses the version v7.2.0-beta.1.2+1.21.4+another_1.20.bd3724e9 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[13:53:31] [ForkJoinPool-1-worker-2/WARN]: Mod cinderscapes-client uses the version cinderscapes-v5.2.0-beta.1.0+1.21.4+1.20.3.4087688+polymania which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'cinderscapes'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[13:53:31] [ForkJoinPool-1-worker-1/WARN]: Mod terrestria-common uses the version v7.2.0-beta.1.2+1.21.4+another_1.20.bd3724e9 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[13:53:31] [ForkJoinPool-1-worker-1/WARN]: Mod terrestria-client uses the version v7.2.0-beta.1.2+1.21.4+another_1.20.bd3724e9 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[13:53:31] [ForkJoinPool-1-worker-1/WARN]: Mod terrestria-worldgen uses the version v7.2.0-beta.1.2+1.21.4+another_1.20.bd3724e9 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[13:53:31] [main/INFO]: Dependencies overridden for puzzleslib, forgeconfigapiport, televator, jsonpatcher, bil, leavesbegone, computercraft, openloader, filament, braverbundles
+[13:53:31] [main/WARN]: Warnings were found!
  - Mod 'Extended Drawers' (extended_drawers) 4.1.0+mc.1.21.5 recommends any version of patchouli, which is missing!
 	 - You should install any version of patchouli for the optimal experience.
  - Mod 'Forge Config API Port' (forgeconfigapiport) 21.5.1 recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
-[13:49:28] [main/INFO]: Loading 221 mods:
+[13:53:31] [main/INFO]: Loading 221 mods:
 	- alternate-current 1.9.0
 	- antixray 1.4.10
 	   |-- com_moandjiezana_toml_toml4j 0.7.2
@@ -149,7 +148,7 @@
 	   \-- mixinextras 0.5.0
 	- farmtweaks 1.4
 	- ferritecore 8.0.0
-	- filament 0.16.3+1.21.5
+	- filament 0.17.3+1.21.5
 	- fokusapi 4.0
 	- forgeconfigapiport 21.5.1
 	   |-- com_electronwill_night-config_core 3.8.1
@@ -310,108 +309,206 @@
 	- wlodzimiers_blocks 1.1.4+1.21.5
 	- woods_and_mires 2.1.2-polymania+1.21.5
 	   \-- com_typesafe_config 1.4.2
-[13:49:28] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/runner/work/myserver/myserver/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[13:49:28] [main/INFO]: Compatibility level set to JAVA_16
-[13:49:28] [main/INFO]: Compatibility level set to JAVA_17
-[13:49:28] [main/INFO]: Compatibility level set to JAVA_21
-[13:49:29] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[13:49:29] [main/WARN]: Reference map 'kleeslabs.refmap.json' for kleeslabs.mixins.json could not be read. If this is a development environment you can ignore this message
-[13:49:29] [main/WARN]: Reference map 'kleeslabs.refmap.json' for kleeslabs.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[13:49:29] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[13:49:29] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 0 override(s) found.
-[13:49:29] [main/WARN]: Error loading class: vazkii/botania/common/entity/EntityManaBurst (java.lang.ClassNotFoundException: vazkii/botania/common/entity/EntityManaBurst)
-[13:49:29] [main/WARN]: Error loading class: vazkii/botania/common/item/ItemLaputaShard (java.lang.ClassNotFoundException: vazkii/botania/common/item/ItemLaputaShard)
-[13:49:29] [main/WARN]: @Mixin target vazkii.botania.common.item.ItemLaputaShard was not found goml.mixins.json:compat.BotaniaItemLaputaShardMixin from mod goml
-[13:49:29] [main/WARN]: Error loading class: org/dynmap/Client (java.lang.ClassNotFoundException: org/dynmap/Client)
-[13:49:30] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
-[13:49:30] [main/INFO]: CustomPacketDisabler is disabled by config
-[13:49:30] [main/INFO]: block.implementations.forceintcontrol.ChunkDeltaUpdateImplementation is disabled automatically
-[13:49:30] [main/INFO]: block.implementations.forceintcontrol.WriteRegistryValueImplementation is disabled automatically
-[13:49:30] [main/INFO]: compat.QuiltFabricRegistrySyncDisabler is disabled automatically
-[13:49:30] [main/INFO]: compat.QuiltRegistrySyncDisabler is disabled automatically
-[13:49:30] [main/INFO]: compat.immersive_portals.ImmPtlChunkTrackingMixin is disabled automatically
-[13:49:30] [main/INFO]: compat.immersive_portals.PlayerChunkLoadingMixin is disabled automatically
-[13:49:30] [main/INFO]: entity.RemoveTickerOnUnloadMixin is disabled automatically
-[13:49:30] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[13:49:38] [main/INFO]: Successfully initialized antixray for fabric
-[13:49:39] [main/INFO]: Biolith for Fabric is initializing...
-[13:49:39] [main/INFO]: Enabling Biolith's TerraBlender compatibility layer.
-[13:49:39] [main/INFO]: Tag time :gun:!
-[13:49:40] [main/INFO]: Register Mod Items
-[13:49:40] [main/INFO]: Blocks register
-[13:49:40] [main/INFO]: Gui Textures register
-[13:49:40] [main/INFO]: Successfully added mod assets for borukva-food
-[13:49:40] [main/INFO]: Enabling Cinderscapes' Biolith worldgen module.
-[13:49:40] [main/INFO]: Initializing Common Events 1.0.0+1.21...
-[13:49:40] [main/INFO]: [Common Events] Finding mods to scan...
-[13:49:40] [main/INFO]: [Common Events] Scanning 0 mods...
-[13:49:40] [main/INFO]: [Common Events] Scanned 0 mods in 0s, 71ms.
-[13:49:41] [main/INFO]: Initializing GraphLib...
-[13:49:41] [main/INFO]: GraphLib Initialized.
-[13:49:41] [main/INFO]: Why are there so many illagers?
-[13:49:41] [main/INFO]: Definitely not up to no good
-[13:49:41] [main/INFO]: MoreFurnaces loaded!
-[13:49:41] [main/INFO]: MoreTools loaded!
-[13:49:41] [main/INFO]: Guns are loaded
-[13:49:44] [main/INFO]: Successfully remapped 27914 vanilla blocks
-[13:49:44] [main/INFO]: Finished registering 48 items.
-[13:49:45] [ForkJoinPool.commonPool-worker-1/INFO]: =====================================================================
-[13:49:45] [ForkJoinPool.commonPool-worker-1/INFO]: Modpack update available! Current version 0.3.0, latest 0.6.2.
-[13:49:45] [ForkJoinPool.commonPool-worker-1/INFO]: Download it here: https://modrinth.com/mod/polymania/version/FDiFPHFg
-[13:49:45] [ForkJoinPool.commonPool-worker-1/INFO]: =====================================================================
-[13:49:45] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[13:49:45] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[13:49:45] [main/INFO]: Registered region woods_and_mires:biomes to index 1 for type OVERWORLD
-[13:49:45] [main/WARN]: Adding terrestria:smooth_basalt_slab as an alias for terrestria:smooth_volcanic_rock_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[13:49:45] [main/WARN]: Adding terrestria:basalt_button as an alias for terrestria:volcanic_rock_button, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[13:49:45] [main/WARN]: Adding terrestria:basalt_pressure_plate as an alias for terrestria:volcanic_rock_pressure_plate, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[13:49:45] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_slab as an alias for terrestria:mossy_volcanic_rock_cobblestone_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[13:49:45] [main/WARN]: Adding terrestria:smooth_basalt_stairs as an alias for terrestria:smooth_volcanic_rock_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[13:49:45] [main/WARN]: Adding terrestria:basalt_cobblestone_stairs as an alias for terrestria:volcanic_rock_cobblestone_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[13:49:45] [main/WARN]: Adding terrestria:mossy_basalt_brick_stairs as an alias for terrestria:mossy_volcanic_rock_brick_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[13:49:45] [main/WARN]: Adding terrestria:basalt_brick_stairs as an alias for terrestria:volcanic_rock_brick_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[13:49:45] [main/WARN]: Adding terrestria:basalt_brick_wall as an alias for terrestria:volcanic_rock_brick_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[13:49:45] [main/WARN]: Adding terrestria:basalt_cobblestone_wall as an alias for terrestria:volcanic_rock_cobblestone_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[13:49:45] [main/WARN]: Adding terrestria:mossy_basalt_brick_wall as an alias for terrestria:mossy_volcanic_rock_brick_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[13:49:45] [main/WARN]: Adding terrestria:basalt_wall as an alias for terrestria:volcanic_rock_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[13:49:45] [main/WARN]: Adding terrestria:basalt_stairs as an alias for terrestria:volcanic_rock_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[13:49:45] [main/WARN]: Adding terrestria:smooth_basalt_wall as an alias for terrestria:smooth_volcanic_rock_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[13:49:45] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_stairs as an alias for terrestria:mossy_volcanic_rock_cobblestone_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[13:49:45] [main/WARN]: Adding terrestria:basalt_brick_slab as an alias for terrestria:volcanic_rock_brick_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[13:49:45] [main/WARN]: Adding terrestria:basalt_cobblestone_slab as an alias for terrestria:volcanic_rock_cobblestone_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[13:49:45] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_wall as an alias for terrestria:mossy_volcanic_rock_cobblestone_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[13:49:45] [main/WARN]: Adding terrestria:mossy_basalt_brick_slab as an alias for terrestria:mossy_volcanic_rock_brick_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[13:49:45] [main/WARN]: Adding terrestria:basalt_slab as an alias for terrestria:volcanic_rock_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[13:49:45] [main/WARN]: Adding terrestria:smooth_basalt_slab as an alias for terrestria:smooth_volcanic_rock_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[13:49:45] [main/WARN]: Adding terrestria:basalt_button as an alias for terrestria:volcanic_rock_button, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[13:49:45] [main/WARN]: Adding terrestria:basalt_pressure_plate as an alias for terrestria:volcanic_rock_pressure_plate, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[13:49:45] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_slab as an alias for terrestria:mossy_volcanic_rock_cobblestone_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[13:49:45] [main/WARN]: Adding terrestria:smooth_basalt_stairs as an alias for terrestria:smooth_volcanic_rock_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[13:49:45] [main/WARN]: Adding terrestria:basalt_cobblestone_stairs as an alias for terrestria:volcanic_rock_cobblestone_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[13:49:45] [main/WARN]: Adding terrestria:mossy_basalt_brick_stairs as an alias for terrestria:mossy_volcanic_rock_brick_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[13:49:45] [main/WARN]: Adding terrestria:basalt_brick_stairs as an alias for terrestria:volcanic_rock_brick_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[13:49:45] [main/WARN]: Adding terrestria:basalt_brick_wall as an alias for terrestria:volcanic_rock_brick_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[13:49:45] [main/WARN]: Adding terrestria:basalt_cobblestone_wall as an alias for terrestria:volcanic_rock_cobblestone_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[13:49:45] [main/WARN]: Adding terrestria:mossy_basalt_brick_wall as an alias for terrestria:mossy_volcanic_rock_brick_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[13:49:45] [main/WARN]: Adding terrestria:basalt_wall as an alias for terrestria:volcanic_rock_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[13:49:45] [main/WARN]: Adding terrestria:basalt_stairs as an alias for terrestria:volcanic_rock_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[13:49:45] [main/WARN]: Adding terrestria:smooth_basalt_wall as an alias for terrestria:smooth_volcanic_rock_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[13:49:45] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_stairs as an alias for terrestria:mossy_volcanic_rock_cobblestone_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[13:49:45] [main/WARN]: Adding terrestria:basalt_brick_slab as an alias for terrestria:volcanic_rock_brick_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[13:49:45] [main/WARN]: Adding terrestria:basalt_cobblestone_slab as an alias for terrestria:volcanic_rock_cobblestone_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[13:49:45] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_wall as an alias for terrestria:mossy_volcanic_rock_cobblestone_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[13:49:45] [main/WARN]: Adding terrestria:mossy_basalt_brick_slab as an alias for terrestria:mossy_volcanic_rock_brick_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[13:49:45] [main/WARN]: Adding terrestria:basalt_slab as an alias for terrestria:volcanic_rock_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[13:49:45] [main/INFO]: Enabling Terrestria's Biolith worldgen module.
-[13:49:45] [main/INFO]: TPA Utilities has been loaded successfully!
-[13:49:46] [Via-Mappingloader-1/INFO]: Loading block connection mappings ...
-[13:49:46] [Via-Mappingloader-1/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
-[13:49:46] [main/INFO]: Loading translations...
-[13:49:46] [main/INFO]: Registering protocols...
-[13:49:46] [main/INFO]: ViaVersion detected server version: 1.21.5 (770)
-[13:49:46] [ViaFabric-1/INFO]: Finished mapping loading, shutting down loader executor.
-[13:49:46] [main/INFO]: Wlodzimiers Blocks zostało załadowane miaał
-[13:49:47] [main/ERROR]: Failed to start the minecraft server
+[13:53:32] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/runner/work/myserver/myserver/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[13:53:32] [main/INFO]: Compatibility level set to JAVA_16
+[13:53:32] [main/INFO]: Compatibility level set to JAVA_17
+[13:53:32] [main/INFO]: Compatibility level set to JAVA_21
+[13:53:32] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:53:32] [main/WARN]: Reference map 'kleeslabs.refmap.json' for kleeslabs.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:53:32] [main/WARN]: Reference map 'kleeslabs.refmap.json' for kleeslabs.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:53:33] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[13:53:33] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 0 override(s) found.
+[13:53:33] [main/WARN]: Error loading class: vazkii/botania/common/entity/EntityManaBurst (java.lang.ClassNotFoundException: vazkii/botania/common/entity/EntityManaBurst)
+[13:53:33] [main/WARN]: Error loading class: vazkii/botania/common/item/ItemLaputaShard (java.lang.ClassNotFoundException: vazkii/botania/common/item/ItemLaputaShard)
+[13:53:33] [main/WARN]: @Mixin target vazkii.botania.common.item.ItemLaputaShard was not found goml.mixins.json:compat.BotaniaItemLaputaShardMixin from mod goml
+[13:53:33] [main/WARN]: Error loading class: org/dynmap/Client (java.lang.ClassNotFoundException: org/dynmap/Client)
+[13:53:33] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
+[13:53:33] [main/INFO]: CustomPacketDisabler is disabled by config
+[13:53:33] [main/INFO]: block.implementations.forceintcontrol.ChunkDeltaUpdateImplementation is disabled automatically
+[13:53:33] [main/INFO]: block.implementations.forceintcontrol.WriteRegistryValueImplementation is disabled automatically
+[13:53:33] [main/INFO]: compat.QuiltFabricRegistrySyncDisabler is disabled automatically
+[13:53:33] [main/INFO]: compat.QuiltRegistrySyncDisabler is disabled automatically
+[13:53:33] [main/INFO]: compat.immersive_portals.ImmPtlChunkTrackingMixin is disabled automatically
+[13:53:33] [main/INFO]: compat.immersive_portals.PlayerChunkLoadingMixin is disabled automatically
+[13:53:33] [main/INFO]: entity.RemoveTickerOnUnloadMixin is disabled automatically
+[13:53:34] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[13:53:41] [main/INFO]: Successfully initialized antixray for fabric
+[13:53:43] [main/INFO]: Biolith for Fabric is initializing...
+[13:53:43] [main/INFO]: Enabling Biolith's TerraBlender compatibility layer.
+[13:53:43] [main/INFO]: Tag time :gun:!
+[13:53:43] [main/INFO]: Register Mod Items
+[13:53:43] [main/INFO]: Blocks register
+[13:53:43] [main/INFO]: Gui Textures register
+[13:53:43] [main/INFO]: Successfully added mod assets for borukva-food
+[13:53:43] [main/INFO]: Enabling Cinderscapes' Biolith worldgen module.
+[13:53:43] [main/INFO]: Initializing Common Events 1.0.0+1.21...
+[13:53:43] [main/INFO]: [Common Events] Finding mods to scan...
+[13:53:43] [main/INFO]: [Common Events] Scanning 0 mods...
+[13:53:43] [main/INFO]: [Common Events] Scanned 0 mods in 0s, 76ms.
+[13:53:44] [main/INFO]: Initializing GraphLib...
+[13:53:44] [main/INFO]: GraphLib Initialized.
+[13:53:44] [main/INFO]: Why are there so many illagers?
+[13:53:44] [main/INFO]: Definitely not up to no good
+[13:53:44] [main/INFO]: MoreFurnaces loaded!
+[13:53:44] [main/INFO]: MoreTools loaded!
+[13:53:44] [main/INFO]: Guns are loaded
+[13:53:47] [main/INFO]: Successfully remapped 27914 vanilla blocks
+[13:53:47] [main/INFO]: Finished registering 48 items.
+[13:53:48] [ForkJoinPool.commonPool-worker-1/INFO]: =====================================================================
+[13:53:48] [ForkJoinPool.commonPool-worker-1/INFO]: Modpack update available! Current version 0.3.0, latest 0.6.2.
+[13:53:48] [ForkJoinPool.commonPool-worker-1/INFO]: Download it here: https://modrinth.com/mod/polymania/version/FDiFPHFg
+[13:53:48] [ForkJoinPool.commonPool-worker-1/INFO]: =====================================================================
+[13:53:48] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[13:53:48] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[13:53:48] [main/INFO]: Registered region woods_and_mires:biomes to index 1 for type OVERWORLD
+[13:53:48] [main/WARN]: Adding terrestria:smooth_basalt_slab as an alias for terrestria:smooth_volcanic_rock_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:53:48] [main/WARN]: Adding terrestria:basalt_slab as an alias for terrestria:volcanic_rock_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:53:48] [main/WARN]: Adding terrestria:mossy_basalt_brick_slab as an alias for terrestria:mossy_volcanic_rock_brick_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:53:48] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_wall as an alias for terrestria:mossy_volcanic_rock_cobblestone_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:53:48] [main/WARN]: Adding terrestria:basalt_cobblestone_slab as an alias for terrestria:volcanic_rock_cobblestone_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:53:48] [main/WARN]: Adding terrestria:basalt_brick_slab as an alias for terrestria:volcanic_rock_brick_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:53:48] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_stairs as an alias for terrestria:mossy_volcanic_rock_cobblestone_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:53:48] [main/WARN]: Adding terrestria:smooth_basalt_wall as an alias for terrestria:smooth_volcanic_rock_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:53:48] [main/WARN]: Adding terrestria:basalt_stairs as an alias for terrestria:volcanic_rock_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:53:48] [main/WARN]: Adding terrestria:basalt_wall as an alias for terrestria:volcanic_rock_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:53:48] [main/WARN]: Adding terrestria:mossy_basalt_brick_wall as an alias for terrestria:mossy_volcanic_rock_brick_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:53:48] [main/WARN]: Adding terrestria:basalt_cobblestone_wall as an alias for terrestria:volcanic_rock_cobblestone_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:53:48] [main/WARN]: Adding terrestria:basalt_brick_wall as an alias for terrestria:volcanic_rock_brick_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:53:48] [main/WARN]: Adding terrestria:basalt_brick_stairs as an alias for terrestria:volcanic_rock_brick_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:53:48] [main/WARN]: Adding terrestria:mossy_basalt_brick_stairs as an alias for terrestria:mossy_volcanic_rock_brick_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:53:48] [main/WARN]: Adding terrestria:basalt_cobblestone_stairs as an alias for terrestria:volcanic_rock_cobblestone_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:53:48] [main/WARN]: Adding terrestria:smooth_basalt_stairs as an alias for terrestria:smooth_volcanic_rock_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:53:48] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_slab as an alias for terrestria:mossy_volcanic_rock_cobblestone_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:53:48] [main/WARN]: Adding terrestria:basalt_pressure_plate as an alias for terrestria:volcanic_rock_pressure_plate, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:53:48] [main/WARN]: Adding terrestria:basalt_button as an alias for terrestria:volcanic_rock_button, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[13:53:48] [main/WARN]: Adding terrestria:smooth_basalt_slab as an alias for terrestria:smooth_volcanic_rock_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:53:48] [main/WARN]: Adding terrestria:basalt_slab as an alias for terrestria:volcanic_rock_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:53:48] [main/WARN]: Adding terrestria:mossy_basalt_brick_slab as an alias for terrestria:mossy_volcanic_rock_brick_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:53:48] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_wall as an alias for terrestria:mossy_volcanic_rock_cobblestone_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:53:48] [main/WARN]: Adding terrestria:basalt_cobblestone_slab as an alias for terrestria:volcanic_rock_cobblestone_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:53:48] [main/WARN]: Adding terrestria:basalt_brick_slab as an alias for terrestria:volcanic_rock_brick_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:53:48] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_stairs as an alias for terrestria:mossy_volcanic_rock_cobblestone_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:53:48] [main/WARN]: Adding terrestria:smooth_basalt_wall as an alias for terrestria:smooth_volcanic_rock_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:53:48] [main/WARN]: Adding terrestria:basalt_stairs as an alias for terrestria:volcanic_rock_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:53:48] [main/WARN]: Adding terrestria:basalt_wall as an alias for terrestria:volcanic_rock_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:53:48] [main/WARN]: Adding terrestria:mossy_basalt_brick_wall as an alias for terrestria:mossy_volcanic_rock_brick_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:53:48] [main/WARN]: Adding terrestria:basalt_cobblestone_wall as an alias for terrestria:volcanic_rock_cobblestone_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:53:48] [main/WARN]: Adding terrestria:basalt_brick_wall as an alias for terrestria:volcanic_rock_brick_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:53:48] [main/WARN]: Adding terrestria:basalt_brick_stairs as an alias for terrestria:volcanic_rock_brick_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:53:48] [main/WARN]: Adding terrestria:mossy_basalt_brick_stairs as an alias for terrestria:mossy_volcanic_rock_brick_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:53:48] [main/WARN]: Adding terrestria:basalt_cobblestone_stairs as an alias for terrestria:volcanic_rock_cobblestone_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:53:48] [main/WARN]: Adding terrestria:smooth_basalt_stairs as an alias for terrestria:smooth_volcanic_rock_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:53:48] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_slab as an alias for terrestria:mossy_volcanic_rock_cobblestone_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:53:48] [main/WARN]: Adding terrestria:basalt_pressure_plate as an alias for terrestria:volcanic_rock_pressure_plate, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:53:48] [main/WARN]: Adding terrestria:basalt_button as an alias for terrestria:volcanic_rock_button, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[13:53:48] [main/INFO]: Enabling Terrestria's Biolith worldgen module.
+[13:53:48] [main/INFO]: TPA Utilities has been loaded successfully!
+[13:53:48] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:48] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/concrete/yellow_concrete_bricks"}},"id":"tsa:yellow_concrete_bricks","properties":{"block_base":"minecraft:yellow_concrete","destroy_time":1.8}}
+[13:53:48] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:48] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/concrete/white_concrete_bricks"}},"id":"tsa:white_concrete_bricks","properties":{"block_base":"minecraft:white_concrete","destroy_time":1.8}}
+[13:53:48] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:48] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/concrete/red_concrete_bricks"}},"id":"tsa:red_concrete_bricks","properties":{"block_base":"minecraft:red_concrete","destroy_time":1.8}}
+[13:53:48] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:48] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/concrete/purple_concrete_bricks"}},"id":"tsa:purple_concrete_bricks","properties":{"block_base":"minecraft:purple_concrete","destroy_time":1.8}}
+[13:53:48] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:48] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/concrete/pink_concrete_bricks"}},"id":"tsa:pink_concrete_bricks","properties":{"block_base":"minecraft:pink_concrete","destroy_time":1.8}}
+[13:53:48] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:48] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/concrete/orange_concrete_bricks"}},"id":"tsa:orange_concrete_bricks","properties":{"block_base":"minecraft:orange_concrete","destroy_time":1.8}}
+[13:53:48] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:48] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/concrete/magenta_concrete_bricks"}},"id":"tsa:magenta_concrete_bricks","properties":{"block_base":"minecraft:magenta_concrete","destroy_time":1.8}}
+[13:53:48] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:48] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/concrete/lime_concrete_bricks"}},"id":"tsa:lime_concrete_bricks","properties":{"block_base":"minecraft:lime_concrete","destroy_time":1.8}}
+[13:53:48] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:48] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/concrete/light_gray_concrete_bricks"}},"id":"tsa:light_gray_concrete_bricks","properties":{"block_base":"minecraft:light_gray_concrete","destroy_time":1.8}}
+[13:53:48] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:48] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/concrete/light_blue_concrete_bricks"}},"id":"tsa:light_blue_concrete_bricks","properties":{"block_base":"minecraft:light_blue_concrete","destroy_time":1.8}}
+[13:53:48] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:48] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/concrete/green_concrete_bricks"}},"id":"tsa:green_concrete_bricks","properties":{"block_base":"minecraft:green_concrete","destroy_time":1.8}}
+[13:53:48] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:48] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/concrete/gray_concrete_bricks"}},"id":"tsa:gray_concrete_bricks","properties":{"block_base":"minecraft:gray_concrete","destroy_time":1.8}}
+[13:53:48] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:48] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/concrete/cyan_concrete_bricks"}},"id":"tsa:cyan_concrete_bricks","properties":{"block_base":"minecraft:cyan_concrete","destroy_time":1.8}}
+[13:53:48] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:48] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/concrete/brown_concrete_bricks"}},"id":"tsa:brown_concrete_bricks","properties":{"block_base":"minecraft:brown_concrete","destroy_time":1.8}}
+[13:53:48] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:48] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/concrete/blue_concrete_bricks"}},"id":"tsa:blue_concrete_bricks","properties":{"block_base":"minecraft:blue_concrete","destroy_time":1.8}}
+[13:53:48] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:48] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/concrete/black_concrete_bricks"}},"id":"tsa:black_concrete_bricks","properties":{"block_base":"minecraft:black_concrete","destroy_time":1.8}}
+[13:53:49] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:49] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/wood/vertical_planks/warped"}},"id":"tsa:vertical_warped_planks","properties":{"block_base":"minecraft:warped_planks","explosion_resistance":3.0,"destroy_time":2.0,"requires_tool":false}}
+[13:53:49] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:49] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/wood/vertical_planks/spruce"}},"id":"tsa:vertical_spruce_planks","properties":{"block_base":"minecraft:spruce_planks","explosion_resistance":3.0,"destroy_time":2.0,"requires_tool":false}}
+[13:53:49] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:49] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/wood/vertical_planks/oak"}},"id":"tsa:vertical_oak_planks","properties":{"block_base":"minecraft:oak_planks","explosion_resistance":3.0,"destroy_time":2.0,"requires_tool":false}}
+[13:53:49] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:49] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/wood/vertical_planks/mangrove"}},"id":"tsa:vertical_mangrove_planks","properties":{"block_base":"minecraft:mangrove_planks","explosion_resistance":3.0,"destroy_time":2.0,"requires_tool":false}}
+[13:53:49] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:49] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/wood/vertical_planks/jungle"}},"id":"tsa:vertical_jungle_planks","properties":{"block_base":"minecraft:jungle_planks","explosion_resistance":3.0,"destroy_time":2.0,"requires_tool":false}}
+[13:53:49] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:49] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/wood/vertical_planks/dark_oak"}},"id":"tsa:vertical_dark_oak_planks","properties":{"block_base":"minecraft:dark_oak_planks","explosion_resistance":3.0,"destroy_time":2.0,"requires_tool":false}}
+[13:53:49] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:49] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/wood/vertical_planks/crimson"}},"id":"tsa:vertical_crimson_planks","properties":{"block_base":"minecraft:crimson_planks","explosion_resistance":3.0,"destroy_time":2.0,"requires_tool":false}}
+[13:53:49] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:49] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/wood/vertical_planks/cherry"}},"id":"tsa:vertical_cherry_planks","properties":{"block_base":"minecraft:cherry_planks","explosion_resistance":3.0,"destroy_time":2.0,"requires_tool":false}}
+[13:53:49] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:49] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/wood/vertical_planks/birch"}},"id":"tsa:vertical_birch_planks","properties":{"block_base":"minecraft:birch_planks","explosion_resistance":3.0,"destroy_time":2.0,"requires_tool":false}}
+[13:53:49] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:49] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/wood/vertical_planks/bamboo"}},"id":"tsa:vertical_bamboo_planks","properties":{"block_base":"minecraft:bamboo_planks","explosion_resistance":3.0,"destroy_time":2.0,"requires_tool":false}}
+[13:53:49] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:49] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/wood/vertical_planks/acacia"}},"id":"tsa:vertical_acacia_planks","properties":{"block_base":"minecraft:acacia_planks","explosion_resistance":3.0,"destroy_time":2.0,"requires_tool":false}}
+[13:53:49] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:49] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/wood/chiseled_planks/warped"}},"id":"tsa:chiseled_warped_planks","properties":{"block_base":"minecraft:warped_planks","explosion_resistance":3.0,"destroy_time":2.0,"requires_tool":false}}
+[13:53:49] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:49] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/wood/chiseled_planks/spruce"}},"id":"tsa:chiseled_spruce_planks","properties":{"block_base":"minecraft:spruce_planks","explosion_resistance":3.0,"destroy_time":2.0,"requires_tool":false}}
+[13:53:49] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:49] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/wood/chiseled_planks/oak"}},"id":"tsa:chiseled_oak_planks","properties":{"block_base":"minecraft:oak_planks","explosion_resistance":3.0,"destroy_time":2.0,"requires_tool":false}}
+[13:53:49] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:49] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/wood/chiseled_planks/mangrove"}},"id":"tsa:chiseled_mangrove_planks","properties":{"block_base":"minecraft:mangrove_planks","explosion_resistance":3.0,"destroy_time":2.0,"requires_tool":false}}
+[13:53:49] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:49] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/wood/chiseled_planks/jungle"}},"id":"tsa:chiseled_jungle_planks","properties":{"block_base":"minecraft:jungle_planks","explosion_resistance":3.0,"destroy_time":2.0,"requires_tool":false}}
+[13:53:49] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:49] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/wood/chiseled_planks/dark_oak"}},"id":"tsa:chiseled_dark_oak_planks","properties":{"block_base":"minecraft:dark_oak_planks","explosion_resistance":3.0,"destroy_time":2.0,"requires_tool":false}}
+[13:53:49] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:49] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/wood/chiseled_planks/crimson"}},"id":"tsa:chiseled_crimson_planks","properties":{"block_base":"minecraft:oak_planks","explosion_resistance":3.0,"destroy_time":2.0,"requires_tool":false}}
+[13:53:49] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:49] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/wood/chiseled_planks/cherry"}},"id":"tsa:chiseled_cherry_planks","properties":{"block_base":"minecraft:cherry_planks","explosion_resistance":3.0,"destroy_time":2.0,"requires_tool":false}}
+[13:53:49] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:49] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/wood/chiseled_planks/birch"}},"id":"tsa:chiseled_birch_planks","properties":{"block_base":"minecraft:birch_planks","explosion_resistance":3.0,"destroy_time":2.0,"requires_tool":false}}
+[13:53:49] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:49] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/wood/chiseled_planks/bamboo"}},"id":"tsa:chiseled_bamboo_planks","properties":{"block_base":"minecraft:bamboo_planks","explosion_resistance":3.0,"destroy_time":2.0,"requires_tool":false}}
+[13:53:49] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:49] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/wood/chiseled_planks/acacia"}},"id":"tsa:chiseled_acacia_planks","properties":{"block_base":"minecraft:acacia_planks","explosion_resistance":3.0,"destroy_time":2.0,"requires_tool":false}}
+[13:53:49] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:49] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/stone/polished_stone"}},"id":"tsa:polished_stone","properties":{"explosion_resistance":6.0,"block_base":"minecraft:stone","item_base":"minecraft:paper","destroy_time":1.5}}
+[13:53:49] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:49] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/stone/polished_limestone"}},"id":"tsa:polished_limestone","properties":{"explosion_resistance":6.0,"block_base":"minecraft:stone","item_base":"minecraft:paper","destroy_time":1.5}}
+[13:53:49] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:49] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/stone/limestone_bricks"}},"id":"tsa:limestone_bricks","properties":{"explosion_resistance":6.0,"block_base":"minecraft:stone","item_base":"minecraft:paper","destroy_time":1.5}}
+[13:53:49] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:49] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/stone/limestone"}},"id":"tsa:limestone","properties":{"explosion_resistance":6.0,"block_base":"minecraft:stone","item_base":"minecraft:paper","destroy_time":1.5}}
+[13:53:49] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:49] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/stone/large_bricks"}},"id":"tsa:large_bricks","properties":{"explosion_resistance":6.0,"block_base":"minecraft:bricks","item_base":"minecraft:paper","destroy_time":1.5}}
+[13:53:49] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:49] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/stone/granite_bricks"}},"id":"tsa:granite_bricks","properties":{"explosion_resistance":6.0,"block_base":"minecraft:polished_granite","item_base":"minecraft:paper","destroy_time":1.5}}
+[13:53:49] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:49] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/dripstone/polished_dripstone"}},"id":"tsa:polished_dripstone_block","properties":{"explosion_resistance":6.0,"block_base":"minecraft:dripstone_block","item_base":"minecraft:paper","destroy_time":1.5}}
+[13:53:49] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:49] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/dripstone/dripstone_bricks"}},"id":"tsa:dripstone_bricks","properties":{"explosion_resistance":6.0,"block_base":"minecraft:dripstone_block","item_base":"minecraft:paper","destroy_time":1.5}}
+[13:53:49] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:49] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/stone/diorite_bricks"}},"id":"tsa:diorite_bricks","properties":{"explosion_resistance":6.0,"block_base":"minecraft:polished_diorite","item_base":"minecraft:paper","destroy_time":1.5}}
+[13:53:49] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:49] [main/INFO]: {"block_model_type":"full_block","block_resource":{"models":{"default":"minecraft:item/custom/block/stone/andesite_bricks"}},"id":"tsa:andesite_bricks","properties":{"explosion_resistance":6.0,"block_base":"minecraft:polished_andesite","item_base":"minecraft:paper","destroy_time":1.5}}
+[13:53:49] [main/ERROR]: Could not load file! Error: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+[13:53:49] [main/INFO]: {"item_resource":{"models":{"default":"minecraft:item/custom/block/stone/pebbles_item"}},"block_model_type":"tripwire_block","block_resource":{"models":{"count=4":"minecraft:item/custom/block/stone/pebbles_4","count=3":"minecraft:item/custom/block/stone/pebbles_3","count=2":"minecraft:item/custom/block/stone/pebbles_2","count=1":"minecraft:item/custom/block/stone/pebbles_1"}},"behaviour":{"count":{"max":4.0}},"id":"tsa:pebbles","properties":{"solid":false,"explosion_resistance":0.5,"block_base":"minecraft:stone","destroy_time":0.0,"replaceable":true,"requires_tool":false,"transparent":true}}
+[13:53:49] [Via-Mappingloader-1/INFO]: Loading block connection mappings ...
+[13:53:49] [Via-Mappingloader-1/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
+[13:53:49] [main/INFO]: Loading translations...
+[13:53:49] [main/INFO]: Registering protocols...
+[13:53:50] [main/INFO]: ViaVersion detected server version: 1.21.5 (770)
+[13:53:50] [ViaFabric-1/INFO]: Finished mapping loading, shutting down loader executor.
+[13:53:50] [main/INFO]: Wlodzimiers Blocks zostało załadowane miaał
+[13:53:50] [main/ERROR]: Failed to start the minecraft server
 java.lang.RuntimeException: Could not execute entrypoint stage 'main' due to errors, provided by 'filament' at 'de.tomalbrc.filament.Filament'!
 	at net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$0(FabricLoaderImpl.java:409) ~[fabric-loader-0.17.3.jar:?]
 	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33) ~[fabric-loader-0.17.3.jar:?]
@@ -454,22 +551,7 @@ java.lang.RuntimeException: Could not execute entrypoint stage 'main' due to err
 		at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.17.3.jar:?]
 		at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
 		... 11 more
-Caused by: java.lang.NoClassDefFoundError: de/tomalbrc/bil/json/JSON$ResourceLocationSerializer
-	at knot/de.tomalbrc.filament.util.Json.<clinit>(Json.java:61) ~[filament-0.16.3+1.21.5.jar:?]
-	at knot/de.tomalbrc.filament.util.FilamentConfig.load(FilamentConfig.java:46) ~[filament-0.16.3+1.21.5.jar:?]
-	at knot/de.tomalbrc.filament.util.FilamentConfig.getInstance(FilamentConfig.java:35) ~[filament-0.16.3+1.21.5.jar:?]
-	at knot/de.tomalbrc.filament.Filament.onInitialize(Filament.java:44) ~[filament-0.16.3+1.21.5.jar:?]
-	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:405) ~[fabric-loader-0.17.3.jar:?]
-	... 7 more
-Caused by: java.lang.ClassNotFoundException: de.tomalbrc.bil.json.JSON$ResourceLocationSerializer
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:239) ~[fabric-loader-0.17.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.17.3.jar:?]
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
-	at knot/de.tomalbrc.filament.util.Json.<clinit>(Json.java:61) ~[filament-0.16.3+1.21.5.jar:?]
-	at knot/de.tomalbrc.filament.util.FilamentConfig.load(FilamentConfig.java:46) ~[filament-0.16.3+1.21.5.jar:?]
-	at knot/de.tomalbrc.filament.util.FilamentConfig.getInstance(FilamentConfig.java:35) ~[filament-0.16.3+1.21.5.jar:?]
-	at knot/de.tomalbrc.filament.Filament.onInitialize(Filament.java:44) ~[filament-0.16.3+1.21.5.jar:?]
+Caused by: java.lang.NullPointerException: Cannot read field "soundModule" because the return value of "de.tomalbrc.filament.util.FilamentConfig.getInstance()" is null
+	at knot/de.tomalbrc.filament.Filament.onInitialize(Filament.java:45) ~[filament-0.17.3+1.21.5.jar:?]
 	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:405) ~[fabric-loader-0.17.3.jar:?]
 	... 7 more
