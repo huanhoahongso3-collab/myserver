@@ -594,3 +594,5 @@
 : Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
 [09:54:43] [Worker-Main-2/WARN]: [net.minecraft.class_3499] Serialization errors:
 : Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+[09:55:33] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-222, y=-51, z=-80}
+[09:55:53] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-222, y=-51, z=-77}
