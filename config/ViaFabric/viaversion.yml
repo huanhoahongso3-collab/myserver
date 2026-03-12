@@ -9,7 +9,7 @@
 #----------------------------------------------------------#
 #
 # Should ViaVersion check for updates?
-check-for-updates: false
+check-for-updates: true
 # Send the supported versions with the Status (Ping) response packet
 send-supported-versions: false
 # Easier to configure alternative to 'block-protocols'. Uses readable version strings with possible '<' and '>' prefixes.
@@ -31,7 +31,7 @@ logging:
   # Whether to log more info about kicks due to blocked protocol versions to the console.
   log-blocked-joins: false
   # Whether to log errors during entity data conversion.
-  log-entity-data-errors: true
+  log-entity-data-errors: false
   # Whether to log errors during text component conversion.
   log-text-component-conversion-errors: false
   # Whether to warn for other issues when converting items, blocks, or other data between server and client.
@@ -61,9 +61,9 @@ send-server-details: true
 # Limits the amount of packets sent per second.
 # Clients by default send around 20-90 packets per second.
 packet-limiter:
-  enabled: true
+  enabled: false
   # The maximum packets a client can send per second.
-  max-per-second: -1
+  max-per-second: 800
   max-per-second-kick-message: You are sending too many packets!
   #
   # We can also kick them if they repeatedly send too many packets over a longer period of time.
@@ -71,7 +71,7 @@ packet-limiter:
   # The maximum packets per second a client can send over a longer period of time.
   sustained-max-per-second: 200
   # Period to track in seconds.
-  sustained-period-seconds: -1
+  sustained-period-seconds: 7
   # The number of seconds within the interval that the client can exceed the limit before being kicked.
   sustained-threshold: 4
   sustained-kick-message: You are sending too many packets, :(

@@ -1,3 +1,193 @@
+# 0.4.4:
+- Added ViaVersion and ViaFabric:
+  - Allows you to play with 1.21.9/10 client on server running this modpack.
+  - Will be removed when pack updates to 1.21.10.
+- Updated PolyFactory (0.8.0+1.21.6 -> 0.8.2+1.21.8): https://modrinth.com/mod/polyfactory/changelog
+- Updated Enderscape (1.0.9+mc1.21.8 -> 1.1.0+mc1.21.8): https://modrinth.com/mod/enderscape/changelog
+- Updated Farmer's Delight Refabricated (1.21.8-3.2.5+refabricated -> 1.21.8-3.3.0+refabricated): https://modrinth.com/mod/farmers-delight-refabricated/changelog
+- Updated Toms Mobs (2.3.0+1.21.6 -> 2.4.2+1.21.6): https://modrinth.com/mod/toms-mobs/changelog
+- Updated Friends&Foes (Fabric/Quilt) (4.0.8+mc1.21.8 -> 4.0.10+mc1.21.8)
+- Updated Simply Slingshot (0.1.2+1.21.8 -> 0.1.3+1.21.8)
+- Updated FarmTweaks (1.5 -> 1.6)
+- Updated PolyDecorations (0.8.3+1.21.8 -> 0.8.4+1.21.8)
+- Updated Banner Text (1.3.3 -> 1.4.0)
+- Updated Forge Config API Port (v21.8.0-1.21.8 -> v21.8.1-1.21.8-Fabric)
+- Updated Polymer Patch for Friends&Foes (4.0.8-0+1.21.8 -> 4.0.10-0+1.21.8)
+- Updated Polymer Patch for Enderscape (1.0.8.2+1.21.7 -> 1.1.0.2+1.21.8)
+- Updated Polymer Patch for Farmer's Delight (3.2.5.0+1.21.8 -> 3.3.0.0+1.21.8)
+- Updated FSit (2.8.0+mc1.21.6 -> 2.8.1+mc1.21.6)
+- Updated Polymer (0.13.11+1.21.8 -> 0.13.13+1.21.8)
+- Updated Fabric API (0.132.0+1.21.8 -> 0.134.0+1.21.8)
+- Updated Fabric Language Kotlin (1.13.5+kotlin.2.2.10 -> 1.13.6+kotlin.2.2.20)
+- Updated Balm (1.21.8-21.8.5.j -> 1.21.8-21.8.9)
+- Updated Lithium (0.18.0+mc1.21.8 -> 0.18.1+mc1.21.8)
+- Updated Text Placeholder API (2.7.1+1.21.6 -> 2.7.2+1.21.8)
+- Updated Fabric Loader (0.16.14 -> 0.17.2)
+- Reverted The End lighting change, as it was broken when playing on 1.21.9
+
+# 0.4.3:
+- Added Simply Slingshot: https://modrinth.com/mod/simply-slingshot
+  - Adds Slingshot and connected to it enchantments to the game!
+  - Slingshot is a weapon, that can be used to shoot any kind of item. 
+  - While it prioritizes items in your hand, it can take any one of them that's currently on your hotbar.
+  - In most cases it's damage output and range will be limited, through select items might give you some special effects that.
+- Updated PolyDecorations (0.8.2+1.21.7 -> 0.8.3+1.21.8): https://modrinth.com/mod/polydecorations/changelog
+- Updated Cliff under a Tree (CliffTree) (2.2.1 -> 2.2.3)
+- Updated Enderscape (1.0.8+mc1.21.7 -> 1.0.9+mc1.21.8)
+- Updated PolyChess (1.21.8-0.2 -> 0.1.3+1.21.6)
+- Updated Illager Expansion Recrafted (1.7.0+1.21.6 -> 1.7.1+1.21.8)
+- Updated KleeSlabs (1.21.8-21.8.1 -> 1.21.8-21.8.2)
+- Updated Polymer Patch for Farmer's Delight (3.2.3.0+1.21.6 -> 3.2.5.0+1.21.8)
+- Updated Fabric Language Kotlin (1.13.4+kotlin.2.2.0 -> 1.13.5+kotlin.2.2.10)
+- Updated Fabric API (0.131.0+1.21.8 -> 0.132.0+1.21.8)
+- Updated Polymer (0.13.9+1.21.8 -> 0.13.11+1.21.8)
+- Updated Polymer - Quality of Life (1.0.1+1.21.7 -> 1.0.2+1.21.7)
+- Updated FSit (2.7.12+mc1.21.6 -> 2.8.0+mc1.21.6)
+- Updated Nightosphere (2.0 -> 2.1)
+- Fixed armor items not having a model when run on client.
+
+# 0.4.2:
+- Added Friends&Foes: https://modrinth.com/mod/friends-and-foes
+  - Friends&Foes adds outvoted and forgotten mobs from the mob vote. 
+  - One of it's main goals is to further expand upon original concepts and add new vanilla-like features related to all the mobs.
+  - This mod is handled via Polymer Patch for Friends&Foes: https://modrinth.com/mod/friends-and-foes-polymer
+- Added mini-vfx: https://modrinth.com/mod/mini-vfx
+  - Serverside visual effects for dropped items and small particle effects for campfires, jukeboxes and torches!
+- Tweaked visuals of The End:
+  - Lighting is now darker, matching a bit more with Enderscape's default look.
+  - Changed the End Sky texture to be darker and bit smoother.
+- Updated Polymer Patch for Enderscape (1.0.8.0+1.21.7 -> 1.0.8.2+1.21.7):
+  - Fixed drift physics not being applied.
+  - Added particles when using Rubble Shield to match it closer to client version.
+  - Fixed client only crash.
+- Updated Clumps (1.21.7-25.0.0.1 -> 1.21.8-26.0.0.1)
+- Updated Farmer's Delight Refabricated (1.21.7-3.2.4+refabricated -> 1.21.8-3.2.5+refabricated)
+- Updated FSit (2.7.10+mc1.21.6 -> 2.7.12+mc1.21.6)
+- Updated Polymer (0.13.8+1.21.8 -> 0.13.9+1.21.8)
+- Updated Balm (1.21.8-21.8.3 -> 1.21.8-21.8.5)
+- Updated Architectury API (17.0.6-fabric -> 17.0.8-fabric)
+- Updated spark (1.10.140-fabric -> 1.10.142-fabric)
+- Updated Fabric API (0.129.0+1.21.8 -> 0.131.0+1.21.8)
+- Fixed Moss Carpet being culled when it shouldn't.
+
+# 0.4.1:
+- Updated to 1.21.8 (purely visual thing, as it's fully compatible with 1.21.7 clients)
+- Added Enderscape: https://modrinth.com/mod/enderscape
+  - Enderscape is a overhaul of the End dimension, featuring new world generation, biomes, and many other additions.
+  - This mod is handled via Polymer Patch for Enderscape: https://modrinth.com/mod/enderscape-polymer
+  - While not strictly needed, I would suggest resetting The Ends world data so it can generate fresh. 
+  - You can do it by removing the world/DIM-1 folder, through make sure to backup first!
+- Added Lovely Snails: https://modrinth.com/mod/lovely_snails
+  - Lovely Snails adds a new entity: the snails. Snails are cute little creatures which can be tamed by players.
+  - Once a snail is tamed with mushrooms, they can have a cute little decor using carpets. If it's well taken care of it mays grow into a big snail.
+  - Big snails can be ridden, they also can be equipped with chests to offer an inventory. They also can equip an Ender Chest to offer a portable Ender Chest.
+  - This mod is handled via Polymer Patch for Lovely Snails: https://modrinth.com/mod/lovely-snails-polymer
+- Split the server resource pack into two:
+  - Main one - constains most of the assets.
+  - Sounds/Music - contains sounds and music from Enderscape and Cinderscapes mods.
+  - This change should allow for making future update require smaller downloads, as long as only main pack changes.
+- Fixed running the modpack on the client.
+- Updated PolyDecorations (0.8.1+1.21.7 -> 0.8.2+1.21.7)
+- Updated CC: Tweaked (1.21.7-fabric-1.116.1 -> 1.21.8-fabric-1.116.1)
+- Updated Lithium (0.18.0+mc1.21.7 -> 0.18.0+mc1.21.8)
+- Updated Extended Drawers (4.2.0+mc.1.21.6 -> 4.2.1+mc.1.21.6)
+- Updated KleeSlabs (1.21.7-21.7.1 -> 1.21.8-21.8.1)
+- Updated PolyChess (1.21.7-0.2 -> 1.21.8-0.2)
+- Updated Televator (1.2.4 -> 1.2.5)
+- Updated Leaves Us In Peace (1.9.1+MC1.21.6-1.21.7 -> 1.9.2+MC1.21.6-1.21.8)
+- Updated Fabric API (0.129.0+1.21.7 -> 0.129.0+1.21.8)
+- Updated Polymer (0.13.6+1.21.7 -> 0.13.8+1.21.8)
+- Updated Balm (1.21.7-21.7.2 -> 1.21.8-21.8.3)
+- Updated TerraBlender (1.21.7-6.0.0.2 -> 1.21.8-6.0.0.3)
+- Updated Forge Config API Port (v21.7.0-1.21.7-Fabric -> v21.8.0-1.21.8-Fabric)
+- Updated forked versions of Cinderscapes, Terrestria to current latest upstream.
+- Added YetAnotherConfigLib (Library)
+
+# 0.4.0:
+- Provided Quick Actions when pressing G button. Currently provides:
+  - Polydex - opens Polydex it.
+  - Trinkets - opens Trinkets ui.
+  - Modded Status Effects - opens Polymer's Status Effect.
+- On pause screen, replaced Server Links with custom options. Currently provides:
+  - Modded Statistics - shows Polymer's statistic screen.
+  - Polydex - opens Polydex.
+  - Changelog - shows changelog.md file in game (aka one you are reading!).
+  - Mods - list all mods available, with mod specific pages.
+  - All previous links.
+- Added Chalk: Polymania Edition:
+  - Fork of Chalk (Fabric) with some slight tweaks and changes. See original mod here: https://modrinth.com/mod/chalk
+  - Main changes include:
+    - Removing conditional registriation of content depending if `chalk-colorful-addon` is present.
+    - Moved Chalk to it's own item group.
+    - Chalk recipes are now unloackable in recipe book.
+    - It now works server side!
+  - You can find it's repo here: https://github.com/PolymaniaForks/Chalk
+- Added Polymania Extras mod:
+  - Custom mod purely done for this modpack (so it's also part of the repo).
+  - Currently used to provide Changelogs and Mods options on pause screen.
+  - The mod list might be later moved to it's own mod.
+- Updated PolyDecorations (0.8.0+1.21.6 -> 0.8.1+1.21.7): https://modrinth.com/mod/polydecorations/changelog
+- Updated Toms Mobs (2.2.12+1.21.6 -> 2.3.0+1.21.6): https://modrinth.com/mod/toms-mobs/changelog
+- Updated CC: Tweaked (1.116.0 -> 1.116.1)
+- Updated Farmer's Delight Refabricated (1.21.6-3.2.3+refabricated -> 1.21.7-3.2.4+refabricated)
+- Updated PolyChess (1.21.6-0.2 -> 1.21.7-0.2)
+- Updated Polymer - Quality of Life (1.0.0+1.21.6-rc1 -> 1.0.1+1.21.7)
+- Updated Fabric API (0.128.2+1.21.7 -> 0.129.0+1.21.7)
+- Updated Polymer (0.13.4+1.21.7 -> 0.13.6+1.21.7)
+- Updated Restart Detector (1.2.6+1.21.6 -> 1.2.7+1.21.6)
+- Removed Simple Server Links:
+  - Replaced with datapack defined dialogs.
+- Tweaked Simple Update Checker to only inform about updates on the same or "stabler" release type.
+  - Betas, pre releases and release candidates (for example 0.4.0-pre.2) will now check for any update that is marked as beta or release.
+  - Full releases (for example 0.4.0) will now check for any update that is marked as release only.
+- Changed Dialog Screen Warning texture from a Warning symbol to a question mark.
+- Fixed some mods being set as server only and not installing for client / singleplayer.
+
+# 0.4.0-pre.1:
+- Updated to Minecraft 1.21.7.
+- Updated all mods to be compatible with 1.21.7.
+- Added Farmer's Delight Refabricated (1.21.6-3.2.3) and Polymer Patch for it: https://modrinth.com/mod/farmers-delight-refabricated
+- Readded CC: Tweaked (1.21.7-fabric-1.116.0) and Polymer Patch for it: https://modrinth.com/mod/cc-tweaked
+- Updated Cliff under a Tree (CliffTree) (2.1.1 -> 2.2.1)
+- Removed Borukva Food.
+  - All of it's content will be migrated to Farmer's Delight and vanilla blocks/items.
+- Removed ViaVersion and ViaFabric (no longer needed).
+
+# 0.3.2:
+- Updated ViaVersion (5.4.1-SNAPSHOT -> 5.4.1):
+  - You can now join from 1.21.7.
+- Downgraded Cliff under a Tree (CliffTree) (2.2 -> 2.1.1):
+  - Fixes issue where generating new chunk crashes the game.
+
+# 0.3.1:
+- Added ViaVersion and ViaFabric:
+  - Allows you to play with 1.21.6 client on server running this modpack.
+  - Will be removed when pack updates to 1.21.6.
+- Added PolyChess: https://modrinth.com/mod/polychess
+  - Chess pieces as decorative blocks.
+- Enabled (experimental) Polymer Sound Patch:
+  - This allows for server side modded block to have correct place, break, step and hit sounds, through at the cost of sound being ping dependent.
+- Added Polymer - Quality of Life: https://modrinth.com/mod/polymer-qol
+  - Adds some extra Quality of Life patches for polymer content, making it feel more like native mods when installed on client.
+  - Requires client to run on same version as server (currently 1.21.5), with Polymer and Polymer QoL installed.
+- Disabled soil degradation and Fartilizer replacing Bone Meal in Composter from Borukva Food.
+- Updated PolyFactory (0.7.1+1.21.5 -> 0.7.2+1.21.5): https://modrinth.com/mod/polyfactory/changelog
+- Updated Toms Mobs (2.2.5+1.21.5 -> 2.2.8+1.21.5): https://modrinth.com/mod/toms-mobs/changelog
+- Updated Cliff under a Tree (CliffTree) (2.1.1 -> 2.2): https://modrinth.com/datapack/clifftree/changelog
+- Updated Dungeons and Taverns (v4.7 -> v4.7.2)
+- Updated Borukva Food (0.1.12+1.21.5 -> 0.1.13+1.21.5)
+- Updated Baby Fat - Polymerized (1.0.2+1.21.5 -> 1.0.5+1.21.5)
+- Updated MidnightLib (1.7.2-fabric+1.21.4 -> 1.7.3-fabric+1.21.4)
+- Updated Polymer (0.12.4+1.21.5 -> 0.12.6+1.21.5)
+- Updated Fabric Language Kotlin (1.13.2+kotlin.2.1.20 -> 1.13.3+kotlin.2.1.21)
+- Updated Leaves Us In Peace (1.8.1+MC1.21.5 -> 1.8.2+MC1.21.5)
+- Updated Balm (1.21.5-21.5.14 -> 1.21.5-21.5.17)
+- Updated Fabric API (0.121.0+1.21.5 -> 0.127.1+1.21.5)
+- Updated Text Placeholder API (2.6.3+1.21.5 -> 2.6.4+1.21.5)
+- Updated Lithium (0.16.2+mc1.21.5 -> 0.16.3+mc1.21.5)
+- Updated spark (1.10.128 -> 2.10.138)
+- Removed leftover "assets/minecraft/en_us.json" file, which prevented client resource packs from overriding vanilla tranlations.
+
 # 0.3.0:
 - Re-added Borukva Food: https://modrinth.com/mod/borukva-food
 - Added Micro Fighters: https://modrinth.com/mod/micro-fighters
@@ -20,7 +210,7 @@
 - Updated Text Placeholder API (2.6.2+1.21.5 -> 2.6.3+1.21.5)
 - Updated Polymer (0.12.3+1.21.5 -> 0.12.4+1.21.5)
 
-# 0.3.0-beta.3
+# 0.3.0-beta.3:
 - Updated to 1.21.5
 - Fixed some issues causing this pack to outright crash in singleplayer / client.
   - While main focus will always be running things server side, I decided some basic singleplayer support would be nice.
@@ -29,9 +219,8 @@
 - Removed ViaFabric and ViaVersion:
   - No longer needed.
 - Removed Necronomicon API (it wasn't used anyway)
-  
 
-# 0.3.0-beta.2
+# 0.3.0-beta.2:
 - Added ViaVersion and ViaFabric:
   - Servers running this modpack should now be joinable from 1.21.5.
   - While things should generally work, it's possible there might be some bugs.
@@ -56,8 +245,7 @@
 - Updated Fabric API (0.117.0+1.21.4 -> 0.119.2+1.21.4)
 - Updated Fabric Language Kotlin (1.13.1+kotlin.2.1.10 -> 1.13.2+kotlin.2.1.20)
 
-
-# 0.3.0-beta.1
+# 0.3.0-beta.1:
 - Updated to 1.21.4
 - Updated ALL mods. Won't put them all here as it's just too many.
 - Warning: Old worlds aren't fully compatible yet!
@@ -82,8 +270,7 @@
   - Server Ui Fix - Better fix implemented in Polymer
   - This Rocks Polymer - Merged into This Rocks!
 
-
-# 0.2.1
+# 0.2.1:
 - You can now join the modpack server with 1.21.2/3.
   - While it should faily playable, there might be some issues/bugs related to that, as features/behaviour between these versions have some differences. 
   - For best experience, you should play on 1.21.1 client, until the Polymania fully moves to 1.21.3 (with 0.3.0 update).
@@ -108,8 +295,7 @@
 - Updated Balm (1.21.1 -> 1.21.1)
 - Updated Fabric Language Kotlin (1.12.2+kotlin.2.0.20 -> 1.12.3+kotlin.2.0.21)
 
-
-# 0.2.0
+# 0.2.0:
 - Changed texture and recipe of Televator. Now it's styled more like PolyFactory blocks.
 - Fixed seeds from Borukva Food not being plantable with Mechanical Planter
 - Modpack version is now visible on the tablist header. Additionally all future modpack updates will be announced for ops and in logs/console.
@@ -145,5 +331,5 @@
 - Removed Double Doors, Collective, Leaves be Gone, Puzzles Lib, OpenLoader.
 - Moved all included datapacks from `config/openloader/data` to `resources/common/required`.
 
-# 0.1.0
+# 0.1.0:
 - Initial Release!

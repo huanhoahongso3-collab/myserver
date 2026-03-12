@@ -45,7 +45,9 @@
     "cancel_creation_for_damage_types": {},
     "cancel_creation_for_ignored_attacker_types": {},
     "blocking_predicates": [],
-    "block_in_protected_area": {},
+    "block_in_protected_area": {
+      "goml:claim_protection": false
+    },
     "blacklisted_worlds": [],
     "blacklisted_areas": {},
     "creation_default_failure_text": "<red><lang:'text.graves.creation_failed':'<gold>${position}':'<yellow>${world}'>",

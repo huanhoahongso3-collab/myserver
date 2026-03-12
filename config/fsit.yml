@@ -1,4 +1,4 @@
-version: 2
+version: 3
 # Whether to use the server-side configuration.
 use_server: false
 sitting:
@@ -29,3 +29,10 @@ on_sneak:
   min_pitch: 60.0
   # The window between sneaks to sit down (in milliseconds).
   delay: 600
+commands:
+  # Whether to register /fsit command. Requires restart
+  root: true
+  # Whether to register /sit command. Requires restart
+  sit: true
+  # Whether to register /crawl command. Requires restart
+  crawl: true
