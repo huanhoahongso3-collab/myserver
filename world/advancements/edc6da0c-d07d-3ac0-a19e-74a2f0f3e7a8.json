@@ -13,8 +13,10 @@
   },
   "minecraft:adventure/distant_lands": {
     "criteria": {
+      "minecraft:flower_forest": "2026-03-12 09:58:12 +0000",
       "minecraft:savanna_plateau": "2026-03-10 14:30:04 +0000",
       "minecraft:cherry_grove": "2026-03-10 03:48:07 +0000",
+      "minecraft:sunflower_plains": "2026-03-12 09:56:49 +0000",
       "minecraft:river": "2026-03-10 14:33:28 +0000",
       "minecraft:plains": "2026-03-10 03:51:55 +0000"
     },
@@ -22,8 +24,11 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:flower_forest": "2026-03-12 09:58:12 +0000",
       "minecraft:savanna_plateau": "2026-03-10 14:30:04 +0000",
+      "minecraft:windswept_forest": "2026-03-12 09:56:19 +0000",
       "minecraft:cherry_grove": "2026-03-10 03:48:07 +0000",
+      "minecraft:sunflower_plains": "2026-03-12 09:56:49 +0000",
       "minecraft:river": "2026-03-10 14:33:28 +0000",
       "minecraft:plains": "2026-03-10 03:51:55 +0000"
     },
@@ -2361,6 +2366,108 @@
   "minecraft:recipes/building_blocks/chiseled_bookshelf": {
     "criteria": {
       "has_book": "2026-03-12 09:43:40 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/stuffed_pumpkin_block": {
+    "criteria": {
+      "has_pumpkin": "2026-03-12 09:57:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_candle": {
+    "criteria": {
+      "has_yellow_dye": "2026-03-12 09:58:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_rose_bush": "2026-03-12 09:58:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_yellow_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-03-12 09:58:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/yellow_bundle": {
+    "criteria": {
+      "has_yellow_dye": "2026-03-12 09:58:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_yellow_harness": {
+    "criteria": {
+      "has_needed_dye": "2026-03-12 09:58:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2026-03-12 09:57:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2026-03-12 09:57:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_red_yellow": {
+    "criteria": {
+      "has_yellow_dye": "2026-03-12 09:58:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_yellow_dye": "2026-03-12 09:58:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_sunflower": "2026-03-12 09:57:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_lilac": {
+    "criteria": {
+      "has_lilac": "2026-03-12 09:58:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2026-03-12 09:57:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2026-03-12 09:57:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_yellow_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-03-12 09:58:03 +0000"
+    },
+    "done": true
+  },
+  "polydecorations:recipes/decorations/dye_white_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2026-03-12 09:58:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_yellow_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-03-12 09:58:03 +0000"
     },
     "done": true
   },
