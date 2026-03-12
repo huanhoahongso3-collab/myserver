@@ -15,10 +15,13 @@
     "criteria": {
       "minecraft:flower_forest": "2026-03-12 09:58:12 +0000",
       "minecraft:savanna_plateau": "2026-03-10 14:30:04 +0000",
+      "minecraft:deep_ocean": "2026-03-12 10:07:53 +0000",
       "minecraft:cherry_grove": "2026-03-10 03:48:07 +0000",
       "minecraft:sunflower_plains": "2026-03-12 09:56:49 +0000",
       "minecraft:river": "2026-03-10 14:33:28 +0000",
+      "minecraft:lukewarm_ocean": "2026-03-12 10:04:21 +0000",
       "minecraft:plains": "2026-03-10 03:51:55 +0000",
+      "minecraft:deep_lukewarm_ocean": "2026-03-12 10:05:21 +0000",
       "clifftree:granite_shore": "2026-03-12 10:02:52 +0000"
     },
     "done": false
@@ -28,9 +31,11 @@
       "minecraft:flower_forest": "2026-03-12 09:58:12 +0000",
       "minecraft:savanna_plateau": "2026-03-10 14:30:04 +0000",
       "minecraft:windswept_forest": "2026-03-12 09:56:19 +0000",
+      "minecraft:ocean": "2026-03-12 10:07:53 +0000",
       "minecraft:cherry_grove": "2026-03-10 03:48:07 +0000",
       "minecraft:sunflower_plains": "2026-03-12 09:56:49 +0000",
       "minecraft:river": "2026-03-10 14:33:28 +0000",
+      "minecraft:lukewarm_ocean": "2026-03-12 10:04:21 +0000",
       "minecraft:stony_shore": "2026-03-12 10:02:52 +0000",
       "minecraft:plains": "2026-03-10 03:51:55 +0000"
     },
@@ -2395,9 +2400,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-03-12 10:03:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/yellow_candle": {
     "criteria": {
       "has_yellow_dye": "2026-03-12 09:58:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-03-12 10:03:37 +0000"
     },
     "done": true
   },
@@ -2410,6 +2427,12 @@
   "minecraft:recipes/building_blocks/dye_yellow_wool": {
     "criteria": {
       "has_needed_dye": "2026-03-12 09:58:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-03-12 10:03:37 +0000"
     },
     "done": true
   },
@@ -2443,6 +2466,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-03-12 10:03:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/pumpkin_pie": {
     "criteria": {
       "has_pumpkin": "2026-03-12 09:57:18 +0000"
@@ -2458,6 +2487,24 @@
   "minecraft:recipes/food/suspicious_stew_from_dandelion": {
     "criteria": {
       "has_dandelion": "2026-03-12 09:57:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2026-03-12 10:04:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_copper_block": {
+    "criteria": {
+      "has_raw_copper": "2026-03-12 10:04:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_chest_raft": {
+    "criteria": {
+      "has_boat": "2026-03-12 10:03:37 +0000"
     },
     "done": true
   },
@@ -2545,15 +2592,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/pale_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-03-12 10:03:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/pumpkin_seeds": {
     "criteria": {
       "has_pumpkin": "2026-03-12 09:57:18 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-03-12 10:03:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/yellow_dye_from_dandelion": {
     "criteria": {
       "has_dandelion": "2026-03-12 09:57:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-03-12 10:03:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-03-12 10:03:37 +0000"
     },
     "done": true
   },
@@ -2572,6 +2643,12 @@
   "minecraft:recipes/decorations/dye_yellow_bed": {
     "criteria": {
       "has_needed_dye": "2026-03-12 09:58:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-03-12 10:03:37 +0000"
     },
     "done": true
   },
@@ -2650,6 +2727,12 @@
   "minecraft:recipes/combat/dye_red_harness": {
     "criteria": {
       "has_needed_dye": "2026-03-12 09:58:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2026-03-12 10:04:07 +0000"
     },
     "done": true
   },
