@@ -250,3 +250,7 @@ java.io.FileNotFoundException: ./world/./data/BlossomHomes.json (No such file or
 [2026-03-12 10:35:27] [Server thread/TRACE] (BlossomLib): writing BlossomHomes
 [2026-03-12 10:40:25] [Server thread/ INFO] (BlossomHomes): adding home Home{name='swamp', world='minecraft:overworld', x=3564.3703444961043, y=63.0, z=-3449.0467674681527, yaw=-136.2882, pitch=54.29997} to class_3222['FewerSteak1914'/2078, l='ServerLevel[world]', x=3564.37, y=63.00, z=-3449.05]
 [2026-03-12 10:40:25] [Server thread/TRACE] (BlossomLib): writing BlossomHomes
+[2026-03-12 10:41:10] [Server thread/ INFO] (BlossomHomes): adding home Home{name='swampvil', world='minecraft:overworld', x=3617.5772163927327, y=67.0, z=-3483.790120632798, yaw=-102.050476, pitch=23.375572} to class_3222['FewerSteak1914'/2078, l='ServerLevel[world]', x=3617.58, y=67.00, z=-3483.79]
+[2026-03-12 10:41:10] [Server thread/TRACE] (BlossomLib): writing BlossomHomes
+[2026-03-12 10:41:14] [Server thread/DEBUG] (BlossomHomes): removing home Home{name='swamp', world='minecraft:overworld', x=3564.3703444961043, y=63.0, z=-3449.0467674681527, yaw=-136.2882, pitch=54.29997} from class_3222['FewerSteak1914'/2078, l='ServerLevel[world]', x=3617.58, y=67.00, z=-3483.79]
+[2026-03-12 10:41:14] [Server thread/TRACE] (BlossomLib): writing BlossomHomes
