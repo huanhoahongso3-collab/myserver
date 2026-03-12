@@ -1841,9 +1841,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/leather_helmet": {
+  "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
-      "has_leather": "2026-03-12 09:35:38 +0000"
+      "has_bone_meal": "2026-03-12 09:30:14 +0000"
     },
     "done": true
   },
@@ -1853,87 +1853,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_mutton_from_smoking": {
-    "criteria": {
-      "has_mutton": "2026-03-12 09:37:20 +0000"
-    },
-    "done": true
-  },
-  "powder_to_glass:recipes/misc/gray_stained_glass": {
-    "criteria": {
-      "has_powder": "2026-03-12 09:30:31 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/beetroot_soup": {
-    "criteria": {
-      "has_beetroot": "2026-03-12 09:41:41 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/dye_gray_bed": {
     "criteria": {
       "has_needed_dye": "2026-03-12 09:30:21 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/leather_chestplate": {
-    "criteria": {
-      "has_leather": "2026-03-12 09:35:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_gray_stained_glass_pane_from_glass_pane": {
-    "criteria": {
-      "has_light_gray_dye": "2026-03-12 09:32:01 +0000"
-    },
-    "done": true
-  },
-  "serverbackpacks:recipes/misc/crafting_upgrade": {
-    "criteria": {
-      "get_leather": "2026-03-12 09:35:38 +0000"
-    },
-    "done": true
-  },
-  "blockus:recipes/building_blocks/beetroot_crate": {
-    "criteria": {
-      "has_beetroot": "2026-03-12 09:41:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/lectern": {
-    "criteria": {
-      "has_book": "2026-03-12 09:43:40 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/tripwire_hook": {
-    "criteria": {
-      "has_string": "2026-03-12 09:38:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/writable_book": {
-    "criteria": {
-      "has_book": "2026-03-12 09:43:40 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/candle": {
-    "criteria": {
-      "has_string": "2026-03-12 09:38:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/leather_horse_armor": {
-    "criteria": {
-      "has_leather": "2026-03-12 09:35:38 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/squid_ink_pasta": {
-    "criteria": {
-      "has_any_ingredient": "2026-03-12 09:40:41 +0000"
     },
     "done": true
   },
@@ -1955,75 +1877,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_beef_from_smoking": {
+  "minecraft:recipes/tools/gray_bundle": {
     "criteria": {
-      "has_beef": "2026-03-12 09:35:38 +0000"
+      "has_gray_dye": "2026-03-12 09:30:21 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_porkchop": {
+  "polydecorations:recipes/decorations/dye_gray_sleeping_bag": {
     "criteria": {
-      "has_porkchop": "2026-03-12 09:34:34 +0000"
+      "has_needed_dye": "2026-03-12 09:30:21 +0000"
     },
     "done": true
   },
-  "farmersdelight:recipes/building_blocks/tomato_crate": {
+  "minecraft:recipes/building_blocks/dye_gray_wool": {
     "criteria": {
-      "has_tomato": "2026-03-12 09:40:41 +0000"
+      "has_needed_dye": "2026-03-12 09:30:21 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_light_gray_wool": {
+  "powder_to_glass:recipes/misc/gray_stained_glass": {
     "criteria": {
-      "has_needed_dye": "2026-03-12 09:32:01 +0000"
-    },
-    "done": true
-  },
-  "polydecorations:recipes/decorations/white_sleeping_bag": {
-    "criteria": {
-      "planks": "2026-03-12 09:37:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/red_dye_from_beetroot": {
-    "criteria": {
-      "has_beetroot": "2026-03-12 09:41:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/item_frame": {
-    "criteria": {
-      "has_leather": "2026-03-12 09:35:38 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/pasta_with_meatballs": {
-    "criteria": {
-      "has_any_ingredient": "2026-03-12 09:35:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_gray_candle": {
-    "criteria": {
-      "has_light_gray_dye": "2026-03-12 09:32:01 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/slabs/bread": {
-    "criteria": {
-      "has_item": "2026-03-12 09:42:15 +0000"
-    },
-    "done": true
-  },
-  "craftable_bundles_rabbit_hide:recipes/bundle_rabbit_hide": {
-    "criteria": {
-      "has_string": "2026-03-12 09:38:41 +0000"
-    },
-    "done": true
-  },
-  "polydecorations:recipes/decorations/dye_light_gray_sleeping_bag": {
-    "criteria": {
-      "has_needed_dye": "2026-03-12 09:32:01 +0000"
+      "has_powder": "2026-03-12 09:30:31 +0000"
     },
     "done": true
   },
@@ -2039,81 +1913,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
-    "criteria": {
-      "has_porkchop": "2026-03-12 09:34:34 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/beetroot_soup": {
-    "criteria": {
-      "has_beetroot": "2026-03-12 09:41:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/leather_boots": {
-    "criteria": {
-      "has_leather": "2026-03-12 09:35:38 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipe/building_blocks/gray_concrete_bricks": {
     "criteria": {
       "has_gray_concrete": "2026-03-12 09:31:21 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/gray_bundle": {
-    "criteria": {
-      "has_gray_dye": "2026-03-12 09:30:21 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/white_bed": {
-    "criteria": {
-      "has_white_wool": "2026-03-12 09:37:24 +0000"
-    },
-    "done": true
-  },
-  "glideaway:recipes/tools/glider/white": {
-    "criteria": {
-      "wool": "2026-03-12 09:37:24 +0000"
-    },
-    "done": true
-  },
-  "blockus:recipes/building_blocks/light_gray_colored_tiles": {
-    "criteria": {
-      "has_light_gray_concrete": "2026-03-12 09:32:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/bundle": {
-    "criteria": {
-      "has_the_recipe": "2026-03-12 09:38:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_beef": {
-    "criteria": {
-      "has_beef": "2026-03-12 09:35:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/bone_block": {
-    "criteria": {
-      "has_bone_meal": "2026-03-12 09:30:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/leather_leggings": {
-    "criteria": {
-      "has_leather": "2026-03-12 09:35:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/dye_light_gray_harness": {
-    "criteria": {
-      "has_needed_dye": "2026-03-12 09:32:01 +0000"
     },
     "done": true
   },
@@ -2123,51 +1925,39 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/dye_light_gray_bed": {
+  "minecraft:recipes/decorations/light_gray_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_light_gray_dye": "2026-03-12 09:32:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_light_gray_wool": {
     "criteria": {
       "has_needed_dye": "2026-03-12 09:32:01 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/bookshelf": {
+  "minecraft:recipes/decorations/light_gray_candle": {
     "criteria": {
-      "has_book": "2026-03-12 09:43:40 +0000"
+      "has_light_gray_dye": "2026-03-12 09:32:01 +0000"
     },
     "done": true
   },
-  "blockus:recipes/building_blocks/light_gray_colored_tiles_from_light_gray_concrete_stonecutting": {
+  "polydecorations:recipes/decorations/dye_light_gray_sleeping_bag": {
     "criteria": {
-      "has_light_gray_concrete": "2026-03-12 09:32:41 +0000"
+      "has_needed_dye": "2026-03-12 09:32:01 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/combat/bow": {
+  "minecraft:recipes/combat/dye_light_gray_harness": {
     "criteria": {
-      "has_string": "2026-03-12 09:38:41 +0000"
+      "has_needed_dye": "2026-03-12 09:32:01 +0000"
     },
     "done": true
   },
-  "polydecorations:recipes/decorations/dye_gray_sleeping_bag": {
+  "minecraft:recipes/decorations/dye_light_gray_bed": {
     "criteria": {
-      "has_needed_dye": "2026-03-12 09:30:21 +0000"
-    },
-    "done": true
-  },
-  "serverbackpacks:recipes/misc/void_upgrade": {
-    "criteria": {
-      "get_leather": "2026-03-12 09:35:38 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/noodle_soup": {
-    "criteria": {
-      "has_any_ingredient": "2026-03-12 09:34:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/painting": {
-    "criteria": {
-      "has_wool": "2026-03-12 09:37:24 +0000"
+      "has_needed_dye": "2026-03-12 09:32:01 +0000"
     },
     "done": true
   },
@@ -2177,15 +1967,27 @@
     },
     "done": true
   },
-  "toms_mobs:recipes/building_blocks/lime_elephant_harness": {
+  "minecraft:recipes/decorations/dye_light_gray_carpet": {
     "criteria": {
-      "has_leather": "2026-03-12 09:35:38 +0000"
+      "has_needed_dye": "2026-03-12 09:32:01 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/tools/fishing_rod": {
+  "powder_to_glass:recipes/misc/light_gray_stained_glass": {
     "criteria": {
-      "has_string": "2026-03-12 09:38:41 +0000"
+      "has_powder": "2026-03-12 09:32:31 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/light_gray_colored_tiles": {
+    "criteria": {
+      "has_light_gray_concrete": "2026-03-12 09:32:41 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/light_gray_colored_tiles_from_light_gray_concrete_stonecutting": {
+    "criteria": {
+      "has_light_gray_concrete": "2026-03-12 09:32:41 +0000"
     },
     "done": true
   },
@@ -2195,15 +1997,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+  "minecraft:recipe/building_blocks/light_gray_bouncy_block": {
+    "criteria": {
+      "has_light_gray_concrete": "2026-03-12 09:32:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
     "criteria": {
       "has_porkchop": "2026-03-12 09:34:34 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
     "criteria": {
-      "has_book": "2026-03-12 09:43:40 +0000"
+      "has_porkchop": "2026-03-12 09:34:34 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/noodle_soup": {
+    "criteria": {
+      "has_any_ingredient": "2026-03-12 09:34:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2026-03-12 09:34:34 +0000"
     },
     "done": true
   },
@@ -2213,9 +2033,75 @@
     },
     "done": true
   },
-  "minecraft:recipe/building_blocks/striped_towel": {
+  "minecraft:recipes/combat/leather_helmet": {
     "criteria": {
-      "has_white_wool": "2026-03-12 09:37:24 +0000"
+      "has_leather": "2026-03-12 09:35:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2026-03-12 09:35:38 +0000"
+    },
+    "done": true
+  },
+  "serverbackpacks:recipes/misc/crafting_upgrade": {
+    "criteria": {
+      "get_leather": "2026-03-12 09:35:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2026-03-12 09:35:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2026-03-12 09:35:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2026-03-12 09:35:38 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pasta_with_meatballs": {
+    "criteria": {
+      "has_any_ingredient": "2026-03-12 09:35:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2026-03-12 09:35:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2026-03-12 09:35:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2026-03-12 09:35:38 +0000"
+    },
+    "done": true
+  },
+  "serverbackpacks:recipes/misc/void_upgrade": {
+    "criteria": {
+      "get_leather": "2026-03-12 09:35:38 +0000"
+    },
+    "done": true
+  },
+  "toms_mobs:recipes/building_blocks/lime_elephant_harness": {
+    "criteria": {
+      "has_leather": "2026-03-12 09:35:38 +0000"
     },
     "done": true
   },
@@ -2226,51 +2112,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/white_carpet": {
-    "criteria": {
-      "has_white_wool": "2026-03-12 09:37:24 +0000"
-    },
-    "done": true
-  },
-  "powder_to_glass:recipes/misc/light_gray_stained_glass": {
-    "criteria": {
-      "has_powder": "2026-03-12 09:32:31 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/lead": {
-    "criteria": {
-      "has_string": "2026-03-12 09:38:41 +0000"
-    },
-    "done": true
-  },
-  "wool_to_string:recipes/building_blocks/wool_to_string/string": {
-    "criteria": {
-      "has_block": "2026-03-12 09:37:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_mutton": {
-    "criteria": {
-      "has_mutton": "2026-03-12 09:37:20 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/white_banner": {
-    "criteria": {
-      "has_white_wool": "2026-03-12 09:37:24 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/saddle": {
     "criteria": {
       "get_item": "2026-03-12 09:35:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dye_light_gray_carpet": {
-    "criteria": {
-      "has_needed_dye": "2026-03-12 09:32:01 +0000"
     },
     "done": true
   },
@@ -2292,6 +2136,30 @@
     },
     "done": true
   },
+  "serverbackpacks:recipes/misc/magnet_upgrade": {
+    "criteria": {
+      "get_leather": "2026-03-12 09:35:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2026-03-12 09:35:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2026-03-12 09:37:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2026-03-12 09:37:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
     "criteria": {
       "has_mutton": "2026-03-12 09:37:20 +0000"
@@ -2304,15 +2172,93 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/tomato_sauce": {
+  "polydecorations:recipes/decorations/white_sleeping_bag": {
     "criteria": {
-      "has_tomato": "2026-03-12 09:40:41 +0000"
+      "planks": "2026-03-12 09:37:24 +0000"
     },
     "done": true
   },
-  "farmersdelight:recipes/misc/tomato_seeds": {
+  "minecraft:recipes/decorations/white_bed": {
     "criteria": {
-      "has_tomato": "2026-03-12 09:40:41 +0000"
+      "has_white_wool": "2026-03-12 09:37:24 +0000"
+    },
+    "done": true
+  },
+  "glideaway:recipes/tools/glider/white": {
+    "criteria": {
+      "wool": "2026-03-12 09:37:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2026-03-12 09:37:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipe/building_blocks/striped_towel": {
+    "criteria": {
+      "has_white_wool": "2026-03-12 09:37:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2026-03-12 09:37:24 +0000"
+    },
+    "done": true
+  },
+  "wool_to_string:recipes/building_blocks/wool_to_string/string": {
+    "criteria": {
+      "has_block": "2026-03-12 09:37:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2026-03-12 09:37:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/bundle": {
+    "criteria": {
+      "has_the_recipe": "2026-03-12 09:38:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2026-03-12 09:38:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2026-03-12 09:38:41 +0000"
+    },
+    "done": true
+  },
+  "craftable_bundles_rabbit_hide:recipes/bundle_rabbit_hide": {
+    "criteria": {
+      "has_string": "2026-03-12 09:38:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2026-03-12 09:38:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2026-03-12 09:38:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_string": "2026-03-12 09:38:41 +0000"
     },
     "done": true
   },
@@ -2328,9 +2274,57 @@
     },
     "done": true
   },
-  "minecraft:recipe/building_blocks/light_gray_bouncy_block": {
+  "minecraft:recipes/decorations/loom": {
     "criteria": {
-      "has_light_gray_concrete": "2026-03-12 09:32:41 +0000"
+      "has_string": "2026-03-12 09:38:41 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/squid_ink_pasta": {
+    "criteria": {
+      "has_any_ingredient": "2026-03-12 09:40:41 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/tomato_crate": {
+    "criteria": {
+      "has_tomato": "2026-03-12 09:40:41 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/tomato_sauce": {
+    "criteria": {
+      "has_tomato": "2026-03-12 09:40:41 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/tomato_seeds": {
+    "criteria": {
+      "has_tomato": "2026-03-12 09:40:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2026-03-12 09:41:41 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/beetroot_crate": {
+    "criteria": {
+      "has_beetroot": "2026-03-12 09:41:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2026-03-12 09:41:41 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2026-03-12 09:41:41 +0000"
     },
     "done": true
   },
@@ -2340,27 +2334,33 @@
     },
     "done": true
   },
-  "serverbackpacks:recipes/misc/magnet_upgrade": {
+  "minecraft:recipes/building_blocks/slabs/bread": {
     "criteria": {
-      "get_leather": "2026-03-12 09:35:38 +0000"
+      "has_item": "2026-03-12 09:42:15 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_gray_wool": {
+  "minecraft:recipes/redstone/lectern": {
     "criteria": {
-      "has_needed_dye": "2026-03-12 09:30:21 +0000"
+      "has_book": "2026-03-12 09:43:40 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/loom": {
+  "minecraft:recipes/misc/writable_book": {
     "criteria": {
-      "has_string": "2026-03-12 09:38:41 +0000"
+      "has_book": "2026-03-12 09:43:40 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+  "minecraft:recipes/building_blocks/bookshelf": {
     "criteria": {
-      "has_beef": "2026-03-12 09:35:38 +0000"
+      "has_book": "2026-03-12 09:43:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2026-03-12 09:43:40 +0000"
     },
     "done": true
   },
