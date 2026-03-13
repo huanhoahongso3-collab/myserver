@@ -321,3 +321,10 @@ java.io.FileNotFoundException: ./world/./data/BlossomHomes.json (No such file or
 [2026-03-13 10:51:13] [Server thread/TRACE] (BlossomHomes): home player class_3222['FewerSteak1914'/202, l='ServerLevel[world]', x=7349.81, y=55.97, z=-6918.23] to Home{name='home', world='minecraft:overworld', x=7224.409783476255, y=103.0, z=-6762.17392955944, yaw=-172.38751, pitch=27.551016}
 [2026-03-13 10:51:13] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8 (3.0 s)
 [2026-03-13 10:51:16] [Server thread/DEBUG] (BlossomLib): genericCountdown for edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8 has ended
+[2026-03-13 11:12:21] [Server thread/ INFO] (BlossomHomes): adding home Home{name='cherry', world='minecraft:overworld', x=7320.612828965856, y=130.0625, z=-6719.267195214916, yaw=0.118869305, pitch=26.850018} to class_3222['FewerSteak1914'/38433, l='ServerLevel[world]', x=7320.61, y=130.06, z=-6719.27]
+[2026-03-13 11:12:21] [Server thread/TRACE] (BlossomLib): writing BlossomHomes
+[2026-03-13 11:12:41] [Server thread/DEBUG] (BlossomHomes): removing home Home{name='home', world='minecraft:overworld', x=7224.409783476255, y=103.0, z=-6762.17392955944, yaw=-172.38751, pitch=27.551016} from class_3222['FewerSteak1914'/38433, l='ServerLevel[world]', x=7259.70, y=96.00, z=-6731.70]
+[2026-03-13 11:12:41] [Server thread/TRACE] (BlossomLib): writing BlossomHomes
+[2026-03-13 11:13:03] [Server thread/TRACE] (BlossomHomes): home player class_3222['FewerSteak1914'/38433, l='ServerLevel[world]', x=7237.98, y=100.00, z=-6749.35] to Home{name='cherry', world='minecraft:overworld', x=7320.612828965856, y=130.0625, z=-6719.267195214916, yaw=0.118869305, pitch=26.850018}
+[2026-03-13 11:13:03] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8 (3.0 s)
+[2026-03-13 11:13:06] [Server thread/DEBUG] (BlossomLib): genericCountdown for edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8 has ended
