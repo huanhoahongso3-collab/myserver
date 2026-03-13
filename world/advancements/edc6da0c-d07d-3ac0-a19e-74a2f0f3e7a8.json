@@ -2884,9 +2884,96 @@
     },
     "done": true
   },
+  "sylcurity:recipes/misc/camera": {
+    "criteria": {
+      "has_terminal": "2026-03-13 11:15:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2026-03-13 11:15:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2026-03-13 11:15:31 +0000"
+    },
+    "done": true
+  },
+  "sylcurity:recipes/misc/player_detector": {
+    "criteria": {
+      "has_terminal": "2026-03-13 11:15:49 +0000"
+    },
+    "done": true
+  },
+  "sylcurity:recipes/misc/activity_log": {
+    "criteria": {
+      "has_terminal": "2026-03-13 11:15:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2026-03-13 11:15:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2026-03-13 11:15:31 +0000",
+      "has_the_recipe": "2026-03-13 11:15:31 +0000"
+    },
+    "done": true
+  },
+  "cinderscapes:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2026-03-13 11:15:31 +0000",
+      "has_the_recipe": "2026-03-13 11:15:31 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/lantern_block": {
     "criteria": {
       "has_lantern": "2026-03-13 11:09:55 +0000"
+    },
+    "done": true
+  },
+  "cinderscapes:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2026-03-13 11:15:31 +0000",
+      "has_the_recipe": "2026-03-13 11:15:31 +0000"
+    },
+    "done": true
+  },
+  "cinderscapes:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2026-03-13 11:15:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2026-03-13 11:15:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2026-03-13 11:15:31 +0000"
+    },
+    "done": true
+  },
+  "sylcurity:recipes/misc/terminal": {
+    "criteria": {
+      "has_terminal": "2026-03-13 11:15:49 +0000"
+    },
+    "done": true
+  },
+  "sylcurity:recipes/misc/event_receiver": {
+    "criteria": {
+      "has_terminal": "2026-03-13 11:15:49 +0000"
     },
     "done": true
   },
