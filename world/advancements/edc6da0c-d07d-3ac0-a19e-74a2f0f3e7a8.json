@@ -2884,9 +2884,9 @@
     },
     "done": true
   },
-  "sylcurity:recipes/misc/camera": {
+  "blockus:recipes/building_blocks/lantern_block": {
     "criteria": {
-      "has_terminal": "2026-03-13 11:15:49 +0000"
+      "has_lantern": "2026-03-13 11:09:55 +0000"
     },
     "done": true
   },
@@ -2899,24 +2899,6 @@
   "minecraft:recipes/building_blocks/granite": {
     "criteria": {
       "has_quartz": "2026-03-13 11:15:31 +0000"
-    },
-    "done": true
-  },
-  "sylcurity:recipes/misc/player_detector": {
-    "criteria": {
-      "has_terminal": "2026-03-13 11:15:49 +0000"
-    },
-    "done": true
-  },
-  "chalk:recipes/misc/chalk": {
-    "criteria": {
-      "item": "2026-03-13 11:17:30 +0000"
-    },
-    "done": true
-  },
-  "sylcurity:recipes/misc/activity_log": {
-    "criteria": {
-      "has_terminal": "2026-03-13 11:15:49 +0000"
     },
     "done": true
   },
@@ -2940,12 +2922,6 @@
     },
     "done": true
   },
-  "blockus:recipes/building_blocks/lantern_block": {
-    "criteria": {
-      "has_lantern": "2026-03-13 11:09:55 +0000"
-    },
-    "done": true
-  },
   "cinderscapes:recipes/redstone/observer": {
     "criteria": {
       "has_quartz": "2026-03-13 11:15:31 +0000",
@@ -2956,12 +2932,6 @@
   "cinderscapes:recipes/redstone/comparator": {
     "criteria": {
       "has_quartz": "2026-03-13 11:15:31 +0000"
-    },
-    "done": true
-  },
-  "blockus:recipes/building_blocks/marble_from_calcite": {
-    "criteria": {
-      "has_calcite": "2026-03-13 11:17:30 +0000"
     },
     "done": true
   },
@@ -2977,6 +2947,24 @@
     },
     "done": true
   },
+  "sylcurity:recipes/misc/camera": {
+    "criteria": {
+      "has_terminal": "2026-03-13 11:15:49 +0000"
+    },
+    "done": true
+  },
+  "sylcurity:recipes/misc/player_detector": {
+    "criteria": {
+      "has_terminal": "2026-03-13 11:15:49 +0000"
+    },
+    "done": true
+  },
+  "sylcurity:recipes/misc/activity_log": {
+    "criteria": {
+      "has_terminal": "2026-03-13 11:15:49 +0000"
+    },
+    "done": true
+  },
   "sylcurity:recipes/misc/terminal": {
     "criteria": {
       "has_terminal": "2026-03-13 11:15:49 +0000"
@@ -2986,6 +2974,18 @@
   "sylcurity:recipes/misc/event_receiver": {
     "criteria": {
       "has_terminal": "2026-03-13 11:15:49 +0000"
+    },
+    "done": true
+  },
+  "chalk:recipes/misc/chalk": {
+    "criteria": {
+      "item": "2026-03-13 11:17:30 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/marble_from_calcite": {
+    "criteria": {
+      "has_calcite": "2026-03-13 11:17:30 +0000"
     },
     "done": true
   },
