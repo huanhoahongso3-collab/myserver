@@ -1370,3 +1370,6 @@ java.lang.IllegalStateException: not found
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
 [10:55:12] [Server thread/INFO]: FewerSteak1914[/127.155.199.86:35221] logged in with entity id 26250 at (7318.881978291928, 118.0, -6757.668103080632)
 [10:55:12] [Server thread/INFO]: FewerSteak1914 joined the game
+[10:58:02] [Server thread/INFO]: FewerSteak1914 lost connection: Disconnected
+[10:58:02] [Server thread/INFO]: FewerSteak1914 left the game
+[10:58:02] [Server thread/WARN]: handleDisconnection() called twice
