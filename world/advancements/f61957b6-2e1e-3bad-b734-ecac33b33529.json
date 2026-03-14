@@ -557,6 +557,12 @@
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/small_marble_bricks_from_marble_stonecutting": {
+    "criteria": {
+      "has_marble": "2026-03-14 03:26:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/raw_iron_block": {
     "criteria": {
       "has_raw_iron": "2026-03-14 03:10:47 +0000"
@@ -569,6 +575,12 @@
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/chiseled_marble_bricks_from_marble_stonecutting": {
+    "criteria": {
+      "has_marble": "2026-03-14 03:26:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2026-03-14 02:52:51 +0000"
@@ -578,6 +590,12 @@
   "minecraft:recipes/decorations/furnace": {
     "criteria": {
       "has_cobblestone": "2026-03-14 02:52:51 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/polished_marble": {
+    "criteria": {
+      "has_marble": "2026-03-14 03:26:26 +0000"
     },
     "done": true
   },
@@ -606,11 +624,23 @@
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/polished_limestone_from_limestone_stonecutting": {
+    "criteria": {
+      "has_limestone": "2026-03-14 03:28:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2026-03-14 02:52:51 +0000"
     },
     "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:zombie": "2026-03-14 03:27:33 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/building_blocks/iron_block": {
     "criteria": {
@@ -630,9 +660,39 @@
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/chiseled_limestone_from_limestone_stonecutting": {
+    "criteria": {
+      "has_limestone": "2026-03-14 03:28:09 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/marble": {
+    "criteria": {
+      "has_limestone": "2026-03-14 03:28:09 +0000"
+    },
+    "done": true
+  },
+  "rotten_flesh_to_leather:recipes/misc/leather": {
+    "criteria": {
+      "has_flesh": "2026-03-14 03:27:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/polished_limestone": {
+    "criteria": {
+      "has_limestone": "2026-03-14 03:28:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/hopper": {
     "criteria": {
       "has_iron_ingot": "2026-03-14 03:16:39 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/marble_pillar_from_marble_stonecutting": {
+    "criteria": {
+      "has_marble": "2026-03-14 03:26:26 +0000"
     },
     "done": true
   },
@@ -654,6 +714,12 @@
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/marble_squares_from_marble_stonecutting": {
+    "criteria": {
+      "has_marble": "2026-03-14 03:26:26 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/sturdy_stone_alt": {
     "criteria": {
       "has_cobblestone": "2026-03-14 02:52:51 +0000"
@@ -669,6 +735,12 @@
   "blockus:recipes/building_blocks/limestone": {
     "criteria": {
       "has_cobblestone": "2026-03-14 02:52:51 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/limestone_tiles_from_limestone_stonecutting": {
+    "criteria": {
+      "has_limestone": "2026-03-14 03:28:09 +0000"
     },
     "done": true
   },
@@ -774,6 +846,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/cooking/dog_food": {
+    "criteria": {
+      "has_any_ingredient": "2026-03-14 03:27:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2026-03-14 03:16:39 +0000"
@@ -783,6 +861,12 @@
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_boots": "2026-03-14 03:21:49 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/chiseled_limestone_pillar_from_limestone_stonecutting": {
+    "criteria": {
+      "has_limestone": "2026-03-14 03:28:09 +0000"
     },
     "done": true
   },
@@ -816,6 +900,12 @@
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/chiseled_marble_pillar_from_marble_stonecutting": {
+    "criteria": {
+      "has_marble": "2026-03-14 03:26:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2026-03-14 02:52:51 +0000"
@@ -831,6 +921,12 @@
   "minecraft:recipes/misc/bucket": {
     "criteria": {
       "has_iron_ingot": "2026-03-14 03:16:39 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/polished_marble_from_marble_stonecutting": {
+    "criteria": {
+      "has_marble": "2026-03-14 03:26:26 +0000"
     },
     "done": true
   },
@@ -858,6 +954,12 @@
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/chiseled_limestone_bricks_from_limestone_stonecutting": {
+    "criteria": {
+      "has_limestone": "2026-03-14 03:28:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2026-03-14 03:16:39 +0000"
@@ -867,6 +969,18 @@
   "minecraft:recipes/decorations/smoker": {
     "criteria": {
       "has_furnace": "2026-03-14 03:08:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2026-03-14 03:29:38 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/limestone_pillar_from_limestone_stonecutting": {
+    "criteria": {
+      "has_limestone": "2026-03-14 03:28:09 +0000"
     },
     "done": true
   },
@@ -888,9 +1002,21 @@
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/marble_tiles_from_marble_stonecutting": {
+    "criteria": {
+      "has_marble": "2026-03-14 03:26:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/smithing_table": {
     "criteria": {
       "has_iron_ingot": "2026-03-14 03:16:39 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/limestone_bricks_from_limestone_stonecutting": {
+    "criteria": {
+      "has_limestone": "2026-03-14 03:28:09 +0000"
     },
     "done": true
   },
@@ -903,6 +1029,12 @@
   "craftable_blackstone:recipes/building_blocks/coral/blackstone": {
     "criteria": {
       "has_coal": "2026-03-14 02:51:43 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/rotten_flesh_block": {
+    "criteria": {
+      "has_rotten_flesh": "2026-03-14 03:27:33 +0000"
     },
     "done": true
   },
@@ -930,6 +1062,12 @@
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/small_limestone_bricks_from_limestone_stonecutting": {
+    "criteria": {
+      "has_limestone": "2026-03-14 03:28:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_sword": {
     "criteria": {
       "has_iron_ingot": "2026-03-14 03:16:39 +0000"
@@ -954,15 +1092,33 @@
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/limestone_squares_from_limestone_stonecutting": {
+    "criteria": {
+      "has_limestone": "2026-03-14 03:28:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/iron_bars": {
     "criteria": {
       "has_iron_ingot": "2026-03-14 03:16:39 +0000"
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/marble_lines_from_marble_stonecutting": {
+    "criteria": {
+      "has_marble": "2026-03-14 03:26:26 +0000"
+    },
+    "done": true
+  },
   "slabs_stairs_to_block:recipes/building_blocks/stairs/cobblestone": {
     "criteria": {
       "has_stairs": "2026-03-14 02:52:51 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/limestone_lines_from_limestone_stonecutting": {
+    "criteria": {
+      "has_limestone": "2026-03-14 03:28:09 +0000"
     },
     "done": true
   },
@@ -984,6 +1140,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/building_blocks/organic_compost_from_rotten_flesh": {
+    "criteria": {
+      "has_rotten_flesh": "2026-03-14 03:27:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/iron_axe": {
     "criteria": {
       "has_iron_ingot": "2026-03-14 03:16:39 +0000"
@@ -993,6 +1155,18 @@
   "minecraft:recipes/misc/iron_nugget_from_blasting": {
     "criteria": {
       "has_iron_pickaxe": "2026-03-14 03:20:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2026-03-14 03:27:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/marble_bricks_from_marble_stonecutting": {
+    "criteria": {
+      "has_marble": "2026-03-14 03:26:26 +0000"
     },
     "done": true
   },
@@ -1007,6 +1181,12 @@
       "bread": "2026-03-14 02:49:46 +0000"
     },
     "done": false
+  },
+  "blockus:recipes/building_blocks/chiseled_marble_from_marble_stonecutting": {
+    "criteria": {
+      "has_marble": "2026-03-14 03:26:26 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/tools/stone_hoe": {
     "criteria": {
