@@ -1308,3 +1308,32 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [05:42:36] [Server thread/INFO]: [Polydex] Done! It took 5146 ms
 [05:42:41] [Server thread/INFO]: [Polymer] Resource pack created successfully! You can find it in game folder as polymer/resource_pack.zip
 [05:43:30] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[05:47:03] [ForkJoinPool.commonPool-worker-4/WARN]: Failed to fetch skin 'mojang:FewerSteak1914'
+java.lang.IllegalStateException: not found
+	at knot/net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:98) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:54) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.access$100(MojangSkinProvider.java:18) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider$1.findProfileByName(MojangSkinProvider.java:56) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.minecraft.class_3312.method_14509(class_3312.java:80) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3312.method_14515(class_3312.java:137) ~[server-intermediary.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:86) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:64) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:19) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:50) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.minecraft.class_3248.md7599e2$skinrestorer$lambda$skinrestorer$fetchSkin$1$2(class_3248.java:2593) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at knot/net.minecraft.class_3248.skinrestorer$fetchSkin(class_3248.java:2592) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3248.md7599e2$skinrestorer$lambda$waitForSkin$0$3(class_3248.java:2576) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[05:47:03] [Netty Epoll Server IO #2/WARN]: Modified mixin "vectorwing.farmersdelight.common.mixin.refabricated.RecipeBookSettingsMixin". Check debug logs for more information.
+[05:47:14] [Server thread/WARN]: Modified mixin "vectorwing.farmersdelight.common.mixin.refabricated.ServerRecipeBookMixin". Check debug logs for more information.
+[05:47:14] [Server thread/INFO]: FewerSteak1914[/127.155.199.86:48355] logged in with entity id 265 at (7319.300000011921, 130.0625, -6719.308455101173)
+[05:47:14] [Server thread/INFO]: FewerSteak1914 joined the game
+[05:47:27] [Server thread/INFO]: FewerSteak1914 lost connection: Disconnected
+[05:47:27] [Server thread/INFO]: FewerSteak1914 left the game
