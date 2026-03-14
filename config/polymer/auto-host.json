@@ -12,7 +12,7 @@
     "_c1": "Port used internally to run http server",
     "port": 7410,
     "_c2": "Public address used for sending requests",
-    "external_address": "https://poly-proxy-drab.vercel.app/"
+    "external_address": "https://vercel.app/"
   },
   "_c5": "Message sent to clients before pack is loaded",
   "message": "This server uses resource pack to enhance gameplay with custom textures and models. It might be unplayable without them. Máy chủ này sử dụng gói tài nguyên để nâng cao trải nghiệm chơi game với các họa tiết và mô hình tùy chỉnh. Có thể sẽ không chơi được nếu thiếu chúng.",
