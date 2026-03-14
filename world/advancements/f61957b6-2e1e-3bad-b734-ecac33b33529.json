@@ -537,9 +537,165 @@
     },
     "done": true
   },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2026-03-14 02:52:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2026-03-14 02:52:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2026-03-14 02:52:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone": {
+    "criteria": {
+      "has_cobblestone": "2026-03-14 02:52:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2026-03-14 02:52:51 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/sturdy_stone_alt": {
+    "criteria": {
+      "has_cobblestone": "2026-03-14 02:52:51 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/limestone": {
+    "criteria": {
+      "has_cobblestone": "2026-03-14 02:52:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipe/building_blocks/pebbles": {
+    "criteria": {
+      "has_cobblestone": "2026-03-14 02:52:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2026-03-14 02:52:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2026-03-14 02:52:51 +0000"
+    },
+    "done": true
+  },
+  "slabs_stairs_to_block:recipes/building_blocks/slabs/cobblestone": {
+    "criteria": {
+      "has_slab": "2026-03-14 02:52:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2026-03-14 02:52:51 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/sturdy_stone": {
+    "criteria": {
+      "has_cobblestone": "2026-03-14 02:52:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/slabs/cobblestone_slab": {
+    "criteria": {
+      "has_block": "2026-03-14 02:52:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2026-03-14 02:52:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2026-03-14 02:52:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2026-03-14 02:52:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2026-03-14 02:52:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2026-03-14 02:52:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2026-03-14 02:49:46 +0000"
+    },
+    "done": true
+  },
+  "craftable_blackstone:recipes/building_blocks/coral/blackstone": {
+    "criteria": {
+      "has_coal": "2026-03-14 02:51:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2026-03-14 02:51:43 +0000"
+    },
+    "done": true
+  },
+  "craftable_blackstone:recipes/building_blocks/coral/polished_blackstone": {
+    "criteria": {
+      "has_coal": "2026-03-14 02:51:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_stone_pickaxe": "2026-03-14 02:54:48 +0000"
+    },
+    "done": true
+  },
+  "slabs_stairs_to_block:recipes/building_blocks/stairs/cobblestone": {
+    "criteria": {
+      "has_stairs": "2026-03-14 02:52:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2026-03-14 02:54:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2026-03-14 02:52:51 +0000"
     },
     "done": true
   },
@@ -548,6 +704,12 @@
       "bread": "2026-03-14 02:49:46 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2026-03-14 02:52:51 +0000"
+    },
+    "done": true
   },
   "DataVersion": 4440
 }
