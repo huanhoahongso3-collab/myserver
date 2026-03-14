@@ -1,17 +1,17 @@
-[07:02:54] [main/INFO]: Loading Minecraft 1.21.8 with Fabric Loader 0.18.4
-[07:02:54] [ForkJoinPool-1-worker-3/WARN]: Mod terrestria uses the version v7.4.0+another_1.20.32d44285 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[07:02:54] [ForkJoinPool-1-worker-3/WARN]: Mod terrestria-client uses the version v7.4.0+another_1.20.32d44285 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[07:02:54] [ForkJoinPool-1-worker-3/WARN]: Mod terrestria-common uses the version v7.4.0+another_1.20.32d44285 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[07:02:54] [ForkJoinPool-1-worker-3/WARN]: Mod terrestria-worldgen uses the version v7.4.0+another_1.20.32d44285 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[07:02:54] [ForkJoinPool-1-worker-3/WARN]: Mod cinderscapes uses the version v5.2.0-beta.1.0+1.21.5+1.20.3.b6c01ca which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v5'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[07:02:54] [ForkJoinPool-1-worker-3/WARN]: Mod cinderscapes-common uses the version v5.2.0-beta.1.0+1.21.5+1.20.3.b6c01ca+polymania which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v5'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[07:02:54] [ForkJoinPool-1-worker-4/WARN]: Mod cinderscapes-worldgen uses the version v5.2.0-beta.1.0+1.21.5+1.20.3.b6c01ca+polymania which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v5'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[07:02:54] [ForkJoinPool-1-worker-3/WARN]: Mod cinderscapes-client uses the version v5.2.0-beta.1.0+1.21.5+1.20.3.b6c01ca+polymania which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v5'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[07:02:54] [main/INFO]: Dependencies overridden for farmersdelight, televator, jsonpatcher, restart_detector, bil, fsit, enderscape, computercraft, filament, braverbundles, puzzleslib, extended_drawers, forgeconfigapiport, leavesbegone, leaves_us_in_peace, openloader, clumps
-[07:02:54] [main/WARN]: Warnings were found!
+[07:16:43] [main/INFO]: Loading Minecraft 1.21.8 with Fabric Loader 0.18.4
+[07:16:44] [ForkJoinPool-1-worker-2/WARN]: Mod terrestria uses the version v7.4.0+another_1.20.32d44285 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[07:16:44] [ForkJoinPool-1-worker-2/WARN]: Mod terrestria-worldgen uses the version v7.4.0+another_1.20.32d44285 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[07:16:44] [ForkJoinPool-1-worker-2/WARN]: Mod terrestria-client uses the version v7.4.0+another_1.20.32d44285 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[07:16:44] [ForkJoinPool-1-worker-2/WARN]: Mod terrestria-common uses the version v7.4.0+another_1.20.32d44285 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v7'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[07:16:44] [ForkJoinPool-1-worker-3/WARN]: Mod cinderscapes uses the version v5.2.0-beta.1.0+1.21.5+1.20.3.b6c01ca which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v5'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[07:16:44] [ForkJoinPool-1-worker-4/WARN]: Mod cinderscapes-worldgen uses the version v5.2.0-beta.1.0+1.21.5+1.20.3.b6c01ca+polymania which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v5'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[07:16:44] [ForkJoinPool-1-worker-4/WARN]: Mod cinderscapes-common uses the version v5.2.0-beta.1.0+1.21.5+1.20.3.b6c01ca+polymania which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v5'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[07:16:44] [ForkJoinPool-1-worker-3/WARN]: Mod cinderscapes-client uses the version v5.2.0-beta.1.0+1.21.5+1.20.3.b6c01ca+polymania which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v5'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[07:16:44] [main/INFO]: Dependencies overridden for farmersdelight, televator, jsonpatcher, restart_detector, bil, fsit, enderscape, computercraft, filament, braverbundles, puzzleslib, extended_drawers, forgeconfigapiport, leavesbegone, leaves_us_in_peace, openloader, clumps
+[07:16:44] [main/WARN]: Warnings were found!
  - Mod 'Forge Config API Port' (forgeconfigapiport) 21.8.1 recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
-[07:02:54] [main/INFO]: Loading 250 mods:
+[07:16:44] [main/INFO]: Loading 250 mods:
 	- alternate-current 1.9.0
 	- antixray 1.4.10
 	   \-- com_moandjiezana_toml_toml4j 0.7.2
@@ -354,157 +354,157 @@
 	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
 	   |-- org_quiltmc_parsers_gson 0.2.1
 	   \-- org_quiltmc_parsers_json 0.2.1
-[07:02:55] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/runner/work/myserver/myserver/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[07:02:55] [main/INFO]: Compatibility level set to JAVA_21
-[07:02:55] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[07:02:55] [main/WARN]: Reference map 'kleeslabs.refmap.json' for kleeslabs.mixins.json could not be read. If this is a development environment you can ignore this message
-[07:02:55] [main/WARN]: Reference map 'kleeslabs.refmap.json' for kleeslabs.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[07:02:55] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[07:02:55] [main/INFO]: Loaded configuration file for Lithium: 164 options available, 0 override(s) found.
-[07:02:55] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
-[07:02:55] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[07:02:56] [main/WARN]: Error loading class: net/minecraft/class_9934 (java.lang.ClassNotFoundException: net/minecraft/class_9934)
-[07:02:56] [main/WARN]: @Mixin target net.minecraft.class_9934 was not found farmersdelight.mixins.json:refabricated.GhostSlotsInvoker from mod farmersdelight
-[07:02:56] [main/WARN]: Error loading class: vazkii/botania/common/entity/EntityManaBurst (java.lang.ClassNotFoundException: vazkii/botania/common/entity/EntityManaBurst)
-[07:02:56] [main/WARN]: Error loading class: vazkii/botania/common/item/ItemLaputaShard (java.lang.ClassNotFoundException: vazkii/botania/common/item/ItemLaputaShard)
-[07:02:56] [main/WARN]: @Mixin target vazkii.botania.common.item.ItemLaputaShard was not found goml.mixins.json:compat.BotaniaItemLaputaShardMixin from mod goml
-[07:02:56] [main/WARN]: Error loading class: org/dynmap/Client (java.lang.ClassNotFoundException: org/dynmap/Client)
-[07:02:56] [main/WARN]: Error loading class: lol/sylvie/bedframe/geyser/translator/BlockTranslator (java.lang.ClassNotFoundException: lol/sylvie/bedframe/geyser/translator/BlockTranslator)
-[07:02:56] [main/WARN]: @Mixin target lol.sylvie.bedframe.geyser.translator.BlockTranslator was not found servback.mixin.json:compat.BedframeBlockTranslatorMixin from mod serverbackpacks
-[07:02:56] [main/WARN]: Error loading class: lol/sylvie/bedframe/geyser/translator/ItemTranslator (java.lang.ClassNotFoundException: lol/sylvie/bedframe/geyser/translator/ItemTranslator)
-[07:02:56] [main/WARN]: @Mixin target lol.sylvie.bedframe.geyser.translator.ItemTranslator was not found servback.mixin.json:compat.BedframeItemTranslatorMixin from mod serverbackpacks
-[07:02:56] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
-[07:02:56] [main/INFO]: CustomPacketDisabler is disabled by config
-[07:02:56] [main/INFO]: block.implementations.forceintcontrol.ChunkDeltaUpdateImplementation is disabled automatically
-[07:02:56] [main/INFO]: compat.QuiltFabricRegistrySyncDisabler is disabled automatically
-[07:02:56] [main/INFO]: compat.QuiltRegistrySyncDisabler is disabled automatically
-[07:02:56] [main/INFO]: compat.immersive_portals.ImmPtlChunkTrackingMixin is disabled automatically
-[07:02:56] [main/INFO]: compat.immersive_portals.PlayerChunkLoadingMixin is disabled automatically
-[07:02:56] [main/INFO]: entity.RemoveTickerOnUnloadMixin is disabled automatically
-[07:02:56] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[07:02:58] [main/WARN]: Cancelled mixin net.bunten.enderscape.mixin.LivingEntityMixin. Check debug logs for more information.
-[07:03:00] [main/WARN]: Cancelled mixin net.bunten.enderscape.mixin.ItemEntityMixin. Check debug logs for more information.
-[07:03:00] [main/WARN]: Cancelled mixin net.bunten.enderscape.mixin.NoteBlockInstrumentMixin. Check debug logs for more information.
-[07:03:04] [main/WARN]: Cancelled mixin net.bunten.enderscape.mixin.ExperienceOrbMixin. Check debug logs for more information.
-[07:03:05] [main/WARN]: Cancelled mixin net.bunten.enderscape.mixin.AbstractMinecartMixin. Check debug logs for more information.
-[07:03:06] [main/INFO]: Successfully initialized antixray for fabric
-[07:03:07] [main/INFO]: Biolith for Fabric is initializing...
-[07:03:07] [main/INFO]: Enabling Biolith's TerraBlender compatibility layer.
-[07:03:07] [main/INFO]: Tag time :gun:!
-[07:03:07] [main/INFO]: Enabling Cinderscapes' Biolith worldgen module.
-[07:03:07] [main/INFO]: ConstructionWand says hello - may the odds be ever in your favor.
-[07:03:08] [main/INFO]: Deserializing EnderscapeConfig from './config/enderscape.json5'
-[07:03:08] [main/ERROR]: No data fixer registered for magnia_sprout
-[07:03:08] [main/ERROR]: No data fixer registered for magnia_radio
-[07:03:08] [main/INFO]: Enderscape initialized!
-[07:03:09] [main/INFO]: Loaded config farmersdelight-common.json
-[07:03:09] [main/INFO]: Loaded config farmersdelight-client.json
-[07:03:09] [main/INFO]: Deserializing FriendsAndFoesConfig from 'config/friendsandfoes.json'
-[07:03:09] [main/WARN]: ItemGroup 'friendsandfoes:main_tab' is already registered in vanilla registry!
-[07:03:09] [main/INFO]: Why are there so many illagers?
-[07:03:10] [main/INFO]: Definitely not up to no good
-[07:03:10] [main/INFO]: MoreFurnaces loaded!
-[07:03:10] [main/INFO]: MoreTools loaded!
-[07:03:10] [main/INFO]: Guns are loaded
-[07:03:10] [main/INFO]: Successfully added mod assets for polychess 0.1.3+1.21.6
-[07:03:12] [main/INFO]: Successfully remapped 27946 vanilla blocks
-[07:03:13] [main/INFO]: Loading polymer-qol config
-[07:03:13] [main/INFO]: [REI] Registered plugin provider CommonREIPlugin [farmersdelight] for REICommonPlugin
-[07:03:13] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
-[07:03:13] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REICommonPlugin
-[07:03:13] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REICommonPlugin
-[07:03:13] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REICommonPlugin
-[07:03:13] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
-[07:03:13] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
-[07:03:13] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
-[07:03:13] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
-[07:03:13] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
-[07:03:13] [main/INFO]: Loaded backpack config: small.json
-[07:03:13] [main/INFO]: Loaded backpack config: large.json
-[07:03:13] [main/INFO]: Loaded backpack config: medium.json
-[07:03:13] [main/INFO]: Finished registering 51 items.
-[07:03:13] [main/INFO]: now 35% more secure
-[07:03:14] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[07:03:14] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[07:03:14] [main/INFO]: Registered region woods_and_mires:biomes to index 1 for type OVERWORLD
-[07:03:14] [main/WARN]: Adding terrestria:basalt_brick_wall as an alias for terrestria:volcanic_rock_brick_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[07:03:14] [main/WARN]: Adding terrestria:basalt_cobblestone_wall as an alias for terrestria:volcanic_rock_cobblestone_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[07:03:14] [main/WARN]: Adding terrestria:mossy_basalt_brick_wall as an alias for terrestria:mossy_volcanic_rock_brick_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[07:03:14] [main/WARN]: Adding terrestria:basalt_wall as an alias for terrestria:volcanic_rock_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[07:03:14] [main/WARN]: Adding terrestria:basalt_stairs as an alias for terrestria:volcanic_rock_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[07:03:14] [main/WARN]: Adding terrestria:smooth_basalt_wall as an alias for terrestria:smooth_volcanic_rock_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[07:03:14] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_stairs as an alias for terrestria:mossy_volcanic_rock_cobblestone_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[07:03:14] [main/WARN]: Adding terrestria:basalt_brick_slab as an alias for terrestria:volcanic_rock_brick_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[07:03:14] [main/WARN]: Adding terrestria:basalt_cobblestone_slab as an alias for terrestria:volcanic_rock_cobblestone_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[07:03:14] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_wall as an alias for terrestria:mossy_volcanic_rock_cobblestone_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[07:03:14] [main/WARN]: Adding terrestria:mossy_basalt_brick_slab as an alias for terrestria:mossy_volcanic_rock_brick_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[07:03:14] [main/WARN]: Adding terrestria:basalt_slab as an alias for terrestria:volcanic_rock_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[07:03:14] [main/WARN]: Adding terrestria:smooth_basalt_slab as an alias for terrestria:smooth_volcanic_rock_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[07:03:14] [main/WARN]: Adding terrestria:basalt_button as an alias for terrestria:volcanic_rock_button, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[07:03:14] [main/WARN]: Adding terrestria:basalt_pressure_plate as an alias for terrestria:volcanic_rock_pressure_plate, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[07:03:14] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_slab as an alias for terrestria:mossy_volcanic_rock_cobblestone_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[07:03:14] [main/WARN]: Adding terrestria:smooth_basalt_stairs as an alias for terrestria:smooth_volcanic_rock_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[07:03:14] [main/WARN]: Adding terrestria:basalt_cobblestone_stairs as an alias for terrestria:volcanic_rock_cobblestone_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[07:03:14] [main/WARN]: Adding terrestria:mossy_basalt_brick_stairs as an alias for terrestria:mossy_volcanic_rock_brick_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[07:03:14] [main/WARN]: Adding terrestria:basalt_brick_stairs as an alias for terrestria:volcanic_rock_brick_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
-[07:03:14] [main/WARN]: Adding terrestria:basalt_brick_wall as an alias for terrestria:volcanic_rock_brick_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[07:03:14] [main/WARN]: Adding terrestria:basalt_cobblestone_wall as an alias for terrestria:volcanic_rock_cobblestone_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[07:03:14] [main/WARN]: Adding terrestria:mossy_basalt_brick_wall as an alias for terrestria:mossy_volcanic_rock_brick_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[07:03:14] [main/WARN]: Adding terrestria:basalt_wall as an alias for terrestria:volcanic_rock_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[07:03:14] [main/WARN]: Adding terrestria:basalt_stairs as an alias for terrestria:volcanic_rock_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[07:03:14] [main/WARN]: Adding terrestria:smooth_basalt_wall as an alias for terrestria:smooth_volcanic_rock_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[07:03:14] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_stairs as an alias for terrestria:mossy_volcanic_rock_cobblestone_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[07:03:14] [main/WARN]: Adding terrestria:basalt_brick_slab as an alias for terrestria:volcanic_rock_brick_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[07:03:14] [main/WARN]: Adding terrestria:basalt_cobblestone_slab as an alias for terrestria:volcanic_rock_cobblestone_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[07:03:14] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_wall as an alias for terrestria:mossy_volcanic_rock_cobblestone_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[07:03:14] [main/WARN]: Adding terrestria:mossy_basalt_brick_slab as an alias for terrestria:mossy_volcanic_rock_brick_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[07:03:14] [main/WARN]: Adding terrestria:basalt_slab as an alias for terrestria:volcanic_rock_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[07:03:14] [main/WARN]: Adding terrestria:smooth_basalt_slab as an alias for terrestria:smooth_volcanic_rock_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[07:03:14] [main/WARN]: Adding terrestria:basalt_button as an alias for terrestria:volcanic_rock_button, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[07:03:14] [main/WARN]: Adding terrestria:basalt_pressure_plate as an alias for terrestria:volcanic_rock_pressure_plate, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[07:03:14] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_slab as an alias for terrestria:mossy_volcanic_rock_cobblestone_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[07:03:14] [main/WARN]: Adding terrestria:smooth_basalt_stairs as an alias for terrestria:smooth_volcanic_rock_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[07:03:14] [main/WARN]: Adding terrestria:basalt_cobblestone_stairs as an alias for terrestria:volcanic_rock_cobblestone_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[07:03:14] [main/WARN]: Adding terrestria:mossy_basalt_brick_stairs as an alias for terrestria:mossy_volcanic_rock_brick_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[07:03:14] [main/WARN]: Adding terrestria:basalt_brick_stairs as an alias for terrestria:volcanic_rock_brick_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
-[07:03:14] [main/INFO]: Enabling Terrestria's Biolith worldgen module.
-[07:03:14] [main/INFO]: TPA Utilities has been loaded successfully!
-[07:03:14] [main/INFO]: [Veinminer] Starting Veinminer (id=veinminermod)
-[07:03:14] [main/INFO]: [Veinminer] Loaded player preference data for 1 players
-[07:03:14] [main/INFO]: [Veinminer] Initialised worker pool with 4 threads
-[07:03:14] [main/INFO]: [Veinminer] LuckPerms not available, falling back to operator checks
-[07:03:14] [main/INFO]: [Veinminer] Veinminer initialisation completed
-[07:03:14] [Via-Mappingloader-1/INFO]: Loading block connection mappings ...
-[07:03:15] [Via-Mappingloader-1/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
-[07:03:15] [main/INFO]: Loading translations...
-[07:03:15] [main/INFO]: Registering protocols...
-[07:03:15] [main/INFO]: ViaVersion detected server version: 1.21.7-1.21.8 (772)
-[07:03:15] [ViaFabric-2/INFO]: Finished mapping loading, shutting down loader executor.
-[07:03:15] [main/INFO]: Wlodzimiers Blocks zostało załadowane miaał
-[07:03:16] [ViaFabric-0/INFO]: You are running a development version of the plugin, please report any bugs to GitHub.
-[07:03:18] [main/INFO]: Successfully remapped 27946 vanilla blocks
-[07:03:20] [main/INFO]: Generated main polymap in 1.948 s
-[07:03:20] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[07:03:20] [main/INFO]: filament models registered: 2
-[07:03:21] [main/WARN]: Any alias warnings about trim_material which follow this message are harmless.
-[07:03:21] [main/WARN]: Adding cinderscapes:rose_quartz as an alias for cinderscapes:cinderscapes_rose_quartz, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:trim_material]
-[07:03:21] [main/WARN]: Adding cinderscapes:sulfur_quartz as an alias for cinderscapes:cinderscapes_sulfur_quartz, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:trim_material]
-[07:03:21] [main/WARN]: Adding cinderscapes:smoky_quartz as an alias for cinderscapes:cinderscapes_smoky_quartz, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:trim_material]
-[07:03:21] [main/WARN]: Adding enderscape:magnia_crags as an alias for enderscape:magnia_fields, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:worldgen/biome]
-[07:03:22] [main/INFO]: filament models registered: 2
-[07:03:23] [Worker-Main-2/WARN]: Found loot table element validation problem in {minecraft:entities/husk@minecraft:loot_table}.pools[2].entries[0]: Missing element more_mob_heads:entities/husk of type minecraft:loot_table
-[07:03:23] [Worker-Main-2/WARN]: Found loot table element validation problem in {minecraft:blocks/snow_block@minecraft:loot_table}.pools[0].entries[0]: Unreachable entry!
-[07:03:24] [Worker-Main-3/ERROR]: Couldn't parse data file 'minecraft:end_stone_bricks' from 'minecraft:recipe/end_stone_bricks.json': DataResult.Error['Input does not contain a key [type]: MapLike[{}]']
-[07:03:24] [Worker-Main-3/ERROR]: Couldn't parse data file 'blockus:rainbow_asphalt' from 'blockus:recipe/rainbow_asphalt.json': DataResult.Error['Map entry '#' : Failed to parse either. First: Not a JSON object: "blockus:rainbow_petals"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "blockus:rainbow_petals"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: blockus:rainbow_petals']
-[07:03:24] [Worker-Main-3/ERROR]: Couldn't parse data file 'blockus:rainbow_block' from 'blockus:recipe/rainbow_block.json': DataResult.Error['Map entry '#' : Failed to parse either. First: Not a JSON object: "blockus:rainbow_petals"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "blockus:rainbow_petals"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: blockus:rainbow_petals']
-[07:03:24] [Worker-Main-3/ERROR]: Couldn't parse data file 'blockus:rainbow_glowstone' from 'blockus:recipe/rainbow_glowstone.json': DataResult.Error['Failed to parse either. First: Not a JSON object: "blockus:rainbow_petals"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "blockus:rainbow_petals"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: blockus:rainbow_petals': net.minecraft.class_1867@61a63b2b]
-[07:03:24] [Worker-Main-3/ERROR]: Couldn't parse data file 'blockus:rainbow_glowstone_alt' from 'blockus:recipe/rainbow_glowstone_alt.json': DataResult.Error['Map entry 'R' : Failed to parse either. First: Not a JSON object: "blockus:rainbow_petals"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "blockus:rainbow_petals"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: blockus:rainbow_petals']
-[07:03:24] [Worker-Main-3/ERROR]: Couldn't parse data file 'televator:televator' from 'televator:recipe/televator.json': DataResult.Error['Map entry 'X' : Failed to parse either. First: Not a JSON object: "polyfactory:steel_plate"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "polyfactory:steel_plate"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: polyfactory:steel_plate']
-[07:03:24] [Worker-Main-1/ERROR]: Couldn't parse data file 'blockus:recipes/building_blocks/rainbow_block' from 'blockus:advancement/recipes/building_blocks/rainbow_block.json': DataResult.Error['Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "blockus:rainbow_petals"; Second: Failed to get element blockus:rainbow_petals missed input: {"has_rainbow_petals":{"conditions":{"items":[{"items":"blockus:rainbow_petals"}]},"trigger":"minecraft:inventory_changed"}}': class_161[parent=Optional[minecraft:recipes/root], display=Optional.empty, rewards=class_170[experience=0, loot=[], recipes=[ResourceKey[minecraft:recipe / blockus:rainbow_block]], function=Optional.empty], criteria={has_the_recipe=class_175[trigger=net.minecraft.class_2119@1d8d581c, triggerInstance=class_2121[player=Optional.empty, recipe=ResourceKey[minecraft:recipe / blockus:rainbow_block]]], has_rainbow_petals=class_175[trigger=net.minecraft.class_2066@6fe1276, triggerInstance=class_2068[player=Optional.empty, slots=class_8948[occupied=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], full=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], empty=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty]], items=[class_2073[items=Optional.empty, count=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], components=class_10914[exact=[], partial={}]]]]]}, requirements=[[has_the_recipe, has_rainbow_petals]], sendsTelemetryEvent=false, name=Optional.empty]]
-[07:03:24] [Worker-Main-1/ERROR]: Couldn't parse data file 'blockus:recipes/building_blocks/rainbow_glowstone' from 'blockus:advancement/recipes/building_blocks/rainbow_glowstone.json': DataResult.Error['Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "blockus:rainbow_petals"; Second: Failed to get element blockus:rainbow_petals missed input: {"has_rainbow_petals":{"conditions":{"items":[{"items":"blockus:rainbow_petals"}]},"trigger":"minecraft:inventory_changed"}}': class_161[parent=Optional[minecraft:recipes/root], display=Optional.empty, rewards=class_170[experience=0, loot=[], recipes=[ResourceKey[minecraft:recipe / blockus:rainbow_glowstone]], function=Optional.empty], criteria={has_the_recipe=class_175[trigger=net.minecraft.class_2119@1d8d581c, triggerInstance=class_2121[player=Optional.empty, recipe=ResourceKey[minecraft:recipe / blockus:rainbow_glowstone]]], has_rainbow_petals=class_175[trigger=net.minecraft.class_2066@6fe1276, triggerInstance=class_2068[player=Optional.empty, slots=class_8948[occupied=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], full=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], empty=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty]], items=[class_2073[items=Optional.empty, count=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], components=class_10914[exact=[], partial={}]]]]]}, requirements=[[has_the_recipe, has_rainbow_petals]], sendsTelemetryEvent=false, name=Optional.empty]]
-[07:03:24] [Worker-Main-1/ERROR]: Couldn't parse data file 'blockus:recipes/building_blocks/rainbow_glowstone_alt' from 'blockus:advancement/recipes/building_blocks/rainbow_glowstone_alt.json': DataResult.Error['Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "blockus:rainbow_petals"; Second: Failed to get element blockus:rainbow_petals missed input: {"has_rainbow_petals":{"conditions":{"items":[{"items":"blockus:rainbow_petals"}]},"trigger":"minecraft:inventory_changed"}}': class_161[parent=Optional[minecraft:recipes/root], display=Optional.empty, rewards=class_170[experience=0, loot=[], recipes=[ResourceKey[minecraft:recipe / minecraft:rainbow_glowstone_alt]], function=Optional.empty], criteria={has_the_recipe=class_175[trigger=net.minecraft.class_2119@1d8d581c, triggerInstance=class_2121[player=Optional.empty, recipe=ResourceKey[minecraft:recipe / minecraft:rainbow_glowstone_alt]]], has_rainbow_petals=class_175[trigger=net.minecraft.class_2066@6fe1276, triggerInstance=class_2068[player=Optional.empty, slots=class_8948[occupied=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], full=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], empty=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty]], items=[class_2073[items=Optional.empty, count=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], components=class_10914[exact=[], partial={}]]]]]}, requirements=[[has_the_recipe, has_rainbow_petals]], sendsTelemetryEvent=false, name=Optional.empty]]
-[07:03:25] [main/INFO]: Loaded 3940 recipes
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_spawn_ok3acrq76w
+[07:16:44] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/runner/work/myserver/myserver/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[07:16:44] [main/INFO]: Compatibility level set to JAVA_21
+[07:16:45] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[07:16:45] [main/WARN]: Reference map 'kleeslabs.refmap.json' for kleeslabs.mixins.json could not be read. If this is a development environment you can ignore this message
+[07:16:45] [main/WARN]: Reference map 'kleeslabs.refmap.json' for kleeslabs.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[07:16:45] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[07:16:45] [main/INFO]: Loaded configuration file for Lithium: 164 options available, 0 override(s) found.
+[07:16:45] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[07:16:45] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[07:16:46] [main/WARN]: Error loading class: net/minecraft/class_9934 (java.lang.ClassNotFoundException: net/minecraft/class_9934)
+[07:16:46] [main/WARN]: @Mixin target net.minecraft.class_9934 was not found farmersdelight.mixins.json:refabricated.GhostSlotsInvoker from mod farmersdelight
+[07:16:46] [main/WARN]: Error loading class: vazkii/botania/common/entity/EntityManaBurst (java.lang.ClassNotFoundException: vazkii/botania/common/entity/EntityManaBurst)
+[07:16:46] [main/WARN]: Error loading class: vazkii/botania/common/item/ItemLaputaShard (java.lang.ClassNotFoundException: vazkii/botania/common/item/ItemLaputaShard)
+[07:16:46] [main/WARN]: @Mixin target vazkii.botania.common.item.ItemLaputaShard was not found goml.mixins.json:compat.BotaniaItemLaputaShardMixin from mod goml
+[07:16:46] [main/WARN]: Error loading class: org/dynmap/Client (java.lang.ClassNotFoundException: org/dynmap/Client)
+[07:16:46] [main/WARN]: Error loading class: lol/sylvie/bedframe/geyser/translator/BlockTranslator (java.lang.ClassNotFoundException: lol/sylvie/bedframe/geyser/translator/BlockTranslator)
+[07:16:46] [main/WARN]: @Mixin target lol.sylvie.bedframe.geyser.translator.BlockTranslator was not found servback.mixin.json:compat.BedframeBlockTranslatorMixin from mod serverbackpacks
+[07:16:46] [main/WARN]: Error loading class: lol/sylvie/bedframe/geyser/translator/ItemTranslator (java.lang.ClassNotFoundException: lol/sylvie/bedframe/geyser/translator/ItemTranslator)
+[07:16:46] [main/WARN]: @Mixin target lol.sylvie.bedframe.geyser.translator.ItemTranslator was not found servback.mixin.json:compat.BedframeItemTranslatorMixin from mod serverbackpacks
+[07:16:46] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
+[07:16:46] [main/INFO]: CustomPacketDisabler is disabled by config
+[07:16:46] [main/INFO]: block.implementations.forceintcontrol.ChunkDeltaUpdateImplementation is disabled automatically
+[07:16:46] [main/INFO]: compat.QuiltFabricRegistrySyncDisabler is disabled automatically
+[07:16:46] [main/INFO]: compat.QuiltRegistrySyncDisabler is disabled automatically
+[07:16:46] [main/INFO]: compat.immersive_portals.ImmPtlChunkTrackingMixin is disabled automatically
+[07:16:46] [main/INFO]: compat.immersive_portals.PlayerChunkLoadingMixin is disabled automatically
+[07:16:46] [main/INFO]: entity.RemoveTickerOnUnloadMixin is disabled automatically
+[07:16:46] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[07:16:48] [main/WARN]: Cancelled mixin net.bunten.enderscape.mixin.LivingEntityMixin. Check debug logs for more information.
+[07:16:49] [main/WARN]: Cancelled mixin net.bunten.enderscape.mixin.ItemEntityMixin. Check debug logs for more information.
+[07:16:49] [main/WARN]: Cancelled mixin net.bunten.enderscape.mixin.NoteBlockInstrumentMixin. Check debug logs for more information.
+[07:16:53] [main/WARN]: Cancelled mixin net.bunten.enderscape.mixin.ExperienceOrbMixin. Check debug logs for more information.
+[07:16:54] [main/WARN]: Cancelled mixin net.bunten.enderscape.mixin.AbstractMinecartMixin. Check debug logs for more information.
+[07:16:55] [main/INFO]: Successfully initialized antixray for fabric
+[07:16:56] [main/INFO]: Biolith for Fabric is initializing...
+[07:16:56] [main/INFO]: Enabling Biolith's TerraBlender compatibility layer.
+[07:16:56] [main/INFO]: Tag time :gun:!
+[07:16:57] [main/INFO]: Enabling Cinderscapes' Biolith worldgen module.
+[07:16:57] [main/INFO]: ConstructionWand says hello - may the odds be ever in your favor.
+[07:16:57] [main/INFO]: Deserializing EnderscapeConfig from './config/enderscape.json5'
+[07:16:58] [main/ERROR]: No data fixer registered for magnia_sprout
+[07:16:58] [main/ERROR]: No data fixer registered for magnia_radio
+[07:16:58] [main/INFO]: Enderscape initialized!
+[07:16:58] [main/INFO]: Loaded config farmersdelight-common.json
+[07:16:58] [main/INFO]: Loaded config farmersdelight-client.json
+[07:16:58] [main/INFO]: Deserializing FriendsAndFoesConfig from 'config/friendsandfoes.json'
+[07:16:58] [main/WARN]: ItemGroup 'friendsandfoes:main_tab' is already registered in vanilla registry!
+[07:16:59] [main/INFO]: Why are there so many illagers?
+[07:16:59] [main/INFO]: Definitely not up to no good
+[07:16:59] [main/INFO]: MoreFurnaces loaded!
+[07:16:59] [main/INFO]: MoreTools loaded!
+[07:16:59] [main/INFO]: Guns are loaded
+[07:16:59] [main/INFO]: Successfully added mod assets for polychess 0.1.3+1.21.6
+[07:17:02] [main/INFO]: Successfully remapped 27946 vanilla blocks
+[07:17:02] [main/INFO]: Loading polymer-qol config
+[07:17:02] [main/INFO]: [REI] Registered plugin provider CommonREIPlugin [farmersdelight] for REICommonPlugin
+[07:17:02] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[07:17:02] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REICommonPlugin
+[07:17:02] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REICommonPlugin
+[07:17:02] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REICommonPlugin
+[07:17:02] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[07:17:02] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[07:17:02] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[07:17:02] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[07:17:02] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[07:17:02] [main/INFO]: Loaded backpack config: small.json
+[07:17:02] [main/INFO]: Loaded backpack config: large.json
+[07:17:02] [main/INFO]: Loaded backpack config: medium.json
+[07:17:02] [main/INFO]: Finished registering 51 items.
+[07:17:03] [main/INFO]: now 35% more secure
+[07:17:03] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[07:17:03] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[07:17:03] [main/INFO]: Registered region woods_and_mires:biomes to index 1 for type OVERWORLD
+[07:17:03] [main/WARN]: Adding terrestria:smooth_basalt_stairs as an alias for terrestria:smooth_volcanic_rock_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[07:17:03] [main/WARN]: Adding terrestria:basalt_cobblestone_stairs as an alias for terrestria:volcanic_rock_cobblestone_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[07:17:03] [main/WARN]: Adding terrestria:mossy_basalt_brick_stairs as an alias for terrestria:mossy_volcanic_rock_brick_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[07:17:03] [main/WARN]: Adding terrestria:basalt_brick_stairs as an alias for terrestria:volcanic_rock_brick_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[07:17:03] [main/WARN]: Adding terrestria:basalt_brick_wall as an alias for terrestria:volcanic_rock_brick_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[07:17:03] [main/WARN]: Adding terrestria:basalt_cobblestone_wall as an alias for terrestria:volcanic_rock_cobblestone_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[07:17:03] [main/WARN]: Adding terrestria:mossy_basalt_brick_wall as an alias for terrestria:mossy_volcanic_rock_brick_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[07:17:03] [main/WARN]: Adding terrestria:basalt_wall as an alias for terrestria:volcanic_rock_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[07:17:03] [main/WARN]: Adding terrestria:basalt_stairs as an alias for terrestria:volcanic_rock_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[07:17:03] [main/WARN]: Adding terrestria:smooth_basalt_wall as an alias for terrestria:smooth_volcanic_rock_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[07:17:03] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_stairs as an alias for terrestria:mossy_volcanic_rock_cobblestone_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[07:17:03] [main/WARN]: Adding terrestria:basalt_brick_slab as an alias for terrestria:volcanic_rock_brick_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[07:17:03] [main/WARN]: Adding terrestria:basalt_cobblestone_slab as an alias for terrestria:volcanic_rock_cobblestone_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[07:17:03] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_wall as an alias for terrestria:mossy_volcanic_rock_cobblestone_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[07:17:03] [main/WARN]: Adding terrestria:mossy_basalt_brick_slab as an alias for terrestria:mossy_volcanic_rock_brick_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[07:17:03] [main/WARN]: Adding terrestria:basalt_slab as an alias for terrestria:volcanic_rock_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[07:17:03] [main/WARN]: Adding terrestria:smooth_basalt_slab as an alias for terrestria:smooth_volcanic_rock_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[07:17:03] [main/WARN]: Adding terrestria:basalt_button as an alias for terrestria:volcanic_rock_button, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[07:17:03] [main/WARN]: Adding terrestria:basalt_pressure_plate as an alias for terrestria:volcanic_rock_pressure_plate, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[07:17:03] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_slab as an alias for terrestria:mossy_volcanic_rock_cobblestone_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:block]
+[07:17:03] [main/WARN]: Adding terrestria:smooth_basalt_stairs as an alias for terrestria:smooth_volcanic_rock_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[07:17:03] [main/WARN]: Adding terrestria:basalt_cobblestone_stairs as an alias for terrestria:volcanic_rock_cobblestone_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[07:17:03] [main/WARN]: Adding terrestria:mossy_basalt_brick_stairs as an alias for terrestria:mossy_volcanic_rock_brick_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[07:17:03] [main/WARN]: Adding terrestria:basalt_brick_stairs as an alias for terrestria:volcanic_rock_brick_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[07:17:03] [main/WARN]: Adding terrestria:basalt_brick_wall as an alias for terrestria:volcanic_rock_brick_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[07:17:03] [main/WARN]: Adding terrestria:basalt_cobblestone_wall as an alias for terrestria:volcanic_rock_cobblestone_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[07:17:03] [main/WARN]: Adding terrestria:mossy_basalt_brick_wall as an alias for terrestria:mossy_volcanic_rock_brick_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[07:17:03] [main/WARN]: Adding terrestria:basalt_wall as an alias for terrestria:volcanic_rock_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[07:17:03] [main/WARN]: Adding terrestria:basalt_stairs as an alias for terrestria:volcanic_rock_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[07:17:03] [main/WARN]: Adding terrestria:smooth_basalt_wall as an alias for terrestria:smooth_volcanic_rock_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[07:17:03] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_stairs as an alias for terrestria:mossy_volcanic_rock_cobblestone_stairs, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[07:17:03] [main/WARN]: Adding terrestria:basalt_brick_slab as an alias for terrestria:volcanic_rock_brick_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[07:17:03] [main/WARN]: Adding terrestria:basalt_cobblestone_slab as an alias for terrestria:volcanic_rock_cobblestone_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[07:17:03] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_wall as an alias for terrestria:mossy_volcanic_rock_cobblestone_wall, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[07:17:03] [main/WARN]: Adding terrestria:mossy_basalt_brick_slab as an alias for terrestria:mossy_volcanic_rock_brick_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[07:17:03] [main/WARN]: Adding terrestria:basalt_slab as an alias for terrestria:volcanic_rock_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[07:17:03] [main/WARN]: Adding terrestria:smooth_basalt_slab as an alias for terrestria:smooth_volcanic_rock_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[07:17:03] [main/WARN]: Adding terrestria:basalt_button as an alias for terrestria:volcanic_rock_button, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[07:17:03] [main/WARN]: Adding terrestria:basalt_pressure_plate as an alias for terrestria:volcanic_rock_pressure_plate, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[07:17:03] [main/WARN]: Adding terrestria:mossy_basalt_cobblestone_slab as an alias for terrestria:mossy_volcanic_rock_cobblestone_slab, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:item]
+[07:17:03] [main/INFO]: Enabling Terrestria's Biolith worldgen module.
+[07:17:03] [main/INFO]: TPA Utilities has been loaded successfully!
+[07:17:04] [main/INFO]: [Veinminer] Starting Veinminer (id=veinminermod)
+[07:17:04] [main/INFO]: [Veinminer] Loaded player preference data for 1 players
+[07:17:04] [main/INFO]: [Veinminer] Initialised worker pool with 4 threads
+[07:17:04] [main/INFO]: [Veinminer] LuckPerms not available, falling back to operator checks
+[07:17:04] [main/INFO]: [Veinminer] Veinminer initialisation completed
+[07:17:04] [Via-Mappingloader-1/INFO]: Loading block connection mappings ...
+[07:17:04] [Via-Mappingloader-1/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
+[07:17:05] [main/INFO]: Loading translations...
+[07:17:05] [main/INFO]: Registering protocols...
+[07:17:05] [main/INFO]: ViaVersion detected server version: 1.21.7-1.21.8 (772)
+[07:17:05] [ViaFabric-2/INFO]: Finished mapping loading, shutting down loader executor.
+[07:17:05] [main/INFO]: Wlodzimiers Blocks zostało załadowane miaał
+[07:17:06] [ViaFabric-0/INFO]: You are running a development version of the plugin, please report any bugs to GitHub.
+[07:17:08] [main/INFO]: Successfully remapped 27946 vanilla blocks
+[07:17:10] [main/INFO]: Generated main polymap in 1.994 s
+[07:17:10] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[07:17:11] [main/INFO]: filament models registered: 2
+[07:17:12] [main/WARN]: Any alias warnings about trim_material which follow this message are harmless.
+[07:17:12] [main/WARN]: Adding cinderscapes:rose_quartz as an alias for cinderscapes:cinderscapes_rose_quartz, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:trim_material]
+[07:17:12] [main/WARN]: Adding cinderscapes:sulfur_quartz as an alias for cinderscapes:cinderscapes_sulfur_quartz, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:trim_material]
+[07:17:12] [main/WARN]: Adding cinderscapes:smoky_quartz as an alias for cinderscapes:cinderscapes_smoky_quartz, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:trim_material]
+[07:17:12] [main/WARN]: Adding enderscape:magnia_crags as an alias for enderscape:magnia_fields, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:worldgen/biome]
+[07:17:13] [main/INFO]: filament models registered: 2
+[07:17:14] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:entities/husk@minecraft:loot_table}.pools[2].entries[0]: Missing element more_mob_heads:entities/husk of type minecraft:loot_table
+[07:17:14] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:blocks/snow_block@minecraft:loot_table}.pools[0].entries[0]: Unreachable entry!
+[07:17:15] [Worker-Main-2/ERROR]: Couldn't parse data file 'minecraft:end_stone_bricks' from 'minecraft:recipe/end_stone_bricks.json': DataResult.Error['Input does not contain a key [type]: MapLike[{}]']
+[07:17:15] [Worker-Main-2/ERROR]: Couldn't parse data file 'blockus:rainbow_asphalt' from 'blockus:recipe/rainbow_asphalt.json': DataResult.Error['Map entry '#' : Failed to parse either. First: Not a JSON object: "blockus:rainbow_petals"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "blockus:rainbow_petals"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: blockus:rainbow_petals']
+[07:17:15] [Worker-Main-2/ERROR]: Couldn't parse data file 'blockus:rainbow_block' from 'blockus:recipe/rainbow_block.json': DataResult.Error['Map entry '#' : Failed to parse either. First: Not a JSON object: "blockus:rainbow_petals"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "blockus:rainbow_petals"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: blockus:rainbow_petals']
+[07:17:15] [Worker-Main-2/ERROR]: Couldn't parse data file 'blockus:rainbow_glowstone' from 'blockus:recipe/rainbow_glowstone.json': DataResult.Error['Failed to parse either. First: Not a JSON object: "blockus:rainbow_petals"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "blockus:rainbow_petals"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: blockus:rainbow_petals': net.minecraft.class_1867@6be84bae]
+[07:17:15] [Worker-Main-2/ERROR]: Couldn't parse data file 'blockus:rainbow_glowstone_alt' from 'blockus:recipe/rainbow_glowstone_alt.json': DataResult.Error['Map entry 'R' : Failed to parse either. First: Not a JSON object: "blockus:rainbow_petals"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "blockus:rainbow_petals"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: blockus:rainbow_petals']
+[07:17:15] [Worker-Main-1/ERROR]: Couldn't parse data file 'blockus:recipes/building_blocks/rainbow_block' from 'blockus:advancement/recipes/building_blocks/rainbow_block.json': DataResult.Error['Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "blockus:rainbow_petals"; Second: Failed to get element blockus:rainbow_petals missed input: {"has_rainbow_petals":{"conditions":{"items":[{"items":"blockus:rainbow_petals"}]},"trigger":"minecraft:inventory_changed"}}': class_161[parent=Optional[minecraft:recipes/root], display=Optional.empty, rewards=class_170[experience=0, loot=[], recipes=[ResourceKey[minecraft:recipe / blockus:rainbow_block]], function=Optional.empty], criteria={has_the_recipe=class_175[trigger=net.minecraft.class_2119@1d8d581c, triggerInstance=class_2121[player=Optional.empty, recipe=ResourceKey[minecraft:recipe / blockus:rainbow_block]]], has_rainbow_petals=class_175[trigger=net.minecraft.class_2066@6fe1276, triggerInstance=class_2068[player=Optional.empty, slots=class_8948[occupied=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], full=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], empty=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty]], items=[class_2073[items=Optional.empty, count=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], components=class_10914[exact=[], partial={}]]]]]}, requirements=[[has_the_recipe, has_rainbow_petals]], sendsTelemetryEvent=false, name=Optional.empty]]
+[07:17:15] [Worker-Main-1/ERROR]: Couldn't parse data file 'blockus:recipes/building_blocks/rainbow_glowstone' from 'blockus:advancement/recipes/building_blocks/rainbow_glowstone.json': DataResult.Error['Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "blockus:rainbow_petals"; Second: Failed to get element blockus:rainbow_petals missed input: {"has_rainbow_petals":{"conditions":{"items":[{"items":"blockus:rainbow_petals"}]},"trigger":"minecraft:inventory_changed"}}': class_161[parent=Optional[minecraft:recipes/root], display=Optional.empty, rewards=class_170[experience=0, loot=[], recipes=[ResourceKey[minecraft:recipe / blockus:rainbow_glowstone]], function=Optional.empty], criteria={has_the_recipe=class_175[trigger=net.minecraft.class_2119@1d8d581c, triggerInstance=class_2121[player=Optional.empty, recipe=ResourceKey[minecraft:recipe / blockus:rainbow_glowstone]]], has_rainbow_petals=class_175[trigger=net.minecraft.class_2066@6fe1276, triggerInstance=class_2068[player=Optional.empty, slots=class_8948[occupied=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], full=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], empty=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty]], items=[class_2073[items=Optional.empty, count=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], components=class_10914[exact=[], partial={}]]]]]}, requirements=[[has_the_recipe, has_rainbow_petals]], sendsTelemetryEvent=false, name=Optional.empty]]
+[07:17:15] [Worker-Main-1/ERROR]: Couldn't parse data file 'blockus:recipes/building_blocks/rainbow_glowstone_alt' from 'blockus:advancement/recipes/building_blocks/rainbow_glowstone_alt.json': DataResult.Error['Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "blockus:rainbow_petals"; Second: Failed to get element blockus:rainbow_petals missed input: {"has_rainbow_petals":{"conditions":{"items":[{"items":"blockus:rainbow_petals"}]},"trigger":"minecraft:inventory_changed"}}': class_161[parent=Optional[minecraft:recipes/root], display=Optional.empty, rewards=class_170[experience=0, loot=[], recipes=[ResourceKey[minecraft:recipe / minecraft:rainbow_glowstone_alt]], function=Optional.empty], criteria={has_the_recipe=class_175[trigger=net.minecraft.class_2119@1d8d581c, triggerInstance=class_2121[player=Optional.empty, recipe=ResourceKey[minecraft:recipe / minecraft:rainbow_glowstone_alt]]], has_rainbow_petals=class_175[trigger=net.minecraft.class_2066@6fe1276, triggerInstance=class_2068[player=Optional.empty, slots=class_8948[occupied=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], full=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], empty=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty]], items=[class_2073[items=Optional.empty, count=class_2100[min=Optional.empty, max=Optional.empty, minSq=Optional.empty, maxSq=Optional.empty], components=class_10914[exact=[], partial={}]]]]]}, requirements=[[has_the_recipe, has_rainbow_petals]], sendsTelemetryEvent=false, name=Optional.empty]]
+[07:17:15] [Worker-Main-2/ERROR]: Couldn't parse data file 'televator:televator' from 'televator:recipe/televator.json': DataResult.Error['Map entry 'X' : Failed to parse either. First: Not a JSON object: "polyfactory:steel_plate"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "polyfactory:steel_plate"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: polyfactory:steel_plate']
+[07:17:16] [main/INFO]: Loaded 3940 recipes
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_spawn_ok3acrq76w
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -521,7 +521,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_hardattrb_x9qcl
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_hardattrb_x9qcl
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Can't find element 'minecraft:generic.knockback_resistance' of type 'minecraft:attribute' at position 41: ...resistance<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -538,7 +538,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_3xd3z37fy
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_3xd3z37fy
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -555,7 +555,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function fokus:nxf/addxzum
+[07:17:16] [main/ERROR]: Failed to load function fokus:nxf/addxzum
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown criterion 'minecraft.custom:minecraft.play_one_minute' at position 33: ...dd fk.ptm <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -572,7 +572,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function fokus:nxf/60qxeuc0x
+[07:17:16] [main/ERROR]: Failed to load function fokus:nxf/60qxeuc0x
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Expected whitespace to end one argument, but found trailing data at position 18: ... function <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -589,7 +589,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_hardattrb_oxmyyfpo
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_hardattrb_oxmyyfpo
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Can't find element 'minecraft:generic.max_health' of type 'minecraft:attribute' at position 31: ...max_health<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -606,7 +606,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_doubler_1ixzx0h10m
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_doubler_1ixzx0h10m
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Incorrect argument for command at position 123: ...bler] run <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -623,7 +623,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_summon_zgx9t
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_summon_zgx9t
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Can't find element 'minecraft:boat' of type 'minecraft:entity_type' at position 57: ...craft:boat<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -640,7 +640,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_ssmob_w5kovnefh
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_ssmob_w5kovnefh
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -657,7 +657,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_sdkn0
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_sdkn0
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -674,7 +674,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_w192z
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_w192z
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -691,7 +691,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_swapper_s6qcu
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_swapper_s6qcu
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -708,7 +708,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function fokus:vd/cores/1.21.11
+[07:17:16] [main/ERROR]: Failed to load function fokus:vd/cores/1.21.11
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown item 'minecraft:netherite_horse_armor' at position 8: give @s <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -725,7 +725,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_shoot_s97gphd
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_shoot_s97gphd
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -742,7 +742,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_w886tlkhjql
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_w886tlkhjql
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -759,7 +759,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_ssmob_o3svb2cjb
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_ssmob_o3svb2cjb
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -776,7 +776,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_dpkp1nelkin
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_dpkp1nelkin
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -793,7 +793,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_swapper_qrdj9
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_swapper_qrdj9
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -810,7 +810,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function fokus:nxf/_ignored_3ahxx
+[07:17:16] [main/ERROR]: Failed to load function fokus:nxf/_ignored_3ahxx
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -827,7 +827,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_re3n7q8iq4
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_re3n7q8iq4
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Can't find element 'minecraft:generic.knockback_resistance' of type 'minecraft:attribute' at position 51: ...resistance<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -844,7 +844,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_hardattrb_h6y0m2rko
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_hardattrb_h6y0m2rko
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Can't find element 'minecraft:generic.follow_range' of type 'minecraft:attribute' at position 43: ...llow_range<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -861,7 +861,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function fokus:vd/cores/1.21.9
+[07:17:16] [main/ERROR]: Failed to load function fokus:vd/cores/1.21.9
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Incorrect argument for command at position 22: ...s ~ ~ ~ ~ <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -878,7 +878,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_2f2f34kwqvt
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_2f2f34kwqvt
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -895,7 +895,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_summon_o48r0z23
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_summon_o48r0z23
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -912,7 +912,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_move_whcolmwe
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_move_whcolmwe
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Invalid or unknown entity type 'minecraft:boat' at position 31: ...s @e[type=<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -929,7 +929,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_spawn_f0svnhi
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_spawn_f0svnhi
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -946,7 +946,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_hardattrb_reem34xbj
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_hardattrb_reem34xbj
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Can't find element 'minecraft:generic.movement_speed' of type 'minecraft:attribute' at position 35: ...ment_speed<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -963,7 +963,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_hardattrb_zt94pboh5t
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_hardattrb_zt94pboh5t
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Can't find element 'minecraft:generic.attack_knockback' of type 'minecraft:attribute' at position 37: ..._knockback<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -980,7 +980,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_swapper_iig7m
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_swapper_iig7m
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -997,7 +997,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_s89t
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_s89t
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -1014,7 +1014,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_summon_e43f3vv2wf
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_summon_e43f3vv2wf
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -1031,7 +1031,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_swapper_5tylm
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_swapper_5tylm
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -1048,7 +1048,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_mz3f
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_mz3f
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -1065,7 +1065,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_381e9
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_381e9
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -1082,7 +1082,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_cpiwqwdvx8
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_cpiwqwdvx8
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Can't find element 'minecraft:generic.knockback_resistance' of type 'minecraft:attribute' at position 51: ...resistance<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -1099,7 +1099,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_spider_3magqzu5jn
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_spider_3magqzu5jn
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown block type 'minecraft:grass' at position 23: ...ock ~ ~ ~ <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -1116,7 +1116,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_hardattrb_elyym
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_hardattrb_elyym
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Can't find element 'minecraft:generic.follow_range' of type 'minecraft:attribute' at position 43: ...llow_range<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -1133,7 +1133,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_the_cblvtfjyh
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_the_cblvtfjyh
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -1150,7 +1150,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_summon_am4pnnguah
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_summon_am4pnnguah
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -1167,7 +1167,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_ssmob_3q1i7f7ew8m
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_ssmob_3q1i7f7ew8m
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -1184,7 +1184,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_flob2q
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_flob2q
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -1201,7 +1201,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_hardattrb_tkpdr
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_hardattrb_tkpdr
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Can't find element 'minecraft:generic.attack_speed' of type 'minecraft:attribute' at position 33: ...tack_speed<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -1218,7 +1218,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/ERROR]: Failed to load function cw:nxf/_ignored_hardattrb_c6454q805
+[07:17:16] [main/ERROR]: Failed to load function cw:nxf/_ignored_hardattrb_c6454q805
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Can't find element 'minecraft:generic.movement_speed' of type 'minecraft:attribute' at position 35: ...ment_speed<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -1235,133 +1235,74 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot/net.minecraft.class_5349.method_29451(class_5349.java:87) ~[server-intermediary.jar:?]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 7 more
-[07:03:25] [main/INFO]: Loaded 3491 advancements
-[07:03:25] [main/INFO]: Loaded 1 moobloom variants
-[07:03:25] [main/INFO]: Loaded 32 entity animations
-[07:03:25] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 778 translation keys
-[07:03:25] [main/WARN]: Recipe polydecorations:canvas_clone can't be placed due to empty ingredients and will be ignored
-[07:03:25] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[07:03:26] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[07:03:26] [main/INFO]: Applied 1961 biome modifications to 131 of 131 new biomes in 231.5 ms
-[07:03:26] [Server thread/INFO]: Loading Server Backpack's data on server starting...
-[07:03:26] [Server thread/ERROR]: Error while loading list data ./world/./data/serverbackpacks.data
-[07:03:26] [Server thread/ERROR]: Failed to load Server Backpack's data.
-[07:03:26] [Server thread/INFO]: Starting background profiler...
-[07:03:28] [Server thread/ERROR]: Invalid path : Invalid path ''
-[07:03:28] [Server thread/ERROR]: Invalid path : Invalid path ''
-[07:03:28] [Server thread/ERROR]: Invalid path : Invalid path ''
-[07:03:28] [Server thread/ERROR]: Invalid path : Invalid path ''
-[07:03:28] [Server thread/ERROR]: Invalid path : Invalid path ''
-[07:03:28] [Server thread/ERROR]: Invalid path : Invalid path ''
-[07:03:28] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[07:03:28] [Server thread/INFO]: Loading properties
-[07:03:28] [Server thread/INFO]: Default game type: SURVIVAL
-[07:03:28] [Server thread/INFO]: Generating keypair
-[07:03:28] [Server thread/INFO]: Starting Minecraft server on *:5610
-[07:03:28] [Server thread/INFO]: Using epoll channel type
-[07:03:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[07:03:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[07:03:28] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[07:03:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[07:03:28] [Server thread/INFO]: Preparing level "world"
-[07:03:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[07:03:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[07:03:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[07:03:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[07:03:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[07:03:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[07:03:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[07:03:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[07:03:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[07:03:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[07:03:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[07:03:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[07:03:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[07:03:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[07:03:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[07:03:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[07:03:36] [Server thread/INFO]: Time elapsed: 7309 ms
-[07:03:36] [Server thread/INFO]: Done (7.988s)! For help, type "help"
-[07:03:36] [Server thread/INFO]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[07:03:36] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for START.
-[07:03:36] [Server thread/INFO]: [REI] Plugins (4):
-[07:03:36] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[07:03:36] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[07:03:36] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[07:03:36] [Server thread/INFO]: [REI]  - (0.00) CommonREIPlugin of CommonREIPlugin [farmersdelight]
-[07:03:36] [Server thread/INFO]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[07:03:36] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for START in 1.348 ms, totaling 66.80 ms.
-[07:03:36] [Server thread/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-[07:03:36] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for END.
-[07:03:36] [Server thread/INFO]: [REI] Plugins (4):
-[07:03:36] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[07:03:36] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[07:03:36] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[07:03:36] [Server thread/INFO]: [REI]  - (0.00) CommonREIPlugin of CommonREIPlugin [farmersdelight]
-[07:03:36] [Server thread/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-[07:03:36] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for END in 666.5 μs, totaling 102.9 ms.
-[07:03:36] [Server thread/INFO]: Running Server Backpack's data old format convertor...
-[07:03:36] [Server thread/ERROR]: Error while loading list data ./world/./data/serverbackpacks.data
-[07:03:36] [Server thread/INFO]: [Veinminer] LuckPerms not available, falling back to operator checks
-[07:03:36] [Server thread/INFO]: [Polydex] Started matching recipes and items...
-[07:03:36] [IO-Worker-3/INFO]: [Polymer] Starting resource pack generation...
-[07:03:41] [Server thread/INFO]: [Polydex] Done! It took 5246 ms
-[07:03:47] [Server thread/INFO]: [Polymer] Resource pack created successfully! You can find it in game folder as polymer/resource_pack.zip
-[07:04:36] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[07:13:37] [ForkJoinPool.commonPool-worker-4/WARN]: Failed to fetch skin 'mojang:FewerSteak1914'
-java.lang.IllegalStateException: not found
-	at knot/net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:98) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
-	at knot/net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:54) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
-	at knot/net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.access$100(MojangSkinProvider.java:18) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
-	at knot/net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider$1.findProfileByName(MojangSkinProvider.java:56) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
-	at knot/net.minecraft.class_3312.method_14509(class_3312.java:80) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3312.method_14515(class_3312.java:137) ~[server-intermediary.jar:?]
-	at knot/net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:86) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
-	at knot/net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:64) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
-	at knot/net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:19) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
-	at knot/net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:50) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
-	at knot/net.minecraft.class_3248.md04f361$skinrestorer$lambda$skinrestorer$fetchSkin$1$2(class_3248.java:2593) ~[server-intermediary.jar:?]
-	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at knot/net.minecraft.class_3248.skinrestorer$fetchSkin(class_3248.java:2592) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3248.md04f361$skinrestorer$lambda$waitForSkin$0$3(class_3248.java:2576) ~[server-intermediary.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[07:13:38] [Netty Epoll Server IO #2/WARN]: Modified mixin "vectorwing.farmersdelight.common.mixin.refabricated.RecipeBookSettingsMixin". Check debug logs for more information.
-[07:13:44] [Server thread/WARN]: Modified mixin "vectorwing.farmersdelight.common.mixin.refabricated.ServerRecipeBookMixin". Check debug logs for more information.
-[07:13:44] [Server thread/INFO]: FewerSteak1914[/127.155.199.86:39613] logged in with entity id 268 at (7319.300000011921, 130.0625, -6719.308455101173)
-[07:13:44] [Server thread/INFO]: FewerSteak1914 joined the game
-[07:13:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2771ms or 55 ticks behind
-[07:13:52] [Server thread/INFO]: FewerSteak1914 lost connection: Disconnected
-[07:13:52] [Server thread/INFO]: FewerSteak1914 left the game
-[07:13:56] [ForkJoinPool.commonPool-worker-4/WARN]: Failed to fetch skin 'mojang:FewerSteak1914'
-java.lang.IllegalStateException: not found
-	at knot/net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:98) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
-	at knot/net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:54) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
-	at knot/net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.access$100(MojangSkinProvider.java:18) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
-	at knot/net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider$1.findProfileByName(MojangSkinProvider.java:56) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
-	at knot/net.minecraft.class_3312.method_14509(class_3312.java:80) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3312.method_14515(class_3312.java:137) ~[server-intermediary.jar:?]
-	at knot/net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:86) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
-	at knot/net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:64) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
-	at knot/net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:19) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
-	at knot/net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:50) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
-	at knot/net.minecraft.class_3248.md04f361$skinrestorer$lambda$skinrestorer$fetchSkin$1$2(class_3248.java:2593) ~[server-intermediary.jar:?]
-	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at knot/net.minecraft.class_3248.skinrestorer$fetchSkin(class_3248.java:2592) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3248.md04f361$skinrestorer$lambda$waitForSkin$0$3(class_3248.java:2576) ~[server-intermediary.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-[07:14:05] [Server thread/INFO]: FewerSteak1914[/127.155.199.86:60279] logged in with entity id 1817 at (7319.300000011921, 130.0625, -6719.308455101173)
-[07:14:05] [Server thread/INFO]: FewerSteak1914 joined the game
-[07:14:18] [Server thread/INFO]: FewerSteak1914 lost connection: Disconnected
-[07:14:18] [Server thread/INFO]: FewerSteak1914 left the game
+[07:17:16] [main/INFO]: Loaded 3491 advancements
+[07:17:16] [main/INFO]: Loaded 1 moobloom variants
+[07:17:16] [main/INFO]: Loaded 32 entity animations
+[07:17:16] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 778 translation keys
+[07:17:16] [main/WARN]: Recipe polydecorations:canvas_clone can't be placed due to empty ingredients and will be ignored
+[07:17:16] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[07:17:16] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[07:17:17] [main/INFO]: Applied 1961 biome modifications to 131 of 131 new biomes in 213.1 ms
+[07:17:17] [Server thread/INFO]: Loading Server Backpack's data on server starting...
+[07:17:17] [Server thread/ERROR]: Error while loading list data ./world/./data/serverbackpacks.data
+[07:17:17] [Server thread/ERROR]: Failed to load Server Backpack's data.
+[07:17:17] [Server thread/INFO]: Starting background profiler...
+[07:17:18] [Server thread/ERROR]: Invalid path : Invalid path ''
+[07:17:18] [Server thread/ERROR]: Invalid path : Invalid path ''
+[07:17:18] [Server thread/ERROR]: Invalid path : Invalid path ''
+[07:17:18] [Server thread/ERROR]: Invalid path : Invalid path ''
+[07:17:18] [Server thread/ERROR]: Invalid path : Invalid path ''
+[07:17:18] [Server thread/ERROR]: Invalid path : Invalid path ''
+[07:17:18] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[07:17:18] [Server thread/INFO]: Loading properties
+[07:17:18] [Server thread/INFO]: Default game type: SURVIVAL
+[07:17:18] [Server thread/INFO]: Generating keypair
+[07:17:18] [Server thread/INFO]: Starting Minecraft server on *:5610
+[07:17:18] [Server thread/INFO]: Using epoll channel type
+[07:17:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07:17:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[07:17:18] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07:17:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[07:17:18] [Server thread/INFO]: Preparing level "world"
+[07:17:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:17:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[07:17:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[07:17:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[07:17:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[07:17:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[07:17:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[07:17:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[07:17:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[07:17:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[07:17:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[07:17:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[07:17:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[07:17:25] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[07:17:25] [Worker-Main-3/INFO]: Preparing spawn area: 51%
+[07:17:26] [Server thread/INFO]: Time elapsed: 6564 ms
+[07:17:26] [Server thread/INFO]: Done (7.403s)! For help, type "help"
+[07:17:26] [Server thread/INFO]: [REI] ****************************************
+[07:17:26] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for START.
+[07:17:26] [Server thread/INFO]: [REI] Plugins (4):
+[07:17:26] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[07:17:26] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[07:17:26] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[07:17:26] [Server thread/INFO]: [REI]  - (0.00) CommonREIPlugin of CommonREIPlugin [farmersdelight]
+[07:17:26] [Server thread/INFO]: [REI] ****************************************
+[07:17:26] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for START in 1.437 ms, totaling 78.24 ms.
+[07:17:26] [Server thread/INFO]: [REI] ========================================
+[07:17:26] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for END.
+[07:17:26] [Server thread/INFO]: [REI] Plugins (4):
+[07:17:26] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[07:17:26] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[07:17:26] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[07:17:26] [Server thread/INFO]: [REI]  - (0.00) CommonREIPlugin of CommonREIPlugin [farmersdelight]
+[07:17:26] [Server thread/INFO]: [REI] ========================================
+[07:17:26] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for END in 859.8 μs, totaling 102.9 ms.
+[07:17:26] [Server thread/INFO]: Running Server Backpack's data old format convertor...
+[07:17:26] [Server thread/ERROR]: Error while loading list data ./world/./data/serverbackpacks.data
+[07:17:26] [Server thread/INFO]: [Veinminer] LuckPerms not available, falling back to operator checks
+[07:17:26] [Server thread/INFO]: [Polydex] Started matching recipes and items...
+[07:17:26] [IO-Worker-3/INFO]: [Polymer] Starting resource pack generation...
+[07:17:31] [Server thread/INFO]: [Polydex] Done! It took 4907 ms
+[07:17:36] [Server thread/INFO]: [Polymer] Resource pack created successfully! You can find it in game folder as polymer/resource_pack.zip
