@@ -39,7 +39,7 @@ jobs:
         run: |
           # Start zrok
           zrok enable "$ZROK_SECRET"
-          zrok reserve public http://localhost:7410 --unique-name dhposserver > zrok.log 2>&1 &
+          zrok reserve public localhost:7410 --unique-name dhposserver > zrok.log 2>&1 &
           # Start Minecraft
           java -jar server.jar nogui
 
