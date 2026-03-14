@@ -29,6 +29,7 @@ jobs:
         env:
           PLAYIT_SECRET: ${{ secrets.PLAYIT_SECRET }}
           ZROK_SECRET: ${{ secrets.ZROK_SECRET }}
+          GH_TOKEN: ${{ github.token }}
         run: |
           # 1. Start the Background Task (Subshell)
           (
