@@ -19,12 +19,20 @@ jobs:
           java-version: '21'
           distribution: 'temurin'
 
+      - name: Install Zrok
+        run: |
+          # Add the repository
+          curl -sSf https://get.openziti.io/install.bash | sudo bash -s zrok
+          # Install the zrok binary
+          sudo apt install zrok -y
+
       - name: Prepare Playit Binary
         run: chmod +x ./playit-linux-amd64
 
       - name: Run Server and Frequent Sync
         env:
           PLAYIT_SECRET: ${{ secrets.PLAYIT_SECRET }}
+          ZROK_SECRET: ${{ secrets.ZROK_SECRET }}
         run: |
 
           # Start Minecraft
