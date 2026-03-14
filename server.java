@@ -20,7 +20,7 @@ public class Main {
         );
 
         // 3. Zrok Configuration (Using RESERVED share)
-        // Change "dhp-server" to the name you reserved in Step 1
+        // Make sure you have run 'zrok reserve public http://localhost:7410 --unique-name dhp-server' once!
         ProcessBuilder zrokBuilder = new ProcessBuilder(
             "zrok", "share", "reserved", "dhp-server", "--headless"
         );
@@ -43,12 +43,10 @@ public class Main {
         Process spigotProcess = null;
 
         try {
-            // Start Playit
             System.out.println("[Wrapper] Starting Playit...");
             playitProcess = playitBuilder.start();
             startLoggingThread(playitProcess, "Playit");
 
-            // Start Zrok
             if (zrokSecret != null && !zrokSecret.isEmpty()) {
                 System.out.println("[Wrapper] Enabling Zrok...");
                 executeSimpleCommand("zrok", "enable", zrokSecret);
@@ -57,7 +55,6 @@ public class Main {
                 startLoggingThread(zrokProcess, "Zrok");
             }
 
-            // Start Spigot
             System.out.println("[Wrapper] Starting Spigot...");
             spigotProcess = spigotBuilder.start();
             startLoggingThread(spigotProcess, "Server");
@@ -100,8 +97,9 @@ public class Main {
 
     private static void runSync() {
         try {
-            executeSimpleCommand("git", "config", "--local", user.name, "github-actions");
-            executeSimpleCommand("git", "config", "--local", user.email, "github-actions@github.com");
+            // FIXED: Added quotes around user.name and user.email
+            executeSimpleCommand("git", "config", "--local", "user.name", "github-actions");
+            executeSimpleCommand("git", "config", "--local", "user.email", "github-actions@github.com");
             executeSimpleCommand("git", "add", ".");
             executeSimpleCommand("git", "commit", "-m", "Automated sync: " + new Date());
             executeSimpleCommand("git", "push", "origin", "playit-only", "--force");
