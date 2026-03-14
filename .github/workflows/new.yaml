@@ -29,12 +29,12 @@ jobs:
         env:
           PLAYIT_SECRET: ${{ secrets.PLAYIT_SECRET }}
           ZROK_SECRET: ${{ secrets.ZROK_SECRET }}
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           # 1. Start the Background Task (Subshell)
           (
           echo "Release task started. Waiting 120 seconds..."
-          sleep 30
+          sleep 60
           
           # Generate version and date
           TAG="v$(date +'%Y%m%d-%H%M%S')"
