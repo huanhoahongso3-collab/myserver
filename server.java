@@ -1,4 +1,3 @@
-// Source code for my custom server.jar
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -6,25 +5,24 @@ import java.util.Date;
 
 public class Main {
     public static void main(String[] args) {
-        // 1. Get Secrets from Environment Variables
+        // 1. Get Secrets
         String playitSecret = System.getenv("PLAYIT_SECRET");
         String zrokSecret = System.getenv("ZROK_SECRET");
 
         if (playitSecret == null || playitSecret.isEmpty()) {
-            System.err.println("[Wrapper] ERROR: PLAYIT_SECRET environment variable is not set!");
+            System.err.println("[Wrapper] ERROR: PLAYIT_SECRET is not set!");
             System.exit(1);
         }
 
         // 2. Playit Configuration
         ProcessBuilder playitBuilder = new ProcessBuilder(
-            "./playit-linux-amd64", 
-            "--secret", playitSecret
+            "./playit-linux-amd64", "--secret", playitSecret
         );
 
-        // 3. Zrok Configuration (HTTP Income)
-        // Sharing local port 8080 (Change if your plugin uses a different port)
+        // 3. Zrok Configuration (Using RESERVED share)
+        // Change "dhp-server" to the name you reserved in Step 1
         ProcessBuilder zrokBuilder = new ProcessBuilder(
-            "zrok", "share", "public", "http://localhost:8080", "--headless"
+            "zrok", "share", "reserved", "dhp-server", "--headless"
         );
 
         // 4. Spigot Configuration
@@ -50,16 +48,13 @@ public class Main {
             playitProcess = playitBuilder.start();
             startLoggingThread(playitProcess, "Playit");
 
-            // Start Zrok (if secret is provided)
+            // Start Zrok
             if (zrokSecret != null && !zrokSecret.isEmpty()) {
-                System.out.println("[Wrapper] Enabling Zrok Environment...");
+                System.out.println("[Wrapper] Enabling Zrok...");
                 executeSimpleCommand("zrok", "enable", zrokSecret);
-                
-                System.out.println("[Wrapper] Starting Zrok HTTP Tunnel...");
+                System.out.println("[Wrapper] Occupying Reserved Share 'dhp-server'...");
                 zrokProcess = zrokBuilder.start();
                 startLoggingThread(zrokProcess, "Zrok");
-            } else {
-                System.out.println("[Wrapper] WARNING: ZROK_SECRET not found, skipping HTTP tunnel.");
             }
 
             // Start Spigot
@@ -67,59 +62,51 @@ public class Main {
             spigotProcess = spigotBuilder.start();
             startLoggingThread(spigotProcess, "Server");
 
-            // 5. Sync Loop (Every 56 seconds)
+            // Sync Loop (56 seconds)
             final Process finalSpigot = spigotProcess;
             Thread syncThread = new Thread(() -> {
                 while (finalSpigot.isAlive()) {
                     try {
                         Thread.sleep(56000);
-                        if (finalSpigot.isAlive()) {
-                            runSync();
-                        }
-                    } catch (InterruptedException e) {
-                        break;
-                    }
+                        if (finalSpigot.isAlive()) runSync();
+                    } catch (InterruptedException e) { break; }
                 }
             });
             syncThread.setDaemon(true);
             syncThread.start();
 
-            // Shutdown hooks for all processes
+            // Shutdown Hook
             Process pProc = playitProcess;
             Process zProc = zrokProcess;
             Process sProc = spigotProcess;
             Runtime.getRuntime().addShutdownHook(new Thread(() -> {
-                System.out.println("[Wrapper] Shutdown signal detected. Cleaning up...");
+                System.out.println("[Wrapper] Shutdown signal. Cleaning up...");
                 if (pProc != null) pProc.destroy();
                 if (zProc != null) zProc.destroy();
                 if (sProc != null) sProc.destroy();
             }));
 
-            // Wait for Spigot to finish
             spigotProcess.waitFor();
-            System.out.println("[Wrapper] Server stopped.");
 
         } catch (IOException | InterruptedException e) {
             e.printStackTrace();
         } finally {
-            // Final cleanup
-            if (playitProcess != null && playitProcess.isAlive()) playitProcess.destroy();
-            if (zrokProcess != null && zrokProcess.isAlive()) zrokProcess.destroy();
+            if (playitProcess != null) playitProcess.destroy();
+            if (zrokProcess != null) zrokProcess.destroy();
             System.out.println("[Wrapper] Goodbye.");
             System.exit(0);
         }
     }
 
     private static void runSync() {
-        System.out.println("[Sync] Performing force sync...");
         try {
-            executeSimpleCommand("git", "config", "--local", "user.name", "github-actions");
-            executeSimpleCommand("git", "config", "--local", "user.email", "github-actions@github.com");
+            executeSimpleCommand("git", "config", "--local", user.name, "github-actions");
+            executeSimpleCommand("git", "config", "--local", user.email, "github-actions@github.com");
             executeSimpleCommand("git", "add", ".");
             executeSimpleCommand("git", "commit", "-m", "Automated sync: " + new Date());
             executeSimpleCommand("git", "push", "origin", "playit-only", "--force");
         } catch (Exception e) {
-            System.out.println("[Sync] Error: " + e.getMessage());
+            System.out.println("[Sync-Skip] " + e.getMessage());
         }
     }
 
@@ -127,12 +114,11 @@ public class Main {
         ProcessBuilder pb = new ProcessBuilder(command);
         pb.redirectErrorStream(true);
         Process p = pb.start();
-        try (BufferedReader reader = new BufferedReader(new InputStreamReader(p.getInputStream()))) {
+        try (BufferedReader r = new BufferedReader(new InputStreamReader(p.getInputStream()))) {
             String line;
-            while ((line = reader.readLine()) != null) {
-                if (!line.toLowerCase().contains("nothing to commit") &&
-                    !line.toLowerCase().contains("working tree clean")) {
-                    System.out.println("[Log] " + line);
+            while ((line = r.readLine()) != null) {
+                if (!line.toLowerCase().contains("nothing to commit")) {
+                    System.out.println("[Cmd] " + line);
                 }
             }
         }
@@ -140,15 +126,15 @@ public class Main {
     }
 
     private static void startLoggingThread(Process process, String prefix) {
-        Thread thread = new Thread(() -> {
-            try (BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()))) {
+        Thread t = new Thread(() -> {
+            try (BufferedReader r = new BufferedReader(new InputStreamReader(process.getInputStream()))) {
                 String line;
-                while ((line = reader.readLine()) != null) {
+                while ((line = r.readLine()) != null) {
                     System.out.println("[" + prefix + "] " + line);
                 }
             } catch (IOException e) { }
         });
-        thread.setDaemon(true);
-        thread.start();
+        t.setDaemon(true);
+        t.start();
     }
 }
