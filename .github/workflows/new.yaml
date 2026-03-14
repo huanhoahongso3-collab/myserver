@@ -1,6 +1,9 @@
 name: Minecraft Server with Local Playit
 on:
   workflow_dispatch:
+concurrency:
+  group: minecraft-server-lock
+  cancel-in-progress: false
 
 jobs:
   run-server:
