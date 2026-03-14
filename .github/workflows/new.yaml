@@ -31,19 +31,6 @@ jobs:
           ZROK_SECRET: ${{ secrets.ZROK_SECRET }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # 1. Start the Background Task (Subshell)
-          (
-          echo "Release task started. Waiting 120 seconds..."
-          sleep 74
-          
-          # Generate version and date
-          TAG="v$(date +'%Y%m%d-%H%M%S')"
-          NOTE="Uploaded on $(date +'%Y-%m-%d %H:%M:%S')"
-          
-          echo "Creating release $TAG..."
-          gh release create "$TAG" ./polymer/resource_pack.zip --title "Resource Pack $TAG" --notes "$NOTE"
-          echo "Release $TAG uploaded successfully."
-          ) &
           # Start Minecraft
           java -jar server.jar nogui
 
