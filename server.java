@@ -19,10 +19,9 @@ public class Main {
             "./playit-linux-amd64", "--secret", playitSecret
         );
 
-        // 3. Zrok Configuration (Using RESERVED share)
-        // Make sure you have run 'zrok reserve public http://localhost:7410 --unique-name dhp-server' once!
+        // 3. Zrok Configuration (Using the successful 'dhposserver' reservation)
         ProcessBuilder zrokBuilder = new ProcessBuilder(
-            "zrok", "share", "reserved", "dhp-server", "--headless"
+            "zrok", "share", "reserved", "dhposserver", "--headless"
         );
 
         // 4. Spigot Configuration
@@ -50,7 +49,7 @@ public class Main {
             if (zrokSecret != null && !zrokSecret.isEmpty()) {
                 System.out.println("[Wrapper] Enabling Zrok...");
                 executeSimpleCommand("zrok", "enable", zrokSecret);
-                System.out.println("[Wrapper] Occupying Reserved Share 'dhp-server'...");
+                System.out.println("[Wrapper] Starting Tunnel: https://dhposserver.share.zrok.io");
                 zrokProcess = zrokBuilder.start();
                 startLoggingThread(zrokProcess, "Zrok");
             }
@@ -97,7 +96,6 @@ public class Main {
 
     private static void runSync() {
         try {
-            // FIXED: Added quotes around user.name and user.email
             executeSimpleCommand("git", "config", "--local", "user.name", "github-actions");
             executeSimpleCommand("git", "config", "--local", "user.email", "github-actions@github.com");
             executeSimpleCommand("git", "add", ".");
