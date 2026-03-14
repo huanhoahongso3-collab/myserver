@@ -1437,3 +1437,22 @@ java.lang.IllegalStateException: not found
 [10:03:20] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Creative Mode]
 [10:04:59] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Survival Mode]
 [10:05:04] [Server thread/INFO]: [FewerSteak1914: Saved the game]
+[10:05:12] [Server thread/INFO]: [FewerSteak1914: Stopping the server]
+[10:05:22] [Server thread/INFO]: FewerSteak1914 lost connection: Disconnected
+[10:05:22] [Server thread/INFO]: FewerSteak1914 left the game
+[10:05:42] [Server thread/INFO]: Shutdown countdown complete, stopping the server.
+[10:05:42] [Server thread/INFO]: ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[10:05:47] [Server thread/INFO]: Stopping server
+[10:05:47] [Server thread/INFO]: Saving players
+[10:05:47] [Server thread/INFO]: Saving worlds
+[10:05:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10:05:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[10:05:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[10:05:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:05:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:05:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:05:47] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10:05:48] [Server thread/INFO]: Saving Server Backpacks's data!
+[10:05:48] [Server Shutdown Thread/INFO]: ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[10:05:48] [Thread-6/INFO]: Thread stopped gracefully.
+[10:05:48] [Thread-5/INFO]: Thread stopped gracefully.
