@@ -1349,3 +1349,79 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [14:16:16] [Server thread/ERROR]: Error while loading list data ./world/./data/serverbackpacks.data
 [14:16:16] [Server thread/INFO]: [Veinminer] LuckPerms not available, falling back to operator checks
 [14:16:16] [Server thread/INFO]: [Polydex] Started matching recipes and items...
+[14:16:21] [Server thread/INFO]: [Polydex] Done! It took 4860 ms
+[14:17:00] [ForkJoinPool.commonPool-worker-3/WARN]: Failed to fetch skin 'mojang:FewerSteak1914'
+java.lang.IllegalStateException: not found
+	at knot/net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:98) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:54) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.access$100(MojangSkinProvider.java:18) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider$1.findProfileByName(MojangSkinProvider.java:56) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.minecraft.class_3312.method_14509(class_3312.java:80) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3312.method_14515(class_3312.java:137) ~[server-intermediary.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:86) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:64) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:19) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:50) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.minecraft.class_3248.md57c30f$skinrestorer$lambda$skinrestorer$fetchSkin$1$2(class_3248.java:2593) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at knot/net.minecraft.class_3248.skinrestorer$fetchSkin(class_3248.java:2592) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3248.md57c30f$skinrestorer$lambda$waitForSkin$0$3(class_3248.java:2576) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[14:17:02] [Netty Epoll Server IO #2/WARN]: Modified mixin "vectorwing.farmersdelight.common.mixin.refabricated.RecipeBookSettingsMixin". Check debug logs for more information.
+[14:17:05] [ForkJoinPool.commonPool-worker-3/WARN]: Failed to fetch skin 'mojang:FewerSteak1914'
+java.lang.IllegalStateException: forbidden
+	at knot/net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:98) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:54) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.access$100(MojangSkinProvider.java:18) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider$1.findProfileByName(MojangSkinProvider.java:56) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.minecraft.class_3312.method_14509(class_3312.java:80) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3312.method_14515(class_3312.java:137) ~[server-intermediary.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:86) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:64) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:19) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:50) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.minecraft.class_3248.md57c30f$skinrestorer$lambda$skinrestorer$fetchSkin$1$2(class_3248.java:2593) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at knot/net.minecraft.class_3248.skinrestorer$fetchSkin(class_3248.java:2592) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3248.md57c30f$skinrestorer$lambda$waitForSkin$0$3(class_3248.java:2576) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[14:17:08] [Netty Epoll Server IO #3/INFO]: URL Override is set. Gathering from config!
+[14:17:08] [Netty Epoll Server IO #3/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
+[14:17:08] [Netty Epoll Server IO #3/WARN]: No Hash in file: Please open config folder and add your hash.
+[14:17:08] [Server thread/INFO]: com.mojang.authlib.GameProfile@57b1de57[id=edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8,name=FewerSteak1914,properties={}] lost connection: Disconnected
+[14:17:16] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[14:17:20] [ForkJoinPool.commonPool-worker-3/WARN]: Failed to fetch skin 'mojang:FewerSteak1914'
+java.lang.IllegalStateException: not found
+	at knot/net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:98) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:54) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.access$100(MojangSkinProvider.java:18) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider$1.findProfileByName(MojangSkinProvider.java:56) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.minecraft.class_3312.method_14509(class_3312.java:80) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3312.method_14515(class_3312.java:137) ~[server-intermediary.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:86) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:64) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:19) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:50) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.minecraft.class_3248.md57c30f$skinrestorer$lambda$skinrestorer$fetchSkin$1$2(class_3248.java:2593) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at knot/net.minecraft.class_3248.skinrestorer$fetchSkin(class_3248.java:2592) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3248.md57c30f$skinrestorer$lambda$waitForSkin$0$3(class_3248.java:2576) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
