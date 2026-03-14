@@ -541,3 +541,6 @@ java.io.FileNotFoundException: ./world/./data/BlossomHomes.json (No such file or
 [2026-03-14 09:29:48] [Server thread/TRACE] (BlossomLib): reading BlossomHomes
 [2026-03-14 09:29:48] [Server thread/TRACE] (BlossomLib): writing BlossomHomes
 [2026-03-14 09:40:28] [Server thread/TRACE] (BlossomHomes): home player class_3222['FewerSteak1914'/262, l='ServerLevel[world]', x=0.30, y=99.00, z=1.30] to null
+[2026-03-14 09:40:32] [Server thread/TRACE] (BlossomHomes): home player class_3222['FewerSteak1914'/262, l='ServerLevel[world]', x=0.30, y=99.00, z=1.30] to Home{name='cherry', world='minecraft:overworld', x=7320.612828965856, y=130.0625, z=-6719.267195214916, yaw=0.118869305, pitch=26.850018}
+[2026-03-14 09:40:32] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8 (3.0 s)
+[2026-03-14 09:40:35] [Server thread/DEBUG] (BlossomLib): genericCountdown for edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8 has ended
