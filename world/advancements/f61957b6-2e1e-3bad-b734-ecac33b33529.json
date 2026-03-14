@@ -605,6 +605,12 @@
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/soaked_bricks": {
+    "criteria": {
+      "has_water_bucket": "2026-03-14 03:34:05 +0000"
+    },
+    "done": true
+  },
   "equestrian_crafting:recipes/combat/iron_horse_armor": {
     "criteria": {
       "has_ingot": "2026-03-14 03:16:39 +0000",
@@ -732,6 +738,12 @@
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/water_bricks": {
+    "criteria": {
+      "has_water_bucket": "2026-03-14 03:34:05 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/limestone": {
     "criteria": {
       "has_cobblestone": "2026-03-14 02:52:51 +0000"
@@ -753,6 +765,12 @@
   "minecraft:recipes/building_blocks/cobblestone_slab": {
     "criteria": {
       "has_cobblestone": "2026-03-14 02:52:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2026-03-14 03:34:05 +0000"
     },
     "done": true
   },
