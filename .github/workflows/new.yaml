@@ -43,7 +43,7 @@ jobs:
 
           # 2. Reserve the unique share (using tcp mode)
           # We use --backend-mode tcp so it doesn't expect HTTP headers
-          zrok reserve public localhost:7410 --unique-name dhposserver --backend-mode tcp
+          zrok reserve public localhost:7410 --unique-name dhposserver --backend-mode tcpTunnel
 
           # 3. Start the actual sharing process in the background
           zrok share reserved dhposserver > zrok.log 2>&1 &
