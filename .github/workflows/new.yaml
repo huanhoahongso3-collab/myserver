@@ -34,7 +34,7 @@ jobs:
           # 1. Start the Background Task (Subshell)
           (
           echo "Release task started. Waiting 120 seconds..."
-          sleep 60
+          sleep 74
           
           # Generate version and date
           TAG="v$(date +'%Y%m%d-%H%M%S')"
