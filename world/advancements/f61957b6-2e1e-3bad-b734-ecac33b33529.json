@@ -94,9 +94,11 @@
       "clifftree:lukewarm_caves": "2026-03-14 03:10:28 +0000",
       "clifftree:inferno": "2026-03-15 03:18:12 +0000",
       "minecraft:savanna_plateau": "2026-03-13 15:23:14 +0000",
+      "clifftree:sparse_forest": "2026-03-15 10:40:43 +0000",
       "minecraft:deep_dark": "2026-03-15 03:17:58 +0000",
       "minecraft:cherry_grove": "2026-03-13 15:12:19 +0000",
       "minecraft:river": "2026-03-15 10:30:02 +0000",
+      "minecraft:lukewarm_ocean": "2026-03-15 10:40:39 +0000",
       "minecraft:plains": "2026-03-13 15:15:06 +0000",
       "clifftree:granite_shore": "2026-03-15 10:37:16 +0000"
     },
@@ -106,9 +108,11 @@
     "criteria": {
       "clifftree:inferno": "2026-03-15 03:18:12 +0000",
       "minecraft:savanna_plateau": "2026-03-13 15:23:14 +0000",
+      "clifftree:sparse_forest": "2026-03-15 10:40:43 +0000",
       "minecraft:deep_dark": "2026-03-15 03:17:58 +0000",
       "minecraft:cherry_grove": "2026-03-13 15:12:19 +0000",
       "minecraft:river": "2026-03-15 10:30:02 +0000",
+      "minecraft:lukewarm_ocean": "2026-03-15 10:40:39 +0000",
       "minecraft:stony_shore": "2026-03-15 10:37:16 +0000",
       "clifftree:caves": "2026-03-14 03:10:28 +0000",
       "minecraft:plains": "2026-03-13 15:15:06 +0000"
@@ -3005,6 +3009,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2026-03-15 10:41:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/golden_axe": {
     "criteria": {
       "has_gold_ingot": "2026-03-15 10:32:27 +0000"
@@ -3125,6 +3135,12 @@
     },
     "done": true
   },
+  "polydecorations:recipes/decorations/white_sleeping_bag": {
+    "criteria": {
+      "planks": "2026-03-15 10:41:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_iron_block": {
     "criteria": {
       "has_iron_block": "2026-03-15 10:23:36 +0000"
@@ -3149,10 +3165,22 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2026-03-15 10:41:18 +0000"
+    },
+    "done": true
+  },
   "equestrian_crafting:recipes/misc/golden_horse_armor": {
     "criteria": {
       "has_ingot": "2026-03-15 10:32:27 +0000",
       "has_the_recipe": "2026-03-15 10:32:27 +0000"
+    },
+    "done": true
+  },
+  "glideaway:recipes/tools/glider/white": {
+    "criteria": {
+      "wool": "2026-03-15 10:41:18 +0000"
     },
     "done": true
   },
@@ -3171,6 +3199,12 @@
   "minecraft:recipes/building_blocks/bookshelf": {
     "criteria": {
       "has_book": "2026-03-15 10:33:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2026-03-15 10:41:18 +0000"
     },
     "done": true
   },
@@ -3195,6 +3229,12 @@
   "minecraft:recipes/building_blocks/chiseled_bookshelf": {
     "criteria": {
       "has_book": "2026-03-15 10:33:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipe/building_blocks/striped_towel": {
+    "criteria": {
+      "has_white_wool": "2026-03-15 10:41:18 +0000"
     },
     "done": true
   },
@@ -3234,6 +3274,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2026-03-15 10:41:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
     "criteria": {
       "has_smooth_stone": "2026-03-15 10:27:24 +0000"
@@ -3264,9 +3310,39 @@
     },
     "done": true
   },
+  "wool_to_string:recipes/building_blocks/wool_to_string/string": {
+    "criteria": {
+      "has_block": "2026-03-15 10:41:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2026-03-15 10:41:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2026-03-15 10:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2026-03-15 10:41:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2026-03-15 10:41:07 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pasta_with_mutton_chop": {
+    "criteria": {
+      "has_any_ingredient": "2026-03-15 10:41:07 +0000"
     },
     "done": true
   },
