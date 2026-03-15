@@ -1976,3 +1976,5 @@ java.lang.IllegalStateException: not found
 [13:41:34] [Server thread/INFO]: cuongchanthoi[/127.15.127.224:38417] logged in with entity id 118608 at (945.1031910197738, 58.0, 2028.2497865424964)
 [13:41:34] [Server thread/INFO]: cuongchanthoi joined the game
 [13:46:10] [Server thread/WARN]: cuongchanthoi moved wrongly!
+[13:51:46] [Worker-Main-23/WARN]: [net.minecraft.class_3499] Serialization errors:
+: Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
