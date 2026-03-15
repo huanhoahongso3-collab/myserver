@@ -92,7 +92,9 @@
   "minecraft:adventure/distant_lands": {
     "criteria": {
       "clifftree:lukewarm_caves": "2026-03-14 03:10:28 +0000",
+      "clifftree:inferno": "2026-03-15 03:18:12 +0000",
       "minecraft:savanna_plateau": "2026-03-13 15:23:14 +0000",
+      "minecraft:deep_dark": "2026-03-15 03:17:58 +0000",
       "minecraft:cherry_grove": "2026-03-13 15:12:19 +0000",
       "minecraft:plains": "2026-03-13 15:15:06 +0000"
     },
@@ -100,7 +102,9 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "clifftree:inferno": "2026-03-15 03:18:12 +0000",
       "minecraft:savanna_plateau": "2026-03-13 15:23:14 +0000",
+      "minecraft:deep_dark": "2026-03-15 03:17:58 +0000",
       "minecraft:cherry_grove": "2026-03-13 15:12:19 +0000",
       "clifftree:caves": "2026-03-14 03:10:28 +0000",
       "minecraft:plains": "2026-03-13 15:15:06 +0000"
@@ -1088,6 +1092,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2026-03-15 03:20:15 +0000",
       "minecraft:spider": "2026-03-15 03:16:09 +0000",
       "minecraft:zombie": "2026-03-14 03:27:33 +0000"
     },
@@ -1219,9 +1224,21 @@
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/bluestone_squares_from_bluestone_stonecutting": {
+    "criteria": {
+      "has_bluestone": "2026-03-15 03:18:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_deepslate": {
     "criteria": {
       "has_cobbled_deepslate": "2026-03-15 03:17:19 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/chiseled_bluestone_from_bluestone_stonecutting": {
+    "criteria": {
+      "has_bluestone": "2026-03-15 03:18:48 +0000"
     },
     "done": true
   },
@@ -1234,6 +1251,12 @@
   "blockus:recipes/building_blocks/diorite_bricks_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2026-03-15 03:06:25 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/chiseled_bluestone_pillar_from_bluestone_stonecutting": {
+    "criteria": {
+      "has_bluestone": "2026-03-15 03:18:48 +0000"
     },
     "done": true
   },
@@ -1327,6 +1350,12 @@
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/chiseled_bluestone_bricks_from_bluestone_stonecutting": {
+    "criteria": {
+      "has_bluestone": "2026-03-15 03:18:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobbled_deepslate_slab": {
     "criteria": {
       "has_cobbled_deepslate": "2026-03-15 03:17:19 +0000"
@@ -1381,6 +1410,12 @@
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/bluestone_pillar_from_bluestone_stonecutting": {
+    "criteria": {
+      "has_bluestone": "2026-03-15 03:18:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite_slab": {
     "criteria": {
       "has_granite": "2026-03-15 03:06:42 +0000"
@@ -1390,6 +1425,12 @@
   "minecraft:recipes/building_blocks/polished_diorite_stairs_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2026-03-15 03:06:25 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/small_bluestone_bricks_from_bluestone_stonecutting": {
+    "criteria": {
+      "has_bluestone": "2026-03-15 03:18:48 +0000"
     },
     "done": true
   },
@@ -1465,9 +1506,21 @@
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/polished_bluestone": {
+    "criteria": {
+      "has_bluestone": "2026-03-15 03:18:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2026-03-15 03:17:19 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/bluestone_bricks_from_bluestone_stonecutting": {
+    "criteria": {
+      "has_bluestone": "2026-03-15 03:18:48 +0000"
     },
     "done": true
   },
@@ -1618,6 +1671,12 @@
   "slabs_stairs_to_block:recipes/building_blocks/slabs/diorite": {
     "criteria": {
       "has_slab": "2026-03-15 03:06:25 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/bluestone_lines_from_bluestone_stonecutting": {
+    "criteria": {
+      "has_bluestone": "2026-03-15 03:18:48 +0000"
     },
     "done": true
   },
@@ -1825,6 +1884,12 @@
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/polished_bluestone_from_bluestone_stonecutting": {
+    "criteria": {
+      "has_bluestone": "2026-03-15 03:18:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_sandstone_stairs": {
     "criteria": {
       "has_red_sandstone": "2026-03-15 03:03:59 +0000"
@@ -1870,6 +1935,12 @@
   "minecraft:recipes/building_blocks/cobbled_deepslate_stairs": {
     "criteria": {
       "has_cobbled_deepslate": "2026-03-15 03:17:19 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/bluestone_tiles_from_bluestone_stonecutting": {
+    "criteria": {
+      "has_bluestone": "2026-03-15 03:18:48 +0000"
     },
     "done": true
   },
