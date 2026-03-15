@@ -1248,6 +1248,12 @@
     },
     "done": true
   },
+  "universal_dyeing:recipes/building_blocks/universal_dyeing/candle": {
+    "criteria": {
+      "has_dye": "2026-03-15 03:34:29 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/decorations/fletching_table": {
     "criteria": {
       "has_flint": "2026-03-15 03:29:18 +0000"
@@ -1281,6 +1287,12 @@
   "minecraft:recipes/building_blocks/red_concrete_powder": {
     "criteria": {
       "has_gravel": "2026-03-15 03:26:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2026-03-15 03:34:29 +0000"
     },
     "done": true
   },
@@ -1445,6 +1457,12 @@
       "has_red_sandstone": "2026-03-15 03:03:59 +0000"
     },
     "done": true
+  },
+  "universal_dyeing:recipes/building_blocks/universal_dyeing/stained_glass_pane": {
+    "criteria": {
+      "has_dye": "2026-03-15 03:34:29 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/red_sandstone_wall_from_red_sandstone_stonecutting": {
     "criteria": {
@@ -1873,6 +1891,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2026-03-15 03:34:29 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/chiseled_andesite_bricks_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2026-03-15 03:07:28 +0000"
@@ -2047,6 +2071,12 @@
     },
     "done": true
   },
+  "universal_dyeing:recipes/building_blocks/universal_dyeing/stained_glass": {
+    "criteria": {
+      "has_dye": "2026-03-15 03:34:29 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/redstone/note_block": {
     "criteria": {
       "has_redstone": "2026-03-15 03:11:00 +0000"
@@ -2167,6 +2197,12 @@
     },
     "done": true
   },
+  "universal_dyeing:recipes/building_blocks/universal_dyeing/terracotta": {
+    "criteria": {
+      "has_dye": "2026-03-15 03:34:29 +0000"
+    },
+    "done": false
+  },
   "farmersdelight:recipes/cooking/bone_broth": {
     "criteria": {
       "has_bone": "2026-03-15 03:27:26 +0000"
@@ -2263,6 +2299,12 @@
     },
     "done": true
   },
+  "universal_dyeing:recipes/building_blocks/universal_dyeing/glazed_terracotta": {
+    "criteria": {
+      "has_dye": "2026-03-15 03:34:29 +0000"
+    },
+    "done": false
+  },
   "flint_to_gravel:recipes/building_blocks/gravel": {
     "criteria": {
       "has_flint": "2026-03-15 03:29:18 +0000"
@@ -2328,6 +2370,12 @@
       "has_diorite": "2026-03-15 03:06:25 +0000"
     },
     "done": true
+  },
+  "universal_dyeing:recipes/building_blocks/universal_dyeing/concrete_powder": {
+    "criteria": {
+      "has_dye": "2026-03-15 03:34:29 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
     "criteria": {
