@@ -1248,9 +1248,33 @@
     },
     "done": true
   },
+  "polyfactory:recipes/tools/steel_alloy_mixture": {
+    "criteria": {
+      "get_iron": "2026-03-15 03:07:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_stairs": {
+    "criteria": {
+      "has_andesite": "2026-03-15 03:07:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2026-03-15 03:11:00 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/rough_red_sandstone": {
     "criteria": {
       "has_red_sandstone": "2026-03-15 03:03:59 +0000"
+    },
+    "done": true
+  },
+  "slabs_stairs_to_block:recipes/building_blocks/slabs/andesite": {
+    "criteria": {
+      "has_slab": "2026-03-15 03:07:28 +0000"
     },
     "done": true
   },
@@ -1263,6 +1287,12 @@
   "minecraft:recipes/building_blocks/smooth_red_sandstone": {
     "criteria": {
       "has_red_sandstone": "2026-03-15 03:03:59 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/andesite_bricks_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2026-03-15 03:07:28 +0000"
     },
     "done": true
   },
@@ -1320,6 +1350,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2026-03-15 03:11:00 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/pumpkin_pie": {
     "criteria": {
       "has_pumpkin": "2026-03-15 03:03:06 +0000"
@@ -1374,9 +1410,21 @@
     },
     "done": true
   },
+  "polyfactory:recipes/redstone/hand_crank": {
+    "criteria": {
+      "get_axle": "2026-03-15 03:07:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_granite_slab_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2026-03-15 03:06:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2026-03-15 03:07:28 +0000"
     },
     "done": true
   },
@@ -1392,9 +1440,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2026-03-15 03:11:00 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipe/building_blocks/limestone": {
     "criteria": {
       "has_sand": "2026-03-15 02:51:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/slabs/andesite_slab": {
+    "criteria": {
+      "has_block": "2026-03-15 03:07:28 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/herringbone_andesite_bricks_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2026-03-15 03:07:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2026-03-15 03:07:28 +0000"
     },
     "done": true
   },
@@ -1428,9 +1500,21 @@
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/chiseled_andesite_bricks_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2026-03-15 03:07:28 +0000"
+    },
+    "done": true
+  },
   "slabs_stairs_to_block:recipes/building_blocks/slabs/red_sandstone": {
     "criteria": {
       "has_slab": "2026-03-15 03:03:59 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/redstone_sand": {
+    "criteria": {
+      "has_redstone": "2026-03-15 03:11:00 +0000"
     },
     "done": true
   },
@@ -1452,9 +1536,33 @@
     },
     "done": true
   },
+  "polyfactory:recipes/redstone/grinder": {
+    "criteria": {
+      "get_steel": "2026-03-15 03:07:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2026-03-15 03:11:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2026-03-15 03:07:28 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/chiseled_diorite_bricks_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2026-03-15 03:06:25 +0000"
+    },
+    "done": true
+  },
+  "polyfactory:recipes/redstone/redstone_chip": {
+    "criteria": {
+      "get_axle": "2026-03-15 03:07:51 +0000"
     },
     "done": true
   },
@@ -1470,6 +1578,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2026-03-15 03:07:28 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/cooking/pumpkin_soup": {
     "criteria": {
       "has_any_ingredient": "2026-03-15 03:03:06 +0000"
@@ -1479,6 +1593,12 @@
   "minecraft:recipes/decorations/diorite_wall": {
     "criteria": {
       "has_diorite": "2026-03-15 03:06:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2026-03-15 03:11:00 +0000"
     },
     "done": true
   },
@@ -1500,6 +1620,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2026-03-15 03:07:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/slabs/granite_slab": {
     "criteria": {
       "has_block": "2026-03-15 03:06:42 +0000"
@@ -1509,6 +1635,18 @@
   "minecraft:recipes/building_blocks/red_sandstone_stairs": {
     "criteria": {
       "has_red_sandstone": "2026-03-15 03:03:59 +0000"
+    },
+    "done": true
+  },
+  "slabs_stairs_to_block:recipes/building_blocks/stairs/andesite": {
+    "criteria": {
+      "has_stairs": "2026-03-15 03:07:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2026-03-15 03:07:28 +0000"
     },
     "done": true
   },
@@ -1530,6 +1668,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2026-03-15 03:11:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite": {
+    "criteria": {
+      "has_andesite": "2026-03-15 03:07:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_granite": {
     "criteria": {
       "has_granite": "2026-03-15 03:06:42 +0000"
@@ -1548,9 +1698,27 @@
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/polished_andesite_pillar_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2026-03-15 03:07:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2026-03-15 03:06:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/andesite_wall": {
+    "criteria": {
+      "has_andesite": "2026-03-15 03:07:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_slab": {
+    "criteria": {
+      "has_andesite": "2026-03-15 03:07:28 +0000"
     },
     "done": true
   },
@@ -1575,6 +1743,24 @@
   "minecraft:recipes/building_blocks/diorite_stairs": {
     "criteria": {
       "has_diorite": "2026-03-15 03:06:25 +0000"
+    },
+    "done": true
+  },
+  "polyfactory:recipes/redstone/integrated_circuit": {
+    "criteria": {
+      "get_axle": "2026-03-15 03:07:51 +0000"
+    },
+    "done": true
+  },
+  "polyfactory:recipes/redstone/metal_grid": {
+    "criteria": {
+      "get_steel": "2026-03-15 03:07:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2026-03-15 03:11:00 +0000"
     },
     "done": true
   },
