@@ -1633,3 +1633,11 @@ java.lang.IllegalStateException: not found
 [11:37:54] [Server thread/WARN]: Oak Boat (vehicle of cuongchanthoi) moved wrongly! 0.8099100102518833
 [11:37:54] [Server thread/WARN]: Oak Boat (vehicle of cuongchanthoi) moved wrongly! 0.9733063583278749
 [11:37:54] [Server thread/WARN]: Oak Boat (vehicle of cuongchanthoi) moved wrongly! 1.1602635233244882
+[11:42:47] [Worker-Main-6/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
+[11:43:08] [Worker-Main-6/WARN]: [net.minecraft.class_3499] Serialization errors:
+:
+  Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+  Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+  Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+[11:43:08] [Worker-Main-6/WARN]: [net.minecraft.class_3499] Serialization errors:
+: Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
