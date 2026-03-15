@@ -97,7 +97,8 @@
       "minecraft:deep_dark": "2026-03-15 03:17:58 +0000",
       "minecraft:cherry_grove": "2026-03-13 15:12:19 +0000",
       "minecraft:river": "2026-03-15 10:30:02 +0000",
-      "minecraft:plains": "2026-03-13 15:15:06 +0000"
+      "minecraft:plains": "2026-03-13 15:15:06 +0000",
+      "clifftree:granite_shore": "2026-03-15 10:37:16 +0000"
     },
     "done": false
   },
@@ -108,6 +109,7 @@
       "minecraft:deep_dark": "2026-03-15 03:17:58 +0000",
       "minecraft:cherry_grove": "2026-03-13 15:12:19 +0000",
       "minecraft:river": "2026-03-15 10:30:02 +0000",
+      "minecraft:stony_shore": "2026-03-15 10:37:16 +0000",
       "clifftree:caves": "2026-03-14 03:10:28 +0000",
       "minecraft:plains": "2026-03-13 15:15:06 +0000"
     },
@@ -3003,6 +3005,48 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2026-03-15 10:32:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_pickaxe": {
+    "criteria": {
+      "has_gold_ingot": "2026-03-15 10:32:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2026-03-15 10:32:27 +0000"
+    },
+    "done": true
+  },
+  "equestrian_crafting:recipes/combat/golden_horse_armor": {
+    "criteria": {
+      "has_ingot": "2026-03-15 10:32:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2026-03-15 10:32:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/golden_apple": {
+    "criteria": {
+      "has_gold_ingot": "2026-03-15 10:32:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2026-03-15 10:32:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2026-03-15 10:26:27 +0000"
@@ -3015,9 +3059,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2026-03-15 10:33:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2026-03-15 10:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2026-03-15 10:32:27 +0000"
     },
     "done": true
   },
@@ -3033,15 +3089,70 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2026-03-15 10:33:58 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/golden_knife": {
+    "criteria": {
+      "has_gold_ingot": "2026-03-15 10:32:27 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/charcoal_block": {
+    "criteria": {
+      "has_charcoal": "2026-03-15 10:35:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2026-03-15 10:32:27 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/weight_storage_cube": {
     "criteria": {
       "has_stone": "2026-03-15 10:26:27 +0000"
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/gold_plating": {
+    "criteria": {
+      "has_gold_ingot": "2026-03-15 10:32:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_iron_block": {
     "criteria": {
       "has_iron_block": "2026-03-15 10:23:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipe/building_blocks/pile_of_gold_ingots": {
+    "criteria": {
+      "has_gold_ingot": "2026-03-15 10:32:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_sword": {
+    "criteria": {
+      "has_gold_ingot": "2026-03-15 10:32:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_gold_ingot": "2026-03-15 10:32:27 +0000"
+    },
+    "done": true
+  },
+  "equestrian_crafting:recipes/misc/golden_horse_armor": {
+    "criteria": {
+      "has_ingot": "2026-03-15 10:32:27 +0000",
+      "has_the_recipe": "2026-03-15 10:32:27 +0000"
     },
     "done": true
   },
@@ -3057,9 +3168,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2026-03-15 10:33:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2026-03-15 10:32:27 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/food/golden_apple": {
+    "criteria": {
+      "has_the_recipe": "2026-03-15 10:32:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipe/building_blocks/polished_stone": {
     "criteria": {
       "has_stone": "2026-03-15 10:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2026-03-15 10:33:58 +0000"
     },
     "done": true
   },
@@ -3147,9 +3282,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/golden_hoe": {
+    "criteria": {
+      "has_gold_ingot": "2026-03-15 10:32:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/anvil": {
     "criteria": {
       "has_iron_block": "2026-03-15 10:23:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2026-03-15 10:32:27 +0000"
     },
     "done": true
   },
