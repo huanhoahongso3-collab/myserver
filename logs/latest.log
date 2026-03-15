@@ -1978,3 +1978,9 @@ java.lang.IllegalStateException: not found
 [13:46:10] [Server thread/WARN]: cuongchanthoi moved wrongly!
 [13:51:46] [Worker-Main-23/WARN]: [net.minecraft.class_3499] Serialization errors:
 : Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+[13:52:30] [Worker-Main-22/WARN]: [net.minecraft.class_3499] Serialization errors:
+:
+  Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+  Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+  Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+[13:52:39] [Worker-Main-19/ERROR]: Failed to parse jigsaw replacement state 'minecraft:dark_oak_log[axiz=z]' at class_2338{x=932, y=106, z=2565}: Block minecraft:dark_oak_log does not have property 'axiz' at position 23: ...k_oak_log[<--[HERE]
