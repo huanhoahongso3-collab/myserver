@@ -96,6 +96,7 @@
       "minecraft:savanna_plateau": "2026-03-13 15:23:14 +0000",
       "minecraft:deep_dark": "2026-03-15 03:17:58 +0000",
       "minecraft:cherry_grove": "2026-03-13 15:12:19 +0000",
+      "minecraft:river": "2026-03-15 10:30:02 +0000",
       "minecraft:plains": "2026-03-13 15:15:06 +0000"
     },
     "done": false
@@ -106,6 +107,7 @@
       "minecraft:savanna_plateau": "2026-03-13 15:23:14 +0000",
       "minecraft:deep_dark": "2026-03-15 03:17:58 +0000",
       "minecraft:cherry_grove": "2026-03-13 15:12:19 +0000",
+      "minecraft:river": "2026-03-15 10:30:02 +0000",
       "clifftree:caves": "2026-03-14 03:10:28 +0000",
       "minecraft:plains": "2026-03-13 15:15:06 +0000"
     },
@@ -2983,6 +2985,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2026-03-15 10:27:24 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/stone_tiles_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2026-03-15 10:26:27 +0000"
@@ -3055,6 +3063,12 @@
     },
     "done": true
   },
+  "slabs_stairs_to_block:recipes/building_blocks/slabs/smooth_stone": {
+    "criteria": {
+      "has_slab": "2026-03-15 10:27:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/stonecutter": {
     "criteria": {
       "has_stone": "2026-03-15 10:26:27 +0000"
@@ -3073,9 +3087,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2026-03-15 10:27:24 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/herringbone_stone_bricks_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2026-03-15 10:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2026-03-15 10:27:24 +0000"
     },
     "done": true
   },
@@ -3112,6 +3138,12 @@
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
     "criteria": {
       "has_stone": "2026-03-15 10:26:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/slabs/smooth_stone_slab": {
+    "criteria": {
+      "has_block": "2026-03-15 10:27:24 +0000"
     },
     "done": true
   },
