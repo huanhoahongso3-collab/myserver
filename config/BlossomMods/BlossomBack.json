@@ -1,17 +1,17 @@
 {
   "back": {
-    "enabled": true,
+    "enabled": false,
     "teleportation": null,
     "standStill": 5,
     "cooldown": 120
   },
   "lastDeath": {
-    "enabled": false,
+    "enabled": true,
     "teleportation": null,
     "standStill": 5,
     "cooldown": 120
   },
   "separateCooldowns": false,
   "persistBack": false,
-  "persistLastDeath": false
+  "persistLastDeath": true
 }
