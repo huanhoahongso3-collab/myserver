@@ -1540,3 +1540,25 @@ java.lang.IllegalStateException: not found
 [11:00:48] [Worker-Main-4/ERROR]: Failed to parse jigsaw replacement state 'minecraft:dark_oak_log[axiz=z]' at class_2338{x=60, y=87, z=2413}: Block minecraft:dark_oak_log does not have property 'axiz' at position 23: ...k_oak_log[<--[HERE]
 [11:09:34] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-222, y=-51, z=-77}
 [11:09:34] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-222, y=-51, z=-80}
+[11:14:22] [Worker-Main-4/WARN]: [net.minecraft.class_3499] Serialization errors:
+:
+  Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+  Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+  Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+  Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+[11:14:45] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
+[11:15:47] [Worker-Main-1/WARN]: [net.minecraft.class_3499] Serialization errors:
+:
+  Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+  Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+  Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+[11:15:47] [Worker-Main-1/WARN]: [net.minecraft.class_3499] Serialization errors:
+: Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+[11:16:33] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=217, y=48, z=159}
+[11:16:33] [Worker-Main-1/WARN]: [net.minecraft.class_3499] Serialization errors:
+:
+  Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+  Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+  Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+  Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+[11:17:15] [Worker-Main-4/ERROR]: Failed to parse jigsaw replacement state 'minecraft:dark_oak_log[axiz=z]' at class_2338{x=98, y=81, z=1011}: Block minecraft:dark_oak_log does not have property 'axiz' at position 23: ...k_oak_log[<--[HERE]
