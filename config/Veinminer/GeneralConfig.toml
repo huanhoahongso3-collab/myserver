@@ -2,7 +2,7 @@
 	#Enable or disable Veinminer entirely
 	veinminerEnabled = true
 	#Require the player to crouch (sneak) to activate Veinminer
-	requireCrouch = false
+	requireCrouch = true
 	#Prevent Veinminer from activating if the tool would break
 	checkToolDurability = true
 	#Minimum durability to keep when Veinminer activates
