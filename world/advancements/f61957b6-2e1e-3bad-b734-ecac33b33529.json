@@ -1272,6 +1272,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/red_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2026-03-15 03:26:36 +0000"
+    },
+    "done": true
+  },
   "slabs_stairs_to_block:recipes/building_blocks/stairs/diorite": {
     "criteria": {
       "has_stairs": "2026-03-15 03:06:25 +0000"
@@ -1314,6 +1320,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/green_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2026-03-15 03:26:36 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/rough_red_sandstone": {
     "criteria": {
       "has_red_sandstone": "2026-03-15 03:03:59 +0000"
@@ -1323,6 +1335,12 @@
   "slabs_stairs_to_block:recipes/building_blocks/slabs/andesite": {
     "criteria": {
       "has_slab": "2026-03-15 03:07:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2026-03-15 03:26:36 +0000"
     },
     "done": true
   },
@@ -1356,6 +1374,12 @@
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/asphalt": {
+    "criteria": {
+      "has_gravel": "2026-03-15 03:26:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobbled_deepslate_slab": {
     "criteria": {
       "has_cobbled_deepslate": "2026-03-15 03:17:19 +0000"
@@ -1365,6 +1389,12 @@
   "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2026-03-15 03:06:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2026-03-15 03:24:42 +0000"
     },
     "done": true
   },
@@ -1452,6 +1482,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/lime_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2026-03-15 03:26:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
     "criteria": {
       "has_raw_gold": "2026-03-15 03:17:13 +0000"
@@ -1470,6 +1506,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2026-03-15 03:25:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_deepslate_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2026-03-15 03:17:19 +0000"
@@ -1479,6 +1521,18 @@
   "blockus:recipes/building_blocks/polished_granite_pillar_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2026-03-15 03:06:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2026-03-15 03:26:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_copper_block": {
+    "criteria": {
+      "has_raw_copper": "2026-03-15 03:25:28 +0000"
     },
     "done": true
   },
@@ -1521,6 +1575,12 @@
   "blockus:recipes/building_blocks/bluestone_bricks_from_bluestone_stonecutting": {
     "criteria": {
       "has_bluestone": "2026-03-15 03:18:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2026-03-15 03:26:36 +0000"
     },
     "done": true
   },
@@ -1596,6 +1656,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2026-03-15 03:24:42 +0000"
+    },
+    "done": true
+  },
   "slabs_stairs_to_block:recipes/building_blocks/slabs/cobbled_deepslate": {
     "criteria": {
       "has_slab": "2026-03-15 03:17:19 +0000"
@@ -1626,6 +1692,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/black_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2026-03-15 03:26:36 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/herringbone_andesite_bricks_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2026-03-15 03:07:28 +0000"
@@ -1644,6 +1716,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/purple_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2026-03-15 03:26:36 +0000"
+    },
+    "done": true
+  },
   "polyfactory:recipes/misc/string_mesh": {
     "criteria": {
       "get_item": "2026-03-15 03:16:10 +0000"
@@ -1653,6 +1731,12 @@
   "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2026-03-15 03:06:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2026-03-15 03:26:36 +0000"
     },
     "done": true
   },
@@ -1677,6 +1761,24 @@
   "blockus:recipes/building_blocks/bluestone_lines_from_bluestone_stonecutting": {
     "criteria": {
       "has_bluestone": "2026-03-15 03:18:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coarse_dirt": {
+    "criteria": {
+      "has_gravel": "2026-03-15 03:26:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2026-03-15 03:26:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2026-03-15 03:26:36 +0000"
     },
     "done": true
   },
@@ -1716,6 +1818,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/brown_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2026-03-15 03:26:36 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/herringbone_granite_bricks_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2026-03-15 03:06:42 +0000"
@@ -1725,6 +1833,12 @@
   "minecraft:recipes/building_blocks/diorite_slab": {
     "criteria": {
       "has_diorite": "2026-03-15 03:06:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2026-03-15 03:26:36 +0000"
     },
     "done": true
   },
@@ -1803,6 +1917,12 @@
   "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2026-03-15 03:07:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2026-03-15 03:26:36 +0000"
     },
     "done": true
   },
@@ -1980,6 +2100,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/yellow_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2026-03-15 03:26:36 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/herringbone_diorite_bricks_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2026-03-15 03:06:25 +0000"
@@ -2001,6 +2127,12 @@
   "slabs_stairs_to_block:recipes/building_blocks/stairs/cobbled_deepslate": {
     "criteria": {
       "has_stairs": "2026-03-15 03:17:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2026-03-15 03:26:36 +0000"
     },
     "done": true
   },
@@ -2067,6 +2199,12 @@
   "minecraft:recipes/building_blocks/diorite_stairs": {
     "criteria": {
       "has_diorite": "2026-03-15 03:06:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2026-03-15 03:25:28 +0000"
     },
     "done": true
   },
