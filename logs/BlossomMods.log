@@ -622,3 +622,6 @@ java.io.FileNotFoundException: ./world/./data/BlossomHomes.json (No such file or
 [2026-03-15 05:08:08] [Server thread/TRACE] (BlossomBack): back (death) cuongchanthoi (f61957b6-2e1e-3bad-b734-ecac33b33529) to null
 [2026-03-15 05:08:15] [Server thread/TRACE] (BlossomBack): back (death) cuongchanthoi (f61957b6-2e1e-3bad-b734-ecac33b33529) to null
 [2026-03-15 05:11:48] [Server thread/TRACE] (BlossomBack): back (death) cuongchanthoi (f61957b6-2e1e-3bad-b734-ecac33b33529) to null
+[2026-03-15 05:24:58] [Server thread/TRACE] (BlossomBack): persisting deaths
+[2026-03-15 05:24:58] [Server thread/TRACE] (BlossomLib): writing BlossomBack.deaths
+[2026-03-15 05:24:58] [Server thread/ INFO] (BlossomBack): cuongchanthoi (f61957b6-2e1e-3bad-b734-ecac33b33529) died at TeleportDestination{world=ServerLevel[world], x=157.92163966219857, y=90.0, z=188.69999998807907, yaw=-69.150024, pitch=15.30004}
