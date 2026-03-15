@@ -2599,6 +2599,12 @@
     },
     "done": true
   },
+  "polyfactory:recipes/combat/sticky_dynamite": {
+    "criteria": {
+      "get_item": "2026-03-15 09:50:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_tuff_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2026-03-15 09:44:23 +0000"
@@ -2677,15 +2683,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2026-03-15 09:50:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_tuff": {
     "criteria": {
       "has_tuff": "2026-03-15 09:44:23 +0000"
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/golden_apple_crate_from_apple_crate": {
+    "criteria": {
+      "has_golden_apple": "2026-03-15 09:50:31 +0000"
+    },
+    "done": true
+  },
   "polydecorations:recipes/decorations/oak_mailbox": {
     "criteria": {
       "planks": "2026-03-15 09:44:18 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/golden_apple_crate": {
+    "criteria": {
+      "has_golden_apple": "2026-03-15 09:50:31 +0000"
     },
     "done": true
   },
@@ -2791,6 +2815,12 @@
     },
     "done": true
   },
+  "polyfactory:recipes/combat/dynamite": {
+    "criteria": {
+      "get_item": "2026-03-15 09:50:38 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/tuff_tiles_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2026-03-15 09:44:23 +0000"
@@ -2803,6 +2833,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2026-03-15 09:46:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/tuff_stairs_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2026-03-15 09:44:23 +0000"
@@ -2812,6 +2848,12 @@
   "minecraft:recipes/building_blocks/slabs/tuff_brick_slab": {
     "criteria": {
       "has_block": "2026-03-15 09:44:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2026-03-15 09:50:38 +0000"
     },
     "done": true
   },
