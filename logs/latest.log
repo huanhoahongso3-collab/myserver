@@ -1765,3 +1765,31 @@ java.lang.IllegalStateException: not found
 [12:52:35] [Server thread/INFO]: Server empty for 60 seconds, pausing
 [12:53:34] [Server thread/INFO]: cuongchanthoi[/127.15.127.224:58381] logged in with entity id 107050 at (1026.300000011921, 64.0, 1956.699999988079)
 [12:53:34] [Server thread/INFO]: cuongchanthoi joined the game
+[13:15:50] [Server thread/INFO]: cuongchanthoi lost connection: Timed out
+[13:15:50] [Server thread/INFO]: cuongchanthoi left the game
+[13:16:33] [ForkJoinPool.commonPool-worker-13/WARN]: Failed to fetch skin 'mojang:cuongchanthoi'
+java.lang.IllegalStateException: not found
+	at knot/net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:98) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:54) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.access$100(MojangSkinProvider.java:18) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider$1.findProfileByName(MojangSkinProvider.java:56) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.minecraft.class_3312.method_14509(class_3312.java:80) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3312.method_14515(class_3312.java:137) ~[server-intermediary.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:86) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:64) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:19) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:50) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.minecraft.class_3248.md540871$skinrestorer$lambda$skinrestorer$fetchSkin$1$2(class_3248.java:2593) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at knot/net.minecraft.class_3248.skinrestorer$fetchSkin(class_3248.java:2592) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3248.md540871$skinrestorer$lambda$waitForSkin$0$3(class_3248.java:2576) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[13:16:36] [Netty Epoll Server IO #7/INFO]: URL Override is set. Gathering from config!
+[13:16:36] [Netty Epoll Server IO #7/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
+[13:16:36] [Netty Epoll Server IO #7/WARN]: No Hash in file: Please open config folder and add your hash.
