@@ -573,3 +573,7 @@ java.io.FileNotFoundException: ./world/./data/BlossomHomes.json (No such file or
 [2026-03-15 00:37:31] [main/ INFO] (BlossomLib): BlossomLib has starting
 [2026-03-15 00:37:59] [Server thread/TRACE] (BlossomLib): reading BlossomHomes
 [2026-03-15 00:37:59] [Server thread/TRACE] (BlossomLib): writing BlossomHomes
+[2026-03-15 04:06:46] [Server thread/TRACE] (BlossomHomes): home player class_3222['cuongchanthoi'/49646, l='ServerLevel[world]', x=128.22, y=-35.59, z=140.30] to null
+[2026-03-15 04:06:46] [Server thread/TRACE] (BlossomHomes): found spawn position for f61957b6-2e1e-3bad-b734-ecac33b33529 @ class_5454[newLevel=ServerLevel[world], position=(0.5, 120.0, -5.5), deltaMovement=(0.0, 0.0, 0.0), yRot=0.0, xRot=0.0, missingRespawnBlock=false, asPassenger=false, relatives=[], postTeleportTransition=net.minecraft.class_5454$$Lambda/0x00007f429a18f3b0@79438855]
+[2026-03-15 04:06:46] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 (3.0 s)
+[2026-03-15 04:06:49] [Server thread/DEBUG] (BlossomLib): genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 has ended
