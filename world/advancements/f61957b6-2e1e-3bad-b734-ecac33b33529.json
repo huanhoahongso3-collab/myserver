@@ -2557,18 +2557,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_tuff_stonecutting": {
-    "criteria": {
-      "has_tuff": "2026-03-15 09:44:23 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/tuff_bricks_from_tuff_stonecutting": {
-    "criteria": {
-      "has_tuff": "2026-03-15 09:44:23 +0000"
-    },
-    "done": true
-  },
   "slabs_stairs_to_block:recipes/building_blocks/stairs/oak_planks": {
     "criteria": {
       "has_stairs": "2026-03-15 09:44:18 +0000"
@@ -2578,48 +2566,6 @@
   "minecraft:recipes/decorations/oak_sign": {
     "criteria": {
       "has_planks": "2026-03-15 09:44:18 +0000"
-    },
-    "done": true
-  },
-  "blockus:recipes/building_blocks/carved_tuff_bricks_from_tuff_stonecutting": {
-    "criteria": {
-      "has_tuff": "2026-03-15 09:44:23 +0000"
-    },
-    "done": true
-  },
-  "blockus:recipes/building_blocks/herringbone_tuff_bricks_from_tuff_stonecutting": {
-    "criteria": {
-      "has_tuff": "2026-03-15 09:44:23 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/tuff_brick_wall_from_tuff_stonecutting": {
-    "criteria": {
-      "has_tuff": "2026-03-15 09:44:23 +0000"
-    },
-    "done": true
-  },
-  "polyfactory:recipes/combat/sticky_dynamite": {
-    "criteria": {
-      "get_item": "2026-03-15 09:50:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_tuff_from_tuff_stonecutting": {
-    "criteria": {
-      "has_tuff": "2026-03-15 09:44:23 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/tuff_brick_stairs_from_tuff_stonecutting": {
-    "criteria": {
-      "has_tuff": "2026-03-15 09:44:23 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/tuff_slab_from_tuff_stonecutting": {
-    "criteria": {
-      "has_tuff": "2026-03-15 09:44:23 +0000"
     },
     "done": true
   },
@@ -2635,33 +2581,15 @@
     },
     "done": true
   },
-  "slabs_stairs_to_block:recipes/building_blocks/slabs/tuff_bricks": {
-    "criteria": {
-      "has_slab": "2026-03-15 09:44:23 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_planks": "2026-03-15 09:44:18 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/tuff_wall": {
-    "criteria": {
-      "has_tuff": "2026-03-15 09:44:23 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/oak_fence_gate": {
     "criteria": {
       "has_planks": "2026-03-15 09:44:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/tuff_wall_from_tuff_stonecutting": {
-    "criteria": {
-      "has_tuff": "2026-03-15 09:44:23 +0000"
     },
     "done": true
   },
@@ -2683,39 +2611,129 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/firework_rocket_simple": {
-    "criteria": {
-      "has_gunpowder": "2026-03-15 09:50:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_tuff": {
-    "criteria": {
-      "has_tuff": "2026-03-15 09:44:23 +0000"
-    },
-    "done": true
-  },
-  "blockus:recipes/building_blocks/golden_apple_crate_from_apple_crate": {
-    "criteria": {
-      "has_golden_apple": "2026-03-15 09:50:31 +0000"
-    },
-    "done": true
-  },
   "polydecorations:recipes/decorations/oak_mailbox": {
     "criteria": {
       "planks": "2026-03-15 09:44:18 +0000"
     },
     "done": true
   },
-  "blockus:recipes/building_blocks/golden_apple_crate": {
-    "criteria": {
-      "has_golden_apple": "2026-03-15 09:50:31 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/oak_trapdoor": {
     "criteria": {
       "has_planks": "2026-03-15 09:44:18 +0000"
+    },
+    "done": true
+  },
+  "polydecorations:recipes/decorations/oak_tool_rack": {
+    "criteria": {
+      "planks": "2026-03-15 09:44:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2026-03-15 09:44:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_fence": {
+    "criteria": {
+      "has_planks": "2026-03-15 09:44:18 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/herringbone_oak_planks": {
+    "criteria": {
+      "has_oak_planks": "2026-03-15 09:44:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_button": {
+    "criteria": {
+      "has_planks": "2026-03-15 09:44:18 +0000"
+    },
+    "done": true
+  },
+  "polydecorations:recipes/decorations/oak_bench": {
+    "criteria": {
+      "planks": "2026-03-15 09:44:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-03-15 09:44:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-03-15 09:44:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_bricks_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-03-15 09:44:23 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/carved_tuff_bricks_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-03-15 09:44:23 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/herringbone_tuff_bricks_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-03-15 09:44:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-03-15 09:44:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_tuff_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-03-15 09:44:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-03-15 09:44:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_slab_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-03-15 09:44:23 +0000"
+    },
+    "done": true
+  },
+  "slabs_stairs_to_block:recipes/building_blocks/slabs/tuff_bricks": {
+    "criteria": {
+      "has_slab": "2026-03-15 09:44:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_wall": {
+    "criteria": {
+      "has_tuff": "2026-03-15 09:44:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_wall_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-03-15 09:44:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff": {
+    "criteria": {
+      "has_tuff": "2026-03-15 09:44:23 +0000"
     },
     "done": true
   },
@@ -2743,24 +2761,6 @@
     },
     "done": true
   },
-  "polydecorations:recipes/decorations/oak_tool_rack": {
-    "criteria": {
-      "planks": "2026-03-15 09:44:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oak_stairs": {
-    "criteria": {
-      "has_planks": "2026-03-15 09:44:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/oak_fence": {
-    "criteria": {
-      "has_planks": "2026-03-15 09:44:18 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_tuff_stairs_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2026-03-15 09:44:23 +0000"
@@ -2776,18 +2776,6 @@
   "minecraft:recipes/building_blocks/polished_tuff_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2026-03-15 09:44:23 +0000"
-    },
-    "done": true
-  },
-  "blockus:recipes/building_blocks/herringbone_oak_planks": {
-    "criteria": {
-      "has_oak_planks": "2026-03-15 09:44:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/oak_button": {
-    "criteria": {
-      "has_planks": "2026-03-15 09:44:18 +0000"
     },
     "done": true
   },
@@ -2809,33 +2797,9 @@
     },
     "done": true
   },
-  "polydecorations:recipes/decorations/oak_bench": {
-    "criteria": {
-      "planks": "2026-03-15 09:44:18 +0000"
-    },
-    "done": true
-  },
-  "polyfactory:recipes/combat/dynamite": {
-    "criteria": {
-      "get_item": "2026-03-15 09:50:38 +0000"
-    },
-    "done": true
-  },
   "blockus:recipes/building_blocks/tuff_tiles_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2026-03-15 09:44:23 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/oak_pressure_plate": {
-    "criteria": {
-      "has_planks": "2026-03-15 09:44:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/avoid_vibration": {
-    "criteria": {
-      "avoid_vibration": "2026-03-15 09:46:09 +0000"
     },
     "done": true
   },
@@ -2851,9 +2815,117 @@
     },
     "done": true
   },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2026-03-15 09:46:09 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/golden_apple_crate_from_apple_crate": {
+    "criteria": {
+      "has_golden_apple": "2026-03-15 09:50:31 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/golden_apple_crate": {
+    "criteria": {
+      "has_golden_apple": "2026-03-15 09:50:31 +0000"
+    },
+    "done": true
+  },
+  "polyfactory:recipes/combat/sticky_dynamite": {
+    "criteria": {
+      "get_item": "2026-03-15 09:50:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2026-03-15 09:50:38 +0000"
+    },
+    "done": true
+  },
+  "polyfactory:recipes/combat/dynamite": {
+    "criteria": {
+      "get_item": "2026-03-15 09:50:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tnt": {
     "criteria": {
       "has_gunpowder": "2026-03-15 09:50:38 +0000"
+    },
+    "done": true
+  },
+  "polydecorations:recipes/decorations/large_flower_pot": {
+    "criteria": {
+      "planks": "2026-03-15 10:04:27 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/ender_block": {
+    "criteria": {
+      "has_ender_pearl": "2026-03-15 10:05:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/minecraft_trials_edition": {
+    "criteria": {
+      "minecraft_trials_edition": "2026-03-15 10:04:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2026-03-15 10:04:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/wax_off": {
+    "criteria": {
+      "wax_off": "2026-03-15 10:05:51 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/skillet": {
+    "criteria": {
+      "has_brick": "2026-03-15 10:04:27 +0000"
+    },
+    "done": true
+  },
+  "polyfactory:recipes/redstone/hologram_projector": {
+    "criteria": {
+      "get_steel": "2026-03-15 10:05:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/decorated_pot_simple": {
+    "criteria": {
+      "has_brick": "2026-03-15 10:04:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/salvage_sherd": {
+    "criteria": {
+      "has_sherd": "2026-03-15 10:04:53 +0000"
+    },
+    "done": false
+  },
+  "polydecorations:recipes/decorations/ghost_light": {
+    "criteria": {
+      "planks": "2026-03-15 10:04:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2026-03-15 10:04:27 +0000"
+    },
+    "done": true
+  },
+  "polydecorations:recipes/decorations/long_flower_pot": {
+    "criteria": {
+      "planks": "2026-03-15 10:04:27 +0000"
     },
     "done": true
   },
