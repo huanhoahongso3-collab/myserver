@@ -687,3 +687,23 @@ java.io.FileNotFoundException: ./world/./data/BlossomHomes.json (No such file or
 [2026-03-15 09:09:23] [Server thread/TRACE] (BlossomHomes): home list class_3222['FewerSteak1914'/228, l='ServerLevel[world]', x=7140.23, y=-10.00, z=-6783.03]
 [2026-03-15 09:09:57] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8 (3.0 s)
 [2026-03-15 09:10:00] [Server thread/DEBUG] (BlossomLib): genericCountdown for edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8 has ended
+[2026-03-15 09:28:20] [main/ INFO] (BlossomLib): BlossomLib mixins loading
+[2026-03-15 09:28:31] [main/TRACE] (BlossomLib): register config manager BlossomBack.json
+[2026-03-15 09:28:31] [main/TRACE] (BlossomLib): loading config BlossomBack.json
+[2026-03-15 09:28:31] [main/TRACE] (BlossomLib): saving config BlossomBack.json
+[2026-03-15 09:28:31] [main/TRACE] (BlossomLib): register BlossomBack.teleports
+[2026-03-15 09:28:31] [main/TRACE] (BlossomLib): register BlossomBack.deaths
+[2026-03-15 09:28:31] [main/TRACE] (BlossomLib): register config manager BlossomHomes.json
+[2026-03-15 09:28:31] [main/TRACE] (BlossomLib): loading config BlossomHomes.json
+[2026-03-15 09:28:31] [main/TRACE] (BlossomLib): saving config BlossomHomes.json
+[2026-03-15 09:28:31] [main/TRACE] (BlossomLib): register BlossomHomes
+[2026-03-15 09:28:31] [main/ INFO] (BlossomLib): BlossomLib has starting
+[2026-03-15 09:28:31] [main/TRACE] (BlossomLib): register config manager BlossomTpa.json
+[2026-03-15 09:28:31] [main/TRACE] (BlossomLib): loading config BlossomTpa.json
+[2026-03-15 09:28:31] [main/TRACE] (BlossomLib): saving config BlossomTpa.json
+[2026-03-15 09:28:58] [Server thread/TRACE] (BlossomLib): reading BlossomBack.teleports
+[2026-03-15 09:28:58] [Server thread/TRACE] (BlossomLib): writing BlossomBack.teleports
+[2026-03-15 09:28:58] [Server thread/TRACE] (BlossomLib): reading BlossomBack.deaths
+[2026-03-15 09:28:58] [Server thread/TRACE] (BlossomLib): writing BlossomBack.deaths
+[2026-03-15 09:28:58] [Server thread/TRACE] (BlossomLib): reading BlossomHomes
+[2026-03-15 09:28:58] [Server thread/TRACE] (BlossomLib): writing BlossomHomes
