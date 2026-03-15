@@ -577,3 +577,25 @@ java.io.FileNotFoundException: ./world/./data/BlossomHomes.json (No such file or
 [2026-03-15 04:06:46] [Server thread/TRACE] (BlossomHomes): found spawn position for f61957b6-2e1e-3bad-b734-ecac33b33529 @ class_5454[newLevel=ServerLevel[world], position=(0.5, 120.0, -5.5), deltaMovement=(0.0, 0.0, 0.0), yRot=0.0, xRot=0.0, missingRespawnBlock=false, asPassenger=false, relatives=[], postTeleportTransition=net.minecraft.class_5454$$Lambda/0x00007f429a18f3b0@79438855]
 [2026-03-15 04:06:46] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 (3.0 s)
 [2026-03-15 04:06:49] [Server thread/DEBUG] (BlossomLib): genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 has ended
+[2026-03-15 04:29:53] [main/ INFO] (BlossomLib): BlossomLib mixins loading
+[2026-03-15 04:30:04] [main/TRACE] (BlossomLib): register config manager BlossomBack.json
+[2026-03-15 04:30:04] [main/TRACE] (BlossomLib): loading config BlossomBack.json
+[2026-03-15 04:30:04] [main/TRACE] (BlossomLib): saving config BlossomBack.json
+[2026-03-15 04:30:04] [main/TRACE] (BlossomLib): register BlossomBack.teleports
+[2026-03-15 04:30:04] [main/TRACE] (BlossomLib): register BlossomBack.deaths
+[2026-03-15 04:30:04] [main/TRACE] (BlossomLib): register config manager BlossomHomes.json
+[2026-03-15 04:30:04] [main/TRACE] (BlossomLib): loading config BlossomHomes.json
+[2026-03-15 04:30:04] [main/TRACE] (BlossomLib): saving config BlossomHomes.json
+[2026-03-15 04:30:04] [main/TRACE] (BlossomLib): register BlossomHomes
+[2026-03-15 04:30:04] [main/ INFO] (BlossomLib): BlossomLib has starting
+[2026-03-15 04:30:04] [main/TRACE] (BlossomLib): register config manager BlossomTpa.json
+[2026-03-15 04:30:04] [main/TRACE] (BlossomLib): loading config BlossomTpa.json
+[2026-03-15 04:30:04] [main/TRACE] (BlossomLib): saving config BlossomTpa.json
+[2026-03-15 04:30:36] [Server thread/TRACE] (BlossomLib): reading BlossomBack.teleports
+[2026-03-15 04:30:36] [Server thread/ INFO] (BlossomLib): ./world/./data/BlossomBack.teleports.json (No such file or directory)
+[2026-03-15 04:30:36] [Server thread/TRACE] (BlossomLib): writing BlossomBack.teleports
+[2026-03-15 04:30:36] [Server thread/TRACE] (BlossomLib): reading BlossomBack.deaths
+[2026-03-15 04:30:36] [Server thread/ INFO] (BlossomLib): ./world/./data/BlossomBack.deaths.json (No such file or directory)
+[2026-03-15 04:30:36] [Server thread/TRACE] (BlossomLib): writing BlossomBack.deaths
+[2026-03-15 04:30:36] [Server thread/TRACE] (BlossomLib): reading BlossomHomes
+[2026-03-15 04:30:36] [Server thread/TRACE] (BlossomLib): writing BlossomHomes
