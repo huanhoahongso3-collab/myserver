@@ -1322,3 +1322,54 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [04:30:38] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
 [04:30:38] [Server thread/INFO]: Preparing level "world"
 [04:30:39] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:30:47] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[04:30:47] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[04:30:47] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[04:30:47] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[04:30:47] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[04:30:47] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[04:30:47] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[04:30:47] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[04:30:47] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[04:30:47] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[04:30:47] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[04:30:47] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[04:30:47] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[04:30:47] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[04:30:47] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[04:30:47] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[04:30:47] [Worker-Main-2/INFO]: Preparing spawn area: 18%
+[04:30:47] [Server thread/INFO]: Time elapsed: 8307 ms
+[04:30:47] [Server thread/INFO]: Done (9.149s)! For help, type "help"
+[04:30:47] [Server thread/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[04:30:47] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for START.
+[04:30:47] [Server thread/INFO]: [REI] Plugins (4):
+[04:30:47] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[04:30:47] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[04:30:47] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[04:30:47] [Server thread/INFO]: [REI]  - (0.00) CommonREIPlugin of CommonREIPlugin [farmersdelight]
+[04:30:47] [Server thread/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[04:30:47] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for START in 1.125 ms, totaling 88.15 ms.
+[04:30:47] [Server thread/INFO]: [REI] ----------------------------------------
+[04:30:47] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for END.
+[04:30:47] [Server thread/INFO]: [REI] Plugins (4):
+[04:30:47] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[04:30:47] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[04:30:47] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[04:30:47] [Server thread/INFO]: [REI]  - (0.00) CommonREIPlugin of CommonREIPlugin [farmersdelight]
+[04:30:47] [Server thread/INFO]: [REI] ----------------------------------------
+[04:30:48] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for END in 707.0 μs, totaling 160.2 ms.
+[04:30:48] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
+[04:30:48] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@5a9067de for service interface journeymap.api.services.ClientPlatformService
+[04:30:48] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@42281e3b for service interface journeymap.api.services.CommonPlatformService
+[04:30:48] [Server thread/INFO]: global (FirstLoaded) Setting config file to version "6.0.0-beta.52": journeymap.server.global.config
+[04:30:48] [Server thread/INFO]: global (Valid) Creating config file: journeymap/server/6.0/journeymap.server.global.config
+[04:30:48] [Server thread/INFO]: default (FirstLoaded) Setting config file to version "6.0.0-beta.52": journeymap.server.default.config
+[04:30:48] [Server thread/INFO]: default (Valid) Creating config file: journeymap/server/6.0/journeymap.server.default.config
+[04:30:48] [Server thread/INFO]: minecraft~overworld (Valid) Creating config file: journeymap/server/6.0/journeymap.server.minecraft~overworld.config
+[04:30:48] [Server thread/INFO]: minecraft~the_end (Valid) Creating config file: journeymap/server/6.0/journeymap.server.minecraft~the_end.config
+[04:30:48] [Server thread/INFO]: minecraft~the_nether (Valid) Creating config file: journeymap/server/6.0/journeymap.server.minecraft~the_nether.config
+[04:30:48] [Server thread/INFO]: Running Server Backpack's data old format convertor...
+[04:30:48] [Server thread/ERROR]: Error while loading list data ./world/./data/serverbackpacks.data
+[04:30:48] [Server thread/INFO]: [Polydex] Started matching recipes and items...
+[04:30:53] [Server thread/INFO]: [Polydex] Done! It took 4937 ms
