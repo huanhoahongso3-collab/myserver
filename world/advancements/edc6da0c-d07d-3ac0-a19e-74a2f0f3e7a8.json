@@ -3553,6 +3553,18 @@
     },
     "done": true
   },
+  "polyfactory:recipes/tools/steel_alloy_mixture": {
+    "criteria": {
+      "get_iron": "2026-03-15 08:52:36 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/soaked_bricks": {
+    "criteria": {
+      "has_water_bucket": "2026-03-15 08:52:53 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/polished_limestone_from_limestone_stonecutting": {
     "criteria": {
       "has_limestone": "2026-03-15 08:52:14 +0000"
@@ -3577,9 +3589,33 @@
     },
     "done": true
   },
+  "polyfactory:recipes/redstone/hand_crank": {
+    "criteria": {
+      "get_axle": "2026-03-15 08:52:36 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/water_bricks": {
+    "criteria": {
+      "has_water_bucket": "2026-03-15 08:52:53 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/limestone_tiles_from_limestone_stonecutting": {
     "criteria": {
       "has_limestone": "2026-03-15 08:52:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2026-03-15 08:52:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2026-03-15 08:55:30 +0000"
     },
     "done": true
   },
@@ -3589,9 +3625,21 @@
     },
     "done": true
   },
+  "polyfactory:recipes/redstone/grinder": {
+    "criteria": {
+      "get_steel": "2026-03-15 08:52:36 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/chiseled_limestone_bricks_from_limestone_stonecutting": {
     "criteria": {
       "has_limestone": "2026-03-15 08:52:14 +0000"
+    },
+    "done": true
+  },
+  "polyfactory:recipes/redstone/redstone_chip": {
+    "criteria": {
+      "get_axle": "2026-03-15 08:52:36 +0000"
     },
     "done": true
   },
@@ -3622,6 +3670,18 @@
   "blockus:recipes/building_blocks/limestone_lines_from_limestone_stonecutting": {
     "criteria": {
       "has_limestone": "2026-03-15 08:52:14 +0000"
+    },
+    "done": true
+  },
+  "polyfactory:recipes/redstone/integrated_circuit": {
+    "criteria": {
+      "get_axle": "2026-03-15 08:52:36 +0000"
+    },
+    "done": true
+  },
+  "polyfactory:recipes/redstone/metal_grid": {
+    "criteria": {
+      "get_steel": "2026-03-15 08:52:36 +0000"
     },
     "done": true
   },
