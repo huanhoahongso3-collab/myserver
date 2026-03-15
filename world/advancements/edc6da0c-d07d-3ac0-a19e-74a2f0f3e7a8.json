@@ -34,11 +34,13 @@
       "clifftree:granite_shore": "2026-03-12 10:02:52 +0000",
       "minecraft:flower_forest": "2026-03-12 09:58:12 +0000",
       "minecraft:savanna_plateau": "2026-03-10 14:30:04 +0000",
+      "minecraft:beach": "2026-03-15 01:56:29 +0000",
       "minecraft:river": "2026-03-10 14:33:28 +0000",
       "minecraft:lukewarm_ocean": "2026-03-12 10:04:21 +0000",
       "minecraft:snowy_plains": "2026-03-12 10:45:26 +0000",
       "minecraft:snowy_taiga": "2026-03-12 10:45:09 +0000",
       "clifftree:snowy_old_growth_taiga": "2026-03-12 10:44:48 +0000",
+      "minecraft:deep_dark": "2026-03-15 01:57:14 +0000",
       "minecraft:swamp": "2026-03-12 10:39:40 +0000",
       "clifftree:tundra": "2026-03-12 10:45:44 +0000",
       "minecraft:savanna": "2026-03-12 10:57:01 +0000",
@@ -49,27 +51,28 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2026-03-12 10:11:36 +0000",
-      "minecraft:flower_forest": "2026-03-12 09:58:12 +0000",
-      "minecraft:savanna_plateau": "2026-03-10 14:30:04 +0000",
-      "minecraft:beach": "2026-03-12 10:12:15 +0000",
       "minecraft:old_growth_pine_taiga": "2026-03-12 10:24:26 +0000",
       "clifftree:sparse_forest": "2026-03-12 10:56:36 +0000",
       "minecraft:forest": "2026-03-12 10:37:37 +0000",
       "minecraft:taiga": "2026-03-12 10:12:22 +0000",
+      "minecraft:frozen_ocean": "2026-03-12 10:45:49 +0000",
+      "minecraft:windswept_forest": "2026-03-12 09:56:19 +0000",
+      "minecraft:ocean": "2026-03-12 10:07:53 +0000",
+      "minecraft:cherry_grove": "2026-03-10 03:48:07 +0000",
+      "minecraft:sunflower_plains": "2026-03-12 09:56:49 +0000",
+      "clifftree:caves": "2026-03-15 01:52:40 +0000",
+      "minecraft:flower_forest": "2026-03-12 09:58:12 +0000",
+      "minecraft:savanna_plateau": "2026-03-10 14:30:04 +0000",
+      "minecraft:beach": "2026-03-12 10:12:15 +0000",
       "minecraft:river": "2026-03-10 14:33:28 +0000",
       "minecraft:lukewarm_ocean": "2026-03-12 10:04:21 +0000",
       "minecraft:stony_shore": "2026-03-12 10:02:52 +0000",
       "minecraft:snowy_plains": "2026-03-12 10:45:26 +0000",
       "minecraft:snowy_taiga": "2026-03-12 10:45:09 +0000",
       "clifftree:snowy_old_growth_taiga": "2026-03-12 10:44:48 +0000",
-      "minecraft:frozen_ocean": "2026-03-12 10:45:49 +0000",
-      "minecraft:windswept_forest": "2026-03-12 09:56:19 +0000",
-      "minecraft:ocean": "2026-03-12 10:07:53 +0000",
-      "minecraft:cherry_grove": "2026-03-10 03:48:07 +0000",
-      "minecraft:sunflower_plains": "2026-03-12 09:56:49 +0000",
+      "minecraft:deep_dark": "2026-03-15 01:57:14 +0000",
       "minecraft:swamp": "2026-03-12 10:39:40 +0000",
       "clifftree:tundra": "2026-03-12 10:45:44 +0000",
-      "clifftree:caves": "2026-03-15 01:52:40 +0000",
       "minecraft:savanna": "2026-03-12 10:57:01 +0000",
       "minecraft:plains": "2026-03-10 03:51:55 +0000"
     },
@@ -2988,6 +2991,282 @@
   "blockus:recipes/building_blocks/marble_from_calcite": {
     "criteria": {
       "has_calcite": "2026-03-13 11:17:30 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/mushroom_rice": {
+    "criteria": {
+      "has_any_ingredient": "2026-03-15 01:55:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-03-15 01:54:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_bricks_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-03-15 01:54:16 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/mushroom_stew": {
+    "criteria": {
+      "has_any_ingredient": "2026-03-15 01:55:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_stairs": {
+    "criteria": {
+      "has_andesite": "2026-03-15 01:54:00 +0000"
+    },
+    "done": true
+  },
+  "slabs_stairs_to_block:recipes/building_blocks/slabs/andesite": {
+    "criteria": {
+      "has_slab": "2026-03-15 01:54:00 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/andesite_bricks_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2026-03-15 01:54:00 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/carved_tuff_bricks_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-03-15 01:54:16 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/herringbone_tuff_bricks_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-03-15 01:54:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-03-15 01:54:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_tuff_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-03-15 01:54:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-03-15 01:54:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_slab_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-03-15 01:54:16 +0000"
+    },
+    "done": true
+  },
+  "slabs_stairs_to_block:recipes/building_blocks/slabs/tuff_bricks": {
+    "criteria": {
+      "has_slab": "2026-03-15 01:54:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_wall": {
+    "criteria": {
+      "has_tuff": "2026-03-15 01:54:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2026-03-15 01:54:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_wall_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-03-15 01:54:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/slabs/andesite_slab": {
+    "criteria": {
+      "has_block": "2026-03-15 01:54:00 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/herringbone_andesite_bricks_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2026-03-15 01:54:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2026-03-15 01:54:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff": {
+    "criteria": {
+      "has_tuff": "2026-03-15 01:54:16 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/chiseled_andesite_bricks_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2026-03-15 01:54:00 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/tuff_pillar_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-03-15 01:54:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_slab_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-03-15 01:54:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2026-03-15 01:55:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_stairs": {
+    "criteria": {
+      "has_tuff": "2026-03-15 01:54:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2026-03-15 01:54:00 +0000"
+    },
+    "done": true
+  },
+  "slabs_stairs_to_block:recipes/building_blocks/stairs/tuff": {
+    "criteria": {
+      "has_stairs": "2026-03-15 01:54:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2026-03-15 01:54:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_stairs_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-03-15 01:54:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2026-03-15 01:54:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/slabs/tuff_slab": {
+    "criteria": {
+      "has_block": "2026-03-15 01:54:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-03-15 01:54:16 +0000"
+    },
+    "done": true
+  },
+  "slabs_stairs_to_block:recipes/building_blocks/stairs/andesite": {
+    "criteria": {
+      "has_stairs": "2026-03-15 01:54:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2026-03-15 01:54:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_slab": {
+    "criteria": {
+      "has_tuff": "2026-03-15 01:54:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-03-15 01:54:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_tuff_wall_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-03-15 01:54:16 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/tuff_tiles_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-03-15 01:54:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite": {
+    "criteria": {
+      "has_andesite": "2026-03-15 01:54:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_stairs_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2026-03-15 01:54:16 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/polished_andesite_pillar_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2026-03-15 01:54:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/andesite_wall": {
+    "criteria": {
+      "has_andesite": "2026-03-15 01:54:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_slab": {
+    "criteria": {
+      "has_andesite": "2026-03-15 01:54:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/slabs/tuff_brick_slab": {
+    "criteria": {
+      "has_block": "2026-03-15 01:54:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_brown_mushroom": "2026-03-15 01:55:02 +0000"
     },
     "done": true
   },
