@@ -1350,3 +1350,74 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [09:05:44] [Server thread/ERROR]: Error while loading list data ./world/./data/serverbackpacks.data
 [09:05:44] [Server thread/INFO]: [Polydex] Started matching recipes and items...
 [09:05:49] [Server thread/INFO]: [Polydex] Done! It took 4266 ms
+[09:05:55] [ForkJoinPool.commonPool-worker-2/WARN]: Failed to fetch skin 'mojang:FewerSteak1914'
+java.lang.IllegalStateException: not found
+	at knot/net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:98) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:54) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.access$100(MojangSkinProvider.java:18) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider$1.findProfileByName(MojangSkinProvider.java:56) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.minecraft.class_3312.method_14509(class_3312.java:80) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3312.method_14515(class_3312.java:137) ~[server-intermediary.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:86) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:64) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:19) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:50) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.minecraft.class_3248.mda8dd27$skinrestorer$lambda$skinrestorer$fetchSkin$1$2(class_3248.java:2593) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at knot/net.minecraft.class_3248.skinrestorer$fetchSkin(class_3248.java:2592) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3248.mda8dd27$skinrestorer$lambda$waitForSkin$0$3(class_3248.java:2576) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[09:05:56] [Netty Epoll Server IO #7/WARN]: Modified mixin "vectorwing.farmersdelight.common.mixin.refabricated.RecipeBookSettingsMixin". Check debug logs for more information.
+[09:05:58] [Netty Epoll Server IO #7/INFO]: URL Override is set. Gathering from config!
+[09:05:58] [Netty Epoll Server IO #7/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
+[09:05:58] [Netty Epoll Server IO #7/WARN]: No Hash in file: Please open config folder and add your hash.
+[09:05:59] [Server thread/WARN]: Modified mixin "vectorwing.farmersdelight.common.mixin.refabricated.ServerRecipeBookMixin". Check debug logs for more information.
+[09:06:00] [Server thread/INFO]: FewerSteak1914[/127.155.199.86:37723] logged in with entity id 228 at (7188.6730074944, 11.0, -6762.905945034438)
+[09:06:00] [Server thread/INFO]: FewerSteak1914 joined the game
+[09:06:27] [Server thread/INFO]: [FewerSteak1914: The difficulty has been set to Peaceful]
+[09:06:27] [ForkJoinPool.commonPool-worker-2/WARN]: Failed to fetch skin 'mojang:cuongchanthoi'
+java.lang.IllegalStateException: not found
+	at knot/net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:98) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.YggdrasilSkinProvider.getProfile(YggdrasilSkinProvider.java:54) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.access$100(MojangSkinProvider.java:18) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider$1.findProfileByName(MojangSkinProvider.java:56) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.minecraft.class_3312.method_14509(class_3312.java:80) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3312.method_14515(class_3312.java:137) ~[server-intermediary.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.builtin.MojangSkinProvider.resolveUuid(MojangSkinProvider.java:86) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:64) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.ProfileSkinProvider.getCacheKey(ProfileSkinProvider.java:19) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.base.AbstractSkinProvider.fetchSkin(AbstractSkinProvider.java:50) ~[skinrestorer-2.6.0+1.21.6-fabric.jar:?]
+	at knot/net.minecraft.class_3248.mda8dd27$skinrestorer$lambda$skinrestorer$fetchSkin$1$2(class_3248.java:2593) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at knot/net.minecraft.class_3248.skinrestorer$fetchSkin(class_3248.java:2592) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3248.mda8dd27$skinrestorer$lambda$waitForSkin$0$3(class_3248.java:2576) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[09:06:30] [Netty Epoll Server IO #1/INFO]: URL Override is set. Gathering from config!
+[09:06:30] [Netty Epoll Server IO #1/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
+[09:06:30] [Netty Epoll Server IO #1/WARN]: No Hash in file: Please open config folder and add your hash.
+[09:06:35] [Server thread/INFO]: cuongchanthoi[/127.15.127.224:50165] logged in with entity id 2731 at (157.92163966219857, 90.0, 188.69999998807907)
+[09:06:35] [Server thread/INFO]: cuongchanthoi joined the game
+[09:06:46] [Server thread/INFO]: <FewerSteak1914> xin toa do mo
+[09:07:00] [Server thread/INFO]: <cuongchanthoi> cuoi cung cx vao dc
+[09:07:02] [Server thread/INFO]: <cuongchanthoi> j
+[09:07:08] [Server thread/INFO]: <FewerSteak1914> xin toa do mo
+[09:07:13] [Server thread/INFO]: <cuongchanthoi> tu tu
+[09:07:15] [Server thread/INFO]: <cuongchanthoi> e
+[09:07:18] [Server thread/INFO]: <FewerSteak1914> j
+[09:07:22] [Server thread/INFO]: <cuongchanthoi> m nhin thay
+[09:07:27] [Server thread/INFO]: <cuongchanthoi> doi t
+[09:07:29] [Server thread/INFO]: <cuongchanthoi> t tim cai nha
+[09:07:39] [Server thread/INFO]: <cuongchanthoi> t vua chet lan nua
+[09:08:09] [Server thread/INFO]: <cuongchanthoi> doi t 1 i
