@@ -760,3 +760,9 @@ java.io.FileNotFoundException: ./world/./data/BlossomHomes.json (No such file or
 [2026-03-15 10:52:35] [Server thread/TRACE] (BlossomLib): writing BlossomHomes
 [2026-03-15 13:45:48] [Server thread/ INFO] (BlossomHomes): adding home Home{name='gun', world='minecraft:overworld', x=937.4395281738014, y=80.0, z=2014.300000011921, yaw=91.96509, pitch=22.799822} to class_3222['cuongchanthoi'/118608, l='ServerLevel[world]', x=937.44, y=80.00, z=2014.30]
 [2026-03-15 13:45:48] [Server thread/TRACE] (BlossomLib): writing BlossomHomes
+[2026-03-15 13:55:58] [Server thread/TRACE] (BlossomBack): persisting deaths
+[2026-03-15 13:55:58] [Server thread/TRACE] (BlossomLib): writing BlossomBack.deaths
+[2026-03-15 13:55:58] [Server thread/ INFO] (BlossomBack): cuongchanthoi (f61957b6-2e1e-3bad-b734-ecac33b33529) died at TeleportDestination{world=ServerLevel[world], x=1073.074536861256, y=-32.0, z=2567.350082041694, yaw=-86.087036, pitch=83.84998}
+[2026-03-15 13:56:04] [Server thread/TRACE] (BlossomBack): back (death) cuongchanthoi (f61957b6-2e1e-3bad-b734-ecac33b33529) to TeleportDestination{world=ServerLevel[world], x=1073.074536861256, y=-32.0, z=2567.350082041694, yaw=-86.087036, pitch=83.84998}
+[2026-03-15 13:56:04] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 (5.0 s)
+[2026-03-15 13:56:09] [Server thread/DEBUG] (BlossomLib): genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 has ended
