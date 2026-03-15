@@ -95,6 +95,7 @@
       "clifftree:sparse_forest": "2026-03-15 10:40:43 +0000",
       "minecraft:forest": "2026-03-15 11:03:17 +0000",
       "minecraft:lush_caves": "2026-03-15 11:14:56 +0000",
+      "minecraft:desert": "2026-03-15 11:43:17 +0000",
       "clifftree:shrubland": "2026-03-15 11:21:08 +0000",
       "minecraft:jungle": "2026-03-15 11:00:23 +0000",
       "minecraft:cherry_grove": "2026-03-13 15:12:19 +0000",
@@ -135,6 +136,7 @@
       "minecraft:lukewarm_ocean": "2026-03-15 10:40:39 +0000",
       "minecraft:stony_shore": "2026-03-15 10:37:16 +0000",
       "minecraft:lush_caves": "2026-03-15 11:14:56 +0000",
+      "minecraft:desert": "2026-03-15 11:43:17 +0000",
       "clifftree:shrubland": "2026-03-15 11:21:08 +0000",
       "minecraft:deep_dark": "2026-03-15 03:17:58 +0000",
       "minecraft:jungle": "2026-03-15 11:00:23 +0000",
@@ -3624,6 +3626,36 @@
   "terrestria:recipes/building_blocks/rainbow_eucalyptus_wood": {
     "criteria": {
       "has_logs": "2026-03-15 11:11:26 +0000"
+    },
+    "done": true
+  },
+  "terrestria:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_tiny_cactus": "2026-03-15 11:42:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_the_recipe": "2026-03-15 11:42:40 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/sandy_bricks": {
+    "criteria": {
+      "has_sand": "2026-03-15 11:44:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2026-03-15 11:44:19 +0000"
+    },
+    "done": true
+  },
+  "sandstone_dyeing:recipes/building_blocks/red_sand": {
+    "criteria": {
+      "has_block": "2026-03-15 11:44:19 +0000"
     },
     "done": true
   },
