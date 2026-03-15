@@ -1340,3 +1340,30 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [08:32:48] [Worker-Main-2/INFO]: Preparing spawn area: 0%
 [08:32:48] [Worker-Main-2/INFO]: Preparing spawn area: 0%
 [08:32:48] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[08:32:49] [Server thread/INFO]: Time elapsed: 9932 ms
+[08:32:49] [Server thread/INFO]: Done (10.813s)! For help, type "help"
+[08:32:49] [Server thread/INFO]: [REI] ****************************************
+[08:32:49] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for START.
+[08:32:49] [Server thread/INFO]: [REI] Plugins (4):
+[08:32:49] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[08:32:49] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[08:32:49] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[08:32:49] [Server thread/INFO]: [REI]  - (0.00) CommonREIPlugin of CommonREIPlugin [farmersdelight]
+[08:32:49] [Server thread/INFO]: [REI] ****************************************
+[08:32:49] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for START in 1.015 ms, totaling 89.25 ms.
+[08:32:49] [Server thread/INFO]: [REI] ########################################
+[08:32:49] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for END.
+[08:32:49] [Server thread/INFO]: [REI] Plugins (4):
+[08:32:49] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[08:32:49] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[08:32:49] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[08:32:49] [Server thread/INFO]: [REI]  - (0.00) CommonREIPlugin of CommonREIPlugin [farmersdelight]
+[08:32:49] [Server thread/INFO]: [REI] ########################################
+[08:32:49] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for END in 453.7 μs, totaling 162.9 ms.
+[08:32:49] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
+[08:32:49] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@14bde94d for service interface journeymap.api.services.ClientPlatformService
+[08:32:49] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@2fc7c74e for service interface journeymap.api.services.CommonPlatformService
+[08:32:49] [Server thread/INFO]: Running Server Backpack's data old format convertor...
+[08:32:49] [Server thread/ERROR]: Error while loading list data ./world/./data/serverbackpacks.data
+[08:32:49] [Server thread/INFO]: [Polydex] Started matching recipes and items...
+[08:32:54] [Server thread/INFO]: [Polydex] Done! It took 4492 ms
