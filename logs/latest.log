@@ -1351,3 +1351,6 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [00:38:12] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for END in 1.012 ms, totaling 126.0 ms.
 [00:38:12] [Server thread/INFO]: Running Server Backpack's data old format convertor...
 [00:38:12] [Server thread/ERROR]: Error while loading list data ./world/./data/serverbackpacks.data
+[00:38:12] [Server thread/INFO]: [Veinminer] LuckPerms not available, falling back to operator checks
+[00:38:12] [Server thread/INFO]: [Polydex] Started matching recipes and items...
+[00:38:17] [Server thread/INFO]: [Polydex] Done! It took 4740 ms
