@@ -645,3 +645,13 @@ java.io.FileNotFoundException: ./world/./data/BlossomHomes.json (No such file or
 [2026-03-15 08:32:36] [Server thread/TRACE] (BlossomLib): writing BlossomBack.deaths
 [2026-03-15 08:32:36] [Server thread/TRACE] (BlossomLib): reading BlossomHomes
 [2026-03-15 08:32:36] [Server thread/TRACE] (BlossomLib): writing BlossomHomes
+[2026-03-15 08:34:48] [Server thread/TRACE] (BlossomBack): persisting deaths
+[2026-03-15 08:34:48] [Server thread/TRACE] (BlossomLib): writing BlossomBack.deaths
+[2026-03-15 08:34:48] [Server thread/ INFO] (BlossomBack): FewerSteak1914 (edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8) died at TeleportDestination{world=ServerLevel[world], x=7187.765436493672, y=-5.0, z=-6805.963115463647, yaw=-144.60144, pitch=33.450005}
+[2026-03-15 08:35:11] [Server thread/TRACE] (BlossomBack): back (death) FewerSteak1914 (edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8) to TeleportDestination{world=ServerLevel[world], x=7187.765436493672, y=-5.0, z=-6805.963115463647, yaw=-144.60144, pitch=33.450005}
+[2026-03-15 08:35:11] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8 (5.0 s)
+[2026-03-15 08:35:16] [Server thread/DEBUG] (BlossomLib): genericCountdown for edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8 has ended
+[2026-03-15 08:35:21] [Server thread/TRACE] (BlossomBack): persisting deaths
+[2026-03-15 08:35:21] [Server thread/TRACE] (BlossomLib): writing BlossomBack.deaths
+[2026-03-15 08:35:21] [Server thread/ INFO] (BlossomBack): FewerSteak1914 (edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8) died at TeleportDestination{world=ServerLevel[world], x=7187.33795615304, y=-6.590531343715096, z=-6807.300000011921, yaw=18.448547, pitch=73.65}
+[2026-03-15 08:35:40] [Server thread/TRACE] (BlossomBack): back (death) FewerSteak1914 (edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8) to TeleportDestination{world=ServerLevel[world], x=7187.33795615304, y=-6.590531343715096, z=-6807.300000011921, yaw=18.448547, pitch=73.65}
