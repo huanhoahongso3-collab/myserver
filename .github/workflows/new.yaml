@@ -1,0 +1,47 @@
+name: Minecraft Server with Local Playit
+on:
+  workflow_dispatch:
+concurrency:
+  group: minecraft-server-lock
+  cancel-in-progress: false
+
+jobs:
+  run-server:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.FINE_GRAINED_PAT }}
+          ref: playit-only
+          fetch-depth: 0 # Essential for force pushing history
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+
+      - name: Prepare Playit Binary
+        run: chmod +x ./playit-linux-amd64
+
+      - name: Run Server and Frequent Sync
+        env:
+          PLAYIT_SECRET: ${{ secrets.PLAYIT_SECRET }}
+          ZROK_SECRET: ${{ secrets.ZROK_SECRET }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Start Minecraft
+          java -jar server.jar nogui
+
+      - name: Final Force Push
+        if: always()
+        run: |
+          git config --local user.name "github-actions"
+          git config --local user.email "github-actions@github.com"
+          git add .
+          git commit -m "Final force sync before shutdown" || echo "Nothing to commit"
+          git push origin playit-only --force
+          
+
+          
