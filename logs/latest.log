@@ -1668,3 +1668,35 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [14:15:34] [Server thread/WARN]: Modified mixin "vectorwing.farmersdelight.common.mixin.refabricated.ServerRecipeBookMixin". Check debug logs for more information.
 [14:15:34] [Server thread/INFO]: FewerSteak1914[/127.237.112.12:50181] logged in with entity id 437 at (575.8645452772577, 116.23482074572769, 434.85768715989)
 [14:15:34] [Server thread/INFO]: FewerSteak1914 joined the game
+[14:15:52] [Server thread/WARN]: FewerSteak1914 moved too quickly! 8.978885960882735,-2.121296840539202,-4.066478691368843
+[14:15:52] [Worker-Main-2/ERROR]: Recoverable errors when loading section [46, 4, 31]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[14:15:52] [Worker-Main-1/ERROR]: Recoverable errors when loading section [46, 4, 19]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[14:16:00] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Survival Mode]
+[14:16:13] [Server thread/WARN]: [net.minecraft.class_2586] Serialization errors:
+minecraft:chest // net.minecraft.class_2595@class_2338{x=7317, y=130, z=-6715}:
+  Failed to decode value '{Slot:8b,count:1,id:"plasticgun:composite_frame"}' from field 'Items' at index 8': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:composite_frame
+  Failed to decode value '{Slot:9b,count:1,id:"plasticgun:hardened_steel"}' from field 'Items' at index 9': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:hardened_steel
+  Failed to decode value '{Slot:10b,count:1,id:"plasticgun:grenade_m34"}' from field 'Items' at index 10': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:grenade_m34
+  Failed to decode value '{Slot:12b,count:1,id:"plasticgun:grenade_thermite"}' from field 'Items' at index 12': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:grenade_thermite
+[14:16:14] [Worker-Main-1/ERROR]: Recoverable errors when loading section [460, 7, -416]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[14:16:14] [Worker-Main-1/ERROR]: Recoverable errors when loading section [451, 6, -426]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[14:16:15] [Worker-Main-1/ERROR]: Recoverable errors when loading section [450, 6, -426]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[14:16:15] [Server thread/WARN]: [net.minecraft.class_2586] Serialization errors:
+minecraft:chest // net.minecraft.class_2595@class_2338{x=7227, y=103, z=-6758}:
+  Failed to decode value '{Slot:14b,count:1,id:"plasticgun:grenade_mk3a2"}' from field 'Items' at index 14': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:grenade_mk3a2
+  Failed to decode value '{Slot:15b,count:1,id:"plasticgun:netherite_shuriken"}' from field 'Items' at index 15': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:netherite_shuriken
+  Failed to decode value '{Slot:16b,count:1,id:"plasticgun:grenade_k417"}' from field 'Items' at index 16': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:grenade_k417
+[14:16:16] [Worker-Main-1/ERROR]: Recoverable errors when loading section [449, 6, -426]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[14:16:16] [Worker-Main-2/ERROR]: Recoverable errors when loading section [448, 4, -417]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[14:16:16] [Worker-Main-3/ERROR]: Recoverable errors when loading section [457, 4, -429]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[14:16:17] [Server thread/ERROR]: Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_spin_head_cooldown; Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_is_oxidized
+[14:16:17] [Worker-Main-1/ERROR]: Recoverable errors when loading section [448, 5, -426]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[14:16:17] [Worker-Main-3/ERROR]: Recoverable errors when loading section [448, 5, -429]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[14:16:17] [Worker-Main-1/ERROR]: Recoverable errors when loading section [448, 5, -428]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[14:16:17] [Worker-Main-3/ERROR]: Recoverable errors when loading section [456, 4, -430]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[14:16:17] [Worker-Main-3/ERROR]: Recoverable errors when loading section [447, 5, -428]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[14:16:17] [Worker-Main-2/ERROR]: Recoverable errors when loading section [447, 5, -427]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[14:16:17] [Server thread/ERROR]: Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_spin_head_cooldown; Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_is_oxidized
+[14:16:17] [Server thread/ERROR]: Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_spin_head_cooldown; Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_is_oxidized
+[14:16:17] [Server thread/ERROR]: Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_spin_head_cooldown; Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_is_oxidized
+[14:16:17] [Worker-Main-1/ERROR]: Recoverable errors when loading section [447, 5, -429]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
