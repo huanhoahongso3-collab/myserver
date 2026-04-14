@@ -1642,3 +1642,47 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [15:15:58] [Server thread/INFO]: Preparing spawn area: 28%
 [15:15:59] [Server thread/INFO]: Preparing spawn area: 28%
 [15:15:59] [Server thread/INFO]: Preparing spawn area: 28%
+[15:16:00] [Server thread/INFO]: Preparing spawn area: 28%
+[15:16:00] [Server thread/INFO]: Preparing spawn area: 28%
+[15:16:01] [Server thread/INFO]: Preparing spawn area: 28%
+[15:16:01] [Server thread/INFO]: Time elapsed: 13000 ms
+[15:16:01] [Server thread/INFO]: Done (15.255s)! For help, type "help"
+[15:16:01] [Server thread/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[15:16:01] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for START.
+[15:16:01] [Server thread/INFO]: [REI] Plugins (5):
+[15:16:01] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[15:16:01] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[15:16:01] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[15:16:01] [Server thread/INFO]: [REI]  - (0.00) CommonREIPlugin of CommonREIPlugin [farmersdelight]
+[15:16:01] [Server thread/INFO]: [REI]  - (0.00) REIComputerCraft of REIComputerCraft [computercraft]
+[15:16:01] [Server thread/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[15:16:02] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for START in 1.233 ms, totaling 93.21 ms.
+[15:16:02] [Server thread/INFO]: [REI] ########################################
+[15:16:02] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for END.
+[15:16:02] [Server thread/INFO]: [REI] Plugins (5):
+[15:16:02] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[15:16:02] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[15:16:02] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[15:16:02] [Server thread/INFO]: [REI]  - (0.00) CommonREIPlugin of CommonREIPlugin [farmersdelight]
+[15:16:02] [Server thread/INFO]: [REI]  - (0.00) REIComputerCraft of REIComputerCraft [computercraft]
+[15:16:02] [Server thread/INFO]: [REI] ########################################
+[15:16:02] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for END in 743.0 μs, totaling 272.0 ms.
+[15:16:02] [Server thread/INFO]: Starting VSS LOD request processing service
+[15:16:02] [Server thread/INFO]: [Polydex] Started matching recipes and items...
+[15:16:08] [IO-Worker-1/ERROR]: Couldn't load butterbee overlays metadata: No key entries in MapLike[{}]
+[15:16:08] [IO-Worker-1/ERROR]: Couldn't load clifftree fabric:overlays metadata: Unknown resource condition key: tectonic:config
+[15:16:08] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending pack metadata: Pack key supported_formats is deprecated starting from pack format 65. Remove supported_formats from your pack.mcmeta.
+[15:16:08] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending overlays metadata: Overlay "1.21.5" key formats is deprecated starting from pack format 65. Remove formats from your pack.mcmeta.
+[15:16:17] [ForkJoinPool.commonPool-worker-2/INFO]: [STDERR]: java.lang.ClassCastException: class eu.pb4.polyfactory.fluid.FluidInstance cannot be cast to class net.minecraft.class_1799 (eu.pb4.polyfactory.fluid.FluidInstance and net.minecraft.class_1799 are in unnamed module of loader 'knot' @16022d9d)
+[15:16:17] [ForkJoinPool.commonPool-worker-2/INFO]: [STDERR]: 	at knot//de.tomalbrc.decorations.polydex.CarpentryPage.isOwner(CarpentryPage.java:87)
+[15:16:17] [ForkJoinPool.commonPool-worker-2/INFO]: [STDERR]: 	at knot//eu.pb4.polydex.impl.PolydexImpl.updateCaches(PolydexImpl.java:302)
+[15:16:17] [ForkJoinPool.commonPool-worker-2/INFO]: [STDERR]: 	at knot//eu.pb4.polydex.impl.PolydexImpl.lambda$rebuild$3(PolydexImpl.java:170)
+[15:16:17] [ForkJoinPool.commonPool-worker-2/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+[15:16:17] [ForkJoinPool.commonPool-worker-2/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+[15:16:17] [ForkJoinPool.commonPool-worker-2/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+[15:16:17] [ForkJoinPool.commonPool-worker-2/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+[15:16:17] [ForkJoinPool.commonPool-worker-2/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+[15:16:17] [ForkJoinPool.commonPool-worker-2/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+[15:16:17] [ForkJoinPool.commonPool-worker-2/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+[15:16:17] [Server thread/INFO]: [Polydex] Done! It took 14178 ms
+[15:16:22] [Server thread/INFO]: [Polymer] Resource pack created successfully! You can find it in game folder as polymer/resource_pack.zip
