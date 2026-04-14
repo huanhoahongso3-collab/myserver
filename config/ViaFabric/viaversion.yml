@@ -9,7 +9,6 @@
 #----------------------------------------------------------#
 #
 # Should ViaVersion check for updates?
-check-for-updates: true
 # Send the supported versions with the Status (Ping) response packet
 send-supported-versions: false
 # Easier to configure alternative to 'block-protocols'. Uses readable version strings with possible '<' and '>' prefixes.
@@ -191,6 +190,8 @@ bossbar-patch: true
 bossbar-anti-flicker: false
 # This will show the new effect indicator in the top-right corner for 1.9+ players.
 use-new-effect-indicator: true
+# Should we cache our items, this will prevent the server from being lagged out, however, the cost is a constant task caching items
+item-cache: true
 # Should we replace extended pistons to fix 1.10.1 (Only on chunk loading)?
 replace-pistons: false
 # What id should we replace with, default is air. (careful of players getting stuck standing on them)

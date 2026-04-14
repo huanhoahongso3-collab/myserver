@@ -1,4 +1,4 @@
-version: 3
+version: 4
 # Whether to use the server-side configuration.
 use_server: false
 sitting:
@@ -15,6 +15,8 @@ on_use:
   range: 2
   # Prevents players from sitting in places where they would suffocate.
   check_suffocation: true
+  # Activate only when interacting with an empty main hand.
+  require_empty_main_hand: false
   # List of blocks or block types (e.g., "oak_log", "#logs") that are available to sit on by interacting with them.
   blocks:
   - "#minecraft:slabs"
