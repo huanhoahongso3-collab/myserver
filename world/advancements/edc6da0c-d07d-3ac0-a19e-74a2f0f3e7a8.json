@@ -5817,6 +5817,84 @@
     },
     "done": false
   },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2026-04-14 14:22:55 +0000"
+    },
+    "done": true
+  },
+  "polyfactory:recipes/combat/sticky_dynamite": {
+    "criteria": {
+      "get_item": "2026-04-14 14:22:55 +0000"
+    },
+    "done": true
+  },
+  "polyfactory:recipes/combat/dynamite": {
+    "criteria": {
+      "get_item": "2026-04-14 14:22:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2026-04-14 14:22:55 +0000"
+    },
+    "done": true
+  },
+  "serverbackpacks:recipes/misc/jukebox_upgrade": {
+    "criteria": {
+      "get_leather": "2026-04-14 14:23:06 +0000"
+    },
+    "done": true
+  },
+  "serverbackpacks:recipes/misc/stonecutter_upgrade": {
+    "criteria": {
+      "get_leather": "2026-04-14 14:23:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_spear": {
+    "criteria": {
+      "has_diamond": "2026-04-14 14:24:27 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/legacy_nether_reactor_core": {
+    "criteria": {
+      "has_diamond": "2026-04-14 14:24:27 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/warped_grate": {
+    "criteria": {
+      "has_warped_planks": "2026-04-14 14:24:36 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/warped_timber_frame": {
+    "criteria": {
+      "has_warped_planks": "2026-04-14 14:24:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_spear": {
+    "criteria": {
+      "has_stick": "2026-04-14 14:24:37 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/wooden_frame": {
+    "criteria": {
+      "has_stick": "2026-04-14 14:24:37 +0000"
+    },
+    "done": true
+  },
+  "universal_shops:recipe/tradeshop_group/trade_block": {
+    "criteria": {
+      "item_required2": "2026-04-14 14:24:37 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
       "log_spam_fixer": "2026-04-14 14:24:41 +0000"
@@ -5888,84 +5966,6 @@
       "log_spam_fixer": "2026-04-14 14:24:41 +0000"
     },
     "done": false
-  },
-  "serverbackpacks:recipes/misc/jukebox_upgrade": {
-    "criteria": {
-      "get_leather": "2026-04-14 14:23:06 +0000"
-    },
-    "done": true
-  },
-  "blockus:recipes/building_blocks/warped_grate": {
-    "criteria": {
-      "has_warped_planks": "2026-04-14 14:24:36 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/firework_rocket_simple": {
-    "criteria": {
-      "has_gunpowder": "2026-04-14 14:22:55 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/wooden_spear": {
-    "criteria": {
-      "has_stick": "2026-04-14 14:24:37 +0000"
-    },
-    "done": true
-  },
-  "blockus:recipes/building_blocks/wooden_frame": {
-    "criteria": {
-      "has_stick": "2026-04-14 14:24:37 +0000"
-    },
-    "done": true
-  },
-  "serverbackpacks:recipes/misc/stonecutter_upgrade": {
-    "criteria": {
-      "get_leather": "2026-04-14 14:23:06 +0000"
-    },
-    "done": true
-  },
-  "polyfactory:recipes/combat/sticky_dynamite": {
-    "criteria": {
-      "get_item": "2026-04-14 14:22:55 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/diamond_spear": {
-    "criteria": {
-      "has_diamond": "2026-04-14 14:24:27 +0000"
-    },
-    "done": true
-  },
-  "universal_shops:recipe/tradeshop_group/trade_block": {
-    "criteria": {
-      "item_required2": "2026-04-14 14:24:37 +0000"
-    },
-    "done": true
-  },
-  "blockus:recipes/building_blocks/warped_timber_frame": {
-    "criteria": {
-      "has_warped_planks": "2026-04-14 14:24:36 +0000"
-    },
-    "done": true
-  },
-  "polyfactory:recipes/combat/dynamite": {
-    "criteria": {
-      "get_item": "2026-04-14 14:22:55 +0000"
-    },
-    "done": true
-  },
-  "blockus:recipes/building_blocks/legacy_nether_reactor_core": {
-    "criteria": {
-      "has_diamond": "2026-04-14 14:24:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/tnt": {
-    "criteria": {
-      "has_gunpowder": "2026-04-14 14:22:55 +0000"
-    },
-    "done": true
   },
   "DataVersion": 4671
 }
