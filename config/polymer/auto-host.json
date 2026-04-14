@@ -1,6 +1,6 @@
 {
   "_c1": "Enables Polymer's ResourcePack Auto Hosting",
-  "enabled": false,
+  "enabled": true,
   "_c2": "Marks resource pack as required",
   "required": false,
   "_c7": "Mods may override the above setting and make the resource pack required, set this to false to disable that.",
@@ -18,8 +18,6 @@
   "message": "This server uses resource pack to enhance gameplay with custom textures and models. It might be unplayable without them. Máy chủ này sử dụng gói tài nguyên để nâng cao trải nghiệm chơi game với các họa tiết và mô hình tùy chỉnh. Có thể sẽ không chơi được nếu thiếu chúng.",
   "_c6": "Disconnect message in case of failure",
   "disconnect_message": "Couldn't apply server resourcepack! Không thể áp dụng gói tài nguyên!",
-  "_c20": "Show more information when disconnecting the player",
-  "informative_disconnect": true,
   "_c8": "Allows to define more external resource packs. It's an object with 'id' for uuid, 'url' for the pack url and 'hash' for the SHA1 hash.",
   "external_resource_packs": [],
   "_c9": "Moves resource pack generation earlier when running on server. Might break some mods.",
