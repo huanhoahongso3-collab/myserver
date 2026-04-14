@@ -1,0 +1,17 @@
+{
+  "enabled": true,
+  "lodDistanceChunks": 256,
+  "bytesPerSecondLimitPerPlayer": 20971520,
+  "diskReaderThreads": 5,
+  "sendQueueLimitPerPlayer": 4000,
+  "bytesPerSecondLimitGlobal": 104857600,
+  "enableChunkGeneration": true,
+  "generationConcurrencyLimitGlobal": 32,
+  "generationTimeoutSeconds": 60,
+  "dirtyBroadcastIntervalSeconds": 10,
+  "syncOnLoadRateLimitPerPlayer": 800,
+  "syncOnLoadConcurrencyLimitPerPlayer": 200,
+  "generationRateLimitPerPlayer": 80,
+  "generationConcurrencyLimitPerPlayer": 16,
+  "perDimensionTimestampCacheSizeMB": 32
+}
