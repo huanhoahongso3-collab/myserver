@@ -1690,3 +1690,135 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [11:04:26] [Server thread/INFO]: FewerSteak1914 lost connection: Disconnected
 [11:04:26] [Server thread/INFO]: FewerSteak1914 left the game
 [11:05:26] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[11:10:02] [Netty Epoll IO #5/INFO]: URL Override is set. Gathering from config!
+[11:10:02] [Netty Epoll IO #5/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
+[11:10:02] [Netty Epoll IO #5/WARN]: No Hash in file: Please open config folder and add your hash.
+[11:10:04] [Server thread/INFO]: FewerSteak1914[/127.237.112.12:54155] logged in with entity id 9663 at (7320.5, 130.875, -6721.5)
+[11:10:04] [Server thread/INFO]: FewerSteak1914 joined the game
+[11:10:06] [Server thread/INFO]: VSS handshake received from FewerSteak1914 (protocol v15, capabilities=1)
+[11:10:06] [Server thread/INFO]: Player FewerSteak1914 registered for VSS LOD request processing (caps=1)
+[11:10:28] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Spectator Mode]
+[11:10:34] [Worker-Main-7/WARN]: Feature order cycle found, involved sources: [Reference{ResourceKey[minecraft:worldgen/biome / minecraft:plains]=net.minecraft.class_1959@22b8f578}, Reference{ResourceKey[minecraft:worldgen/biome / clifftree:cold_river]=net.minecraft.class_1959@19d78867}]
+[11:10:34] [Worker-Main-7/WARN]: Vanilla feature indexer failed; retrying with Biolith's resilient feature indexer...
+[11:10:34] [Worker-Main-7/INFO]: Dropping cycle-forming edge in biome clifftree:cold_river: minecraft:trees_plains -> minecraft:patch_bush
+[11:10:40] [Server thread/WARN]: FewerSteak1914 moved too quickly! 0.0,11.127631568998225,0.0
+[11:10:40] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 483,-429
+[11:10:40] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 483,-428
+[11:10:46] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Survival Mode]
+[11:10:58] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Spectator Mode]
+[11:11:02] [Worker-Main-5/ERROR]: Recoverable errors when loading section [436, 5, -433]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:11:03] [Worker-Main-6/ERROR]: Recoverable errors when loading section [455, 4, -438]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:11:03] [Worker-Main-5/ERROR]: Recoverable errors when loading section [438, 4, -431]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:11:03] [Server thread/INFO]: FewerSteak1914 lost connection: Disconnected
+[11:11:03] [Server thread/INFO]: FewerSteak1914 left the game
+[11:11:09] [Netty Epoll IO #7/INFO]: URL Override is set. Gathering from config!
+[11:11:09] [Netty Epoll IO #7/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
+[11:11:09] [Netty Epoll IO #7/WARN]: No Hash in file: Please open config folder and add your hash.
+[11:11:11] [Server thread/INFO]: FewerSteak1914[/127.237.112.12:59187] logged in with entity id 14567 at (7352.445186061678, 187.58621420242508, -6826.596751583081)
+[11:11:11] [Server thread/INFO]: FewerSteak1914 joined the game
+[11:11:13] [Server thread/INFO]: VSS handshake received from FewerSteak1914 (protocol v15, capabilities=1)
+[11:11:13] [Server thread/INFO]: Player FewerSteak1914 registered for VSS LOD request processing (caps=1)
+[11:11:23] [Worker-Main-5/ERROR]: Recoverable errors when loading section [438, 4, -431]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:11:23] [Worker-Main-7/ERROR]: Recoverable errors when loading section [436, 5, -433]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:11:24] [Worker-Main-6/ERROR]: Recoverable errors when loading section [455, 4, -438]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:11:25] [Worker-Main-6/ERROR]: Recoverable errors when loading section [436, 5, -433]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:11:25] [Worker-Main-7/ERROR]: Recoverable errors when loading section [438, 4, -431]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:11:25] [Worker-Main-7/ERROR]: Recoverable errors when loading section [433, 5, -432]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:11:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2263ms or 45 ticks behind
+[11:11:34] [Server thread/WARN]: FewerSteak1914 moved too quickly! -0.13895517025594017,0.0,10.632705295877713
+[11:12:04] [Worker-Main-5/ERROR]: Recoverable errors when loading section [455, 4, -438]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:12:06] [VSS-TimestampSave/INFO]: Saved 1604 timestamp cache entries to ./world/./data/vss-timestamps.bin
+[11:12:06] [Worker-Main-7/ERROR]: Recoverable errors when loading section [436, 5, -433]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:12:10] [Worker-Main-6/ERROR]: Recoverable errors when loading section [436, 5, -433]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:12:13] [Worker-Main-6/ERROR]: Recoverable errors when loading section [436, 5, -433]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:12:20] [Worker-Main-6/ERROR]: Recoverable errors when loading section [433, 5, -432]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:12:20] [Worker-Main-7/ERROR]: Recoverable errors when loading section [436, 5, -433]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:12:20] [Worker-Main-6/ERROR]: Recoverable errors when loading section [438, 4, -431]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:12:26] [Worker-Main-7/ERROR]: Recoverable errors when loading section [433, 5, -432]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:12:26] [Worker-Main-7/ERROR]: Recoverable errors when loading section [436, 5, -433]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:12:34] [Worker-Main-6/ERROR]: Recoverable errors when loading section [431, 6, -434]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:12:34] [Worker-Main-5/ERROR]: Recoverable errors when loading section [431, 5, -432]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:12:34] [Worker-Main-6/ERROR]: Recoverable errors when loading section [433, 5, -432]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:12:34] [Worker-Main-7/ERROR]: Recoverable errors when loading section [436, 5, -433]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:12:37] [Worker-Main-7/ERROR]: Recoverable errors when loading section [431, 6, -434]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:12:37] [Worker-Main-7/ERROR]: Recoverable errors when loading section [431, 5, -432]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:12:37] [Worker-Main-6/ERROR]: Recoverable errors when loading section [433, 5, -432]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:12:43] [Worker-Main-7/ERROR]: Recoverable errors when loading section [431, 6, -434]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:12:43] [Worker-Main-5/ERROR]: Recoverable errors when loading section [431, 5, -432]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:12:43] [Worker-Main-7/ERROR]: Recoverable errors when loading section [433, 5, -432]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:33] [Server thread/INFO]: [FewerSteak1914: Triggered [Spawn]]
+[11:13:34] [Worker-Main-7/ERROR]: Recoverable errors when loading section [-4, 7, -2]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:34] [Worker-Main-6/ERROR]: Recoverable errors when loading section [-4, 7, -3]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:34] [Worker-Main-6/ERROR]: Recoverable errors when loading section [-4, 7, 1]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:34] [Worker-Main-6/ERROR]: Recoverable errors when loading section [-3, 7, 4]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:34] [Worker-Main-7/ERROR]: Recoverable errors when loading section [-4, 7, 5]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:34] [Worker-Main-5/ERROR]: Recoverable errors when loading section [-4, 8, -5]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:34] [Worker-Main-7/ERROR]: Recoverable errors when loading section [-5, 7, 4]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:34] [Worker-Main-7/ERROR]: Recoverable errors when loading section [-6, 7, -2]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:34] [Worker-Main-5/ERROR]: Recoverable errors when loading section [-6, 7, 0]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:34] [Worker-Main-5/ERROR]: Recoverable errors when loading section [-4, 7, 6]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:34] [Worker-Main-7/ERROR]: Recoverable errors when loading section [-5, 7, 6]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:34] [Worker-Main-7/ERROR]: Recoverable errors when loading section [-2, 7, 7]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:35] [Worker-Main-5/ERROR]: Recoverable errors when loading section [-7, 7, -4]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:35] [Worker-Main-5/ERROR]: Recoverable errors when loading section [7, 7, -2]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:35] [Worker-Main-7/ERROR]: Recoverable errors when loading section [7, 7, -4]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:35] [Worker-Main-5/ERROR]: Recoverable errors when loading section [-7, 7, 1]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:35] [Worker-Main-6/ERROR]: Recoverable errors when loading section [-7, 7, 4]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:35] [Worker-Main-6/ERROR]: Recoverable errors when loading section [-7, 6, 5]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:35] [Worker-Main-5/ERROR]: Recoverable errors when loading section [-6, 7, 7]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:35] [Worker-Main-6/ERROR]: Recoverable errors when loading section [-2, 7, 8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:35] [Worker-Main-6/ERROR]: Recoverable errors when loading section [-8, 7, 3]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:35] [Worker-Main-5/ERROR]: Recoverable errors when loading section [-8, 6, 7]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:35] [Worker-Main-6/ERROR]: Recoverable errors when loading section [8, 7, -1]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:35] [Worker-Main-7/ERROR]: Recoverable errors when loading section [-8, 6, 8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:35] [Worker-Main-7/ERROR]: Recoverable errors when loading section [-3, 7, 8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:35] [Worker-Main-5/ERROR]: Recoverable errors when loading section [-4, 7, 8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:35] [Worker-Main-6/ERROR]: Recoverable errors when loading section [-6, 7, 8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:35] [Server thread/WARN]: [net.minecraft.class_5565] Serialization errors:
+chunk@[-4, -7].Entities[0]:
+  Failed to decode value '{Slot:0b,count:1,id:"plasticgun:45_acp_hollow_point"}' from field 'Items' at index 0': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:45_acp_hollow_point
+  Failed to decode value '{Slot:1b,count:1,id:"plasticgun:grenade_rgo"}' from field 'Items' at index 1': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:grenade_rgo
+  Failed to decode value '{Slot:5b,count:1,id:"plasticgun:grenade_k417"}' from field 'Items' at index 2': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:grenade_k417
+  Failed to decode value '{Slot:7b,count:1,id:"plasticgun:grenade_k417"}' from field 'Items' at index 4': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:grenade_k417
+[11:13:35] [Worker-Main-7/ERROR]: Recoverable errors when loading section [-1, 7, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:35] [Worker-Main-6/ERROR]: Recoverable errors when loading section [-9, 7, -2]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:35] [Worker-Main-6/ERROR]: Recoverable errors when loading section [-9, 7, 3]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:35] [Worker-Main-5/ERROR]: Recoverable errors when loading section [-9, 8, 0]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:35] [Worker-Main-6/ERROR]: Recoverable errors when loading section [-4, 7, 9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:35] [Worker-Main-6/ERROR]: Recoverable errors when loading section [3, 7, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:35] [Worker-Main-7/ERROR]: Recoverable errors when loading section [5, 7, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:35] [Worker-Main-6/ERROR]: Recoverable errors when loading section [6, 7, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:35] [Worker-Main-7/ERROR]: Recoverable errors when loading section [-6, 6, 9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:35] [Worker-Main-5/ERROR]: Recoverable errors when loading section [-5, 7, 9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:35] [Worker-Main-7/ERROR]: Recoverable errors when loading section [-7, 6, 9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:35] [Worker-Main-7/ERROR]: Recoverable errors when loading section [-7, 6, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:35] [Worker-Main-6/ERROR]: Recoverable errors when loading section [-9, 7, 5]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:35] [Worker-Main-5/ERROR]: Recoverable errors when loading section [-9, 6, 9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:35] [Worker-Main-7/ERROR]: Recoverable errors when loading section [-9, 6, 7]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:35] [Worker-Main-6/ERROR]: Recoverable errors when loading section [9, 8, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:35] [Worker-Main-5/ERROR]: Recoverable errors when loading section [-4, 7, 10]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:35] [Worker-Main-7/ERROR]: Recoverable errors when loading section [-2, 6, 10]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:36] [Worker-Main-5/ERROR]: Recoverable errors when loading section [-5, 7, 10]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:36] [Worker-Main-6/ERROR]: Recoverable errors when loading section [-7, 7, 10]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:36] [Worker-Main-6/ERROR]: Recoverable errors when loading section [-8, 6, 10]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:36] [Worker-Main-7/ERROR]: Recoverable errors when loading section [-10, 6, 8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:36] [Worker-Main-5/ERROR]: Recoverable errors when loading section [-10, 6, 7]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:36] [Worker-Main-5/ERROR]: Recoverable errors when loading section [-10, 6, 10]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:36] [Worker-Main-7/ERROR]: Recoverable errors when loading section [-9, 6, 10]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:36] [Worker-Main-5/ERROR]: Recoverable errors when loading section [6, 7, -10]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:36] [Worker-Main-5/ERROR]: Recoverable errors when loading section [8, 7, -10]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:36] [Worker-Main-7/ERROR]: Recoverable errors when loading section [-10, 7, 2]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:36] [Worker-Main-5/ERROR]: Recoverable errors when loading section [-10, 7, 3]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:36] [Worker-Main-5/ERROR]: Recoverable errors when loading section [-9, 7, -10]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:36] [Worker-Main-5/ERROR]: Recoverable errors when loading section [-10, 7, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:36] [Worker-Main-7/ERROR]: Recoverable errors when loading section [-10, 7, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:36] [Worker-Main-6/ERROR]: Recoverable errors when loading section [-10, 8, 0]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:36] [Server thread/WARN]: [net.minecraft.class_5565] Serialization errors:
+chunk@[-9, -8].Entities[0]:
+  Failed to decode value '{Slot:7b,count:1,id:"plasticgun:38_special"}' from field 'Items' at index 1': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:38_special
+  Failed to decode value '{Slot:9b,count:1,id:"plasticgun:762_tokarev"}' from field 'Items' at index 3': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:762_tokarev
+  Failed to decode value '{Slot:11b,count:1,id:"plasticgun:762_tokarev_ap"}' from field 'Items' at index 4': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:762_tokarev_ap
+  Failed to decode value '{Slot:13b,count:1,id:"plasticgun:rpg9"}' from field 'Items' at index 5': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:rpg9
+  Failed to decode value '{Slot:14b,count:1,id:"plasticgun:force_container"}' from field 'Items' at index 6': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:force_container
+[11:13:36] [Worker-Main-5/ERROR]: Recoverable errors when loading section [10, 7, -10]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[11:13:36] [Worker-Main-6/ERROR]: Recoverable errors when loading section [-10, 8, -1]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)

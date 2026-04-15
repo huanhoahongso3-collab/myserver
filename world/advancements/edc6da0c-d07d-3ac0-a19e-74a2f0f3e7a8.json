@@ -5931,12 +5931,6 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/food/wheat_dough_from_egg": {
-    "criteria": {
-      "has_wheat": "2026-04-15 11:01:09 +0000"
-    },
-    "done": true
-  },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
       "minecraft:mooshroom": "2026-04-15 11:01:57 +0000",
@@ -5945,6 +5939,12 @@
       "minecraft:sheep": "2026-04-15 11:02:32 +0000"
     },
     "done": false
+  },
+  "farmersdelight:recipes/food/wheat_dough_from_egg": {
+    "criteria": {
+      "has_wheat": "2026-04-15 11:01:09 +0000"
+    },
+    "done": true
   },
   "farmersdelight:recipes/food/wheat_dough_from_water": {
     "criteria": {
