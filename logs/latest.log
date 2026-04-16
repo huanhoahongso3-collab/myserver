@@ -1746,3 +1746,33 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [12:25:50] [Worker-Main-4/ERROR]: Recoverable errors when loading section [433, 5, -432]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
 [12:25:50] [Worker-Main-5/ERROR]: Recoverable errors when loading section [431, 5, -432]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
 [12:25:50] [Worker-Main-4/ERROR]: Recoverable errors when loading section [436, 5, -433]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[12:26:23] [Worker-Main-4/ERROR]: Recoverable errors when loading section [431, 5, -432]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[12:26:23] [Worker-Main-6/ERROR]: Recoverable errors when loading section [431, 6, -434]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[12:26:24] [Worker-Main-5/ERROR]: Recoverable errors when loading section [433, 5, -432]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[12:26:24] [Worker-Main-6/ERROR]: Recoverable errors when loading section [436, 5, -433]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[12:26:26] [Worker-Main-4/ERROR]: Recoverable errors when loading section [431, 6, -434]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[12:26:26] [Worker-Main-6/ERROR]: Recoverable errors when loading section [431, 5, -432]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[12:26:26] [Worker-Main-5/ERROR]: Recoverable errors when loading section [433, 5, -432]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[12:26:26] [Worker-Main-5/ERROR]: Recoverable errors when loading section [436, 5, -433]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[12:26:31] [Worker-Main-4/ERROR]: Recoverable errors when loading section [436, 5, -433]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[12:26:31] [Worker-Main-5/ERROR]: Recoverable errors when loading section [431, 5, -432]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[12:26:31] [Worker-Main-5/ERROR]: Recoverable errors when loading section [433, 5, -432]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[12:26:31] [Worker-Main-4/ERROR]: Recoverable errors when loading section [431, 6, -434]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[12:26:35] [Server thread/INFO]: [FewerSteak1914: Stopping the server]
+[12:26:35] [Server thread/INFO]: ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[12:26:35] [Server thread/INFO]: Saving Server Backpack's data...
+[12:26:35] [Server thread/INFO]: Stopping VSS LOD request processing service
+[12:26:35] [Server thread/INFO]: Saved 29270 timestamp cache entries to ./world/./data/vss-timestamps.bin
+[12:26:35] [Server thread/INFO]: Stopping server
+[12:26:35] [Server thread/INFO]: Saving players
+[12:26:35] [Server thread/INFO]: FewerSteak1914 lost connection: Server closed
+[12:26:35] [Server thread/INFO]: FewerSteak1914 left the game
+[12:26:35] [Server thread/INFO]: Saving worlds
+[12:26:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12:26:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[12:26:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[12:26:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:26:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:26:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:26:36] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12:26:36] [Server Shutdown Thread/INFO]: ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
