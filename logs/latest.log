@@ -1631,3 +1631,53 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [00:03:16] [IO-Worker-1/ERROR]: Invalid path in mod resource-pack viaversion: viaversion:data/blockNumberToString1.12.json, ignoring
 [00:03:16] [IO-Worker-1/ERROR]: Invalid path in mod resource-pack viaversion: viaversion:data/blockIds1.12to1.13.json, ignoring
 [00:03:16] [IO-Worker-1/ERROR]: Invalid path in mod resource-pack viaversion: viaversion:data/blockConnections.nbt, ignoring
+[00:03:17] [Server thread/INFO]: Preparing spawn area: 28%
+[00:03:17] [Server thread/INFO]: Preparing spawn area: 28%
+[00:03:17] [Server thread/INFO]: Preparing spawn area: 28%
+[00:03:18] [Server thread/INFO]: Preparing spawn area: 28%
+[00:03:18] [Server thread/INFO]: Time elapsed: 8188 ms
+[00:03:18] [Server thread/INFO]: Done (10.418s)! For help, type "help"
+[00:03:18] [Server thread/INFO]: [REI] ########################################
+[00:03:18] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for START.
+[00:03:18] [Server thread/INFO]: [REI] Plugins (5):
+[00:03:18] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[00:03:18] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[00:03:18] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[00:03:18] [Server thread/INFO]: [REI]  - (0.00) CommonREIPlugin of CommonREIPlugin [farmersdelight]
+[00:03:18] [Server thread/INFO]: [REI]  - (0.00) REIComputerCraft of REIComputerCraft [computercraft]
+[00:03:18] [Server thread/INFO]: [REI] ########################################
+[00:03:18] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for START in 1.249 ms, totaling 88.91 ms.
+[00:03:18] [Server thread/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[00:03:18] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for END.
+[00:03:18] [Server thread/INFO]: [REI] Plugins (5):
+[00:03:18] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[00:03:18] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[00:03:18] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[00:03:18] [Server thread/INFO]: [REI]  - (0.00) CommonREIPlugin of CommonREIPlugin [farmersdelight]
+[00:03:18] [Server thread/INFO]: [REI]  - (0.00) REIComputerCraft of REIComputerCraft [computercraft]
+[00:03:18] [Server thread/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[00:03:18] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for END in 2.403 ms, totaling 198.9 ms.
+[00:03:19] [Server thread/INFO]: Starting VSS LOD request processing service
+[00:03:19] [Server thread/INFO]: Loaded 26421 timestamp cache entries from ./world/./data/vss-timestamps.bin
+[00:03:19] [Server thread/INFO]: [Polydex] Started matching recipes and items...
+[00:03:27] [IO-Worker-1/ERROR]: Couldn't load butterbee overlays metadata: No key entries in MapLike[{}]
+[00:03:27] [IO-Worker-1/ERROR]: Couldn't load clifftree fabric:overlays metadata: Unknown resource condition key: tectonic:config
+[00:03:27] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending pack metadata: Pack key supported_formats is deprecated starting from pack format 65. Remove supported_formats from your pack.mcmeta.
+[00:03:27] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending overlays metadata: Overlay "1.21.5" key formats is deprecated starting from pack format 65. Remove formats from your pack.mcmeta.
+[00:03:33] [ForkJoinPool.commonPool-worker-2/INFO]: [STDERR]: java.lang.ClassCastException: class eu.pb4.polyfactory.fluid.FluidInstance cannot be cast to class net.minecraft.class_1799 (eu.pb4.polyfactory.fluid.FluidInstance and net.minecraft.class_1799 are in unnamed module of loader 'knot' @16022d9d)
+[00:03:33] [ForkJoinPool.commonPool-worker-2/INFO]: [STDERR]: 	at knot//de.tomalbrc.decorations.polydex.CarpentryPage.isOwner(CarpentryPage.java:87)
+[00:03:33] [ForkJoinPool.commonPool-worker-2/INFO]: [STDERR]: 	at knot//eu.pb4.polydex.impl.PolydexImpl.updateCaches(PolydexImpl.java:302)
+[00:03:33] [ForkJoinPool.commonPool-worker-2/INFO]: [STDERR]: 	at knot//eu.pb4.polydex.impl.PolydexImpl.lambda$rebuild$3(PolydexImpl.java:170)
+[00:03:33] [ForkJoinPool.commonPool-worker-2/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+[00:03:33] [ForkJoinPool.commonPool-worker-2/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+[00:03:33] [ForkJoinPool.commonPool-worker-2/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+[00:03:33] [ForkJoinPool.commonPool-worker-2/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+[00:03:33] [ForkJoinPool.commonPool-worker-2/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+[00:03:33] [ForkJoinPool.commonPool-worker-2/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+[00:03:33] [ForkJoinPool.commonPool-worker-2/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+[00:03:33] [Server thread/INFO]: [Polydex] Done! It took 14535 ms
+[00:03:41] [Server thread/INFO]: [Polymer] Resource pack created successfully! You can find it in game folder as polymer/resource_pack.zip
+[00:03:49] [Netty Epoll IO #2/WARN]: Modified mixin "vectorwing.farmersdelight.common.mixin.refabricated.RecipeBookSettingsMixin". Check debug logs for more information.
+[00:03:53] [Netty Epoll IO #2/INFO]: URL Override is set. Gathering from config!
+[00:03:53] [Netty Epoll IO #2/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
+[00:03:53] [Netty Epoll IO #2/WARN]: No Hash in file: Please open config folder and add your hash.
