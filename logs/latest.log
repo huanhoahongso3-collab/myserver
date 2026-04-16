@@ -1714,3 +1714,27 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [12:34:52] [Server thread/INFO]: FewerSteak1914 lost connection: Disconnected
 [12:34:52] [Server thread/INFO]: FewerSteak1914 left the game
 [12:35:52] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[12:36:45] [Netty Epoll IO #4/INFO]: URL Override is set. Gathering from config!
+[12:36:45] [Netty Epoll IO #4/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
+[12:36:45] [Netty Epoll IO #4/WARN]: No Hash in file: Please open config folder and add your hash.
+[12:36:47] [Server thread/INFO]: FewerSteak1914[/127.237.112.12:52741] logged in with entity id 10793 at (7326.556219373452, 125.0625, -6724.018407539589)
+[12:36:47] [Server thread/INFO]: FewerSteak1914 joined the game
+[12:36:48] [Server thread/INFO]: VSS handshake received from FewerSteak1914 (protocol v15, capabilities=1)
+[12:36:48] [Server thread/INFO]: Player FewerSteak1914 registered for VSS LOD request processing (caps=1)
+[12:36:52] [Server thread/INFO]: [FewerSteak1914: Stopping the server]
+[12:36:52] [Server thread/INFO]: ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[12:36:52] [Server thread/INFO]: Saving Server Backpack's data...
+[12:36:52] [Server thread/INFO]: Stopping VSS LOD request processing service
+[12:36:52] [Server thread/INFO]: Saved 29499 timestamp cache entries to ./world/./data/vss-timestamps.bin
+[12:36:52] [Server thread/INFO]: Stopping server
+[12:36:52] [Server thread/INFO]: Saving players
+[12:36:52] [Server thread/INFO]: FewerSteak1914 lost connection: Server closed
+[12:36:52] [Server thread/INFO]: FewerSteak1914 left the game
+[12:36:52] [Server thread/INFO]: Saving worlds
+[12:36:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12:36:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[12:36:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[12:36:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:36:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:36:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:36:53] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
