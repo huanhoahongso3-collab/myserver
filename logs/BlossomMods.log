@@ -469,3 +469,6 @@
 [2026-04-16 12:57:50] [Server thread/ INFO] (BlossomHomes): adding home Home{name='pale', world='minecraft:overworld', x=7208.624879540133, y=106.0, z=-7129.173463968239, yaw=63.040314, pitch=10.800052} to class_3222['FewerSteak1914'/1980, l='ServerLevel[world]', x=7208.62, y=106.00, z=-7129.17]
 [2026-04-16 12:57:50] [Server thread/TRACE] (BlossomLib): writing BlossomHomes
 [2026-04-16 12:59:20] [Timer-1/ INFO] (BlossomTpa): TpaRequest[teleportWho=edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8, teleportTo=f61957b6-2e1e-3bad-b734-ecac33b33529, initiator=edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8, receiver=f61957b6-2e1e-3bad-b734-ecac33b33529] timed out
+[2026-04-16 13:03:51] [Server thread/TRACE] (BlossomHomes): home player class_3222['FewerSteak1914'/1980, l='ServerLevel[world]', x=582.30, y=75.00, z=424.73] to Home{name='pale', world='minecraft:overworld', x=7208.624879540133, y=106.0, z=-7129.173463968239, yaw=63.040314, pitch=10.800052}
+[2026-04-16 13:03:51] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8 (3.0 s)
+[2026-04-16 13:03:54] [Server thread/DEBUG] (BlossomLib): genericCountdown for edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8 has ended
