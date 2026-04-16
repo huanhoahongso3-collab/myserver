@@ -6010,74 +6010,74 @@
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "requirement": "2026-04-16 13:54:25 +0000",
-      "log_spam_fixer": "2026-04-16 13:54:08 +0000"
+      "requirement": "2026-04-16 13:59:15 +0000",
+      "log_spam_fixer": "2026-04-16 13:59:08 +0000"
     },
     "done": true
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-04-16 13:54:08 +0000"
+      "log_spam_fixer": "2026-04-16 13:59:08 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2026-04-16 13:54:08 +0000"
+      "log_spam_fixer": "2026-04-16 13:59:08 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2026-04-16 13:54:08 +0000"
+      "log_spam_fixer": "2026-04-16 13:59:08 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-04-16 13:54:08 +0000"
+      "log_spam_fixer": "2026-04-16 13:59:08 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2026-04-16 13:54:08 +0000"
+      "log_spam_fixer": "2026-04-16 13:59:08 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2026-04-16 13:54:08 +0000"
+      "log_spam_fixer": "2026-04-16 13:59:08 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2026-04-16 13:54:08 +0000"
+      "log_spam_fixer": "2026-04-16 13:59:08 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2026-04-16 13:54:08 +0000"
+      "log_spam_fixer": "2026-04-16 13:59:08 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2026-04-16 13:54:08 +0000"
+      "log_spam_fixer": "2026-04-16 13:59:08 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-04-16 13:54:08 +0000"
+      "log_spam_fixer": "2026-04-16 13:59:08 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2026-04-16 13:54:08 +0000"
+      "log_spam_fixer": "2026-04-16 13:59:08 +0000"
     },
     "done": false
   },
@@ -6105,9 +6105,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2026-04-16 13:56:13 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/small_limestone_brick_wall_from_limestone_stonecutting": {
     "criteria": {
       "has_limestone": "2026-04-16 13:50:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_shelf": {
+    "criteria": {
+      "has_stripped_oak_log": "2026-04-16 13:56:13 +0000"
     },
     "done": true
   },
@@ -6147,9 +6159,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2026-04-16 13:56:13 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/limestone_stairs": {
     "criteria": {
       "has_limestone": "2026-04-16 13:50:06 +0000"
+    },
+    "done": true
+  },
+  "polydecorations:recipes/decorations/stripped_oak_stump": {
+    "criteria": {
+      "planks": "2026-04-16 13:56:13 +0000"
     },
     "done": true
   },
@@ -6261,6 +6285,12 @@
     },
     "done": true
   },
+  "glideaway:recipes/tools/wind_in_a_bottle": {
+    "criteria": {
+      "wool": "2026-04-16 13:58:01 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/cooking/glow_berry_custard": {
     "criteria": {
       "has_any_ingredient": "2026-04-16 13:50:50 +0000"
@@ -6333,6 +6363,12 @@
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/stripped_oak_post": {
+    "criteria": {
+      "has_woods": "2026-04-16 13:56:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/netherite_nautilus_armor_smithing": {
     "criteria": {
       "has_netherite_ingot": "2026-04-16 13:18:09 +0000"
@@ -6342,6 +6378,12 @@
   "polydecorations:recipes/decorations/pale_oak_tool_rack": {
     "criteria": {
       "planks": "2026-04-16 13:25:37 +0000"
+    },
+    "done": true
+  },
+  "polydecorations:recipes/misc/tie_container": {
+    "criteria": {
+      "item": "2026-04-16 13:55:36 +0000"
     },
     "done": true
   },
