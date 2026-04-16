@@ -929,3 +929,30 @@
 [2026-04-16 13:50:49] [Server thread/TRACE] (BlossomHomes): found spawn position for f61957b6-2e1e-3bad-b734-ecac33b33529 @ class_5454[newLevel=ServerLevel[world], position=(580.5, 75.0, 428.5), deltaMovement=(0.0, 0.0, 0.0), yRot=-4.94156E-6, xRot=0.0, missingRespawnBlock=false, asPassenger=false, relatives=[], postTeleportTransition=net.minecraft.class_5454$$Lambda/0x00007fbbba1ce948@240af818]
 [2026-04-16 13:50:49] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 (3.0 s)
 [2026-04-16 13:50:52] [Server thread/DEBUG] (BlossomLib): genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 has ended
+[2026-04-16 13:53:13] [Server thread/TRACE] (BlossomBack): persisting deaths
+[2026-04-16 13:53:13] [Server thread/TRACE] (BlossomLib): writing BlossomBack.deaths
+[2026-04-16 13:53:13] [Server thread/ INFO] (BlossomBack): FewerSteak1914 (edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8) died at TeleportDestination{world=ServerLevel[world], x=593.6185685720818, y=18.0, z=431.5230625980606, yaw=22.65271, pitch=79.650024}
+[2026-04-16 13:53:23] [Server thread/TRACE] (BlossomBack): back (death) FewerSteak1914 (edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8) to TeleportDestination{world=ServerLevel[world], x=593.6185685720818, y=18.0, z=431.5230625980606, yaw=22.65271, pitch=79.650024}
+[2026-04-16 13:53:23] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8 (5.0 s)
+[2026-04-16 13:53:28] [Server thread/DEBUG] (BlossomLib): genericCountdown for edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8 has ended
+[2026-04-16 13:53:49] [Server thread/TRACE] (BlossomBack): persisting deaths
+[2026-04-16 13:53:49] [Server thread/TRACE] (BlossomLib): writing BlossomBack.deaths
+[2026-04-16 13:53:49] [Server thread/ INFO] (BlossomBack): cuongchanthoi (f61957b6-2e1e-3bad-b734-ecac33b33529) died at TeleportDestination{world=ServerLevel[world], x=590.2914018089466, y=26.0, z=424.8419719110272, yaw=-17.54892, pitch=90.0}
+[2026-04-16 13:53:54] [Server thread/TRACE] (BlossomBack): back (death) cuongchanthoi (f61957b6-2e1e-3bad-b734-ecac33b33529) to TeleportDestination{world=ServerLevel[world], x=590.2914018089466, y=26.0, z=424.8419719110272, yaw=-17.54892, pitch=90.0}
+[2026-04-16 13:53:54] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 (5.0 s)
+[2026-04-16 13:53:55] [Server thread/DEBUG] (BlossomLib): genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 has been reset after 29 ticks
+[2026-04-16 13:53:55] [Server thread/DEBUG] (BlossomLib): genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 has been reset after 0 ticks
+[2026-04-16 13:53:55] [Server thread/DEBUG] (BlossomLib): genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 has been reset after 0 ticks
+[2026-04-16 13:53:55] [Server thread/DEBUG] (BlossomLib): genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 has been reset after 0 ticks
+[2026-04-16 13:53:55] [Server thread/DEBUG] (BlossomLib): genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 has been reset after 0 ticks
+[2026-04-16 13:53:56] [Server thread/DEBUG] (BlossomLib): genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 has been reset after 1 ticks
+[2026-04-16 13:53:56] [Server thread/DEBUG] (BlossomLib): genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 has been reset after 1 ticks
+[2026-04-16 13:53:56] [Server thread/DEBUG] (BlossomLib): genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 has been reset after 0 ticks
+[2026-04-16 13:53:56] [Server thread/DEBUG] (BlossomLib): genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 has been reset after 1 ticks
+[2026-04-16 13:53:56] [Server thread/DEBUG] (BlossomLib): genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 has been reset after 1 ticks
+[2026-04-16 13:53:56] [Server thread/DEBUG] (BlossomLib): genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 has been reset after 0 ticks
+[2026-04-16 13:54:01] [Server thread/DEBUG] (BlossomLib): genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 has ended
+[2026-04-16 13:54:10] [Server thread/TRACE] (BlossomHomes): home player class_3222['cuongchanthoi'/196631, l='ServerLevel[world]', x=590.70, y=27.00, z=423.30] to null
+[2026-04-16 13:54:10] [Server thread/TRACE] (BlossomHomes): found spawn position for f61957b6-2e1e-3bad-b734-ecac33b33529 @ class_5454[newLevel=ServerLevel[world], position=(580.5, 75.0, 428.5), deltaMovement=(0.0, 0.0, 0.0), yRot=-4.94156E-6, xRot=0.0, missingRespawnBlock=false, asPassenger=false, relatives=[], postTeleportTransition=net.minecraft.class_5454$$Lambda/0x00007fbbba1ce948@240af818]
+[2026-04-16 13:54:10] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 (3.0 s)
+[2026-04-16 13:54:13] [Server thread/DEBUG] (BlossomLib): genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 has ended
