@@ -1662,3 +1662,23 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [12:43:14] [Server thread/INFO]: [REI]  - (0.00) REIComputerCraft of REIComputerCraft [computercraft]
 [12:43:14] [Server thread/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
 [12:43:15] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for END in 2.291 ms, totaling 192.8 ms.
+[12:43:15] [Server thread/INFO]: Starting VSS LOD request processing service
+[12:43:15] [Server thread/INFO]: Loaded 29499 timestamp cache entries from ./world/./data/vss-timestamps.bin
+[12:43:15] [Server thread/INFO]: [Polydex] Started matching recipes and items...
+[12:43:23] [IO-Worker-1/ERROR]: Couldn't load butterbee overlays metadata: No key entries in MapLike[{}]
+[12:43:23] [IO-Worker-1/ERROR]: Couldn't load clifftree fabric:overlays metadata: Unknown resource condition key: tectonic:config
+[12:43:23] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending pack metadata: Pack key supported_formats is deprecated starting from pack format 65. Remove supported_formats from your pack.mcmeta.
+[12:43:23] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending overlays metadata: Overlay "1.21.5" key formats is deprecated starting from pack format 65. Remove formats from your pack.mcmeta.
+[12:43:29] [ForkJoinPool.commonPool-worker-3/INFO]: [STDERR]: java.lang.ClassCastException: class eu.pb4.polyfactory.fluid.FluidInstance cannot be cast to class net.minecraft.class_1799 (eu.pb4.polyfactory.fluid.FluidInstance and net.minecraft.class_1799 are in unnamed module of loader 'knot' @16022d9d)
+[12:43:29] [ForkJoinPool.commonPool-worker-3/INFO]: [STDERR]: 	at knot//de.tomalbrc.decorations.polydex.CarpentryPage.isOwner(CarpentryPage.java:87)
+[12:43:29] [ForkJoinPool.commonPool-worker-3/INFO]: [STDERR]: 	at knot//eu.pb4.polydex.impl.PolydexImpl.updateCaches(PolydexImpl.java:302)
+[12:43:29] [ForkJoinPool.commonPool-worker-3/INFO]: [STDERR]: 	at knot//eu.pb4.polydex.impl.PolydexImpl.lambda$rebuild$3(PolydexImpl.java:170)
+[12:43:29] [ForkJoinPool.commonPool-worker-3/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+[12:43:29] [ForkJoinPool.commonPool-worker-3/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+[12:43:29] [ForkJoinPool.commonPool-worker-3/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+[12:43:29] [ForkJoinPool.commonPool-worker-3/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+[12:43:29] [ForkJoinPool.commonPool-worker-3/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+[12:43:29] [ForkJoinPool.commonPool-worker-3/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+[12:43:29] [ForkJoinPool.commonPool-worker-3/INFO]: [STDERR]: 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+[12:43:29] [Server thread/INFO]: [Polydex] Done! It took 13770 ms
+[12:43:33] [Server thread/INFO]: [Polymer] Resource pack created successfully! You can find it in game folder as polymer/resource_pack.zip
