@@ -919,3 +919,6 @@
 [2026-04-16 13:45:18] [Server thread/DEBUG] (BlossomLib): genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 has been reset after 0 ticks
 [2026-04-16 13:45:18] [Server thread/DEBUG] (BlossomLib): genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 has been reset after 0 ticks
 [2026-04-16 13:45:21] [Server thread/DEBUG] (BlossomLib): genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 has ended
+[2026-04-16 13:47:34] [Server thread/TRACE] (BlossomBack): persisting deaths
+[2026-04-16 13:47:34] [Server thread/TRACE] (BlossomLib): writing BlossomBack.deaths
+[2026-04-16 13:47:34] [Server thread/ INFO] (BlossomBack): cuongchanthoi (f61957b6-2e1e-3bad-b734-ecac33b33529) died at TeleportDestination{world=ServerLevel[world], x=593.5015547964606, y=40.0, z=419.11264374944034, yaw=20.849792, pitch=7.35002}
