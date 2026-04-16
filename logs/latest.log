@@ -1677,3 +1677,42 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [11:28:12] [Server thread/INFO]: [Polydex] Done! It took 14717 ms
 [11:28:20] [Server thread/INFO]: [Polymer] Resource pack created successfully! You can find it in game folder as polymer/resource_pack.zip
 [11:28:56] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[12:22:39] [Netty Epoll IO #3/WARN]: Modified mixin "vectorwing.farmersdelight.common.mixin.refabricated.RecipeBookSettingsMixin". Check debug logs for more information.
+[12:22:42] [Netty Epoll IO #3/INFO]: URL Override is set. Gathering from config!
+[12:22:42] [Netty Epoll IO #3/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
+[12:22:42] [Netty Epoll IO #3/WARN]: No Hash in file: Please open config folder and add your hash.
+[12:22:44] [Server thread/WARN]: Modified mixin "vectorwing.farmersdelight.common.mixin.refabricated.ServerRecipeBookMixin". Check debug logs for more information.
+[12:22:45] [Server thread/INFO]: FewerSteak1914[/127.237.112.12:37607] logged in with entity id 527 at (7320.695939111744, 125.0625, -6723.1830126518735)
+[12:22:45] [Server thread/INFO]: FewerSteak1914 joined the game
+[12:22:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2128ms or 42 ticks behind
+[12:22:47] [Server thread/INFO]: VSS handshake received from FewerSteak1914 (protocol v15, capabilities=1)
+[12:22:47] [Server thread/INFO]: Player FewerSteak1914 registered for VSS LOD request processing (caps=1)
+[12:23:05] [Worker-Main-4/WARN]: Feature order cycle found, involved sources: [Reference{ResourceKey[minecraft:worldgen/biome / minecraft:plains]=net.minecraft.class_1959@6607bbab}, Reference{ResourceKey[minecraft:worldgen/biome / clifftree:cold_river]=net.minecraft.class_1959@2461ff75}]
+[12:23:05] [Worker-Main-4/WARN]: Vanilla feature indexer failed; retrying with Biolith's resilient feature indexer...
+[12:23:06] [Worker-Main-4/INFO]: Dropping cycle-forming edge in biome clifftree:cold_river: minecraft:trees_plains -> minecraft:patch_bush
+[12:23:29] [Worker-Main-5/ERROR]: Recoverable errors when loading section [431, 6, -434]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[12:23:29] [Worker-Main-5/ERROR]: Recoverable errors when loading section [431, 5, -432]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[12:23:29] [Worker-Main-5/ERROR]: Recoverable errors when loading section [433, 5, -432]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[12:23:30] [Worker-Main-5/ERROR]: Recoverable errors when loading section [436, 5, -433]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[12:23:30] [Worker-Main-6/ERROR]: Recoverable errors when loading section [438, 4, -431]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[12:23:43] [Worker-Main-4/ERROR]: Recoverable errors when loading section [431, 6, -434]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[12:23:43] [Worker-Main-4/ERROR]: Recoverable errors when loading section [431, 5, -432]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[12:23:43] [Worker-Main-4/ERROR]: Recoverable errors when loading section [433, 5, -432]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[12:23:52] [Worker-Main-6/ERROR]: Recoverable errors when loading section [431, 6, -434]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[12:23:52] [Worker-Main-6/ERROR]: Recoverable errors when loading section [431, 5, -432]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[12:23:52] [Worker-Main-5/ERROR]: Recoverable errors when loading section [433, 5, -432]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[12:24:01] [Worker-Main-6/ERROR]: Recoverable errors when loading section [431, 6, -434]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[12:24:01] [Worker-Main-5/ERROR]: Recoverable errors when loading section [436, 5, -433]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[12:24:01] [Worker-Main-5/ERROR]: Recoverable errors when loading section [431, 5, -432]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[12:24:01] [Worker-Main-5/ERROR]: Recoverable errors when loading section [433, 5, -432]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[12:24:01] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 455,-475
+[12:24:01] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 465,-475
+[12:24:01] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 466,-475
+[12:24:01] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 467,-475
+[12:24:01] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 468,-475
+[12:24:01] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 469,-475
+[12:24:01] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 470,-475
+[12:24:06] [Worker-Main-5/ERROR]: Recoverable errors when loading section [431, 6, -434]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[12:24:06] [Worker-Main-4/ERROR]: Recoverable errors when loading section [436, 5, -433]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[12:24:06] [Worker-Main-5/ERROR]: Recoverable errors when loading section [431, 5, -432]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[12:24:06] [Worker-Main-4/ERROR]: Recoverable errors when loading section [433, 5, -432]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
