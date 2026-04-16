@@ -1668,3 +1668,33 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [12:48:12] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending overlays metadata: Overlay "1.21.5" key formats is deprecated starting from pack format 65. Remove formats from your pack.mcmeta.
 [12:48:21] [Server thread/INFO]: [Polydex] Done! It took 11908 ms
 [12:48:22] [Server thread/INFO]: [Polymer] Resource pack created successfully! You can find it in game folder as polymer/resource_pack.zip
+[12:49:08] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[12:49:51] [Netty Epoll IO #1/WARN]: Modified mixin "vectorwing.farmersdelight.common.mixin.refabricated.RecipeBookSettingsMixin". Check debug logs for more information.
+[12:49:55] [Netty Epoll IO #1/INFO]: URL Override is set. Gathering from config!
+[12:49:55] [Netty Epoll IO #1/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
+[12:49:55] [Netty Epoll IO #1/WARN]: No Hash in file: Please open config folder and add your hash.
+[12:49:59] [Server thread/WARN]: Modified mixin "vectorwing.farmersdelight.common.mixin.refabricated.ServerRecipeBookMixin". Check debug logs for more information.
+[12:49:59] [Server thread/WARN]: Ignored advancement 'polyfactory:recipes/tools/steel_alloy_mixture' in progress file ./world/advancements/f61957b6-2e1e-3bad-b734-ecac33b33529.json - it doesn't exist anymore?
+[12:49:59] [Server thread/WARN]: Ignored advancement 'polyfactory:recipes/redstone/hand_crank' in progress file ./world/advancements/f61957b6-2e1e-3bad-b734-ecac33b33529.json - it doesn't exist anymore?
+[12:49:59] [Server thread/WARN]: Ignored advancement 'polyfactory:recipes/redstone/grinder' in progress file ./world/advancements/f61957b6-2e1e-3bad-b734-ecac33b33529.json - it doesn't exist anymore?
+[12:49:59] [Server thread/WARN]: Ignored advancement 'polyfactory:recipes/redstone/redstone_chip' in progress file ./world/advancements/f61957b6-2e1e-3bad-b734-ecac33b33529.json - it doesn't exist anymore?
+[12:49:59] [Server thread/WARN]: Ignored advancement 'polyfactory:recipes/redstone/integrated_circuit' in progress file ./world/advancements/f61957b6-2e1e-3bad-b734-ecac33b33529.json - it doesn't exist anymore?
+[12:49:59] [Server thread/WARN]: Ignored advancement 'polyfactory:recipes/redstone/metal_grid' in progress file ./world/advancements/f61957b6-2e1e-3bad-b734-ecac33b33529.json - it doesn't exist anymore?
+[12:49:59] [Server thread/WARN]: Ignored advancement 'polyfactory:recipes/misc/string_mesh' in progress file ./world/advancements/f61957b6-2e1e-3bad-b734-ecac33b33529.json - it doesn't exist anymore?
+[12:49:59] [Server thread/WARN]: Ignored advancement 'polyfactory:recipes/combat/sticky_dynamite' in progress file ./world/advancements/f61957b6-2e1e-3bad-b734-ecac33b33529.json - it doesn't exist anymore?
+[12:49:59] [Server thread/WARN]: Ignored advancement 'polyfactory:recipes/combat/dynamite' in progress file ./world/advancements/f61957b6-2e1e-3bad-b734-ecac33b33529.json - it doesn't exist anymore?
+[12:49:59] [Server thread/WARN]: Ignored advancement 'polyfactory:recipes/redstone/hologram_projector' in progress file ./world/advancements/f61957b6-2e1e-3bad-b734-ecac33b33529.json - it doesn't exist anymore?
+[12:49:59] [Server thread/ERROR]: Tried to load unrecognized recipe: ResourceKey[minecraft:recipe / polyfactory:string_mesh] removed now.
+[12:49:59] [Server thread/ERROR]: Tried to load unrecognized recipe: ResourceKey[minecraft:recipe / polyfactory:metal_grid] removed now.
+[12:49:59] [Server thread/ERROR]: Tried to load unrecognized recipe: ResourceKey[minecraft:recipe / polyfactory:hand_crank] removed now.
+[12:49:59] [Server thread/ERROR]: Tried to load unrecognized recipe: ResourceKey[minecraft:recipe / polyfactory:integrated_circuit] removed now.
+[12:49:59] [Server thread/ERROR]: Tried to load unrecognized recipe: ResourceKey[minecraft:recipe / polyfactory:dynamite] removed now.
+[12:49:59] [Server thread/ERROR]: Tried to load unrecognized recipe: ResourceKey[minecraft:recipe / polyfactory:redstone_chip] removed now.
+[12:49:59] [Server thread/ERROR]: Tried to load unrecognized recipe: ResourceKey[minecraft:recipe / polyfactory:sticky_dynamite] removed now.
+[12:49:59] [Server thread/ERROR]: Tried to load unrecognized recipe: ResourceKey[minecraft:recipe / polyfactory:hologram_projector] removed now.
+[12:49:59] [Server thread/ERROR]: Tried to load unrecognized recipe: ResourceKey[minecraft:recipe / polyfactory:steel_alloy_mixture] removed now.
+[12:49:59] [Server thread/ERROR]: Tried to load unrecognized recipe: ResourceKey[minecraft:recipe / polyfactory:grinder] removed now.
+[12:49:59] [Server thread/ERROR]: Tried to load unrecognized recipe: ResourceKey[minecraft:recipe / polyfactory:redstone_chip] removed now.
+[12:49:59] [Server thread/INFO]: cuongchanthoi[/127.87.149.95:40063] logged in with entity id 464 at (568.7097620541493, 79.5, 420.8622754621556)
+[12:49:59] [Server thread/INFO]: cuongchanthoi joined the game
+[12:50:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2367ms or 47 ticks behind
