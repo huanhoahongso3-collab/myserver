@@ -89,53 +89,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/distant_lands": {
-    "criteria": {
-      "minecraft:cold_ocean": "2026-04-10 13:42:51 +0000",
-      "clifftree:inferno": "2026-03-15 03:18:12 +0000",
-      "clifftree:sparse_forest": "2026-03-15 10:40:43 +0000",
-      "minecraft:forest": "2026-03-15 11:03:17 +0000",
-      "minecraft:taiga": "2026-04-10 13:43:05 +0000",
-      "minecraft:lush_caves": "2026-03-15 11:14:56 +0000",
-      "minecraft:desert": "2026-03-15 11:43:17 +0000",
-      "clifftree:shrubland": "2026-03-15 11:21:08 +0000",
-      "minecraft:jungle": "2026-03-15 11:00:23 +0000",
-      "minecraft:ocean": "2026-04-10 13:42:32 +0000",
-      "minecraft:cherry_grove": "2026-03-13 15:12:19 +0000",
-      "minecraft:sunflower_plains": "2026-04-10 13:38:01 +0000",
-      "minecraft:birch_forest": "2026-03-30 14:40:09 +0000",
-      "clifftree:warm_river": "2026-03-15 10:53:57 +0000",
-      "clifftree:caves": "2026-03-29 01:46:31 +0000",
-      "minecraft:wooded_badlands": "2026-03-15 10:54:30 +0000",
-      "minecraft:bamboo_jungle": "2026-03-15 11:16:13 +0000",
-      "minecraft:warm_ocean": "2026-03-15 10:52:44 +0000",
-      "minecraft:deep_lukewarm_ocean": "2026-03-15 11:15:25 +0000",
-      "clifftree:granite_shore": "2026-03-15 10:37:16 +0000",
-      "clifftree:coniferous_badlands": "2026-03-15 11:39:34 +0000",
-      "minecraft:badlands": "2026-03-15 10:46:08 +0000",
-      "minecraft:flower_forest": "2026-03-28 14:04:06 +0000",
-      "clifftree:lukewarm_caves": "2026-03-14 03:10:28 +0000",
-      "minecraft:savanna_plateau": "2026-03-13 15:23:14 +0000",
-      "clifftree:tropical_beach": "2026-03-15 11:17:54 +0000",
-      "minecraft:beach": "2026-04-10 13:42:13 +0000",
-      "minecraft:stony_peaks": "2026-03-15 11:03:30 +0000",
-      "minecraft:dark_forest": "2026-03-30 14:40:15 +0000",
-      "clifftree:tropical_river": "2026-03-15 11:16:07 +0000",
-      "minecraft:sparse_jungle": "2026-03-15 11:00:52 +0000",
-      "minecraft:river": "2026-03-15 10:30:02 +0000",
-      "minecraft:lukewarm_ocean": "2026-03-15 10:40:39 +0000",
-      "minecraft:stony_shore": "2026-03-15 10:55:09 +0000",
-      "minecraft:dripstone_caves": "2026-03-28 13:39:20 +0000",
-      "minecraft:old_growth_birch_forest": "2026-03-28 13:42:33 +0000",
-      "clifftree:warm_caves": "2026-03-15 13:53:27 +0000",
-      "minecraft:deep_dark": "2026-03-15 03:17:58 +0000",
-      "minecraft:meadow": "2026-03-30 14:41:19 +0000",
-      "clifftree:desert_cliff": "2026-03-15 10:52:43 +0000",
-      "minecraft:plains": "2026-03-13 15:15:06 +0000",
-      "minecraft:pale_garden": "2026-03-30 14:40:23 +0000"
-    },
-    "done": false
-  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2026-04-10 13:42:51 +0000",
@@ -999,12 +952,6 @@
   "equestrian_crafting:recipes/misc/iron_horse_armor": {
     "criteria": {
       "has_ingot": "2026-03-14 03:16:39 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/chain": {
-    "criteria": {
-      "has_iron_ingot": "2026-03-14 03:16:39 +0000"
     },
     "done": true
   },
@@ -3415,12 +3362,6 @@
     },
     "done": true
   },
-  "glideaway:recipes/tools/glider/white": {
-    "criteria": {
-      "wool": "2026-03-15 10:41:18 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/painting": {
     "criteria": {
       "has_wool": "2026-03-15 10:41:18 +0000"
@@ -3659,18 +3600,6 @@
   "rocks:recipes/building_blocks/andesite_from_splitter": {
     "criteria": {
       "has_andesite_splitter": "2026-03-15 11:03:56 +0000"
-    },
-    "done": true
-  },
-  "terrestria:recipes/building_blocks/rainbow_eucalyptus_log_to_planks": {
-    "criteria": {
-      "has_logs": "2026-03-15 11:11:26 +0000"
-    },
-    "done": true
-  },
-  "terrestria:recipes/building_blocks/rainbow_eucalyptus_wood": {
-    "criteria": {
-      "has_logs": "2026-03-15 11:11:26 +0000"
     },
     "done": true
   },
@@ -5812,96 +5741,6 @@
     },
     "done": true
   },
-  "glideaway:recipes/tools/glider/light_blue": {
-    "criteria": {
-      "membrane": "2026-04-11 09:02:18 +0000"
-    },
-    "done": true
-  },
-  "glideaway:recipes/tools/glider/red": {
-    "criteria": {
-      "membrane": "2026-04-11 09:02:18 +0000"
-    },
-    "done": true
-  },
-  "glideaway:recipes/tools/glider/light_gray": {
-    "criteria": {
-      "membrane": "2026-04-11 09:02:18 +0000"
-    },
-    "done": true
-  },
-  "glideaway:recipes/tools/glider/cyan": {
-    "criteria": {
-      "membrane": "2026-04-11 09:02:18 +0000"
-    },
-    "done": true
-  },
-  "glideaway:recipes/tools/glider/lime": {
-    "criteria": {
-      "membrane": "2026-04-11 09:02:18 +0000"
-    },
-    "done": true
-  },
-  "glideaway:recipes/tools/glider/blue": {
-    "criteria": {
-      "membrane": "2026-04-11 09:02:18 +0000"
-    },
-    "done": true
-  },
-  "glideaway:recipes/tools/glider/magenta": {
-    "criteria": {
-      "membrane": "2026-04-11 09:02:18 +0000"
-    },
-    "done": true
-  },
-  "glideaway:recipes/tools/glider/yellow": {
-    "criteria": {
-      "membrane": "2026-04-11 09:02:18 +0000"
-    },
-    "done": true
-  },
-  "glideaway:recipes/tools/glider/black": {
-    "criteria": {
-      "membrane": "2026-04-11 09:02:18 +0000"
-    },
-    "done": true
-  },
-  "glideaway:recipes/tools/glider/gray": {
-    "criteria": {
-      "membrane": "2026-04-11 09:02:18 +0000"
-    },
-    "done": true
-  },
-  "glideaway:recipes/tools/glider/green": {
-    "criteria": {
-      "membrane": "2026-04-11 09:02:18 +0000"
-    },
-    "done": true
-  },
-  "glideaway:recipes/tools/glider/pink": {
-    "criteria": {
-      "membrane": "2026-04-11 09:02:18 +0000"
-    },
-    "done": true
-  },
-  "glideaway:recipes/tools/glider/purple": {
-    "criteria": {
-      "membrane": "2026-04-11 09:02:18 +0000"
-    },
-    "done": true
-  },
-  "glideaway:recipes/tools/glider/orange": {
-    "criteria": {
-      "membrane": "2026-04-11 09:02:18 +0000"
-    },
-    "done": true
-  },
-  "glideaway:recipes/tools/glider/brown": {
-    "criteria": {
-      "membrane": "2026-04-11 09:02:18 +0000"
-    },
-    "done": true
-  },
   "blockus:recipes/building_blocks/membrane_block": {
     "criteria": {
       "has_phantom_membrane": "2026-04-11 09:02:18 +0000"
@@ -5968,5 +5807,503 @@
     },
     "done": true
   },
-  "DataVersion": 4440
+  "blockus:recipes/building_blocks/cyan_stone_brick_slab_from_stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/red_stone_brick_wall_from_stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/smooth_stone_stairs": {
+    "criteria": {
+      "has_smooth_stone": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-16 11:17:35 +0000"
+    },
+    "done": false
+  },
+  "blockus:recipes/building_blocks/gray_stone_brick_slab_from_stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/small_oak_logs": {
+    "criteria": {
+      "has_oak_log": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/light_gray_stone_brick_wall_from_stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/oak_hedge": {
+    "criteria": {
+      "has_oak_leaves": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/green_stone_brick_slab_from_stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/lime_stone_brick_slab_from_stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-16 11:17:35 +0000"
+    },
+    "done": false
+  },
+  "blockus:recipes/building_blocks/lime_stone_brick_stairs_from_stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/purple_stone_brick_slab_from_stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-16 11:17:35 +0000"
+    },
+    "done": false
+  },
+  "blockus:recipes/building_blocks/spruce_timber_frame": {
+    "criteria": {
+      "has_spruce_planks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/white_stone_brick_stairs_from_stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/cyan_stone_brick_stairs_from_stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-16 11:17:35 +0000"
+    },
+    "done": false
+  },
+  "blockus:recipes/building_blocks/purple_stone_brick_wall_from_stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-16 11:17:35 +0000"
+    },
+    "done": false
+  },
+  "blockus:recipes/building_blocks/lime_stone_brick_wall_from_stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/yellow_stone_brick_stairs_from_stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/gray_stone_brick_wall_from_stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/cyan_stone_brick_wall_from_stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/stone_circular_paving_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-16 11:17:35 +0000"
+    },
+    "done": false
+  },
+  "blockus:recipes/building_blocks/oak_post": {
+    "criteria": {
+      "has_woods": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_spear": {
+    "criteria": {
+      "has_stick": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/brown_stone_brick_stairs_from_stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/wooden_frame": {
+    "criteria": {
+      "has_stick": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/green_stone_brick_wall_from_stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/light_gray_stone_brick_stairs_from_stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-16 11:17:35 +0000"
+    },
+    "done": false
+  },
+  "blockus:recipes/building_blocks/red_stone_brick_slab_from_stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-16 11:17:35 +0000"
+    },
+    "done": false
+  },
+  "blockus:recipes/building_blocks/magenta_stone_brick_stairs_from_stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/black_stone_brick_wall_from_stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-16 11:17:35 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/using/ragnarok": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-16 11:16:34 +0000"
+    },
+    "done": false
+  },
+  "blockus:recipes/building_blocks/spruce_grate": {
+    "criteria": {
+      "has_spruce_planks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/stone_tile_stairs_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/yellow_stone_brick_wall_from_stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/blue_stone_brick_slab_from_stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/magenta_stone_brick_slab_from_stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/green_stone_brick_stairs_from_stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/oak_timber_frame": {
+    "criteria": {
+      "has_oak_planks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/pink_stone_brick_slab_from_stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-16 11:17:35 +0000"
+    },
+    "done": false
+  },
+  "blockus:recipes/building_blocks/stone_tile_wall_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/white_stone_brick_slab_from_stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/black_stone_brick_stairs_from_stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/new_player": {
+    "criteria": {
+      "requirement": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/light_blue_stone_brick_wall_from_stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/charred_planks": {
+    "criteria": {
+      "has_planks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/smooth_stone_stairs_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/orange_stone_brick_slab_from_stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/gray_stone_brick_stairs_from_stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/light_blue_stone_brick_slab_from_stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/purple_stone_brick_stairs_from_stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/orange_stone_brick_stairs_from_stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/brown_stone_brick_wall_from_stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/using/shield": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-16 11:16:34 +0000"
+    },
+    "done": false
+  },
+  "blockus:recipes/building_blocks/white_stone_brick_wall_from_stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/blue_stone_brick_stairs_from_stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-16 11:17:35 +0000"
+    },
+    "done": false
+  },
+  "blockus:recipes/building_blocks/blue_stone_brick_wall_from_stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/orange_stone_brick_wall_from_stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-16 11:17:35 +0000"
+    },
+    "done": false
+  },
+  "universal_shops:recipe/tradeshop_group/trade_block": {
+    "criteria": {
+      "item_required2": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/brown_stone_brick_slab_from_stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/pink_stone_brick_wall_from_stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/scroll_of_returning": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-16 11:16:34 +0000"
+    },
+    "done": false
+  },
+  "blockus:recipes/building_blocks/pink_stone_brick_stairs_from_stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/oak_grate": {
+    "criteria": {
+      "has_oak_planks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/light_blue_stone_brick_stairs_from_stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/magenta_stone_brick_wall_from_stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/light_gray_stone_brick_slab_from_stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/light_gray_stone_bricks": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/using/trailblazer": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-16 11:16:34 +0000"
+    },
+    "done": false
+  },
+  "blockus:recipes/building_blocks/red_stone_brick_stairs_from_stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/yellow_stone_brick_slab_from_stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/black_stone_brick_slab_from_stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/stone_tile_slab_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2026-04-16 11:16:33 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 4671
 }
