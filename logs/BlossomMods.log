@@ -1067,3 +1067,9 @@
 [2026-04-16 14:13:11] [Server thread/TRACE] (BlossomBack): back (death) FewerSteak1914 (edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8) to TeleportDestination{world=ServerLevel[world], x=561.8832520051126, y=77.40010986998718, z=422.2550762295641, yaw=20.900513, pitch=8.850001}
 [2026-04-16 14:13:11] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8 (5.0 s)
 [2026-04-16 14:13:16] [Server thread/DEBUG] (BlossomLib): genericCountdown for edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8 has ended
+[2026-04-16 14:17:58] [Server thread/TRACE] (BlossomBack): persisting deaths
+[2026-04-16 14:17:58] [Server thread/TRACE] (BlossomLib): writing BlossomBack.deaths
+[2026-04-16 14:17:58] [Server thread/ INFO] (BlossomBack): FewerSteak1914 (edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8) died at TeleportDestination{world=ServerLevel[world], x=554.0008349173321, y=79.1212968405392, z=400.59716106724983, yaw=-13.749451, pitch=12.45003}
+[2026-04-16 14:18:04] [Server thread/TRACE] (BlossomBack): back (death) FewerSteak1914 (edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8) to TeleportDestination{world=ServerLevel[world], x=554.0008349173321, y=79.1212968405392, z=400.59716106724983, yaw=-13.749451, pitch=12.45003}
+[2026-04-16 14:18:04] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8 (5.0 s)
+[2026-04-16 14:18:09] [Server thread/DEBUG] (BlossomLib): genericCountdown for edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8 has ended
