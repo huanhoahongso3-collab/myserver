@@ -1656,3 +1656,14 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [14:14:00] [Server thread/INFO]: Starting VSS LOD request processing service
 [14:14:00] [Server thread/INFO]: Loaded 61491 timestamp cache entries from ./world/./data/vss-timestamps.bin
 [14:14:00] [Server thread/INFO]: [Polydex] Started matching recipes and items...
+[14:14:02] [Netty Epoll IO #7/WARN]: Modified mixin "vectorwing.farmersdelight.common.mixin.refabricated.RecipeBookSettingsMixin". Check debug logs for more information.
+[14:14:05] [Netty Epoll IO #7/INFO]: URL Override is set. Gathering from config!
+[14:14:05] [Netty Epoll IO #7/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
+[14:14:05] [Netty Epoll IO #7/WARN]: No Hash in file: Please open config folder and add your hash.
+[14:14:06] [IO-Worker-1/ERROR]: Couldn't load butterbee overlays metadata: No key entries in MapLike[{}]
+[14:14:06] [IO-Worker-1/ERROR]: Couldn't load clifftree fabric:overlays metadata: Unknown resource condition key: tectonic:config
+[14:14:06] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending pack metadata: Pack key supported_formats is deprecated starting from pack format 65. Remove supported_formats from your pack.mcmeta.
+[14:14:06] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending overlays metadata: Overlay "1.21.5" key formats is deprecated starting from pack format 65. Remove formats from your pack.mcmeta.
+[14:14:14] [Server thread/INFO]: [Polydex] Done! It took 13215 ms
+[14:14:16] [Server thread/INFO]: [Polymer] Resource pack created successfully! You can find it in game folder as polymer/resource_pack.zip
+[14:14:59] [Server thread/INFO]: Server empty for 60 seconds, pausing
