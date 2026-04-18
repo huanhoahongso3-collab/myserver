@@ -1627,3 +1627,19 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [13:00:02] [Server thread/INFO]: Starting VSS LOD request processing service
 [13:00:02] [Server thread/INFO]: Loaded 69062 timestamp cache entries from ./world/./data/vss-timestamps.bin
 [13:00:02] [Server thread/INFO]: [Polydex] Started matching recipes and items...
+[13:00:08] [IO-Worker-1/ERROR]: Couldn't load butterbee overlays metadata: No key entries in MapLike[{}]
+[13:00:08] [IO-Worker-1/ERROR]: Couldn't load clifftree fabric:overlays metadata: Unknown resource condition key: tectonic:config
+[13:00:08] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending pack metadata: Pack key supported_formats is deprecated starting from pack format 65. Remove supported_formats from your pack.mcmeta.
+[13:00:08] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending overlays metadata: Overlay "1.21.5" key formats is deprecated starting from pack format 65. Remove formats from your pack.mcmeta.
+[13:00:12] [Netty Epoll IO #1/WARN]: Modified mixin "vectorwing.farmersdelight.common.mixin.refabricated.RecipeBookSettingsMixin". Check debug logs for more information.
+[13:00:14] [Server thread/INFO]: [Polydex] Done! It took 11906 ms
+[13:00:16] [Netty Epoll IO #1/INFO]: URL Override is set. Gathering from config!
+[13:00:16] [Netty Epoll IO #1/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
+[13:00:16] [Netty Epoll IO #1/WARN]: No Hash in file: Please open config folder and add your hash.
+[13:00:19] [Server thread/WARN]: Modified mixin "vectorwing.farmersdelight.common.mixin.refabricated.ServerRecipeBookMixin". Check debug logs for more information.
+[13:00:19] [Server thread/INFO]: FewerSteak1914[/127.237.112.12:43255] logged in with entity id 564 at (7332.613465751152, 124.0, -6711.476692254494)
+[13:00:20] [Server thread/INFO]: FewerSteak1914 joined the game
+[13:00:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2051ms or 41 ticks behind
+[13:00:24] [Server thread/INFO]: [Polymer] Resource pack created successfully! You can find it in game folder as polymer/resource_pack.zip
+[13:00:26] [Server thread/INFO]: VSS handshake received from FewerSteak1914 (protocol v15, capabilities=1)
+[13:00:26] [Server thread/INFO]: Player FewerSteak1914 registered for VSS LOD request processing (caps=1)
