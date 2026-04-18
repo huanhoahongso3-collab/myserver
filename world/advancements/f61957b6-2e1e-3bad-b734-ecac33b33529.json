@@ -6510,6 +6510,24 @@
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/stone_tile_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-04-18 14:22:05 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/legacy_first_cobblestone_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2026-04-18 14:21:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_spear": {
+    "criteria": {
+      "has_cobblestone": "2026-04-18 14:21:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/blue_dye_from_cornflower": {
     "criteria": {
       "has_cornflower": "2026-04-18 14:00:11 +0000"
@@ -6522,9 +6540,27 @@
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/legacy_cobblestone_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2026-04-18 14:21:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
     "criteria": {
       "has_white_tulip": "2026-04-18 14:02:11 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/redstone/stone_door": {
+    "criteria": {
+      "has_stone": "2026-04-18 14:22:05 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/stone_tile_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-04-18 14:22:05 +0000"
     },
     "done": true
   },
@@ -6537,6 +6573,18 @@
   "minecraft:recipes/food/suspicious_stew_from_cornflower": {
     "criteria": {
       "has_cornflower": "2026-04-18 14:00:11 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/stone_tile_wall_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-04-18 14:22:05 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/stone_circular_paving_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2026-04-18 14:22:05 +0000"
     },
     "done": true
   },

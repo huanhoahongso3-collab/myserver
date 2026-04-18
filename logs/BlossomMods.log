@@ -1711,3 +1711,9 @@
 [2026-04-18 14:03:52] [Server thread/TRACE] (BlossomHomes): home player class_3222['FewerSteak1914'/564, l='ServerLevel[world]', x=7323.30, y=125.00, z=-6714.62] to Home{name='khang', world='minecraft:overworld', x=579.1327398218234, y=77.0, z=412.9560091374937, yaw=-12.967651, pitch=39.223503}
 [2026-04-18 14:03:52] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8 (3.0 s)
 [2026-04-18 14:03:55] [Server thread/DEBUG] (BlossomLib): genericCountdown for edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8 has ended
+[2026-04-18 14:28:19] [Server thread/TRACE] (BlossomBack): persisting deaths
+[2026-04-18 14:28:19] [Server thread/TRACE] (BlossomLib): writing BlossomBack.deaths
+[2026-04-18 14:28:19] [Server thread/ INFO] (BlossomBack): FewerSteak1914 (edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8) died at TeleportDestination{world=ServerLevel[world], x=593.3813017799438, y=18.0, z=439.05230602138676, yaw=49.13861, pitch=20.607128}
+[2026-04-18 14:28:26] [Server thread/TRACE] (BlossomBack): back (death) FewerSteak1914 (edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8) to TeleportDestination{world=ServerLevel[world], x=593.3813017799438, y=18.0, z=439.05230602138676, yaw=49.13861, pitch=20.607128}
+[2026-04-18 14:28:26] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8 (5.0 s)
+[2026-04-18 14:28:31] [Server thread/DEBUG] (BlossomLib): genericCountdown for edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8 has ended
