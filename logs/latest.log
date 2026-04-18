@@ -1653,3 +1653,15 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [09:51:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4235ms or 84 ticks behind
 [09:51:06] [Server thread/INFO]: VSS handshake received from FewerSteak1914 (protocol v15, capabilities=1)
 [09:51:06] [Server thread/INFO]: Player FewerSteak1914 registered for VSS LOD request processing (caps=1)
+[09:51:54] [Worker-Main-3/WARN]: Feature order cycle found, involved sources: [Reference{ResourceKey[minecraft:worldgen/biome / minecraft:plains]=net.minecraft.class_1959@28b16e70}, Reference{ResourceKey[minecraft:worldgen/biome / clifftree:cold_river]=net.minecraft.class_1959@37531b59}]
+[09:51:54] [Worker-Main-3/WARN]: Vanilla feature indexer failed; retrying with Biolith's resilient feature indexer...
+[09:51:55] [Worker-Main-3/INFO]: Dropping cycle-forming edge in biome clifftree:cold_river: minecraft:trees_plains -> minecraft:patch_bush
+[09:53:04] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Spectator Mode]
+[09:53:05] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Creative Mode]
+[09:53:49] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Spectator Mode]
+[09:53:49] [Server thread/ERROR]: Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_spin_head_cooldown; Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_is_oxidized
+[09:53:49] [Server thread/ERROR]: Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_spin_head_cooldown; Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_is_oxidized
+[09:53:49] [Server thread/ERROR]: Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_spin_head_cooldown; Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_is_oxidized
+[09:53:49] [Server thread/ERROR]: Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_spin_head_cooldown; Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_is_oxidized
+[09:53:50] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Survival Mode]
+[09:53:51] [Server thread/WARN]: FewerSteak1914 moved too quickly! 13.426704504358668,-2.107532811124173,9.08890766361867
