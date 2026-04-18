@@ -6530,6 +6530,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/whole_pack": {
+    "criteria": {
+      "minecraft:woods": "2026-04-18 13:57:53 +0000"
+    },
+    "done": false
+  },
   "blockus:recipes/building_blocks/mossy_charred_planks_from_vine": {
     "criteria": {
       "has_vine": "2026-04-18 13:10:56 +0000"
@@ -6617,6 +6623,12 @@
   "minecraft:recipes/combat/copper_helmet": {
     "criteria": {
       "has_copper_ingot": "2026-04-18 13:18:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2026-04-18 13:57:53 +0000"
     },
     "done": true
   },
@@ -6995,6 +7007,12 @@
   "minecraft:recipes/building_blocks/gray_stained_glass": {
     "criteria": {
       "has_glass": "2026-04-18 13:46:38 +0000"
+    },
+    "done": true
+  },
+  "rocks:recipes/building_blocks/diorite_from_splitter": {
+    "criteria": {
+      "has_diorite_splitter": "2026-04-18 13:59:22 +0000"
     },
     "done": true
   },
