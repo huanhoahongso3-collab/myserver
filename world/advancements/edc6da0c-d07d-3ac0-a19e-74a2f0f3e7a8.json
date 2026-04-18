@@ -6686,6 +6686,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2026-04-18 14:00:15 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/pink_patterned_wool": {
     "criteria": {
       "has_pink_wool": "2026-04-18 13:42:39 +0000"
@@ -7115,6 +7121,12 @@
   "minecraft:recipes/building_blocks/cyan_stained_glass": {
     "criteria": {
       "has_glass": "2026-04-18 13:46:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2026-04-18 14:00:15 +0000"
     },
     "done": true
   },
