@@ -571,6 +571,7 @@
       "cooked_porkchop": "2026-03-29 09:20:09 +0000",
       "apple": "2026-04-06 14:13:54 +0000",
       "bread": "2026-03-14 02:49:46 +0000",
+      "cookie": "2026-04-18 13:37:59 +0000",
       "cooked_mutton": "2026-03-27 15:05:18 +0000",
       "cooked_beef": "2026-03-27 15:12:00 +0000"
     },
@@ -6509,77 +6510,11 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
+  "blockus:recipes/food/cookie_block": {
     "criteria": {
-      "log_spam_fixer": "2026-04-18 13:33:04 +0000"
+      "has_cookie": "2026-04-18 13:37:56 +0000"
     },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-18 13:33:04 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-18 13:33:04 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-18 13:33:04 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-18 13:33:04 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-18 13:33:04 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-18 13:33:04 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-18 13:33:04 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-18 13:33:04 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-18 13:33:04 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-18 13:33:04 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-18 13:33:04 +0000"
-    },
-    "done": false
+    "done": true
   },
   "DataVersion": 4671
 }
