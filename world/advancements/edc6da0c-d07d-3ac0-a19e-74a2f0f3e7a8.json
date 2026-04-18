@@ -6542,6 +6542,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/melon_popsicle": {
+    "criteria": {
+      "has_melon": "2026-04-18 13:51:21 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/copper_tuff_bricks": {
     "criteria": {
       "has_copper_ingot": "2026-04-18 13:18:16 +0000"
@@ -6647,6 +6653,12 @@
   "minecraft:recipes/decorations/pink_bed": {
     "criteria": {
       "has_pink_wool": "2026-04-18 13:42:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2026-04-18 13:51:21 +0000"
     },
     "done": true
   },
@@ -6812,6 +6824,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2026-04-18 13:51:21 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/glow_berries_crate": {
     "criteria": {
       "has_glow_berries": "2026-04-18 13:33:04 +0000"
@@ -6935,6 +6953,12 @@
   "minecraft:recipes/redstone/piston": {
     "criteria": {
       "has_redstone": "2026-04-18 13:25:08 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/melon_juice": {
+    "criteria": {
+      "has_melon_slice": "2026-04-18 13:51:21 +0000"
     },
     "done": true
   },
@@ -7115,6 +7139,12 @@
   "minecraft:recipes/building_blocks/smooth_quartz_stairs": {
     "criteria": {
       "has_smooth_quartz": "2026-04-18 13:15:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2026-04-18 13:51:21 +0000"
     },
     "done": true
   },
