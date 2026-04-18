@@ -573,7 +573,8 @@
       "bread": "2026-03-14 02:49:46 +0000",
       "cookie": "2026-04-18 13:37:59 +0000",
       "cooked_mutton": "2026-03-27 15:05:18 +0000",
-      "cooked_beef": "2026-03-27 15:12:00 +0000"
+      "cooked_beef": "2026-03-27 15:12:00 +0000",
+      "carrot": "2026-04-18 14:52:56 +0000"
     },
     "done": false
   },
@@ -6510,81 +6511,33 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
+  "blockus:recipes/food/cookie_block": {
     "criteria": {
-      "log_spam_fixer": "2026-04-18 14:35:08 +0000"
+      "has_cookie": "2026-04-18 13:37:56 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_kill": {
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
     "criteria": {
-      "log_spam_fixer": "2026-04-18 14:35:08 +0000"
+      "has_cornflower": "2026-04-18 14:00:11 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_inventory_change": {
+  "minecraft:recipes/food/suspicious_stew_from_cornflower": {
     "criteria": {
-      "log_spam_fixer": "2026-04-18 14:35:08 +0000"
+      "has_cornflower": "2026-04-18 14:00:11 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/holy_wrath": {
+  "minecraft:recipes/food/suspicious_stew_from_white_tulip": {
     "criteria": {
-      "log_spam_fixer": "2026-04-18 14:35:08 +0000"
+      "has_white_tulip": "2026-04-18 14:02:11 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_block": {
+  "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
     "criteria": {
-      "log_spam_fixer": "2026-04-18 14:35:08 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-18 14:35:08 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-18 14:35:08 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-18 14:35:08 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-18 14:35:08 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-18 14:35:08 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-18 14:35:08 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-18 14:35:08 +0000"
-    },
-    "done": false
-  },
-  "blockus:recipes/building_blocks/stone_tile_slab_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2026-04-18 14:22:05 +0000"
+      "has_white_tulip": "2026-04-18 14:02:11 +0000"
     },
     "done": true
   },
@@ -6600,27 +6553,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/blue_dye_from_cornflower": {
-    "criteria": {
-      "has_cornflower": "2026-04-18 14:00:11 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/suspicious_stew_from_white_tulip": {
-    "criteria": {
-      "has_white_tulip": "2026-04-18 14:02:11 +0000"
-    },
-    "done": true
-  },
   "blockus:recipes/building_blocks/legacy_cobblestone_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2026-04-18 14:21:24 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
+  "blockus:recipes/building_blocks/stone_tile_slab_from_stone_stonecutting": {
     "criteria": {
-      "has_white_tulip": "2026-04-18 14:02:11 +0000"
+      "has_stone": "2026-04-18 14:22:05 +0000"
     },
     "done": true
   },
@@ -6636,18 +6577,6 @@
     },
     "done": true
   },
-  "blockus:recipes/food/cookie_block": {
-    "criteria": {
-      "has_cookie": "2026-04-18 13:37:56 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/suspicious_stew_from_cornflower": {
-    "criteria": {
-      "has_cornflower": "2026-04-18 14:00:11 +0000"
-    },
-    "done": true
-  },
   "blockus:recipes/building_blocks/stone_tile_wall_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2026-04-18 14:22:05 +0000"
@@ -6659,6 +6588,78 @@
       "has_stone": "2026-04-18 14:22:05 +0000"
     },
     "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-18 14:56:19 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-18 14:56:19 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-18 14:56:19 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-18 14:56:19 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-18 14:56:19 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-18 14:56:19 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-18 14:56:19 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-18 14:56:19 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-18 14:56:19 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-18 14:56:19 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-18 14:56:19 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-18 14:56:19 +0000"
+    },
+    "done": false
   },
   "DataVersion": 4671
 }
