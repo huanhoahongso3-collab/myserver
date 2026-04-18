@@ -6506,6 +6506,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_quartz_slab": {
+    "criteria": {
+      "has_smooth_quartz": "2026-04-18 13:15:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/mossy_stone_bricks_from_vine": {
     "criteria": {
       "has_vine": "2026-04-18 13:10:56 +0000"
@@ -6524,6 +6530,12 @@
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/copper_tuff_bricks": {
+    "criteria": {
+      "has_copper_ingot": "2026-04-18 13:18:16 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/large_flower_pot": {
     "criteria": {
       "has_flower_pot": "2026-04-18 13:08:11 +0000"
@@ -6533,6 +6545,12 @@
   "blockus:recipes/building_blocks/mossy_spruce_planks_from_vine": {
     "criteria": {
       "has_vine": "2026-04-18 13:10:56 +0000"
+    },
+    "done": true
+  },
+  "extended_drawers:recipes/decorations/double_drawer": {
+    "criteria": {
+      "has_chest": "2026-04-18 13:16:20 +0000"
     },
     "done": true
   },
@@ -6548,9 +6566,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/copper_helmet": {
+    "criteria": {
+      "has_copper_ingot": "2026-04-18 13:18:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/brush": {
+    "criteria": {
+      "has_copper_ingot": "2026-04-18 13:18:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/copper_shovel": {
+    "criteria": {
+      "has_copper_ingot": "2026-04-18 13:18:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/copper_pickaxe": {
+    "criteria": {
+      "has_copper_ingot": "2026-04-18 13:18:16 +0000"
+    },
+    "done": true
+  },
   "terrestria:recipes/building_blocks/mossy_volcanic_rock_cobblestone": {
     "criteria": {
       "has_mossy_ingredients": "2026-04-18 13:10:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/copper_bars": {
+    "criteria": {
+      "has_copper_ingot": "2026-04-18 13:18:16 +0000"
     },
     "done": true
   },
@@ -6563,6 +6611,12 @@
   "blockus:recipes/building_blocks/mossy_birch_planks_from_vine": {
     "criteria": {
       "has_vine": "2026-04-18 13:10:56 +0000"
+    },
+    "done": true
+  },
+  "serverbackpacks:recipes/tools/stonecutter_upgrade_backpack": {
+    "criteria": {
+      "get_chest": "2026-04-18 13:16:20 +0000"
     },
     "done": true
   },
@@ -6590,9 +6644,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/copper_trapdoor": {
+    "criteria": {
+      "has_copper_ingot": "2026-04-18 13:18:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/suspicious_stew_from_oxeye_daisy": {
     "criteria": {
       "has_oxeye_daisy": "2026-04-18 13:08:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_stairs_from_smooth_quartz_stonecutting": {
+    "criteria": {
+      "has_smooth_quartz": "2026-04-18 13:15:17 +0000"
     },
     "done": true
   },
@@ -6602,9 +6668,27 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/combat/copper_knife": {
+    "criteria": {
+      "has_copper_ingot": "2026-04-18 13:18:16 +0000"
+    },
+    "done": true
+  },
+  "serverbackpacks:recipes/tools/jukebox_upgrade_backpack": {
+    "criteria": {
+      "get_chest": "2026-04-18 13:16:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bordure_indented_banner_pattern": {
     "criteria": {
       "has_vines": "2026-04-18 13:10:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/copper_door": {
+    "criteria": {
+      "has_copper_ingot": "2026-04-18 13:18:16 +0000"
     },
     "done": true
   },
@@ -6614,15 +6698,51 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/copper_axe": {
+    "criteria": {
+      "has_copper_ingot": "2026-04-18 13:18:16 +0000"
+    },
+    "done": true
+  },
+  "extended_drawers:recipes/decorations/quad_drawer": {
+    "criteria": {
+      "has_chest": "2026-04-18 13:16:20 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/mossy_tuff_bricks_from_vine": {
     "criteria": {
       "has_vine": "2026-04-18 13:10:56 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/combat/copper_spear": {
+    "criteria": {
+      "has_copper_ingot": "2026-04-18 13:18:16 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/mossy_cherry_planks_from_vine": {
     "criteria": {
       "has_vine": "2026-04-18 13:10:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2026-04-18 13:18:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/copper_chestplate": {
+    "criteria": {
+      "has_copper_ingot": "2026-04-18 13:18:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/copper_leggings": {
+    "criteria": {
+      "has_copper_ingot": "2026-04-18 13:18:16 +0000"
     },
     "done": true
   },
@@ -6644,9 +6764,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2026-04-18 13:18:16 +0000"
+    },
+    "done": true
+  },
   "extended_drawers:recipes/decorations/access_point": {
     "criteria": {
       "has_drawer": "2026-04-18 13:05:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_nugget": {
+    "criteria": {
+      "has_copper_ingot": "2026-04-18 13:18:16 +0000"
     },
     "done": true
   },
@@ -6674,9 +6806,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_quartz_stairs": {
+    "criteria": {
+      "has_smooth_quartz": "2026-04-18 13:15:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_slab_from_smooth_quartz_stonecutting": {
+    "criteria": {
+      "has_smooth_quartz": "2026-04-18 13:15:17 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/mossy_mangrove_planks_from_vine": {
     "criteria": {
       "has_vine": "2026-04-18 13:10:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/copper_chain": {
+    "criteria": {
+      "has_copper_ingot": "2026-04-18 13:18:16 +0000"
     },
     "done": true
   },
@@ -6686,15 +6836,69 @@
     },
     "done": true
   },
+  "extended_drawers:recipes/decorations/single_drawer": {
+    "criteria": {
+      "has_chest": "2026-04-18 13:16:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/beehive": {
+    "criteria": {
+      "has_honeycomb": "2026-04-18 13:17:38 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/mossy_crimson_planks_from_vine": {
     "criteria": {
       "has_vine": "2026-04-18 13:10:56 +0000"
     },
     "done": true
   },
+  "slabs_stairs_to_block:recipes/building_blocks/slabs/smooth_quartz": {
+    "criteria": {
+      "has_slab": "2026-04-18 13:15:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/copper_sword": {
+    "criteria": {
+      "has_copper_ingot": "2026-04-18 13:18:16 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/decorations/cherry_mosaic": {
     "criteria": {
       "has_cherry_slab": "2026-04-18 13:11:28 +0000"
+    },
+    "done": true
+  },
+  "extended_drawers:recipes/decorations/compacting_drawer": {
+    "criteria": {
+      "has_chest": "2026-04-18 13:16:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/copper_boots": {
+    "criteria": {
+      "has_copper_ingot": "2026-04-18 13:18:16 +0000"
+    },
+    "done": true
+  },
+  "friendsandfoes:recipes/redstone/copper_button": {
+    "criteria": {
+      "has_copper_ingot": "2026-04-18 13:18:16 +0000"
+    },
+    "done": true
+  },
+  "slabs_stairs_to_block:recipes/building_blocks/stairs/smooth_quartz": {
+    "criteria": {
+      "has_stairs": "2026-04-18 13:15:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/copper_hoe": {
+    "criteria": {
+      "has_copper_ingot": "2026-04-18 13:18:16 +0000"
     },
     "done": true
   },
@@ -6707,6 +6911,18 @@
   "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
     "criteria": {
       "has_oxeye_daisy": "2026-04-18 13:08:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/slabs/smooth_quartz_slab": {
+    "criteria": {
+      "has_block": "2026-04-18 13:15:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2026-04-18 13:17:38 +0000"
     },
     "done": true
   },
