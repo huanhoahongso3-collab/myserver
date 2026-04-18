@@ -1744,3 +1744,6 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [09:18:01] [Worker-Main-4/ERROR]: Recoverable errors when loading section [4, 7, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
 [09:18:01] [Worker-Main-6/ERROR]: Recoverable errors when loading section [5, 7, -23]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
 [09:18:01] [Worker-Main-4/ERROR]: Recoverable errors when loading section [4, 5, -15]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[09:19:38] [Worker-Main-4/WARN]: Feature order cycle found, involved sources: [Reference{ResourceKey[minecraft:worldgen/biome / minecraft:plains]=net.minecraft.class_1959@73bca555}, Reference{ResourceKey[minecraft:worldgen/biome / clifftree:cold_river]=net.minecraft.class_1959@6f332392}]
+[09:19:38] [Worker-Main-4/WARN]: Vanilla feature indexer failed; retrying with Biolith's resilient feature indexer...
+[09:19:39] [Worker-Main-4/INFO]: Dropping cycle-forming edge in biome clifftree:cold_river: minecraft:trees_plains -> minecraft:patch_bush
