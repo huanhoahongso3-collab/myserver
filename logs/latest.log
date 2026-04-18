@@ -1753,3 +1753,22 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [10:24:17] [Netty Epoll IO #7/WARN]: No Hash in file: Please open config folder and add your hash.
 [10:24:20] [Server thread/INFO]: FewerSteak1914[/127.237.112.12:53203] logged in with entity id 114199 at (85.88651379056351, 101.0, 183.2725341715429)
 [10:24:20] [Server thread/INFO]: FewerSteak1914 joined the game
+[10:26:39] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Survival Mode]
+[10:26:45] [Server thread/INFO]: [FewerSteak1914: Stopping the server]
+[10:26:45] [Server thread/INFO]: ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[10:26:45] [Server thread/INFO]: Saving Server Backpack's data...
+[10:26:45] [Server thread/INFO]: Stopping VSS LOD request processing service
+[10:26:45] [Server thread/INFO]: Saved 70528 timestamp cache entries to ./world/./data/vss-timestamps.bin
+[10:26:45] [Server thread/INFO]: Stopping server
+[10:26:45] [Server thread/INFO]: Saving players
+[10:26:45] [Server thread/INFO]: Saving worlds
+[10:26:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10:26:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[10:26:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[10:26:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:26:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:26:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:26:45] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10:26:45] [Server Shutdown Thread/INFO]: ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[10:26:45] [Thread-7/INFO]: Thread stopped gracefully.
+[10:26:45] [Thread-8/INFO]: Thread stopped gracefully.
