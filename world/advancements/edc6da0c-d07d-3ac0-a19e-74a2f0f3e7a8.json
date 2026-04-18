@@ -6506,5 +6506,59 @@
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/large_flower_pot": {
+    "criteria": {
+      "has_flower_pot": "2026-04-18 13:08:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2026-04-18 13:08:08 +0000"
+    },
+    "done": true
+  },
+  "extended_drawers:recipes/redstone/limiter": {
+    "criteria": {
+      "has_drawer": "2026-04-18 13:05:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2026-04-18 13:08:08 +0000"
+    },
+    "done": true
+  },
+  "polychess:main/root": {
+    "criteria": {
+      "craft_chess_piece": "2026-04-18 13:07:27 +0000"
+    },
+    "done": true
+  },
+  "extended_drawers:recipes/decorations/connector": {
+    "criteria": {
+      "has_drawer": "2026-04-18 13:05:17 +0000"
+    },
+    "done": true
+  },
+  "extended_drawers:recipes/decorations/access_point": {
+    "criteria": {
+      "has_drawer": "2026-04-18 13:05:17 +0000"
+    },
+    "done": true
+  },
+  "extended_drawers:recipes/misc/upgrade_frame": {
+    "criteria": {
+      "has_drawer": "2026-04-18 13:05:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2026-04-18 13:08:08 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 4671
 }
