@@ -1,11 +1,11 @@
-[09:13:58] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.4
-[09:13:58] [ForkJoinPool-1-worker-1/WARN]: The mod "extended_drawers" contains invalid entries in its mod json:
+[09:49:38] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.4
+[09:49:38] [ForkJoinPool-1-worker-4/WARN]: The mod "extended_drawers" contains invalid entries in its mod json:
 - Unsupported root entry "recommends(disabled)" at line 45 column 25
-[09:13:58] [main/INFO]: Dependencies overridden for farmersdelight, televator, jsonpatcher, restart_detector, bil, fsit, enderscape, computercraft, filament, braverbundles, puzzleslib, extended_drawers, forgeconfigapiport, leavesbegone, leaves_us_in_peace, openloader, clumps
-[09:13:58] [main/WARN]: Warnings were found!
+[09:49:39] [main/INFO]: Dependencies overridden for farmersdelight, televator, jsonpatcher, restart_detector, bil, fsit, enderscape, computercraft, filament, braverbundles, puzzleslib, extended_drawers, forgeconfigapiport, leavesbegone, leaves_us_in_peace, openloader, clumps
+[09:49:39] [main/WARN]: Warnings were found!
  - Mod 'Forge Config API Port' (forgeconfigapiport) 21.11.1 recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
-[09:13:58] [main/INFO]: Loading 278 mods:
+[09:49:39] [main/INFO]: Loading 278 mods:
 	- alternate-current 1.9.0
 	- antixray 1.4.14
 	   |-- com_moandjiezana_toml_toml4j 0.7.2
@@ -73,7 +73,7 @@
 	   |-- map-canvas-api 0.7.0+1.21.11
 	   \-- sgui 1.12.0+1.21.11
 	- darkpaintings 21.11.1
-	- dhpos_blocks 2.0.1+1.21.11
+	- dhpos_blocks 2.1.0+1.21.11
 	- easyeula 1.1.1
 	- enderscape 2.1.0
 	- enderscape-polymer-patch 2.1.0.0+1.21.11
@@ -368,116 +368,116 @@
 	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
 	   |-- org_quiltmc_parsers_gson 0.2.1
 	   \-- org_quiltmc_parsers_json 0.2.1
-[09:13:59] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/runner/work/myserver/myserver/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[09:13:59] [main/INFO]: Compatibility level set to JAVA_21
-[09:13:59] [main/WARN]: Reference map 'balm.refmap.json' for balm.mixins.json could not be read. If this is a development environment you can ignore this message
-[09:13:59] [main/WARN]: Reference map 'balm.refmap.json' for balm.api.mixins.json could not be read. If this is a development environment you can ignore this message
-[09:13:59] [main/WARN]: Reference map 'balm.refmap.json' for balm.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[09:13:59] [main/WARN]: Reference map 'clumps.refmap.json' for clumps.mixins.json could not be read. If this is a development environment you can ignore this message
-[09:13:59] [main/WARN]: Reference map 'darkpaintings.refmap.json' for darkpaintings.mixins.json could not be read. If this is a development environment you can ignore this message
-[09:13:59] [main/WARN]: Reference map 'darkpaintings.refmap.json' for darkpaintings.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[09:13:59] [main/WARN]: Reference map 'friendsandfoes.refmap.json' for friendsandfoes-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[09:13:59] [main/WARN]: Reference map 'friendsandfoes.refmap.json' for friendsandfoes-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[09:13:59] [main/WARN]: Reference map 'graphlib-core.refmap.json' for graphlib-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[09:13:59] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
-[09:13:59] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[09:13:59] [main/WARN]: Reference map 'kleeslabs.refmap.json' for kleeslabs.mixins.json could not be read. If this is a development environment you can ignore this message
-[09:13:59] [main/WARN]: Reference map 'kleeslabs.refmap.json' for kleeslabs.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[09:13:59] [main/WARN]: Reference map 'kuma_api.refmap.json' for kuma_api.mixins.json could not be read. If this is a development environment you can ignore this message
-[09:13:59] [main/WARN]: Reference map 'kuma_api.refmap.json' for kuma_api.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[09:13:59] [main/INFO]: Loaded configuration file for Lithium: 168 options available, 1 override(s) found.
-[09:13:59] [main/WARN]: Reference map 'TerraBlender-fabric-refmap.json' for terrablender.mixins.json could not be read. If this is a development environment you can ignore this message
-[09:13:59] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
-[09:13:59] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[09:14:00] [main/WARN]: Error loading class: io/github/mattidragon/extendeddrawers/extensions/registry/ExtensionBlocks (java.lang.ClassNotFoundException: io/github/mattidragon/extendeddrawers/extensions/registry/ExtensionBlocks)
-[09:14:00] [main/WARN]: Error loading class: net/minecraft/class_9934 (java.lang.ClassNotFoundException: net/minecraft/class_9934)
-[09:14:00] [main/WARN]: @Mixin target net.minecraft.class_9934 was not found farmersdelight.mixins.json:refabricated.GhostSlotsInvoker from mod farmersdelight
-[09:14:00] [main/WARN]: Error loading class: vazkii/botania/common/entity/EntityManaBurst (java.lang.ClassNotFoundException: vazkii/botania/common/entity/EntityManaBurst)
-[09:14:00] [main/WARN]: Error loading class: vazkii/botania/common/item/ItemLaputaShard (java.lang.ClassNotFoundException: vazkii/botania/common/item/ItemLaputaShard)
-[09:14:00] [main/WARN]: @Mixin target vazkii.botania.common.item.ItemLaputaShard was not found goml.mixins.json:compat.BotaniaItemLaputaShardMixin from mod goml
-[09:14:00] [main/WARN]: Error loading class: org/dynmap/Client (java.lang.ClassNotFoundException: org/dynmap/Client)
-[09:14:00] [main/WARN]: Error loading class: net/minecraft/class_938 (java.lang.ClassNotFoundException: net/minecraft/class_938)
-[09:14:00] [main/WARN]: @Mixin target net.minecraft.class_938 was not found journeymap.mixins.json:client.SalmonRendererAccessor from mod journeymap
-[09:14:00] [main/INFO]: Force-disabling mixin 'ai.task.memory_change_counting.BehaviorMixin' as rule 'mixin.ai.task.memory_change_counting' (added by mods [smartbrainlib]) disables it and children
-[09:14:00] [main/INFO]: Force-disabling mixin 'ai.task.memory_change_counting.BrainMixin' as rule 'mixin.ai.task.memory_change_counting' (added by mods [smartbrainlib]) disables it and children
-[09:14:00] [main/WARN]: Error loading class: net/minecraft/class_12074 (java.lang.ClassNotFoundException: net/minecraft/class_12074)
-[09:14:00] [main/WARN]: @Mixin target net.minecraft.class_12074 was not found resourcefullib.mixins.json:BlockOutlineRenderStateMixin from mod resourcefullib
-[09:14:00] [main/WARN]: Error loading class: lol/sylvie/bedframe/geyser/translator/BlockTranslator (java.lang.ClassNotFoundException: lol/sylvie/bedframe/geyser/translator/BlockTranslator)
-[09:14:00] [main/WARN]: @Mixin target lol.sylvie.bedframe.geyser.translator.BlockTranslator was not found servback.mixin.json:compat.BedframeBlockTranslatorMixin from mod serverbackpacks
-[09:14:00] [main/WARN]: Error loading class: lol/sylvie/bedframe/geyser/translator/ItemTranslator (java.lang.ClassNotFoundException: lol/sylvie/bedframe/geyser/translator/ItemTranslator)
-[09:14:00] [main/WARN]: @Mixin target lol.sylvie.bedframe.geyser.translator.ItemTranslator was not found servback.mixin.json:compat.BedframeItemTranslatorMixin from mod serverbackpacks
-[09:14:00] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
-[09:14:01] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[09:14:04] [main/WARN]: Cancelled mixin net.bunten.enderscape.mixin.LivingEntityMixin. Check debug logs for more information.
-[09:14:05] [main/WARN]: Cancelled mixin net.bunten.enderscape.mixin.ItemEntityMixin. Check debug logs for more information.
-[09:14:05] [main/WARN]: Cancelled mixin net.bunten.enderscape.mixin.NoteBlockInstrumentMixin. Check debug logs for more information.
-[09:14:08] [main/WARN]: Cancelled mixin net.bunten.enderscape.mixin.ExperienceOrbMixin. Check debug logs for more information.
-[09:14:09] [main/WARN]: Cancelled mixin net.bunten.enderscape.mixin.AbstractMinecartMixin. Check debug logs for more information.
-[09:14:11] [main/INFO]: Successfully initialized antixray for fabric
-[09:14:12] [main/INFO]: Biolith for Fabric is initializing...
-[09:14:12] [main/INFO]: Enabling Biolith's TerraBlender compatibility layer.
-[09:14:12] [main/INFO]: Tag time :gun:!
-[09:14:12] [main/ERROR]: Couldn't load butterbee overlays metadata: No key entries in MapLike[{}]
-[09:14:12] [main/ERROR]: Couldn't load clifftree fabric:overlays metadata: Unknown resource condition key: fabric:and
-[09:14:13] [main/ERROR]: Couldn't load mr_true_ending pack metadata: Pack key supported_formats is deprecated starting from pack format 65. Remove supported_formats from your pack.mcmeta.
-[09:14:13] [main/ERROR]: Couldn't load mr_true_ending overlays metadata: Overlay "1.21.5" key formats is deprecated starting from pack format 65. Remove formats from your pack.mcmeta.
-[09:14:13] [main/ERROR]: Couldn't load terralith fabric:overlays metadata: Unknown resource condition key: terralith:config; Unknown resource condition key: terralith:config; Unknown resource condition key: terralith:config; Unknown resource condition key: terralith:config; Unknown resource condition key: terralith:config; Unknown resource condition key: terralith:config; Unknown resource condition key: terralith:config
-[09:14:20] [main/INFO]: Enabling Cinderscapes' Biolith worldgen module.
-[09:14:20] [main/INFO]: Initializing Common Events 1.4.0+1.21.4...
-[09:14:20] [main/INFO]: [Common Events] Finding mods to scan...
-[09:14:20] [main/INFO]: [Common Events] Scanning 0 mods...
-[09:14:20] [main/INFO]: [Common Events] Scanned 0 mods in 0s, 1ms.
-[09:14:21] [main/INFO]: Polymer addon detected, enabling Polymer compat!
-[09:14:21] [main/INFO]: ConstructionWand says hello - may the odds be ever in your favor.
-[09:14:21] [main/INFO]: dhpOS Blocks zostało załadowane miaał
-[09:14:21] [main/INFO]: Deserializing EnderscapeConfig from './config/enderscape.json5'
-[09:14:22] [main/ERROR]: No data fixer registered for magnia_sprout
-[09:14:22] [main/ERROR]: No data fixer registered for magnia_radio
-[09:14:22] [main/INFO]: Enderscape initialized!
-[09:14:22] [main/INFO]: Loaded config farmersdelight-common.json
-[09:14:22] [main/INFO]: Loaded config farmersdelight-client.json
-[09:14:22] [main/INFO]: Deserializing FriendsAndFoesConfig from 'config/friendsandfoes.json'
-[09:14:23] [main/INFO]: Initializing GraphLib...
-[09:14:23] [main/INFO]: GraphLib Initialized.
-[09:14:23] [main/INFO]: Why are there so many illagers?
-[09:14:23] [main/INFO]: Initializing ServerSide Packet Registries
-[09:14:24] [main/INFO]: Definitely not up to no good
-[09:14:24] [main/INFO]: MoreFurnaces loaded!
-[09:14:24] [main/INFO]: MoreTools loaded!
-[09:14:24] [main/INFO]: - Plushables Loaded -
-[09:14:24] [main/INFO]: Successfully added mod assets for polychess 0.1.3+1.21.11
-[09:14:24] [main/INFO]: Loading polymer-qol config
-[09:14:24] [main/INFO]: [REI] Registered plugin provider REIComputerCraft [computercraft] for REICommonPlugin
-[09:14:24] [main/INFO]: [REI] Registered plugin provider CommonREIPlugin [farmersdelight] for REICommonPlugin
-[09:14:24] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
-[09:14:24] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REICommonPlugin
-[09:14:24] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REICommonPlugin
-[09:14:24] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REICommonPlugin
-[09:14:24] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
-[09:14:24] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
-[09:14:24] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
-[09:14:24] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
-[09:14:24] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
-[09:14:24] [main/INFO]: Loaded backpack config: large.json
-[09:14:24] [main/INFO]: Loaded backpack config: small.json
-[09:14:24] [main/INFO]: Loaded backpack config: medium.json
-[09:14:24] [main/INFO]: Finished registering 51 items.
-[09:14:24] [main/INFO]: SHA1Runtime Initializing
-[09:14:24] [main/INFO]: now 35% more secure
-[09:14:24] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[09:14:24] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[09:14:24] [main/INFO]: Registered region woods_and_mires:biomes to index 1 for type OVERWORLD
-[09:14:25] [main/INFO]: Enabling Terrestria's Biolith worldgen module.
-[09:14:26] [Via-Mappingloader-1/INFO]: Loading block connection mappings ...
-[09:14:27] [Via-Mappingloader-1/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
-[09:14:27] [main/INFO]: Loading translations...
-[09:14:27] [main/INFO]: Registering protocols...
-[09:14:27] [main/INFO]: ViaVersion detected server version: 1.21.11 (774)
-[09:14:27] [ViaFabric-2/INFO]: Finished mapping loading, shutting down loader executor.
-[09:14:27] [main/INFO]: Wlodzimiers Blocks zostało załadowane miaał
-[09:14:27] [main/WARN]: Missing log of wood type 'blockus:raw_bamboo'! Skipping...
-[09:14:27] [main/WARN]: Missing log of wood type 'blockus:charred'! Skipping...
-[09:14:28] [main/ERROR]: Failed to set alias 'blockus:white_oak_mosaic' -> 'blockus:pale_oak_mosaic' for registry 'minecraft:block'!
+[09:49:39] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/runner/work/myserver/myserver/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[09:49:39] [main/INFO]: Compatibility level set to JAVA_21
+[09:49:39] [main/WARN]: Reference map 'balm.refmap.json' for balm.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:49:39] [main/WARN]: Reference map 'balm.refmap.json' for balm.api.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:49:39] [main/WARN]: Reference map 'balm.refmap.json' for balm.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:49:39] [main/WARN]: Reference map 'clumps.refmap.json' for clumps.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:49:39] [main/WARN]: Reference map 'darkpaintings.refmap.json' for darkpaintings.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:49:39] [main/WARN]: Reference map 'darkpaintings.refmap.json' for darkpaintings.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:49:39] [main/WARN]: Reference map 'friendsandfoes.refmap.json' for friendsandfoes-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:49:39] [main/WARN]: Reference map 'friendsandfoes.refmap.json' for friendsandfoes-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:49:39] [main/WARN]: Reference map 'graphlib-core.refmap.json' for graphlib-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:49:39] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:49:39] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:49:39] [main/WARN]: Reference map 'kleeslabs.refmap.json' for kleeslabs.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:49:39] [main/WARN]: Reference map 'kleeslabs.refmap.json' for kleeslabs.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:49:39] [main/WARN]: Reference map 'kuma_api.refmap.json' for kuma_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:49:39] [main/WARN]: Reference map 'kuma_api.refmap.json' for kuma_api.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:49:39] [main/INFO]: Loaded configuration file for Lithium: 168 options available, 1 override(s) found.
+[09:49:39] [main/WARN]: Reference map 'TerraBlender-fabric-refmap.json' for terrablender.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:49:39] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:49:39] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:49:40] [main/WARN]: Error loading class: io/github/mattidragon/extendeddrawers/extensions/registry/ExtensionBlocks (java.lang.ClassNotFoundException: io/github/mattidragon/extendeddrawers/extensions/registry/ExtensionBlocks)
+[09:49:40] [main/WARN]: Error loading class: net/minecraft/class_9934 (java.lang.ClassNotFoundException: net/minecraft/class_9934)
+[09:49:40] [main/WARN]: @Mixin target net.minecraft.class_9934 was not found farmersdelight.mixins.json:refabricated.GhostSlotsInvoker from mod farmersdelight
+[09:49:40] [main/WARN]: Error loading class: vazkii/botania/common/entity/EntityManaBurst (java.lang.ClassNotFoundException: vazkii/botania/common/entity/EntityManaBurst)
+[09:49:40] [main/WARN]: Error loading class: vazkii/botania/common/item/ItemLaputaShard (java.lang.ClassNotFoundException: vazkii/botania/common/item/ItemLaputaShard)
+[09:49:40] [main/WARN]: @Mixin target vazkii.botania.common.item.ItemLaputaShard was not found goml.mixins.json:compat.BotaniaItemLaputaShardMixin from mod goml
+[09:49:40] [main/WARN]: Error loading class: org/dynmap/Client (java.lang.ClassNotFoundException: org/dynmap/Client)
+[09:49:40] [main/WARN]: Error loading class: net/minecraft/class_938 (java.lang.ClassNotFoundException: net/minecraft/class_938)
+[09:49:40] [main/WARN]: @Mixin target net.minecraft.class_938 was not found journeymap.mixins.json:client.SalmonRendererAccessor from mod journeymap
+[09:49:40] [main/INFO]: Force-disabling mixin 'ai.task.memory_change_counting.BehaviorMixin' as rule 'mixin.ai.task.memory_change_counting' (added by mods [smartbrainlib]) disables it and children
+[09:49:40] [main/INFO]: Force-disabling mixin 'ai.task.memory_change_counting.BrainMixin' as rule 'mixin.ai.task.memory_change_counting' (added by mods [smartbrainlib]) disables it and children
+[09:49:40] [main/WARN]: Error loading class: net/minecraft/class_12074 (java.lang.ClassNotFoundException: net/minecraft/class_12074)
+[09:49:40] [main/WARN]: @Mixin target net.minecraft.class_12074 was not found resourcefullib.mixins.json:BlockOutlineRenderStateMixin from mod resourcefullib
+[09:49:40] [main/WARN]: Error loading class: lol/sylvie/bedframe/geyser/translator/BlockTranslator (java.lang.ClassNotFoundException: lol/sylvie/bedframe/geyser/translator/BlockTranslator)
+[09:49:40] [main/WARN]: @Mixin target lol.sylvie.bedframe.geyser.translator.BlockTranslator was not found servback.mixin.json:compat.BedframeBlockTranslatorMixin from mod serverbackpacks
+[09:49:40] [main/WARN]: Error loading class: lol/sylvie/bedframe/geyser/translator/ItemTranslator (java.lang.ClassNotFoundException: lol/sylvie/bedframe/geyser/translator/ItemTranslator)
+[09:49:40] [main/WARN]: @Mixin target lol.sylvie.bedframe.geyser.translator.ItemTranslator was not found servback.mixin.json:compat.BedframeItemTranslatorMixin from mod serverbackpacks
+[09:49:40] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
+[09:49:41] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[09:49:44] [main/WARN]: Cancelled mixin net.bunten.enderscape.mixin.LivingEntityMixin. Check debug logs for more information.
+[09:49:45] [main/WARN]: Cancelled mixin net.bunten.enderscape.mixin.ItemEntityMixin. Check debug logs for more information.
+[09:49:45] [main/WARN]: Cancelled mixin net.bunten.enderscape.mixin.NoteBlockInstrumentMixin. Check debug logs for more information.
+[09:49:48] [main/WARN]: Cancelled mixin net.bunten.enderscape.mixin.ExperienceOrbMixin. Check debug logs for more information.
+[09:49:48] [main/WARN]: Cancelled mixin net.bunten.enderscape.mixin.AbstractMinecartMixin. Check debug logs for more information.
+[09:49:50] [main/INFO]: Successfully initialized antixray for fabric
+[09:49:52] [main/INFO]: Biolith for Fabric is initializing...
+[09:49:52] [main/INFO]: Enabling Biolith's TerraBlender compatibility layer.
+[09:49:52] [main/INFO]: Tag time :gun:!
+[09:49:52] [main/ERROR]: Couldn't load butterbee overlays metadata: No key entries in MapLike[{}]
+[09:49:52] [main/ERROR]: Couldn't load clifftree fabric:overlays metadata: Unknown resource condition key: fabric:and
+[09:49:52] [main/ERROR]: Couldn't load mr_true_ending pack metadata: Pack key supported_formats is deprecated starting from pack format 65. Remove supported_formats from your pack.mcmeta.
+[09:49:52] [main/ERROR]: Couldn't load mr_true_ending overlays metadata: Overlay "1.21.5" key formats is deprecated starting from pack format 65. Remove formats from your pack.mcmeta.
+[09:49:52] [main/ERROR]: Couldn't load terralith fabric:overlays metadata: Unknown resource condition key: terralith:config; Unknown resource condition key: terralith:config; Unknown resource condition key: terralith:config; Unknown resource condition key: terralith:config; Unknown resource condition key: terralith:config; Unknown resource condition key: terralith:config; Unknown resource condition key: terralith:config
+[09:50:00] [main/INFO]: Enabling Cinderscapes' Biolith worldgen module.
+[09:50:00] [main/INFO]: Initializing Common Events 1.4.0+1.21.4...
+[09:50:00] [main/INFO]: [Common Events] Finding mods to scan...
+[09:50:00] [main/INFO]: [Common Events] Scanning 0 mods...
+[09:50:00] [main/INFO]: [Common Events] Scanned 0 mods in 0s, 2ms.
+[09:50:00] [main/INFO]: Polymer addon detected, enabling Polymer compat!
+[09:50:00] [main/INFO]: ConstructionWand says hello - may the odds be ever in your favor.
+[09:50:00] [main/INFO]: dhpOS Blocks zostało załadowane miaał
+[09:50:01] [main/INFO]: Deserializing EnderscapeConfig from './config/enderscape.json5'
+[09:50:01] [main/ERROR]: No data fixer registered for magnia_sprout
+[09:50:01] [main/ERROR]: No data fixer registered for magnia_radio
+[09:50:01] [main/INFO]: Enderscape initialized!
+[09:50:01] [main/INFO]: Loaded config farmersdelight-common.json
+[09:50:01] [main/INFO]: Loaded config farmersdelight-client.json
+[09:50:02] [main/INFO]: Deserializing FriendsAndFoesConfig from 'config/friendsandfoes.json'
+[09:50:02] [main/INFO]: Initializing GraphLib...
+[09:50:02] [main/INFO]: GraphLib Initialized.
+[09:50:02] [main/INFO]: Why are there so many illagers?
+[09:50:02] [main/INFO]: Initializing ServerSide Packet Registries
+[09:50:03] [main/INFO]: Definitely not up to no good
+[09:50:03] [main/INFO]: MoreFurnaces loaded!
+[09:50:03] [main/INFO]: MoreTools loaded!
+[09:50:03] [main/INFO]: - Plushables Loaded -
+[09:50:03] [main/INFO]: Successfully added mod assets for polychess 0.1.3+1.21.11
+[09:50:03] [main/INFO]: Loading polymer-qol config
+[09:50:03] [main/INFO]: [REI] Registered plugin provider REIComputerCraft [computercraft] for REICommonPlugin
+[09:50:03] [main/INFO]: [REI] Registered plugin provider CommonREIPlugin [farmersdelight] for REICommonPlugin
+[09:50:03] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[09:50:03] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REICommonPlugin
+[09:50:03] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REICommonPlugin
+[09:50:03] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REICommonPlugin
+[09:50:03] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[09:50:03] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[09:50:03] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[09:50:03] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[09:50:03] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[09:50:03] [main/INFO]: Loaded backpack config: large.json
+[09:50:03] [main/INFO]: Loaded backpack config: small.json
+[09:50:03] [main/INFO]: Loaded backpack config: medium.json
+[09:50:03] [main/INFO]: Finished registering 51 items.
+[09:50:03] [main/INFO]: SHA1Runtime Initializing
+[09:50:03] [main/INFO]: now 35% more secure
+[09:50:03] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[09:50:03] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[09:50:03] [main/INFO]: Registered region woods_and_mires:biomes to index 1 for type OVERWORLD
+[09:50:04] [main/INFO]: Enabling Terrestria's Biolith worldgen module.
+[09:50:05] [Via-Mappingloader-1/INFO]: Loading block connection mappings ...
+[09:50:06] [Via-Mappingloader-1/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
+[09:50:06] [main/INFO]: Loading translations...
+[09:50:06] [main/INFO]: Registering protocols...
+[09:50:06] [main/INFO]: ViaVersion detected server version: 1.21.11 (774)
+[09:50:06] [ViaFabric-2/INFO]: Finished mapping loading, shutting down loader executor.
+[09:50:06] [main/INFO]: Wlodzimiers Blocks zostało załadowane miaał
+[09:50:06] [main/WARN]: Missing log of wood type 'blockus:raw_bamboo'! Skipping...
+[09:50:06] [main/WARN]: Missing log of wood type 'blockus:charred'! Skipping...
+[09:50:07] [main/ERROR]: Failed to set alias 'blockus:white_oak_mosaic' -> 'blockus:pale_oak_mosaic' for registry 'minecraft:block'!
 java.lang.IllegalArgumentException: Tried adding blockus:white_oak_mosaic as an alias, but it is already present in registry ResourceKey[minecraft:root / minecraft:block]
 	at knot//net.minecraft.class_2370.addAlias(class_2370.java:2412)
 	at knot//net.minecraft.class_2370.handler$ebl000$simple-registry-aliases$onFreeze(class_2370.java:543)
@@ -494,7 +494,7 @@ java.lang.IllegalArgumentException: Tried adding blockus:white_oak_mosaic as an 
 	at eu.pb4.mrpackserver.launch.Launcher.execute(Launcher.java:118)
 	at eu.pb4.mrpackserver.launch.Launcher.launchFinal(Launcher.java:141)
 	at eu.pb4.mrpackserver.Main.main(Main.java:128)
-[09:14:28] [main/ERROR]: Failed to set alias 'blockus:mossy_white_oak_planks' -> 'blockus:mossy_pale_oak_planks' for registry 'minecraft:block'!
+[09:50:07] [main/ERROR]: Failed to set alias 'blockus:mossy_white_oak_planks' -> 'blockus:mossy_pale_oak_planks' for registry 'minecraft:block'!
 java.lang.IllegalArgumentException: Tried adding blockus:mossy_white_oak_planks as an alias, but it is already present in registry ResourceKey[minecraft:root / minecraft:block]
 	at knot//net.minecraft.class_2370.addAlias(class_2370.java:2412)
 	at knot//net.minecraft.class_2370.handler$ebl000$simple-registry-aliases$onFreeze(class_2370.java:543)
@@ -511,7 +511,7 @@ java.lang.IllegalArgumentException: Tried adding blockus:mossy_white_oak_planks 
 	at eu.pb4.mrpackserver.launch.Launcher.execute(Launcher.java:118)
 	at eu.pb4.mrpackserver.launch.Launcher.launchFinal(Launcher.java:141)
 	at eu.pb4.mrpackserver.Main.main(Main.java:128)
-[09:14:28] [main/ERROR]: Failed to set alias 'blockus:herringbone_white_oak_planks' -> 'blockus:herringbone_pale_oak_planks' for registry 'minecraft:block'!
+[09:50:07] [main/ERROR]: Failed to set alias 'blockus:herringbone_white_oak_planks' -> 'blockus:herringbone_pale_oak_planks' for registry 'minecraft:block'!
 java.lang.IllegalArgumentException: Tried adding blockus:herringbone_white_oak_planks as an alias, but it is already present in registry ResourceKey[minecraft:root / minecraft:block]
 	at knot//net.minecraft.class_2370.addAlias(class_2370.java:2412)
 	at knot//net.minecraft.class_2370.handler$ebl000$simple-registry-aliases$onFreeze(class_2370.java:543)
@@ -528,7 +528,7 @@ java.lang.IllegalArgumentException: Tried adding blockus:herringbone_white_oak_p
 	at eu.pb4.mrpackserver.launch.Launcher.execute(Launcher.java:118)
 	at eu.pb4.mrpackserver.launch.Launcher.launchFinal(Launcher.java:141)
 	at eu.pb4.mrpackserver.Main.main(Main.java:128)
-[09:14:28] [main/ERROR]: Failed to set alias 'blockus:white_oak_mosaic' -> 'blockus:pale_oak_mosaic' for registry 'minecraft:item'!
+[09:50:07] [main/ERROR]: Failed to set alias 'blockus:white_oak_mosaic' -> 'blockus:pale_oak_mosaic' for registry 'minecraft:item'!
 java.lang.IllegalArgumentException: Tried adding blockus:white_oak_mosaic as an alias, but it is already present in registry ResourceKey[minecraft:root / minecraft:item]
 	at knot//net.minecraft.class_2370.addAlias(class_2370.java:2412)
 	at knot//net.minecraft.class_2370.handler$ebl000$simple-registry-aliases$onFreeze(class_2370.java:543)
@@ -545,7 +545,7 @@ java.lang.IllegalArgumentException: Tried adding blockus:white_oak_mosaic as an 
 	at eu.pb4.mrpackserver.launch.Launcher.execute(Launcher.java:118)
 	at eu.pb4.mrpackserver.launch.Launcher.launchFinal(Launcher.java:141)
 	at eu.pb4.mrpackserver.Main.main(Main.java:128)
-[09:14:28] [main/ERROR]: Failed to set alias 'blockus:mossy_white_oak_planks' -> 'blockus:mossy_pale_oak_planks' for registry 'minecraft:item'!
+[09:50:07] [main/ERROR]: Failed to set alias 'blockus:mossy_white_oak_planks' -> 'blockus:mossy_pale_oak_planks' for registry 'minecraft:item'!
 java.lang.IllegalArgumentException: Tried adding blockus:mossy_white_oak_planks as an alias, but it is already present in registry ResourceKey[minecraft:root / minecraft:item]
 	at knot//net.minecraft.class_2370.addAlias(class_2370.java:2412)
 	at knot//net.minecraft.class_2370.handler$ebl000$simple-registry-aliases$onFreeze(class_2370.java:543)
@@ -562,7 +562,7 @@ java.lang.IllegalArgumentException: Tried adding blockus:mossy_white_oak_planks 
 	at eu.pb4.mrpackserver.launch.Launcher.execute(Launcher.java:118)
 	at eu.pb4.mrpackserver.launch.Launcher.launchFinal(Launcher.java:141)
 	at eu.pb4.mrpackserver.Main.main(Main.java:128)
-[09:14:28] [main/ERROR]: Failed to set alias 'blockus:herringbone_white_oak_planks' -> 'blockus:herringbone_pale_oak_planks' for registry 'minecraft:item'!
+[09:50:07] [main/ERROR]: Failed to set alias 'blockus:herringbone_white_oak_planks' -> 'blockus:herringbone_pale_oak_planks' for registry 'minecraft:item'!
 java.lang.IllegalArgumentException: Tried adding blockus:herringbone_white_oak_planks as an alias, but it is already present in registry ResourceKey[minecraft:root / minecraft:item]
 	at knot//net.minecraft.class_2370.addAlias(class_2370.java:2412)
 	at knot//net.minecraft.class_2370.handler$ebl000$simple-registry-aliases$onFreeze(class_2370.java:543)
@@ -579,129 +579,35 @@ java.lang.IllegalArgumentException: Tried adding blockus:herringbone_white_oak_p
 	at eu.pb4.mrpackserver.launch.Launcher.execute(Launcher.java:118)
 	at eu.pb4.mrpackserver.launch.Launcher.launchFinal(Launcher.java:141)
 	at eu.pb4.mrpackserver.Main.main(Main.java:128)
-[09:14:28] [main/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
-[09:14:28] [main/WARN]: Failed to parse resource pack prompt 'This server uses resource pack to enhance gameplay with custom textures and models. It might be unplayable without them.'
-com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setStrictness(Strictness.LENIENT) to accept malformed JSON at line 1 column 1 path $
-See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json
-	at knot//com.google.gson.internal.Streams.parse(Streams.java:58)
-	at knot//com.google.gson.JsonParser.parseReader(JsonParser.java:144)
-	at knot//net.minecraft.class_11341.method_71359(class_11341.java:31)
-	at knot//net.minecraft.class_11341.method_71360(class_11341.java:47)
-	at knot//net.minecraft.class_3806.method_43661(class_3806.java:165)
-	at knot//net.minecraft.class_3806.method_43660(class_3806.java:199)
-	at knot//net.minecraft.class_3806.<init>(class_3806.java:138)
-	at knot//net.minecraft.class_3806.method_16714(class_3806.java:154)
-	at knot//net.minecraft.class_3807.<init>(class_3807.java:12)
-	at knot//net.minecraft.server.Main.main(Main.java:115)
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)
-	at eu.pb4.mrpackserver.launch.Launcher.execute(Launcher.java:118)
-	at eu.pb4.mrpackserver.launch.Launcher.launchFinal(Launcher.java:141)
-	at eu.pb4.mrpackserver.Main.main(Main.java:128)
-Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setStrictness(Strictness.LENIENT) to accept malformed JSON at line 1 column 1 path $
-See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json
-	at knot//com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1817)
-	at knot//com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1613)
-	at knot//com.google.gson.stream.JsonReader.doPeek(JsonReader.java:729)
-	at knot//com.google.gson.stream.JsonReader.peek(JsonReader.java:547)
-	at knot//com.google.gson.internal.Streams.parse(Streams.java:44)
-	... 17 more
-[09:14:28] [main/ERROR]: Couldn't load butterbee overlays metadata: No key entries in MapLike[{}]
-[09:14:28] [main/ERROR]: Couldn't load clifftree fabric:overlays metadata: Unknown resource condition key: tectonic:config
-[09:14:28] [main/ERROR]: Couldn't load butterbee overlays metadata: No key entries in MapLike[{}]
-[09:14:28] [main/ERROR]: Couldn't load clifftree fabric:overlays metadata: Unknown resource condition key: tectonic:config
-[09:14:28] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[09:14:28] [main/ERROR]: Couldn't load srl_cm/patbox-translations-2025-04-10.zip pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
-[09:14:28] [main/ERROR]: Couldn't load srl_cm/DarkPaintings.zip pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
-[09:14:28] [main/ERROR]: Couldn't load butterbee overlays metadata: No key entries in MapLike[{}]
-[09:14:28] [main/ERROR]: Couldn't load clifftree fabric:overlays metadata: Unknown resource condition key: tectonic:config
-[09:14:29] [main/INFO]: filament models registered: 2
-[09:14:30] [main/WARN]: Any alias warnings about trim_material which follow this message are harmless.
-[09:14:30] [main/WARN]: Adding cinderscapes:sulfur_quartz as an alias for cinderscapes:cinderscapes_sulfur_quartz, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:trim_material]
-[09:14:30] [main/WARN]: Adding cinderscapes:smoky_quartz as an alias for cinderscapes:cinderscapes_smoky_quartz, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:trim_material]
-[09:14:30] [main/WARN]: Adding cinderscapes:rose_quartz as an alias for cinderscapes:cinderscapes_rose_quartz, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:trim_material]
-[09:14:30] [main/WARN]: Adding enderscape:magnia_crags as an alias for enderscape:magnia_fields, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:worldgen/biome]
-[09:14:30] [main/WARN]: Adding enderscape:lightspeed as an alias for enderscape:resonance, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:enchantment]
-[09:14:32] [main/INFO]: filament models registered: 2
-[09:14:32] [Worker-Main-2/ERROR]: Couldn't parse data file 'cw:thorn_1' from 'cw:item_modifier/thorn_1.json': DataResult.Error['Failed to get element minecraft:thorn missed input: {"minecraft:thorn":1}': net.minecraft.class_5642@3078af4f]
-[09:14:33] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:entities/husk@minecraft:loot_table}.pools[2].entries[0]: Missing element more_mob_heads:entities/husk of type minecraft:loot_table
-[09:14:33] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:blocks/snow_block@minecraft:loot_table}.pools[0].entries[0]: Unreachable entry!
-[09:14:33] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:bang' from 'dhpos_blocks:recipe/bang.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:sand"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:sand"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:sand"}; Second: Not a string: {"item":"minecraft:sand"}']
-[09:14:33] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:c5_ducanh' from 'dhpos_blocks:recipe/c5_ducanh.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:cobblestone"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:cobblestone"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:cobblestone"}; Second: Not a string: {"item":"minecraft:cobblestone"}']
-[09:14:33] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:c5_duong' from 'dhpos_blocks:recipe/c5_duong.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:granite"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:granite"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:granite"}; Second: Not a string: {"item":"minecraft:granite"}']
-[09:14:33] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:c5_giang' from 'dhpos_blocks:recipe/c5_giang.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:dirt"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:dirt"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:dirt"}; Second: Not a string: {"item":"minecraft:dirt"}']
-[09:14:33] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:c5_khanh' from 'dhpos_blocks:recipe/c5_khanh.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"tag":"minecraft:logs"}]; Second: Failed to parse either. First: Not a string: {"tag":"minecraft:logs"}; Second: Failed to parse either. First: Not a json array: {"tag":"minecraft:logs"}; Second: Not a string: {"tag":"minecraft:logs"}']
-[09:14:33] [Worker-Main-1/ERROR]: Couldn't parse data file 'polymania:casting/golden_bars' from 'polymania:recipe/casting/golden_bars.json': DataResult.Error['Unknown registry key in ResourceKey[minecraft:root / minecraft:recipe_serializer]: polyfactory:casting/simple']
-[09:14:33] [Worker-Main-1/ERROR]: Couldn't parse data file 'polymania:casting/golden_chain_with_molds' from 'polymania:recipe/casting/golden_chain_with_molds.json': DataResult.Error['Unknown registry key in ResourceKey[minecraft:root / minecraft:recipe_serializer]: polyfactory:casting/simple']
-[09:14:33] [Worker-Main-1/ERROR]: Couldn't parse data file 'minecraft:chain' from 'minecraft:recipe/chain.json': DataResult.Error['Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain']
-[09:14:33] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:chau' from 'dhpos_blocks:recipe/chau.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:andesite"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:andesite"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:andesite"}; Second: Not a string: {"item":"minecraft:andesite"}']
-[09:14:33] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:chauanh' from 'dhpos_blocks:recipe/chauanh.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:stick"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:stick"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:stick"}; Second: Not a string: {"item":"minecraft:stick"}']
-[09:14:33] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:dangminh' from 'dhpos_blocks:recipe/dangminh.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"tag":"minecraft:logs"}]; Second: Failed to parse either. First: Not a string: {"tag":"minecraft:logs"}; Second: Failed to parse either. First: Not a json array: {"tag":"minecraft:logs"}; Second: Not a string: {"tag":"minecraft:logs"}']
-[09:14:33] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:danh' from 'dhpos_blocks:recipe/danh.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:cobblestone"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:cobblestone"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:cobblestone"}; Second: Not a string: {"item":"minecraft:cobblestone"}']
-[09:14:33] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:dao' from 'dhpos_blocks:recipe/dao.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:diorite"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:diorite"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:diorite"}; Second: Not a string: {"item":"minecraft:diorite"}']
-[09:14:33] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:daophuc' from 'dhpos_blocks:recipe/daophuc.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:granite"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:granite"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:granite"}; Second: Not a string: {"item":"minecraft:granite"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:dat' from 'dhpos_blocks:recipe/dat.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:gravel"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:gravel"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:gravel"}; Second: Not a string: {"item":"minecraft:gravel"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:diep' from 'dhpos_blocks:recipe/diep.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:granite"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:granite"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:granite"}; Second: Not a string: {"item":"minecraft:granite"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:ducanh' from 'dhpos_blocks:recipe/ducanh.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:dirt"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:dirt"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:dirt"}; Second: Not a string: {"item":"minecraft:dirt"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:duong' from 'dhpos_blocks:recipe/duong.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:gravel"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:gravel"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:gravel"}; Second: Not a string: {"item":"minecraft:gravel"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:duongminh' from 'dhpos_blocks:recipe/duongminh.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:granite"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:granite"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:granite"}; Second: Not a string: {"item":"minecraft:granite"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'minecraft:end_stone_bricks' from 'minecraft:recipe/end_stone_bricks.json': DataResult.Error['No key type in MapLike[{}]']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:giang' from 'dhpos_blocks:recipe/giang.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:stone"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:stone"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:stone"}; Second: Not a string: {"item":"minecraft:stone"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:ha' from 'dhpos_blocks:recipe/ha.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:stone"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:stone"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:stone"}; Second: Not a string: {"item":"minecraft:stone"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:haan' from 'dhpos_blocks:recipe/haan.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:deepslate"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:deepslate"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:deepslate"}; Second: Not a string: {"item":"minecraft:deepslate"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:hai' from 'dhpos_blocks:recipe/hai.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:diorite"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:diorite"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:diorite"}; Second: Not a string: {"item":"minecraft:diorite"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:haiyen' from 'dhpos_blocks:recipe/haiyen.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"tag":"minecraft:logs"}]; Second: Failed to parse either. First: Not a string: {"tag":"minecraft:logs"}; Second: Failed to parse either. First: Not a json array: {"tag":"minecraft:logs"}; Second: Not a string: {"tag":"minecraft:logs"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:haminh' from 'dhpos_blocks:recipe/haminh.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:diorite"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:diorite"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:diorite"}; Second: Not a string: {"item":"minecraft:diorite"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:hamy' from 'dhpos_blocks:recipe/hamy.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:cobblestone"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:cobblestone"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:cobblestone"}; Second: Not a string: {"item":"minecraft:cobblestone"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:hoaian' from 'dhpos_blocks:recipe/hoaian.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:gravel"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:gravel"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:gravel"}; Second: Not a string: {"item":"minecraft:gravel"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:khang' from 'dhpos_blocks:recipe/khang.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:sand"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:sand"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:sand"}; Second: Not a string: {"item":"minecraft:sand"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:khanh' from 'dhpos_blocks:recipe/khanh.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:gravel"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:gravel"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:gravel"}; Second: Not a string: {"item":"minecraft:gravel"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:khanhs' from 'dhpos_blocks:recipe/khanhs.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:gravel"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:gravel"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:gravel"}; Second: Not a string: {"item":"minecraft:gravel"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:khoinguyen' from 'dhpos_blocks:recipe/khoinguyen.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:granite"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:granite"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:granite"}; Second: Not a string: {"item":"minecraft:granite"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:kieuthao' from 'dhpos_blocks:recipe/kieuthao.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:stone"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:stone"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:stone"}; Second: Not a string: {"item":"minecraft:stone"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:lam' from 'dhpos_blocks:recipe/lam.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:granite"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:granite"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:granite"}; Second: Not a string: {"item":"minecraft:granite"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:lehaiyen' from 'dhpos_blocks:recipe/lehaiyen.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:granite"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:granite"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:granite"}; Second: Not a string: {"item":"minecraft:granite"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:ly' from 'dhpos_blocks:recipe/ly.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:gravel"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:gravel"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:gravel"}; Second: Not a string: {"item":"minecraft:gravel"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:myan' from 'dhpos_blocks:recipe/myan.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:cobblestone"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:cobblestone"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:cobblestone"}; Second: Not a string: {"item":"minecraft:cobblestone"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:ngan' from 'dhpos_blocks:recipe/ngan.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:gravel"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:gravel"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:gravel"}; Second: Not a string: {"item":"minecraft:gravel"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:ngoc' from 'dhpos_blocks:recipe/ngoc.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:cobblestone"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:cobblestone"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:cobblestone"}; Second: Not a string: {"item":"minecraft:cobblestone"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:ngocanh' from 'dhpos_blocks:recipe/ngocanh.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:diorite"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:diorite"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:diorite"}; Second: Not a string: {"item":"minecraft:diorite"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:nguyen' from 'dhpos_blocks:recipe/nguyen.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:granite"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:granite"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:granite"}; Second: Not a string: {"item":"minecraft:granite"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:nguyenlinh' from 'dhpos_blocks:recipe/nguyenlinh.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:dirt"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:dirt"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:dirt"}; Second: Not a string: {"item":"minecraft:dirt"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:nguyenminh' from 'dhpos_blocks:recipe/nguyenminh.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"tag":"minecraft:logs"}]; Second: Failed to parse either. First: Not a string: {"tag":"minecraft:logs"}; Second: Failed to parse either. First: Not a json array: {"tag":"minecraft:logs"}; Second: Not a string: {"tag":"minecraft:logs"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:nguyenphuc' from 'dhpos_blocks:recipe/nguyenphuc.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"tag":"minecraft:planks"}]; Second: Failed to parse either. First: Not a string: {"tag":"minecraft:planks"}; Second: Failed to parse either. First: Not a json array: {"tag":"minecraft:planks"}; Second: Not a string: {"tag":"minecraft:planks"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:nhatminh' from 'dhpos_blocks:recipe/nhatminh.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:stick"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:stick"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:stick"}; Second: Not a string: {"item":"minecraft:stick"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:nhutruc' from 'dhpos_blocks:recipe/nhutruc.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:gravel"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:gravel"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:gravel"}; Second: Not a string: {"item":"minecraft:gravel"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:phat' from 'dhpos_blocks:recipe/phat.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:stick"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:stick"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:stick"}; Second: Not a string: {"item":"minecraft:stick"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:phuong' from 'dhpos_blocks:recipe/phuong.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:gravel"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:gravel"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:gravel"}; Second: Not a string: {"item":"minecraft:gravel"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:phuonganh' from 'dhpos_blocks:recipe/phuonganh.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"tag":"minecraft:logs"}]; Second: Failed to parse either. First: Not a string: {"tag":"minecraft:logs"}; Second: Failed to parse either. First: Not a json array: {"tag":"minecraft:logs"}; Second: Not a string: {"tag":"minecraft:logs"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:quang' from 'dhpos_blocks:recipe/quang.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"tag":"minecraft:planks"}]; Second: Failed to parse either. First: Not a string: {"tag":"minecraft:planks"}; Second: Failed to parse either. First: Not a json array: {"tag":"minecraft:planks"}; Second: Not a string: {"tag":"minecraft:planks"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:quy' from 'dhpos_blocks:recipe/quy.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"tag":"minecraft:logs"}]; Second: Failed to parse either. First: Not a string: {"tag":"minecraft:logs"}; Second: Failed to parse either. First: Not a json array: {"tag":"minecraft:logs"}; Second: Not a string: {"tag":"minecraft:logs"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:quynh' from 'dhpos_blocks:recipe/quynh.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"tag":"minecraft:planks"}]; Second: Failed to parse either. First: Not a string: {"tag":"minecraft:planks"}; Second: Failed to parse either. First: Not a json array: {"tag":"minecraft:planks"}; Second: Not a string: {"tag":"minecraft:planks"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:quynhlam' from 'dhpos_blocks:recipe/quynhlam.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:deepslate"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:deepslate"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:deepslate"}; Second: Not a string: {"item":"minecraft:deepslate"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'polymania:spout/golden_chain_with_molds' from 'polymania:recipe/spout/golden_chain_with_molds.json': DataResult.Error['Unknown registry key in ResourceKey[minecraft:root / minecraft:recipe_serializer]: polyfactory:spout/simple']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:tai' from 'dhpos_blocks:recipe/tai.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:stone"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:stone"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:stone"}; Second: Not a string: {"item":"minecraft:stone"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:tan' from 'dhpos_blocks:recipe/tan.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:stone"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:stone"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:stone"}; Second: Not a string: {"item":"minecraft:stone"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'televator:televator' from 'televator:recipe/televator.json': DataResult.Error['Map entry 'X' : Failed to parse either. First: Not a JSON object: "polyfactory:steel_plate"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "polyfactory:steel_plate"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: polyfactory:steel_plate']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:thai' from 'dhpos_blocks:recipe/thai.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"tag":"minecraft:logs"}]; Second: Failed to parse either. First: Not a string: {"tag":"minecraft:logs"}; Second: Failed to parse either. First: Not a json array: {"tag":"minecraft:logs"}; Second: Not a string: {"tag":"minecraft:logs"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:thaian' from 'dhpos_blocks:recipe/thaian.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:stick"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:stick"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:stick"}; Second: Not a string: {"item":"minecraft:stick"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:thanh' from 'dhpos_blocks:recipe/thanh.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"tag":"minecraft:logs"}]; Second: Failed to parse either. First: Not a string: {"tag":"minecraft:logs"}; Second: Failed to parse either. First: Not a json array: {"tag":"minecraft:logs"}; Second: Not a string: {"tag":"minecraft:logs"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:thanhlam' from 'dhpos_blocks:recipe/thanhlam.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:stick"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:stick"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:stick"}; Second: Not a string: {"item":"minecraft:stick"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:thienminh' from 'dhpos_blocks:recipe/thienminh.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:dirt"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:dirt"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:dirt"}; Second: Not a string: {"item":"minecraft:dirt"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:thlinh' from 'dhpos_blocks:recipe/thlinh.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"tag":"minecraft:planks"}]; Second: Failed to parse either. First: Not a string: {"tag":"minecraft:planks"}; Second: Failed to parse either. First: Not a json array: {"tag":"minecraft:planks"}; Second: Not a string: {"tag":"minecraft:planks"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:thuy' from 'dhpos_blocks:recipe/thuy.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"tag":"minecraft:logs"}]; Second: Failed to parse either. First: Not a string: {"tag":"minecraft:logs"}; Second: Failed to parse either. First: Not a json array: {"tag":"minecraft:logs"}; Second: Not a string: {"tag":"minecraft:logs"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:tplinh' from 'dhpos_blocks:recipe/tplinh.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"tag":"minecraft:planks"}]; Second: Failed to parse either. First: Not a string: {"tag":"minecraft:planks"}; Second: Failed to parse either. First: Not a json array: {"tag":"minecraft:planks"}; Second: Not a string: {"tag":"minecraft:planks"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:truc' from 'dhpos_blocks:recipe/truc.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:stick"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:stick"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:stick"}; Second: Not a string: {"item":"minecraft:stick"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:tuan' from 'dhpos_blocks:recipe/tuan.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:stick"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:stick"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:stick"}; Second: Not a string: {"item":"minecraft:stick"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:uyen' from 'dhpos_blocks:recipe/uyen.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:diorite"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:diorite"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:diorite"}; Second: Not a string: {"item":"minecraft:diorite"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:vhlinh' from 'dhpos_blocks:recipe/vhlinh.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:diorite"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:diorite"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:diorite"}; Second: Not a string: {"item":"minecraft:diorite"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:vuthao' from 'dhpos_blocks:recipe/vuthao.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:deepslate"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:deepslate"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:deepslate"}; Second: Not a string: {"item":"minecraft:deepslate"}']
-[09:14:34] [Worker-Main-1/ERROR]: Couldn't parse data file 'dhpos_blocks:vy' from 'dhpos_blocks:recipe/vy.json': DataResult.Error['Map entry '#' : Failed to parse either. First: No key fabric:type in MapLike[{"item":"minecraft:sand"}]; Second: Failed to parse either. First: Not a string: {"item":"minecraft:sand"}; Second: Failed to parse either. First: Not a json array: {"item":"minecraft:sand"}; Second: Not a string: {"item":"minecraft:sand"}']
-[09:14:35] [main/INFO]: Loaded 7249 recipes
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_hardattrb_4v3a940p6m
+[09:50:07] [main/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
+[09:50:07] [main/ERROR]: Couldn't load butterbee overlays metadata: No key entries in MapLike[{}]
+[09:50:07] [main/ERROR]: Couldn't load clifftree fabric:overlays metadata: Unknown resource condition key: tectonic:config
+[09:50:07] [main/ERROR]: Couldn't load butterbee overlays metadata: No key entries in MapLike[{}]
+[09:50:07] [main/ERROR]: Couldn't load clifftree fabric:overlays metadata: Unknown resource condition key: tectonic:config
+[09:50:07] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[09:50:07] [main/ERROR]: Couldn't load srl_cm/patbox-translations-2025-04-10.zip pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+[09:50:07] [main/ERROR]: Couldn't load srl_cm/DarkPaintings.zip pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+[09:50:07] [main/ERROR]: Couldn't load butterbee overlays metadata: No key entries in MapLike[{}]
+[09:50:07] [main/ERROR]: Couldn't load clifftree fabric:overlays metadata: Unknown resource condition key: tectonic:config
+[09:50:07] [main/INFO]: filament models registered: 2
+[09:50:09] [main/WARN]: Any alias warnings about trim_material which follow this message are harmless.
+[09:50:09] [main/WARN]: Adding cinderscapes:sulfur_quartz as an alias for cinderscapes:cinderscapes_sulfur_quartz, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:trim_material]
+[09:50:09] [main/WARN]: Adding cinderscapes:rose_quartz as an alias for cinderscapes:cinderscapes_rose_quartz, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:trim_material]
+[09:50:09] [main/WARN]: Adding cinderscapes:smoky_quartz as an alias for cinderscapes:cinderscapes_smoky_quartz, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:trim_material]
+[09:50:09] [main/WARN]: Adding enderscape:magnia_crags as an alias for enderscape:magnia_fields, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:worldgen/biome]
+[09:50:09] [main/WARN]: Adding enderscape:lightspeed as an alias for enderscape:resonance, but the latter doesn't exist in registry ResourceKey[minecraft:root / minecraft:enchantment]
+[09:50:11] [main/INFO]: filament models registered: 2
+[09:50:11] [Worker-Main-2/ERROR]: Couldn't parse data file 'cw:thorn_1' from 'cw:item_modifier/thorn_1.json': DataResult.Error['Failed to get element minecraft:thorn missed input: {"minecraft:thorn":1}': net.minecraft.class_5642@21ce19ac]
+[09:50:11] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:entities/husk@minecraft:loot_table}.pools[2].entries[0]: Missing element more_mob_heads:entities/husk of type minecraft:loot_table
+[09:50:11] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:blocks/snow_block@minecraft:loot_table}.pools[0].entries[0]: Unreachable entry!
+[09:50:12] [Worker-Main-1/ERROR]: Couldn't parse data file 'polymania:casting/golden_bars' from 'polymania:recipe/casting/golden_bars.json': DataResult.Error['Unknown registry key in ResourceKey[minecraft:root / minecraft:recipe_serializer]: polyfactory:casting/simple']
+[09:50:12] [Worker-Main-1/ERROR]: Couldn't parse data file 'polymania:casting/golden_chain_with_molds' from 'polymania:recipe/casting/golden_chain_with_molds.json': DataResult.Error['Unknown registry key in ResourceKey[minecraft:root / minecraft:recipe_serializer]: polyfactory:casting/simple']
+[09:50:12] [Worker-Main-1/ERROR]: Couldn't parse data file 'minecraft:chain' from 'minecraft:recipe/chain.json': DataResult.Error['Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain']
+[09:50:12] [Worker-Main-1/ERROR]: Couldn't parse data file 'minecraft:end_stone_bricks' from 'minecraft:recipe/end_stone_bricks.json': DataResult.Error['No key type in MapLike[{}]']
+[09:50:13] [Worker-Main-1/ERROR]: Couldn't parse data file 'polymania:spout/golden_chain_with_molds' from 'polymania:recipe/spout/golden_chain_with_molds.json': DataResult.Error['Unknown registry key in ResourceKey[minecraft:root / minecraft:recipe_serializer]: polyfactory:spout/simple']
+[09:50:13] [Worker-Main-1/ERROR]: Couldn't parse data file 'televator:televator' from 'televator:recipe/televator.json': DataResult.Error['Map entry 'X' : Failed to parse either. First: Not a JSON object: "polyfactory:steel_plate"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "polyfactory:steel_plate"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: polyfactory:steel_plate']
+[09:50:14] [main/INFO]: Loaded 7314 recipes
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_hardattrb_4v3a940p6m
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Can't find element 'minecraft:generic.knockback_resistance' of type 'minecraft:attribute' at position 41: ...resistance<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -718,7 +624,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_geardrop_vzgm2yd8
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_geardrop_vzgm2yd8
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -735,7 +641,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_urlo5rc
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_urlo5rc
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -752,7 +658,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_swapper_gf6wj
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_swapper_gf6wj
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -769,7 +675,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_ohk2f79k3
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_ohk2f79k3
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Can't find element 'minecraft:generic.knockback_resistance' of type 'minecraft:attribute' at position 51: ...resistance<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -786,7 +692,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_hardattrb_o16dbzbee2
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_hardattrb_o16dbzbee2
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Can't find element 'minecraft:generic.movement_speed' of type 'minecraft:attribute' at position 35: ...ment_speed<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -803,7 +709,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_57ytkq058
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_57ytkq058
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -820,7 +726,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_ssmob_mrxackcvp4h
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_ssmob_mrxackcvp4h
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -837,7 +743,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_geardrop_40x8suh
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_geardrop_40x8suh
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -854,7 +760,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_swapper_9ook
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_swapper_9ook
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -871,7 +777,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function fokus:nxf/_ignored_pu0a
+[09:50:14] [main/ERROR]: Failed to load function fokus:nxf/_ignored_pu0a
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -888,7 +794,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_geardrop_t8ffm2j
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_geardrop_t8ffm2j
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -905,7 +811,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_geardrop_11e1en
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_geardrop_11e1en
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -922,7 +828,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_summon_wrn3e12f
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_summon_wrn3e12f
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -939,7 +845,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_geardrop_06f45q6
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_geardrop_06f45q6
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -956,7 +862,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_the_hclo
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_the_hclo
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -973,7 +879,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_move_je9naqw83
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_move_je9naqw83
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Invalid or unknown entity type 'minecraft:boat' at position 31: ...s @e[type=<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -990,7 +896,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_hardattrb_2rxpisd1
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_hardattrb_2rxpisd1
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Can't find element 'minecraft:generic.attack_knockback' of type 'minecraft:attribute' at position 37: ..._knockback<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1007,7 +913,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_geardrop_0v4cbp643
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_geardrop_0v4cbp643
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1024,7 +930,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_swapper_im5zagzp
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_swapper_im5zagzp
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1041,7 +947,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_mf1se
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_mf1se
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1058,7 +964,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_hardattrb_yvjs6770
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_hardattrb_yvjs6770
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Can't find element 'minecraft:generic.follow_range' of type 'minecraft:attribute' at position 43: ...llow_range<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1075,7 +981,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_doubler_tkp4o
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_doubler_tkp4o
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Incorrect argument for command at position 123: ...bler] run <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1092,7 +998,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_geardrop_0sca
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_geardrop_0sca
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1109,7 +1015,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/nosleep_zrm91r5
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/nosleep_zrm91r5
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Incorrect argument for command at position 9: gamerule <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1126,7 +1032,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_spawn_r5lrt8c
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_spawn_r5lrt8c
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1143,7 +1049,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function fokus:nxf/gho44fdg
+[09:50:14] [main/ERROR]: Failed to load function fokus:nxf/gho44fdg
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown criterion 'minecraft.custom:minecraft.play_one_minute' at position 33: ...dd fk.ptm <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1160,7 +1066,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_4tmqdwdnqe
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_4tmqdwdnqe
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1177,7 +1083,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_23kreuyx
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_23kreuyx
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1194,7 +1100,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_summon_xog2s0w3d
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_summon_xog2s0w3d
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1211,7 +1117,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_lbsus71p2
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_lbsus71p2
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Can't find element 'minecraft:generic.knockback_resistance' of type 'minecraft:attribute' at position 51: ...resistance<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1228,7 +1134,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_cin7
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_cin7
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1245,7 +1151,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_2bpb
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_2bpb
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1262,7 +1168,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_spider_1mtwe8681md
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_spider_1mtwe8681md
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown block type 'minecraft:grass' at position 23: ...ock ~ ~ ~ <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1279,7 +1185,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_geardrop_36bssv5ui5
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_geardrop_36bssv5ui5
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1296,7 +1202,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_shoot_kr3ddvrw
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_shoot_kr3ddvrw
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1313,7 +1219,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/geardrop_j1hrnzof
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/geardrop_j1hrnzof
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Can't find element 'cw:protection_3' in registry 'minecraft:item_modifier' at position 49: ...otection_3<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1330,7 +1236,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function usefulsnowball:nxf/qxvi8s7soo
+[09:50:14] [main/ERROR]: Failed to load function usefulsnowball:nxf/qxvi8s7soo
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Invalid or unknown entity type 'minecraft:potion' at position 173: ...loud,type=<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1347,7 +1253,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_swapper_xnuqiafw0
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_swapper_xnuqiafw0
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1364,7 +1270,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_y5aso
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_y5aso
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1381,7 +1287,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_geardrop_ipmax
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_geardrop_ipmax
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1398,7 +1304,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_spawn_qs9vfp
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_spawn_qs9vfp
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1415,7 +1321,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_ca8n93u
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_ca8n93u
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1432,7 +1338,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_summon_2ploaj1ral
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_summon_2ploaj1ral
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1449,7 +1355,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_ssmob_hfkl
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_ssmob_hfkl
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1466,7 +1372,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_tu5h
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_ability_tu5h
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1483,7 +1389,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_hardattrb_ge85etbvadi
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_hardattrb_ge85etbvadi
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Can't find element 'minecraft:generic.movement_speed' of type 'minecraft:attribute' at position 35: ...ment_speed<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1500,7 +1406,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_hardattrb_o5madojrx3x
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_hardattrb_o5madojrx3x
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Can't find element 'minecraft:generic.attack_speed' of type 'minecraft:attribute' at position 33: ...tack_speed<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1517,7 +1423,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_summon_wfqs
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_summon_wfqs
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Can't find element 'minecraft:boat' of type 'minecraft:entity_type' at position 57: ...craft:boat<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1534,7 +1440,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_hardattrb_78jy
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_hardattrb_78jy
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Can't find element 'minecraft:generic.max_health' of type 'minecraft:attribute' at position 31: ...max_health<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1551,7 +1457,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/nosleep_disable_4kaofj
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/nosleep_disable_4kaofj
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Incorrect argument for command at position 9: gamerule <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1568,7 +1474,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_hardattrb_8eop
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_hardattrb_8eop
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Can't find element 'minecraft:generic.follow_range' of type 'minecraft:attribute' at position 43: ...llow_range<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1585,7 +1491,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function fokus:nxf/ak1fwqlfj
+[09:50:14] [main/ERROR]: Failed to load function fokus:nxf/ak1fwqlfj
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Expected whitespace to end one argument, but found trailing data at position 18: ... function <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1602,7 +1508,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_ssmob_ao4vithwd51
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_ssmob_ao4vithwd51
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1619,7 +1525,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/ERROR]: Failed to load function cw:nxf/_ignored_geardrop_9t3ajsnaamm
+[09:50:14] [main/ERROR]: Failed to load function cw:nxf/_ignored_geardrop_9t3ajsnaamm
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
@@ -1636,393 +1542,69 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
 	... 7 more
-[09:14:35] [main/INFO]: Loaded 6827 advancements
-[09:14:35] [main/INFO]: Loaded 27 entity animations
-[09:14:35] [main/INFO]: Loaded 1 moobloom variants
-[09:14:35] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 880 translation keys
-[09:14:36] [main/WARN]: Recipe polydecorations:canvas_clone can't be placed due to empty ingredients and will be ignored
-[09:14:36] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[09:14:36] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[09:14:36] [main/INFO]: Applied 2842 biome modifications to 240 of 240 new biomes in 276.5 ms
-[09:14:37] [Server thread/INFO]: Loading config from ./config/computercraft-server.toml
-[09:14:37] [IO-Worker-1/INFO]: [Polymer] Starting resource pack generation...
-[09:14:37] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
-[09:14:37] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@3eaddd75 for service interface journeymap.api.services.ClientPlatformService
-[09:14:37] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@2e746174 for service interface journeymap.api.services.CommonPlatformService
-[09:14:37] [Server thread/INFO]: Loading Server Backpack's data on server starting...
-[09:14:37] [Server thread/INFO]: Loaded File-based data format as Server Backpack's data.
-[09:14:37] [IO-Worker-1/ERROR]: Couldn't load butterbee overlays metadata: No key entries in MapLike[{}]
-[09:14:37] [IO-Worker-1/ERROR]: Couldn't load clifftree fabric:overlays metadata: Unknown resource condition key: tectonic:config
-[09:14:37] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending pack metadata: Pack key supported_formats is deprecated starting from pack format 65. Remove supported_formats from your pack.mcmeta.
-[09:14:37] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending overlays metadata: Overlay "1.21.5" key formats is deprecated starting from pack format 65. Remove formats from your pack.mcmeta.
-[09:14:37] [Server thread/INFO]: Starting background profiler...
-[09:14:38] [Server thread/ERROR]: Invalid path : Invalid path ''
-[09:14:38] [Server thread/ERROR]: Invalid path : Invalid path ''
-[09:14:38] [Server thread/ERROR]: Invalid path : Invalid path ''
-[09:14:38] [Server thread/ERROR]: Invalid path : Invalid path ''
-[09:14:38] [Server thread/ERROR]: Invalid path : Invalid path ''
-[09:14:38] [Server thread/ERROR]: Invalid path : Invalid path ''
-[09:14:38] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[09:14:38] [Server thread/INFO]: Loading properties
-[09:14:38] [Server thread/INFO]: Default game type: SURVIVAL
-[09:14:38] [Server thread/INFO]: Generating keypair
-[09:14:38] [Server thread/INFO]: Starting Minecraft server on *:5610
-[09:14:38] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[09:14:38] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[09:14:38] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[09:14:38] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[09:14:38] [Server thread/INFO]: Preparing level "world"
-[09:14:40] [Server thread/INFO]: Loading 25 persistent chunks...
-[09:14:40] [Server thread/INFO]: Preparing spawn area: 28%
-[09:14:41] [Server thread/INFO]: Preparing spawn area: 28%
-[09:14:41] [Server thread/INFO]: Preparing spawn area: 28%
-[09:14:42] [Server thread/INFO]: Preparing spawn area: 28%
-[09:14:42] [Server thread/INFO]: Preparing spawn area: 28%
-[09:14:43] [Server thread/INFO]: Preparing spawn area: 28%
-[09:14:43] [Server thread/INFO]: Preparing spawn area: 28%
-[09:14:44] [Server thread/INFO]: Preparing spawn area: 28%
-[09:14:44] [IO-Worker-1/ERROR]: Invalid path in mod resource-pack journeymap: journeymap:lang/message/splash-en_US.json, ignoring
-[09:14:44] [IO-Worker-1/ERROR]: Invalid path in mod resource-pack leaves_us_in_peace: leaves_us_in_peace:lang/no_no‌.json, ignoring
-[09:14:44] [Server thread/INFO]: Preparing spawn area: 28%
-[09:14:45] [Server thread/INFO]: Preparing spawn area: 28%
-[09:14:45] [IO-Worker-1/ERROR]: Invalid path in mod resource-pack viaversion: viaversion:data/en_US.properties, ignoring
-[09:14:45] [IO-Worker-1/ERROR]: Invalid path in mod resource-pack viaversion: viaversion:data/blockNumberToString1.12.json, ignoring
-[09:14:45] [IO-Worker-1/ERROR]: Invalid path in mod resource-pack viaversion: viaversion:data/blockIds1.12to1.13.json, ignoring
-[09:14:45] [IO-Worker-1/ERROR]: Invalid path in mod resource-pack viaversion: viaversion:data/blockConnections.nbt, ignoring
-[09:14:45] [Server thread/INFO]: Preparing spawn area: 28%
-[09:14:46] [Server thread/INFO]: Preparing spawn area: 28%
-[09:14:46] [Server thread/INFO]: Preparing spawn area: 28%
-[09:14:47] [Server thread/INFO]: Preparing spawn area: 28%
-[09:14:48] [Server thread/INFO]: Preparing spawn area: 28%
-[09:14:48] [Server thread/INFO]: Preparing spawn area: 28%
-[09:14:48] [Server thread/INFO]: Preparing spawn area: 97%
-[09:14:48] [Server thread/INFO]: Time elapsed: 8002 ms
-[09:14:48] [Server thread/INFO]: Done (10.072s)! For help, type "help"
-[09:14:49] [Server thread/INFO]: [REI] ****************************************
-[09:14:49] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for START.
-[09:14:49] [Server thread/INFO]: [REI] Plugins (5):
-[09:14:49] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[09:14:49] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[09:14:49] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[09:14:49] [Server thread/INFO]: [REI]  - (0.00) CommonREIPlugin of CommonREIPlugin [farmersdelight]
-[09:14:49] [Server thread/INFO]: [REI]  - (0.00) REIComputerCraft of REIComputerCraft [computercraft]
-[09:14:49] [Server thread/INFO]: [REI] ****************************************
-[09:14:49] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for START in 940.5 μs, totaling 78.47 ms.
-[09:14:49] [Server thread/INFO]: [REI] ****************************************
-[09:14:49] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for END.
-[09:14:49] [Server thread/INFO]: [REI] Plugins (5):
-[09:14:49] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[09:14:49] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[09:14:49] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[09:14:49] [Server thread/INFO]: [REI]  - (0.00) CommonREIPlugin of CommonREIPlugin [farmersdelight]
-[09:14:49] [Server thread/INFO]: [REI]  - (0.00) REIComputerCraft of REIComputerCraft [computercraft]
-[09:14:49] [Server thread/INFO]: [REI] ****************************************
-[09:14:49] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for END in 729.5 μs, totaling 169.0 ms.
-[09:14:49] [Server thread/INFO]: Starting VSS LOD request processing service
-[09:14:49] [Server thread/INFO]: Loaded 61410 timestamp cache entries from ./world/./data/vss-timestamps.bin
-[09:14:49] [Server thread/INFO]: [Polydex] Started matching recipes and items...
-[09:14:56] [IO-Worker-1/ERROR]: Couldn't load butterbee overlays metadata: No key entries in MapLike[{}]
-[09:14:56] [IO-Worker-1/ERROR]: Couldn't load clifftree fabric:overlays metadata: Unknown resource condition key: tectonic:config
-[09:14:56] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending pack metadata: Pack key supported_formats is deprecated starting from pack format 65. Remove supported_formats from your pack.mcmeta.
-[09:14:56] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending overlays metadata: Overlay "1.21.5" key formats is deprecated starting from pack format 65. Remove formats from your pack.mcmeta.
-[09:15:02] [Server thread/INFO]: [Polydex] Done! It took 12621 ms
-[09:15:08] [Server thread/INFO]: [Polymer] Resource pack created successfully! You can find it in game folder as polymer/resource_pack.zip
-[09:15:48] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[09:17:50] [Netty Epoll IO #2/WARN]: Modified mixin "vectorwing.farmersdelight.common.mixin.refabricated.RecipeBookSettingsMixin". Check debug logs for more information.
-[09:17:53] [Netty Epoll IO #2/INFO]: URL Override is set. Gathering from config!
-[09:17:53] [Netty Epoll IO #2/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
-[09:17:53] [Netty Epoll IO #2/WARN]: No Hash in file: Please open config folder and add your hash.
-[09:17:55] [Server thread/WARN]: Modified mixin "vectorwing.farmersdelight.common.mixin.refabricated.ServerRecipeBookMixin". Check debug logs for more information.
-[09:17:55] [Server thread/INFO]: FewerSteak1914[/127.237.112.12:57959] logged in with entity id 403 at (238.76997452543236, 125.0, -192.27858974914437)
-[09:17:56] [Server thread/INFO]: FewerSteak1914 joined the game
-[09:17:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2448ms or 48 ticks behind
-[09:17:58] [Server thread/INFO]: VSS handshake received from FewerSteak1914 (protocol v15, capabilities=1)
-[09:17:58] [Server thread/INFO]: Player FewerSteak1914 registered for VSS LOD request processing (caps=1)
-[09:18:00] [Worker-Main-4/ERROR]: Recoverable errors when loading section [5, 7, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
-[09:18:00] [Worker-Main-4/ERROR]: Recoverable errors when loading section [5, 6, -14]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
-[09:18:00] [Worker-Main-5/ERROR]: Recoverable errors when loading section [5, 5, -15]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
-[09:18:01] [Worker-Main-4/ERROR]: Recoverable errors when loading section [4, 7, -12]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
-[09:18:01] [Worker-Main-6/ERROR]: Recoverable errors when loading section [5, 7, -23]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
-[09:18:01] [Worker-Main-4/ERROR]: Recoverable errors when loading section [4, 5, -15]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
-[09:19:38] [Worker-Main-4/WARN]: Feature order cycle found, involved sources: [Reference{ResourceKey[minecraft:worldgen/biome / minecraft:plains]=net.minecraft.class_1959@73bca555}, Reference{ResourceKey[minecraft:worldgen/biome / clifftree:cold_river]=net.minecraft.class_1959@6f332392}]
-[09:19:38] [Worker-Main-4/WARN]: Vanilla feature indexer failed; retrying with Biolith's resilient feature indexer...
-[09:19:39] [Worker-Main-4/INFO]: Dropping cycle-forming edge in biome clifftree:cold_river: minecraft:trees_plains -> minecraft:patch_bush
-[09:20:01] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Creative Mode]
-[09:20:23] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 475,-458
-[09:20:23] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 478,-458
-[09:20:23] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 479,-458
-[09:20:23] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 480,-458
-[09:20:23] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 481,-458
-[09:20:23] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 482,-458
-[09:20:23] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 483,-458
-[09:20:23] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 484,-458
-[09:20:23] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 485,-458
-[09:20:23] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 486,-458
-[09:20:23] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 487,-458
-[09:20:23] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 488,-458
-[09:20:23] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 490,-458
-[09:20:23] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 494,-453
-[09:20:23] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 494,-452
-[09:20:23] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 494,-450
-[09:20:23] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 494,-448
-[09:20:23] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 494,-447
-[09:20:23] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 494,-446
-[09:20:23] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 494,-445
-[09:20:23] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 494,-444
-[09:20:23] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 494,-443
-[09:20:23] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 494,-442
-[09:20:23] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 494,-441
-[09:20:23] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 494,-440
-[09:20:23] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 494,-439
-[09:21:55] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 382,-414
-[09:21:55] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 382,-417
-[09:21:55] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 382,-418
-[09:21:55] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 382,-419
-[09:21:55] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 382,-427
-[09:21:58] [VSS-TimestampSave/INFO]: Saved 62029 timestamp cache entries to ./world/./data/vss-timestamps.bin
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 435,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 434,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 433,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 432,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 431,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 430,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 429,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 428,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 427,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 426,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 425,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 424,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 423,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 422,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 421,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 420,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 419,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 418,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 417,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 416,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 415,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 414,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 413,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 412,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 411,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 410,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 409,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 408,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 407,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 406,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 405,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 404,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 403,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 402,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 401,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 400,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 399,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 398,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 397,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 396,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 395,-314
-[09:24:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 394,-314
-[09:25:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 576,-415
-[09:25:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 576,-414
-[09:25:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 576,-413
-[09:25:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 576,-412
-[09:25:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 576,-411
-[09:25:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 576,-410
-[09:25:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 576,-409
-[09:25:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 576,-408
-[09:25:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 576,-407
-[09:25:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 576,-406
-[09:25:06] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 576,-405
-[09:26:58] [VSS-TimestampSave/INFO]: Saved 63012 timestamp cache entries to ./world/./data/vss-timestamps.bin
-[09:28:39] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft: (Jigsaw block location: 6416, -10, -7600)
-[09:28:45] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Survival Mode]
-[09:29:37] [Worker-Main-6/ERROR]: Recoverable errors when loading section [439, 4, -428]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
-[09:29:37] [Worker-Main-4/ERROR]: Recoverable errors when loading section [438, 4, -427]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
-[09:29:37] [Worker-Main-6/ERROR]: Recoverable errors when loading section [438, 4, -431]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
-[09:29:38] [Worker-Main-5/ERROR]: Recoverable errors when loading section [437, 4, -426]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
-[09:29:43] [Worker-Main-4/ERROR]: Recoverable errors when loading section [436, 5, -433]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
-[09:29:43] [Worker-Main-5/ERROR]: Recoverable errors when loading section [435, 4, -427]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
-[09:29:43] [Server thread/WARN]: [net.minecraft.class_5565] Serialization errors:
-chunk@[436, -430].Entities[1]: Failed to decode value '{mainhand:{count:1,id:"plasticgun:p2022"}}' from field 'equipment': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:p2022 missed input: {mainhand:{count:1,id:"plasticgun:p2022"}}
-[09:29:43] [Server thread/WARN]: [net.minecraft.class_5565] Serialization errors:
-chunk@[436, -427].Entities[1]: Failed to decode value '{mainhand:{count:1,id:"plasticgun:rpg9"}}' from field 'equipment': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:rpg9 missed input: {mainhand:{count:1,id:"plasticgun:rpg9"}}
-[09:29:49] [Worker-Main-6/ERROR]: Recoverable errors when loading section [433, 5, -432]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
-[09:29:53] [Worker-Main-4/ERROR]: Recoverable errors when loading section [431, 3, -426]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
-[09:29:54] [Worker-Main-6/ERROR]: Recoverable errors when loading section [431, 5, -432]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
-[09:29:56] [Worker-Main-4/ERROR]: Recoverable errors when loading section [431, 6, -434]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
-[09:30:04] [Worker-Main-6/WARN]: Couldn't find template pool reference: minecraft: (Jigsaw block location: 6352, 7, -7248)
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 465,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 464,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 463,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 462,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 461,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 460,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 459,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 458,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 457,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 456,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 455,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 454,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 453,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 452,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 451,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 450,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 449,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 448,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 447,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 446,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 445,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 444,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 443,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 442,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 441,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 440,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 439,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 438,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 437,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 436,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 435,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 434,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 433,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 432,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 431,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 430,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 429,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 428,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 427,-344
-[09:30:14] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 426,-344
-[09:30:18] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Spectator Mode]
-[09:30:21] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Survival Mode]
-[09:30:30] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 444,-336
-[09:30:30] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 443,-336
-[09:30:30] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 442,-336
-[09:30:30] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 441,-336
-[09:30:30] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 440,-336
-[09:30:30] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 439,-336
-[09:30:30] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 438,-336
-[09:30:30] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 437,-336
-[09:30:30] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 436,-336
-[09:30:30] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 435,-336
-[09:30:30] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 434,-336
-[09:30:30] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 433,-336
-[09:30:30] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 432,-336
-[09:30:30] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 431,-336
-[09:30:30] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 430,-336
-[09:30:30] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 429,-336
-[09:30:30] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 428,-336
-[09:30:30] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 427,-336
-[09:30:30] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 426,-336
-[09:30:30] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 425,-336
-[09:30:30] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 424,-336
-[09:30:30] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 423,-336
-[09:30:30] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 422,-336
-[09:30:30] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 421,-336
-[09:30:30] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 420,-336
-[09:30:30] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 419,-336
-[09:30:30] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 418,-336
-[09:30:30] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 417,-336
-[09:30:30] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 416,-336
-[09:30:30] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 415,-336
-[09:30:30] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 414,-336
-[09:30:30] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 413,-336
-[09:30:30] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 412,-336
-[09:31:33] [Server thread/ERROR]: Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_spin_head_cooldown; Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_is_oxidized
-[09:31:33] [Server thread/ERROR]: Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_spin_head_cooldown; Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_is_oxidized
-[09:31:33] [Server thread/ERROR]: Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_spin_head_cooldown; Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_is_oxidized
-[09:31:33] [Server thread/ERROR]: Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_spin_head_cooldown; Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_is_oxidized
-[09:31:48] [Server thread/WARN]: [net.minecraft.class_5565] Serialization errors:
-chunk@[416, -414].Entities[1]: Failed to decode value '{mainhand:{count:1,id:"plasticgun:colt_1903"}}' from field 'equipment': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:colt_1903 missed input: {mainhand:{count:1,id:"plasticgun:colt_1903"}}
-[09:31:58] [VSS-TimestampSave/INFO]: Saved 63560 timestamp cache entries to ./world/./data/vss-timestamps.bin
-[09:32:42] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 319,-299
-[09:32:42] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 318,-299
-[09:32:42] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 317,-299
-[09:32:47] [Server thread/INFO]: FewerSteak1914 fell from a high place
-[09:33:09] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Spectator Mode]
-[09:33:14] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Survival Mode]
-[09:33:16] [Server thread/INFO]: FewerSteak1914 fell from a high place
-[09:33:46] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Spectator Mode]
-[09:33:50] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Survival Mode]
-[09:33:59] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Creative Mode]
-[09:34:05] [Server thread/INFO]: [FewerSteak1914: Applied effect Saturation to FewerSteak1914]
-[09:34:06] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Survival Mode]
-[09:34:54] [Server thread/WARN]: [net.minecraft.class_5565] Serialization errors:
-chunk@[400, -406].Entities[0]: Failed to decode value '{mainhand:{count:1,id:"plasticgun:357_revolver"}}' from field 'equipment': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:357_revolver missed input: {mainhand:{count:1,id:"plasticgun:357_revolver"}}
-[09:35:05] [Server thread/WARN]: FewerSteak1914 moved wrongly!
-[09:35:32] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 555,-511
-[09:35:32] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 555,-510
-[09:35:32] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 555,-509
-[09:35:32] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 555,-508
-[09:35:32] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 555,-507
-[09:35:32] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 555,-506
-[09:35:32] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 555,-505
-[09:35:32] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 555,-504
-[09:35:32] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 555,-503
-[09:35:32] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 555,-502
-[09:35:32] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 555,-501
-[09:35:32] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 555,-500
-[09:35:32] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 555,-499
-[09:35:32] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 555,-498
-[09:35:32] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 555,-496
-[09:35:32] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 555,-495
-[09:35:32] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 555,-494
-[09:35:32] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 555,-493
-[09:35:32] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 555,-492
-[09:35:32] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 555,-491
-[09:35:32] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 555,-490
-[09:35:32] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 555,-489
-[09:35:32] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 555,-488
-[09:35:32] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 555,-487
-[09:35:32] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 555,-486
-[09:35:32] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 555,-485
-[09:35:32] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 555,-484
-[09:35:32] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 555,-483
-[09:35:32] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 555,-482
-[09:35:32] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 555,-481
-[09:35:32] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 555,-480
-[09:35:32] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 555,-479
-[09:35:32] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 555,-478
-[09:35:56] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Spectator Mode]
-[09:36:05] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Survival Mode]
-[09:36:08] [Server thread/WARN]: FewerSteak1914 moved too quickly! -0.41851103780663834,-14.505860761698827,-21.768570107553387
-[09:36:09] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Spectator Mode]
-[09:36:14] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Survival Mode]
-[09:36:18] [Server thread/WARN]: FewerSteak1914 moved wrongly!
-[09:36:21] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Spectator Mode]
-[09:36:25] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Survival Mode]
-[09:36:27] [Server thread/INFO]: FewerSteak1914 fell from a high place
-[09:36:50] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 507,-559
-[09:36:50] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 508,-559
-[09:36:50] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 509,-559
-[09:36:50] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 510,-559
-[09:36:50] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 511,-559
-[09:36:50] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 512,-559
-[09:36:50] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 513,-559
-[09:36:50] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 514,-559
-[09:36:50] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 515,-559
-[09:36:54] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 502,-561
-[09:36:54] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 503,-561
-[09:36:54] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 504,-561
-[09:36:54] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 505,-561
-[09:36:54] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 506,-561
-[09:36:58] [VSS-TimestampSave/INFO]: Saved 65151 timestamp cache entries to ./world/./data/vss-timestamps.bin
-[09:37:30] [VSS Processing Thread/WARN]: Disk reader executor saturated, returning rate-limited for 465,-582
-[09:38:43] [Server thread/INFO]: [FewerSteak1914: Stopping the server]
-[09:38:43] [Server thread/INFO]: ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[09:38:43] [Server thread/INFO]: Saving Server Backpack's data...
-[09:38:43] [Server thread/INFO]: Stopping VSS LOD request processing service
-[09:38:43] [Server thread/INFO]: Saved 65755 timestamp cache entries to ./world/./data/vss-timestamps.bin
-[09:38:43] [Server thread/INFO]: Stopping server
-[09:38:43] [Server thread/INFO]: Saving players
-[09:38:43] [Server thread/INFO]: FewerSteak1914 lost connection: Disconnected
-[09:38:43] [Server thread/INFO]: FewerSteak1914 left the game
-[09:38:43] [Server thread/INFO]: Saving worlds
-[09:38:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[09:38:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[09:38:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[09:38:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[09:38:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[09:38:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[09:38:44] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[09:38:44] [Thread-8/INFO]: Thread stopped gracefully.
-[09:38:44] [Thread-7/INFO]: Thread stopped gracefully.
-[09:38:44] [Server Shutdown Thread/INFO]: ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[09:50:14] [main/INFO]: Loaded 6827 advancements
+[09:50:14] [main/INFO]: Loaded 27 entity animations
+[09:50:14] [main/INFO]: Loaded 1 moobloom variants
+[09:50:14] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 880 translation keys
+[09:50:14] [main/WARN]: Recipe polydecorations:canvas_clone can't be placed due to empty ingredients and will be ignored
+[09:50:15] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[09:50:15] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[09:50:15] [main/INFO]: Applied 2842 biome modifications to 240 of 240 new biomes in 232.7 ms
+[09:50:16] [Server thread/INFO]: Loading config from ./config/computercraft-server.toml
+[09:50:16] [IO-Worker-1/INFO]: [Polymer] Starting resource pack generation...
+[09:50:16] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
+[09:50:16] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@240e5eb5 for service interface journeymap.api.services.ClientPlatformService
+[09:50:16] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@7fe3d357 for service interface journeymap.api.services.CommonPlatformService
+[09:50:16] [Server thread/INFO]: Loading Server Backpack's data on server starting...
+[09:50:16] [Server thread/INFO]: Loaded File-based data format as Server Backpack's data.
+[09:50:16] [IO-Worker-1/ERROR]: Couldn't load butterbee overlays metadata: No key entries in MapLike[{}]
+[09:50:16] [IO-Worker-1/ERROR]: Couldn't load clifftree fabric:overlays metadata: Unknown resource condition key: tectonic:config
+[09:50:16] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending pack metadata: Pack key supported_formats is deprecated starting from pack format 65. Remove supported_formats from your pack.mcmeta.
+[09:50:16] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending overlays metadata: Overlay "1.21.5" key formats is deprecated starting from pack format 65. Remove formats from your pack.mcmeta.
+[09:50:16] [Server thread/INFO]: Starting background profiler...
+[09:50:17] [Server thread/ERROR]: Invalid path : Invalid path ''
+[09:50:17] [Server thread/ERROR]: Invalid path : Invalid path ''
+[09:50:17] [Server thread/ERROR]: Invalid path : Invalid path ''
+[09:50:17] [Server thread/ERROR]: Invalid path : Invalid path ''
+[09:50:17] [Server thread/ERROR]: Invalid path : Invalid path ''
+[09:50:17] [Server thread/ERROR]: Invalid path : Invalid path ''
+[09:50:17] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[09:50:17] [Server thread/INFO]: Loading properties
+[09:50:17] [Server thread/INFO]: Default game type: SURVIVAL
+[09:50:17] [Server thread/INFO]: Generating keypair
+[09:50:17] [Server thread/INFO]: Starting Minecraft server on *:5610
+[09:50:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:50:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:50:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09:50:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:50:17] [Server thread/INFO]: Preparing level "world"
+[09:50:20] [Server thread/INFO]: Loading 25 persistent chunks...
+[09:50:20] [Server thread/INFO]: Preparing spawn area: 28%
+[09:50:20] [Server thread/INFO]: Preparing spawn area: 28%
+[09:50:21] [Server thread/INFO]: Preparing spawn area: 28%
+[09:50:21] [Server thread/INFO]: Preparing spawn area: 28%
+[09:50:22] [Server thread/INFO]: Preparing spawn area: 28%
+[09:50:22] [Server thread/INFO]: Preparing spawn area: 28%
+[09:50:23] [Server thread/INFO]: Preparing spawn area: 28%
+[09:50:23] [Server thread/INFO]: Preparing spawn area: 28%
+[09:50:24] [Server thread/INFO]: Preparing spawn area: 28%
+[09:50:24] [IO-Worker-1/ERROR]: Invalid path in mod resource-pack journeymap: journeymap:lang/message/splash-en_US.json, ignoring
+[09:50:24] [IO-Worker-1/ERROR]: Invalid path in mod resource-pack leaves_us_in_peace: leaves_us_in_peace:lang/no_no‌.json, ignoring
+[09:50:24] [Server thread/INFO]: Preparing spawn area: 28%
+[09:50:24] [IO-Worker-1/ERROR]: Invalid path in mod resource-pack viaversion: viaversion:data/en_US.properties, ignoring
+[09:50:24] [IO-Worker-1/ERROR]: Invalid path in mod resource-pack viaversion: viaversion:data/blockNumberToString1.12.json, ignoring
+[09:50:24] [IO-Worker-1/ERROR]: Invalid path in mod resource-pack viaversion: viaversion:data/blockIds1.12to1.13.json, ignoring
+[09:50:24] [IO-Worker-1/ERROR]: Invalid path in mod resource-pack viaversion: viaversion:data/blockConnections.nbt, ignoring
+[09:50:25] [Server thread/INFO]: Preparing spawn area: 28%
+[09:50:25] [Server thread/INFO]: Preparing spawn area: 28%
+[09:50:26] [Server thread/INFO]: Preparing spawn area: 28%
+[09:50:26] [Server thread/INFO]: Preparing spawn area: 28%
+[09:50:27] [Server thread/INFO]: Preparing spawn area: 28%
+[09:50:27] [Server thread/INFO]: Preparing spawn area: 28%
+[09:50:28] [Server thread/INFO]: Preparing spawn area: 28%
+[09:50:28] [Server thread/INFO]: Preparing spawn area: 28%
+[09:50:29] [Server thread/INFO]: Preparing spawn area: 28%
+[09:50:29] [Server thread/INFO]: Preparing spawn area: 28%
+[09:50:30] [Server thread/INFO]: Preparing spawn area: 28%
+[09:50:30] [Server thread/INFO]: Preparing spawn area: 28%
+[09:50:31] [Server thread/INFO]: Preparing spawn area: 28%
