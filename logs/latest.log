@@ -1659,3 +1659,86 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [10:44:05] [Netty Epoll IO #0/WARN]: No Hash in file: Please open config folder and add your hash.
 [10:44:07] [Server thread/INFO]: FewerSteak1914[/127.237.112.12:34713] logged in with entity id 3349 at (569.3000000119209, 72.0, 400.30000001192093)
 [10:44:07] [Server thread/INFO]: FewerSteak1914 joined the game
+[10:46:39] [Server thread/WARN]: [net.minecraft.class_2586] Serialization errors:
+minecraft:chest // net.minecraft.class_2595@class_2338{x=5, y=72, z=-117}:
+  Failed to decode value '{Slot:0b,count:1,id:"plasticgun:32_acp"}' from field 'Items' at index 0': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:32_acp
+  Failed to decode value '{Slot:1b,count:1,id:"plasticgun:flak_vest"}' from field 'Items' at index 1': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:flak_vest
+  Failed to decode value '{Slot:3b,count:1,id:"plasticgun:38_special"}' from field 'Items' at index 2': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:38_special
+  Failed to decode value '{Slot:4b,count:1,id:"plasticgun:precision_gear"}' from field 'Items' at index 3': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:precision_gear
+  Failed to decode value '{Slot:12b,count:1,id:"plasticgun:grenade_no_69"}' from field 'Items' at index 4': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:grenade_no_69
+  Failed to decode value '{Slot:19b,count:1,id:"plasticgun:tokarev_tt_33"}' from field 'Items' at index 5': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:tokarev_tt_33
+  Failed to decode value '{Slot:21b,count:1,id:"plasticgun:38_special_p"}' from field 'Items' at index 6': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:38_special_p
+  Failed to decode value '{Slot:23b,count:1,id:"plasticgun:357_standard"}' from field 'Items' at index 7': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:357_standard
+[10:46:39] [Server thread/WARN]: [net.minecraft.class_2586] Serialization errors:
+minecraft:chest // net.minecraft.class_2595@class_2338{x=5, y=72, z=-121}:
+  Failed to decode value '{Slot:1b,count:1,id:"plasticgun:force_container"}' from field 'Items' at index 0': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:force_container
+  Failed to decode value '{Slot:3b,count:1,id:"plasticgun:snub_nosed_revolver"}' from field 'Items' at index 1': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:snub_nosed_revolver
+  Failed to decode value '{Slot:6b,count:1,id:"plasticgun:alloy_wheel"}' from field 'Items' at index 2': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:alloy_wheel
+  Failed to decode value '{Slot:9b,count:1,id:"plasticgun:357_revolver"}' from field 'Items' at index 3': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:357_revolver
+  Failed to decode value '{Slot:13b,count:1,id:"plasticgun:rpg_shell_incendiary"}' from field 'Items' at index 4': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:rpg_shell_incendiary
+  Failed to decode value '{Slot:17b,count:1,id:"plasticgun:9mm_jhp"}' from field 'Items' at index 5': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:9mm_jhp
+  Failed to decode value '{Slot:23b,count:1,id:"plasticgun:762_tokarev"}' from field 'Items' at index 6': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:762_tokarev
+  Failed to decode value '{Slot:24b,count:1,id:"plasticgun:awp"}' from field 'Items' at index 7': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:awp
+[10:46:39] [Server thread/WARN]: [net.minecraft.class_2586] Serialization errors:
+minecraft:chest // net.minecraft.class_2595@class_2338{x=5, y=72, z=-120}:
+  Failed to decode value '{Slot:1b,count:1,id:"plasticgun:colt_peacemaker"}' from field 'Items' at index 0': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:colt_peacemaker
+  Failed to decode value '{Slot:12b,count:1,id:"plasticgun:grenade_k417"}' from field 'Items' at index 1': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:grenade_k417
+  Failed to decode value '{Slot:13b,count:1,id:"plasticgun:357_revolver"}' from field 'Items' at index 2': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:357_revolver
+  Failed to decode value '{Slot:15b,count:1,id:"plasticgun:38_special_p"}' from field 'Items' at index 3': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:38_special_p
+  Failed to decode value '{Slot:18b,count:1,id:"plasticgun:precision_gear"}' from field 'Items' at index 4': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:precision_gear
+  Failed to decode value '{Slot:21b,count:1,id:"plasticgun:rpg_shell"}' from field 'Items' at index 5': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:rpg_shell
+  Failed to decode value '{Slot:23b,count:1,id:"plasticgun:grenade_m34"}' from field 'Items' at index 6': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:grenade_m34
+  Failed to decode value '{Slot:25b,count:1,id:"plasticgun:grenade_m34"}' from field 'Items' at index 7': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:grenade_m34
+  Failed to decode value '{Slot:26b,count:1,id:"plasticgun:grenade_m34"}' from field 'Items' at index 8': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:grenade_m34
+[10:47:05] [Server thread/WARN]: [net.minecraft.class_2586] Serialization errors:
+minecraft:chest // net.minecraft.class_2595@class_2338{x=7, y=72, z=-133}:
+  Failed to decode value '{Slot:1b,count:1,id:"plasticgun:357_standard"}' from field 'Items' at index 0': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:357_standard
+  Failed to decode value '{Slot:3b,count:1,id:"plasticgun:357_standard"}' from field 'Items' at index 1': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:357_standard
+  Failed to decode value '{Slot:7b,count:1,id:"plasticgun:9mm_jhp"}' from field 'Items' at index 2': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:9mm_jhp
+  Failed to decode value '{Slot:8b,count:1,id:"plasticgun:762_tokarev"}' from field 'Items' at index 3': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:762_tokarev
+  Failed to decode value '{Slot:9b,count:1,id:"plasticgun:awp"}' from field 'Items' at index 4': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:awp
+  Failed to decode value '{Slot:13b,count:1,id:"plasticgun:762_tokarev_ap"}' from field 'Items' at index 6': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:762_tokarev_ap
+  Failed to decode value '{Slot:20b,count:1,id:"plasticgun:plasma_core"}' from field 'Items' at index 8': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:plasma_core
+  Failed to decode value '{Slot:24b,count:1,id:"plasticgun:38_special"}' from field 'Items' at index 10': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:38_special
+[10:47:05] [Server thread/WARN]: [net.minecraft.class_2586] Serialization errors:
+minecraft:chest // net.minecraft.class_2595@class_2338{x=7, y=72, z=-137}:
+  Failed to decode value '{Slot:3b,count:1,id:"plasticgun:32_acp"}' from field 'Items' at index 0': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:32_acp
+  Failed to decode value '{Slot:4b,count:1,id:"plasticgun:38_special"}' from field 'Items' at index 1': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:38_special
+  Failed to decode value '{Slot:6b,count:1,id:"plasticgun:grenade_an_m14"}' from field 'Items' at index 2': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:grenade_an_m14
+  Failed to decode value '{Slot:7b,count:1,id:"plasticgun:9mm_parabellum"}' from field 'Items' at index 3': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:9mm_parabellum
+  Failed to decode value '{Slot:8b,count:1,id:"plasticgun:hyperalloy"}' from field 'Items' at index 4': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:hyperalloy
+  Failed to decode value '{Slot:13b,count:1,id:"plasticgun:force_container"}' from field 'Items' at index 5': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:force_container
+  Failed to decode value '{Slot:15b,count:1,id:"plasticgun:rpg_shell"}' from field 'Items' at index 6': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:rpg_shell
+  Failed to decode value '{Slot:20b,count:1,id:"plasticgun:rpg_shell"}' from field 'Items' at index 7': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:rpg_shell
+[10:47:05] [Server thread/WARN]: [net.minecraft.class_2586] Serialization errors:
+minecraft:chest // net.minecraft.class_2595@class_2338{x=12, y=35, z=-131}:
+  Failed to decode value '{Slot:4b,count:1,id:"plasticgun:rpg_shell"}' from field 'Items' at index 0': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:rpg_shell
+  Failed to decode value '{Slot:6b,count:1,id:"plasticgun:762_tokarev_ap"}' from field 'Items' at index 1': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:762_tokarev_ap
+  Failed to decode value '{Slot:7b,count:1,id:"plasticgun:snub_nosed_revolver"}' from field 'Items' at index 2': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:snub_nosed_revolver
+  Failed to decode value '{Slot:10b,count:1,id:"plasticgun:38_special"}' from field 'Items' at index 3': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:38_special
+  Failed to decode value '{Slot:13b,count:1,id:"plasticgun:grenade_thermite"}' from field 'Items' at index 4': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:grenade_thermite
+  Failed to decode value '{Slot:18b,count:1,id:"plasticgun:grenade_k417"}' from field 'Items' at index 5': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:grenade_k417
+  Failed to decode value '{Slot:19b,count:1,id:"plasticgun:awp"}' from field 'Items' at index 6': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:awp
+  Failed to decode value '{Slot:21b,count:1,id:"plasticgun:45_acp"}' from field 'Items' at index 7': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:45_acp
+  Failed to decode value '{Slot:22b,count:1,id:"plasticgun:power_cell"}' from field 'Items' at index 8': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:power_cell
+[10:47:05] [Server thread/WARN]: [net.minecraft.class_2586] Serialization errors:
+minecraft:chest // net.minecraft.class_2595@class_2338{x=7, y=72, z=-136}:
+  Failed to decode value '{Slot:1b,count:1,id:"plasticgun:grenade_rgo"}' from field 'Items' at index 0': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:grenade_rgo
+  Failed to decode value '{Slot:5b,count:1,id:"plasticgun:grenade_mk3a2"}' from field 'Items' at index 1': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:grenade_mk3a2
+  Failed to decode value '{Slot:7b,count:1,id:"plasticgun:force_container"}' from field 'Items' at index 2': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:force_container
+  Failed to decode value '{Slot:8b,count:1,id:"plasticgun:awp"}' from field 'Items' at index 3': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:awp
+  Failed to decode value '{Slot:14b,count:1,id:"plasticgun:reinforced_fiber"}' from field 'Items' at index 4': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:reinforced_fiber
+  Failed to decode value '{Slot:15b,count:1,id:"plasticgun:rpg_shell"}' from field 'Items' at index 5': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:rpg_shell
+  Failed to decode value '{Slot:16b,count:1,id:"plasticgun:awp"}' from field 'Items' at index 6': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:awp
+  Failed to decode value '{Slot:22b,count:1,id:"plasticgun:grenade_rgd_5"}' from field 'Items' at index 8': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:grenade_rgd_5
+[10:47:42] [Server thread/WARN]: [net.minecraft.class_2586] Serialization errors:
+minecraft:chest // net.minecraft.class_2595@class_2338{x=44, y=33, z=-150}:
+  Failed to decode value '{Slot:1b,count:1,id:"plasticgun:rpg9"}' from field 'Items' at index 0': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:rpg9
+  Failed to decode value '{Slot:5b,count:1,id:"plasticgun:ak_47"}' from field 'Items' at index 1': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:ak_47
+  Failed to decode value '{Slot:9b,count:1,id:"plasticgun:explosive_powder"}' from field 'Items' at index 2': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:explosive_powder
+  Failed to decode value '{Slot:10b,count:1,id:"plasticgun:rpg_shell_incendiary"}' from field 'Items' at index 3': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:rpg_shell_incendiary
+  Failed to decode value '{Slot:11b,count:1,id:"plasticgun:38_special_p"}' from field 'Items' at index 4': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:38_special_p
+  Failed to decode value '{Slot:18b,count:1,id:"plasticgun:trigger_mechanism"}' from field 'Items' at index 5': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:trigger_mechanism
+  Failed to decode value '{Slot:23b,count:1,id:"plasticgun:grenade_k417"}' from field 'Items' at index 6': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:grenade_k417
+  Failed to decode value '{Slot:26b,count:1,id:"plasticgun:snub_nosed_revolver"}' from field 'Items' at index 7': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:snub_nosed_revolver
+[10:48:31] [VSS-TimestampSave/INFO]: Saved 69910 timestamp cache entries to ./world/./data/vss-timestamps.bin
