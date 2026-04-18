@@ -6506,81 +6506,39 @@
     },
     "done": true
   },
-  "incendium:technical/on_player_hurt": {
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_vine": {
     "criteria": {
-      "log_spam_fixer": "2026-04-18 13:10:04 +0000"
+      "has_vine": "2026-04-18 13:10:56 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/sentrys_wrath": {
+  "blockus:recipes/building_blocks/mossy_bamboo_planks_from_vine": {
     "criteria": {
-      "log_spam_fixer": "2026-04-18 13:10:04 +0000"
+      "has_vine": "2026-04-18 13:10:56 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_kill": {
+  "blockus:recipes/building_blocks/mossy_charred_planks_from_vine": {
     "criteria": {
-      "log_spam_fixer": "2026-04-18 13:10:04 +0000"
+      "has_vine": "2026-04-18 13:10:56 +0000"
     },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-18 13:10:04 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-18 13:10:04 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-18 13:10:04 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-18 13:10:04 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-18 13:10:04 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-18 13:10:04 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-18 13:10:04 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-18 13:10:04 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-18 13:10:04 +0000"
-    },
-    "done": false
+    "done": true
   },
   "blockus:recipes/building_blocks/large_flower_pot": {
     "criteria": {
       "has_flower_pot": "2026-04-18 13:08:11 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/mossy_spruce_planks_from_vine": {
+    "criteria": {
+      "has_vine": "2026-04-18 13:10:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_vine": {
+    "criteria": {
+      "has_vine": "2026-04-18 13:10:56 +0000"
     },
     "done": true
   },
@@ -6590,15 +6548,81 @@
     },
     "done": true
   },
+  "terrestria:recipes/building_blocks/mossy_volcanic_rock_cobblestone": {
+    "criteria": {
+      "has_mossy_ingredients": "2026-04-18 13:10:56 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/mossy_jungle_planks_from_vine": {
+    "criteria": {
+      "has_vine": "2026-04-18 13:10:56 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/mossy_birch_planks_from_vine": {
+    "criteria": {
+      "has_vine": "2026-04-18 13:10:56 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/mossy_dark_oak_planks_from_vine": {
+    "criteria": {
+      "has_vine": "2026-04-18 13:10:56 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/mossy_dripstone_bricks_from_vine": {
+    "criteria": {
+      "has_vine": "2026-04-18 13:10:56 +0000"
+    },
+    "done": true
+  },
   "extended_drawers:recipes/redstone/limiter": {
     "criteria": {
       "has_drawer": "2026-04-18 13:05:17 +0000"
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/mossy_warped_planks_from_vine": {
+    "criteria": {
+      "has_vine": "2026-04-18 13:10:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/suspicious_stew_from_oxeye_daisy": {
     "criteria": {
       "has_oxeye_daisy": "2026-04-18 13:08:08 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/mossy_acacia_planks_from_vine": {
+    "criteria": {
+      "has_vine": "2026-04-18 13:10:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bordure_indented_banner_pattern": {
+    "criteria": {
+      "has_vines": "2026-04-18 13:10:56 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/mossy_white_oak_planks_from_vine": {
+    "criteria": {
+      "has_vine": "2026-04-18 13:10:56 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/mossy_tuff_bricks_from_vine": {
+    "criteria": {
+      "has_vine": "2026-04-18 13:10:56 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/mossy_cherry_planks_from_vine": {
+    "criteria": {
+      "has_vine": "2026-04-18 13:10:56 +0000"
     },
     "done": true
   },
@@ -6614,15 +6638,69 @@
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/mossy_raw_bamboo_planks_from_vine": {
+    "criteria": {
+      "has_vine": "2026-04-18 13:10:56 +0000"
+    },
+    "done": true
+  },
   "extended_drawers:recipes/decorations/access_point": {
     "criteria": {
       "has_drawer": "2026-04-18 13:05:17 +0000"
     },
     "done": true
   },
+  "terrestria:recipes/building_blocks/mossy_volcanic_rock_bricks": {
+    "criteria": {
+      "has_mossy_ingredients": "2026-04-18 13:10:56 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/mossy_pale_oak_planks_from_vine": {
+    "criteria": {
+      "has_vine": "2026-04-18 13:10:56 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/cherry_hedge": {
+    "criteria": {
+      "has_cherry_leaves": "2026-04-18 13:14:48 +0000"
+    },
+    "done": true
+  },
   "extended_drawers:recipes/misc/upgrade_frame": {
     "criteria": {
       "has_drawer": "2026-04-18 13:05:17 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/mossy_mangrove_planks_from_vine": {
+    "criteria": {
+      "has_vine": "2026-04-18 13:10:56 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/mossy_oak_planks_from_vine": {
+    "criteria": {
+      "has_vine": "2026-04-18 13:10:56 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/mossy_crimson_planks_from_vine": {
+    "criteria": {
+      "has_vine": "2026-04-18 13:10:56 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/decorations/cherry_mosaic": {
+    "criteria": {
+      "has_cherry_slab": "2026-04-18 13:11:28 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/mossy_deepslate_bricks_from_vine": {
+    "criteria": {
+      "has_vine": "2026-04-18 13:10:56 +0000"
     },
     "done": true
   },
