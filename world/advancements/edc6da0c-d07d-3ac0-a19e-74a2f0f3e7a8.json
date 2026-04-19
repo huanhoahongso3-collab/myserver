@@ -7364,6 +7364,7 @@
   },
   "farmersdelight:main/master_chef": {
     "criteria": {
+      "pasta_with_mutton_chop": "2026-04-19 08:56:10 +0000",
       "stuffed_pumpkin": "2026-04-18 14:05:43 +0000"
     },
     "done": false
@@ -7617,6 +7618,12 @@
   "polydecorations:recipes/decorations/spruce_shelf": {
     "criteria": {
       "planks": "2026-04-19 08:53:58 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/eat_nourishing_food": {
+    "criteria": {
+      "nourishment": "2026-04-19 08:56:10 +0000"
     },
     "done": true
   },
