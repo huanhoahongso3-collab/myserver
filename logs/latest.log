@@ -1611,3 +1611,42 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [14:14:54] [Server thread/INFO]: Preparing spawn area: 28%
 [14:14:54] [Server thread/INFO]: Preparing spawn area: 28%
 [14:14:55] [Server thread/INFO]: Preparing spawn area: 28%
+[14:14:57] [Server thread/INFO]: Preparing spawn area: 28%
+[14:14:57] [Server thread/INFO]: Preparing spawn area: 28%
+[14:14:57] [Server thread/INFO]: Preparing spawn area: 28%
+[14:14:57] [Server thread/INFO]: Preparing spawn area: 28%
+[14:14:57] [Server thread/INFO]: Time elapsed: 14317 ms
+[14:14:57] [Server thread/INFO]: Done (16.553s)! For help, type "help"
+[14:14:57] [Server thread/INFO]: [REI] ----------------------------------------
+[14:14:57] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for START.
+[14:14:57] [Server thread/INFO]: [REI] Plugins (5):
+[14:14:57] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[14:14:57] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[14:14:57] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[14:14:57] [Server thread/INFO]: [REI]  - (0.00) CommonREIPlugin of CommonREIPlugin [farmersdelight]
+[14:14:57] [Server thread/INFO]: [REI]  - (0.00) REIComputerCraft of REIComputerCraft [computercraft]
+[14:14:57] [Server thread/INFO]: [REI] ----------------------------------------
+[14:14:57] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for START in 868.9 μs, totaling 88.77 ms.
+[14:14:57] [Server thread/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[14:14:57] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for END.
+[14:14:57] [Server thread/INFO]: [REI] Plugins (5):
+[14:14:57] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[14:14:57] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[14:14:57] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[14:14:57] [Server thread/INFO]: [REI]  - (0.00) CommonREIPlugin of CommonREIPlugin [farmersdelight]
+[14:14:57] [Server thread/INFO]: [REI]  - (0.00) REIComputerCraft of REIComputerCraft [computercraft]
+[14:14:57] [Server thread/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[14:14:57] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for END in 455.5 μs, totaling 173.7 ms.
+[14:14:58] [Server thread/INFO]: Starting VSS LOD request processing service
+[14:14:58] [IO-Worker-1/ERROR]: Couldn't load butterbee overlays metadata: No key entries in MapLike[{}]
+[14:14:58] [IO-Worker-1/ERROR]: Couldn't load clifftree fabric:overlays metadata: Unknown resource condition key: tectonic:config
+[14:14:58] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending pack metadata: Pack key supported_formats is deprecated starting from pack format 65. Remove supported_formats from your pack.mcmeta.
+[14:14:58] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending overlays metadata: Overlay "1.21.5" key formats is deprecated starting from pack format 65. Remove formats from your pack.mcmeta.
+[14:14:58] [Server thread/INFO]: Loaded 99515 timestamp cache entries from ./world/./data/vss-timestamps.bin
+[14:14:58] [Server thread/INFO]: [Polydex] Started matching recipes and items...
+[14:14:59] [Netty Epoll IO #1/WARN]: Modified mixin "vectorwing.farmersdelight.common.mixin.refabricated.RecipeBookSettingsMixin". Check debug logs for more information.
+[14:15:02] [Netty Epoll IO #1/INFO]: URL Override is set. Gathering from config!
+[14:15:02] [Netty Epoll IO #1/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
+[14:15:02] [Netty Epoll IO #1/WARN]: No Hash in file: Please open config folder and add your hash.
+[14:15:10] [Server thread/INFO]: [Polydex] Done! It took 11476 ms
+[14:15:12] [Server thread/INFO]: [Polymer] Resource pack created successfully! You can find it in game folder as polymer/resource_pack.zip
