@@ -1972,3 +1972,8 @@
 [2026-04-19 14:51:32] [Server thread/ INFO] (BlossomBack): cuongchanthoi (f61957b6-2e1e-3bad-b734-ecac33b33529) died at TeleportDestination{world=ServerLevel[world], x=594.3348619782512, y=12.0, z=416.8004902295086, yaw=0.45245957, pitch=89.549995}
 [2026-04-19 14:51:45] [Server thread/TRACE] (BlossomBack): back (death) cuongchanthoi (f61957b6-2e1e-3bad-b734-ecac33b33529) to TeleportDestination{world=ServerLevel[world], x=594.3348619782512, y=12.0, z=416.8004902295086, yaw=0.45245957, pitch=89.549995}
 [2026-04-19 14:51:45] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 (5.0 s)
+[2026-04-19 14:51:50] [Server thread/DEBUG] (BlossomLib): genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 has ended
+[2026-04-19 14:51:57] [Server thread/TRACE] (BlossomHomes): home player class_3222['cuongchanthoi'/518, l='ServerLevel[world]', x=593.94, y=12.00, z=417.41] to null
+[2026-04-19 14:51:57] [Server thread/TRACE] (BlossomHomes): found spawn position for f61957b6-2e1e-3bad-b734-ecac33b33529 @ class_5454[newLevel=ServerLevel[world], position=(580.5, 75.0, 428.5), deltaMovement=(0.0, 0.0, 0.0), yRot=-4.94156E-6, xRot=0.0, missingRespawnBlock=false, asPassenger=false, relatives=[], postTeleportTransition=net.minecraft.class_5454$$Lambda/0x00007f297a2aafe0@63b391e0]
+[2026-04-19 14:51:57] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 (3.0 s)
+[2026-04-19 14:52:00] [Server thread/DEBUG] (BlossomLib): genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 has ended
