@@ -7365,7 +7365,8 @@
   "farmersdelight:main/master_chef": {
     "criteria": {
       "pasta_with_mutton_chop": "2026-04-19 08:56:10 +0000",
-      "stuffed_pumpkin": "2026-04-18 14:05:43 +0000"
+      "stuffed_pumpkin": "2026-04-18 14:05:43 +0000",
+      "fish_stew": "2026-04-19 09:03:17 +0000"
     },
     "done": false
   },
@@ -7537,6 +7538,12 @@
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/tropical_fish_crate": {
+    "criteria": {
+      "has_tropical_fish": "2026-04-19 09:00:19 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/spruce_sign": {
     "criteria": {
       "has_planks": "2026-04-19 08:53:58 +0000"
@@ -7573,6 +7580,12 @@
     },
     "done": true
   },
+  "farmersdelight:main/place_campfire": {
+    "criteria": {
+      "campfire": "2026-04-19 09:01:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/spruce_fence": {
     "criteria": {
       "has_planks": "2026-04-19 08:53:58 +0000"
@@ -7600,6 +7613,12 @@
   "minecraft:recipes/building_blocks/spruce_slab": {
     "criteria": {
       "has_planks": "2026-04-19 08:53:58 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/stove": {
+    "criteria": {
+      "has_campfire": "2026-04-19 09:01:26 +0000"
     },
     "done": true
   },
