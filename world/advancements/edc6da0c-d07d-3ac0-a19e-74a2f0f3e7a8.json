@@ -7470,91 +7470,13 @@
     },
     "done": true
   },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-19 08:47:36 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-19 08:47:36 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-19 08:47:36 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-19 08:47:36 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-19 08:47:36 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-19 08:47:36 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-19 08:47:36 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-19 08:47:36 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-19 08:47:36 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-19 08:47:36 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-19 08:47:36 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-19 08:47:36 +0000"
-    },
-    "done": false
-  },
-  "farmersdelight:main/place_cooking_pot": {
-    "criteria": {
-      "cooking_pot": "2026-04-19 08:44:30 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/bread_from_smoking": {
-    "criteria": {
-      "has_dough": "2026-04-19 08:46:14 +0000"
-    },
-    "done": true
-  },
   "blockus:recipes/building_blocks/oak_timber_frame": {
+    "criteria": {
+      "has_oak_planks": "2026-04-19 08:33:13 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/oak_grate": {
     "criteria": {
       "has_oak_planks": "2026-04-19 08:33:13 +0000"
     },
@@ -7572,21 +7494,159 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/food/bread_from_smelting": {
-    "criteria": {
-      "has_dough": "2026-04-19 08:46:14 +0000"
-    },
-    "done": true
-  },
   "farmersdelight:recipes/misc/iron_nugget_from_smelting_knife": {
     "criteria": {
       "has_iron_knife": "2026-04-19 08:41:52 +0000"
     },
     "done": true
   },
-  "blockus:recipes/building_blocks/oak_grate": {
+  "farmersdelight:main/place_cooking_pot": {
     "criteria": {
-      "has_oak_planks": "2026-04-19 08:33:13 +0000"
+      "cooking_pot": "2026-04-19 08:44:30 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/bread_from_smoking": {
+    "criteria": {
+      "has_dough": "2026-04-19 08:46:14 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/bread_from_smelting": {
+    "criteria": {
+      "has_dough": "2026-04-19 08:46:14 +0000"
+    },
+    "done": true
+  },
+  "slabs_stairs_to_block:recipes/building_blocks/slabs/spruce_planks": {
+    "criteria": {
+      "has_slab": "2026-04-19 08:53:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2026-04-19 08:53:58 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/spruce_timber_frame": {
+    "criteria": {
+      "has_spruce_planks": "2026-04-19 08:53:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2026-04-19 08:53:58 +0000"
+    },
+    "done": true
+  },
+  "polydecorations:recipes/decorations/spruce_table": {
+    "criteria": {
+      "planks": "2026-04-19 08:53:58 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/spruce_grate": {
+    "criteria": {
+      "has_spruce_planks": "2026-04-19 08:53:58 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/herringbone_spruce_planks": {
+    "criteria": {
+      "has_spruce_planks": "2026-04-19 08:53:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-04-19 08:53:58 +0000"
+    },
+    "done": true
+  },
+  "polydecorations:recipes/decorations/spruce_tool_rack": {
+    "criteria": {
+      "planks": "2026-04-19 08:53:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2026-04-19 08:53:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-04-19 08:53:58 +0000"
+    },
+    "done": true
+  },
+  "slabs_stairs_to_block:recipes/building_blocks/stairs/spruce_planks": {
+    "criteria": {
+      "has_stairs": "2026-04-19 08:53:58 +0000"
+    },
+    "done": true
+  },
+  "polydecorations:recipes/decorations/spruce_bench": {
+    "criteria": {
+      "planks": "2026-04-19 08:53:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2026-04-19 08:53:58 +0000"
+    },
+    "done": true
+  },
+  "polydecorations:recipes/decorations/spruce_mailbox": {
+    "criteria": {
+      "planks": "2026-04-19 08:53:58 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/use_cutting_board": {
+    "criteria": {
+      "cutting_board": "2026-04-19 08:52:04 +0000"
+    },
+    "done": true
+  },
+  "polydecorations:recipes/decorations/spruce_shelf": {
+    "criteria": {
+      "planks": "2026-04-19 08:53:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2026-04-19 08:53:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-04-19 08:53:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipe/building_blocks/vertical_spruce_planks": {
+    "criteria": {
+      "has_spruce_planks": "2026-04-19 08:53:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2026-04-19 08:53:58 +0000"
+    },
+    "done": true
+  },
+  "polydecorations:recipes/decorations/spruce_sign_post": {
+    "criteria": {
+      "planks": "2026-04-19 08:53:58 +0000"
     },
     "done": true
   },
