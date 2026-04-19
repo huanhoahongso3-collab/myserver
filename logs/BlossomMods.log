@@ -1911,3 +1911,10 @@
 [2026-04-19 08:31:09] [Server thread/TRACE] (BlossomBack): persisting deaths
 [2026-04-19 08:31:09] [Server thread/TRACE] (BlossomLib): writing BlossomBack.deaths
 [2026-04-19 08:31:09] [Server thread/ INFO] (BlossomBack): FewerSteak1914 (edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8) died at TeleportDestination{world=ServerLevel[world], x=610.5631550837181, y=29.0, z=422.7918507343979, yaw=-47.017647, pitch=90.0}
+[2026-04-19 08:32:13] [Server thread/TRACE] (BlossomHomes): home player class_3222['cuongchanthoi'/3904, l='ServerLevel[world]', x=605.46, y=32.00, z=412.13] to null
+[2026-04-19 08:32:13] [Server thread/TRACE] (BlossomHomes): found spawn position for f61957b6-2e1e-3bad-b734-ecac33b33529 @ class_5454[newLevel=ServerLevel[world], position=(580.5, 75.0, 428.5), deltaMovement=(0.0, 0.0, 0.0), yRot=-4.94156E-6, xRot=0.0, missingRespawnBlock=false, asPassenger=false, relatives=[], postTeleportTransition=net.minecraft.class_5454$$Lambda/0x00007f3d6a2530d0@61827902]
+[2026-04-19 08:32:13] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 (3.0 s)
+[2026-04-19 08:32:16] [Server thread/DEBUG] (BlossomLib): genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 has ended
+[2026-04-19 08:32:34] [Server thread/TRACE] (BlossomHomes): home player class_3222['FewerSteak1914'/5575, l='ServerLevel[world]', x=606.22, y=31.00, z=412.32] to Home{name='khang', world='minecraft:overworld', x=579.1327398218234, y=77.0, z=412.9560091374937, yaw=-12.967651, pitch=39.223503}
+[2026-04-19 08:32:34] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8 (3.0 s)
+[2026-04-19 08:32:37] [Server thread/DEBUG] (BlossomLib): genericCountdown for edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8 has ended
