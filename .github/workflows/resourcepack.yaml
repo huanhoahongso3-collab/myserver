@@ -1,0 +1,50 @@
+name: Update and Release Resource Pack
+
+on:
+  workflow_dispatch: # Allows you to run this manually from the Actions tab
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required to create releases
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Download Resource Pack
+        run: |
+          curl -L -o resource_pack.zip https://github.com/huanhoahongso3-collab/myserver/raw/refs/heads/playit-only/polymer/resource_pack.zip
+
+      - name: Modify pack.mcmeta
+        run: |
+          # Create a temporary directory to extract the pack
+          mkdir temp_pack
+          unzip resource_pack.zip -d temp_pack
+          
+          # Use sed to replace min_format value with 46
+          # This looks for "min_format": followed by any number and replaces it
+          sed -i 's/"min_format": [0-9]*/"min_format": 46/' temp_pack/pack.mcmeta
+          
+          # Re-zip the contents
+          cd temp_pack
+          zip -r ../updated_resource_pack.zip .
+          cd ..
+
+      - name: Generate Timestamp and Version
+        id: vars
+        run: |
+          echo "version=v$(date +'%Y%m%d')" >> $GITHUB_OUTPUT
+          echo "full_date=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.vars.outputs.version }}
+          name: Resource Pack ${{ steps.vars.outputs.version }}
+          body: |
+            Uploaded on ${{ steps.vars.outputs.full_date }}
+          files: updated_resource_pack.zip
+          draft: false
+          prerelease: false
