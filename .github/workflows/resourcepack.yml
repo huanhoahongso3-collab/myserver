@@ -20,7 +20,6 @@ jobs:
 
       - name: Modify pack.mcmeta
         run: |
-          # Use 7z to extract - it is much better at handling header mismatches
           7z x resource_pack.zip -o./temp_pack
           
           if [ ! -f temp_pack/pack.mcmeta ]; then
@@ -28,20 +27,20 @@ jobs:
             exit 1
           fi
 
-          # Robust replacement for min_format
+          # Replace min_format with 46
           sed -i 's/"min_format"[[:space:]]*:[[:space:]]*[0-9]*/"min_format": 46/g' temp_pack/pack.mcmeta
           
-          # Delete old zip
           rm resource_pack.zip
           
-          # Re-zip using 7z but specifically into a .zip format
+          # Re-zip with Highest Compression (Ultra)
           cd temp_pack
-          7z a ../resource_pack.zip .
+          7z a -tzip -mx=9 -mpass=15 ../resource_pack.zip .
           cd ..
 
-      - name: Generate Timestamp and Version
+      - name: Generate GMT+7 Timestamp and Version
         id: vars
         run: |
+          export TZ="Asia/Ho_Chi_Minh"
           echo "version=v$(date +'%Y%m%d')" >> $GITHUB_OUTPUT
           echo "full_date=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
 
@@ -51,7 +50,7 @@ jobs:
           tag_name: ${{ steps.vars.outputs.version }}
           name: Resource Pack ${{ steps.vars.outputs.version }}
           body: |
-            Uploaded on ${{ steps.vars.outputs.full_date }}
+            Uploaded on ${{ steps.vars.outputs.full_date }} (GMT+7)
           files: resource_pack.zip
           draft: false
           prerelease: false
