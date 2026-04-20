@@ -20,6 +20,7 @@ jobs:
 
       - name: Modify pack.mcmeta
         run: |
+          # Extract using 7z
           7z x resource_pack.zip -o./temp_pack
           
           if [ ! -f temp_pack/pack.mcmeta ]; then
@@ -41,14 +42,16 @@ jobs:
         id: vars
         run: |
           export TZ="Asia/Ho_Chi_Minh"
-          echo "version=v$(date +'%Y%m%d')" >> $GITHUB_OUTPUT
+          # Generates format like 20260420-195112
+          echo "version=$(date +'%Y%m%d-%H%M%S')" >> $GITHUB_OUTPUT
+          # Generates format like 2026-04-20 19:51:12
           echo "full_date=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ steps.vars.outputs.version }}
-          name: Resource Pack ${{ steps.vars.outputs.version }}
+          tag_name: v${{ steps.vars.outputs.version }}
+          name: Resource Pack v${{ steps.vars.outputs.version }}
           body: |
             Uploaded on ${{ steps.vars.outputs.full_date }} (GMT+7)
           files: resource_pack.zip
