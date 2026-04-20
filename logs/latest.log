@@ -1628,3 +1628,14 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [13:05:12] [Server thread/INFO]: Starting VSS LOD request processing service
 [13:05:12] [Server thread/INFO]: Loaded 99341 timestamp cache entries from ./world/./data/vss-timestamps.bin
 [13:05:12] [Server thread/INFO]: [Polydex] Started matching recipes and items...
+[13:05:19] [IO-Worker-1/ERROR]: Couldn't load butterbee overlays metadata: No key entries in MapLike[{}]
+[13:05:19] [IO-Worker-1/ERROR]: Couldn't load clifftree fabric:overlays metadata: Unknown resource condition key: tectonic:config
+[13:05:19] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending pack metadata: Pack key supported_formats is deprecated starting from pack format 65. Remove supported_formats from your pack.mcmeta.
+[13:05:19] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending overlays metadata: Overlay "1.21.5" key formats is deprecated starting from pack format 65. Remove formats from your pack.mcmeta.
+[13:05:25] [Server thread/INFO]: [Polydex] Done! It took 13011 ms
+[13:05:31] [Server thread/INFO]: [Polymer] Resource pack created successfully! You can find it in game folder as polymer/resource_pack.zip
+[13:05:57] [Netty Epoll IO #2/WARN]: Modified mixin "vectorwing.farmersdelight.common.mixin.refabricated.RecipeBookSettingsMixin". Check debug logs for more information.
+[13:06:00] [Netty Epoll IO #2/INFO]: URL Override is set. Gathering from config!
+[13:06:00] [Netty Epoll IO #2/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
+[13:06:00] [Netty Epoll IO #2/WARN]: No Hash in file: Please open config folder and add your hash.
+[13:06:11] [Server thread/INFO]: Server empty for 60 seconds, pausing
