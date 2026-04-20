@@ -1638,3 +1638,20 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [11:20:30] [Server thread/INFO]: [Polydex] Done! It took 13188 ms
 [11:20:35] [Server thread/INFO]: [Polymer] Resource pack created successfully! You can find it in game folder as polymer/resource_pack.zip
 [11:21:16] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[12:37:09] [Netty Epoll IO #2/WARN]: Modified mixin "vectorwing.farmersdelight.common.mixin.refabricated.RecipeBookSettingsMixin". Check debug logs for more information.
+[12:37:12] [Netty Epoll IO #2/INFO]: URL Override is set. Gathering from config!
+[12:37:12] [Netty Epoll IO #2/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
+[12:37:12] [Netty Epoll IO #2/WARN]: No Hash in file: Please open config folder and add your hash.
+[12:37:24] [Server thread/WARN]: Modified mixin "vectorwing.farmersdelight.common.mixin.refabricated.ServerRecipeBookMixin". Check debug logs for more information.
+[12:37:25] [Server thread/INFO]: FewerSteak1914[/127.68.213.17:39235] logged in with entity id 585 at (7310.593899038828, 122.0, -6702.527480388741)
+[12:37:25] [Server thread/INFO]: FewerSteak1914 joined the game
+[12:37:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[12:37:40] [Server thread/INFO]: FewerSteak1914 lost connection: Disconnected
+[12:37:40] [Server thread/INFO]: FewerSteak1914 left the game
+[12:37:48] [Netty Epoll IO #4/INFO]: URL Override is set. Gathering from config!
+[12:37:48] [Netty Epoll IO #4/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
+[12:37:48] [Netty Epoll IO #4/WARN]: No Hash in file: Please open config folder and add your hash.
+[12:37:54] [Server thread/INFO]: FewerSteak1914[/127.68.213.17:42749] logged in with entity id 2293 at (7338.521327240052, 122.0, -6702.610921655168)
+[12:37:54] [Server thread/INFO]: FewerSteak1914 joined the game
+[12:38:17] [Server thread/INFO]: FewerSteak1914 lost connection: Disconnected
+[12:38:17] [Server thread/INFO]: FewerSteak1914 left the game
