@@ -1628,3 +1628,17 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [12:55:55] [Server thread/INFO]: Starting VSS LOD request processing service
 [12:55:55] [Server thread/INFO]: Loaded 99347 timestamp cache entries from ./world/./data/vss-timestamps.bin
 [12:55:55] [Server thread/INFO]: [Polydex] Started matching recipes and items...
+[12:56:02] [IO-Worker-1/ERROR]: Couldn't load butterbee overlays metadata: No key entries in MapLike[{}]
+[12:56:02] [IO-Worker-1/ERROR]: Couldn't load clifftree fabric:overlays metadata: Unknown resource condition key: tectonic:config
+[12:56:02] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending pack metadata: Pack key supported_formats is deprecated starting from pack format 65. Remove supported_formats from your pack.mcmeta.
+[12:56:02] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending overlays metadata: Overlay "1.21.5" key formats is deprecated starting from pack format 65. Remove formats from your pack.mcmeta.
+[12:56:08] [Server thread/INFO]: [Polydex] Done! It took 12548 ms
+[12:56:12] [Netty Epoll IO #2/WARN]: Modified mixin "vectorwing.farmersdelight.common.mixin.refabricated.RecipeBookSettingsMixin". Check debug logs for more information.
+[12:56:14] [Server thread/INFO]: [Polymer] Resource pack created successfully! You can find it in game folder as polymer/resource_pack.zip
+[12:56:16] [Netty Epoll IO #2/INFO]: URL Override is set. Gathering from config!
+[12:56:16] [Netty Epoll IO #2/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
+[12:56:16] [Netty Epoll IO #2/WARN]: No Hash in file: Please open config folder and add your hash.
+[12:56:27] [Server thread/WARN]: Modified mixin "vectorwing.farmersdelight.common.mixin.refabricated.ServerRecipeBookMixin". Check debug logs for more information.
+[12:56:27] [Server thread/INFO]: FewerSteak1914[/127.68.213.17:34959] logged in with entity id 674 at (7338.521327240052, 122.0, -6702.610921655168)
+[12:56:27] [Server thread/INFO]: FewerSteak1914 joined the game
+[12:56:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2611ms or 52 ticks behind
