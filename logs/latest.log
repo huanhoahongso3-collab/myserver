@@ -1631,3 +1631,12 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [13:42:40] [IO-Worker-1/ERROR]: Couldn't load clifftree fabric:overlays metadata: Unknown resource condition key: tectonic:config
 [13:42:40] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending pack metadata: Pack key supported_formats is deprecated starting from pack format 65. Remove supported_formats from your pack.mcmeta.
 [13:42:40] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending overlays metadata: Overlay "1.21.5" key formats is deprecated starting from pack format 65. Remove formats from your pack.mcmeta.
+[13:42:46] [Server thread/INFO]: [Polydex] Done! It took 11719 ms
+[13:42:53] [Server thread/INFO]: [Polymer] Resource pack created successfully! You can find it in game folder as polymer/resource_pack.zip
+[13:43:13] [Netty Epoll IO #1/WARN]: Modified mixin "vectorwing.farmersdelight.common.mixin.refabricated.RecipeBookSettingsMixin". Check debug logs for more information.
+[13:43:16] [Netty Epoll IO #1/INFO]: URL Override is set. Gathering from config!
+[13:43:16] [Netty Epoll IO #1/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
+[13:43:16] [Netty Epoll IO #1/WARN]: No Hash in file: Please open config folder and add your hash.
+[13:43:21] [Server thread/INFO]: FewerSteak1914 (edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8) lost connection: Disconnected
+[13:43:25] [Server thread/INFO]: FewerSteak1914 (/127.68.213.17:51361) lost connection: Disconnected
+[13:43:33] [Server thread/INFO]: Server empty for 60 seconds, pausing
