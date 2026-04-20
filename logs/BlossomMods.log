@@ -2000,3 +2000,23 @@
 [2026-04-20 01:19:04] [Server thread/TRACE] (BlossomHomes): home player class_3222['FewerSteak1914'/637, l='ServerLevel[world]', x=7372.28, y=73.00, z=-6746.48] to Home{name='cherry', world='minecraft:overworld', x=7320.612828965856, y=130.0625, z=-6719.267195214916, yaw=0.118869305, pitch=26.850018}
 [2026-04-20 01:19:04] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8 (3.0 s)
 [2026-04-20 01:19:07] [Server thread/DEBUG] (BlossomLib): genericCountdown for edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8 has ended
+[2026-04-20 07:22:41] [main/ INFO] (BlossomLib): BlossomLib mixins loading
+[2026-04-20 07:23:00] [main/TRACE] (BlossomLib): register config manager BlossomBack.json
+[2026-04-20 07:23:00] [main/TRACE] (BlossomLib): loading config BlossomBack.json
+[2026-04-20 07:23:00] [main/TRACE] (BlossomLib): saving config BlossomBack.json
+[2026-04-20 07:23:00] [main/TRACE] (BlossomLib): register BlossomBack.teleports
+[2026-04-20 07:23:00] [main/TRACE] (BlossomLib): register BlossomBack.deaths
+[2026-04-20 07:23:00] [main/TRACE] (BlossomLib): register config manager BlossomHomes.json
+[2026-04-20 07:23:00] [main/TRACE] (BlossomLib): loading config BlossomHomes.json
+[2026-04-20 07:23:00] [main/TRACE] (BlossomLib): saving config BlossomHomes.json
+[2026-04-20 07:23:00] [main/TRACE] (BlossomLib): register BlossomHomes
+[2026-04-20 07:23:00] [main/ INFO] (BlossomLib): BlossomLib has starting
+[2026-04-20 07:23:00] [main/TRACE] (BlossomLib): register config manager BlossomTpa.json
+[2026-04-20 07:23:00] [main/TRACE] (BlossomLib): loading config BlossomTpa.json
+[2026-04-20 07:23:00] [main/TRACE] (BlossomLib): saving config BlossomTpa.json
+[2026-04-20 07:23:17] [Server thread/TRACE] (BlossomLib): reading BlossomBack.teleports
+[2026-04-20 07:23:17] [Server thread/TRACE] (BlossomLib): writing BlossomBack.teleports
+[2026-04-20 07:23:17] [Server thread/TRACE] (BlossomLib): reading BlossomBack.deaths
+[2026-04-20 07:23:17] [Server thread/TRACE] (BlossomLib): writing BlossomBack.deaths
+[2026-04-20 07:23:17] [Server thread/TRACE] (BlossomLib): reading BlossomHomes
+[2026-04-20 07:23:17] [Server thread/TRACE] (BlossomLib): writing BlossomHomes
