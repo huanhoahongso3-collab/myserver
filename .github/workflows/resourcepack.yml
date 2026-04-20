@@ -20,7 +20,6 @@ jobs:
 
       - name: Modify pack.mcmeta
         run: |
-          # Extract using 7z
           7z x resource_pack.zip -o./temp_pack
           
           if [ ! -f temp_pack/pack.mcmeta ]; then
@@ -28,13 +27,16 @@ jobs:
             exit 1
           fi
 
-          # Replace min_format with 46
-          sed -i 's/"min_format"[[:space:]]*:[[:space:]]*[0-9]*/"min_format": 46/g' temp_pack/pack.mcmeta
+          # The fix: This command finds "min_format": 46 and 
+          # places "pack_format": 46 right before it.
+          sed -i 's/"min_format"[[:space:]]*:[[:space:]]*[0-9]*/"pack_format": 46, "min_format": 46/g' temp_pack/pack.mcmeta
+          
+          # Debug: Print the result to the log so you can see it fixed
+          cat temp_pack/pack.mcmeta
           
           rm resource_pack.zip
           
-          # Re-zip with Balanced Compression
-          # -mx=5: Normal/Balanced level compression
+          # Re-zip with Balanced Compression (Level 5)
           cd temp_pack
           7z a -tzip -mx=5 ../resource_pack.zip .
           cd ..
