@@ -33,18 +33,17 @@ jobs:
           
           rm resource_pack.zip
           
-          # Re-zip with Highest Compression (Ultra)
+          # Re-zip with Balanced Compression
+          # -mx=5: Normal/Balanced level compression
           cd temp_pack
-          7z a -tzip -mx=9 -mpass=15 ../resource_pack.zip .
+          7z a -tzip -mx=5 ../resource_pack.zip .
           cd ..
 
       - name: Generate GMT+7 Timestamp and Version
         id: vars
         run: |
           export TZ="Asia/Ho_Chi_Minh"
-          # Generates format like 20260420-195112
           echo "version=$(date +'%Y%m%d-%H%M%S')" >> $GITHUB_OUTPUT
-          # Generates format like 2026-04-20 19:51:12
           echo "full_date=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
 
       - name: Create GitHub Release
