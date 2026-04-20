@@ -1631,3 +1631,10 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [07:23:31] [Server thread/INFO]: Starting VSS LOD request processing service
 [07:23:32] [Server thread/INFO]: Loaded 99347 timestamp cache entries from ./world/./data/vss-timestamps.bin
 [07:23:32] [Server thread/INFO]: [Polydex] Started matching recipes and items...
+[07:23:36] [IO-Worker-1/ERROR]: Couldn't load butterbee overlays metadata: No key entries in MapLike[{}]
+[07:23:36] [IO-Worker-1/ERROR]: Couldn't load clifftree fabric:overlays metadata: Unknown resource condition key: tectonic:config
+[07:23:36] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending pack metadata: Pack key supported_formats is deprecated starting from pack format 65. Remove supported_formats from your pack.mcmeta.
+[07:23:36] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending overlays metadata: Overlay "1.21.5" key formats is deprecated starting from pack format 65. Remove formats from your pack.mcmeta.
+[07:23:44] [Server thread/INFO]: [Polydex] Done! It took 11954 ms
+[07:23:49] [Server thread/INFO]: [Polymer] Resource pack created successfully! You can find it in game folder as polymer/resource_pack.zip
+[07:24:30] [Server thread/INFO]: Server empty for 60 seconds, pausing
