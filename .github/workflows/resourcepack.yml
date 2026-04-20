@@ -19,12 +19,15 @@ jobs:
           mkdir temp_pack
           unzip resource_pack.zip -d temp_pack
           
-          # Replace min_format with 46
-          sed -i 's/"min_format": [0-9]*/"min_format": 46/' temp_pack/pack.mcmeta
+          # Replace min_format with 46 specifically
+          sed -i 's/"min_format":[ ]*[0-9]*/"min_format": 46/' temp_pack/pack.mcmeta
           
-          # Re-zip the contents from inside the folder to avoid nesting
+          # Delete the old zip to avoid confusion
+          rm resource_pack.zip
+          
+          # Re-zip with the original name
           cd temp_pack
-          zip -r ../updated_resource_pack.zip .
+          zip -r ../resource_pack.zip .
           cd ..
 
       - name: Generate Timestamp and Version
@@ -40,6 +43,6 @@ jobs:
           name: Resource Pack ${{ steps.vars.outputs.version }}
           body: |
             Uploaded on ${{ steps.vars.outputs.full_date }}
-          files: updated_resource_pack.zip
+          files: resource_pack.zip
           draft: false
           prerelease: false
