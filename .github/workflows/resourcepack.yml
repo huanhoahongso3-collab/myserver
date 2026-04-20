@@ -12,20 +12,35 @@ jobs:
     steps:
       - name: Download Resource Pack
         run: |
-          curl -L -o resource_pack.zip https://github.com/huanhoahongso3-collab/myserver/raw/refs/heads/playit-only/polymer/resource_pack.zip
+          # Added -f to fail on 404/500 errors and -L to follow redirects
+          curl -f -L -o resource_pack.zip https://github.com/huanhoahongso3-collab/myserver/raw/refs/heads/playit-only/polymer/resource_pack.zip
+          
+          # Verify the file exists and isn't empty
+          if [ ! -s resource_pack.zip ]; then
+            echo "Error: Downloaded file is empty or missing"
+            exit 1
+          fi
 
       - name: Modify pack.mcmeta
         run: |
           mkdir temp_pack
-          unzip resource_pack.zip -d temp_pack
+          unzip -q resource_pack.zip -d temp_pack
           
-          # Replace min_format with 46 specifically
-          sed -i 's/"min_format":[ ]*[0-9]*/"min_format": 46/' temp_pack/pack.mcmeta
+          # Check if pack.mcmeta actually exists
+          if [ ! -f temp_pack/pack.mcmeta ]; then
+            echo "Error: pack.mcmeta not found in the zip root"
+            exit 1
+          fi
+
+          # Use a more robust sed to replace min_format
+          # This handles spaces, tabs, and different line endings
+          sed -i 's/"min_format"[[:space:]]*:[[:space:]]*[0-9]*/"min_format": 46/g' temp_pack/pack.mcmeta
           
-          # Delete the old zip to avoid confusion
-          rm resource_pack.zip
+          # Verify the change
+          cat temp_pack/pack.mcmeta
           
           # Re-zip with the original name
+          rm resource_pack.zip
           cd temp_pack
           zip -r ../resource_pack.zip .
           cd ..
