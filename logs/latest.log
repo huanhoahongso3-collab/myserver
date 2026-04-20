@@ -1672,3 +1672,9 @@ Source 0: com.viaversion.viaversion.rewriter.StructuredItemRewriter$$Lambda/0x00
 [13:16:59] [Netty Epoll IO #3/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
 [13:16:59] [Netty Epoll IO #3/WARN]: No Hash in file: Please open config folder and add your hash.
 [13:17:40] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[13:18:59] [Server thread/INFO]: FewerSteak1914[/127.68.213.17:43861] logged in with entity id 5895 at (7322.715000003576, 134.0, -6714.284999996424)
+[13:18:59] [Server thread/INFO]: FewerSteak1914 joined the game
+[13:19:00] [Netty Epoll IO #3/WARN]: ERROR IN Protocol1_21_11To1_21_9 IN REMAP OF SHOW_DIALOG (0x12)
+[13:19:00] [Server thread/INFO]: FewerSteak1914 lost connection: Internal Exception: io.netty.handler.codec.EncoderException: com.viaversion.viaversion.exception.InformativeException: Please report this on the Via support Discord or open an issue on the relevant GitHub repository
+Source 0: com.viaversion.viaversion.rewriter.StructuredItemRewriter$$Lambda/0x00007fc5ada048b8
+[13:19:00] [Server thread/INFO]: FewerSteak1914 left the game
