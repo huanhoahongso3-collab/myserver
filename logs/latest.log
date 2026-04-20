@@ -1697,3 +1697,7 @@ Source 0: com.viaversion.viaversion.rewriter.StructuredItemRewriter$$Lambda/0x00
 [14:02:06] [Server thread/INFO]: FewerSteak1914 joined the game
 [14:02:14] [Server thread/INFO]: FewerSteak1914 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: Failed to decode packet 'serverbound/minecraft:move_player_pos_rot'
 [14:02:14] [Server thread/INFO]: FewerSteak1914 left the game
+[14:05:25] [Netty Epoll IO #3/INFO]: URL Override is set. Gathering from config!
+[14:05:25] [Netty Epoll IO #3/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
+[14:05:25] [Netty Epoll IO #3/WARN]: No Hash in file: Please open config folder and add your hash.
+[14:05:30] [VSS-TimestampSave/INFO]: Saved 99466 timestamp cache entries to ./world/./data/vss-timestamps.bin
