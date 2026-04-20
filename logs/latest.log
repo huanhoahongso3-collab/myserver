@@ -1640,3 +1640,22 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [13:43:21] [Server thread/INFO]: FewerSteak1914 (edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8) lost connection: Disconnected
 [13:43:25] [Server thread/INFO]: FewerSteak1914 (/127.68.213.17:51361) lost connection: Disconnected
 [13:43:33] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[13:45:01] [Netty Epoll IO #3/INFO]: URL Override is set. Gathering from config!
+[13:45:01] [Netty Epoll IO #3/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
+[13:45:01] [Netty Epoll IO #3/WARN]: No Hash in file: Please open config folder and add your hash.
+[13:45:05] [Server thread/WARN]: Modified mixin "vectorwing.farmersdelight.common.mixin.refabricated.ServerRecipeBookMixin". Check debug logs for more information.
+[13:45:05] [Server thread/INFO]: FewerSteak1914[/127.68.213.17:50553] logged in with entity id 637 at (7320.435235351233, 125.0625, -6714.635648530843)
+[13:45:05] [Server thread/INFO]: FewerSteak1914 joined the game
+[13:45:08] [Netty Epoll IO #3/WARN]: ERROR IN Protocol1_21_11To1_21_9 IN REMAP OF SHOW_DIALOG (0x12)
+[13:45:08] [Server thread/INFO]: FewerSteak1914 lost connection: Internal Exception: io.netty.handler.codec.EncoderException: com.viaversion.viaversion.exception.InformativeException: Please report the full error (!) from the console on the Via support Discord or open an issue on the relevant GitHub repository.
+Source 0: com.viaversion.viaversion.rewriter.StructuredItemRewriter$$Lambda/0x00007f8e11a13248
+[13:45:08] [Server thread/INFO]: FewerSteak1914 left the game
+[13:45:24] [Netty Epoll IO #4/INFO]: URL Override is set. Gathering from config!
+[13:45:24] [Netty Epoll IO #4/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
+[13:45:24] [Netty Epoll IO #4/WARN]: No Hash in file: Please open config folder and add your hash.
+[13:45:26] [Server thread/INFO]: FewerSteak1914[/127.68.213.17:54177] logged in with entity id 1648 at (7320.435235351233, 125.0625, -6714.635648530843)
+[13:45:26] [Server thread/INFO]: FewerSteak1914 joined the game
+[13:45:28] [Netty Epoll IO #4/WARN]: ERROR IN Protocol1_21_11To1_21_9 IN REMAP OF SHOW_DIALOG (0x12)
+[13:45:28] [Server thread/INFO]: FewerSteak1914 lost connection: Internal Exception: io.netty.handler.codec.EncoderException: com.viaversion.viaversion.exception.InformativeException: Please report the full error (!) from the console on the Via support Discord or open an issue on the relevant GitHub repository.
+Source 0: com.viaversion.viaversion.rewriter.StructuredItemRewriter$$Lambda/0x00007f8e11a13248
+[13:45:28] [Server thread/INFO]: FewerSteak1914 left the game
