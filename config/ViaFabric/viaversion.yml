@@ -17,9 +17,11 @@ send-supported-versions: false
 block-versions: []
 # Block specific Minecraft protocol version numbers.
 # List of all Minecraft protocol versions: https://minecraft.wiki/w/Protocol_version, or use a generator: https://via.krusic22.com
-block-protocols: []
-# Change the blocked disconnect message
-block-disconnect-msg: You are using an unsupported Minecraft version!
+# This blocks 1.21.4 and all older versions
+block-versions: ["<=1.21.4"]
+
+# Update the message so players know they need a NEWER version
+block-disconnect-msg: "&cThis server requires a version >1.21.4 and <26.1 to join! Recommend version: 1.21.11"
 # If you use ProtocolLib, we can't reload without kicking the players.
 # (We don't suggest using reload either, use a plugin manager)
 # You can customize the message we kick people with if you use ProtocolLib here.
