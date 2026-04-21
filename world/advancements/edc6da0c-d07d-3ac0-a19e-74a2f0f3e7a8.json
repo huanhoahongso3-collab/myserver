@@ -7682,77 +7682,11 @@
     },
     "done": true
   },
-  "incendium:technical/on_player_hurt": {
+  "blockus:recipes/building_blocks/charred_nether_bricks": {
     "criteria": {
-      "log_spam_fixer": "2026-04-20 14:34:33 +0000"
+      "has_fire_charge": "2026-04-20 14:30:27 +0000"
     },
-    "done": false
-  },
-  "incendium:technical/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-20 14:34:33 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-20 14:34:33 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-20 14:34:33 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-20 14:34:33 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-20 14:34:33 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-20 14:34:33 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-20 14:34:33 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-20 14:34:33 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-20 14:34:33 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-20 14:34:33 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-20 14:34:33 +0000"
-    },
-    "done": false
+    "done": true
   },
   "blockus:recipes/building_blocks/cyan_stone_brick_slab_from_stone_brick_slab": {
     "criteria": {
@@ -7853,12 +7787,6 @@
   "blockus:recipes/building_blocks/brown_stone_brick_stairs_from_stone_brick_stairs": {
     "criteria": {
       "has_stone_bricks": "2026-04-20 14:31:54 +0000"
-    },
-    "done": true
-  },
-  "blockus:recipes/building_blocks/charred_nether_bricks": {
-    "criteria": {
-      "has_fire_charge": "2026-04-20 14:30:27 +0000"
     },
     "done": true
   },
@@ -8075,6 +8003,193 @@
   "blockus:recipes/building_blocks/stone_tile_slab_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2026-04-20 14:31:54 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "requirement": "2026-04-21 13:51:50 +0000",
+      "log_spam_fixer": "2026-04-21 13:51:48 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-21 13:51:48 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-21 13:51:48 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-21 13:51:48 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-21 13:51:48 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-21 13:51:48 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-21 13:51:48 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-21 13:51:48 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-21 13:51:48 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-21 13:51:48 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-21 13:51:48 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-21 13:51:48 +0000"
+    },
+    "done": false
+  },
+  "blockus:recipes/building_blocks/tuff_circular_paving_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2026-04-21 13:50:52 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/tuff_tile_wall_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2026-04-21 13:50:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2026-04-21 13:50:52 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/tuff_tile_stairs_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2026-04-21 13:50:52 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/cracked_tuff_bricks": {
+    "criteria": {
+      "has_tuff_bricks": "2026-04-21 13:50:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2026-04-21 13:50:52 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/tuff_tiles_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2026-04-21 13:50:52 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/carved_tuff_bricks_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2026-04-21 13:50:52 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/tuff_pillar_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2026-04-21 13:50:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab": {
+    "criteria": {
+      "has_tuff_bricks": "2026-04-21 13:50:52 +0000"
+    },
+    "done": true
+  },
+  "slabs_stairs_to_block:recipes/building_blocks/slabs/tuff": {
+    "criteria": {
+      "has_slab": "2026-04-21 13:50:52 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/tuff_tile_slab_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2026-04-21 13:50:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall": {
+    "criteria": {
+      "has_tuff_bricks": "2026-04-21 13:50:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2026-04-21 13:50:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs": {
+    "criteria": {
+      "has_tuff_bricks": "2026-04-21 13:50:52 +0000"
+    },
+    "done": true
+  },
+  "slabs_stairs_to_block:recipes/building_blocks/stairs/tuff_bricks": {
+    "criteria": {
+      "has_stairs": "2026-04-21 13:50:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2026-04-21 13:50:52 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/tuff_tiles": {
+    "criteria": {
+      "has_tuff_bricks": "2026-04-21 13:50:52 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/herringbone_tuff_bricks_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2026-04-21 13:50:52 +0000"
     },
     "done": true
   },
