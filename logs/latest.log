@@ -1690,3 +1690,6 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [15:18:24] [Netty Epoll IO #1/WARN]: No Hash in file: Please open config folder and add your hash.
 [15:19:54] [Server thread/INFO]: cuongchanthoi[/127.152.160.6:41945] logged in with entity id 14290 at (577.869122820384, 78.0, 414.7823877045014)
 [15:19:54] [Server thread/INFO]: cuongchanthoi joined the game
+[15:24:34] [Server thread/INFO]: cuongchanthoi lost connection: Disconnected
+[15:24:34] [Server thread/INFO]: cuongchanthoi left the game
+[15:24:41] [VSS-TimestampSave/INFO]: Saved 98471 timestamp cache entries to ./world/./data/vss-timestamps.bin
