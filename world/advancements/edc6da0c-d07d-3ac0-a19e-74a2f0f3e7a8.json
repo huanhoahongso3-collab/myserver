@@ -8008,74 +8008,73 @@
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "requirement": "2026-04-21 14:01:48 +0000",
-      "log_spam_fixer": "2026-04-21 14:01:48 +0000"
+      "log_spam_fixer": "2026-04-21 14:07:47 +0000"
     },
-    "done": true
+    "done": false
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-04-21 14:01:48 +0000"
+      "log_spam_fixer": "2026-04-21 14:07:47 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2026-04-21 14:01:48 +0000"
+      "log_spam_fixer": "2026-04-21 14:07:47 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2026-04-21 14:01:48 +0000"
+      "log_spam_fixer": "2026-04-21 14:07:47 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-04-21 14:01:48 +0000"
+      "log_spam_fixer": "2026-04-21 14:07:47 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2026-04-21 14:01:48 +0000"
+      "log_spam_fixer": "2026-04-21 14:07:47 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2026-04-21 14:01:48 +0000"
+      "log_spam_fixer": "2026-04-21 14:07:47 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2026-04-21 14:01:48 +0000"
+      "log_spam_fixer": "2026-04-21 14:07:47 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2026-04-21 14:01:48 +0000"
+      "log_spam_fixer": "2026-04-21 14:07:47 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2026-04-21 14:01:48 +0000"
+      "log_spam_fixer": "2026-04-21 14:07:47 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-04-21 14:01:48 +0000"
+      "log_spam_fixer": "2026-04-21 14:07:47 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2026-04-21 14:01:48 +0000"
+      "log_spam_fixer": "2026-04-21 14:07:47 +0000"
     },
     "done": false
   },
@@ -8091,9 +8090,39 @@
     },
     "done": true
   },
+  "plushables:recipes/misc/plushable_shrump": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/tuff_circular_paving_from_tuff_bricks_stonecutting": {
     "criteria": {
       "has_tuff_bricks": "2026-04-21 13:50:52 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_froge": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_trater": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_big_irritater": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_froglin": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
     },
     "done": true
   },
@@ -8106,6 +8135,12 @@
   "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_from_waxed_oxidized_copper_stonecutting": {
     "criteria": {
       "has_waxed_oxidized_copper": "2026-04-21 13:54:08 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_animatronic": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
     },
     "done": true
   },
@@ -8133,6 +8168,12 @@
     },
     "done": true
   },
+  "plushables:recipes/misc/plushable_walrus": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/waxed_oxidized_copper_grate": {
     "criteria": {
       "has_waxed_oxidized_copper": "2026-04-21 13:54:08 +0000"
@@ -8157,9 +8198,45 @@
     },
     "done": true
   },
+  "plushables:recipes/misc/plushable_beaux": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_mammoth": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_hamster": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_snail": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_whelpling": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/cracked_tuff_bricks": {
     "criteria": {
       "has_tuff_bricks": "2026-04-21 13:50:52 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_sea_bunny": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
     },
     "done": true
   },
@@ -8175,6 +8252,12 @@
     },
     "done": true
   },
+  "plushables:recipes/misc/plushable_octoplushable": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/tuff_tiles_from_tuff_bricks_stonecutting": {
     "criteria": {
       "has_tuff_bricks": "2026-04-21 13:50:52 +0000"
@@ -8187,9 +8270,21 @@
     },
     "done": true
   },
+  "plushables:recipes/misc/plushable_orangutan": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/honey_block": {
     "criteria": {
       "has_honey_bottle": "2026-04-21 14:02:25 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_fox": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
     },
     "done": true
   },
@@ -8205,6 +8300,18 @@
     },
     "done": true
   },
+  "plushables:recipes/misc/plushable_moobloom": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_rupert": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/waxed_oxidized_copper_bricks_from_waxed_oxidized_copper_stonecutting": {
     "criteria": {
       "has_waxed_oxidized_copper": "2026-04-21 13:54:08 +0000"
@@ -8217,9 +8324,21 @@
     },
     "done": true
   },
+  "plushables:recipes/misc/plushable_snowie": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/tuff_pillar_from_tuff_bricks_stonecutting": {
     "criteria": {
       "has_tuff_bricks": "2026-04-21 13:50:52 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_ribbit": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
     },
     "done": true
   },
@@ -8235,9 +8354,27 @@
     },
     "done": true
   },
+  "plushables:recipes/misc/plushable_kweebec": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/tuff_brick_slab": {
     "criteria": {
       "has_tuff_bricks": "2026-04-21 13:50:52 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_dragon": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_blahaj": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
     },
     "done": true
   },
@@ -8250,6 +8387,24 @@
   "blockus:recipes/building_blocks/waxed_copper_brick_wall_from_waxed_copper_block_stonecutting": {
     "criteria": {
       "has_waxed_copper_block": "2026-04-21 13:53:38 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_rattiam": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_ziggy": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_conductor": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
     },
     "done": true
   },
@@ -8289,9 +8444,45 @@
     },
     "done": true
   },
+  "plushables:recipes/misc/plushable_potsy": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_dormouse": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_goblin": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_owl": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_statuette": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/food/honey_cookie": {
     "criteria": {
       "has_honey_bottle": "2026-04-21 14:02:25 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_whale": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
     },
     "done": true
   },
@@ -8307,15 +8498,93 @@
     },
     "done": true
   },
+  "plushables:recipes/misc/plushable_goldfish": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_pig": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
   "slabs_stairs_to_block:recipes/building_blocks/stairs/tuff_bricks": {
     "criteria": {
       "has_stairs": "2026-04-21 13:50:52 +0000"
     },
     "done": true
   },
+  "plushables:recipes/misc/plushable_djungelskog": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_big_tater": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_wisp": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_otter": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_wizard": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_triceratops": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_tuff_bricks_stonecutting": {
     "criteria": {
       "has_tuff_bricks": "2026-04-21 13:50:52 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_unicorn": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_tiger": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_cooper": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_raptor": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_penguin": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
     },
     "done": true
   },
@@ -8331,6 +8600,12 @@
     },
     "done": true
   },
+  "plushables:recipes/misc/plushable_truffles": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_slab_from_waxed_oxidized_copper_stonecutting": {
     "criteria": {
       "has_waxed_oxidized_copper": "2026-04-21 13:54:08 +0000"
@@ -8343,6 +8618,12 @@
     },
     "done": true
   },
+  "plushables:recipes/misc/plushable_clucky": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/herringbone_tuff_bricks_from_tuff_bricks_stonecutting": {
     "criteria": {
       "has_tuff_bricks": "2026-04-21 13:50:52 +0000"
@@ -8352,6 +8633,12 @@
   "minecraft:recipes/redstone/waxed_oxidized_copper_bulb": {
     "criteria": {
       "has_waxed_oxidized_copper": "2026-04-21 13:54:08 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/plushable_creaky": {
+    "criteria": {
+      "has_heart_of_gold": "2026-04-21 14:05:08 +0000"
     },
     "done": true
   },
