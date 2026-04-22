@@ -1743,3 +1743,10 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [08:21:58] [Server thread/INFO]: FumihitoAshahi lost connection: Disconnected
 [08:21:58] [Server thread/INFO]: FumihitoAshahi left the game
 [08:26:16] [VSS-TimestampSave/INFO]: Saved 97431 timestamp cache entries to ./world/./data/vss-timestamps.bin
+[08:28:05] [Netty Epoll IO #7/INFO]: URL Override is set. Gathering from config!
+[08:28:05] [Netty Epoll IO #7/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
+[08:28:05] [Netty Epoll IO #7/WARN]: No Hash in file: Please open config folder and add your hash.
+[08:28:07] [Server thread/INFO]: FumihitoAshahi[/127.183.206.134:33153] logged in with entity id 52365 at (7294.989842509632, 119.0, -6732.084272410181)
+[08:28:07] [Server thread/INFO]: FumihitoAshahi joined the game
+[08:28:08] [Server thread/INFO]: VSS handshake received from FumihitoAshahi (protocol v15, capabilities=1)
+[08:28:08] [Server thread/INFO]: Player FumihitoAshahi registered for VSS LOD request processing (caps=1)
