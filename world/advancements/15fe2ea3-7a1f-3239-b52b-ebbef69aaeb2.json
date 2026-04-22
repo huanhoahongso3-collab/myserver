@@ -3333,74 +3333,74 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-04-22 08:17:16 +0000"
+      "log_spam_fixer": "2026-04-22 08:21:16 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2026-04-22 08:17:16 +0000"
+      "log_spam_fixer": "2026-04-22 08:21:16 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2026-04-22 08:17:16 +0000"
+      "log_spam_fixer": "2026-04-22 08:21:16 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-04-22 08:17:16 +0000"
+      "log_spam_fixer": "2026-04-22 08:21:16 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2026-04-22 08:17:16 +0000"
+      "log_spam_fixer": "2026-04-22 08:21:16 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2026-04-22 08:17:16 +0000"
+      "log_spam_fixer": "2026-04-22 08:21:16 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2026-04-22 08:17:16 +0000"
+      "log_spam_fixer": "2026-04-22 08:21:16 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2026-04-22 08:17:16 +0000"
+      "log_spam_fixer": "2026-04-22 08:21:16 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2026-04-22 08:17:16 +0000"
+      "log_spam_fixer": "2026-04-22 08:21:16 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "requirement": "2026-04-22 08:17:19 +0000",
-      "log_spam_fixer": "2026-04-22 08:17:16 +0000"
+      "requirement": "2026-04-22 08:21:54 +0000",
+      "log_spam_fixer": "2026-04-22 08:21:16 +0000"
     },
     "done": true
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-04-22 08:17:16 +0000"
+      "log_spam_fixer": "2026-04-22 08:21:16 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2026-04-22 08:17:16 +0000"
+      "log_spam_fixer": "2026-04-22 08:21:16 +0000"
     },
     "done": false
   },
@@ -3464,6 +3464,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/barbecue_stick": {
+    "criteria": {
+      "has_tomato": "2026-04-22 08:18:41 +0000"
+    },
+    "done": true
+  },
   "terrestria:recipes/transportation/rubber_boat": {
     "criteria": {
       "in_water": "2026-04-22 08:00:12 +0000"
@@ -3485,6 +3491,18 @@
   "farmersdelight:recipes/cooking/pasta_with_mutton_chop": {
     "criteria": {
       "has_any_ingredient": "2026-04-22 08:14:42 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/tomato_sauce": {
+    "criteria": {
+      "has_tomato": "2026-04-22 08:18:41 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/ratatouille": {
+    "criteria": {
+      "has_any_ingredient": "2026-04-22 08:18:41 +0000"
     },
     "done": true
   },
@@ -3512,9 +3530,21 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/cooking/squid_ink_pasta": {
+    "criteria": {
+      "has_any_ingredient": "2026-04-22 08:18:41 +0000"
+    },
+    "done": true
+  },
   "terrestria:recipes/transportation/redwood_boat": {
     "criteria": {
       "in_water": "2026-04-22 08:00:12 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/tomato_crate": {
+    "criteria": {
+      "has_tomato": "2026-04-22 08:18:41 +0000"
     },
     "done": true
   },
@@ -3617,6 +3647,12 @@
   "blockus:recipes/building_blocks/white_patterned_wool": {
     "criteria": {
       "has_white_wool": "2026-04-22 08:14:42 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/tomato_seeds": {
+    "criteria": {
+      "has_tomato": "2026-04-22 08:18:41 +0000"
     },
     "done": true
   },
