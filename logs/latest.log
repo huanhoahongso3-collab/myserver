@@ -1678,3 +1678,11 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [07:49:41] [Server thread/ERROR]: Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_spin_head_cooldown; Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_is_oxidized
 [07:49:49] [Server thread/INFO]: FumihitoAshahi was slain by Endermite
 [07:49:56] [Server thread/INFO]: [FewerSteak1914: Teleported 2 entities to FewerSteak1914]
+[07:49:59] [Worker-Main-1/ERROR]: Recoverable errors when loading section [-11, 7, 10]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[07:50:08] [Server thread/INFO]: [FewerSteak1914: Teleported 2 entities to FewerSteak1914]
+[07:50:39] [VSS-TimestampSave/INFO]: Saved 97735 timestamp cache entries to ./world/./data/vss-timestamps.bin
+[07:50:48] [Server thread/INFO]: FewerSteak1914 lost connection: Disconnected
+[07:50:48] [Server thread/INFO]: FewerSteak1914 left the game
+[07:50:48] [Server thread/WARN]: handleDisconnection() called twice
+[07:50:51] [Server thread/INFO]: FumihitoAshahi lost connection: Disconnected
+[07:50:51] [Server thread/INFO]: FumihitoAshahi left the game
