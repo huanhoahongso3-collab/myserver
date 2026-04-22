@@ -3315,10 +3315,9 @@
   },
   "incendium:technical/using/shield": {
     "criteria": {
-      "requirement": "2026-04-22 08:12:24 +0000",
       "log_spam_fixer": "2026-04-22 07:49:41 +0000"
     },
-    "done": true
+    "done": false
   },
   "incendium:technical/scroll_of_returning": {
     "criteria": {
@@ -3334,79 +3333,86 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-04-22 08:12:13 +0000"
+      "log_spam_fixer": "2026-04-22 08:17:16 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2026-04-22 08:12:13 +0000"
+      "log_spam_fixer": "2026-04-22 08:17:16 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2026-04-22 08:12:13 +0000"
+      "log_spam_fixer": "2026-04-22 08:17:16 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-04-22 08:12:13 +0000"
+      "log_spam_fixer": "2026-04-22 08:17:16 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2026-04-22 08:12:13 +0000"
+      "log_spam_fixer": "2026-04-22 08:17:16 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2026-04-22 08:12:13 +0000"
+      "log_spam_fixer": "2026-04-22 08:17:16 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2026-04-22 08:12:13 +0000"
+      "log_spam_fixer": "2026-04-22 08:17:16 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2026-04-22 08:12:13 +0000"
+      "log_spam_fixer": "2026-04-22 08:17:16 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2026-04-22 08:12:13 +0000"
+      "log_spam_fixer": "2026-04-22 08:17:16 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2026-04-22 08:12:13 +0000"
+      "requirement": "2026-04-22 08:17:19 +0000",
+      "log_spam_fixer": "2026-04-22 08:17:16 +0000"
     },
-    "done": false
+    "done": true
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-04-22 08:12:13 +0000"
+      "log_spam_fixer": "2026-04-22 08:17:16 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2026-04-22 08:12:13 +0000"
+      "log_spam_fixer": "2026-04-22 08:17:16 +0000"
     },
     "done": false
   },
   "terrestria:recipes/transportation/japanese_maple_boat": {
     "criteria": {
       "in_water": "2026-04-22 08:00:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2026-04-22 08:15:06 +0000"
     },
     "done": true
   },
@@ -3434,15 +3440,51 @@
     },
     "done": true
   },
+  "polydecorations:recipes/decorations/white_sleeping_bag": {
+    "criteria": {
+      "planks": "2026-04-22 08:14:42 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/white_gingham_wool": {
+    "criteria": {
+      "has_white_wool": "2026-04-22 08:14:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/brick": {
     "criteria": {
       "has_clay_ball": "2026-04-22 07:56:02 +0000"
     },
     "done": true
   },
+  "minecraft:recipe/building_blocks/striped_towel": {
+    "criteria": {
+      "has_white_wool": "2026-04-22 08:14:42 +0000"
+    },
+    "done": true
+  },
   "terrestria:recipes/transportation/rubber_boat": {
     "criteria": {
       "in_water": "2026-04-22 08:00:12 +0000"
+    },
+    "done": true
+  },
+  "wool_to_string:recipes/building_blocks/wool_to_string/string": {
+    "criteria": {
+      "has_block": "2026-04-22 08:14:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2026-04-22 08:14:42 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pasta_with_mutton_chop": {
+    "criteria": {
+      "has_any_ingredient": "2026-04-22 08:14:42 +0000"
     },
     "done": true
   },
@@ -3455,6 +3497,12 @@
   "terrestria:recipes/transportation/rainbow_eucalyptus_boat": {
     "criteria": {
       "in_water": "2026-04-22 08:00:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2026-04-22 08:14:42 +0000"
     },
     "done": true
   },
@@ -3494,6 +3542,30 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2026-04-22 08:14:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/glider/white": {
+    "criteria": {
+      "wool": "2026-04-22 08:14:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2026-04-22 08:14:42 +0000"
+    },
+    "done": true
+  },
+  "polydecorations:recipes/misc/tie_container": {
+    "criteria": {
+      "item": "2026-04-22 08:15:33 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/small_cherry_logs": {
     "criteria": {
       "has_cherry_log": "2026-04-22 07:56:11 +0000"
@@ -3512,9 +3584,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2026-04-22 08:14:42 +0000"
+    },
+    "done": true
+  },
+  "rocks:recipes/building_blocks/andesite_from_splitter": {
+    "criteria": {
+      "has_andesite_splitter": "2026-04-22 08:15:21 +0000"
+    },
+    "done": true
+  },
   "terrestria:recipes/transportation/hemlock_boat": {
     "criteria": {
       "in_water": "2026-04-22 08:00:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2026-04-22 08:14:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2026-04-22 08:14:42 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/white_patterned_wool": {
+    "criteria": {
+      "has_white_wool": "2026-04-22 08:14:42 +0000"
     },
     "done": true
   },
