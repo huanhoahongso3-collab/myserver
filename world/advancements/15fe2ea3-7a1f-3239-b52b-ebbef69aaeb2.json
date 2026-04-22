@@ -2851,12 +2851,6 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-22 07:50:40 +0000"
-    },
-    "done": false
-  },
   "blockus:recipes/building_blocks/gray_stone_brick_slab_from_stone_brick_slab": {
     "criteria": {
       "has_stone_bricks": "2026-04-22 07:49:40 +0000"
@@ -2887,12 +2881,6 @@
     },
     "done": true
   },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-22 07:50:40 +0000"
-    },
-    "done": false
-  },
   "blockus:recipes/building_blocks/lime_stone_brick_stairs_from_stone_brick_stairs": {
     "criteria": {
       "has_stone_bricks": "2026-04-22 07:49:40 +0000"
@@ -2916,12 +2904,6 @@
       "has_iron_ingot": "2026-04-22 07:49:40 +0000"
     },
     "done": true
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-22 07:50:40 +0000"
-    },
-    "done": false
   },
   "minecraft:recipes/combat/stone_spear": {
     "criteria": {
@@ -2947,23 +2929,11 @@
     },
     "done": true
   },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-22 07:50:40 +0000"
-    },
-    "done": false
-  },
   "blockus:recipes/building_blocks/purple_stone_brick_wall_from_stone_brick_wall": {
     "criteria": {
       "has_stone_bricks": "2026-04-22 07:49:40 +0000"
     },
     "done": true
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-22 07:50:40 +0000"
-    },
-    "done": false
   },
   "blockus:recipes/building_blocks/lime_stone_brick_wall_from_stone_brick_wall": {
     "criteria": {
@@ -3001,12 +2971,6 @@
     },
     "done": true
   },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-22 07:50:40 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/combat/wooden_spear": {
     "criteria": {
       "has_stick": "2026-04-22 07:49:40 +0000"
@@ -3043,23 +3007,11 @@
     },
     "done": true
   },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-22 07:50:40 +0000"
-    },
-    "done": false
-  },
   "blockus:recipes/building_blocks/red_stone_brick_slab_from_stone_brick_slab": {
     "criteria": {
       "has_stone_bricks": "2026-04-22 07:49:40 +0000"
     },
     "done": true
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-22 07:50:40 +0000"
-    },
-    "done": false
   },
   "blockus:recipes/building_blocks/magenta_stone_brick_stairs_from_stone_brick_stairs": {
     "criteria": {
@@ -3078,18 +3030,6 @@
       "has_stone_bricks": "2026-04-22 07:49:40 +0000"
     },
     "done": true
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-22 07:50:40 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/using/ragnarok": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-22 07:49:41 +0000"
-    },
-    "done": false
   },
   "blockus:recipes/building_blocks/stone_tile_stairs_from_stone_bricks_stonecutting": {
     "criteria": {
@@ -3142,13 +3082,6 @@
   "blockus:recipes/building_blocks/pink_stone_brick_slab_from_stone_brick_slab": {
     "criteria": {
       "has_stone_bricks": "2026-04-22 07:49:40 +0000"
-    },
-    "done": true
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "requirement": "2026-04-22 07:50:40 +0000",
-      "log_spam_fixer": "2026-04-22 07:50:40 +0000"
     },
     "done": true
   },
@@ -3248,12 +3181,6 @@
     },
     "done": true
   },
-  "incendium:technical/using/shield": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-22 07:49:41 +0000"
-    },
-    "done": false
-  },
   "blockus:recipes/building_blocks/white_stone_brick_wall_from_stone_brick_wall": {
     "criteria": {
       "has_stone_bricks": "2026-04-22 07:49:40 +0000"
@@ -3272,12 +3199,6 @@
     },
     "done": true
   },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-22 07:50:40 +0000"
-    },
-    "done": false
-  },
   "blockus:recipes/building_blocks/blue_stone_brick_wall_from_stone_brick_wall": {
     "criteria": {
       "has_stone_bricks": "2026-04-22 07:49:40 +0000"
@@ -3295,12 +3216,6 @@
       "has_diamond": "2026-04-22 07:49:40 +0000"
     },
     "done": true
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-22 07:50:40 +0000"
-    },
-    "done": false
   },
   "universal_shops:recipe/tradeshop_group/trade_block": {
     "criteria": {
@@ -3325,12 +3240,6 @@
       "pearl": "2026-04-22 07:49:40 +0000"
     },
     "done": true
-  },
-  "incendium:technical/scroll_of_returning": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-22 07:49:41 +0000"
-    },
-    "done": false
   },
   "blockus:recipes/building_blocks/pink_stone_brick_stairs_from_stone_brick_stairs": {
     "criteria": {
@@ -3368,12 +3277,6 @@
     },
     "done": true
   },
-  "incendium:technical/using/trailblazer": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-22 07:49:41 +0000"
-    },
-    "done": false
-  },
   "blockus:recipes/building_blocks/red_stone_brick_stairs_from_stone_brick_stairs": {
     "criteria": {
       "has_stone_bricks": "2026-04-22 07:49:40 +0000"
@@ -3401,6 +3304,132 @@
   "blockus:recipes/building_blocks/stone_tile_slab_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2026-04-22 07:49:40 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/using/ragnarok": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-22 07:49:41 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/using/shield": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-22 07:49:41 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/scroll_of_returning": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-22 07:49:41 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/using/trailblazer": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-22 07:49:41 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-22 07:57:13 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-22 07:57:13 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-22 07:57:13 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-22 07:57:13 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-22 07:57:13 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-22 07:57:13 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-22 07:57:13 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-22 07:57:13 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-22 07:57:13 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-22 07:57:13 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-22 07:57:13 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-22 07:57:13 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2026-04-22 07:56:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2026-04-22 07:56:02 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/cherry_post": {
+    "criteria": {
+      "has_woods": "2026-04-22 07:56:11 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/small_cherry_logs": {
+    "criteria": {
+      "has_cherry_log": "2026-04-22 07:56:11 +0000"
+    },
+    "done": true
+  },
+  "plushables:recipes/misc/heart_of_gold": {
+    "criteria": {
+      "has_flowers": "2026-04-22 07:55:44 +0000"
     },
     "done": true
   },
