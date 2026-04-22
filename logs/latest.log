@@ -1779,3 +1779,12 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [08:40:17] [Server thread/INFO]: FumihitoAshahi left the game
 [08:41:16] [VSS-TimestampSave/INFO]: Saved 96221 timestamp cache entries to ./world/./data/vss-timestamps.bin
 [08:46:16] [VSS-TimestampSave/INFO]: Saved 96215 timestamp cache entries to ./world/./data/vss-timestamps.bin
+[08:49:05] [Netty Epoll IO #2/INFO]: URL Override is set. Gathering from config!
+[08:49:05] [Netty Epoll IO #2/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
+[08:49:05] [Netty Epoll IO #2/WARN]: No Hash in file: Please open config folder and add your hash.
+[08:49:07] [Server thread/INFO]: FumihitoAshahi[/127.183.206.134:45823] logged in with entity id 81568 at (7301.124602342309, 131.48630263525783, -6735.645191674062)
+[08:49:07] [Server thread/INFO]: FumihitoAshahi joined the game
+[08:49:10] [Server thread/INFO]: VSS handshake received from FumihitoAshahi (protocol v15, capabilities=1)
+[08:49:10] [Server thread/INFO]: Player FumihitoAshahi registered for VSS LOD request processing (caps=1)
+[08:49:16] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Spectator Mode]
+[08:49:19] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Survival Mode]
