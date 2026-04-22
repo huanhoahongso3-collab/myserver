@@ -2235,3 +2235,6 @@
 [2026-04-22 07:50:30] [Server thread/TRACE] (BlossomBack): back (death) FumihitoAshahi (15fe2ea3-7a1f-3239-b52b-ebbef69aaeb2) to TeleportDestination{world=ServerLevel[world], x=330.512145568148, y=7.0, z=8.613411479221535, yaw=62.298264, pitch=62.250023}
 [2026-04-22 07:50:30] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for 15fe2ea3-7a1f-3239-b52b-ebbef69aaeb2 (5.0 s)
 [2026-04-22 07:50:35] [Server thread/DEBUG] (BlossomLib): genericCountdown for 15fe2ea3-7a1f-3239-b52b-ebbef69aaeb2 has ended
+[2026-04-22 07:52:30] [Server thread/TRACE] (BlossomBack): persisting deaths
+[2026-04-22 07:52:30] [Server thread/TRACE] (BlossomLib): writing BlossomBack.deaths
+[2026-04-22 07:52:30] [Server thread/ INFO] (BlossomBack): FumihitoAshahi (15fe2ea3-7a1f-3239-b52b-ebbef69aaeb2) died at TeleportDestination{world=ServerLevel[world], x=330.69999998807907, y=7.0, z=8.300000011920929, yaw=92.298355, pitch=36.29997}
