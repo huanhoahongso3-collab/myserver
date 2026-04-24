@@ -1666,3 +1666,6 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [11:26:35] [Worker-Main-7/ERROR]: Recoverable errors when loading section [-84, 3, 27]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
 [11:27:39] [VSS-TimestampSave/INFO]: Saved 99898 timestamp cache entries to ./world/./data/vss-timestamps.bin
 [11:32:39] [VSS-TimestampSave/INFO]: Saved 99898 timestamp cache entries to ./world/./data/vss-timestamps.bin
+[11:33:50] [Server thread/INFO]: cuongchanthoi lost connection: Timed out
+[11:33:50] [Server thread/INFO]: cuongchanthoi left the game
+[11:33:51] [Server thread/WARN]: handleDisconnection() called twice
