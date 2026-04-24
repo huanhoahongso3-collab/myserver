@@ -6896,75 +6896,87 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 13:55:27 +0000"
+      "log_spam_fixer": "2026-04-24 14:00:27 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 13:55:27 +0000"
+      "log_spam_fixer": "2026-04-24 14:00:27 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 13:55:27 +0000"
+      "log_spam_fixer": "2026-04-24 14:00:27 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 13:55:27 +0000"
+      "log_spam_fixer": "2026-04-24 14:00:27 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 13:55:27 +0000"
+      "log_spam_fixer": "2026-04-24 14:00:27 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 13:55:27 +0000"
+      "log_spam_fixer": "2026-04-24 14:00:27 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 13:55:27 +0000"
+      "log_spam_fixer": "2026-04-24 14:00:27 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 13:55:27 +0000"
+      "log_spam_fixer": "2026-04-24 14:00:27 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 13:55:27 +0000"
+      "log_spam_fixer": "2026-04-24 14:00:27 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 13:55:27 +0000"
+      "log_spam_fixer": "2026-04-24 14:00:27 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 13:55:27 +0000"
+      "log_spam_fixer": "2026-04-24 14:00:27 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 13:55:27 +0000"
+      "log_spam_fixer": "2026-04-24 14:00:27 +0000"
     },
     "done": false
+  },
+  "farmersdelight:recipes/food/roast_chicken_block": {
+    "criteria": {
+      "has_cooked_chicken": "2026-04-24 13:56:17 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/chicken_sandwich": {
+    "criteria": {
+      "has_cooked_chicken": "2026-04-24 13:56:17 +0000"
+    },
+    "done": true
   },
   "DataVersion": 4671
 }
