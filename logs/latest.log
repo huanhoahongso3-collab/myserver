@@ -1640,3 +1640,10 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [04:40:02] [IO-Worker-1/ERROR]: Couldn't load clifftree fabric:overlays metadata: Unknown resource condition key: tectonic:config
 [04:40:02] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending pack metadata: Pack key supported_formats is deprecated starting from pack format 65. Remove supported_formats from your pack.mcmeta.
 [04:40:02] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending overlays metadata: Overlay "1.21.5" key formats is deprecated starting from pack format 65. Remove formats from your pack.mcmeta.
+[04:40:13] [Server thread/INFO]: [Polydex] Done! It took 13030 ms
+[04:40:16] [Server thread/INFO]: [Polymer] Resource pack created successfully! You can find it in game folder as polymer/resource_pack.zip
+[04:40:28] [Netty Epoll IO #2/WARN]: Modified mixin "vectorwing.farmersdelight.common.mixin.refabricated.RecipeBookSettingsMixin". Check debug logs for more information.
+[04:40:32] [Netty Epoll IO #2/INFO]: URL Override is set. Gathering from config!
+[04:40:32] [Netty Epoll IO #2/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
+[04:40:32] [Netty Epoll IO #2/WARN]: No Hash in file: Please open config folder and add your hash.
+[04:40:58] [Server thread/INFO]: Server empty for 60 seconds, pausing
