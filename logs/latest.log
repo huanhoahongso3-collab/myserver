@@ -1813,3 +1813,28 @@ java.lang.IllegalArgumentException: Unexpected palette resize, bits = 6, added v
 [14:17:16] [Netty Epoll IO #1/INFO]: URL Override is set. Gathering from config!
 [14:17:16] [Netty Epoll IO #1/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
 [14:17:16] [Netty Epoll IO #1/WARN]: No Hash in file: Please open config folder and add your hash.
+[14:18:25] [Server thread/INFO]: cuongchanthoi[/127.152.160.6:41023] logged in with entity id 41038 at (-191.456661904303, 110.0, 298.7436954493096)
+[14:18:25] [Server thread/INFO]: cuongchanthoi joined the game
+[14:18:26] [Worker-Main-21/ERROR]: Recoverable errors when loading section [-15, 6, 8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[14:18:26] [Worker-Main-21/ERROR]: Recoverable errors when loading section [-18, 6, 8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[14:18:26] [Worker-Main-22/ERROR]: Recoverable errors when loading section [-19, 6, 8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[14:18:49] [Server thread/WARN]: [net.minecraft.class_2586] Serialization errors:
+minecraft:chest // net.minecraft.class_2595@class_2338{x=-223, y=-49, z=128}:
+  Failed to decode value '{Slot:0b,count:1,id:"plasticgun:762_tokarev_ap"}' from field 'Items' at index 0': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:762_tokarev_ap
+  Failed to decode value '{Slot:2b,count:1,id:"plasticgun:38_special"}' from field 'Items' at index 1': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:38_special
+  Failed to decode value '{Slot:5b,count:1,id:"plasticgun:netherite_shuriken"}' from field 'Items' at index 2': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:netherite_shuriken
+  Failed to decode value '{Slot:10b,count:1,id:"plasticgun:rpg_shell"}' from field 'Items' at index 3': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:rpg_shell
+  Failed to decode value '{Slot:12b,count:1,id:"plasticgun:ceramic_plate"}' from field 'Items' at index 4': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:ceramic_plate
+  Failed to decode value '{Slot:14b,count:1,id:"plasticgun:magnetic_coil"}' from field 'Items' at index 5': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:magnetic_coil
+  Failed to decode value '{Slot:18b,count:1,id:"plasticgun:rpg_shell_incendiary"}' from field 'Items' at index 6': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:rpg_shell_incendiary
+  Failed to decode value '{Slot:20b,count:1,id:"plasticgun:rpg_shell"}' from field 'Items' at index 7': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:rpg_shell
+[14:18:49] [Server thread/WARN]: [net.minecraft.class_2586] Serialization errors:
+minecraft:chest // net.minecraft.class_2595@class_2338{x=-259, y=-49, z=128}:
+  Failed to decode value '{Slot:0b,count:1,id:"plasticgun:grenade_f1"}' from field 'Items' at index 0': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:grenade_f1
+  Failed to decode value '{Slot:3b,count:1,id:"plasticgun:power_cell"}' from field 'Items' at index 1': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:power_cell
+  Failed to decode value '{Slot:7b,count:1,id:"plasticgun:rpg9"}' from field 'Items' at index 2': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:rpg9
+  Failed to decode value '{Slot:22b,count:1,id:"plasticgun:rpg_shell_incendiary"}' from field 'Items' at index 3': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:rpg_shell_incendiary
+  Failed to decode value '{Slot:26b,count:1,id:"plasticgun:tokarev_tt_33"}' from field 'Items' at index 5': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:tokarev_tt_33
+[14:18:49] [Server thread/ERROR]: Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_spin_head_cooldown; Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_is_oxidized
+[14:18:54] [Worker-Main-22/ERROR]: Recoverable errors when loading section [-21, 7, 6]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[14:19:01] [Worker-Main-21/ERROR]: Recoverable errors when loading section [-21, 7, 5]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
