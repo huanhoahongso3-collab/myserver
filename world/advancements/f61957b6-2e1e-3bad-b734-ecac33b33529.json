@@ -6895,99 +6895,27 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
+  "farmersdelight:recipes/food/roast_chicken_block": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 14:15:27 +0000"
+      "has_cooked_chicken": "2026-04-24 13:56:17 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_kill": {
+  "farmersdelight:recipes/food/chicken_sandwich": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 14:15:27 +0000"
+      "has_cooked_chicken": "2026-04-24 13:56:17 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_inventory_change": {
+  "nova_structures:root": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 14:15:27 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-24 14:15:27 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-24 14:15:27 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-24 14:15:27 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-24 14:15:27 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-24 14:15:27 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-24 14:15:27 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-24 14:15:27 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-24 14:15:27 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2026-04-24 14:15:27 +0000"
-    },
-    "done": false
-  },
-  "blockus:recipes/building_blocks/small_bluestone_brick_slab_from_bluestone_stonecutting": {
-    "criteria": {
-      "has_bluestone": "2026-04-24 14:07:27 +0000"
+      "dnt_discover_structure": "2026-04-24 14:05:01 +0000"
     },
     "done": true
   },
   "plushables:recipes/misc/plushable_shrump": {
     "criteria": {
       "has_heart_of_gold": "2026-04-24 14:05:35 +0000"
-    },
-    "done": true
-  },
-  "blockus:recipes/building_blocks/polished_bluestone_slab_from_bluestone_stonecutting": {
-    "criteria": {
-      "has_bluestone": "2026-04-24 14:07:27 +0000"
-    },
-    "done": true
-  },
-  "blockus:recipes/building_blocks/bluestone_stairs": {
-    "criteria": {
-      "has_bluestone": "2026-04-24 14:07:27 +0000"
     },
     "done": true
   },
@@ -7024,24 +6952,6 @@
   "plushables:recipes/misc/plushable_walrus": {
     "criteria": {
       "has_heart_of_gold": "2026-04-24 14:05:35 +0000"
-    },
-    "done": true
-  },
-  "curiosities:recipes/misc/angel_block": {
-    "criteria": {
-      "pearl": "2026-04-24 14:10:25 +0000"
-    },
-    "done": true
-  },
-  "blockus:recipes/redstone/bluestone_button": {
-    "criteria": {
-      "has_bluestone": "2026-04-24 14:07:27 +0000"
-    },
-    "done": true
-  },
-  "extended_drawers:recipes/tools/lock": {
-    "criteria": {
-      "has_gold_ingot": "2026-04-24 14:10:25 +0000"
     },
     "done": true
   },
@@ -7099,27 +7009,9 @@
     },
     "done": true
   },
-  "blockus:recipes/building_blocks/bluestone_brick_stairs_from_bluestone_stonecutting": {
-    "criteria": {
-      "has_bluestone": "2026-04-24 14:07:27 +0000"
-    },
-    "done": true
-  },
   "plushables:recipes/misc/plushable_moobloom": {
     "criteria": {
       "has_heart_of_gold": "2026-04-24 14:05:35 +0000"
-    },
-    "done": true
-  },
-  "nova_structures:root": {
-    "criteria": {
-      "dnt_discover_structure": "2026-04-24 14:05:01 +0000"
-    },
-    "done": true
-  },
-  "blockus:recipes/building_blocks/bluestone_brick_slab_from_bluestone_stonecutting": {
-    "criteria": {
-      "has_bluestone": "2026-04-24 14:07:27 +0000"
     },
     "done": true
   },
@@ -7132,12 +7024,6 @@
   "plushables:recipes/misc/plushable_snowie": {
     "criteria": {
       "has_heart_of_gold": "2026-04-24 14:05:35 +0000"
-    },
-    "done": true
-  },
-  "blockus:recipes/decorations/bluestone_wall": {
-    "criteria": {
-      "has_bluestone": "2026-04-24 14:07:27 +0000"
     },
     "done": true
   },
@@ -7165,27 +7051,9 @@
     },
     "done": true
   },
-  "blockus:recipes/building_blocks/golden_bars": {
-    "criteria": {
-      "has_gold_ingot": "2026-04-24 14:10:25 +0000"
-    },
-    "done": true
-  },
-  "blockus:recipes/building_blocks/bluestone_wall_from_bluestone_stonecutting": {
-    "criteria": {
-      "has_bluestone": "2026-04-24 14:07:27 +0000"
-    },
-    "done": true
-  },
   "plushables:recipes/misc/plushable_rattiam": {
     "criteria": {
       "has_heart_of_gold": "2026-04-24 14:05:35 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/roast_chicken_block": {
-    "criteria": {
-      "has_cooked_chicken": "2026-04-24 13:56:17 +0000"
     },
     "done": true
   },
@@ -7198,30 +7066,6 @@
   "plushables:recipes/misc/plushable_conductor": {
     "criteria": {
       "has_heart_of_gold": "2026-04-24 14:05:35 +0000"
-    },
-    "done": true
-  },
-  "blockus:recipes/building_blocks/polished_bluestone_stairs_from_bluestone_stonecutting": {
-    "criteria": {
-      "has_bluestone": "2026-04-24 14:07:27 +0000"
-    },
-    "done": true
-  },
-  "blockus:recipes/redstone/bluestone_pressure_plate": {
-    "criteria": {
-      "has_bluestone": "2026-04-24 14:07:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/golden_spear": {
-    "criteria": {
-      "has_gold_ingot": "2026-04-24 14:10:25 +0000"
-    },
-    "done": true
-  },
-  "blockus:recipes/building_blocks/bluestone_stairs_from_bluestone_stonecutting": {
-    "criteria": {
-      "has_bluestone": "2026-04-24 14:07:27 +0000"
     },
     "done": true
   },
@@ -7243,12 +7087,6 @@
     },
     "done": true
   },
-  "blockus:recipes/building_blocks/golden_chain": {
-    "criteria": {
-      "has_gold_ingot": "2026-04-24 14:10:25 +0000"
-    },
-    "done": true
-  },
   "plushables:recipes/misc/plushable_owl": {
     "criteria": {
       "has_heart_of_gold": "2026-04-24 14:05:35 +0000"
@@ -7258,12 +7096,6 @@
   "plushables:recipes/misc/plushable_statuette": {
     "criteria": {
       "has_heart_of_gold": "2026-04-24 14:05:35 +0000"
-    },
-    "done": true
-  },
-  "blockus:recipes/building_blocks/small_bluestone_brick_wall_from_bluestone_stonecutting": {
-    "criteria": {
-      "has_bluestone": "2026-04-24 14:07:27 +0000"
     },
     "done": true
   },
@@ -7285,45 +7117,15 @@
     },
     "done": true
   },
-  "blockus:recipes/building_blocks/small_bluestone_brick_stairs_from_bluestone_stonecutting": {
-    "criteria": {
-      "has_bluestone": "2026-04-24 14:07:27 +0000"
-    },
-    "done": true
-  },
   "plushables:recipes/misc/plushable_djungelskog": {
     "criteria": {
       "has_heart_of_gold": "2026-04-24 14:05:35 +0000"
     },
     "done": true
   },
-  "blockus:recipes/building_blocks/bluestone_slab_from_bluestone_stonecutting": {
-    "criteria": {
-      "has_bluestone": "2026-04-24 14:07:27 +0000"
-    },
-    "done": true
-  },
-  "blockus:recipes/building_blocks/bluestone_brick_wall_from_bluestone_stonecutting": {
-    "criteria": {
-      "has_bluestone": "2026-04-24 14:07:27 +0000"
-    },
-    "done": true
-  },
-  "blockus:recipes/building_blocks/bluestone_slab": {
-    "criteria": {
-      "has_bluestone": "2026-04-24 14:07:27 +0000"
-    },
-    "done": true
-  },
   "plushables:recipes/misc/plushable_big_tater": {
     "criteria": {
       "has_heart_of_gold": "2026-04-24 14:05:35 +0000"
-    },
-    "done": true
-  },
-  "blockus:recipes/building_blocks/bluestone_tile_stairs_from_bluestone_stonecutting": {
-    "criteria": {
-      "has_bluestone": "2026-04-24 14:07:27 +0000"
     },
     "done": true
   },
@@ -7339,18 +7141,6 @@
     },
     "done": true
   },
-  "blockus:recipes/building_blocks/bluestone_tile_wall_from_bluestone_stonecutting": {
-    "criteria": {
-      "has_bluestone": "2026-04-24 14:07:27 +0000"
-    },
-    "done": true
-  },
-  "blockus:recipes/building_blocks/bluestone_tile_slab_from_bluestone_stonecutting": {
-    "criteria": {
-      "has_bluestone": "2026-04-24 14:07:27 +0000"
-    },
-    "done": true
-  },
   "plushables:recipes/misc/plushable_wizard": {
     "criteria": {
       "has_heart_of_gold": "2026-04-24 14:05:35 +0000"
@@ -7360,12 +7150,6 @@
   "plushables:recipes/misc/plushable_triceratops": {
     "criteria": {
       "has_heart_of_gold": "2026-04-24 14:05:35 +0000"
-    },
-    "done": true
-  },
-  "blockus:recipes/building_blocks/bluestone_circular_paving_from_bluestone_stonecutting": {
-    "criteria": {
-      "has_bluestone": "2026-04-24 14:07:27 +0000"
     },
     "done": true
   },
@@ -7399,12 +7183,6 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/food/chicken_sandwich": {
-    "criteria": {
-      "has_cooked_chicken": "2026-04-24 13:56:17 +0000"
-    },
-    "done": true
-  },
   "plushables:recipes/misc/plushable_truffles": {
     "criteria": {
       "has_heart_of_gold": "2026-04-24 14:05:35 +0000"
@@ -7422,6 +7200,228 @@
       "has_heart_of_gold": "2026-04-24 14:05:35 +0000"
     },
     "done": true
+  },
+  "blockus:recipes/building_blocks/small_bluestone_brick_slab_from_bluestone_stonecutting": {
+    "criteria": {
+      "has_bluestone": "2026-04-24 14:07:27 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/polished_bluestone_slab_from_bluestone_stonecutting": {
+    "criteria": {
+      "has_bluestone": "2026-04-24 14:07:27 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/bluestone_stairs": {
+    "criteria": {
+      "has_bluestone": "2026-04-24 14:07:27 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/redstone/bluestone_button": {
+    "criteria": {
+      "has_bluestone": "2026-04-24 14:07:27 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/bluestone_brick_stairs_from_bluestone_stonecutting": {
+    "criteria": {
+      "has_bluestone": "2026-04-24 14:07:27 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/bluestone_brick_slab_from_bluestone_stonecutting": {
+    "criteria": {
+      "has_bluestone": "2026-04-24 14:07:27 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/decorations/bluestone_wall": {
+    "criteria": {
+      "has_bluestone": "2026-04-24 14:07:27 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/bluestone_wall_from_bluestone_stonecutting": {
+    "criteria": {
+      "has_bluestone": "2026-04-24 14:07:27 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/polished_bluestone_stairs_from_bluestone_stonecutting": {
+    "criteria": {
+      "has_bluestone": "2026-04-24 14:07:27 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/redstone/bluestone_pressure_plate": {
+    "criteria": {
+      "has_bluestone": "2026-04-24 14:07:27 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/bluestone_stairs_from_bluestone_stonecutting": {
+    "criteria": {
+      "has_bluestone": "2026-04-24 14:07:27 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/small_bluestone_brick_wall_from_bluestone_stonecutting": {
+    "criteria": {
+      "has_bluestone": "2026-04-24 14:07:27 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/small_bluestone_brick_stairs_from_bluestone_stonecutting": {
+    "criteria": {
+      "has_bluestone": "2026-04-24 14:07:27 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/bluestone_slab_from_bluestone_stonecutting": {
+    "criteria": {
+      "has_bluestone": "2026-04-24 14:07:27 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/bluestone_brick_wall_from_bluestone_stonecutting": {
+    "criteria": {
+      "has_bluestone": "2026-04-24 14:07:27 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/bluestone_slab": {
+    "criteria": {
+      "has_bluestone": "2026-04-24 14:07:27 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/bluestone_tile_stairs_from_bluestone_stonecutting": {
+    "criteria": {
+      "has_bluestone": "2026-04-24 14:07:27 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/bluestone_tile_wall_from_bluestone_stonecutting": {
+    "criteria": {
+      "has_bluestone": "2026-04-24 14:07:27 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/bluestone_tile_slab_from_bluestone_stonecutting": {
+    "criteria": {
+      "has_bluestone": "2026-04-24 14:07:27 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/bluestone_circular_paving_from_bluestone_stonecutting": {
+    "criteria": {
+      "has_bluestone": "2026-04-24 14:07:27 +0000"
+    },
+    "done": true
+  },
+  "curiosities:recipes/misc/angel_block": {
+    "criteria": {
+      "pearl": "2026-04-24 14:10:25 +0000"
+    },
+    "done": true
+  },
+  "extended_drawers:recipes/tools/lock": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-24 14:10:25 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/golden_bars": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-24 14:10:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_spear": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-24 14:10:25 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/golden_chain": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-24 14:10:25 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-24 14:22:53 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-24 14:22:53 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-24 14:22:53 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-24 14:22:53 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-24 14:22:53 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-24 14:22:53 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-24 14:22:53 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-24 14:22:53 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-24 14:22:53 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-24 14:22:53 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-24 14:22:53 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-24 14:22:53 +0000"
+    },
+    "done": false
   },
   "DataVersion": 4671
 }
