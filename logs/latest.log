@@ -1663,3 +1663,4 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [11:21:35] [Server thread/INFO]: cuongchanthoi[/127.152.160.6:44165] logged in with entity id 4468 at (575.3000000119209, 87.0, 409.30000001192093)
 [11:21:35] [Server thread/INFO]: cuongchanthoi joined the game
 [11:22:39] [VSS-TimestampSave/INFO]: Saved 99993 timestamp cache entries to ./world/./data/vss-timestamps.bin
+[11:26:35] [Worker-Main-7/ERROR]: Recoverable errors when loading section [-84, 3, 27]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
