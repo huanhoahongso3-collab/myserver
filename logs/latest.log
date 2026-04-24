@@ -1687,3 +1687,9 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [07:31:55] [Server thread/INFO]: cuongchanthoi left the game
 [07:31:56] [Server thread/INFO]: VSS handshake received from FewerSteak1914 (protocol v15, capabilities=1)
 [07:31:56] [Server thread/INFO]: Player FewerSteak1914 registered for VSS LOD request processing (caps=1)
+[07:33:23] [Server thread/INFO]: cuongchanthoi (f61957b6-2e1e-3bad-b734-ecac33b33529) lost connection: Disconnected
+[07:33:27] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Survival Mode]
+[07:33:39] [VSS-TimestampSave/INFO]: Saved 98062 timestamp cache entries to ./world/./data/vss-timestamps.bin
+[07:33:55] [Netty Epoll IO #5/INFO]: URL Override is set. Gathering from config!
+[07:33:55] [Netty Epoll IO #5/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
+[07:33:55] [Netty Epoll IO #5/WARN]: No Hash in file: Please open config folder and add your hash.
