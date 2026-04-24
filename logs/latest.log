@@ -2333,3 +2333,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [09:48:39] [VSS-TimestampSave/INFO]: Saved 100934 timestamp cache entries to ./world/./data/vss-timestamps.bin
 [09:49:30] [Server thread/INFO]: cuongchanthoi lost connection: Timed out
 [09:49:30] [Server thread/INFO]: cuongchanthoi left the game
+[09:50:25] [Netty Epoll IO #7/INFO]: URL Override is set. Gathering from config!
+[09:50:25] [Netty Epoll IO #7/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
+[09:50:25] [Netty Epoll IO #7/WARN]: No Hash in file: Please open config folder and add your hash.
+[09:50:30] [Server thread/INFO]: Server empty for 60 seconds, pausing
