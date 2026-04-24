@@ -522,7 +522,8 @@
       "minecraft:zombie": "2026-03-12 11:01:10 +0000",
       "minecraft:creeper": "2026-04-12 08:59:02 +0000",
       "minecraft:drowned": "2026-03-11 00:04:52 +0000",
-      "minecraft:zombie_villager": "2026-03-10 14:15:43 +0000"
+      "minecraft:zombie_villager": "2026-03-10 14:15:43 +0000",
+      "minecraft:slime": "2026-04-24 08:07:31 +0000"
     },
     "done": false
   },
@@ -8585,75 +8586,81 @@
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 08:03:39 +0000"
+      "log_spam_fixer": "2026-04-24 08:08:39 +0000"
     },
     "done": false
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 08:03:39 +0000"
+      "log_spam_fixer": "2026-04-24 08:08:39 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 08:03:39 +0000"
+      "log_spam_fixer": "2026-04-24 08:08:39 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 08:03:39 +0000"
+      "log_spam_fixer": "2026-04-24 08:08:39 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 08:03:39 +0000"
+      "log_spam_fixer": "2026-04-24 08:08:39 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 08:03:39 +0000"
+      "log_spam_fixer": "2026-04-24 08:08:39 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 08:03:39 +0000"
+      "log_spam_fixer": "2026-04-24 08:08:39 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 08:03:39 +0000"
+      "log_spam_fixer": "2026-04-24 08:08:39 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 08:03:39 +0000"
+      "log_spam_fixer": "2026-04-24 08:08:39 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 08:03:39 +0000"
+      "log_spam_fixer": "2026-04-24 08:08:39 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 08:03:39 +0000"
+      "log_spam_fixer": "2026-04-24 08:08:39 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 08:03:39 +0000"
+      "log_spam_fixer": "2026-04-24 08:08:39 +0000"
     },
     "done": false
+  },
+  "minecraft:end/levitate": {
+    "criteria": {
+      "levitated": "2026-04-24 08:06:00 +0000"
+    },
+    "done": true
   },
   "DataVersion": 4671
 }
