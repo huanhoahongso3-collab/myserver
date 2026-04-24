@@ -2343,3 +2343,9 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [09:59:36] [VSS-TimestampSave/INFO]: Saved 100543 timestamp cache entries to ./world/./data/vss-timestamps.bin
 [10:04:36] [VSS-TimestampSave/INFO]: Saved 100543 timestamp cache entries to ./world/./data/vss-timestamps.bin
 [10:09:36] [VSS-TimestampSave/INFO]: Saved 100440 timestamp cache entries to ./world/./data/vss-timestamps.bin
+[10:13:56] [Worker-Main-9/ERROR]: Recoverable errors when loading section [-92, 4, 28]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
+[10:13:56] [Server thread/ERROR]: Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_spin_head_cooldown; Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_is_oxidized
+[10:13:56] [Server thread/ERROR]: Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_spin_head_cooldown; Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_is_oxidized
+[10:13:56] [Server thread/ERROR]: Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_spin_head_cooldown; Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_is_oxidized
+[10:13:56] [Server thread/ERROR]: Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_spin_head_cooldown; Unknown registry key in ResourceKey[minecraft:root / minecraft:memory_module_type]: friendsandfoes:copper_golem_is_oxidized
+[10:13:56] [Worker-Main-9/ERROR]: Recoverable errors when loading section [-88, 4, 25]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:block]: puddles:puddle -> using default)
