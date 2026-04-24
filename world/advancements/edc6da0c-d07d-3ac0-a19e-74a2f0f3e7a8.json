@@ -8586,76 +8586,94 @@
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "requirement": "2026-04-24 08:34:08 +0000",
-      "log_spam_fixer": "2026-04-24 08:33:39 +0000"
+      "requirement": "2026-04-24 08:38:41 +0000",
+      "log_spam_fixer": "2026-04-24 08:38:39 +0000"
     },
     "done": true
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 08:33:39 +0000"
+      "log_spam_fixer": "2026-04-24 08:38:39 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 08:33:39 +0000"
+      "log_spam_fixer": "2026-04-24 08:38:39 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 08:33:39 +0000"
+      "log_spam_fixer": "2026-04-24 08:38:39 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 08:33:39 +0000"
+      "log_spam_fixer": "2026-04-24 08:38:39 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 08:33:39 +0000"
+      "log_spam_fixer": "2026-04-24 08:38:39 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 08:33:39 +0000"
+      "log_spam_fixer": "2026-04-24 08:38:39 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 08:33:39 +0000"
+      "log_spam_fixer": "2026-04-24 08:38:39 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 08:33:39 +0000"
+      "log_spam_fixer": "2026-04-24 08:38:39 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 08:33:39 +0000"
+      "log_spam_fixer": "2026-04-24 08:38:39 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 08:33:39 +0000"
+      "log_spam_fixer": "2026-04-24 08:38:39 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 08:33:39 +0000"
+      "log_spam_fixer": "2026-04-24 08:38:39 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/building_blocks/slabs/polished_tuff_slab": {
+    "criteria": {
+      "has_block": "2026-04-24 08:34:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-04-24 08:34:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_stairs_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-04-24 08:34:54 +0000"
+    },
+    "done": true
   },
   "blockus:recipes/building_blocks/lime_neon": {
     "criteria": {
@@ -8663,9 +8681,27 @@
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/tuff_circular_paving_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-04-24 08:34:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_stairs": {
+    "criteria": {
+      "has_polished_tuff": "2026-04-24 08:34:54 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/rainbow_neon": {
     "criteria": {
       "has_glow_ink_sac": "2026-04-24 08:23:12 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/herringbone_tuff_bricks_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-04-24 08:34:54 +0000"
     },
     "done": true
   },
@@ -8693,9 +8729,69 @@
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/tuff_tiles_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-04-24 08:34:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_tuff_wall": {
+    "criteria": {
+      "has_polished_tuff": "2026-04-24 08:34:54 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/redstone/polished_tuff_button": {
+    "criteria": {
+      "has_polished_tuff": "2026-04-24 08:34:54 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/tuff_tile_wall_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-04-24 08:34:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_bricks": {
+    "criteria": {
+      "has_polished_tuff": "2026-04-24 08:34:54 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/redstone/polished_tuff_pressure_plate": {
+    "criteria": {
+      "has_polished_tuff": "2026-04-24 08:34:54 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/green_neon": {
     "criteria": {
       "has_glow_ink_sac": "2026-04-24 08:23:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-04-24 08:34:54 +0000"
+    },
+    "done": true
+  },
+  "slabs_stairs_to_block:recipes/building_blocks/slabs/polished_tuff": {
+    "criteria": {
+      "has_slab": "2026-04-24 08:34:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_slab": {
+    "criteria": {
+      "has_polished_tuff": "2026-04-24 08:34:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_slab_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-04-24 08:34:54 +0000"
     },
     "done": true
   },
@@ -8708,6 +8804,18 @@
   "blockus:recipes/building_blocks/light_gray_neon": {
     "criteria": {
       "has_glow_ink_sac": "2026-04-24 08:23:12 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/tuff_pillar_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-04-24 08:34:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-04-24 08:34:54 +0000"
     },
     "done": true
   },
@@ -8735,6 +8843,12 @@
     },
     "done": true
   },
+  "blockus:recipes/building_blocks/tuff_tile_slab_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-04-24 08:34:54 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/brown_neon": {
     "criteria": {
       "has_glow_ink_sac": "2026-04-24 08:23:12 +0000"
@@ -8750,6 +8864,24 @@
   "blockus:recipes/building_blocks/red_neon": {
     "criteria": {
       "has_glow_ink_sac": "2026-04-24 08:23:12 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/tuff_tile_stairs_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-04-24 08:34:54 +0000"
+    },
+    "done": true
+  },
+  "slabs_stairs_to_block:recipes/building_blocks/stairs/polished_tuff": {
+    "criteria": {
+      "has_stairs": "2026-04-24 08:34:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_tuff_wall_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-04-24 08:34:54 +0000"
     },
     "done": true
   },
@@ -8774,6 +8906,24 @@
   "blockus:recipes/building_blocks/black_neon": {
     "criteria": {
       "has_glow_ink_sac": "2026-04-24 08:23:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_bricks_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-04-24 08:34:54 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/carved_tuff_bricks_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-04-24 08:34:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2026-04-24 08:34:54 +0000"
     },
     "done": true
   },

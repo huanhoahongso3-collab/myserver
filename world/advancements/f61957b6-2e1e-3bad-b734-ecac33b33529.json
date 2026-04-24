@@ -1127,7 +1127,8 @@
       "minecraft:piglin_brute": "2026-03-29 08:16:57 +0000",
       "minecraft:zombie": "2026-03-14 03:27:33 +0000",
       "minecraft:creeper": "2026-03-30 15:02:02 +0000",
-      "minecraft:zombie_villager": "2026-03-30 14:47:01 +0000"
+      "minecraft:zombie_villager": "2026-03-30 14:47:01 +0000",
+      "minecraft:slime": "2026-04-24 08:37:13 +0000"
     },
     "done": false
   },
@@ -6787,74 +6788,74 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 08:33:39 +0000"
+      "log_spam_fixer": "2026-04-24 08:38:39 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 08:33:39 +0000"
+      "log_spam_fixer": "2026-04-24 08:38:39 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 08:33:39 +0000"
+      "log_spam_fixer": "2026-04-24 08:38:39 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 08:33:39 +0000"
+      "log_spam_fixer": "2026-04-24 08:38:39 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 08:33:39 +0000"
+      "log_spam_fixer": "2026-04-24 08:38:39 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 08:33:39 +0000"
+      "log_spam_fixer": "2026-04-24 08:38:39 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 08:33:39 +0000"
+      "log_spam_fixer": "2026-04-24 08:38:39 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 08:33:39 +0000"
+      "log_spam_fixer": "2026-04-24 08:38:39 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 08:33:39 +0000"
+      "log_spam_fixer": "2026-04-24 08:38:39 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "requirement": "2026-04-24 08:33:50 +0000",
-      "log_spam_fixer": "2026-04-24 08:33:39 +0000"
+      "requirement": "2026-04-24 08:39:19 +0000",
+      "log_spam_fixer": "2026-04-24 08:38:39 +0000"
     },
     "done": true
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 08:33:39 +0000"
+      "log_spam_fixer": "2026-04-24 08:38:39 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2026-04-24 08:33:39 +0000"
+      "log_spam_fixer": "2026-04-24 08:38:39 +0000"
     },
     "done": false
   },
@@ -6873,6 +6874,12 @@
   "blockus:recipes/building_blocks/netherrack_bricks_from_netherrack_stonecutting": {
     "criteria": {
       "has_netherrack": "2026-04-24 08:30:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/revaulting": {
+    "criteria": {
+      "revaulting": "2026-04-24 08:39:07 +0000"
     },
     "done": true
   },
@@ -6900,9 +6907,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2026-04-24 08:39:16 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/polished_netherrack_slab_from_netherrack_stonecutting": {
     "criteria": {
       "has_netherrack": "2026-04-24 08:30:02 +0000"
+    },
+    "done": true
+  },
+  "glideaway:recipes/tools/wind_in_a_bottle": {
+    "criteria": {
+      "wool": "2026-04-24 08:39:20 +0000"
     },
     "done": true
   },
