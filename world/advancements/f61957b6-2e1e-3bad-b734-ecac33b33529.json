@@ -7391,74 +7391,73 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-04-25 15:18:53 +0000"
+      "log_spam_fixer": "2026-04-25 15:23:53 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2026-04-25 15:18:53 +0000"
+      "log_spam_fixer": "2026-04-25 15:23:53 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2026-04-25 15:18:53 +0000"
+      "log_spam_fixer": "2026-04-25 15:23:53 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-04-25 15:18:53 +0000"
+      "log_spam_fixer": "2026-04-25 15:23:53 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2026-04-25 15:18:53 +0000"
+      "log_spam_fixer": "2026-04-25 15:23:53 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2026-04-25 15:18:53 +0000"
+      "log_spam_fixer": "2026-04-25 15:23:53 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2026-04-25 15:18:53 +0000"
+      "log_spam_fixer": "2026-04-25 15:23:53 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2026-04-25 15:18:53 +0000"
+      "log_spam_fixer": "2026-04-25 15:23:53 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2026-04-25 15:18:53 +0000"
+      "log_spam_fixer": "2026-04-25 15:23:53 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "requirement": "2026-04-25 15:18:59 +0000",
-      "log_spam_fixer": "2026-04-25 15:18:53 +0000"
+      "log_spam_fixer": "2026-04-25 15:23:53 +0000"
     },
-    "done": true
+    "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-04-25 15:18:53 +0000"
+      "log_spam_fixer": "2026-04-25 15:23:53 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2026-04-25 15:18:53 +0000"
+      "log_spam_fixer": "2026-04-25 15:23:53 +0000"
     },
     "done": false
   },
@@ -7486,9 +7485,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/blue_bundle": {
+    "criteria": {
+      "has_blue_dye": "2026-04-25 15:22:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
     "criteria": {
       "has_pink_dye": "2026-04-25 15:08:03 +0000"
+    },
+    "done": true
+  },
+  "curiosities:recipes/transportation/blue_elevator": {
+    "criteria": {
+      "has_blue_dye": "2026-04-25 15:22:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_blue_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-04-25 15:22:04 +0000"
     },
     "done": true
   },
@@ -7546,9 +7563,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/blue_candle": {
+    "criteria": {
+      "has_blue_dye": "2026-04-25 15:22:04 +0000"
+    },
+    "done": true
+  },
+  "polydecorations:recipes/decorations/dye_blue_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2026-04-25 15:22:04 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/small_acacia_logs": {
     "criteria": {
       "has_acacia_log": "2026-04-25 15:03:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_blue_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-04-25 15:22:04 +0000"
     },
     "done": true
   },
@@ -7567,6 +7602,12 @@
   "minecraft:recipes/decorations/dye_yellow_carpet": {
     "criteria": {
       "has_needed_dye": "2026-04-25 15:06:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_blue_dye": "2026-04-25 15:22:04 +0000"
     },
     "done": true
   },
@@ -7630,9 +7671,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/dye_blue_harness": {
+    "criteria": {
+      "has_needed_dye": "2026-04-25 15:22:04 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/acacia_post": {
     "criteria": {
       "has_woods": "2026-04-25 15:03:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
+    "criteria": {
+      "has_blue_dye": "2026-04-25 15:22:04 +0000"
     },
     "done": true
   },
@@ -7651,6 +7704,18 @@
   "curiosities:recipes/transportation/pink_elevator": {
     "criteria": {
       "has_pink_dye": "2026-04-25 15:08:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+    "criteria": {
+      "has_blue_dye": "2026-04-25 15:22:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_blue_dye": "2026-04-25 15:22:04 +0000"
     },
     "done": true
   },
@@ -7687,6 +7752,12 @@
   "minecraft:recipes/tools/glider/red": {
     "criteria": {
       "membrane": "2026-04-25 15:05:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_blue_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-04-25 15:22:04 +0000"
     },
     "done": true
   },
