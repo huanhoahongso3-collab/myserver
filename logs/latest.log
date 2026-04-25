@@ -1675,3 +1675,6 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [07:30:39] [Server thread/INFO]: cuongchanthoi[/127.152.160.6:47887] logged in with entity id 26972 at (579.6041957135232, 75.0, 427.6530913937033)
 [07:30:39] [Server thread/INFO]: cuongchanthoi joined the game
 [07:31:47] [VSS-TimestampSave/INFO]: Saved 97878 timestamp cache entries to ./world/./data/vss-timestamps.bin
+[07:31:54] [Server thread/INFO]: cuongchanthoi lost connection: Timed out
+[07:31:54] [Server thread/INFO]: cuongchanthoi left the game
+[07:31:54] [Server thread/WARN]: handleDisconnection() called twice
