@@ -7391,73 +7391,73 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-04-25 15:03:53 +0000"
+      "log_spam_fixer": "2026-04-25 15:08:53 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2026-04-25 15:03:53 +0000"
+      "log_spam_fixer": "2026-04-25 15:08:53 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2026-04-25 15:03:53 +0000"
+      "log_spam_fixer": "2026-04-25 15:08:53 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-04-25 15:03:53 +0000"
+      "log_spam_fixer": "2026-04-25 15:08:53 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2026-04-25 15:03:53 +0000"
+      "log_spam_fixer": "2026-04-25 15:08:53 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2026-04-25 15:03:53 +0000"
+      "log_spam_fixer": "2026-04-25 15:08:53 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2026-04-25 15:03:53 +0000"
+      "log_spam_fixer": "2026-04-25 15:08:53 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2026-04-25 15:03:53 +0000"
+      "log_spam_fixer": "2026-04-25 15:08:53 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2026-04-25 15:03:53 +0000"
+      "log_spam_fixer": "2026-04-25 15:08:53 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2026-04-25 15:03:53 +0000"
+      "log_spam_fixer": "2026-04-25 15:08:53 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2026-04-25 15:03:53 +0000"
+      "log_spam_fixer": "2026-04-25 15:08:53 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2026-04-25 15:03:53 +0000"
+      "log_spam_fixer": "2026-04-25 15:08:53 +0000"
     },
     "done": false
   },
@@ -7467,9 +7467,81 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
+    "criteria": {
+      "has_pink_dye": "2026-04-25 15:08:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_candle": {
+    "criteria": {
+      "has_yellow_dye": "2026-04-25 15:06:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_candle": {
+    "criteria": {
+      "has_pink_dye": "2026-04-25 15:08:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
+    "criteria": {
+      "has_pink_dye": "2026-04-25 15:08:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_red_yellow": {
+    "criteria": {
+      "has_yellow_dye": "2026-04-25 15:06:47 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/acacia_grate": {
+    "criteria": {
+      "has_acacia_planks": "2026-04-25 15:05:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/glider/green": {
+    "criteria": {
+      "membrane": "2026-04-25 15:05:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/glider/yellow": {
+    "criteria": {
+      "membrane": "2026-04-25 15:05:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/acacia_wood": {
     "criteria": {
       "has_log": "2026-04-25 15:03:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/glider/magenta": {
+    "criteria": {
+      "membrane": "2026-04-25 15:05:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/glider/gray": {
+    "criteria": {
+      "membrane": "2026-04-25 15:05:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/glider/black": {
+    "criteria": {
+      "membrane": "2026-04-25 15:05:08 +0000"
+    },
+    "done": true
+  },
+  "polydecorations:recipes/decorations/dye_pink_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2026-04-25 15:08:03 +0000"
     },
     "done": true
   },
@@ -7479,15 +7551,171 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/dye_yellow_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-04-25 15:06:47 +0000"
+    },
+    "done": true
+  },
+  "polydecorations:recipes/decorations/dye_white_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2026-04-25 15:06:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_yellow_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-04-25 15:06:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/glider/pink": {
+    "criteria": {
+      "membrane": "2026-04-25 15:05:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_pink_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-04-25 15:08:03 +0000"
+    },
+    "done": true
+  },
   "polydecorations:recipes/decorations/acacia_stump": {
     "criteria": {
       "planks": "2026-04-25 15:03:26 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/tools/glider/light_gray": {
+    "criteria": {
+      "membrane": "2026-04-25 15:05:08 +0000"
+    },
+    "done": true
+  },
+  "curiosities:recipes/transportation/yellow_elevator": {
+    "criteria": {
+      "has_yellow_dye": "2026-04-25 15:06:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/glider/orange": {
+    "criteria": {
+      "membrane": "2026-04-25 15:05:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_pink_harness": {
+    "criteria": {
+      "has_needed_dye": "2026-04-25 15:08:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_yellow_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-04-25 15:06:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/yellow_bundle": {
+    "criteria": {
+      "has_yellow_dye": "2026-04-25 15:06:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_yellow_harness": {
+    "criteria": {
+      "has_needed_dye": "2026-04-25 15:06:47 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/building_blocks/acacia_post": {
     "criteria": {
       "has_woods": "2026-04-25 15:03:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/glider/lime": {
+    "criteria": {
+      "membrane": "2026-04-25 15:05:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/glider/blue": {
+    "criteria": {
+      "membrane": "2026-04-25 15:05:08 +0000"
+    },
+    "done": true
+  },
+  "curiosities:recipes/transportation/pink_elevator": {
+    "criteria": {
+      "has_pink_dye": "2026-04-25 15:08:03 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/acacia_timber_frame": {
+    "criteria": {
+      "has_acacia_planks": "2026-04-25 15:05:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/glider/cyan": {
+    "criteria": {
+      "membrane": "2026-04-25 15:05:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_pink_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-04-25 15:08:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/pink_bundle": {
+    "criteria": {
+      "has_pink_dye": "2026-04-25 15:08:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/glider/light_blue": {
+    "criteria": {
+      "membrane": "2026-04-25 15:05:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/glider/red": {
+    "criteria": {
+      "membrane": "2026-04-25 15:05:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/glider/purple": {
+    "criteria": {
+      "membrane": "2026-04-25 15:05:08 +0000"
+    },
+    "done": true
+  },
+  "blockus:recipes/building_blocks/caution_block": {
+    "criteria": {
+      "has_yellow_dye": "2026-04-25 15:06:47 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/acacia_cabinet": {
+    "criteria": {
+      "has_acacia_trapdoor": "2026-04-25 15:05:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_pink_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-04-25 15:08:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/glider/brown": {
+    "criteria": {
+      "membrane": "2026-04-25 15:05:08 +0000"
     },
     "done": true
   },
