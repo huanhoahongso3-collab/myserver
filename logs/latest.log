@@ -1671,3 +1671,6 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [13:01:14] [Server thread/INFO]: cuongchanthoi left the game
 [13:01:14] [Server thread/WARN]: handleDisconnection() called twice
 [13:02:14] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[14:53:10] [Netty Epoll IO #6/INFO]: URL Override is set. Gathering from config!
+[14:53:10] [Netty Epoll IO #6/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
+[14:53:10] [Netty Epoll IO #6/WARN]: No Hash in file: Please open config folder and add your hash.
