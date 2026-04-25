@@ -1609,3 +1609,45 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [10:44:43] [Server thread/INFO]: Preparing spawn area: 28%
 [10:44:44] [Server thread/INFO]: Preparing spawn area: 28%
 [10:44:44] [Server thread/INFO]: Preparing spawn area: 28%
+[10:44:45] [Server thread/INFO]: Preparing spawn area: 28%
+[10:44:45] [Server thread/INFO]: Preparing spawn area: 28%
+[10:44:48] [Server thread/INFO]: Preparing spawn area: 28%
+[10:44:48] [Server thread/INFO]: Preparing spawn area: 28%
+[10:44:48] [Server thread/INFO]: Preparing spawn area: 28%
+[10:44:48] [Server thread/INFO]: Preparing spawn area: 28%
+[10:44:48] [Server thread/INFO]: Preparing spawn area: 28%
+[10:44:48] [Server thread/INFO]: Time elapsed: 14857 ms
+[10:44:48] [Server thread/INFO]: Done (17.422s)! For help, type "help"
+[10:44:48] [Server thread/INFO]: [REI] ----------------------------------------
+[10:44:48] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for START.
+[10:44:48] [Server thread/INFO]: [REI] Plugins (5):
+[10:44:48] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[10:44:48] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[10:44:48] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[10:44:48] [Server thread/INFO]: [REI]  - (0.00) CommonREIPlugin of CommonREIPlugin [farmersdelight]
+[10:44:48] [Server thread/INFO]: [REI]  - (0.00) REIComputerCraft of REIComputerCraft [computercraft]
+[10:44:48] [Server thread/INFO]: [REI] ----------------------------------------
+[10:44:48] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for START in 1.566 ms, totaling 105.2 ms.
+[10:44:48] [Server thread/INFO]: [REI] ****************************************
+[10:44:48] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for END.
+[10:44:48] [Server thread/INFO]: [REI] Plugins (5):
+[10:44:48] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[10:44:48] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[10:44:48] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[10:44:48] [Server thread/INFO]: [REI]  - (0.00) CommonREIPlugin of CommonREIPlugin [farmersdelight]
+[10:44:48] [Server thread/INFO]: [REI]  - (0.00) REIComputerCraft of REIComputerCraft [computercraft]
+[10:44:48] [Server thread/INFO]: [REI] ****************************************
+[10:44:48] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for END in 915.4 μs, totaling 182.8 ms.
+[10:44:49] [Server thread/INFO]: Starting VSS LOD request processing service
+[10:44:49] [Server thread/INFO]: Loaded 97876 timestamp cache entries from ./world/./data/vss-timestamps.bin
+[10:44:49] [Server thread/INFO]: [Polydex] Started matching recipes and items...
+[10:44:50] [IO-Worker-1/ERROR]: Couldn't load butterbee overlays metadata: No key entries in MapLike[{}]
+[10:44:50] [IO-Worker-1/ERROR]: Couldn't load clifftree fabric:overlays metadata: Unknown resource condition key: tectonic:config
+[10:44:50] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending pack metadata: Pack key supported_formats is deprecated starting from pack format 65. Remove supported_formats from your pack.mcmeta.
+[10:44:50] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending overlays metadata: Overlay "1.21.5" key formats is deprecated starting from pack format 65. Remove formats from your pack.mcmeta.
+[10:45:01] [Server thread/INFO]: [Polydex] Done! It took 12025 ms
+[10:45:03] [Server thread/INFO]: [Polymer] Resource pack created successfully! You can find it in game folder as polymer/resource_pack.zip
+[10:45:12] [Netty Epoll IO #2/WARN]: Modified mixin "vectorwing.farmersdelight.common.mixin.refabricated.RecipeBookSettingsMixin". Check debug logs for more information.
+[10:45:17] [Netty Epoll IO #2/INFO]: URL Override is set. Gathering from config!
+[10:45:17] [Netty Epoll IO #2/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
+[10:45:17] [Netty Epoll IO #2/WARN]: No Hash in file: Please open config folder and add your hash.
