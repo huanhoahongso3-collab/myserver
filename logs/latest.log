@@ -1639,3 +1639,6 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [04:44:32] [IO-Worker-1/ERROR]: Couldn't load clifftree fabric:overlays metadata: Unknown resource condition key: tectonic:config
 [04:44:32] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending pack metadata: Pack key supported_formats is deprecated starting from pack format 65. Remove supported_formats from your pack.mcmeta.
 [04:44:32] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending overlays metadata: Overlay "1.21.5" key formats is deprecated starting from pack format 65. Remove formats from your pack.mcmeta.
+[04:44:43] [Server thread/INFO]: [Polymer] Resource pack created successfully! You can find it in game folder as polymer/resource_pack.zip
+[04:44:43] [Server thread/INFO]: [Polydex] Done! It took 13717 ms
+[04:45:28] [Server thread/INFO]: Server empty for 60 seconds, pausing
