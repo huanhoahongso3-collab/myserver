@@ -1673,3 +1673,6 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [01:24:19] [Server thread/INFO]: cuongchanthoi lost connection: Timed out
 [01:24:19] [Server thread/INFO]: cuongchanthoi left the game
 [01:25:19] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[01:47:50] [Netty Epoll IO #7/INFO]: URL Override is set. Gathering from config!
+[01:47:50] [Netty Epoll IO #7/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
+[01:47:50] [Netty Epoll IO #7/WARN]: No Hash in file: Please open config folder and add your hash.
