@@ -1648,3 +1648,6 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [06:32:51] [Server thread/INFO]: [Polydex] Done! It took 13277 ms
 [06:33:37] [Server thread/INFO]: Server empty for 60 seconds, pausing
 [08:57:43] [Netty Epoll IO #2/WARN]: Modified mixin "vectorwing.farmersdelight.common.mixin.refabricated.RecipeBookSettingsMixin". Check debug logs for more information.
+[08:57:48] [Netty Epoll IO #2/INFO]: URL Override is set. Gathering from config!
+[08:57:48] [Netty Epoll IO #2/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
+[08:57:48] [Netty Epoll IO #2/WARN]: No Hash in file: Please open config folder and add your hash.
