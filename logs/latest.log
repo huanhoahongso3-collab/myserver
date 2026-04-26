@@ -1657,3 +1657,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [00:48:23] [VSS-TimestampSave/INFO]: Saved 97468 timestamp cache entries to ./world/./data/vss-timestamps.bin
 [00:51:59] [Server thread/INFO]: cuongchanthoi has made the advancement [Under Lock and Key]
 [00:53:23] [VSS-TimestampSave/INFO]: Saved 97396 timestamp cache entries to ./world/./data/vss-timestamps.bin
+[00:55:05] [Server thread/WARN]: cuongchanthoi was kicked for floating too long!
+[00:55:05] [Server thread/INFO]: cuongchanthoi lost connection: Disconnected
+[00:55:05] [Server thread/INFO]: cuongchanthoi left the game
+[00:55:05] [Server thread/WARN]: handleDisconnection() called twice
