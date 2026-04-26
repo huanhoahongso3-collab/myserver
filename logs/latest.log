@@ -1700,3 +1700,5 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [02:41:33] [VSS-TimestampSave/INFO]: Saved 97352 timestamp cache entries to ./world/./data/vss-timestamps.bin
 [02:46:33] [VSS-TimestampSave/INFO]: Saved 97122 timestamp cache entries to ./world/./data/vss-timestamps.bin
 [02:51:33] [VSS-TimestampSave/INFO]: Saved 96749 timestamp cache entries to ./world/./data/vss-timestamps.bin
+[02:55:07] [Server thread/WARN]: [net.minecraft.class_5565] Serialization errors:
+chunk@[421, -422].Entities[0]: Failed to decode value '{mainhand:{count:1,id:"plasticgun:p2022"}}' from field 'equipment': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:p2022 missed input: {mainhand:{count:1,id:"plasticgun:p2022"}}
