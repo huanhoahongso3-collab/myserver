@@ -2870,3 +2870,12 @@
 [2026-04-26 03:08:03] [Server thread/TRACE] (BlossomLib): writing BlossomHomes
 [2026-04-26 03:08:28] [Server thread/DEBUG] (BlossomHomes): removing home Home{name='trialchamber', world='minecraft:overworld', x=331.69999998807907, y=83.0, z=62.30000001192093, yaw=60.30417, pitch=26.850008} from class_3222['cuongchanthoi'/25648, l='ServerLevel[world]', x=6875.79, y=95.00, z=-6938.42]
 [2026-04-26 03:08:28] [Server thread/TRACE] (BlossomLib): writing BlossomHomes
+[2026-04-26 03:13:43] [Server thread/TRACE] (BlossomHomes): home player class_3222['cuongchanthoi'/25648, l='ServerLevel[world]', x=6386.09, y=63.00, z=-6945.38] to null
+[2026-04-26 03:13:43] [Server thread/TRACE] (BlossomHomes): found spawn position for f61957b6-2e1e-3bad-b734-ecac33b33529 @ class_5454[newLevel=ServerLevel[world], position=(6980.5, 83.0, -6875.5), deltaMovement=(0.0, 0.0, 0.0), yRot=-4.94156E-6, xRot=0.0, missingRespawnBlock=false, asPassenger=false, relatives=[], postTeleportTransition=net.minecraft.class_5454$$Lambda/0x00007fa4a6207030@274100fb]
+[2026-04-26 03:13:43] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 (3.0 s)
+[2026-04-26 03:13:46] [Server thread/DEBUG] (BlossomLib): genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 has ended
+[2026-04-26 03:13:56] [Server thread/TRACE] (BlossomHomes): home player class_3222['cuongchanthoi'/25648, l='ServerLevel[world]', x=6982.14, y=83.00, z=-6875.70] to Home{name='cuongchanthoi', world='minecraft:overworld', x=62.839803291173794, y=92.5, z=105.7761788192835, yaw=29.399048, pitch=25.799988}
+[2026-04-26 03:14:18] [Server thread/TRACE] (BlossomHomes): home player class_3222['cuongchanthoi'/25648, l='ServerLevel[world]', x=6979.14, y=83.50, z=-6883.54] to null
+[2026-04-26 03:14:23] [Server thread/TRACE] (BlossomHomes): home player class_3222['cuongchanthoi'/25648, l='ServerLevel[world]', x=6979.14, y=83.50, z=-6883.54] to Home{name='cuongchanthoi', world='minecraft:overworld', x=62.839803291173794, y=92.5, z=105.7761788192835, yaw=29.399048, pitch=25.799988}
+[2026-04-26 03:14:23] [Server thread/DEBUG] (BlossomLib): Create new genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 (3.0 s)
+[2026-04-26 03:14:26] [Server thread/DEBUG] (BlossomLib): genericCountdown for f61957b6-2e1e-3bad-b734-ecac33b33529 has ended
