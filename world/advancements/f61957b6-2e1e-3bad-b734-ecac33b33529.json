@@ -7884,77 +7884,77 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
     "criteria": {
-      "log_spam_fixer": "2026-04-26 03:52:34 +0000"
+      "has_mossy_cobblestone": "2026-04-26 02:35:17 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_kill": {
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
     "criteria": {
-      "log_spam_fixer": "2026-04-26 03:52:34 +0000"
+      "has_mossy_cobblestone": "2026-04-26 02:35:17 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_inventory_change": {
+  "minecraft:recipes/building_blocks/slabs/mossy_cobblestone_slab": {
     "criteria": {
-      "log_spam_fixer": "2026-04-26 03:52:34 +0000"
+      "has_block": "2026-04-26 02:35:17 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/holy_wrath": {
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
     "criteria": {
-      "log_spam_fixer": "2026-04-26 03:52:34 +0000"
+      "has_mossy_cobblestone": "2026-04-26 02:35:17 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_block": {
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
     "criteria": {
-      "log_spam_fixer": "2026-04-26 03:52:34 +0000"
+      "has_mossy_cobblestone": "2026-04-26 02:35:17 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/feed_ghastling": {
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
     "criteria": {
-      "log_spam_fixer": "2026-04-26 03:52:34 +0000"
+      "has_mossy_cobblestone": "2026-04-26 02:35:17 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/inventory/firestorm": {
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
     "criteria": {
-      "log_spam_fixer": "2026-04-26 03:52:34 +0000"
+      "has_mossy_cobblestone": "2026-04-26 02:35:17 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/give_ghastling": {
+  "slabs_stairs_to_block:recipes/building_blocks/stairs/mossy_cobblestone": {
     "criteria": {
-      "log_spam_fixer": "2026-04-26 03:52:34 +0000"
+      "has_stairs": "2026-04-26 02:35:17 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/multiplex_crossbow": {
+  "blockus:recipes/building_blocks/legacy_mossy_cobblestone_from_mossy_cobblestone_stonecutting": {
     "criteria": {
-      "log_spam_fixer": "2026-04-26 03:52:34 +0000"
+      "has_mossy_cobblestone": "2026-04-26 02:35:17 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_player_hurt": {
+  "slabs_stairs_to_block:recipes/building_blocks/slabs/mossy_cobblestone": {
     "criteria": {
-      "log_spam_fixer": "2026-04-26 03:52:34 +0000"
+      "has_slab": "2026-04-26 02:35:17 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/inventory/sentrys_wrath": {
+  "minecraft:recipes/food/suspicious_stew_from_allium": {
     "criteria": {
-      "log_spam_fixer": "2026-04-26 03:52:34 +0000"
+      "has_allium": "2026-04-26 02:35:36 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/firestorm": {
+  "minecraft:recipes/misc/magenta_dye_from_allium": {
     "criteria": {
-      "log_spam_fixer": "2026-04-26 03:52:34 +0000"
+      "has_allium": "2026-04-26 02:35:36 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/decorations/dye_magenta_carpet": {
     "criteria": {
@@ -7968,45 +7968,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
-    "criteria": {
-      "has_mossy_cobblestone": "2026-04-26 02:35:17 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
-    "criteria": {
-      "has_mossy_cobblestone": "2026-04-26 02:35:17 +0000"
-    },
-    "done": true
-  },
-  "blockus:recipes/building_blocks/legacy_stonecutter": {
-    "criteria": {
-      "has_stonecutter": "2026-04-26 03:50:24 +0000"
-    },
-    "done": true
-  },
   "curiosities:recipes/transportation/magenta_elevator": {
     "criteria": {
       "has_magenta_dye": "2026-04-26 02:53:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/suspicious_stew_from_allium": {
-    "criteria": {
-      "has_allium": "2026-04-26 02:35:36 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/slabs/mossy_cobblestone_slab": {
-    "criteria": {
-      "has_block": "2026-04-26 02:35:17 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/magenta_dye_from_allium": {
-    "criteria": {
-      "has_allium": "2026-04-26 02:35:36 +0000"
     },
     "done": true
   },
@@ -8016,27 +7980,39 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+  "minecraft:recipes/decorations/dye_magenta_bed": {
     "criteria": {
-      "has_mossy_cobblestone": "2026-04-26 02:35:17 +0000"
+      "has_needed_dye": "2026-04-26 02:53:42 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/yellow_dye_from_wildflowers": {
+  "minecraft:recipes/decorations/magenta_candle": {
     "criteria": {
-      "has_wildflowers": "2026-04-26 03:06:04 +0000"
+      "has_magenta_dye": "2026-04-26 02:53:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/magenta_bundle": {
+    "criteria": {
+      "has_magenta_dye": "2026-04-26 02:53:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_magenta_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-04-26 02:53:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_magenta_harness": {
+    "criteria": {
+      "has_needed_dye": "2026-04-26 02:53:42 +0000"
     },
     "done": true
   },
   "blockus:recipes/building_blocks/granite_circular_paving_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2026-04-26 02:56:10 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
-    "criteria": {
-      "has_mossy_cobblestone": "2026-04-26 02:35:17 +0000"
     },
     "done": true
   },
@@ -8058,39 +8034,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/dye_magenta_bed": {
+  "minecraft:recipes/misc/yellow_dye_from_wildflowers": {
     "criteria": {
-      "has_needed_dye": "2026-04-26 02:53:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/magenta_candle": {
-    "criteria": {
-      "has_magenta_dye": "2026-04-26 02:53:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
-    "criteria": {
-      "has_mossy_cobblestone": "2026-04-26 02:35:17 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/magenta_bundle": {
-    "criteria": {
-      "has_magenta_dye": "2026-04-26 02:53:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
-    "criteria": {
-      "has_mossy_cobblestone": "2026-04-26 02:35:17 +0000"
-    },
-    "done": true
-  },
-  "slabs_stairs_to_block:recipes/building_blocks/stairs/mossy_cobblestone": {
-    "criteria": {
-      "has_stairs": "2026-04-26 02:35:17 +0000"
+      "has_wildflowers": "2026-04-26 03:06:04 +0000"
     },
     "done": true
   },
@@ -8100,29 +8046,83 @@
     },
     "done": true
   },
-  "blockus:recipes/building_blocks/legacy_mossy_cobblestone_from_mossy_cobblestone_stonecutting": {
+  "blockus:recipes/building_blocks/legacy_stonecutter": {
     "criteria": {
-      "has_mossy_cobblestone": "2026-04-26 02:35:17 +0000"
+      "has_stonecutter": "2026-04-26 03:50:24 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_magenta_wool": {
+  "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "has_needed_dye": "2026-04-26 02:53:42 +0000"
+      "log_spam_fixer": "2026-04-26 09:02:45 +0000"
     },
-    "done": true
+    "done": false
   },
-  "minecraft:recipes/combat/dye_magenta_harness": {
+  "incendium:technical/on_kill": {
     "criteria": {
-      "has_needed_dye": "2026-04-26 02:53:42 +0000"
+      "log_spam_fixer": "2026-04-26 09:02:45 +0000"
     },
-    "done": true
+    "done": false
   },
-  "slabs_stairs_to_block:recipes/building_blocks/slabs/mossy_cobblestone": {
+  "incendium:technical/on_inventory_change": {
     "criteria": {
-      "has_slab": "2026-04-26 02:35:17 +0000"
+      "log_spam_fixer": "2026-04-26 09:02:45 +0000"
     },
-    "done": true
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-26 09:02:45 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-26 09:02:45 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-26 09:02:45 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-26 09:02:45 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-26 09:02:45 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-26 09:02:45 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-26 09:02:45 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-26 09:02:45 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2026-04-26 09:02:45 +0000"
+    },
+    "done": false
   },
   "DataVersion": 4671
 }
