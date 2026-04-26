@@ -1637,3 +1637,12 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [06:32:37] [Server thread/INFO]: [REI]  - (0.00) REIComputerCraft of REIComputerCraft [computercraft]
 [06:32:37] [Server thread/INFO]: [REI] ########################################
 [06:32:37] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for END in 480.1 μs, totaling 211.5 ms.
+[06:32:38] [Server thread/INFO]: Starting VSS LOD request processing service
+[06:32:38] [Server thread/INFO]: Loaded 93912 timestamp cache entries from ./world/./data/vss-timestamps.bin
+[06:32:38] [Server thread/INFO]: [Polydex] Started matching recipes and items...
+[06:32:41] [IO-Worker-1/ERROR]: Couldn't load butterbee overlays metadata: No key entries in MapLike[{}]
+[06:32:41] [IO-Worker-1/ERROR]: Couldn't load clifftree fabric:overlays metadata: Unknown resource condition key: tectonic:config
+[06:32:41] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending pack metadata: Pack key supported_formats is deprecated starting from pack format 65. Remove supported_formats from your pack.mcmeta.
+[06:32:41] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending overlays metadata: Overlay "1.21.5" key formats is deprecated starting from pack format 65. Remove formats from your pack.mcmeta.
+[06:32:50] [Server thread/INFO]: [Polymer] Resource pack created successfully! You can find it in game folder as polymer/resource_pack.zip
+[06:32:51] [Server thread/INFO]: [Polydex] Done! It took 13277 ms
