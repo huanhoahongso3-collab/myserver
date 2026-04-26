@@ -1703,3 +1703,4 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [02:55:07] [Server thread/WARN]: [net.minecraft.class_5565] Serialization errors:
 chunk@[421, -422].Entities[0]: Failed to decode value '{mainhand:{count:1,id:"plasticgun:p2022"}}' from field 'equipment': Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: plasticgun:p2022 missed input: {mainhand:{count:1,id:"plasticgun:p2022"}}
 [02:56:33] [VSS-TimestampSave/INFO]: Saved 95824 timestamp cache entries to ./world/./data/vss-timestamps.bin
+[03:01:33] [VSS-TimestampSave/INFO]: Saved 95295 timestamp cache entries to ./world/./data/vss-timestamps.bin
