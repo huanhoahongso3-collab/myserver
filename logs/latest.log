@@ -1599,3 +1599,51 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [13:23:55] [Server thread/INFO]: Preparing spawn area: 28%
 [13:23:56] [Server thread/INFO]: Preparing spawn area: 28%
 [13:23:56] [Server thread/INFO]: Preparing spawn area: 28%
+[13:23:57] [Server thread/INFO]: Preparing spawn area: 28%
+[13:23:57] [Server thread/INFO]: Preparing spawn area: 28%
+[13:23:58] [Server thread/INFO]: Preparing spawn area: 28%
+[13:23:58] [Server thread/INFO]: Preparing spawn area: 28%
+[13:23:59] [Server thread/INFO]: Preparing spawn area: 28%
+[13:23:59] [Server thread/INFO]: Preparing spawn area: 28%
+[13:24:00] [Server thread/INFO]: Preparing spawn area: 28%
+[13:24:00] [Server thread/INFO]: Preparing spawn area: 28%
+[13:24:01] [Server thread/INFO]: Preparing spawn area: 28%
+[13:24:01] [Server thread/INFO]: Preparing spawn area: 28%
+[13:24:02] [Server thread/INFO]: Preparing spawn area: 28%
+[13:24:02] [Server thread/INFO]: Preparing spawn area: 28%
+[13:24:03] [Server thread/INFO]: Preparing spawn area: 28%
+[13:24:04] [IO-Worker-1/ERROR]: Couldn't load butterbee overlays metadata: No key entries in MapLike[{}]
+[13:24:04] [IO-Worker-1/ERROR]: Couldn't load clifftree fabric:overlays metadata: Unknown resource condition key: tectonic:config
+[13:24:04] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending pack metadata: Pack key supported_formats is deprecated starting from pack format 65. Remove supported_formats from your pack.mcmeta.
+[13:24:04] [IO-Worker-1/ERROR]: Couldn't load mr_true_ending overlays metadata: Overlay "1.21.5" key formats is deprecated starting from pack format 65. Remove formats from your pack.mcmeta.
+[13:24:05] [Server thread/INFO]: Preparing spawn area: 28%
+[13:24:05] [Server thread/INFO]: Preparing spawn area: 28%
+[13:24:05] [Server thread/INFO]: Preparing spawn area: 28%
+[13:24:05] [Server thread/INFO]: Preparing spawn area: 28%
+[13:24:05] [Server thread/INFO]: Time elapsed: 14736 ms
+[13:24:05] [Server thread/INFO]: Done (16.934s)! For help, type "help"
+[13:24:05] [Server thread/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[13:24:05] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for START.
+[13:24:05] [Server thread/INFO]: [REI] Plugins (5):
+[13:24:05] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[13:24:05] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[13:24:05] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[13:24:05] [Server thread/INFO]: [REI]  - (0.00) CommonREIPlugin of CommonREIPlugin [farmersdelight]
+[13:24:05] [Server thread/INFO]: [REI]  - (0.00) REIComputerCraft of REIComputerCraft [computercraft]
+[13:24:05] [Server thread/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[13:24:05] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for START in 1.051 ms, totaling 83.53 ms.
+[13:24:05] [Server thread/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[13:24:05] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for END.
+[13:24:05] [Server thread/INFO]: [REI] Plugins (5):
+[13:24:05] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[13:24:05] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[13:24:05] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[13:24:05] [Server thread/INFO]: [REI]  - (0.00) CommonREIPlugin of CommonREIPlugin [farmersdelight]
+[13:24:05] [Server thread/INFO]: [REI]  - (0.00) REIComputerCraft of REIComputerCraft [computercraft]
+[13:24:05] [Server thread/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[13:24:05] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for END in 423.1 μs, totaling 147.5 ms.
+[13:24:06] [Server thread/INFO]: Starting VSS LOD request processing service
+[13:24:06] [Server thread/INFO]: Loaded 93485 timestamp cache entries from ./world/./data/vss-timestamps.bin
+[13:24:06] [Server thread/INFO]: [Polydex] Started matching recipes and items...
+[13:24:17] [Server thread/INFO]: [Polydex] Done! It took 11682 ms
+[13:24:18] [Server thread/INFO]: [Polymer] Resource pack created successfully! You can find it in game folder as polymer/resource_pack.zip
