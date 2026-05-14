@@ -1642,3 +1642,10 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [07:17:56] [Server thread/INFO]: [Polymer] Resource pack created successfully! You can find it in game folder as polymer/resource_pack.zip
 [07:18:44] [Server thread/INFO]: Server empty for 60 seconds, pausing
 [07:33:22] [Netty Epoll IO #2/WARN]: Modified mixin "vectorwing.farmersdelight.common.mixin.refabricated.RecipeBookSettingsMixin". Check debug logs for more information.
+[07:33:31] [Netty Epoll IO #2/INFO]: URL Override is set. Gathering from config!
+[07:33:31] [Netty Epoll IO #2/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
+[07:33:31] [Netty Epoll IO #2/WARN]: No Hash in file: Please open config folder and add your hash.
+[07:33:57] [Server thread/INFO]: FewerSteak1914 (edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8) lost connection: Disconnected
+[07:34:19] [Netty Epoll IO #3/INFO]: URL Override is set. Gathering from config!
+[07:34:19] [Netty Epoll IO #3/INFO]: Url Found: https://poly-proxy-drab.vercel.app/polymania/music_rp+pack.zip
+[07:34:19] [Netty Epoll IO #3/WARN]: No Hash in file: Please open config folder and add your hash.
