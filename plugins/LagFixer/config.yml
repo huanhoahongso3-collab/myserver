@@ -32,7 +32,7 @@ main:
       enabled: true
       # Update interval in seconds
       interval: 3
-      id: 5
+      id: 6
   
   # Automatically reports LagFixer errors and Spark profiler to our support team.
   errors_reporter: true
