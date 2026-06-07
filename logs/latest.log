@@ -2267,3 +2267,10 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [13:58:29] [Server thread/INFO]: [FewerSteak1914: Summoned new Cat]
 [13:58:37] [Server thread/INFO]: FewerSteak1914 issued server command: /summon cat
 [13:58:37] [Server thread/INFO]: [FewerSteak1914: Summoned new Cat]
+[14:01:18] [Server thread/INFO]: quynhanh4187 issued server command: /tick freeze
+[14:01:18] [Server thread/INFO]: [quynhanh4187: The game is frozen]
+[14:01:33] [Server thread/INFO]: quynhanh4187 issued server command: /tick unfreeze
+[14:01:33] [Server thread/INFO]: [quynhanh4187: The game is running normally]
+[14:01:53] [GeyserServerChild-4-4/INFO]: [Geyser-Spigot] quynhanh4187 has disconnected from the Java server because of Bedrock client disconnected
+[14:01:53] [Server thread/INFO]: quynhanh4187 lost connection: Disconnected
+[14:01:53] [Server thread/INFO]: quynhanh4187 left the game
