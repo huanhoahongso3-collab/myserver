@@ -1,0 +1,51 @@
+{
+  "version": 1.8,
+  "lang": "en_us",
+  "lang-options": [
+    "English - en_us (100%)",
+    "Slovak - sk_sk (100%)",
+    "Russian - ru_ru (100%)",
+    "German - de_de (77%)",
+    "Chinese Simplified - zh_cn (65%)",
+    "Chinese Traditional - zh_tw (64%)"
+  ],
+  "online-mode": true,
+  "location": {
+    "max-y": 512,
+    "max-xz": 30000000
+  },
+  "hud": {
+    "editing": true,
+    "loop-ticks": 1,
+    "enabled-modules": {
+      "distance": true,
+      "light": true,
+      "weather": true,
+      "speed": true,
+      "time": true,
+      "coordinates": true,
+      "angle": true,
+      "direction": true,
+      "destination": true,
+      "tracking": true
+    }
+  },
+  "destination": {
+    "saving": true,
+    "max-saved": 50,
+    "global": {
+      "enabled": false,
+      "public-editing": false
+    },
+    "lastdeath": {
+      "saving": true,
+      "max-deaths": 4
+    },
+    "loop-ticks": 20
+  },
+  "social": {
+    "enabled": true,
+    "cooldown": 10
+  },
+  "max-color-presets": 14
+}

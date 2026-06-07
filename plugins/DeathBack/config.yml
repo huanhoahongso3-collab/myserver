@@ -1,0 +1,59 @@
+#    DeathBack
+# Made by p1xEL_mc
+
+# Config version.
+Config-version: 1.0
+
+# The message when plugin enabled.
+Enable-message: 'Plugin loaded!'
+# The message when plugin disabled.
+Disable-message: 'Plugin unloaded!'
+
+DeadMessage:
+  # true to show title message, false will not show.
+  Title: true
+  # Title message.
+  Titles: '&c&lYou are died!'
+  # Subtitle message.
+  SubTitles: '&eType /back to go back your last location'
+  # true to show actionbar message, false will not show.
+  Actionbar: true
+  # Actionbar message.
+  Actionbars: '&cType /back to go your last location'
+  # true to send message, false will not send.
+  Message: true
+  # Message.
+  Messages: '&6&l[DeathBack] &cYou are died, type /back to go back to your last location.'
+
+Commands:
+  # /back
+  back: '&a/back &eGo back to your last death location.'
+  # How many second(s) will need to wait before teleport.
+  BackTime: 3
+  # back command disabling world(s).
+  back-blacklist-worlds:
+    - 'SOMEBODY'
+    - 'SLOWLY'
+    - 'ATTACKER'
+    - 'DANK1NG'
+    - 'SUMMER'
+  help:
+    top: '&b&m                              '
+    plugin: '&6&lDeathBack made by p1xEL_mc'
+    reload: '&a/Deathback reload &eTo reload the config'
+    bottom: '&b&m                              '
+  Reload-permission: 'deathback.reload'
+
+Messages:
+  # The message if the player do not have last death location (never die).
+  No-Death-Loc: '&6&l[DeathBack] &cYou do not have last death location!'
+  # The message when the player is teleporting.
+  Teleporting: '&6&l[DeathBack] &aTeleporting...'
+  # The message when the player is teleported.
+  Teleport-arrive: '&6&l[DeathBack] &aYou are teleported to your last location.'
+  # The message when the world is not allowing to use /back.
+  World-not-allow: '&6&l[DeathBack] &cThe world is not allowing you to go back'
+  # The message when reloading the configuration of the plugin.
+  Reload-Config: '&6&l[DeathBack] &aConfiguration reloaded successful!'
+  # The message when the player has no permission.
+  No-permission: '&6&l[DeathBack] &cYou do not have permission to do that!'

@@ -1,0 +1,70 @@
+{
+  "version": 1.0,
+  "dimensions": [
+    {
+      "id": "world",
+      "name": "Overworld",
+      "color": "#55FF55",
+      "time": {
+        "enabled": true,
+        "weather": {
+          "enabled": true,
+          "night-ticks": {
+            "normal": {
+              "startTick": 12542,
+              "endTick": 0
+            },
+            "storm": {
+              "startTick": 12010,
+              "endTick": 0
+            },
+            "thunderstorm": {
+              "startTick": 0,
+              "endTick": 24000
+            }
+          },
+          "icons": {
+            "day": "☀",
+            "night": "☽",
+            "storm": "🌧",
+            "thunderstorm": "⛈"
+          }
+        }
+      }
+    },
+    {
+      "id": "world_nether",
+      "name": "Nether",
+      "color": "#e8342e",
+      "time": {
+        "enabled": false,
+        "weather": {
+          "enabled": false
+        }
+      }
+    },
+    {
+      "id": "world_the_end",
+      "name": "End",
+      "color": "#edffb0",
+      "time": {
+        "enabled": false,
+        "weather": {
+          "enabled": false
+        }
+      }
+    }
+  ],
+  "ratios": [
+    {
+      "dimension-1": {
+        "key": "world",
+        "value": 1.0
+      },
+      "dimension-2": {
+        "key": "world_nether",
+        "value": 8.0
+      }
+    }
+  ]
+}

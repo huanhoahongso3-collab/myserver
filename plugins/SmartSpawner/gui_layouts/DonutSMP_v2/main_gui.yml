@@ -1,0 +1,56 @@
+# Configuration version – do not modify this value
+gui_layout_version: 1.6.7
+
+# Main GUI Layout Configuration
+# Slot positions: 1-27 (3 rows of 9 slots each)
+# Valid materials: https://jd.papermc.io/paper/1.21.8/org/bukkit/Material.html
+#
+# Format:
+#   slot_X:                    # X = slot number (1-27)
+#     material: MATERIAL_NAME  # Material to display (use PLAYER_HEAD for spawner mob head)
+#     enabled: true/false      # Show/hide button
+#     info_button: true/false  # Optional: Mark as spawner info button for timer updates
+#     click: "action"          # Action for any click (left/right/shift)
+#     left_click: "action"     # Action for left click only (overrides click)
+#     right_click: "action"    # Action for right click only (overrides click)
+#
+# Conditions:
+#   sell_integration: Show only when sell/shop integration is enabled
+#   no_sell_integration: Show only when sell/shop integration is disabled
+#
+# Actions:
+#   open_storage: Open storage GUI
+#   open_stacker: Open stacker GUI
+#   sell_and_exp: Sell all items and collect exp
+#   collect_exp: Collect exp only
+#   none: Display only, no action
+
+# Skip main GUI and open storage directly when clicking spawner
+# When enabled: Right-clicking a spawner opens the storage GUI directly
+# When disabled: Right-clicking a spawner opens the main GUI first (default behavior)
+skip_main_gui: true
+
+
+# Storage button
+slot_12:
+  material: CHEST
+  enabled: true
+  click: open_storage
+
+# Spawner info button (conditional actions)
+slot_14:
+  material: PLAYER_HEAD
+  enabled: true
+  info_button: true
+  if:
+    sell_integration:
+      click: sell_and_exp
+    no_sell_integration:
+      click: none
+
+# Experience bottle
+slot_16:
+  material: EXPERIENCE_BOTTLE
+  enabled: true
+  click: collect_exp
+

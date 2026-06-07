@@ -1,0 +1,51 @@
+# ---------------------------------------
+# Configuración de SetHomePlugin
+# ---------------------------------------
+
+database:
+  # Tipo de base de datos: "sqlite" (por defecto) o "mysql"
+  type: sqlite
+
+  # Parámetros MySQL (solo si type: mysql)
+  mysql:
+    host: localhost
+    port: 3306
+    database: minecraft
+    username: root
+    password: password
+
+settings:
+  # Límite por defecto cuando el jugador no tiene permisos específicos
+  default-limit: 127
+
+  # Tiempo de espera entre comandos (en segundos)
+  command-cooldown: 3
+
+  # Demora antes del teletransporte (en segundos)
+  teleport-delay: 3
+
+# Sistema de permisos dinámicos:
+# - sethome.limit.* = Límite ilimitado
+# - sethome.limit.X = Donde X es cualquier número entero positivo
+# El plugin usará automáticamente el permiso con el número más alto que tenga el jugador
+
+# Mensajes del plugin (puedes personalizar los colores y textos)
+messages:
+  no-player:           "§4Only players can use this command."
+  no-permission:       "§4You do not have permission to use this command."
+  cooldown:            "§7Please wait %seconds% seconds before using this command again."
+  usage-sethome:       "§7Usage: /sethome <name>"
+  usage-home:          "§7Usage: /home <name>"
+  home-saved:          "§aHome '%home%' successfully saved."
+  limit-reached:       "§cYou have reached your limit of %limit% homes. Delete one first."
+  error-saving:        "§cError saving the home. Please try again."
+  home-not-found:      "§cYou do not have a home named '%home%'."
+  teleport-wait:       "§7Teleporting in %seconds% seconds... Do not move."
+  teleported:          "§aWelcome to your home '%home%'!"
+  error-teleport:      "§cError teleporting. Please check if the world exists."
+  usage-shp:           "§7Usage: /shp reload"
+  reload-success:      "§aConfiguration successfully reloaded."
+  usage-delhome:       "§7Usage: /delhome <name>"
+  delete-success:      "§aHome '%home%' permanently deleted."
+  delete-notfound:     "§cThe home '%home%' was not found."
+  error-delete:        "§cError deleting the home. Please report this to an administrator."

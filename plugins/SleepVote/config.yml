@@ -1,0 +1,17 @@
+# The percentage of players in the world required to be in bed to skip the night.
+# Must be between 0 and 100. Set to 0 to make one player sleep skip the night.
+percentage-needed: 50
+
+# The delay in seconds after the required number of players are in bed before the night skips.
+sleep-delay-seconds: 4
+
+# Messages used by the plugin. Supports Paper's MiniMessage format for colors and styling.
+messages:
+  player-wants-sleep: "<yellow><player></yellow> is sleeping. <green>[<sleeping>/<required>]</green> players needed to skip the night."
+  player-left-bed: "<yellow><player></yellow> is no longer sleeping. <green>[<sleeping>/<required>]</green>"
+  night-skipped: "<gold>Enough players are sleeping. Skipping the night...</gold>"
+  sleep-ignored: "<gray>You are now ignoring this night's sleep vote.</gray>"
+  already-ignoring: "<gray>You are already ignoring this night's sleep vote.</gray>"
+  reload-success: "<green>SleepVote configuration has been reloaded.</green>"
+  no-permission: "<red>You do not have permission to use this command.</red>"
+  invalid-command: "<red>Invalid command usage. Use /sleepvote <ignore|reload></red>"
