@@ -1,13 +1,59 @@
-[03:18:08] [ServerMain/INFO]: [bootstrap] Running Java 26 (OpenJDK 64-Bit Server VM 26.0.1+8; Eclipse Adoptium Temurin-26.0.1+8) on Linux 6.17.0-1015-azure (amd64)
-[03:18:08] [ServerMain/INFO]: [bootstrap] Loading Paper 26.1.2-69-main@76d2ac7 (2026-06-03T17:32:02Z) for Minecraft 26.1.2
-[03:18:08] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[03:18:08] [ServerMain/INFO]: [PluginInitializerManager] Initialized 27 plugins
-[03:18:08] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
- - SmartSpawner (1.6.7)
-[03:18:08] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (26):
+[08:49:16] [ServerMain/INFO]: [bootstrap] Running Java 26 (OpenJDK 64-Bit Server VM 26.0.1+8; Eclipse Adoptium Temurin-26.0.1+8) on Linux 6.17.0-1015-azure (amd64)
+[08:49:16] [ServerMain/INFO]: [bootstrap] Loading Paper 26.1.2-69-main@76d2ac7 (2026-06-03T17:32:02Z) for Minecraft 26.1.2
+[08:49:16] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[08:49:17] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.3.20/kotlin-stdlib-2.3.20.pom
+[08:49:17] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/annotations/13.0/annotations-13.0.pom
+[08:49:17] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-reflect/2.3.0/kotlin-reflect-2.3.0.pom
+[08:49:17] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.3.0/kotlin-stdlib-2.3.0.pom
+[08:49:17] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-serialization-json/1.11.0/kotlinx-serialization-json-1.11.0.pom
+[08:49:17] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-serialization-bom/1.11.0/kotlinx-serialization-bom-1.11.0.pom
+[08:49:17] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.11.0/kotlinx-serialization-json-jvm-1.11.0.pom
+[08:49:17] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.11.0/kotlinx-serialization-core-jvm-1.11.0.pom
+[08:49:18] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.11.0/kotlinx-coroutines-core-1.11.0.pom
+[08:49:18] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.11.0/kotlinx-coroutines-bom-1.11.0.pom
+[08:49:18] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.11.0/kotlinx-coroutines-core-jvm-1.11.0.pom
+[08:49:18] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/annotations/23.0.0/annotations-23.0.0.pom
+[08:49:18] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.2.20/kotlin-stdlib-2.2.20.pom
+[08:49:18] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-serialization-cbor/1.11.0/kotlinx-serialization-cbor-1.11.0.pom
+[08:49:18] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-serialization-cbor-jvm/1.11.0/kotlinx-serialization-cbor-jvm-1.11.0.pom
+[08:49:18] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/de/miraculixx/kpaper/1.2.1/kpaper-1.2.1.pom
+[08:49:18] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.5.1/kotlinx-serialization-json-jvm-1.5.1.pom
+[08:49:18] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-serialization-bom/1.5.1/kotlinx-serialization-bom-1.5.1.pom
+[08:49:18] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.8.21/kotlin-stdlib-1.8.21.pom
+[08:49:19] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.8.21/kotlin-stdlib-common-1.8.21.pom
+[08:49:19] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.5.1/kotlinx-serialization-core-jvm-1.5.1.pom
+[08:49:19] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.7.1/kotlinx-coroutines-core-jvm-1.7.1.pom
+[08:49:19] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.7.1/kotlinx-coroutines-bom-1.7.1.pom
+[08:49:19] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.8.20/kotlin-stdlib-common-1.8.20.pom
+[08:49:19] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.20/kotlin-stdlib-jdk8-1.8.20.pom
+[08:49:19] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.8.20/kotlin-stdlib-1.8.20.pom
+[08:49:19] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.20/kotlin-stdlib-jdk7-1.8.20.pom
+[08:49:19] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-jdk8/1.7.1/kotlinx-coroutines-jdk8-1.7.1.pom
+[08:49:20] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.22/kotlin-stdlib-jdk8-1.8.22.pom
+[08:49:20] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.8.22/kotlin-stdlib-1.8.22.pom
+[08:49:20] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.8.22/kotlin-stdlib-common-1.8.22.pom
+[08:49:20] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.22/kotlin-stdlib-jdk7-1.8.22.pom
+[08:49:20] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.3.20/kotlin-stdlib-2.3.20.jar
+[08:49:20] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-0/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/annotations/13.0/annotations-13.0.jar
+[08:49:20] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-1/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-reflect/2.3.0/kotlin-reflect-2.3.0.jar
+[08:49:20] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-2/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-serialization-json/1.11.0/kotlinx-serialization-json-1.11.0.jar
+[08:49:20] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-3/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-serialization-json-jvm/1.11.0/kotlinx-serialization-json-jvm-1.11.0.jar
+[08:49:20] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-4/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-serialization-core-jvm/1.11.0/kotlinx-serialization-core-jvm-1.11.0.jar
+[08:49:20] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-3/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.11.0/kotlinx-coroutines-core-1.11.0.jar
+[08:49:20] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-4/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.11.0/kotlinx-coroutines-core-jvm-1.11.0.jar
+[08:49:20] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-0/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-serialization-cbor/1.11.0/kotlinx-serialization-cbor-1.11.0.jar
+[08:49:20] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-2/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-serialization-cbor-jvm/1.11.0/kotlinx-serialization-cbor-jvm-1.11.0.jar
+[08:49:20] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-1/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/de/miraculixx/kpaper/1.2.1/kpaper-1.2.1.jar
+[08:49:20] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-3/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-jdk8/1.7.1/kotlinx-coroutines-jdk8-1.7.1.jar
+[08:49:20] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-0/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.22/kotlin-stdlib-jdk8-1.8.22.jar
+[08:49:20] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-4/INFO]: [MavenLibraryResolver] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.22/kotlin-stdlib-jdk7-1.8.22.jar
+[08:49:20] [ServerMain/INFO]: [PluginInitializerManager] Initialized 28 plugins
+[08:49:20] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
+ - SmartSpawner (1.6.7), Veinminer (2.10.1)
+[08:49:20] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (26):
  - AxGraves (1.28.1), Brutal_Nightmare_-_Insane_Difficulty (6.1), Clumps (5.0), DeathBack (1.0), DirectionHUD (1.8.2.0+1.20-1.21.8), FokusAPI (4.4), FreezeHibernate (1.0), Geyser-Spigot (2.10.0-SNAPSHOT), HoloMobHealth (2026.1.1.0), ImageFrame (2026.1.2.0), JustTPA (20250220c), LagFixer (1.6.1 [build 143]), LuckPerms (5.5.53), Not-Too-Expensive (1.1), OpenInv (5.3.2), ProtocolLib (5.5.0-SNAPSHOT-b723ff3), Reactify (1.4.b1), SetHomePlugin (1.0.0), SkinsRestorer (15.12.2), SleepVote (1.0.0), TabListPing (2.03), TradeCycle (2.0.1), ViaBackwards (5.9.1), ViaRewind (4.1.1), ViaVersion (5.9.1), ViaVersionStatus (4.01)
-[03:18:13] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[03:18:13] [ServerMain/WARN]: Error reading pack metadata, attempting fallback type
+[08:49:23] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[08:49:24] [ServerMain/WARN]: Error reading pack metadata, attempting fallback type
 com.google.gson.JsonParseException: Pack declared support for versions 16 to 81 but declared main format is 15
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-9.0.19.jar:?]
 	at net.minecraft.server.packs.resources.ResourceMetadata$2.getSection(ResourceMetadata.java:38) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
@@ -29,186 +75,195 @@ com.google.gson.JsonParseException: Pack declared support for versions 16 to 81 
 	at org.bukkit.craftbukkit.Main.main(Main.java:204) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[?:?]
 	at java.base/java.lang.Thread.run(Thread.java:1516) ~[?:?]
-[03:18:13] [ServerMain/WARN]: Missing data pack file/Cherry_Village-common-26.1-unspecified.zip
-[03:18:13] [ServerMain/INFO]: Found new data pack file/Cherry Grove VIllages - 1.20.x - 1.21.x.zip, loading it automatically
-[03:18:16] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/parched@minecraft:loot_table}.pools[2].entries[0]: Missing element more_mob_heads:entities/parched of type minecraft:loot_table
-[03:18:16] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/wither@minecraft:loot_table}.pools[0].entries[0]: Missing element incendium:artifact/patron/warping_witherblade of type minecraft:loot_table
-[03:18:16] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/husk@minecraft:loot_table}.pools[2].entries[0]: Missing element more_mob_heads:entities/husk of type minecraft:loot_table
-[03:18:16] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/camel_husk@minecraft:loot_table}.pools[2].entries[0]: Missing element more_mob_heads:entities/camel_husk of type minecraft:loot_table
-[03:18:17] [ServerMain/INFO]: Loaded 2035 recipes
-[03:18:17] [ServerMain/INFO]: Loaded 2107 advancements
-[03:18:17] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[03:18:17] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 317.5ms
-[03:18:17] [Server thread/INFO]: Starting minecraft server version 26.1.2
-[03:18:17] [Server thread/INFO]: Loading properties
-[03:18:17] [Server thread/INFO]: This server is running Paper version 26.1.2-69-main@76d2ac7 (2026-06-03T17:32:02Z) (Implementing API version 26.1.2.build.69-stable)
-[03:18:17] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[03:18:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[03:18:17] [Server thread/INFO]: Using 4 threads for Netty based IO
-[03:18:17] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[03:18:18] [Server thread/INFO]: Default game type: SURVIVAL
-[03:18:18] [Server thread/INFO]: Generating keypair
-[03:18:18] [Server thread/INFO]: Starting Minecraft server on *:5610
-[03:18:18] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[03:18:18] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[03:18:19] [Server thread/INFO]: [SpigotLibraryLoader] [OpenInv] Loading 1 libraries... please wait
-[03:18:19] [Server thread/INFO]: [SpigotLibraryLoader] [OpenInv] Loaded library /home/runner/work/myserver/myserver/libraries/org/xerial/sqlite-jdbc/3.49.1.0/sqlite-jdbc-3.49.1.0.jar
-[03:18:19] [Server thread/INFO]: [SpigotLibraryLoader] [DirectionHUD] Loading 1 libraries... please wait
-[03:18:19] [Server thread/INFO]: [SpigotLibraryLoader] [DirectionHUD] Loaded library /home/runner/work/myserver/myserver/libraries/org/apache/commons/commons-configuration2/2.11.0/commons-configuration2-2.11.0.jar
-[03:18:19] [Server thread/INFO]: [SpigotLibraryLoader] [DirectionHUD] Loaded library /home/runner/work/myserver/myserver/libraries/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar
-[03:18:19] [Server thread/INFO]: [SpigotLibraryLoader] [DirectionHUD] Loaded library /home/runner/work/myserver/myserver/libraries/org/apache/commons/commons-text/1.12.0/commons-text-1.12.0.jar
-[03:18:19] [Server thread/INFO]: [SpigotLibraryLoader] [DirectionHUD] Loaded library /home/runner/work/myserver/myserver/libraries/commons-logging/commons-logging/1.3.2/commons-logging-1.3.2.jar
-[03:18:19] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loading 1 libraries... please wait
-[03:18:19] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /home/runner/work/myserver/myserver/libraries/com/github/oshi/oshi-core/7.2.0/oshi-core-7.2.0.jar
-[03:18:19] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /home/runner/work/myserver/myserver/libraries/com/github/oshi/oshi-common/7.2.0/oshi-common-7.2.0.jar
-[03:18:19] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /home/runner/work/myserver/myserver/libraries/net/java/dev/jna/jna-jpms/5.18.1/jna-jpms-5.18.1.jar
-[03:18:19] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /home/runner/work/myserver/myserver/libraries/net/java/dev/jna/jna-platform-jpms/5.18.1/jna-platform-jpms-5.18.1.jar
-[03:18:19] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /home/runner/work/myserver/myserver/libraries/org/slf4j/slf4j-api/2.0.18/slf4j-api-2.0.18.jar
-[03:18:19] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.9.1
-[03:18:19] [Server thread/INFO]: [ViaVersion] ViaVersion 5.9.1 is now loaded. Registering protocol transformers and injecting...
-[03:18:19] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
-[03:18:20] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[03:18:20] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[03:18:20] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[03:18:20] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.9.1
-[03:18:20] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.5.0-SNAPSHOT-b723ff3
-[03:18:20] [Server thread/WARN]: [ProtocolLib] Version (MC: 26.1.2) has not yet been tested! Proceed with caution.
-[03:18:20] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.10.0-SNAPSHOT
-[03:18:21] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[03:18:21] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[03:18:21] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.1.1
-[03:18:21] [Server thread/INFO]: [JustTPA] Loading server plugin JustTPA v20250220c
-[03:18:21] [Server thread/INFO]: [SleepVote] Loading server plugin SleepVote v1.0.0
-[03:18:21] [Server thread/INFO]: [SetHomePlugin] Loading server plugin SetHomePlugin v1.0.0
-[03:18:21] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.53
-[03:18:21] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[03:18:21] [Server thread/INFO]: [Brutal_Nightmare_-_Insane_Difficulty] Loading server plugin Brutal_Nightmare_-_Insane_Difficulty v6.1
-[03:18:21] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v2026.1.2.0
-[03:18:21] [Server thread/INFO]: [Not-Too-Expensive] Loading server plugin Not-Too-Expensive v1.1
-[03:18:21] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.2
-[03:18:21] [Server thread/INFO]: [AxGraves] Loading server plugin AxGraves v1.28.1
-[03:18:21] [Server thread/INFO]: [HoloMobHealth] Loading server plugin HoloMobHealth v2026.1.1.0
-[03:18:21] [Server thread/INFO]: [FokusAPI] Loading server plugin FokusAPI v4.4
-[03:18:21] [Server thread/INFO]: [TabListPing] Loading server plugin TabListPing v2.03
-[03:18:21] [Server thread/INFO]: [DeathBack] Loading server plugin DeathBack v1.0
-[03:18:21] [Server thread/INFO]: [SmartSpawner] Loading server plugin SmartSpawner v1.6.7
-[03:18:21] [Server thread/INFO]: [ViaVersionStatus] Loading server plugin ViaVersionStatus v4.01
-[03:18:21] [Server thread/INFO]: [OpenInv] Loading server plugin OpenInv v5.3.2
-[03:18:21] [Server thread/INFO]: [DirectionHUD] Loading server plugin DirectionHUD v1.8.2.0+1.20-1.21.8
-[03:18:21] [Server thread/INFO]: [TradeCycle] Loading server plugin TradeCycle v2.0.1
-[03:18:21] [Server thread/INFO]: [Reactify] Loading server plugin Reactify v1.4.b1
-[03:18:21] [Server thread/INFO]: [FreezeHibernate] Loading server plugin FreezeHibernate v1.0
-[03:18:21] [Server thread/INFO]: [Clumps] Loading server plugin Clumps v5.0
-[03:18:21] [Server thread/INFO]: [[38;5;11m⚡[0m] Loading server plugin LagFixer v1.6.1 [build 143]
-[03:18:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[03:18:21] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.5.0-SNAPSHOT-b723ff3
-[03:18:21] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.1.1
-[03:18:21] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.53
-[03:18:21] [Server thread/INFO]:         __    
-[03:18:21] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.53
-[03:18:21] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[03:18:21] [Server thread/INFO]: 
-[03:18:22] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[03:18:22] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[03:18:22] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[03:18:22] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1114ms)
-[03:18:22] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.2
-[03:18:23] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 26.1.2.
-[03:18:23] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[03:18:23] [Server thread/INFO]: [Clumps] Enabling Clumps v5.0
-[03:18:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:18:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:18:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03:18:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:18:23] [Server thread/INFO]: Preparing level "world"
-[03:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[03:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
-[03:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer   |
-[03:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |-------------------|
-[03:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode  |
-[03:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
-[03:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[03:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.12.2
-[03:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 5872d07
-[03:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[03:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[03:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[03:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
-[03:18:25] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
-[03:18:25] [Server thread/INFO]: Preparing spawn area: 100%
-[03:18:25] [Server thread/INFO]: Prepared spawn area in 1 ms
-[03:18:25] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
-[03:18:25] [Server thread/INFO]: Preparing spawn area: 100%
-[03:18:25] [Server thread/INFO]: Prepared spawn area in 1 ms
-[03:18:25] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
-[03:18:25] [Server thread/INFO]: Preparing spawn area: 100%
-[03:18:25] [Server thread/INFO]: Prepared spawn area in 1 ms
-[03:18:25] [Server thread/INFO]: Done preparing level "world" (1.135s)
-[03:18:25] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.9.1
-[03:18:25] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.1-26.1.2 (775)
-[03:18:25] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.9.1
-[03:18:25] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.10.0-SNAPSHOT
-[03:18:26] [Server thread/INFO]: [JustTPA] Enabling JustTPA v20250220c
-[03:18:26] [Server thread/INFO]: [JustTPA] JustTPA initialized
-[03:18:26] [Server thread/INFO]: [JustTPA] bStats enabled
-[03:18:26] [Server thread/INFO]: [JustTPA] Checking for updates...
-[03:18:26] [Server thread/INFO]: [SleepVote] Enabling SleepVote v1.0.0
-[03:18:26] [Server thread/INFO]: [SleepVote] SleepVote has been enabled.
-[03:18:26] [Server thread/INFO]: [SetHomePlugin] Enabling SetHomePlugin v1.0.0
-[03:18:26] [Server thread/INFO]: [SetHomePlugin] SetHomePlugin enabled con sistema de permisos dinámicos
-[03:18:26] [Server thread/INFO]: [Brutal_Nightmare_-_Insane_Difficulty] Enabling Brutal_Nightmare_-_Insane_Difficulty v6.1
-[03:18:26] [Server thread/INFO]: [Brutal_Nightmare_-_Insane_Difficulty] DatapackDownloader Plugin Enabled!
-[03:18:26] [Server thread/INFO]: [Brutal_Nightmare_-_Insane_Difficulty] Datapack already exists. Skipping download.
-[03:18:26] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v2026.1.2.0
-[03:18:26] [Server thread/INFO]: [ImageFrame] ImageFrame has hooked into ViaVersion!
-[03:18:29] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_static
-[03:18:29] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_animated
-[03:18:29] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_static_overlay
-[03:18:29] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:non_updatable_static
-[03:18:29] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:gif_reader to ImageMapLoader imageframe:url_animated
-[03:18:29] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:imageio to ImageMapLoader imageframe:url_static
-[03:18:29] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:imageio to ImageMapLoader imageframe:url_static_overlay
-[03:18:29] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
-[03:18:29] [Server thread/INFO]: [Not-Too-Expensive] Enabling Not-Too-Expensive v1.1
-[03:18:29] [Server thread/INFO]: [AxGraves] Enabling AxGraves v1.28.1
-[03:18:30] [Server thread/INFO]: [HoloMobHealth] Enabling HoloMobHealth v2026.1.1.0
-[03:18:32] [Server thread/INFO]: [HoloMobHealth] No custom ProtocolProvider provided, using default ProtocolLib provider.
-[03:18:33] [Server thread/INFO]: [HoloMobHealth] Loading languages...
-[03:18:33] [Server thread/INFO]: [HoloMobHealth] Opened Sqlite database successfully
-[03:18:33] [Server thread/INFO]: [HoloMobHealth] HoloMobHealth has been Enabled!
-[03:18:33] [Server thread/INFO]: [FokusAPI] Enabling FokusAPI v4.4
-[03:18:33] [Server thread/INFO]: [FokusAPI] DatapackDownloader Plugin Enabled!
-[03:18:33] [Server thread/INFO]: [FokusAPI] Datapack already exists. Skipping download.
-[03:18:33] [Server thread/INFO]: [TabListPing] Enabling TabListPing v2.03
-[03:18:33] [Server thread/INFO]: [TabListPing] Detected 26.1.2.build.69, using net.minecraft.network.protocol.common.ClientboundKeepAlivePacket & net.minecraft.network.protocol.common.ServerboundKeepAlivePacket
-[03:18:33] [Server thread/INFO]: [TabListPing] Metrics enabled if allowed by plugins/bStats/config.yml
-[03:18:33] [Server thread/INFO]: [DeathBack] Enabling DeathBack v1.0
-[03:18:33] [Server thread/INFO]: [DeathBack] Plugin loaded!
-[03:18:33] [Server thread/INFO]: [DeathBack] 
-[03:18:33] [Server thread/INFO]: [DeathBack] DeathBack
-[03:18:33] [Server thread/INFO]: [DeathBack] Made by p1xEL_mc
-[03:18:33] [Server thread/INFO]: [DeathBack] Thanks for using!
-[03:18:33] [Server thread/INFO]: [DeathBack] 
-[03:18:33] [Server thread/INFO]: [SmartSpawner] Enabling SmartSpawner v1.6.7
-[03:18:33] [Server thread/INFO]: [SmartSpawner] Server supports DataComponent API (Paper 1.21.5+)
-[03:18:34] [Server thread/INFO]: [SmartSpawner] Running on standard Paper server.
-[03:18:34] [Server thread/WARN]: [SmartSpawner] Vault not found! Selling items from spawner will be disabled.
-[03:18:34] [Server thread/INFO]: [SmartSpawner] No compatible shop plugins found. Shop integration is disabled.
-[03:18:34] [Server thread/INFO]: [SmartSpawner] Using YAML file storage mode.
-[03:18:34] [Server thread/INFO]: [SmartSpawner] Initial spawner load complete. Loaded: 0, Pending (missing worlds): 0
-[03:18:34] [Server thread/INFO]: [SmartSpawner] SmartSpawner has been enabled! (Loaded in 239ms)
-[03:18:34] [Server thread/INFO]: [ViaVersionStatus] Enabling ViaVersionStatus v4.01
-[03:18:34] [Server thread/INFO]: [ViaVersionStatus] Metrics enabled if allowed by plugins/bStats/config.yml
-[03:18:34] [Server thread/INFO]: [OpenInv] Enabling OpenInv v5.3.2
-[03:18:34] [Server thread/INFO]: [DirectionHUD] Enabling DirectionHUD v1.8.2.0+1.20-1.21.8
-[03:18:34] [Server thread/INFO]: [DirectionHUD] Started server!
-[03:18:34] [Server thread/INFO]: [TradeCycle] Enabling TradeCycle v2.0.1
-[03:18:34] [Server thread/INFO]: [Reactify] Enabling Reactify v1.4.b1
-[03:18:34] [Server thread/INFO]: [Reactify] DatapackDownloader Plugin Enabled!
-[03:18:34] [Server thread/INFO]: [Reactify] Datapack already exists. Skipping download.
-[03:18:34] [Server thread/INFO]: [FreezeHibernate] Enabling FreezeHibernate v1.0
-[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] Enabling LagFixer v1.6.1 [build 143]
-[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] 
+[08:49:24] [ServerMain/INFO]: Found new data pack Veinminer/provided-c-tags, loading it automatically
+[08:49:26] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/parched@minecraft:loot_table}.pools[2].entries[0]: Missing element more_mob_heads:entities/parched of type minecraft:loot_table
+[08:49:26] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/wither@minecraft:loot_table}.pools[0].entries[0]: Missing element incendium:artifact/patron/warping_witherblade of type minecraft:loot_table
+[08:49:26] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/husk@minecraft:loot_table}.pools[2].entries[0]: Missing element more_mob_heads:entities/husk of type minecraft:loot_table
+[08:49:26] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/camel_husk@minecraft:loot_table}.pools[2].entries[0]: Missing element more_mob_heads:entities/camel_husk of type minecraft:loot_table
+[08:49:26] [ServerMain/INFO]: Loaded 2035 recipes
+[08:49:26] [ServerMain/INFO]: Loaded 2107 advancements
+[08:49:26] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[08:49:27] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 255.5ms
+[08:49:27] [Server thread/INFO]: Starting minecraft server version 26.1.2
+[08:49:27] [Server thread/INFO]: Loading properties
+[08:49:27] [Server thread/INFO]: This server is running Paper version 26.1.2-69-main@76d2ac7 (2026-06-03T17:32:02Z) (Implementing API version 26.1.2.build.69-stable)
+[08:49:27] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[08:49:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[08:49:27] [Server thread/INFO]: Using 4 threads for Netty based IO
+[08:49:27] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[08:49:27] [Server thread/INFO]: Default game type: SURVIVAL
+[08:49:27] [Server thread/INFO]: Generating keypair
+[08:49:27] [Server thread/INFO]: Starting Minecraft server on *:5610
+[08:49:27] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[08:49:27] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[08:49:28] [Server thread/INFO]: [SpigotLibraryLoader] [OpenInv] Loading 1 libraries... please wait
+[08:49:28] [Server thread/INFO]: [SpigotLibraryLoader] [OpenInv] Loaded library /home/runner/work/myserver/myserver/libraries/org/xerial/sqlite-jdbc/3.49.1.0/sqlite-jdbc-3.49.1.0.jar
+[08:49:28] [Server thread/INFO]: [SpigotLibraryLoader] [DirectionHUD] Loading 1 libraries... please wait
+[08:49:28] [Server thread/INFO]: [SpigotLibraryLoader] [DirectionHUD] Loaded library /home/runner/work/myserver/myserver/libraries/org/apache/commons/commons-configuration2/2.11.0/commons-configuration2-2.11.0.jar
+[08:49:28] [Server thread/INFO]: [SpigotLibraryLoader] [DirectionHUD] Loaded library /home/runner/work/myserver/myserver/libraries/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar
+[08:49:28] [Server thread/INFO]: [SpigotLibraryLoader] [DirectionHUD] Loaded library /home/runner/work/myserver/myserver/libraries/org/apache/commons/commons-text/1.12.0/commons-text-1.12.0.jar
+[08:49:28] [Server thread/INFO]: [SpigotLibraryLoader] [DirectionHUD] Loaded library /home/runner/work/myserver/myserver/libraries/commons-logging/commons-logging/1.3.2/commons-logging-1.3.2.jar
+[08:49:28] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loading 1 libraries... please wait
+[08:49:28] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /home/runner/work/myserver/myserver/libraries/com/github/oshi/oshi-core/7.2.0/oshi-core-7.2.0.jar
+[08:49:28] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /home/runner/work/myserver/myserver/libraries/com/github/oshi/oshi-common/7.2.0/oshi-common-7.2.0.jar
+[08:49:28] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /home/runner/work/myserver/myserver/libraries/net/java/dev/jna/jna-jpms/5.18.1/jna-jpms-5.18.1.jar
+[08:49:28] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /home/runner/work/myserver/myserver/libraries/net/java/dev/jna/jna-platform-jpms/5.18.1/jna-platform-jpms-5.18.1.jar
+[08:49:28] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /home/runner/work/myserver/myserver/libraries/org/slf4j/slf4j-api/2.0.18/slf4j-api-2.0.18.jar
+[08:49:28] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.9.1
+[08:49:28] [Server thread/INFO]: [ViaVersion] ViaVersion 5.9.1 is now loaded. Registering protocol transformers and injecting...
+[08:49:28] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[08:49:28] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[08:49:28] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[08:49:29] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[08:49:29] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.9.1
+[08:49:29] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.5.0-SNAPSHOT-b723ff3
+[08:49:29] [Server thread/WARN]: [ProtocolLib] Version (MC: 26.1.2) has not yet been tested! Proceed with caution.
+[08:49:29] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.10.0-SNAPSHOT
+[08:49:29] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[08:49:29] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[08:49:29] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.1.1
+[08:49:29] [Server thread/INFO]: [JustTPA] Loading server plugin JustTPA v20250220c
+[08:49:29] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.10.1
+[08:49:29] [Server thread/INFO]: [Veinminer] Detected platform: Paper
+[08:49:29] [Server thread/INFO]: [de.miraculixx.veinminer.Veinminer] Created settings.json default config
+[08:49:29] [Server thread/INFO]: [SleepVote] Loading server plugin SleepVote v1.0.0
+[08:49:29] [Server thread/INFO]: [SetHomePlugin] Loading server plugin SetHomePlugin v1.0.0
+[08:49:29] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.53
+[08:49:29] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[08:49:29] [Server thread/INFO]: [Brutal_Nightmare_-_Insane_Difficulty] Loading server plugin Brutal_Nightmare_-_Insane_Difficulty v6.1
+[08:49:29] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v2026.1.2.0
+[08:49:29] [Server thread/INFO]: [Not-Too-Expensive] Loading server plugin Not-Too-Expensive v1.1
+[08:49:29] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.2
+[08:49:29] [Server thread/INFO]: [AxGraves] Loading server plugin AxGraves v1.28.1
+[08:49:29] [Server thread/INFO]: [HoloMobHealth] Loading server plugin HoloMobHealth v2026.1.1.0
+[08:49:29] [Server thread/INFO]: [FokusAPI] Loading server plugin FokusAPI v4.4
+[08:49:29] [Server thread/INFO]: [TabListPing] Loading server plugin TabListPing v2.03
+[08:49:29] [Server thread/INFO]: [DeathBack] Loading server plugin DeathBack v1.0
+[08:49:29] [Server thread/INFO]: [SmartSpawner] Loading server plugin SmartSpawner v1.6.7
+[08:49:29] [Server thread/INFO]: [ViaVersionStatus] Loading server plugin ViaVersionStatus v4.01
+[08:49:29] [Server thread/INFO]: [OpenInv] Loading server plugin OpenInv v5.3.2
+[08:49:29] [Server thread/INFO]: [DirectionHUD] Loading server plugin DirectionHUD v1.8.2.0+1.20-1.21.8
+[08:49:29] [Server thread/INFO]: [TradeCycle] Loading server plugin TradeCycle v2.0.1
+[08:49:29] [Server thread/INFO]: [Reactify] Loading server plugin Reactify v1.4.b1
+[08:49:29] [Server thread/INFO]: [FreezeHibernate] Loading server plugin FreezeHibernate v1.0
+[08:49:29] [Server thread/INFO]: [Clumps] Loading server plugin Clumps v5.0
+[08:49:29] [Server thread/INFO]: [[38;5;11m⚡[0m] Loading server plugin LagFixer v1.6.1 [build 143]
+[08:49:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:49:29] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.5.0-SNAPSHOT-b723ff3
+[08:49:29] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.1.1
+[08:49:29] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.10.1
+[08:49:29] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.53
+[08:49:30] [DefaultDispatcher-worker-1/INFO]: [de.miraculixx.veinminer.Veinminer] veinminer is up to date
+[08:49:30] [Server thread/INFO]:         __    
+[08:49:30] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.53
+[08:49:30] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[08:49:30] [Server thread/INFO]: 
+[08:49:30] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[08:49:30] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[08:49:30] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[08:49:30] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 850ms)
+[08:49:30] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.2
+[08:49:31] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 26.1.2.
+[08:49:31] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[08:49:31] [Server thread/INFO]: [Clumps] Enabling Clumps v5.0
+[08:49:31] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:49:31] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:49:31] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:49:31] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:49:31] [Server thread/INFO]: Preparing level "world"
+[08:49:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[08:49:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[08:49:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer   |
+[08:49:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |-------------------|
+[08:49:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode  |
+[08:49:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[08:49:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[08:49:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.12.2
+[08:49:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 5872d07
+[08:49:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[08:49:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[08:49:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[08:49:31] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
+[08:49:32] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[08:49:32] [Server thread/INFO]: Preparing spawn area: 100%
+[08:49:32] [Server thread/INFO]: Prepared spawn area in 1 ms
+[08:49:32] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[08:49:32] [Server thread/INFO]: Prepared spawn area in 2 ms
+[08:49:32] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[08:49:32] [Server thread/INFO]: Prepared spawn area in 0 ms
+[08:49:32] [Server thread/INFO]: Done preparing level "world" (1.071s)
+[08:49:32] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.9.1
+[08:49:32] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.1-26.1.2 (775)
+[08:49:33] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.9.1
+[08:49:33] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.10.0-SNAPSHOT
+[08:49:33] [Server thread/INFO]: [JustTPA] Enabling JustTPA v20250220c
+[08:49:33] [Server thread/INFO]: [JustTPA] JustTPA initialized
+[08:49:33] [Server thread/INFO]: [JustTPA] bStats enabled
+[08:49:33] [Server thread/INFO]: [JustTPA] Checking for updates...
+[08:49:33] [Server thread/INFO]: [SleepVote] Enabling SleepVote v1.0.0
+[08:49:33] [Server thread/INFO]: [SleepVote] SleepVote has been enabled.
+[08:49:33] [Server thread/INFO]: [SetHomePlugin] Enabling SetHomePlugin v1.0.0
+[08:49:33] [Server thread/INFO]: [SetHomePlugin] SetHomePlugin enabled con sistema de permisos dinámicos
+[08:49:33] [Server thread/INFO]: [Brutal_Nightmare_-_Insane_Difficulty] Enabling Brutal_Nightmare_-_Insane_Difficulty v6.1
+[08:49:33] [Server thread/INFO]: [Brutal_Nightmare_-_Insane_Difficulty] DatapackDownloader Plugin Enabled!
+[08:49:33] [Server thread/INFO]: [Brutal_Nightmare_-_Insane_Difficulty] Datapack already exists. Skipping download.
+[08:49:33] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v2026.1.2.0
+[08:49:33] [Server thread/INFO]: [ImageFrame] ImageFrame has hooked into ViaVersion!
+[08:49:36] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_static
+[08:49:36] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_animated
+[08:49:36] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_static_overlay
+[08:49:36] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:non_updatable_static
+[08:49:36] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:gif_reader to ImageMapLoader imageframe:url_animated
+[08:49:36] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:imageio to ImageMapLoader imageframe:url_static
+[08:49:36] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:imageio to ImageMapLoader imageframe:url_static_overlay
+[08:49:36] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
+[08:49:36] [Server thread/INFO]: [Not-Too-Expensive] Enabling Not-Too-Expensive v1.1
+[08:49:36] [Server thread/INFO]: [AxGraves] Enabling AxGraves v1.28.1
+[08:49:36] [Server thread/INFO]: [HoloMobHealth] Enabling HoloMobHealth v2026.1.1.0
+[08:49:39] [Server thread/INFO]: [HoloMobHealth] No custom ProtocolProvider provided, using default ProtocolLib provider.
+[08:49:39] [Server thread/INFO]: [HoloMobHealth] Loading languages...
+[08:49:39] [Server thread/INFO]: [HoloMobHealth] Opened Sqlite database successfully
+[08:49:39] [Server thread/INFO]: [HoloMobHealth] HoloMobHealth has been Enabled!
+[08:49:39] [Server thread/INFO]: [FokusAPI] Enabling FokusAPI v4.4
+[08:49:39] [Server thread/INFO]: [FokusAPI] DatapackDownloader Plugin Enabled!
+[08:49:39] [Server thread/INFO]: [FokusAPI] Datapack already exists. Skipping download.
+[08:49:39] [Server thread/INFO]: [TabListPing] Enabling TabListPing v2.03
+[08:49:39] [Server thread/INFO]: [TabListPing] Detected 26.1.2.build.69, using net.minecraft.network.protocol.common.ClientboundKeepAlivePacket & net.minecraft.network.protocol.common.ServerboundKeepAlivePacket
+[08:49:39] [Server thread/INFO]: [TabListPing] Metrics enabled if allowed by plugins/bStats/config.yml
+[08:49:39] [Server thread/INFO]: [DeathBack] Enabling DeathBack v1.0
+[08:49:39] [Server thread/INFO]: [DeathBack] Plugin loaded!
+[08:49:39] [Server thread/INFO]: [DeathBack] 
+[08:49:39] [Server thread/INFO]: [DeathBack] DeathBack
+[08:49:39] [Server thread/INFO]: [DeathBack] Made by p1xEL_mc
+[08:49:39] [Server thread/INFO]: [DeathBack] Thanks for using!
+[08:49:39] [Server thread/INFO]: [DeathBack] 
+[08:49:39] [Server thread/INFO]: [SmartSpawner] Enabling SmartSpawner v1.6.7
+[08:49:39] [Server thread/INFO]: [SmartSpawner] Server supports DataComponent API (Paper 1.21.5+)
+[08:49:39] [Server thread/INFO]: [SmartSpawner] Running on standard Paper server.
+[08:49:39] [Server thread/WARN]: [SmartSpawner] Vault not found! Selling items from spawner will be disabled.
+[08:49:39] [Server thread/INFO]: [SmartSpawner] No compatible shop plugins found. Shop integration is disabled.
+[08:49:39] [Server thread/INFO]: [SmartSpawner] Using YAML file storage mode.
+[08:49:39] [Server thread/INFO]: [SmartSpawner] Initial spawner load complete. Loaded: 0, Pending (missing worlds): 0
+[08:49:39] [Server thread/INFO]: [SmartSpawner] SmartSpawner has been enabled! (Loaded in 197ms)
+[08:49:39] [Server thread/INFO]: [ViaVersionStatus] Enabling ViaVersionStatus v4.01
+[08:49:40] [Server thread/INFO]: [ViaVersionStatus] Metrics enabled if allowed by plugins/bStats/config.yml
+[08:49:40] [Server thread/INFO]: [OpenInv] Enabling OpenInv v5.3.2
+[08:49:40] [Server thread/INFO]: [DirectionHUD] Enabling DirectionHUD v1.8.2.0+1.20-1.21.8
+[08:49:40] [ForkJoinPool.commonPool-worker-1/INFO]: [SmartSpawner] -----------------------------------------------------
+[08:49:40] [ForkJoinPool.commonPool-worker-1/INFO]: [SmartSpawner]   SmartSpawner - Update Available
+[08:49:40] [ForkJoinPool.commonPool-worker-1/INFO]: [SmartSpawner] -----------------------------------------------------
+[08:49:40] [ForkJoinPool.commonPool-worker-1/INFO]: [SmartSpawner]   Current version  :  1.6.7
+[08:49:40] [ForkJoinPool.commonPool-worker-1/INFO]: [SmartSpawner]   Latest version   :  1.6.8
+[08:49:40] [ForkJoinPool.commonPool-worker-1/INFO]: [SmartSpawner]   Download         :  https://modrinth.com/plugin/9tQwxSFr/version/1.6.8
+[08:49:40] [ForkJoinPool.commonPool-worker-1/INFO]: [SmartSpawner] -----------------------------------------------------
+[08:49:40] [Server thread/INFO]: [DirectionHUD] Started server!
+[08:49:40] [Server thread/INFO]: [TradeCycle] Enabling TradeCycle v2.0.1
+[08:49:40] [Server thread/INFO]: [Reactify] Enabling Reactify v1.4.b1
+[08:49:40] [Server thread/INFO]: [Reactify] DatapackDownloader Plugin Enabled!
+[08:49:40] [Server thread/INFO]: [Reactify] Datapack already exists. Skipping download.
+[08:49:40] [Server thread/INFO]: [FreezeHibernate] Enabling FreezeHibernate v1.0
+[08:49:40] [Server thread/INFO]: [[38;5;11m⚡[0m] Enabling LagFixer v1.6.1 [build 143]
+[08:49:40] [Server thread/INFO]: [[38;5;11m⚡[0m] 
 
 LagFixer 1.6.1 [build 143] - Best Performance Solution!
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
@@ -222,829 +277,112 @@ LagFixer 1.6.1 [build 143] - Best Performance Solution!
 Remember to leave a rating! ★ ★ ★ ★ ★
 
 
-[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Enabling manager...
-[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Started listening console for LagFixer errors!
-[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Enabled manager in 3.483ms!
-[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Enabling manager...
-[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Enabled manager in 62.959ms!
-[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Enabling manager...
-[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Loaded fork support ~ xyz.lychee.lagfixer.support.PaperSupport
-[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Loaded nms support ~ xyz.lychee.lagfixer.nms.v26_1.SupportNms
-[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Enabled manager in 18.413ms!
-[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Enabling manager...
-[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Enabled manager in 0.055ms!
-[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Enabling manager...
-[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Enabled manager in 3.131ms!
-[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] (UpdaterManager) -> Enabling manager...
-[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] (UpdaterManager) -> Enabled manager in 3.434ms!
-[03:18:34] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Enabling manager...
-[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module RedstoneLimiter in 7.271ms!
-[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module InstantLeafDecay in 2.772ms!
-[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module WorldCleaner in 9.786ms!
-[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module LagShield in 6.472ms!
-[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module ExplosionOptimizer in 4.4ms!
-[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module ConsoleFilter in 3.364ms!
-[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module MobAiReducer in 9.496ms!
-[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module EntityLimiter in 4.067ms!
-[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module AbilityLimiter in 2.784ms!
-[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Enabled manager in 113.801ms!
-[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Enabling manager...
-[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Enabled manager in 52.389ms!
-[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] Remember to leave a rating! ★ ★ ★ ★ ★
-[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] ❤ Support us https://ko-fi.com/lajczik
-[03:18:35] [Server thread/INFO]: [spark] Starting background profiler...
-[03:18:35] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[03:18:35] [Server thread/INFO]: [Geyser-Spigot] 
-[03:18:35] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.10.0-b1162 (git-master-689f4d7)
-[03:18:35] [Server thread/INFO]: [Geyser-Spigot] 
-[03:18:35] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[03:18:38] [Server thread/WARN]: [Geyser-Spigot] Geyser is configured to use proxy protocol when connecting to the Java server.
-[03:18:38] [Server thread/WARN]: [Geyser-Spigot] If you do not know what this is, open the Geyser config, and set "use-haproxy-protocol" under the  "advanced/java" section to "false".
-[03:18:38] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 5610
-[03:18:38] [Server thread/INFO]: [Geyser-Spigot] Done (3.038s)! Run /geyser help for help!
-[03:18:38] [Server thread/INFO]: [FreezeHibernate] Server is frozen until a player joins.
-[03:18:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[03:18:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[03:18:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[03:18:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[03:18:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03:18:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[03:18:38] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[03:18:38] [Server thread/INFO]: Running delayed init tasks
-[03:18:38] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[03:18:38] [Server thread/INFO]: Done (31.548s)! For help, type "help"
-[03:18:38] [Craft Scheduler Thread - 2 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 0 ImageMaps!
-[03:18:39] [Craft Scheduler Thread - 0 - JustTPA/WARN]: [JustTPA] Failed to check for updates
-[03:18:41] [Craft Scheduler Thread - 5 - HoloMobHealth/INFO]: [HoloMobHealth] Loaded all 1 languages!
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] ViaVersion supported protocols:
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.7.2-1.7.5(4)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.7.6-1.7.10(5)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.8.x(47)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.9(107)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.9.1(108)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.9.2(109)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.9.3-1.9.4(110)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.10.x(210)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.11(315)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.11.1-1.11.2(316)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.12(335)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.12.1(338)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.12.2(340)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.13(393)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.13.1(401)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.13.2(404)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.14(477)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.14.1(480)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.14.2(485)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.14.3(490)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.14.4(498)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.15(573)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.15.1(575)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.15.2(578)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.16(735)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.16.1(736)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.16.2(751)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.16.3(753)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.16.4-1.16.5(754)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.17(755)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.17.1(756)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.18-1.18.1(757)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.18.2(758)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.19(759)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.19.1-1.19.2(760)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.19.3(761)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.19.4(762)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.20-1.20.1(763)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.20.2(764)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.20.3-1.20.4(765)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.20.5-1.20.6(766)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.21-1.21.1(767)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.21.2-1.21.3(768)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.21.4(769)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.21.5(770)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.21.6(771)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.21.7-1.21.8(772)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.21.9-1.21.10(773)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.21.11(774)
-[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 26.1-26.1.2(775)
-[03:18:46] [User Authenticator #0/INFO]: UUID of player FewerSteak1914 is edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8
-[03:18:46] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
-[03:18:49] [Server thread/INFO]: [FreezeHibernate] A player joined. Server is now unfrozen.
-[03:18:49] [Server thread/INFO]: FewerSteak1914 joined the game
-[03:18:49] [Server thread/INFO]: FewerSteak1914[/127.114.58.236:39297] logged in with entity id 1 at ([minecraft:overworld]-543.5, 77.0, 0.5)
-[03:19:13] [Server thread/INFO]: FewerSteak1914 issued server command: /locate structure nova_cherry_village:village_cherry
-[03:19:23] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 26.1.2-69-76d2ac7 (MC: 26.1.2) ---
-[03:19:23] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
-[03:19:23] [Paper Watchdog Thread/ERROR]: ------------------------------
-[03:19:23] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[03:19:23] [Paper Watchdog Thread/ERROR]: ------------------------------
-[03:19:23] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[03:19:23] [Paper Watchdog Thread/ERROR]: 	PID: 45 | Suspended: false | Native: false | State: RUNNABLE
-[03:19:23] [Paper Watchdog Thread/ERROR]: 	Stack:
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.create(CubicSpline.java:186)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.mapAll(CubicSpline.java:307)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Spline.mapAll(DensityFunctions.java:1190)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:835)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:835)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:746)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:706)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:746)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:706)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:869)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$RangeChoice.mapAll(DensityFunctions.java:994)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:835)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$RangeChoice.mapAll(DensityFunctions.java:994)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:835)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$RangeChoice.mapAll(DensityFunctions.java:994)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:869)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:869)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:869)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:869)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$BlendDensity.mapAll(DensityFunctions.java:420)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:835)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:869)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:746)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:706)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:835)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.<init>(NoiseChunk.java:158)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.iterateNoiseColumn(NoiseBasedChunkGenerator.java:234)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.getBaseHeight(NoiseBasedChunkGenerator.java:120)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getFirstFreeHeight(ChunkGenerator.java:717)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement.addPieces(JigsawPlacement.java:112)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.structures.JigsawStructure.findGenerationPoint(JigsawStructure.java:150)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.findValidGenerationPoint(Structure.java:208)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.canCreateStructure(StructureCheck.java:124)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.lambda$checkStart$1(StructureCheck.java:118)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck$$Lambda/0x000000009ccabb40.get(Unknown Source)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		ca.spottedleaf.moonrise.common.map.SynchronisedLong2BooleanMap.getOrCompute(SynchronisedLong2BooleanMap.java:35)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.checkStart(StructureCheck.java:118)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.StructureManager.checkStructurePresence(StructureManager.java:185)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getStructureGeneratingAt(ChunkGenerator.java:311)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getNearestGeneratedStructure(ChunkGenerator.java:289)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapStructure(ChunkGenerator.java:200)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.LocateCommand.locateStructure(LocateCommand.java:104)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.LocateCommand.lambda$register$0(LocateCommand.java:65)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.LocateCommand$$Lambda/0x000000009afb15c0.run(Unknown Source)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x000000009cb42590.execute(Unknown Source)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:104)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:468)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:376)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:364)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2428)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$0(ServerGamePacketListenerImpl.java:2401)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x000000009cca1b78.run(Unknown Source)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:207)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1559)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:194)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:182)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1539)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1533)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1263)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1379)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x000000009b0cf8b0.run(Unknown Source)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.lang.Thread.runWith(Thread.java:1529)
-[03:19:23] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.lang.Thread.run(Thread.java:1516)
-[03:19:23] [Paper Watchdog Thread/ERROR]: ------------------------------
-[03:19:23] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[03:19:23] [Paper Watchdog Thread/ERROR]: ------------------------------
-[03:19:28] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 26.1.2-69-76d2ac7 (MC: 26.1.2) ---
-[03:19:28] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
-[03:19:28] [Paper Watchdog Thread/ERROR]: ------------------------------
-[03:19:28] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[03:19:28] [Paper Watchdog Thread/ERROR]: ------------------------------
-[03:19:28] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[03:19:28] [Paper Watchdog Thread/ERROR]: 	PID: 45 | Suspended: false | Native: false | State: RUNNABLE
-[03:19:28] [Paper Watchdog Thread/ERROR]: 	Stack:
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$RangeChoice.minValue(DensityFunctions.java:1001)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk$NoiseChunkDensityFunction.minValue(NoiseChunk.java:685)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:297)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:941)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:297)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$RangeChoice.compute(DensityFunctions.java:973)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:941)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:296)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:941)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:941)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.fillArray(DensityFunctions.java:317)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.fillArray(DensityFunctions.java:946)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$TransformerWithContext.fillArray(DensityFunctions.java:1261)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk$NoiseInterpolator.fillArray(NoiseChunk.java:790)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.fillSlice(NoiseChunk.java:247)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.advanceCellX(NoiseChunk.java:265)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.iterateNoiseColumn(NoiseBasedChunkGenerator.java:237)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.getBaseHeight(NoiseBasedChunkGenerator.java:120)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getFirstFreeHeight(ChunkGenerator.java:717)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement.addPieces(JigsawPlacement.java:112)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.structures.JigsawStructure.findGenerationPoint(JigsawStructure.java:150)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.findValidGenerationPoint(Structure.java:208)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.canCreateStructure(StructureCheck.java:124)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.lambda$checkStart$1(StructureCheck.java:118)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck$$Lambda/0x000000009ccabb40.get(Unknown Source)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		ca.spottedleaf.moonrise.common.map.SynchronisedLong2BooleanMap.getOrCompute(SynchronisedLong2BooleanMap.java:35)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.checkStart(StructureCheck.java:118)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.StructureManager.checkStructurePresence(StructureManager.java:185)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getStructureGeneratingAt(ChunkGenerator.java:311)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getNearestGeneratedStructure(ChunkGenerator.java:289)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapStructure(ChunkGenerator.java:200)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.LocateCommand.locateStructure(LocateCommand.java:104)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.LocateCommand.lambda$register$0(LocateCommand.java:65)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.LocateCommand$$Lambda/0x000000009afb15c0.run(Unknown Source)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x000000009cb42590.execute(Unknown Source)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:104)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:468)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:376)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:364)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2428)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$0(ServerGamePacketListenerImpl.java:2401)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x000000009cca1b78.run(Unknown Source)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:207)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1559)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:194)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:182)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1539)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1533)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1263)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1379)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x000000009b0cf8b0.run(Unknown Source)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.lang.Thread.runWith(Thread.java:1529)
-[03:19:28] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.lang.Thread.run(Thread.java:1516)
-[03:19:28] [Paper Watchdog Thread/ERROR]: ------------------------------
-[03:19:28] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[03:19:28] [Paper Watchdog Thread/ERROR]: ------------------------------
-[03:19:33] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 26.1.2-69-76d2ac7 (MC: 26.1.2) ---
-[03:19:33] [Paper Watchdog Thread/ERROR]: The server has not responded for 20 seconds! Creating thread dump
-[03:19:33] [Paper Watchdog Thread/ERROR]: ------------------------------
-[03:19:33] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[03:19:33] [Paper Watchdog Thread/ERROR]: ------------------------------
-[03:19:33] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[03:19:33] [Paper Watchdog Thread/ERROR]: 	PID: 45 | Suspended: false | Native: false | State: RUNNABLE
-[03:19:33] [Paper Watchdog Thread/ERROR]: 	Stack:
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.core.Holder$Direct$$HasherSpecializer/0x000000009bb913e8.hasher0(Unknown Source)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.lang.invoke.LambdaForm$MH/0x000000009a100000.invoke(LambdaForm$MH)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.lang.invoke.LambdaForm$MH/0x000000009a379800.invoke(LambdaForm$MH)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.lang.invoke.LambdaForm$MH/0x000000009a379800.invoke(LambdaForm$MH)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.lang.invoke.Invokers$Holder.linkToTargetMethod(Invokers$Holder)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.core.Holder$Direct.hashCode(Holder.java:58)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder$$HasherSpecializer/0x000000009bb911d8.hasher0(Unknown Source)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.lang.invoke.LambdaForm$MH/0x000000009a100000.invoke(LambdaForm$MH)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.lang.invoke.LambdaForm$MH/0x000000009a379800.invoke(LambdaForm$MH)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.lang.invoke.Invokers$Holder.linkToTargetMethod(Invokers$Holder)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.hashCode(DensityFunctions.java:673)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.util.HashMap.hash(HashMap.java:338)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.util.HashMap.computeIfAbsent(HashMap.java:1200)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.wrap(NoiseChunk.java:380)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk$$Lambda/0x000000009ccb46b0.apply(Unknown Source)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:746)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:706)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Spline$Coordinate.mapAll(DensityFunctions.java:1243)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Spline.lambda$mapAll$0(DensityFunctions.java:1190)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Spline$$Lambda/0x000000009bb91800.visit(Unknown Source)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.mapAll(CubicSpline.java:307)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$0(CubicSpline.java:307)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint$$Lambda/0x000000009bb92480.apply(Unknown Source)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:722)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:635)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:291)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:652)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:658)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:663)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.mapAll(CubicSpline.java:307)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$0(CubicSpline.java:307)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint$$Lambda/0x000000009bb92480.apply(Unknown Source)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:722)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:635)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:291)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:652)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:658)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:663)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.mapAll(CubicSpline.java:307)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Spline.mapAll(DensityFunctions.java:1190)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:835)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:835)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:746)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:706)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:746)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:706)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$RangeChoice.mapAll(DensityFunctions.java:994)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:835)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$RangeChoice.mapAll(DensityFunctions.java:994)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:835)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$RangeChoice.mapAll(DensityFunctions.java:994)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$BlendDensity.mapAll(DensityFunctions.java:420)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:835)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:746)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:706)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:687)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseRouter.mapAll(NoiseRouter.java:62)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.<init>(NoiseChunk.java:142)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.iterateNoiseColumn(NoiseBasedChunkGenerator.java:234)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.getBaseHeight(NoiseBasedChunkGenerator.java:120)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getFirstFreeHeight(ChunkGenerator.java:717)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement.addPieces(JigsawPlacement.java:112)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.structures.JigsawStructure.findGenerationPoint(JigsawStructure.java:150)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.findValidGenerationPoint(Structure.java:208)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.canCreateStructure(StructureCheck.java:124)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.lambda$checkStart$1(StructureCheck.java:118)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck$$Lambda/0x000000009ccabb40.get(Unknown Source)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		ca.spottedleaf.moonrise.common.map.SynchronisedLong2BooleanMap.getOrCompute(SynchronisedLong2BooleanMap.java:35)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.checkStart(StructureCheck.java:118)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.StructureManager.checkStructurePresence(StructureManager.java:185)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getStructureGeneratingAt(ChunkGenerator.java:311)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getNearestGeneratedStructure(ChunkGenerator.java:289)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapStructure(ChunkGenerator.java:200)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.LocateCommand.locateStructure(LocateCommand.java:104)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.LocateCommand.lambda$register$0(LocateCommand.java:65)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.LocateCommand$$Lambda/0x000000009afb15c0.run(Unknown Source)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x000000009cb42590.execute(Unknown Source)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:104)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:468)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:376)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:364)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2428)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$0(ServerGamePacketListenerImpl.java:2401)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x000000009cca1b78.run(Unknown Source)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:207)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1559)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:194)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:182)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1539)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1533)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1263)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1379)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x000000009b0cf8b0.run(Unknown Source)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.lang.Thread.runWith(Thread.java:1529)
-[03:19:33] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.lang.Thread.run(Thread.java:1516)
-[03:19:33] [Paper Watchdog Thread/ERROR]: ------------------------------
-[03:19:33] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[03:19:33] [Paper Watchdog Thread/ERROR]: ------------------------------
-[03:19:38] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 26.1.2-69-76d2ac7 (MC: 26.1.2) ---
-[03:19:38] [Paper Watchdog Thread/ERROR]: The server has not responded for 25 seconds! Creating thread dump
-[03:19:38] [Paper Watchdog Thread/ERROR]: ------------------------------
-[03:19:38] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[03:19:38] [Paper Watchdog Thread/ERROR]: ------------------------------
-[03:19:38] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[03:19:38] [Paper Watchdog Thread/ERROR]: 	PID: 45 | Suspended: false | Native: false | State: RUNNABLE
-[03:19:38] [Paper Watchdog Thread/ERROR]: 	Stack:
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:835)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$ShiftedNoise.mapAll(DensityFunctions.java:1136)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:835)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$RangeChoice.mapAll(DensityFunctions.java:994)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:835)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Spline$Coordinate.mapAll(DensityFunctions.java:1243)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Spline.lambda$mapAll$0(DensityFunctions.java:1190)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Spline$$Lambda/0x000000009bb91800.visit(Unknown Source)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.mapAll(CubicSpline.java:307)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$0(CubicSpline.java:307)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint$$Lambda/0x000000009bb92480.apply(Unknown Source)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:722)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:635)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:291)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:652)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:658)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:663)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.mapAll(CubicSpline.java:307)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Spline.mapAll(DensityFunctions.java:1190)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:835)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:835)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:746)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:706)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:869)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:835)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$RangeChoice.mapAll(DensityFunctions.java:994)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:869)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:869)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:869)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:869)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$BlendDensity.mapAll(DensityFunctions.java:420)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:835)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:869)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:746)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:706)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:340)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:835)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.<init>(NoiseChunk.java:158)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.iterateNoiseColumn(NoiseBasedChunkGenerator.java:234)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.getBaseHeight(NoiseBasedChunkGenerator.java:120)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getFirstFreeHeight(ChunkGenerator.java:717)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement.addPieces(JigsawPlacement.java:112)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.structures.JigsawStructure.findGenerationPoint(JigsawStructure.java:150)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.findValidGenerationPoint(Structure.java:208)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.canCreateStructure(StructureCheck.java:124)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.lambda$checkStart$1(StructureCheck.java:118)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck$$Lambda/0x000000009ccabb40.get(Unknown Source)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		ca.spottedleaf.moonrise.common.map.SynchronisedLong2BooleanMap.getOrCompute(SynchronisedLong2BooleanMap.java:35)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.checkStart(StructureCheck.java:118)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.StructureManager.checkStructurePresence(StructureManager.java:185)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getStructureGeneratingAt(ChunkGenerator.java:311)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getNearestGeneratedStructure(ChunkGenerator.java:289)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapStructure(ChunkGenerator.java:200)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.LocateCommand.locateStructure(LocateCommand.java:104)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.LocateCommand.lambda$register$0(LocateCommand.java:65)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.LocateCommand$$Lambda/0x000000009afb15c0.run(Unknown Source)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x000000009cb42590.execute(Unknown Source)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:104)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:468)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:376)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:364)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2428)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$0(ServerGamePacketListenerImpl.java:2401)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x000000009cca1b78.run(Unknown Source)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:207)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1559)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:194)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:182)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1539)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1533)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1263)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1379)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x000000009b0cf8b0.run(Unknown Source)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.lang.Thread.runWith(Thread.java:1529)
-[03:19:38] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.lang.Thread.run(Thread.java:1516)
-[03:19:38] [Paper Watchdog Thread/ERROR]: ------------------------------
-[03:19:38] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[03:19:38] [Paper Watchdog Thread/ERROR]: ------------------------------
-[03:19:40] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
-[03:19:43] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 26.1.2-69-76d2ac7 (MC: 26.1.2) ---
-[03:19:43] [Paper Watchdog Thread/ERROR]: The server has not responded for 30 seconds! Creating thread dump
-[03:19:43] [Paper Watchdog Thread/ERROR]: ------------------------------
-[03:19:43] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[03:19:43] [Paper Watchdog Thread/ERROR]: ------------------------------
-[03:19:43] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[03:19:43] [Paper Watchdog Thread/ERROR]: 	PID: 45 | Suspended: false | Native: false | State: TIMED_WAITING
-[03:19:43] [Paper Watchdog Thread/ERROR]: 	Stack:
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/jdk.internal.misc.Unsafe.park(Native Method)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:271)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.waitForTasks(BlockableEventLoop.java:202)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:192)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkTaskScheduler.syncLoadNonFull(ChunkTaskScheduler.java:556)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.moonrise$syncLoadNonFull(ServerLevel.java:357)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getStructureGeneratingAt(ChunkGenerator.java:317)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getNearestGeneratedStructure(ChunkGenerator.java:289)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapStructure(ChunkGenerator.java:200)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.LocateCommand.locateStructure(LocateCommand.java:104)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.LocateCommand.lambda$register$0(LocateCommand.java:65)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.LocateCommand$$Lambda/0x000000009afb15c0.run(Unknown Source)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x000000009cb42590.execute(Unknown Source)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:104)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:468)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:376)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:364)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2428)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$0(ServerGamePacketListenerImpl.java:2401)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x000000009cca1b78.run(Unknown Source)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:207)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1559)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:194)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:182)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1539)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1533)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1263)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1379)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x000000009b0cf8b0.run(Unknown Source)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.lang.Thread.runWith(Thread.java:1529)
-[03:19:43] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.lang.Thread.run(Thread.java:1516)
-[03:19:43] [Paper Watchdog Thread/ERROR]: ------------------------------
-[03:19:43] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[03:19:43] [Paper Watchdog Thread/ERROR]: ------------------------------
-[03:19:44] [Server thread/INFO]: Locating element nova_cherry_village:village_cherry took 31037 ms
-[03:19:44] [Server thread/INFO]: FewerSteak1914 lost connection: Disconnected
-[03:19:44] [Server thread/INFO]: [FreezeHibernate] Last player disconnected. Server is now frozen.
-[03:19:44] [Server thread/INFO]: FewerSteak1914 left the game
-[03:19:45] [User Authenticator #1/INFO]: UUID of player FewerSteak1914 is edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8
-[03:19:47] [Server thread/INFO]: [FreezeHibernate] A player joined. Server is now unfrozen.
-[03:19:47] [Server thread/INFO]: FewerSteak1914 joined the game
-[03:19:47] [Server thread/INFO]: FewerSteak1914[/127.114.58.236:57605] logged in with entity id 474 at ([minecraft:overworld]-543.7446092422757, 75.0, 3.699999988079071)
-[03:19:54] [Server thread/INFO]: FewerSteak1914 issued server command: /tps
-[03:19:55] [Server thread/INFO]: FewerSteak1914 issued server command: /tps
-[03:19:57] [Server thread/INFO]: FewerSteak1914 issued server command: /locate structure nova_cherry_village:village_cherry
-[03:19:57] [Server thread/INFO]: Locating element nova_cherry_village:village_cherry took 8 ms
-[03:20:03] [Server thread/INFO]: FewerSteak1914 issued server command: /tp @s 0 ~ 6272
-[03:20:03] [Server thread/INFO]: [FewerSteak1914: Teleported FewerSteak1914 to 0.500000, 75.000000, 6272.500000]
-[03:20:08] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Spectator Mode]
-[03:20:12] [Server thread/INFO]: FewerSteak1914 issued server command: /tps
-[03:21:08] [Server thread/INFO]: FewerSteak1914 issued server command: /trigger spaw
-[03:21:10] [Server thread/INFO]: FewerSteak1914 issued server command: /trigger spaw
-[03:21:12] [Server thread/INFO]: FewerSteak1914 issued server command: /trigger spawn
-[03:21:12] [Server thread/INFO]: [FewerSteak1914: Triggered [Spawn]]
-[03:21:46] [Server thread/INFO]: FewerSteak1914 issued server command: /locate structure nova_cherry_village:village_cherry
-[03:21:46] [Server thread/INFO]: Locating element nova_cherry_village:village_cherry took 4 ms
-[03:22:03] [Server thread/INFO]: FewerSteak1914 issued server command: /locate structure nova_structures:tavern_cherry
-[03:22:10] [Server thread/INFO]: Locating element nova_structures:tavern_cherry took 6498 ms
-[03:22:10] [Server thread/WARN]: FewerSteak1914 moved too quickly! 1.5237113693281117,8.529462946251627,5.312953859540084
-[03:22:15] [Server thread/INFO]: FewerSteak1914 issued server command: /tp @s 0 ~ 6272
-[03:22:15] [Server thread/INFO]: [FewerSteak1914: Teleported FewerSteak1914 to 0.500000, 94.058378, 6272.500000]
-[03:22:29] [Server thread/INFO]: FewerSteak1914 issued server command: /tp @s -11136 ~ 10608
-[03:22:29] [Server thread/INFO]: [FewerSteak1914: Teleported FewerSteak1914 to -11135.500000, 128.235530, 10608.500000]
-[03:22:34] [Server thread/INFO]: FewerSteak1914 has made the advancement [Safe Haven]
-[03:22:34] [Server thread/INFO]: FewerSteak1914 issued server command: /time set 0
-[03:22:34] [Server thread/INFO]: [FewerSteak1914: Set minecraft:overworld to 0 tick(s)]
-[03:22:48] [Server thread/INFO]: FewerSteak1914 issued server command: /tps
-[03:23:00] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Creative Mode]
-[03:25:37] [Server thread/INFO]: FewerSteak1914 issued server command: /tp @s 0 ~ 6272
-[03:25:37] [Server thread/INFO]: [FewerSteak1914: Teleported FewerSteak1914 to 0.500000, 117.623792, 6272.500000]
-[03:25:45] [Server thread/INFO]: FewerSteak1914 issued server command: /sethome cherry
-[03:29:10] [Server thread/INFO]: FewerSteak1914 issued server command: /lagfixer
-[03:29:15] [Server thread/INFO]: FewerSteak1914 issued server command: /lagfixer menu
-[03:30:44] [Server thread/INFO]: FewerSteak1914 issued server command: /clear
-[03:30:44] [Server thread/INFO]: [FewerSteak1914: Removed 10 item(s) from player FewerSteak1914]
-[03:31:33] [Server thread/INFO]: FewerSteak1914 issued server command: /kill 952aae5f-39b9-4e3a-bb2e-e1cf3b32761a
-[03:31:33] [Server thread/INFO]: Villager Villager['Fletcher'/1836, uuid='952aae5f-39b9-4e3a-bb2e-e1cf3b32761a', l='ServerLevel[world]', x=-22.50, y=113.00, z=6216.30, cpos=[-2, 388], tl=7085, v=true] died, message: 'Fletcher was killed'
-[03:31:33] [Server thread/INFO]: [FewerSteak1914: Killed Fletcher]
-[03:32:28] [Server thread/INFO]: FewerSteak1914 issued server command: /kill e393d948-b600-4f73-835a-4ae1d53b4e4d
-[03:32:28] [Server thread/INFO]: Villager Villager['Butcher'/2637, uuid='e393d948-b600-4f73-835a-4ae1d53b4e4d', l='ServerLevel[world]', x=-20.51, y=118.05, z=6220.50, cpos=[-2, 388], tl=4817, v=true] died, message: 'Butcher was killed'
-[03:32:28] [Server thread/INFO]: [FewerSteak1914: Killed Butcher]
-[03:32:51] [Server thread/INFO]: FewerSteak1914 issued server command: /delhome cherry
-[03:32:55] [Server thread/INFO]: FewerSteak1914 issued server command: /sethome cherry
-[03:33:01] [Server thread/INFO]: FewerSteak1914 issued server command: /save-all
-[03:33:01] [Server thread/INFO]: [FewerSteak1914: Saved the game]
-[03:33:06] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Spectator Mode]
-[03:33:07] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Survival Mode]
-[03:33:08] [Server thread/INFO]: FewerSteak1914 has made the advancement [Sweet Dreams]
-[03:33:20] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Creative Mode]
-[03:33:22] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Survival Mode]
-[03:33:24] [Server thread/INFO]: FewerSteak1914 issued server command: /lc
-[03:33:29] [Server thread/INFO]: FewerSteak1914 issued server command: /plugins
-[03:33:31] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Creative Mode]
-[03:35:27] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Survival Mode]
-[03:36:22] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Creative Mode]
-[03:36:33] [Server thread/INFO]: FewerSteak1914 has made the advancement [What a Deal!]
-[03:36:35] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Survival Mode]
-[03:37:18] [Server thread/INFO]: FewerSteak1914 issued server command: /time set night
-[03:37:18] [Server thread/INFO]: [FewerSteak1914: Set minecraft:overworld to time marker minecraft:night]
-[03:37:20] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Creative Mode]
-[03:37:21] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Survival Mode]
-[03:37:34] [Server thread/INFO]: FewerSteak1914 issued server command: /summon minecraft:iron_golem
-[03:37:34] [Server thread/INFO]: [FewerSteak1914: Summoned new Iron Golem]
-[03:37:38] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Creative Mode]
-[03:40:21] [Server thread/INFO]: FewerSteak1914 issued server command: /clear
-[03:40:21] [Server thread/INFO]: [FewerSteak1914: Removed 14 item(s) from player FewerSteak1914]
-[03:40:22] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Survival Mode]
-[03:40:46] [Server thread/INFO]: FewerSteak1914 issued server command: /function cw:menu/main
-[03:41:08] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Creative Mode]
-[03:41:17] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Survival Mode]
-[03:41:37] [Server thread/INFO]: FewerSteak1914 has made the advancement [Monster Hunter]
-[03:42:58] [Server thread/INFO]: FewerSteak1914 lost connection: Disconnected
-[03:42:58] [Server thread/INFO]: [FreezeHibernate] Last player disconnected. Server is now frozen.
-[03:42:58] [Server thread/INFO]: FewerSteak1914 left the game
-[03:43:58] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[08:32:31] [User Authenticator #2/INFO]: UUID of player FewerSteak1914 is edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8
-[08:32:33] [Server thread/INFO]: [FreezeHibernate] A player joined. Server is now unfrozen.
-[08:32:33] [Server thread/INFO]: FewerSteak1914 joined the game
-[08:32:33] [Server thread/INFO]: FewerSteak1914[/127.114.58.236:33445] logged in with entity id 4725 at ([minecraft:overworld]30.87926860043007, 103.0, 6307.301136075551)
-[08:33:52] [Server thread/INFO]: FewerSteak1914 issued server command: /gamerule locator_bar false
-[08:33:52] [Server thread/INFO]: [FewerSteak1914: Gamerule locator_bar is now set to: false]
-[08:36:15] [Server thread/INFO]: FewerSteak1914 has made the advancement [Stone Age]
-[08:38:39] [Server thread/INFO]: FewerSteak1914 has made the advancement [Getting an Upgrade]
-[08:41:12] [Server thread/INFO]: FewerSteak1914 has made the advancement [Acquire Hardware]
-[08:41:30] [Server thread/INFO]: FewerSteak1914 issued server command: /stop
-[08:41:30] [Server thread/INFO]: [FewerSteak1914: Stopping the server]
-[08:41:30] [Server thread/INFO]: Stopping server
-[08:41:30] [Server thread/INFO]: [[38;5;11m⚡[0m] Disabling LagFixer v1.6.1 [build 143]
-[08:41:30] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Disabling manager...
-[08:41:30] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Disabled manager in 0.066ms!
-[08:41:30] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Disabling manager...
-[08:41:30] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Disabled manager in 0.002ms!
-[08:41:30] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Disabling manager...
-[08:41:30] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Disabled manager in 0.839ms!
-[08:41:30] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Disabling manager...
-[08:41:30] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Disabled manager in 0.017ms!
-[08:41:30] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Disabling manager...
-[08:41:30] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Disabled manager in 0.036ms!
-[08:41:30] [Server thread/INFO]: [[38;5;11m⚡[0m] (UpdaterManager) -> Disabling manager...
-[08:41:30] [Server thread/INFO]: [[38;5;11m⚡[0m] (UpdaterManager) -> Disabled manager in 0.597ms!
-[08:41:30] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Disabling manager...
-[08:41:30] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module RedstoneLimiter in 0.202ms!
-[08:41:30] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module InstantLeafDecay in 0.182ms!
-[08:41:30] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module WorldCleaner in 0.271ms!
-[08:41:30] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module LagShield in 0.163ms!
-[08:41:30] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module ExplosionOptimizer in 0.127ms!
-[08:41:30] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Error with disabling module ConsoleFilter, reason: null
-[08:41:30] [Server thread/WARN]: [[38;5;11m⚡[0m] LagFixer error message:
-
--------------------------------
-
-An error occurred in lagfixer:
- -> EOFException: null
- | ConsoleFilterModule.java -> disable() at 141 line
- | ModuleManager.java -> disable() at 96 line
- | LagFixer.java -> onDisable() at 49 line
-
-Our support has been informed about it, it will be fixed soon.
-Make sure the LagFixer configuration is done correctly.
-If you have any doubts, contact support: https://discord.gg/CFmzJjgZdu
-
--------------------------------
-
-[08:41:30] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module EntityLimiter in 0.243ms!
-[08:41:30] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module AbilityLimiter in 0.186ms!
-[08:41:30] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module VehicleMotionReducer in 0.194ms!
-[08:41:30] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Disabled manager in 8.666ms!
-[08:41:30] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Disabling manager...
-[08:41:30] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Disabled manager in 1.118ms!
-[08:41:30] [Server thread/INFO]: [Clumps] Disabling Clumps v5.0
-[08:41:30] [Server thread/INFO]: [FreezeHibernate] Disabling FreezeHibernate v1.0
-[08:41:30] [Server thread/INFO]: [Reactify] Disabling Reactify v1.4.b1
-[08:41:30] [Server thread/INFO]: [TradeCycle] Disabling TradeCycle v2.0.1
-[08:41:30] [Server thread/INFO]: [DirectionHUD] Disabling DirectionHUD v1.8.2.0+1.20-1.21.8
-[08:41:30] [Server thread/INFO]: [DirectionHUD] Safely shutdown DirectionHUD server!
-[08:41:30] [Server thread/INFO]: [OpenInv] Disabling OpenInv v5.3.2
-[08:41:30] [Server thread/INFO]: [ViaVersionStatus] Disabling ViaVersionStatus v4.01
-[08:41:30] [Server thread/INFO]: [SmartSpawner] Disabling SmartSpawner v1.6.7
-[08:41:30] [Server thread/INFO]: [SmartSpawner] SmartSpawner has been disabled!
-[08:41:30] [Server thread/INFO]: [DeathBack] Disabling DeathBack v1.0
-[08:41:30] [Server thread/INFO]: [DeathBack] Plugin unloaded!
-[08:41:30] [Server thread/INFO]: [DeathBack] Thank you to use my plugin!
-[08:41:30] [Server thread/INFO]: [TabListPing] Disabling TabListPing v2.03
-[08:41:30] [Server thread/INFO]: [FokusAPI] Disabling FokusAPI v4.4
-[08:41:30] [Server thread/INFO]: [HoloMobHealth] Disabling HoloMobHealth v2026.1.1.0
-[08:41:30] [Server thread/INFO]: [HoloMobHealth] HoloMobHealth has been Disabled!
-[08:41:30] [Server thread/INFO]: [AxGraves] Disabling AxGraves v1.28.1
-[08:41:30] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.12.2
-[08:41:30] [Server thread/INFO]: [Not-Too-Expensive] Disabling Not-Too-Expensive v1.1
-[08:41:30] [Server thread/INFO]: [ImageFrame] Disabling ImageFrame v2026.1.2.0
-[08:41:30] [Server thread/INFO]: [ImageFrame] ImageFrame has been Disabled!
-[08:41:30] [Server thread/INFO]: [Brutal_Nightmare_-_Insane_Difficulty] Disabling Brutal_Nightmare_-_Insane_Difficulty v6.1
-[08:41:30] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.53
-[08:41:30] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[08:41:30] [Server thread/INFO]: [LuckPerms] Closing storage...
-[08:41:30] [Server thread/INFO]: [LuckPerms] Goodbye!
-[08:41:30] [Server thread/INFO]: [SetHomePlugin] Disabling SetHomePlugin v1.0.0
-[08:41:30] [Server thread/INFO]: [SleepVote] Disabling SleepVote v1.0.0
-[08:41:30] [Server thread/INFO]: [SleepVote] SleepVote has been disabled.
-[08:41:30] [Server thread/INFO]: [JustTPA] Disabling JustTPA v20250220c
-[08:41:30] [Server thread/INFO]: [JustTPA] JustTPA disabled
-[08:41:30] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.1.1
-[08:41:30] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.10.0-SNAPSHOT
-[08:41:30] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[08:41:30] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[08:41:30] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.5.0-SNAPSHOT-b723ff3
-[08:41:30] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.9.1
-[08:41:30] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.9.1
-[08:41:30] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[08:41:30] [Server thread/INFO]: Saving players
-[08:41:30] [Server thread/INFO]: Saving worlds
-[08:41:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[08:41:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'
-[08:41:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'
-[08:41:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'
-[08:41:31] [Server thread/INFO]: [ChunkHolderManager] Saved 600 block chunks, 159 entity chunks, 6 poi chunks in world 'minecraft:overworld' in 0.47s
-[08:41:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:overworld'
-[08:41:31] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:overworld'
-[08:41:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[08:41:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'
-[08:41:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'
-[08:41:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'
-[08:41:31] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0.00s
-[08:41:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_nether'
-[08:41:31] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_nether'
-[08:41:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[08:41:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_end'
-[08:41:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_end'
-[08:41:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_end'
-[08:41:31] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_end' in 0.00s
-[08:41:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_end'
-[08:41:31] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_end'
-[08:41:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[08:41:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[08:41:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[08:41:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[08:41:31] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[08:41:31] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[08:41:31] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[08:41:31] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[08:49:40] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Enabling manager...
+[08:49:40] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Started listening console for LagFixer errors!
+[08:49:40] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Enabled manager in 5.054ms!
+[08:49:40] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Enabling manager...
+[08:49:40] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Enabled manager in 43.888ms!
+[08:49:40] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Enabling manager...
+[08:49:40] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Loaded fork support ~ xyz.lychee.lagfixer.support.PaperSupport
+[08:49:40] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Loaded nms support ~ xyz.lychee.lagfixer.nms.v26_1.SupportNms
+[08:49:40] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Enabled manager in 6.27ms!
+[08:49:40] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Enabling manager...
+[08:49:40] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Enabled manager in 0.044ms!
+[08:49:40] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Enabling manager...
+[08:49:40] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Enabled manager in 3.038ms!
+[08:49:40] [Server thread/INFO]: [[38;5;11m⚡[0m] (UpdaterManager) -> Enabling manager...
+[08:49:40] [Server thread/INFO]: [[38;5;11m⚡[0m] (UpdaterManager) -> Enabled manager in 3.34ms!
+[08:49:40] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[08:49:40] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Enabling manager...
+[08:49:40] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module RedstoneLimiter in 4.231ms!
+[08:49:40] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module InstantLeafDecay in 1.641ms!
+[08:49:40] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module WorldCleaner in 7.546ms!
+[08:49:40] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module LagShield in 6.762ms!
+[08:49:40] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module ExplosionOptimizer in 4.484ms!
+[08:49:40] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module ConsoleFilter in 6.623ms!
+[08:49:40] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module EntityLimiter in 3.392ms!
+[08:49:40] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module AbilityLimiter in 2.728ms!
+[08:49:40] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module VehicleMotionReducer in 11.081ms!
+[08:49:40] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Enabled manager in 110.995ms!
+[08:49:40] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Enabling manager...
+[08:49:40] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Enabled manager in 42.362ms!
+[08:49:40] [Server thread/INFO]: [[38;5;11m⚡[0m] Remember to leave a rating! ★ ★ ★ ★ ★
+[08:49:40] [Server thread/INFO]: [[38;5;11m⚡[0m] ❤ Support us https://ko-fi.com/lajczik
+[08:49:40] [Server thread/INFO]: [spark] Starting background profiler...
+[08:49:41] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[08:49:41] [Server thread/INFO]: [Geyser-Spigot] 
+[08:49:41] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.10.0-b1162 (git-master-689f4d7)
+[08:49:41] [Server thread/INFO]: [Geyser-Spigot] 
+[08:49:41] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[08:49:43] [Server thread/WARN]: [Geyser-Spigot] Geyser is configured to use proxy protocol when connecting to the Java server.
+[08:49:43] [Server thread/WARN]: [Geyser-Spigot] If you do not know what this is, open the Geyser config, and set "use-haproxy-protocol" under the  "advanced/java" section to "false".
+[08:49:43] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 5610
+[08:49:43] [Server thread/INFO]: [Geyser-Spigot] Done (2.192s)! Run /geyser help for help!
+[08:49:43] [Server thread/INFO]: [FreezeHibernate] Server is frozen until a player joins.
+[08:49:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[08:49:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[08:49:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[08:49:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08:49:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08:49:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:49:43] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08:49:43] [Server thread/INFO]: Running delayed init tasks
+[08:49:43] [Server thread/INFO]: [de.miraculixx.veinminer.Veinminer] Created blocks.json default config
+[08:49:43] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[08:49:43] [Server thread/INFO]: [de.miraculixx.veinminer.Veinminer] Created groups.json default config
+[08:49:43] [Craft Scheduler Thread - 2 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 0 ImageMaps!
+[08:49:43] [Server thread/INFO]: [de.miraculixx.veinminer.Veinminer] All events enabled!
+[08:49:43] [Server thread/INFO]: Done (28.158s)! For help, type "help"
+[08:49:43] [Craft Scheduler Thread - 0 - JustTPA/WARN]: [JustTPA] Failed to check for updates
+[08:49:44] [Craft Scheduler Thread - 6 - HoloMobHealth/INFO]: [HoloMobHealth] Loaded all 1 languages!
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] ViaVersion supported protocols:
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.7.2-1.7.5(4)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.7.6-1.7.10(5)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.8.x(47)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.9(107)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.9.1(108)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.9.2(109)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.9.3-1.9.4(110)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.10.x(210)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.11(315)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.11.1-1.11.2(316)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.12(335)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.12.1(338)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.12.2(340)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.13(393)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.13.1(401)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.13.2(404)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.14(477)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.14.1(480)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.14.2(485)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.14.3(490)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.14.4(498)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.15(573)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.15.1(575)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.15.2(578)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.16(735)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.16.1(736)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.16.2(751)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.16.3(753)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.16.4-1.16.5(754)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.17(755)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.17.1(756)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.18-1.18.1(757)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.18.2(758)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.19(759)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.19.1-1.19.2(760)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.19.3(761)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.19.4(762)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.20-1.20.1(763)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.20.2(764)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.20.3-1.20.4(765)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.20.5-1.20.6(766)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.21-1.21.1(767)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.21.2-1.21.3(768)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.21.4(769)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.21.5(770)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.21.6(771)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.21.7-1.21.8(772)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.21.9-1.21.10(773)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 1.21.11(774)
+[08:49:48] [Server thread/INFO]: [ViaVersionStatus] 26.1-26.1.2(775)

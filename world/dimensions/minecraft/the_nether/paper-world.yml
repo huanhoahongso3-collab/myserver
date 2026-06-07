@@ -1,8 +1,8 @@
 # This is a world configuration file for Paper.
 # This file may start empty but can be filled with settings to override ones in the config/paper-world-defaults.yml
-#
+# 
 # For more information, see https://docs.papermc.io/paper/reference/configuration/#per-world-configuration
-#
+# 
 # World: minecraft:the_nether
 
 _version: 31
@@ -16,7 +16,6 @@ anticheat:
     - nether_quartz_ore
     lava-obscures: false
     max-block-height: 128
-    # The replacement-blocks list is not used in engine-mode: 1. Changing this will have no effect.
     replacement-blocks: []
     update-radius: 2
     use-permission: false
