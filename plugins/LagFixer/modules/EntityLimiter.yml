@@ -1,5 +1,5 @@
 EntityLimiter:
-  enabled: true
+  enabled: false
   worlds: # Use '*' to enable for all worlds.
     - '*'
   values:
