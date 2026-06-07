@@ -1,23 +1,30 @@
 {
   "stats": {
+    "minecraft:picked_up": {
+      "minecraft:wheat_seeds": 1,
+      "minecraft:potion": 1,
+      "minecraft:peony": 1,
+      "minecraft:pink_petals": 3
+    },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 6263,
-      "minecraft:walk_one_cm": 1262,
+      "minecraft:time_since_rest": 12263,
+      "minecraft:walk_one_cm": 22975,
       "minecraft:leave_game": 1,
       "minecraft:damage_taken": 20,
-      "minecraft:play_time": 6263,
-      "minecraft:jump": 12,
-      "minecraft:time_since_death": 6263,
-      "minecraft:sprint_one_cm": 33,
+      "minecraft:play_time": 12263,
+      "minecraft:jump": 74,
+      "minecraft:time_since_death": 12263,
+      "minecraft:sprint_one_cm": 14103,
       "minecraft:fall_one_cm": 325,
-      "minecraft:total_world_time": 6263,
-      "minecraft:fly_one_cm": 88014,
-      "minecraft:crouch_one_cm": 395,
-      "minecraft:sneak_time": 351
+      "minecraft:total_world_time": 12263,
+      "minecraft:fly_one_cm": 148336,
+      "minecraft:crouch_one_cm": 633,
+      "minecraft:sneak_time": 533
     },
     "minecraft:used": {
-      "minecraft:structure_block": 10,
-      "minecraft:grass_block": 23
+      "minecraft:structure_block": 15,
+      "minecraft:grass_block": 47,
+      "minecraft:stone_brick_stairs": 5
     }
   },
   "DataVersion": 4790
