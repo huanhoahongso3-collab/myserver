@@ -344,3 +344,968 @@ Remember to leave a rating! ★ ★ ★ ★ ★
 [03:07:05] [Server thread/INFO]: FewerSteak1914 issued server command: /tp -1904 ~ -2592
 [03:07:05] [Server thread/INFO]: [FewerSteak1914: Teleported FewerSteak1914 to -1903.500000, 64.000000, -2591.500000]
 [03:08:20] [Server thread/INFO]: FewerSteak1914 issued server command: /datapack list
+[03:08:53] [Server thread/INFO]: FewerSteak1914 issued server command: /locate structure cherry_village:village_sakura
+[03:09:03] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 26.1.2-69-76d2ac7 (MC: 26.1.2) ---
+[03:09:03] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[03:09:03] [Paper Watchdog Thread/ERROR]: ------------------------------
+[03:09:03] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[03:09:03] [Paper Watchdog Thread/ERROR]: ------------------------------
+[03:09:03] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[03:09:03] [Paper Watchdog Thread/ERROR]: 	PID: 45 | Suspended: false | Native: false | State: TIMED_WAITING
+[03:09:03] [Paper Watchdog Thread/ERROR]: 	Stack:
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:271)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.waitForTasks(BlockableEventLoop.java:202)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:192)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkTaskScheduler.syncLoadNonFull(ChunkTaskScheduler.java:556)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.moonrise$syncLoadNonFull(ServerLevel.java:357)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getStructureGeneratingAt(ChunkGenerator.java:317)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getNearestGeneratedStructure(ChunkGenerator.java:289)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapStructure(ChunkGenerator.java:200)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.LocateCommand.locateStructure(LocateCommand.java:104)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.LocateCommand.lambda$register$0(LocateCommand.java:65)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.LocateCommand$$Lambda/0x0000000019fb0f60.run(Unknown Source)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x000000001bb48ab0.execute(Unknown Source)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:104)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:468)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:376)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:364)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2428)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$0(ServerGamePacketListenerImpl.java:2401)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x000000001bd0c490.run(Unknown Source)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:207)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1559)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:194)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:182)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1539)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1533)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1263)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1379)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x000000001a0cfac0.run(Unknown Source)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.lang.Thread.runWith(Thread.java:1529)
+[03:09:03] [Paper Watchdog Thread/ERROR]: 		java.base@26.0.1/java.lang.Thread.run(Thread.java:1516)
+[03:09:03] [Paper Watchdog Thread/ERROR]: ------------------------------
+[03:09:03] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[03:09:03] [Paper Watchdog Thread/ERROR]: ------------------------------
+[03:09:03] [Server thread/INFO]: Locating element cherry_village:village_sakura took 10183 ms
+[03:09:03] [Server thread/WARN]: FewerSteak1914 moved too quickly! -1.0805646502915351,-10.427223219341116,-3.052939631720619
+[03:09:07] [Server thread/INFO]: FewerSteak1914 issued server command: /tp @s 2736 ~ -10176
+[03:09:07] [Server thread/INFO]: [FewerSteak1914: Teleported FewerSteak1914 to 2736.500000, 115.304761, -10175.500000]
+[03:09:10] [Paper Common Worker #0/ERROR]: [ChunkTaskScheduler] Chunk system error at chunk (171,-635), holder: NewChunkHolder{world=minecraft:overworld, chunkX=171, chunkZ=-635, entityChunkFromDisk=false, lastChunkCompletion={chunk_class=net.minecraft.world.level.chunk.ProtoChunk,status=minecraft:carvers}, currentGenStatus=minecraft:carvers, requestedGenStatus=minecraft:initialize_light, generationTask=ChunkProgressionTask{class: ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask, for world: minecraft:overworld, chunk: (171,-635), hashcode: 2036108060, priority: COMPLETING, status: minecraft:features, scheduled: true}, generationTaskStatus=minecraft:features, priority=null, priorityLocked=false, neighbourRequestedPriority=BLOCKING, effective_priority=BLOCKING, oldTicketLevel=34, currentTicketLevel=34, totalNeighboursUsingThisChunk=8, fullNeighbourChunksLoadedBitset=0, currentChunkStatus=INACCESSIBLE, pendingChunkStatus=INACCESSIBLE, is_unload_safe=ticket_level, killed=false}, exception:
+java.lang.Throwable: net.minecraft.ReportedException: Feature placement
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkTaskScheduler.unrecoverableChunkSystemFailure(ChunkTaskScheduler.java:304) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.NewChunkHolder.lambda$setGenerationTask$0(NewChunkHolder.java:1594) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkProgressionTask.complete0(ChunkProgressionTask.java:91) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkProgressionTask.complete(ChunkProgressionTask.java:74) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask.run(ChunkUpgradeGenericStatusTask.java:114) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.concurrentutil.executor.queue.AreaDependentQueue$QueuedTask.run(AreaDependentQueue.java:1154) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$OrderedStreamGroup$Queue.lambda$createTask$0(BalancedPrioritisedThreadPool.java:467) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue$PrioritisedQueuedTask.execute(PrioritisedTaskQueue.java:345) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$OrderedStreamGroup.executeTask(BalancedPrioritisedThreadPool.java:344) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$WorkerThread.pollTasks(BalancedPrioritisedThreadPool.java:630) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.mainLoop(QueueExecutorRunnable.java:50) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.doRun(QueueExecutorRunnable.java:115) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.run(QueueExecutorRunnable.java:42) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.util.LazyRunnable.run(LazyRunnable.java:25) ~[concurrentutil-0.0.10.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1516) ~[?:?]
+Caused by: net.minecraft.ReportedException: Feature placement
+	at net.minecraft.world.level.chunk.ChunkGenerator.addVanillaDecorations(ChunkGenerator.java:442) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.applyBiomeDecoration(ChunkGenerator.java:455) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.applyBiomeDecoration(ChunkGenerator.java:448) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.status.ChunkStatusTasks.generateFeatures(ChunkStatusTasks.java:147) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.status.ChunkStep.apply(ChunkStep.java:65) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask.run(ChunkUpgradeGenericStatusTask.java:97) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	... 10 more
+Caused by: java.lang.IllegalStateException: Tried to biome check an unregistered feature, or a feature that should not restrict the biome
+	at net.minecraft.world.level.levelgen.placement.BiomeFilter.lambda$shouldPlace$0(BiomeFilter.java:23) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:407) ~[?:?]
+	at net.minecraft.world.level.levelgen.placement.BiomeFilter.shouldPlace(BiomeFilter.java:23) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.placement.PlacementFilter.getPositions(PlacementFilter.java:10) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.lambda$placeWithContext$0(PlacedFeature.java:49) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:288) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186) ~[?:?]
+	at java.base/java.util.stream.IntPipeline$1$1.accept(IntPipeline.java:180) ~[?:?]
+	at java.base/java.util.stream.Streams$RangeIntSpliterator.forEachRemaining(Streams.java:104) ~[?:?]
+	at java.base/java.util.Spliterator$OfInt.forEachRemaining(Spliterator.java:710) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632) ~[?:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.placeWithContext(PlacedFeature.java:54) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.place(PlacedFeature.java:38) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.pools.FeaturePoolElement.place(FeaturePoolElement.java:94) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.place(PoolElementStructurePiece.java:113) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.postProcess(PoolElementStructurePiece.java:100) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.StructureStart.placeInChunk(StructureStart.java:111) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.lambda$addVanillaDecorations$3(ChunkGenerator.java:375) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:421) ~[guava-33.5.0-jre.jar:?]
+	at net.minecraft.world.level.chunk.ChunkGenerator.addVanillaDecorations(ChunkGenerator.java:375) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	... 15 more
+[03:09:10] [Server thread/WARN]: Failed to handle packet for /127.114.58.236:57465
+java.lang.RuntimeException: Chunk system crash propagated from unrecoverableChunkSystemFailure
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkTaskScheduler.lambda$unrecoverableChunkSystemFailure$0(ChunkTaskScheduler.java:327) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue$PrioritisedQueuedTask.execute(PrioritisedTaskQueue.java:345) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue.executeTask(PrioritisedTaskQueue.java:126) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkTaskScheduler.executeMainThreadTask(ChunkTaskScheduler.java:338) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.pollTask(ServerChunkCache.java:833) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:191) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.level.ServerChunkCache.syncLoad(ServerChunkCache.java:119) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.level.ServerChunkCache.getChunkFallback(ServerChunkCache.java:153) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.level.ServerChunkCache.getChunk(ServerChunkCache.java:316) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.Level.getChunk(Level.java:974) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.entity.Entity.absSnapTo(Entity.java:2224) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.entity.Entity.absSnapTo(Entity.java:2205) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.tickPlayer(ServerGamePacketListenerImpl.java:385) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:364) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.network.Connection.tick(Connection.java:571) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:237) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.MinecraftServer.tickConnection(MinecraftServer.java:1899) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.dedicated.DedicatedServer.tickConnection(DedicatedServer.java:577) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1862) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1645) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:444) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1703) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1373) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at java.base/java.lang.Thread.run(Thread.java:1516) ~[?:?]
+Caused by: net.minecraft.ReportedException: Feature placement
+	at net.minecraft.world.level.chunk.ChunkGenerator.addVanillaDecorations(ChunkGenerator.java:442) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.applyBiomeDecoration(ChunkGenerator.java:455) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.applyBiomeDecoration(ChunkGenerator.java:448) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.status.ChunkStatusTasks.generateFeatures(ChunkStatusTasks.java:147) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.status.ChunkStep.apply(ChunkStep.java:65) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask.run(ChunkUpgradeGenericStatusTask.java:97) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.concurrentutil.executor.queue.AreaDependentQueue$QueuedTask.run(AreaDependentQueue.java:1154) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$OrderedStreamGroup$Queue.lambda$createTask$0(BalancedPrioritisedThreadPool.java:467) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue$PrioritisedQueuedTask.execute(PrioritisedTaskQueue.java:345) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$OrderedStreamGroup.executeTask(BalancedPrioritisedThreadPool.java:344) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$WorkerThread.pollTasks(BalancedPrioritisedThreadPool.java:630) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.mainLoop(QueueExecutorRunnable.java:50) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.doRun(QueueExecutorRunnable.java:115) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.run(QueueExecutorRunnable.java:42) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.util.LazyRunnable.run(LazyRunnable.java:25) ~[concurrentutil-0.0.10.jar:?]
+	... 1 more
+Caused by: java.lang.IllegalStateException: Tried to biome check an unregistered feature, or a feature that should not restrict the biome
+	at net.minecraft.world.level.levelgen.placement.BiomeFilter.lambda$shouldPlace$0(BiomeFilter.java:23) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:407) ~[?:?]
+	at net.minecraft.world.level.levelgen.placement.BiomeFilter.shouldPlace(BiomeFilter.java:23) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.placement.PlacementFilter.getPositions(PlacementFilter.java:10) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.lambda$placeWithContext$0(PlacedFeature.java:49) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:288) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186) ~[?:?]
+	at java.base/java.util.stream.IntPipeline$1$1.accept(IntPipeline.java:180) ~[?:?]
+	at java.base/java.util.stream.Streams$RangeIntSpliterator.forEachRemaining(Streams.java:104) ~[?:?]
+	at java.base/java.util.Spliterator$OfInt.forEachRemaining(Spliterator.java:710) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632) ~[?:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.placeWithContext(PlacedFeature.java:54) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.place(PlacedFeature.java:38) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.pools.FeaturePoolElement.place(FeaturePoolElement.java:94) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.place(PoolElementStructurePiece.java:113) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.postProcess(PoolElementStructurePiece.java:100) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.StructureStart.placeInChunk(StructureStart.java:111) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.lambda$addVanillaDecorations$3(ChunkGenerator.java:375) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:421) ~[guava-33.5.0-jre.jar:?]
+	at net.minecraft.world.level.chunk.ChunkGenerator.addVanillaDecorations(ChunkGenerator.java:375) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	... 15 more
+[03:09:10] [Server thread/ERROR]: Encountered an unexpected exception
+java.lang.RuntimeException: Chunk system crash propagated to tick()
+	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1708) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1373) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at java.base/java.lang.Thread.run(Thread.java:1516) ~[?:?]
+Caused by: java.lang.RuntimeException: Chunk system crash propagated from unrecoverableChunkSystemFailure
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkTaskScheduler.unrecoverableChunkSystemFailure(ChunkTaskScheduler.java:333) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.NewChunkHolder.lambda$setGenerationTask$0(NewChunkHolder.java:1594) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkProgressionTask.complete0(ChunkProgressionTask.java:91) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkProgressionTask.complete(ChunkProgressionTask.java:74) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask.run(ChunkUpgradeGenericStatusTask.java:114) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.concurrentutil.executor.queue.AreaDependentQueue$QueuedTask.run(AreaDependentQueue.java:1154) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$OrderedStreamGroup$Queue.lambda$createTask$0(BalancedPrioritisedThreadPool.java:467) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue$PrioritisedQueuedTask.execute(PrioritisedTaskQueue.java:345) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$OrderedStreamGroup.executeTask(BalancedPrioritisedThreadPool.java:344) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$WorkerThread.pollTasks(BalancedPrioritisedThreadPool.java:630) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.mainLoop(QueueExecutorRunnable.java:50) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.doRun(QueueExecutorRunnable.java:115) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.run(QueueExecutorRunnable.java:42) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.util.LazyRunnable.run(LazyRunnable.java:25) ~[concurrentutil-0.0.10.jar:?]
+	... 1 more
+Caused by: net.minecraft.ReportedException: Feature placement
+	at net.minecraft.world.level.chunk.ChunkGenerator.addVanillaDecorations(ChunkGenerator.java:442) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.applyBiomeDecoration(ChunkGenerator.java:455) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.applyBiomeDecoration(ChunkGenerator.java:448) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.status.ChunkStatusTasks.generateFeatures(ChunkStatusTasks.java:147) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.status.ChunkStep.apply(ChunkStep.java:65) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask.run(ChunkUpgradeGenericStatusTask.java:97) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	... 10 more
+Caused by: java.lang.IllegalStateException: Tried to biome check an unregistered feature, or a feature that should not restrict the biome
+	at net.minecraft.world.level.levelgen.placement.BiomeFilter.lambda$shouldPlace$0(BiomeFilter.java:23) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:407) ~[?:?]
+	at net.minecraft.world.level.levelgen.placement.BiomeFilter.shouldPlace(BiomeFilter.java:23) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.placement.PlacementFilter.getPositions(PlacementFilter.java:10) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.lambda$placeWithContext$0(PlacedFeature.java:49) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:288) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186) ~[?:?]
+	at java.base/java.util.stream.IntPipeline$1$1.accept(IntPipeline.java:180) ~[?:?]
+	at java.base/java.util.stream.Streams$RangeIntSpliterator.forEachRemaining(Streams.java:104) ~[?:?]
+	at java.base/java.util.Spliterator$OfInt.forEachRemaining(Spliterator.java:710) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632) ~[?:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.placeWithContext(PlacedFeature.java:54) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.place(PlacedFeature.java:38) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.pools.FeaturePoolElement.place(FeaturePoolElement.java:94) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.place(PoolElementStructurePiece.java:113) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.postProcess(PoolElementStructurePiece.java:100) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.StructureStart.placeInChunk(StructureStart.java:111) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.lambda$addVanillaDecorations$3(ChunkGenerator.java:375) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:421) ~[guava-33.5.0-jre.jar:?]
+	at net.minecraft.world.level.chunk.ChunkGenerator.addVanillaDecorations(ChunkGenerator.java:375) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	... 15 more
+[03:09:10] [Server thread/ERROR]: This crash report has been saved to: /home/runner/work/myserver/myserver/crash-reports/crash-2026-06-07_03.09.10-server.txt
+[03:09:10] [Server thread/INFO]: Stopping server
+[03:09:10] [Server thread/INFO]: [[38;5;11m⚡[0m] Disabling LagFixer v1.6.1 [build 143]
+[03:09:10] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Disabling manager...
+[03:09:10] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Disabled manager in 0.063ms!
+[03:09:10] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Disabling manager...
+[03:09:10] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Disabled manager in 0.002ms!
+[03:09:10] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Disabling manager...
+[03:09:10] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Disabled manager in 0.817ms!
+[03:09:10] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Disabling manager...
+[03:09:10] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Disabled manager in 0.02ms!
+[03:09:10] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Disabling manager...
+[03:09:10] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Disabled manager in 0.041ms!
+[03:09:10] [Server thread/INFO]: [[38;5;11m⚡[0m] (UpdaterManager) -> Disabling manager...
+[03:09:10] [Server thread/INFO]: [[38;5;11m⚡[0m] (UpdaterManager) -> Disabled manager in 1.657ms!
+[03:09:10] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Disabling manager...
+[03:09:10] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module RedstoneLimiter in 0.637ms!
+[03:09:10] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module InstantLeafDecay in 0.556ms!
+[03:09:10] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module WorldCleaner in 0.668ms!
+[03:09:10] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module LagShield in 0.535ms!
+[03:09:10] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module ExplosionOptimizer in 0.581ms!
+[03:09:10] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Error with disabling module ConsoleFilter, reason: null
+[03:09:10] [Server thread/WARN]: [[38;5;11m⚡[0m] LagFixer error message:
+
+-------------------------------
+
+An error occurred in lagfixer:
+ -> EOFException: null
+ | ConsoleFilterModule.java -> disable() at 141 line
+ | ModuleManager.java -> disable() at 96 line
+ | LagFixer.java -> onDisable() at 49 line
+
+Our support has been informed about it, it will be fixed soon.
+Make sure the LagFixer configuration is done correctly.
+If you have any doubts, contact support: https://discord.gg/CFmzJjgZdu
+
+-------------------------------
+
+[03:09:10] [Paper Common Worker #0/ERROR]: [ca.spottedleaf.moonrise.common.util.TickThread] Thread failed main thread check: Accessing poi chunk off-main, context=thread=Paper Common Worker #0, world=minecraft:overworld, chunk_pos=[171, -637]
+java.lang.Throwable
+	at ca.spottedleaf.moonrise.common.util.TickThread.ensureTickThread(TickThread.java:64) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.entity.ai.village.poi.PoiManager.getOrLoad(PoiManager.java:89) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.entity.ai.village.poi.PoiManager.exists(PoiManager.java:410) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.level.ServerLevel.lambda$updatePOIOnBlockStateChange$3(ServerLevel.java:2389) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:207) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1559) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:194) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:150) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.level.ServerLevel.lambda$updatePOIOnBlockStateChange$2(ServerLevel.java:2387) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at java.base/java.util.Optional.ifPresent(Optional.java:182) ~[?:?]
+	at net.minecraft.server.level.ServerLevel.updatePOIOnBlockStateChange(ServerLevel.java:2387) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.level.WorldGenRegion.setBlock(WorldGenRegion.java:326) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.LevelWriter.setBlock(LevelWriter.java:13) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.feature.TreeFeature.lambda$place$2(TreeFeature.java:152) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecorator$Context.setBlock(TreeDecorator.java:60) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.feature.treedecorators.BeehiveDecorator.place(BeehiveDecorator.java:56) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.feature.TreeFeature.lambda$place$3(TreeFeature.java:158) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at java.base/java.util.ImmutableCollections$List12.forEach(ImmutableCollections.java:680) ~[?:?]
+	at net.minecraft.world.level.levelgen.feature.TreeFeature.place(TreeFeature.java:158) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.feature.Feature.place(Feature.java:186) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.feature.ConfiguredFeature.place(ConfiguredFeature.java:25) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.lambda$placeWithContext$1(PlacedFeature.java:55) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186) ~[?:?]
+	at java.base/java.util.stream.IntPipeline$1$1.accept(IntPipeline.java:180) ~[?:?]
+	at java.base/java.util.stream.Streams$RangeIntSpliterator.forEachRemaining(Streams.java:104) ~[?:?]
+	at java.base/java.util.Spliterator$OfInt.forEachRemaining(Spliterator.java:710) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632) ~[?:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.placeWithContext(PlacedFeature.java:54) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.placeWithBiomeCheck(PlacedFeature.java:42) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.addVanillaDecorations(ChunkGenerator.java:422) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.applyBiomeDecoration(ChunkGenerator.java:455) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.applyBiomeDecoration(ChunkGenerator.java:448) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.status.ChunkStatusTasks.generateFeatures(ChunkStatusTasks.java:147) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.status.ChunkStep.apply(ChunkStep.java:65) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask.run(ChunkUpgradeGenericStatusTask.java:97) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.concurrentutil.executor.queue.AreaDependentQueue$QueuedTask.run(AreaDependentQueue.java:1154) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$OrderedStreamGroup$Queue.lambda$createTask$0(BalancedPrioritisedThreadPool.java:467) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue$PrioritisedQueuedTask.execute(PrioritisedTaskQueue.java:345) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$OrderedStreamGroup.executeTask(BalancedPrioritisedThreadPool.java:344) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$WorkerThread.pollTasks(BalancedPrioritisedThreadPool.java:630) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.mainLoop(QueueExecutorRunnable.java:50) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.doRun(QueueExecutorRunnable.java:115) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.run(QueueExecutorRunnable.java:42) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.util.LazyRunnable.run(LazyRunnable.java:25) ~[concurrentutil-0.0.10.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1516) ~[?:?]
+[03:09:10] [Paper Common Worker #0/ERROR]: Error executing task on Server
+java.lang.IllegalStateException: Thread failed main thread check: Accessing poi chunk off-main, context=thread=Paper Common Worker #0, world=minecraft:overworld, chunk_pos=[171, -637]
+	at ca.spottedleaf.moonrise.common.util.TickThread.ensureTickThread(TickThread.java:65) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.entity.ai.village.poi.PoiManager.getOrLoad(PoiManager.java:89) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.entity.ai.village.poi.PoiManager.exists(PoiManager.java:410) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.level.ServerLevel.lambda$updatePOIOnBlockStateChange$3(ServerLevel.java:2389) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:207) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1559) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:194) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:150) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.level.ServerLevel.lambda$updatePOIOnBlockStateChange$2(ServerLevel.java:2387) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at java.base/java.util.Optional.ifPresent(Optional.java:182) ~[?:?]
+	at net.minecraft.server.level.ServerLevel.updatePOIOnBlockStateChange(ServerLevel.java:2387) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.level.WorldGenRegion.setBlock(WorldGenRegion.java:326) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.LevelWriter.setBlock(LevelWriter.java:13) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.feature.TreeFeature.lambda$place$2(TreeFeature.java:152) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecorator$Context.setBlock(TreeDecorator.java:60) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.feature.treedecorators.BeehiveDecorator.place(BeehiveDecorator.java:56) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.feature.TreeFeature.lambda$place$3(TreeFeature.java:158) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at java.base/java.util.ImmutableCollections$List12.forEach(ImmutableCollections.java:680) ~[?:?]
+	at net.minecraft.world.level.levelgen.feature.TreeFeature.place(TreeFeature.java:158) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.feature.Feature.place(Feature.java:186) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.feature.ConfiguredFeature.place(ConfiguredFeature.java:25) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.lambda$placeWithContext$1(PlacedFeature.java:55) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186) ~[?:?]
+	at java.base/java.util.stream.IntPipeline$1$1.accept(IntPipeline.java:180) ~[?:?]
+	at java.base/java.util.stream.Streams$RangeIntSpliterator.forEachRemaining(Streams.java:104) ~[?:?]
+	at java.base/java.util.Spliterator$OfInt.forEachRemaining(Spliterator.java:710) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632) ~[?:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.placeWithContext(PlacedFeature.java:54) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.placeWithBiomeCheck(PlacedFeature.java:42) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.addVanillaDecorations(ChunkGenerator.java:422) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.applyBiomeDecoration(ChunkGenerator.java:455) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.applyBiomeDecoration(ChunkGenerator.java:448) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.status.ChunkStatusTasks.generateFeatures(ChunkStatusTasks.java:147) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.status.ChunkStep.apply(ChunkStep.java:65) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask.run(ChunkUpgradeGenericStatusTask.java:97) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.concurrentutil.executor.queue.AreaDependentQueue$QueuedTask.run(AreaDependentQueue.java:1154) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$OrderedStreamGroup$Queue.lambda$createTask$0(BalancedPrioritisedThreadPool.java:467) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue$PrioritisedQueuedTask.execute(PrioritisedTaskQueue.java:345) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$OrderedStreamGroup.executeTask(BalancedPrioritisedThreadPool.java:344) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$WorkerThread.pollTasks(BalancedPrioritisedThreadPool.java:630) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.mainLoop(QueueExecutorRunnable.java:50) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.doRun(QueueExecutorRunnable.java:115) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.run(QueueExecutorRunnable.java:42) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.util.LazyRunnable.run(LazyRunnable.java:25) ~[concurrentutil-0.0.10.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1516) ~[?:?]
+[03:09:10] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module MobAiReducer in 0.18ms!
+[03:09:10] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module EntityLimiter in 0.089ms!
+[03:09:10] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module AbilityLimiter in 0.085ms!
+[03:09:10] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Disabled manager in 8.307ms!
+[03:09:10] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Disabling manager...
+[03:09:10] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Disabled manager in 0.681ms!
+[03:09:10] [Server thread/INFO]: [Clumps] Disabling Clumps v5.0
+[03:09:10] [Server thread/INFO]: [FreezeHibernate] Disabling FreezeHibernate v1.0
+[03:09:10] [Server thread/INFO]: [Reactify] Disabling Reactify v1.4.b1
+[03:09:10] [Server thread/INFO]: [TradeCycle] Disabling TradeCycle v2.0.1
+[03:09:10] [Server thread/INFO]: [DirectionHUD] Disabling DirectionHUD v1.8.2.0+1.20-1.21.8
+[03:09:10] [Server thread/INFO]: [DirectionHUD] Safely shutdown DirectionHUD server!
+[03:09:10] [Paper Common Worker #0/ERROR]: [ca.spottedleaf.moonrise.common.util.TickThread] Thread failed main thread check: Accessing poi chunk off-main, context=thread=Paper Common Worker #0, world=minecraft:overworld, chunk_pos=[172, -636]
+java.lang.Throwable
+	at ca.spottedleaf.moonrise.common.util.TickThread.ensureTickThread(TickThread.java:64) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.entity.ai.village.poi.PoiManager.getOrLoad(PoiManager.java:89) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.entity.ai.village.poi.PoiManager.exists(PoiManager.java:410) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.level.ServerLevel.lambda$updatePOIOnBlockStateChange$3(ServerLevel.java:2389) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:207) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1559) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:194) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:150) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.level.ServerLevel.lambda$updatePOIOnBlockStateChange$2(ServerLevel.java:2387) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at java.base/java.util.Optional.ifPresent(Optional.java:182) ~[?:?]
+	at net.minecraft.server.level.ServerLevel.updatePOIOnBlockStateChange(ServerLevel.java:2387) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.level.WorldGenRegion.setBlock(WorldGenRegion.java:326) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.LevelWriter.setBlock(LevelWriter.java:13) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate.placeInWorld(StructureTemplate.java:321) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement.place(SinglePoolElement.java:152) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.place(PoolElementStructurePiece.java:113) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.postProcess(PoolElementStructurePiece.java:100) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.StructureStart.placeInChunk(StructureStart.java:111) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.lambda$addVanillaDecorations$3(ChunkGenerator.java:375) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:421) ~[guava-33.5.0-jre.jar:?]
+	at net.minecraft.world.level.chunk.ChunkGenerator.addVanillaDecorations(ChunkGenerator.java:375) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.applyBiomeDecoration(ChunkGenerator.java:455) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.applyBiomeDecoration(ChunkGenerator.java:448) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.status.ChunkStatusTasks.generateFeatures(ChunkStatusTasks.java:147) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.status.ChunkStep.apply(ChunkStep.java:65) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask.run(ChunkUpgradeGenericStatusTask.java:97) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.concurrentutil.executor.queue.AreaDependentQueue$QueuedTask.run(AreaDependentQueue.java:1154) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$OrderedStreamGroup$Queue.lambda$createTask$0(BalancedPrioritisedThreadPool.java:467) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue$PrioritisedQueuedTask.execute(PrioritisedTaskQueue.java:345) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$OrderedStreamGroup.executeTask(BalancedPrioritisedThreadPool.java:344) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$WorkerThread.pollTasks(BalancedPrioritisedThreadPool.java:630) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.mainLoop(QueueExecutorRunnable.java:50) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.doRun(QueueExecutorRunnable.java:115) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.run(QueueExecutorRunnable.java:42) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.util.LazyRunnable.run(LazyRunnable.java:25) ~[concurrentutil-0.0.10.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1516) ~[?:?]
+[03:09:10] [Paper Common Worker #0/ERROR]: Error executing task on Server
+java.lang.IllegalStateException: Thread failed main thread check: Accessing poi chunk off-main, context=thread=Paper Common Worker #0, world=minecraft:overworld, chunk_pos=[172, -636]
+	at ca.spottedleaf.moonrise.common.util.TickThread.ensureTickThread(TickThread.java:65) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.entity.ai.village.poi.PoiManager.getOrLoad(PoiManager.java:89) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.entity.ai.village.poi.PoiManager.exists(PoiManager.java:410) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.level.ServerLevel.lambda$updatePOIOnBlockStateChange$3(ServerLevel.java:2389) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:207) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1559) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:194) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:150) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.level.ServerLevel.lambda$updatePOIOnBlockStateChange$2(ServerLevel.java:2387) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at java.base/java.util.Optional.ifPresent(Optional.java:182) ~[?:?]
+	at net.minecraft.server.level.ServerLevel.updatePOIOnBlockStateChange(ServerLevel.java:2387) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.level.WorldGenRegion.setBlock(WorldGenRegion.java:326) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.LevelWriter.setBlock(LevelWriter.java:13) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate.placeInWorld(StructureTemplate.java:321) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement.place(SinglePoolElement.java:152) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.place(PoolElementStructurePiece.java:113) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.postProcess(PoolElementStructurePiece.java:100) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.StructureStart.placeInChunk(StructureStart.java:111) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.lambda$addVanillaDecorations$3(ChunkGenerator.java:375) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:421) ~[guava-33.5.0-jre.jar:?]
+	at net.minecraft.world.level.chunk.ChunkGenerator.addVanillaDecorations(ChunkGenerator.java:375) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.applyBiomeDecoration(ChunkGenerator.java:455) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.applyBiomeDecoration(ChunkGenerator.java:448) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.status.ChunkStatusTasks.generateFeatures(ChunkStatusTasks.java:147) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.status.ChunkStep.apply(ChunkStep.java:65) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask.run(ChunkUpgradeGenericStatusTask.java:97) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.concurrentutil.executor.queue.AreaDependentQueue$QueuedTask.run(AreaDependentQueue.java:1154) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$OrderedStreamGroup$Queue.lambda$createTask$0(BalancedPrioritisedThreadPool.java:467) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue$PrioritisedQueuedTask.execute(PrioritisedTaskQueue.java:345) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$OrderedStreamGroup.executeTask(BalancedPrioritisedThreadPool.java:344) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$WorkerThread.pollTasks(BalancedPrioritisedThreadPool.java:630) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.mainLoop(QueueExecutorRunnable.java:50) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.doRun(QueueExecutorRunnable.java:115) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.run(QueueExecutorRunnable.java:42) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.util.LazyRunnable.run(LazyRunnable.java:25) ~[concurrentutil-0.0.10.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1516) ~[?:?]
+[03:09:10] [Server thread/INFO]: [OpenInv] Disabling OpenInv v5.3.2
+[03:09:10] [Server thread/INFO]: [ViaVersionStatus] Disabling ViaVersionStatus v4.01
+[03:09:10] [Server thread/INFO]: [SmartSpawner] Disabling SmartSpawner v1.6.7
+[03:09:10] [Paper Common Worker #0/ERROR]: [ca.spottedleaf.moonrise.common.util.TickThread] Thread failed main thread check: Accessing poi chunk off-main, context=thread=Paper Common Worker #0, world=minecraft:overworld, chunk_pos=[170, -636]
+java.lang.Throwable
+	at ca.spottedleaf.moonrise.common.util.TickThread.ensureTickThread(TickThread.java:64) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.entity.ai.village.poi.PoiManager.getOrLoad(PoiManager.java:89) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.entity.ai.village.poi.PoiManager.exists(PoiManager.java:410) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.level.ServerLevel.lambda$updatePOIOnBlockStateChange$3(ServerLevel.java:2389) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:207) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1559) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:194) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:150) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.level.ServerLevel.lambda$updatePOIOnBlockStateChange$2(ServerLevel.java:2387) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at java.base/java.util.Optional.ifPresent(Optional.java:182) ~[?:?]
+	at net.minecraft.server.level.ServerLevel.updatePOIOnBlockStateChange(ServerLevel.java:2387) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.level.WorldGenRegion.setBlock(WorldGenRegion.java:326) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.LevelWriter.setBlock(LevelWriter.java:13) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate.placeInWorld(StructureTemplate.java:321) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement.place(SinglePoolElement.java:152) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.place(PoolElementStructurePiece.java:113) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.postProcess(PoolElementStructurePiece.java:100) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.StructureStart.placeInChunk(StructureStart.java:111) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.lambda$addVanillaDecorations$3(ChunkGenerator.java:375) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:421) ~[guava-33.5.0-jre.jar:?]
+	at net.minecraft.world.level.chunk.ChunkGenerator.addVanillaDecorations(ChunkGenerator.java:375) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.applyBiomeDecoration(ChunkGenerator.java:455) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.applyBiomeDecoration(ChunkGenerator.java:448) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.status.ChunkStatusTasks.generateFeatures(ChunkStatusTasks.java:147) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.status.ChunkStep.apply(ChunkStep.java:65) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask.run(ChunkUpgradeGenericStatusTask.java:97) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.concurrentutil.executor.queue.AreaDependentQueue$QueuedTask.run(AreaDependentQueue.java:1154) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$OrderedStreamGroup$Queue.lambda$createTask$0(BalancedPrioritisedThreadPool.java:467) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue$PrioritisedQueuedTask.execute(PrioritisedTaskQueue.java:345) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$OrderedStreamGroup.executeTask(BalancedPrioritisedThreadPool.java:344) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$WorkerThread.pollTasks(BalancedPrioritisedThreadPool.java:630) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.mainLoop(QueueExecutorRunnable.java:50) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.doRun(QueueExecutorRunnable.java:115) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.run(QueueExecutorRunnable.java:42) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.util.LazyRunnable.run(LazyRunnable.java:25) ~[concurrentutil-0.0.10.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1516) ~[?:?]
+[03:09:10] [Paper Common Worker #0/ERROR]: Error executing task on Server
+java.lang.IllegalStateException: Thread failed main thread check: Accessing poi chunk off-main, context=thread=Paper Common Worker #0, world=minecraft:overworld, chunk_pos=[170, -636]
+	at ca.spottedleaf.moonrise.common.util.TickThread.ensureTickThread(TickThread.java:65) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.entity.ai.village.poi.PoiManager.getOrLoad(PoiManager.java:89) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.entity.ai.village.poi.PoiManager.exists(PoiManager.java:410) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.level.ServerLevel.lambda$updatePOIOnBlockStateChange$3(ServerLevel.java:2389) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:207) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1559) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:194) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:150) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.level.ServerLevel.lambda$updatePOIOnBlockStateChange$2(ServerLevel.java:2387) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at java.base/java.util.Optional.ifPresent(Optional.java:182) ~[?:?]
+	at net.minecraft.server.level.ServerLevel.updatePOIOnBlockStateChange(ServerLevel.java:2387) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.level.WorldGenRegion.setBlock(WorldGenRegion.java:326) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.LevelWriter.setBlock(LevelWriter.java:13) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate.placeInWorld(StructureTemplate.java:321) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement.place(SinglePoolElement.java:152) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.place(PoolElementStructurePiece.java:113) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.postProcess(PoolElementStructurePiece.java:100) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.StructureStart.placeInChunk(StructureStart.java:111) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.lambda$addVanillaDecorations$3(ChunkGenerator.java:375) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:421) ~[guava-33.5.0-jre.jar:?]
+	at net.minecraft.world.level.chunk.ChunkGenerator.addVanillaDecorations(ChunkGenerator.java:375) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.applyBiomeDecoration(ChunkGenerator.java:455) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.applyBiomeDecoration(ChunkGenerator.java:448) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.status.ChunkStatusTasks.generateFeatures(ChunkStatusTasks.java:147) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.status.ChunkStep.apply(ChunkStep.java:65) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask.run(ChunkUpgradeGenericStatusTask.java:97) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.concurrentutil.executor.queue.AreaDependentQueue$QueuedTask.run(AreaDependentQueue.java:1154) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$OrderedStreamGroup$Queue.lambda$createTask$0(BalancedPrioritisedThreadPool.java:467) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue$PrioritisedQueuedTask.execute(PrioritisedTaskQueue.java:345) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$OrderedStreamGroup.executeTask(BalancedPrioritisedThreadPool.java:344) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$WorkerThread.pollTasks(BalancedPrioritisedThreadPool.java:630) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.mainLoop(QueueExecutorRunnable.java:50) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.doRun(QueueExecutorRunnable.java:115) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.run(QueueExecutorRunnable.java:42) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.util.LazyRunnable.run(LazyRunnable.java:25) ~[concurrentutil-0.0.10.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1516) ~[?:?]
+[03:09:10] [Server thread/INFO]: [SmartSpawner] SmartSpawner has been disabled!
+[03:09:10] [Server thread/INFO]: [DeathBack] Disabling DeathBack v1.0
+[03:09:10] [Server thread/INFO]: [DeathBack] Plugin unloaded!
+[03:09:10] [Server thread/INFO]: [DeathBack] Thank you to use my plugin!
+[03:09:10] [Server thread/INFO]: [TabListPing] Disabling TabListPing v2.03
+[03:09:10] [Netty Epoll IO #1/WARN]: [io.netty.util.concurrent.AbstractEventExecutor] A task raised an exception. Task: com.comphenix.tinyprotocol.TinyProtocol$7@3a55a852
+java.util.NoSuchElementException: tiny-TabListPing-1
+	at io.netty.channel.DefaultChannelPipeline.getContextOrDie(DefaultChannelPipeline.java:1094) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.DefaultChannelPipeline.remove(DefaultChannelPipeline.java:372) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at TabListPing-2.03.jar//com.comphenix.tinyprotocol.TinyProtocol$7.run(TinyProtocol.java:475) ~[?:?]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:148) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:141) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:535) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:201) ~[netty-transport-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.7.Final.jar:4.2.7.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1516) ~[?:?]
+[03:09:10] [Server thread/INFO]: [FokusAPI] Disabling FokusAPI v4.4
+[03:09:10] [Server thread/INFO]: [HoloMobHealth] Disabling HoloMobHealth v2026.1.1.0
+[03:09:10] [Server thread/INFO]: [HoloMobHealth] HoloMobHealth has been Disabled!
+[03:09:10] [Server thread/INFO]: [AxGraves] Disabling AxGraves v1.28.1
+[03:09:10] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.12.2
+[03:09:10] [Server thread/INFO]: [Not-Too-Expensive] Disabling Not-Too-Expensive v1.1
+[03:09:10] [Server thread/INFO]: [ImageFrame] Disabling ImageFrame v2026.1.2.0
+[03:09:10] [Server thread/INFO]: [ImageFrame] ImageFrame has been Disabled!
+[03:09:10] [Server thread/INFO]: [Brutal_Nightmare_-_Insane_Difficulty] Disabling Brutal_Nightmare_-_Insane_Difficulty v6.1
+[03:09:10] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.53
+[03:09:10] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[03:09:10] [Server thread/INFO]: [LuckPerms] Closing storage...
+[03:09:10] [Paper Common Worker #0/ERROR]: [ca.spottedleaf.moonrise.common.util.TickThread] Thread failed main thread check: Accessing poi chunk off-main, context=thread=Paper Common Worker #0, world=minecraft:overworld, chunk_pos=[170, -635]
+java.lang.Throwable
+	at ca.spottedleaf.moonrise.common.util.TickThread.ensureTickThread(TickThread.java:64) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.entity.ai.village.poi.PoiManager.getOrLoad(PoiManager.java:89) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.entity.ai.village.poi.PoiManager.exists(PoiManager.java:410) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.level.ServerLevel.lambda$updatePOIOnBlockStateChange$3(ServerLevel.java:2389) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:207) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1559) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:194) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:150) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.level.ServerLevel.lambda$updatePOIOnBlockStateChange$2(ServerLevel.java:2387) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at java.base/java.util.Optional.ifPresent(Optional.java:182) ~[?:?]
+	at net.minecraft.server.level.ServerLevel.updatePOIOnBlockStateChange(ServerLevel.java:2387) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.level.WorldGenRegion.setBlock(WorldGenRegion.java:326) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.LevelWriter.setBlock(LevelWriter.java:13) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate.placeInWorld(StructureTemplate.java:321) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement.place(SinglePoolElement.java:152) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.place(PoolElementStructurePiece.java:113) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.postProcess(PoolElementStructurePiece.java:100) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.StructureStart.placeInChunk(StructureStart.java:111) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.lambda$addVanillaDecorations$3(ChunkGenerator.java:375) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:421) ~[guava-33.5.0-jre.jar:?]
+	at net.minecraft.world.level.chunk.ChunkGenerator.addVanillaDecorations(ChunkGenerator.java:375) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.applyBiomeDecoration(ChunkGenerator.java:455) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.applyBiomeDecoration(ChunkGenerator.java:448) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.status.ChunkStatusTasks.generateFeatures(ChunkStatusTasks.java:147) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.status.ChunkStep.apply(ChunkStep.java:65) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask.run(ChunkUpgradeGenericStatusTask.java:97) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.concurrentutil.executor.queue.AreaDependentQueue$QueuedTask.run(AreaDependentQueue.java:1154) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$OrderedStreamGroup$Queue.lambda$createTask$0(BalancedPrioritisedThreadPool.java:467) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue$PrioritisedQueuedTask.execute(PrioritisedTaskQueue.java:345) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$OrderedStreamGroup.executeTask(BalancedPrioritisedThreadPool.java:344) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$WorkerThread.pollTasks(BalancedPrioritisedThreadPool.java:630) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.mainLoop(QueueExecutorRunnable.java:50) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.doRun(QueueExecutorRunnable.java:115) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.run(QueueExecutorRunnable.java:42) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.util.LazyRunnable.run(LazyRunnable.java:25) ~[concurrentutil-0.0.10.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1516) ~[?:?]
+[03:09:10] [Paper Common Worker #0/ERROR]: Error executing task on Server
+java.lang.IllegalStateException: Thread failed main thread check: Accessing poi chunk off-main, context=thread=Paper Common Worker #0, world=minecraft:overworld, chunk_pos=[170, -635]
+	at ca.spottedleaf.moonrise.common.util.TickThread.ensureTickThread(TickThread.java:65) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.entity.ai.village.poi.PoiManager.getOrLoad(PoiManager.java:89) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.entity.ai.village.poi.PoiManager.exists(PoiManager.java:410) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.level.ServerLevel.lambda$updatePOIOnBlockStateChange$3(ServerLevel.java:2389) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:207) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1559) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:194) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:150) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.level.ServerLevel.lambda$updatePOIOnBlockStateChange$2(ServerLevel.java:2387) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at java.base/java.util.Optional.ifPresent(Optional.java:182) ~[?:?]
+	at net.minecraft.server.level.ServerLevel.updatePOIOnBlockStateChange(ServerLevel.java:2387) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.level.WorldGenRegion.setBlock(WorldGenRegion.java:326) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.LevelWriter.setBlock(LevelWriter.java:13) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate.placeInWorld(StructureTemplate.java:321) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement.place(SinglePoolElement.java:152) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.place(PoolElementStructurePiece.java:113) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.postProcess(PoolElementStructurePiece.java:100) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.structure.StructureStart.placeInChunk(StructureStart.java:111) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.lambda$addVanillaDecorations$3(ChunkGenerator.java:375) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:421) ~[guava-33.5.0-jre.jar:?]
+	at net.minecraft.world.level.chunk.ChunkGenerator.addVanillaDecorations(ChunkGenerator.java:375) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.applyBiomeDecoration(ChunkGenerator.java:455) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.applyBiomeDecoration(ChunkGenerator.java:448) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.status.ChunkStatusTasks.generateFeatures(ChunkStatusTasks.java:147) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.status.ChunkStep.apply(ChunkStep.java:65) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask.run(ChunkUpgradeGenericStatusTask.java:97) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.concurrentutil.executor.queue.AreaDependentQueue$QueuedTask.run(AreaDependentQueue.java:1154) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$OrderedStreamGroup$Queue.lambda$createTask$0(BalancedPrioritisedThreadPool.java:467) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue$PrioritisedQueuedTask.execute(PrioritisedTaskQueue.java:345) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$OrderedStreamGroup.executeTask(BalancedPrioritisedThreadPool.java:344) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$WorkerThread.pollTasks(BalancedPrioritisedThreadPool.java:630) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.mainLoop(QueueExecutorRunnable.java:50) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.doRun(QueueExecutorRunnable.java:115) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.run(QueueExecutorRunnable.java:42) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.util.LazyRunnable.run(LazyRunnable.java:25) ~[concurrentutil-0.0.10.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1516) ~[?:?]
+[03:09:10] [Server thread/INFO]: [LuckPerms] Goodbye!
+[03:09:10] [Server thread/INFO]: [SetHomePlugin] Disabling SetHomePlugin v1.0.0
+[03:09:10] [Server thread/INFO]: [SleepVote] Disabling SleepVote v1.0.0
+[03:09:10] [Server thread/INFO]: [SleepVote] SleepVote has been disabled.
+[03:09:10] [Server thread/INFO]: [JustTPA] Disabling JustTPA v20250220c
+[03:09:10] [Server thread/INFO]: [JustTPA] JustTPA disabled
+[03:09:10] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.1.1
+[03:09:10] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.10.0-SNAPSHOT
+[03:09:10] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[03:09:10] [Paper Common Worker #0/ERROR]: [ca.spottedleaf.moonrise.common.util.TickThread] Thread failed main thread check: Accessing poi chunk off-main, context=thread=Paper Common Worker #0, world=minecraft:overworld, chunk_pos=[170, -637]
+java.lang.Throwable
+	at ca.spottedleaf.moonrise.common.util.TickThread.ensureTickThread(TickThread.java:64) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.entity.ai.village.poi.PoiManager.getOrLoad(PoiManager.java:89) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.entity.ai.village.poi.PoiManager.exists(PoiManager.java:410) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.level.ServerLevel.lambda$updatePOIOnBlockStateChange$3(ServerLevel.java:2389) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:207) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1559) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:194) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:150) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.level.ServerLevel.lambda$updatePOIOnBlockStateChange$2(ServerLevel.java:2387) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at java.base/java.util.Optional.ifPresent(Optional.java:182) ~[?:?]
+	at net.minecraft.server.level.ServerLevel.updatePOIOnBlockStateChange(ServerLevel.java:2387) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.level.WorldGenRegion.setBlock(WorldGenRegion.java:326) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.LevelWriter.setBlock(LevelWriter.java:13) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.feature.TreeFeature.lambda$place$2(TreeFeature.java:152) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecorator$Context.setBlock(TreeDecorator.java:60) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.feature.treedecorators.BeehiveDecorator.place(BeehiveDecorator.java:56) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.feature.TreeFeature.lambda$place$3(TreeFeature.java:158) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at java.base/java.util.ImmutableCollections$List12.forEach(ImmutableCollections.java:680) ~[?:?]
+	at net.minecraft.world.level.levelgen.feature.TreeFeature.place(TreeFeature.java:158) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.feature.Feature.place(Feature.java:186) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.feature.ConfiguredFeature.place(ConfiguredFeature.java:25) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.lambda$placeWithContext$1(PlacedFeature.java:55) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186) ~[?:?]
+	at java.base/java.util.stream.IntPipeline$1$1.accept(IntPipeline.java:180) ~[?:?]
+	at java.base/java.util.stream.Streams$RangeIntSpliterator.forEachRemaining(Streams.java:104) ~[?:?]
+	at java.base/java.util.Spliterator$OfInt.forEachRemaining(Spliterator.java:710) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632) ~[?:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.placeWithContext(PlacedFeature.java:54) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.placeWithBiomeCheck(PlacedFeature.java:42) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.addVanillaDecorations(ChunkGenerator.java:422) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.applyBiomeDecoration(ChunkGenerator.java:455) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.applyBiomeDecoration(ChunkGenerator.java:448) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.status.ChunkStatusTasks.generateFeatures(ChunkStatusTasks.java:147) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.status.ChunkStep.apply(ChunkStep.java:65) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask.run(ChunkUpgradeGenericStatusTask.java:97) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.concurrentutil.executor.queue.AreaDependentQueue$QueuedTask.run(AreaDependentQueue.java:1154) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$OrderedStreamGroup$Queue.lambda$createTask$0(BalancedPrioritisedThreadPool.java:467) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue$PrioritisedQueuedTask.execute(PrioritisedTaskQueue.java:345) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$OrderedStreamGroup.executeTask(BalancedPrioritisedThreadPool.java:344) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$WorkerThread.pollTasks(BalancedPrioritisedThreadPool.java:630) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.mainLoop(QueueExecutorRunnable.java:50) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.doRun(QueueExecutorRunnable.java:115) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.run(QueueExecutorRunnable.java:42) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.util.LazyRunnable.run(LazyRunnable.java:25) ~[concurrentutil-0.0.10.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1516) ~[?:?]
+[03:09:10] [Paper Common Worker #0/ERROR]: Error executing task on Server
+java.lang.IllegalStateException: Thread failed main thread check: Accessing poi chunk off-main, context=thread=Paper Common Worker #0, world=minecraft:overworld, chunk_pos=[170, -637]
+	at ca.spottedleaf.moonrise.common.util.TickThread.ensureTickThread(TickThread.java:65) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.entity.ai.village.poi.PoiManager.getOrLoad(PoiManager.java:89) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.entity.ai.village.poi.PoiManager.exists(PoiManager.java:410) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.level.ServerLevel.lambda$updatePOIOnBlockStateChange$3(ServerLevel.java:2389) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:207) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1559) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:194) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:150) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.level.ServerLevel.lambda$updatePOIOnBlockStateChange$2(ServerLevel.java:2387) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at java.base/java.util.Optional.ifPresent(Optional.java:182) ~[?:?]
+	at net.minecraft.server.level.ServerLevel.updatePOIOnBlockStateChange(ServerLevel.java:2387) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.level.WorldGenRegion.setBlock(WorldGenRegion.java:326) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.LevelWriter.setBlock(LevelWriter.java:13) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.feature.TreeFeature.lambda$place$2(TreeFeature.java:152) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecorator$Context.setBlock(TreeDecorator.java:60) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.feature.treedecorators.BeehiveDecorator.place(BeehiveDecorator.java:56) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.feature.TreeFeature.lambda$place$3(TreeFeature.java:158) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at java.base/java.util.ImmutableCollections$List12.forEach(ImmutableCollections.java:680) ~[?:?]
+	at net.minecraft.world.level.levelgen.feature.TreeFeature.place(TreeFeature.java:158) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.feature.Feature.place(Feature.java:186) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.feature.ConfiguredFeature.place(ConfiguredFeature.java:25) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.lambda$placeWithContext$1(PlacedFeature.java:55) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186) ~[?:?]
+	at java.base/java.util.stream.IntPipeline$1$1.accept(IntPipeline.java:180) ~[?:?]
+	at java.base/java.util.stream.Streams$RangeIntSpliterator.forEachRemaining(Streams.java:104) ~[?:?]
+	at java.base/java.util.Spliterator$OfInt.forEachRemaining(Spliterator.java:710) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632) ~[?:?]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.placeWithContext(PlacedFeature.java:54) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.levelgen.placement.PlacedFeature.placeWithBiomeCheck(PlacedFeature.java:42) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.addVanillaDecorations(ChunkGenerator.java:422) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.applyBiomeDecoration(ChunkGenerator.java:455) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.ChunkGenerator.applyBiomeDecoration(ChunkGenerator.java:448) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.status.ChunkStatusTasks.generateFeatures(ChunkStatusTasks.java:147) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.world.level.chunk.status.ChunkStep.apply(ChunkStep.java:65) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask.run(ChunkUpgradeGenericStatusTask.java:97) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at ca.spottedleaf.concurrentutil.executor.queue.AreaDependentQueue$QueuedTask.run(AreaDependentQueue.java:1154) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$OrderedStreamGroup$Queue.lambda$createTask$0(BalancedPrioritisedThreadPool.java:467) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue$PrioritisedQueuedTask.execute(PrioritisedTaskQueue.java:345) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$OrderedStreamGroup.executeTask(BalancedPrioritisedThreadPool.java:344) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$WorkerThread.pollTasks(BalancedPrioritisedThreadPool.java:630) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.mainLoop(QueueExecutorRunnable.java:50) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.doRun(QueueExecutorRunnable.java:115) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.run(QueueExecutorRunnable.java:42) ~[concurrentutil-0.0.10.jar:?]
+	at ca.spottedleaf.concurrentutil.util.LazyRunnable.run(LazyRunnable.java:25) ~[concurrentutil-0.0.10.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1516) ~[?:?]
+[03:09:10] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[03:09:10] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.5.0-SNAPSHOT-b723ff3
+[03:09:10] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.9.1
+[03:09:10] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.9.1
+[03:09:10] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[03:09:10] [Server thread/INFO]: Saving players
+[03:09:10] [Server thread/INFO]: Saving worlds
+[03:09:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:09:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'
+[03:09:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'
+[03:09:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'
+[03:09:12] [Server thread/INFO]: [ChunkHolderManager] Saved 2278 block chunks, 505 entity chunks, 34 poi chunks in world 'minecraft:overworld' in 1.66s
+[03:09:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:overworld'
+[03:09:12] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:overworld'
+[03:09:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:09:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'
+[03:09:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'
+[03:09:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'
+[03:09:12] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0.00s
+[03:09:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_nether'
+[03:09:12] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_nether'
+[03:09:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03:09:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_end'
+[03:09:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_end'
+[03:09:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_end'
+[03:09:12] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_end' in 0.00s
+[03:09:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_end'
+[03:09:12] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_end'
+[03:09:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:09:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:09:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:09:12] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:09:12] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[03:09:12] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[03:09:12] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[03:09:12] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

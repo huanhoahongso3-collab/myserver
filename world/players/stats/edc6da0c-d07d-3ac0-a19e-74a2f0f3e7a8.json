@@ -1,34 +1,43 @@
 {
   "stats": {
     "minecraft:used": {
-      "minecraft:apple": 1
+      "minecraft:crafting_table": 2,
+      "minecraft:apple": 2,
+      "minecraft:wooden_pickaxe": 15
     },
     "minecraft:crafted": {
       "minecraft:stick": 4,
+      "minecraft:wooden_pickaxe": 1,
       "minecraft:spruce_planks": 24,
+      "minecraft:stone_pickaxe": 1,
       "minecraft:crafting_table": 2
     },
     "minecraft:mined": {
-      "minecraft:spruce_log": 6
+      "minecraft:spruce_log": 6,
+      "minecraft:crafting_table": 2,
+      "minecraft:stone": 15
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 7005,
-      "minecraft:walk_one_cm": 8368,
+      "minecraft:interact_with_crafting_table": 2,
+      "minecraft:time_since_rest": 11976,
+      "minecraft:walk_one_cm": 11103,
       "minecraft:walk_under_water_one_cm": 72,
       "minecraft:damage_taken": 70,
-      "minecraft:play_time": 7005,
-      "minecraft:jump": 99,
-      "minecraft:time_since_death": 7005,
-      "minecraft:sprint_one_cm": 11964,
-      "minecraft:fall_one_cm": 3425,
-      "minecraft:total_world_time": 7005,
-      "minecraft:fly_one_cm": 86697,
+      "minecraft:play_time": 11976,
+      "minecraft:jump": 113,
+      "minecraft:time_since_death": 11976,
+      "minecraft:sprint_one_cm": 14975,
+      "minecraft:fall_one_cm": 3750,
+      "minecraft:total_world_time": 11976,
+      "minecraft:fly_one_cm": 116199,
       "minecraft:walk_on_water_one_cm": 904,
-      "minecraft:crouch_one_cm": 649,
-      "minecraft:sneak_time": 232
+      "minecraft:crouch_one_cm": 1642,
+      "minecraft:sneak_time": 799
     },
     "minecraft:picked_up": {
-      "minecraft:spruce_log": 6
+      "minecraft:spruce_log": 6,
+      "minecraft:cobblestone": 15,
+      "minecraft:crafting_table": 2
     }
   },
   "DataVersion": 4790
