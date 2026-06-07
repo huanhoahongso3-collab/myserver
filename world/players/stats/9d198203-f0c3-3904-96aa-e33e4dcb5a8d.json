@@ -1,29 +1,29 @@
 {
   "stats": {
     "minecraft:custom": {
-      "minecraft:time_since_rest": 12092,
-      "minecraft:walk_one_cm": 112831,
+      "minecraft:time_since_rest": 18091,
+      "minecraft:walk_one_cm": 143776,
       "minecraft:leave_game": 5,
-      "minecraft:mob_kills": 2,
+      "minecraft:mob_kills": 3,
       "minecraft:damage_taken": 1817,
-      "minecraft:damage_dealt": 892,
-      "minecraft:play_time": 30316,
-      "minecraft:jump": 150,
-      "minecraft:time_since_death": 12010,
+      "minecraft:damage_dealt": 896,
+      "minecraft:play_time": 36315,
+      "minecraft:jump": 161,
+      "minecraft:time_since_death": 18009,
       "minecraft:drop": 5,
       "minecraft:bell_ring": 1,
       "minecraft:interact_with_furnace": 1,
-      "minecraft:sprint_one_cm": 2082,
-      "minecraft:open_chest": 11,
+      "minecraft:sprint_one_cm": 5123,
+      "minecraft:open_chest": 12,
       "minecraft:sleep_in_bed": 1,
       "minecraft:fall_one_cm": 2025,
-      "minecraft:total_world_time": 30316,
-      "minecraft:fly_one_cm": 414,
+      "minecraft:total_world_time": 36315,
+      "minecraft:fly_one_cm": 688,
       "minecraft:crouch_one_cm": 876,
       "minecraft:sneak_time": 520,
-      "minecraft:climb_one_cm": 6823,
+      "minecraft:climb_one_cm": 7558,
       "minecraft:deaths": 5,
-      "minecraft:player_kills": 4,
+      "minecraft:player_kills": 5,
       "minecraft:interact_with_loom": 1
     },
     "minecraft:picked_up": {
@@ -42,7 +42,8 @@
     },
     "minecraft:used": {
       "minecraft:cooked_beef": 5,
-      "minecraft:diamond_sword": 20
+      "minecraft:diamond_sword": 20,
+      "minecraft:bow": 2
     },
     "minecraft:killed_by": {
       "minecraft:player": 1,
@@ -50,7 +51,8 @@
       "minecraft:spider": 1
     },
     "minecraft:killed": {
-      "minecraft:zombified_piglin": 1
+      "minecraft:zombified_piglin": 1,
+      "minecraft:zombie": 1
     }
   },
   "DataVersion": 4790
