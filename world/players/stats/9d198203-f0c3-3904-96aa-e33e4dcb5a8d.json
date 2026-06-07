@@ -1,19 +1,34 @@
 {
   "stats": {
     "minecraft:custom": {
-      "minecraft:time_since_rest": 582,
-      "minecraft:fall_one_cm": 1800,
-      "minecraft:walk_one_cm": 1080,
-      "minecraft:total_world_time": 1002,
+      "minecraft:time_since_rest": 1466,
+      "minecraft:walk_one_cm": 19424,
       "minecraft:leave_game": 1,
-      "minecraft:fly_one_cm": 132,
-      "minecraft:damage_taken": 300,
-      "minecraft:play_time": 1002,
-      "minecraft:deaths": 1,
-      "minecraft:jump": 2,
-      "minecraft:time_since_death": 363
+      "minecraft:damage_taken": 1055,
+      "minecraft:play_time": 7001,
+      "minecraft:damage_dealt": 55,
+      "minecraft:jump": 26,
+      "minecraft:time_since_death": 1426,
+      "minecraft:sprint_one_cm": 219,
+      "minecraft:open_chest": 5,
+      "minecraft:sleep_in_bed": 1,
+      "minecraft:fall_one_cm": 1800,
+      "minecraft:total_world_time": 7001,
+      "minecraft:fly_one_cm": 276,
+      "minecraft:crouch_one_cm": 189,
+      "minecraft:sneak_time": 160,
+      "minecraft:climb_one_cm": 1096,
+      "minecraft:deaths": 4
+    },
+    "minecraft:mined": {
+      "minecraft:fire": 1
+    },
+    "minecraft:used": {
+      "minecraft:diamond_sword": 1
     },
     "minecraft:killed_by": {
+      "minecraft:player": 1,
+      "minecraft:wolf": 1,
       "minecraft:spider": 1
     }
   },
