@@ -1,38 +1,41 @@
 {
   "stats": {
     "minecraft:custom": {
-      "minecraft:time_since_rest": 8686,
-      "minecraft:walk_one_cm": 211548,
+      "minecraft:time_since_rest": 14686,
       "minecraft:leave_game": 5,
       "minecraft:mob_kills": 3,
       "minecraft:damage_taken": 1897,
-      "minecraft:play_time": 48315,
-      "minecraft:damage_dealt": 896,
-      "minecraft:jump": 199,
-      "minecraft:time_since_death": 30009,
-      "minecraft:drop": 6,
-      "minecraft:bell_ring": 1,
+      "minecraft:time_since_death": 36009,
       "minecraft:interact_with_furnace": 1,
-      "minecraft:sprint_one_cm": 5343,
-      "minecraft:open_chest": 13,
       "minecraft:sleep_in_bed": 2,
-      "minecraft:fall_one_cm": 2675,
-      "minecraft:total_world_time": 48315,
-      "minecraft:fly_one_cm": 832,
+      "minecraft:total_world_time": 54315,
       "minecraft:crouch_one_cm": 876,
-      "minecraft:sneak_time": 520,
-      "minecraft:climb_one_cm": 8181,
+      "minecraft:climb_one_cm": 9450,
       "minecraft:deaths": 5,
       "minecraft:player_kills": 5,
-      "minecraft:interact_with_loom": 1
+      "minecraft:interact_with_loom": 1,
+      "minecraft:animals_bred": 1,
+      "minecraft:walk_one_cm": 233712,
+      "minecraft:play_time": 54315,
+      "minecraft:damage_dealt": 896,
+      "minecraft:jump": 226,
+      "minecraft:drop": 6,
+      "minecraft:bell_ring": 1,
+      "minecraft:sprint_one_cm": 9724,
+      "minecraft:open_chest": 14,
+      "minecraft:fall_one_cm": 2675,
+      "minecraft:fly_one_cm": 950,
+      "minecraft:walk_on_water_one_cm": 55,
+      "minecraft:sneak_time": 520
     },
     "minecraft:picked_up": {
       "minecraft:egg": 2,
-      "minecraft:carrot": 5,
+      "minecraft:carrot": 26,
       "minecraft:salmon": 64,
       "minecraft:bone": 192,
       "minecraft:torch": 1,
-      "minecraft:gold_nugget": 1,
+      "minecraft:gold_nugget": 2,
+      "minecraft:pink_petals": 1,
       "minecraft:rotten_flesh": 1
     },
     "minecraft:dropped": {
@@ -41,8 +44,10 @@
       "minecraft:bone": 192
     },
     "minecraft:mined": {
+      "minecraft:short_grass": 2,
       "minecraft:fire": 1,
-      "minecraft:carrots": 1
+      "minecraft:carrots": 7,
+      "minecraft:pink_petals": 1
     },
     "minecraft:killed_by": {
       "minecraft:player": 1,
@@ -53,11 +58,13 @@
       "minecraft:cooked_beef": 6,
       "minecraft:piglin_head": 1,
       "minecraft:bone_meal": 6,
-      "minecraft:carrot": 1,
+      "minecraft:carrot": 11,
       "minecraft:rooted_dirt": 1,
       "minecraft:lantern": 17,
+      "minecraft:egg": 2,
       "minecraft:diamond_sword": 21,
       "minecraft:torch": 4,
+      "minecraft:diamond_shovel": 3,
       "minecraft:bow": 3,
       "minecraft:cherry_sapling": 1
     },
