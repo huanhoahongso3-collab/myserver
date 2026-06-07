@@ -14,7 +14,7 @@ jobs:
         with:
           token: ${{ secrets.FINE_GRAINED_PAT }}
           ref: playit-only
-          fetch-depth: 0 # Essential for force pushing history
+          # fetch-depth: 0 # Essential for force pushing history
 
       - name: Set up Java
         uses: actions/setup-java@v4
