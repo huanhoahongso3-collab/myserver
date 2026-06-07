@@ -106,11 +106,11 @@ gameplay:
   # Force clients to load all resource packs if there are any.
   # If set to false, it allows the user to connect to the server even if they don't
   # want to download the resource packs.
-  force-resource-packs: true
+  force-resource-packs: false
 
   # Whether to automatically serve a resource pack that is required for some Geyser features to all connecting Bedrock players.
   # If enabled, force-resource-packs will be enabled.
-  enable-integrated-pack: true
+  enable-integrated-pack: false
 
   # Whether to forward player ping to the server. While enabling this will allow Bedrock players to have more accurate
   # ping, it may also cause players to time out more easily.
@@ -188,7 +188,7 @@ advanced:
     # 1) Your Java server supports HAPROXY protocol (it probably doesn't)
     # 2) You run Velocity or BungeeCord with the option enabled in the proxy's main config.
     # IF YOU DON'T KNOW WHAT THIS IS, DON'T TOUCH IT!
-    use-haproxy-protocol: true
+    use-haproxy-protocol: false
 
     # Whether to connect directly into the Java server without creating a TCP connection.
     # This should only be disabled if a plugin that interfaces with packets or the network does not work correctly with Geyser.
@@ -215,7 +215,7 @@ advanced:
     # Whether to expect HAPROXY protocol for connecting Bedrock clients.
     # This is useful only when you are running a UDP reverse proxy in front of your Geyser instance.
     # IF YOU DON'T KNOW WHAT THIS IS, DON'T TOUCH IT!
-    use-haproxy-protocol: true
+    use-haproxy-protocol: false
 
     # A list of allowed HAPROXY protocol speaking proxy IP addresses/subnets. Only effective when "use-proxy-protocol" is enabled, and
     # should really only be used when you are not able to use a proper firewall (usually true with shared hosting providers etc.).
