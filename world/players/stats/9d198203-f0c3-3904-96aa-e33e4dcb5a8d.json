@@ -1,44 +1,48 @@
 {
   "stats": {
     "minecraft:custom": {
-      "minecraft:time_since_rest": 2686,
-      "minecraft:walk_one_cm": 175336,
+      "minecraft:time_since_rest": 8686,
+      "minecraft:walk_one_cm": 211548,
       "minecraft:leave_game": 5,
       "minecraft:mob_kills": 3,
-      "minecraft:damage_taken": 1847,
+      "minecraft:damage_taken": 1897,
+      "minecraft:play_time": 48315,
       "minecraft:damage_dealt": 896,
-      "minecraft:play_time": 42315,
-      "minecraft:jump": 185,
-      "minecraft:time_since_death": 24009,
-      "minecraft:drop": 5,
+      "minecraft:jump": 199,
+      "minecraft:time_since_death": 30009,
+      "minecraft:drop": 6,
       "minecraft:bell_ring": 1,
       "minecraft:interact_with_furnace": 1,
-      "minecraft:sprint_one_cm": 5123,
-      "minecraft:open_chest": 12,
+      "minecraft:sprint_one_cm": 5343,
+      "minecraft:open_chest": 13,
       "minecraft:sleep_in_bed": 2,
       "minecraft:fall_one_cm": 2675,
-      "minecraft:total_world_time": 42315,
-      "minecraft:fly_one_cm": 688,
+      "minecraft:total_world_time": 48315,
+      "minecraft:fly_one_cm": 832,
       "minecraft:crouch_one_cm": 876,
       "minecraft:sneak_time": 520,
-      "minecraft:climb_one_cm": 8125,
+      "minecraft:climb_one_cm": 8181,
       "minecraft:deaths": 5,
       "minecraft:player_kills": 5,
       "minecraft:interact_with_loom": 1
     },
     "minecraft:picked_up": {
-      "minecraft:egg": 1,
+      "minecraft:egg": 2,
+      "minecraft:carrot": 5,
       "minecraft:salmon": 64,
       "minecraft:bone": 192,
+      "minecraft:torch": 1,
       "minecraft:gold_nugget": 1,
       "minecraft:rotten_flesh": 1
     },
     "minecraft:dropped": {
+      "minecraft:gold_nugget": 1,
       "minecraft:salmon": 64,
       "minecraft:bone": 192
     },
     "minecraft:mined": {
-      "minecraft:fire": 1
+      "minecraft:fire": 1,
+      "minecraft:carrots": 1
     },
     "minecraft:killed_by": {
       "minecraft:player": 1,
@@ -47,11 +51,13 @@
     },
     "minecraft:used": {
       "minecraft:cooked_beef": 6,
+      "minecraft:piglin_head": 1,
       "minecraft:bone_meal": 6,
+      "minecraft:carrot": 1,
       "minecraft:rooted_dirt": 1,
-      "minecraft:lantern": 4,
-      "minecraft:diamond_sword": 20,
-      "minecraft:torch": 3,
+      "minecraft:lantern": 17,
+      "minecraft:diamond_sword": 21,
+      "minecraft:torch": 4,
       "minecraft:bow": 3,
       "minecraft:cherry_sapling": 1
     },
