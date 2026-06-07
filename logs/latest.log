@@ -1,188 +1,214 @@
-[03:11:41] [ServerMain/INFO]: [bootstrap] Running Java 26 (OpenJDK 64-Bit Server VM 26.0.1+8; Eclipse Adoptium Temurin-26.0.1+8) on Linux 6.17.0-1015-azure (amd64)
-[03:11:41] [ServerMain/INFO]: [bootstrap] Loading Paper 26.1.2-69-main@76d2ac7 (2026-06-03T17:32:02Z) for Minecraft 26.1.2
-[03:11:42] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[03:11:43] [ServerMain/INFO]: [PluginInitializerManager] Initialized 27 plugins
-[03:11:43] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[03:18:08] [ServerMain/INFO]: [bootstrap] Running Java 26 (OpenJDK 64-Bit Server VM 26.0.1+8; Eclipse Adoptium Temurin-26.0.1+8) on Linux 6.17.0-1015-azure (amd64)
+[03:18:08] [ServerMain/INFO]: [bootstrap] Loading Paper 26.1.2-69-main@76d2ac7 (2026-06-03T17:32:02Z) for Minecraft 26.1.2
+[03:18:08] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[03:18:08] [ServerMain/INFO]: [PluginInitializerManager] Initialized 27 plugins
+[03:18:08] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - SmartSpawner (1.6.7)
-[03:11:43] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (26):
+[03:18:08] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (26):
  - AxGraves (1.28.1), Brutal_Nightmare_-_Insane_Difficulty (6.1), Clumps (5.0), DeathBack (1.0), DirectionHUD (1.8.2.0+1.20-1.21.8), FokusAPI (4.4), FreezeHibernate (1.0), Geyser-Spigot (2.10.0-SNAPSHOT), HoloMobHealth (2026.1.1.0), ImageFrame (2026.1.2.0), JustTPA (20250220c), LagFixer (1.6.1 [build 143]), LuckPerms (5.5.53), Not-Too-Expensive (1.1), OpenInv (5.3.2), ProtocolLib (5.5.0-SNAPSHOT-b723ff3), Reactify (1.4.b1), SetHomePlugin (1.0.0), SkinsRestorer (15.12.2), SleepVote (1.0.0), TabListPing (2.03), TradeCycle (2.0.1), ViaBackwards (5.9.1), ViaRewind (4.1.1), ViaVersion (5.9.1), ViaVersionStatus (4.01)
-[03:11:47] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[03:11:50] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/parched@minecraft:loot_table}.pools[2].entries[0]: Missing element more_mob_heads:entities/parched of type minecraft:loot_table
-[03:11:50] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/wither@minecraft:loot_table}.pools[0].entries[0]: Missing element incendium:artifact/patron/warping_witherblade of type minecraft:loot_table
-[03:11:50] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/husk@minecraft:loot_table}.pools[2].entries[0]: Missing element more_mob_heads:entities/husk of type minecraft:loot_table
-[03:11:50] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/camel_husk@minecraft:loot_table}.pools[2].entries[0]: Missing element more_mob_heads:entities/camel_husk of type minecraft:loot_table
-[03:11:51] [ServerMain/INFO]: Loaded 2035 recipes
-[03:11:51] [ServerMain/INFO]: Loaded 2107 advancements
-[03:11:51] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[03:11:51] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 261.1ms
-[03:11:51] [Server thread/INFO]: Starting minecraft server version 26.1.2
-[03:11:51] [Server thread/INFO]: Loading properties
-[03:11:51] [Server thread/INFO]: This server is running Paper version 26.1.2-69-main@76d2ac7 (2026-06-03T17:32:02Z) (Implementing API version 26.1.2.build.69-stable)
-[03:11:51] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[03:11:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[03:11:51] [Server thread/INFO]: Using 4 threads for Netty based IO
-[03:11:52] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[03:11:52] [Server thread/INFO]: Default game type: SURVIVAL
-[03:11:52] [Server thread/INFO]: Generating keypair
-[03:11:52] [Server thread/INFO]: Starting Minecraft server on *:5610
-[03:11:52] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[03:11:52] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[03:11:53] [Server thread/INFO]: [SpigotLibraryLoader] [OpenInv] Loading 1 libraries... please wait
-[03:11:53] [Server thread/INFO]: [SpigotLibraryLoader] [OpenInv] Loaded library /home/runner/work/myserver/myserver/libraries/org/xerial/sqlite-jdbc/3.49.1.0/sqlite-jdbc-3.49.1.0.jar
-[03:11:53] [Server thread/INFO]: [SpigotLibraryLoader] [DirectionHUD] Loading 1 libraries... please wait
-[03:11:53] [Server thread/INFO]: [SpigotLibraryLoader] [DirectionHUD] Loaded library /home/runner/work/myserver/myserver/libraries/org/apache/commons/commons-configuration2/2.11.0/commons-configuration2-2.11.0.jar
-[03:11:53] [Server thread/INFO]: [SpigotLibraryLoader] [DirectionHUD] Loaded library /home/runner/work/myserver/myserver/libraries/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar
-[03:11:53] [Server thread/INFO]: [SpigotLibraryLoader] [DirectionHUD] Loaded library /home/runner/work/myserver/myserver/libraries/org/apache/commons/commons-text/1.12.0/commons-text-1.12.0.jar
-[03:11:53] [Server thread/INFO]: [SpigotLibraryLoader] [DirectionHUD] Loaded library /home/runner/work/myserver/myserver/libraries/commons-logging/commons-logging/1.3.2/commons-logging-1.3.2.jar
-[03:11:53] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loading 1 libraries... please wait
-[03:11:53] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /home/runner/work/myserver/myserver/libraries/com/github/oshi/oshi-core/7.2.0/oshi-core-7.2.0.jar
-[03:11:53] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /home/runner/work/myserver/myserver/libraries/com/github/oshi/oshi-common/7.2.0/oshi-common-7.2.0.jar
-[03:11:53] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /home/runner/work/myserver/myserver/libraries/net/java/dev/jna/jna-jpms/5.18.1/jna-jpms-5.18.1.jar
-[03:11:53] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /home/runner/work/myserver/myserver/libraries/net/java/dev/jna/jna-platform-jpms/5.18.1/jna-platform-jpms-5.18.1.jar
-[03:11:53] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /home/runner/work/myserver/myserver/libraries/org/slf4j/slf4j-api/2.0.18/slf4j-api-2.0.18.jar
-[03:11:53] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.9.1
-[03:11:53] [Server thread/INFO]: [ViaVersion] ViaVersion 5.9.1 is now loaded. Registering protocol transformers and injecting...
-[03:11:53] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
-[03:11:54] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[03:11:54] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[03:11:54] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[03:11:54] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.9.1
-[03:11:54] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.5.0-SNAPSHOT-b723ff3
-[03:11:54] [Server thread/WARN]: [ProtocolLib] Version (MC: 26.1.2) has not yet been tested! Proceed with caution.
-[03:11:54] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.10.0-SNAPSHOT
-[03:11:54] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[03:11:54] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[03:11:54] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.1.1
-[03:11:54] [Server thread/INFO]: [JustTPA] Loading server plugin JustTPA v20250220c
-[03:11:54] [Server thread/INFO]: [SleepVote] Loading server plugin SleepVote v1.0.0
-[03:11:54] [Server thread/INFO]: [SetHomePlugin] Loading server plugin SetHomePlugin v1.0.0
-[03:11:54] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.53
-[03:11:55] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[03:11:55] [Server thread/INFO]: [Brutal_Nightmare_-_Insane_Difficulty] Loading server plugin Brutal_Nightmare_-_Insane_Difficulty v6.1
-[03:11:55] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v2026.1.2.0
-[03:11:55] [Server thread/INFO]: [Not-Too-Expensive] Loading server plugin Not-Too-Expensive v1.1
-[03:11:55] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.2
-[03:11:55] [Server thread/INFO]: [AxGraves] Loading server plugin AxGraves v1.28.1
-[03:11:55] [Server thread/INFO]: [HoloMobHealth] Loading server plugin HoloMobHealth v2026.1.1.0
-[03:11:55] [Server thread/INFO]: [FokusAPI] Loading server plugin FokusAPI v4.4
-[03:11:55] [Server thread/INFO]: [TabListPing] Loading server plugin TabListPing v2.03
-[03:11:55] [Server thread/INFO]: [DeathBack] Loading server plugin DeathBack v1.0
-[03:11:55] [Server thread/INFO]: [SmartSpawner] Loading server plugin SmartSpawner v1.6.7
-[03:11:55] [Server thread/INFO]: [ViaVersionStatus] Loading server plugin ViaVersionStatus v4.01
-[03:11:55] [Server thread/INFO]: [OpenInv] Loading server plugin OpenInv v5.3.2
-[03:11:55] [Server thread/INFO]: [DirectionHUD] Loading server plugin DirectionHUD v1.8.2.0+1.20-1.21.8
-[03:11:55] [Server thread/INFO]: [TradeCycle] Loading server plugin TradeCycle v2.0.1
-[03:11:55] [Server thread/INFO]: [Reactify] Loading server plugin Reactify v1.4.b1
-[03:11:55] [Server thread/INFO]: [FreezeHibernate] Loading server plugin FreezeHibernate v1.0
-[03:11:55] [Server thread/INFO]: [Clumps] Loading server plugin Clumps v5.0
-[03:11:55] [Server thread/INFO]: [[38;5;11m⚡[0m] Loading server plugin LagFixer v1.6.1 [build 143]
-[03:11:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[03:11:55] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.5.0-SNAPSHOT-b723ff3
-[03:11:55] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.1.1
-[03:11:55] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.53
-[03:11:55] [Server thread/INFO]:         __    
-[03:11:55] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.53
-[03:11:55] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[03:11:55] [Server thread/INFO]: 
-[03:11:55] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[03:11:55] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[03:11:56] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[03:11:56] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1014ms)
-[03:11:56] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.2
-[03:11:56] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 26.1.2.
-[03:11:57] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[03:11:57] [Server thread/INFO]: [Clumps] Enabling Clumps v5.0
-[03:11:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:11:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:11:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03:11:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:11:57] [Server thread/INFO]: Preparing level "world"
-[03:11:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[03:11:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
-[03:11:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer   |
-[03:11:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |-------------------|
-[03:11:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode  |
-[03:11:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
-[03:11:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[03:11:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.12.2
-[03:11:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 5872d07
-[03:11:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[03:11:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[03:11:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[03:11:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
-[03:11:58] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
-[03:11:58] [Server thread/INFO]: Preparing spawn area: 100%
-[03:11:58] [Server thread/INFO]: Prepared spawn area in 1 ms
-[03:11:58] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
-[03:11:58] [Server thread/INFO]: Prepared spawn area in 2 ms
-[03:11:58] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
-[03:11:58] [Server thread/INFO]: Prepared spawn area in 0 ms
-[03:11:58] [Server thread/INFO]: Done preparing level "world" (0.680s)
-[03:11:58] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.9.1
-[03:11:58] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.1-26.1.2 (775)
-[03:11:58] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.9.1
-[03:11:58] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.10.0-SNAPSHOT
-[03:11:59] [Server thread/INFO]: [JustTPA] Enabling JustTPA v20250220c
-[03:11:59] [Server thread/INFO]: [JustTPA] JustTPA initialized
-[03:11:59] [Server thread/INFO]: [JustTPA] bStats enabled
-[03:11:59] [Server thread/INFO]: [JustTPA] Checking for updates...
-[03:11:59] [Server thread/INFO]: [SleepVote] Enabling SleepVote v1.0.0
-[03:11:59] [Server thread/INFO]: [SleepVote] SleepVote has been enabled.
-[03:11:59] [Server thread/INFO]: [SetHomePlugin] Enabling SetHomePlugin v1.0.0
-[03:11:59] [Server thread/INFO]: [SetHomePlugin] SetHomePlugin enabled con sistema de permisos dinámicos
-[03:11:59] [Server thread/INFO]: [Brutal_Nightmare_-_Insane_Difficulty] Enabling Brutal_Nightmare_-_Insane_Difficulty v6.1
-[03:11:59] [Server thread/INFO]: [Brutal_Nightmare_-_Insane_Difficulty] DatapackDownloader Plugin Enabled!
-[03:11:59] [Server thread/INFO]: [Brutal_Nightmare_-_Insane_Difficulty] Datapack already exists. Skipping download.
-[03:11:59] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v2026.1.2.0
-[03:11:59] [Server thread/INFO]: [ImageFrame] ImageFrame has hooked into ViaVersion!
-[03:12:02] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_static
-[03:12:02] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_animated
-[03:12:02] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_static_overlay
-[03:12:02] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:non_updatable_static
-[03:12:02] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:gif_reader to ImageMapLoader imageframe:url_animated
-[03:12:02] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:imageio to ImageMapLoader imageframe:url_static
-[03:12:02] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:imageio to ImageMapLoader imageframe:url_static_overlay
-[03:12:02] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
-[03:12:02] [Server thread/INFO]: [Not-Too-Expensive] Enabling Not-Too-Expensive v1.1
-[03:12:02] [Server thread/INFO]: [AxGraves] Enabling AxGraves v1.28.1
-[03:12:03] [Server thread/INFO]: [HoloMobHealth] Enabling HoloMobHealth v2026.1.1.0
-[03:12:06] [Server thread/INFO]: [HoloMobHealth] No custom ProtocolProvider provided, using default ProtocolLib provider.
-[03:12:07] [Server thread/INFO]: [HoloMobHealth] Loading languages...
-[03:12:07] [Server thread/INFO]: [HoloMobHealth] Opened Sqlite database successfully
-[03:12:07] [Server thread/INFO]: [HoloMobHealth] HoloMobHealth has been Enabled!
-[03:12:07] [Server thread/INFO]: [FokusAPI] Enabling FokusAPI v4.4
-[03:12:07] [Server thread/INFO]: [FokusAPI] DatapackDownloader Plugin Enabled!
-[03:12:07] [Server thread/INFO]: [FokusAPI] Datapack already exists. Skipping download.
-[03:12:07] [Server thread/INFO]: [TabListPing] Enabling TabListPing v2.03
-[03:12:07] [Server thread/INFO]: [TabListPing] Detected 26.1.2.build.69, using net.minecraft.network.protocol.common.ClientboundKeepAlivePacket & net.minecraft.network.protocol.common.ServerboundKeepAlivePacket
-[03:12:07] [Server thread/INFO]: [TabListPing] Metrics enabled if allowed by plugins/bStats/config.yml
-[03:12:07] [Server thread/INFO]: [DeathBack] Enabling DeathBack v1.0
-[03:12:07] [Server thread/INFO]: [DeathBack] Plugin loaded!
-[03:12:07] [Server thread/INFO]: [DeathBack] 
-[03:12:07] [Server thread/INFO]: [DeathBack] DeathBack
-[03:12:07] [Server thread/INFO]: [DeathBack] Made by p1xEL_mc
-[03:12:07] [Server thread/INFO]: [DeathBack] Thanks for using!
-[03:12:07] [Server thread/INFO]: [DeathBack] 
-[03:12:07] [Server thread/INFO]: [SmartSpawner] Enabling SmartSpawner v1.6.7
-[03:12:07] [Server thread/INFO]: [SmartSpawner] Server supports DataComponent API (Paper 1.21.5+)
-[03:12:07] [Server thread/INFO]: [SmartSpawner] Running on standard Paper server.
-[03:12:07] [Server thread/WARN]: [SmartSpawner] Vault not found! Selling items from spawner will be disabled.
-[03:12:07] [Server thread/INFO]: [SmartSpawner] No compatible shop plugins found. Shop integration is disabled.
-[03:12:07] [Server thread/INFO]: [SmartSpawner] Using YAML file storage mode.
-[03:12:07] [Server thread/INFO]: [SmartSpawner] Initial spawner load complete. Loaded: 0, Pending (missing worlds): 0
-[03:12:07] [Server thread/INFO]: [SmartSpawner] SmartSpawner has been enabled! (Loaded in 247ms)
-[03:12:07] [Server thread/INFO]: [ViaVersionStatus] Enabling ViaVersionStatus v4.01
-[03:12:07] [Server thread/INFO]: [ViaVersionStatus] Metrics enabled if allowed by plugins/bStats/config.yml
-[03:12:07] [Server thread/INFO]: [OpenInv] Enabling OpenInv v5.3.2
-[03:12:07] [Server thread/INFO]: [DirectionHUD] Enabling DirectionHUD v1.8.2.0+1.20-1.21.8
-[03:12:07] [Server thread/INFO]: [DirectionHUD] Started server!
-[03:12:07] [Server thread/INFO]: [TradeCycle] Enabling TradeCycle v2.0.1
-[03:12:07] [Server thread/INFO]: [Reactify] Enabling Reactify v1.4.b1
-[03:12:07] [Server thread/INFO]: [Reactify] DatapackDownloader Plugin Enabled!
-[03:12:07] [Server thread/INFO]: [Reactify] Datapack already exists. Skipping download.
-[03:12:07] [Server thread/INFO]: [FreezeHibernate] Enabling FreezeHibernate v1.0
-[03:12:07] [Server thread/INFO]: [[38;5;11m⚡[0m] Enabling LagFixer v1.6.1 [build 143]
-[03:12:07] [Server thread/INFO]: [[38;5;11m⚡[0m] 
+[03:18:13] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[03:18:13] [ServerMain/WARN]: Error reading pack metadata, attempting fallback type
+com.google.gson.JsonParseException: Pack declared support for versions 16 to 81 but declared main format is 15
+	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-9.0.19.jar:?]
+	at net.minecraft.server.packs.resources.ResourceMetadata$2.getSection(ResourceMetadata.java:38) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.packs.AbstractPackResources.getMetadataSection(AbstractPackResources.java:24) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.packs.repository.Pack.readPackMetadata(Pack.java:51) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.packs.repository.Pack.readMetaAndCreate(Pack.java:32) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.packs.repository.FolderRepositorySource.lambda$loadPacks$0(FolderRepositorySource.java:54) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.packs.repository.FolderRepositorySource.discoverPacks(FolderRepositorySource.java:80) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.packs.repository.FolderRepositorySource.loadPacks(FolderRepositorySource.java:52) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.packs.repository.PackRepository.discoverAvailable(PackRepository.java:52) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.packs.repository.PackRepository.reload(PackRepository.java:44) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.MinecraftServer.configurePackRepository(MinecraftServer.java:2379) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.WorldLoader$PackConfig.createResourceManager(WorldLoader.java:107) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789) ~[?:?]
+	at net.minecraft.util.Util.blockUntilDone(Util.java:1094) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.util.Util.blockUntilDone(Util.java:1083) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at net.minecraft.server.Main.main(Main.java:246) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at org.bukkit.craftbukkit.Main.main(Main.java:204) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1516) ~[?:?]
+[03:18:13] [ServerMain/WARN]: Missing data pack file/Cherry_Village-common-26.1-unspecified.zip
+[03:18:13] [ServerMain/INFO]: Found new data pack file/Cherry Grove VIllages - 1.20.x - 1.21.x.zip, loading it automatically
+[03:18:16] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/parched@minecraft:loot_table}.pools[2].entries[0]: Missing element more_mob_heads:entities/parched of type minecraft:loot_table
+[03:18:16] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/wither@minecraft:loot_table}.pools[0].entries[0]: Missing element incendium:artifact/patron/warping_witherblade of type minecraft:loot_table
+[03:18:16] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/husk@minecraft:loot_table}.pools[2].entries[0]: Missing element more_mob_heads:entities/husk of type minecraft:loot_table
+[03:18:16] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/camel_husk@minecraft:loot_table}.pools[2].entries[0]: Missing element more_mob_heads:entities/camel_husk of type minecraft:loot_table
+[03:18:17] [ServerMain/INFO]: Loaded 2035 recipes
+[03:18:17] [ServerMain/INFO]: Loaded 2107 advancements
+[03:18:17] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[03:18:17] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 317.5ms
+[03:18:17] [Server thread/INFO]: Starting minecraft server version 26.1.2
+[03:18:17] [Server thread/INFO]: Loading properties
+[03:18:17] [Server thread/INFO]: This server is running Paper version 26.1.2-69-main@76d2ac7 (2026-06-03T17:32:02Z) (Implementing API version 26.1.2.build.69-stable)
+[03:18:17] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[03:18:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:18:17] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:18:17] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[03:18:18] [Server thread/INFO]: Default game type: SURVIVAL
+[03:18:18] [Server thread/INFO]: Generating keypair
+[03:18:18] [Server thread/INFO]: Starting Minecraft server on *:5610
+[03:18:18] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[03:18:18] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[03:18:19] [Server thread/INFO]: [SpigotLibraryLoader] [OpenInv] Loading 1 libraries... please wait
+[03:18:19] [Server thread/INFO]: [SpigotLibraryLoader] [OpenInv] Loaded library /home/runner/work/myserver/myserver/libraries/org/xerial/sqlite-jdbc/3.49.1.0/sqlite-jdbc-3.49.1.0.jar
+[03:18:19] [Server thread/INFO]: [SpigotLibraryLoader] [DirectionHUD] Loading 1 libraries... please wait
+[03:18:19] [Server thread/INFO]: [SpigotLibraryLoader] [DirectionHUD] Loaded library /home/runner/work/myserver/myserver/libraries/org/apache/commons/commons-configuration2/2.11.0/commons-configuration2-2.11.0.jar
+[03:18:19] [Server thread/INFO]: [SpigotLibraryLoader] [DirectionHUD] Loaded library /home/runner/work/myserver/myserver/libraries/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar
+[03:18:19] [Server thread/INFO]: [SpigotLibraryLoader] [DirectionHUD] Loaded library /home/runner/work/myserver/myserver/libraries/org/apache/commons/commons-text/1.12.0/commons-text-1.12.0.jar
+[03:18:19] [Server thread/INFO]: [SpigotLibraryLoader] [DirectionHUD] Loaded library /home/runner/work/myserver/myserver/libraries/commons-logging/commons-logging/1.3.2/commons-logging-1.3.2.jar
+[03:18:19] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loading 1 libraries... please wait
+[03:18:19] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /home/runner/work/myserver/myserver/libraries/com/github/oshi/oshi-core/7.2.0/oshi-core-7.2.0.jar
+[03:18:19] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /home/runner/work/myserver/myserver/libraries/com/github/oshi/oshi-common/7.2.0/oshi-common-7.2.0.jar
+[03:18:19] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /home/runner/work/myserver/myserver/libraries/net/java/dev/jna/jna-jpms/5.18.1/jna-jpms-5.18.1.jar
+[03:18:19] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /home/runner/work/myserver/myserver/libraries/net/java/dev/jna/jna-platform-jpms/5.18.1/jna-platform-jpms-5.18.1.jar
+[03:18:19] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /home/runner/work/myserver/myserver/libraries/org/slf4j/slf4j-api/2.0.18/slf4j-api-2.0.18.jar
+[03:18:19] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.9.1
+[03:18:19] [Server thread/INFO]: [ViaVersion] ViaVersion 5.9.1 is now loaded. Registering protocol transformers and injecting...
+[03:18:19] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[03:18:20] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[03:18:20] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[03:18:20] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[03:18:20] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.9.1
+[03:18:20] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.5.0-SNAPSHOT-b723ff3
+[03:18:20] [Server thread/WARN]: [ProtocolLib] Version (MC: 26.1.2) has not yet been tested! Proceed with caution.
+[03:18:20] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.10.0-SNAPSHOT
+[03:18:21] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[03:18:21] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[03:18:21] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.1.1
+[03:18:21] [Server thread/INFO]: [JustTPA] Loading server plugin JustTPA v20250220c
+[03:18:21] [Server thread/INFO]: [SleepVote] Loading server plugin SleepVote v1.0.0
+[03:18:21] [Server thread/INFO]: [SetHomePlugin] Loading server plugin SetHomePlugin v1.0.0
+[03:18:21] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.53
+[03:18:21] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[03:18:21] [Server thread/INFO]: [Brutal_Nightmare_-_Insane_Difficulty] Loading server plugin Brutal_Nightmare_-_Insane_Difficulty v6.1
+[03:18:21] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v2026.1.2.0
+[03:18:21] [Server thread/INFO]: [Not-Too-Expensive] Loading server plugin Not-Too-Expensive v1.1
+[03:18:21] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.2
+[03:18:21] [Server thread/INFO]: [AxGraves] Loading server plugin AxGraves v1.28.1
+[03:18:21] [Server thread/INFO]: [HoloMobHealth] Loading server plugin HoloMobHealth v2026.1.1.0
+[03:18:21] [Server thread/INFO]: [FokusAPI] Loading server plugin FokusAPI v4.4
+[03:18:21] [Server thread/INFO]: [TabListPing] Loading server plugin TabListPing v2.03
+[03:18:21] [Server thread/INFO]: [DeathBack] Loading server plugin DeathBack v1.0
+[03:18:21] [Server thread/INFO]: [SmartSpawner] Loading server plugin SmartSpawner v1.6.7
+[03:18:21] [Server thread/INFO]: [ViaVersionStatus] Loading server plugin ViaVersionStatus v4.01
+[03:18:21] [Server thread/INFO]: [OpenInv] Loading server plugin OpenInv v5.3.2
+[03:18:21] [Server thread/INFO]: [DirectionHUD] Loading server plugin DirectionHUD v1.8.2.0+1.20-1.21.8
+[03:18:21] [Server thread/INFO]: [TradeCycle] Loading server plugin TradeCycle v2.0.1
+[03:18:21] [Server thread/INFO]: [Reactify] Loading server plugin Reactify v1.4.b1
+[03:18:21] [Server thread/INFO]: [FreezeHibernate] Loading server plugin FreezeHibernate v1.0
+[03:18:21] [Server thread/INFO]: [Clumps] Loading server plugin Clumps v5.0
+[03:18:21] [Server thread/INFO]: [[38;5;11m⚡[0m] Loading server plugin LagFixer v1.6.1 [build 143]
+[03:18:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:18:21] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.5.0-SNAPSHOT-b723ff3
+[03:18:21] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.1.1
+[03:18:21] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.53
+[03:18:21] [Server thread/INFO]:         __    
+[03:18:21] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.53
+[03:18:21] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[03:18:21] [Server thread/INFO]: 
+[03:18:22] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[03:18:22] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[03:18:22] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[03:18:22] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1114ms)
+[03:18:22] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.2
+[03:18:23] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 26.1.2.
+[03:18:23] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[03:18:23] [Server thread/INFO]: [Clumps] Enabling Clumps v5.0
+[03:18:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:18:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:18:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:18:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:18:23] [Server thread/INFO]: Preparing level "world"
+[03:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[03:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[03:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer   |
+[03:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |-------------------|
+[03:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode  |
+[03:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[03:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[03:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.12.2
+[03:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 5872d07
+[03:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[03:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[03:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[03:18:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
+[03:18:25] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[03:18:25] [Server thread/INFO]: Preparing spawn area: 100%
+[03:18:25] [Server thread/INFO]: Prepared spawn area in 1 ms
+[03:18:25] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[03:18:25] [Server thread/INFO]: Preparing spawn area: 100%
+[03:18:25] [Server thread/INFO]: Prepared spawn area in 1 ms
+[03:18:25] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[03:18:25] [Server thread/INFO]: Preparing spawn area: 100%
+[03:18:25] [Server thread/INFO]: Prepared spawn area in 1 ms
+[03:18:25] [Server thread/INFO]: Done preparing level "world" (1.135s)
+[03:18:25] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.9.1
+[03:18:25] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.1-26.1.2 (775)
+[03:18:25] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.9.1
+[03:18:25] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.10.0-SNAPSHOT
+[03:18:26] [Server thread/INFO]: [JustTPA] Enabling JustTPA v20250220c
+[03:18:26] [Server thread/INFO]: [JustTPA] JustTPA initialized
+[03:18:26] [Server thread/INFO]: [JustTPA] bStats enabled
+[03:18:26] [Server thread/INFO]: [JustTPA] Checking for updates...
+[03:18:26] [Server thread/INFO]: [SleepVote] Enabling SleepVote v1.0.0
+[03:18:26] [Server thread/INFO]: [SleepVote] SleepVote has been enabled.
+[03:18:26] [Server thread/INFO]: [SetHomePlugin] Enabling SetHomePlugin v1.0.0
+[03:18:26] [Server thread/INFO]: [SetHomePlugin] SetHomePlugin enabled con sistema de permisos dinámicos
+[03:18:26] [Server thread/INFO]: [Brutal_Nightmare_-_Insane_Difficulty] Enabling Brutal_Nightmare_-_Insane_Difficulty v6.1
+[03:18:26] [Server thread/INFO]: [Brutal_Nightmare_-_Insane_Difficulty] DatapackDownloader Plugin Enabled!
+[03:18:26] [Server thread/INFO]: [Brutal_Nightmare_-_Insane_Difficulty] Datapack already exists. Skipping download.
+[03:18:26] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v2026.1.2.0
+[03:18:26] [Server thread/INFO]: [ImageFrame] ImageFrame has hooked into ViaVersion!
+[03:18:29] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_static
+[03:18:29] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_animated
+[03:18:29] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_static_overlay
+[03:18:29] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:non_updatable_static
+[03:18:29] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:gif_reader to ImageMapLoader imageframe:url_animated
+[03:18:29] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:imageio to ImageMapLoader imageframe:url_static
+[03:18:29] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:imageio to ImageMapLoader imageframe:url_static_overlay
+[03:18:29] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
+[03:18:29] [Server thread/INFO]: [Not-Too-Expensive] Enabling Not-Too-Expensive v1.1
+[03:18:29] [Server thread/INFO]: [AxGraves] Enabling AxGraves v1.28.1
+[03:18:30] [Server thread/INFO]: [HoloMobHealth] Enabling HoloMobHealth v2026.1.1.0
+[03:18:32] [Server thread/INFO]: [HoloMobHealth] No custom ProtocolProvider provided, using default ProtocolLib provider.
+[03:18:33] [Server thread/INFO]: [HoloMobHealth] Loading languages...
+[03:18:33] [Server thread/INFO]: [HoloMobHealth] Opened Sqlite database successfully
+[03:18:33] [Server thread/INFO]: [HoloMobHealth] HoloMobHealth has been Enabled!
+[03:18:33] [Server thread/INFO]: [FokusAPI] Enabling FokusAPI v4.4
+[03:18:33] [Server thread/INFO]: [FokusAPI] DatapackDownloader Plugin Enabled!
+[03:18:33] [Server thread/INFO]: [FokusAPI] Datapack already exists. Skipping download.
+[03:18:33] [Server thread/INFO]: [TabListPing] Enabling TabListPing v2.03
+[03:18:33] [Server thread/INFO]: [TabListPing] Detected 26.1.2.build.69, using net.minecraft.network.protocol.common.ClientboundKeepAlivePacket & net.minecraft.network.protocol.common.ServerboundKeepAlivePacket
+[03:18:33] [Server thread/INFO]: [TabListPing] Metrics enabled if allowed by plugins/bStats/config.yml
+[03:18:33] [Server thread/INFO]: [DeathBack] Enabling DeathBack v1.0
+[03:18:33] [Server thread/INFO]: [DeathBack] Plugin loaded!
+[03:18:33] [Server thread/INFO]: [DeathBack] 
+[03:18:33] [Server thread/INFO]: [DeathBack] DeathBack
+[03:18:33] [Server thread/INFO]: [DeathBack] Made by p1xEL_mc
+[03:18:33] [Server thread/INFO]: [DeathBack] Thanks for using!
+[03:18:33] [Server thread/INFO]: [DeathBack] 
+[03:18:33] [Server thread/INFO]: [SmartSpawner] Enabling SmartSpawner v1.6.7
+[03:18:33] [Server thread/INFO]: [SmartSpawner] Server supports DataComponent API (Paper 1.21.5+)
+[03:18:34] [Server thread/INFO]: [SmartSpawner] Running on standard Paper server.
+[03:18:34] [Server thread/WARN]: [SmartSpawner] Vault not found! Selling items from spawner will be disabled.
+[03:18:34] [Server thread/INFO]: [SmartSpawner] No compatible shop plugins found. Shop integration is disabled.
+[03:18:34] [Server thread/INFO]: [SmartSpawner] Using YAML file storage mode.
+[03:18:34] [Server thread/INFO]: [SmartSpawner] Initial spawner load complete. Loaded: 0, Pending (missing worlds): 0
+[03:18:34] [Server thread/INFO]: [SmartSpawner] SmartSpawner has been enabled! (Loaded in 239ms)
+[03:18:34] [Server thread/INFO]: [ViaVersionStatus] Enabling ViaVersionStatus v4.01
+[03:18:34] [Server thread/INFO]: [ViaVersionStatus] Metrics enabled if allowed by plugins/bStats/config.yml
+[03:18:34] [Server thread/INFO]: [OpenInv] Enabling OpenInv v5.3.2
+[03:18:34] [Server thread/INFO]: [DirectionHUD] Enabling DirectionHUD v1.8.2.0+1.20-1.21.8
+[03:18:34] [Server thread/INFO]: [DirectionHUD] Started server!
+[03:18:34] [Server thread/INFO]: [TradeCycle] Enabling TradeCycle v2.0.1
+[03:18:34] [Server thread/INFO]: [Reactify] Enabling Reactify v1.4.b1
+[03:18:34] [Server thread/INFO]: [Reactify] DatapackDownloader Plugin Enabled!
+[03:18:34] [Server thread/INFO]: [Reactify] Datapack already exists. Skipping download.
+[03:18:34] [Server thread/INFO]: [FreezeHibernate] Enabling FreezeHibernate v1.0
+[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] Enabling LagFixer v1.6.1 [build 143]
+[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] 
 
 LagFixer 1.6.1 [build 143] - Best Performance Solution!
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
@@ -196,367 +222,114 @@ LagFixer 1.6.1 [build 143] - Best Performance Solution!
 Remember to leave a rating! ★ ★ ★ ★ ★
 
 
-[03:12:07] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Enabling manager...
-[03:12:07] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Started listening console for LagFixer errors!
-[03:12:07] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Enabled manager in 1.855ms!
-[03:12:07] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Enabling manager...
-[03:12:07] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Enabled manager in 56.066ms!
-[03:12:07] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Enabling manager...
-[03:12:07] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Loaded fork support ~ xyz.lychee.lagfixer.support.PaperSupport
-[03:12:07] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Loaded nms support ~ xyz.lychee.lagfixer.nms.v26_1.SupportNms
-[03:12:07] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Enabled manager in 8.789ms!
-[03:12:07] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Enabling manager...
-[03:12:07] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Enabled manager in 0.045ms!
-[03:12:07] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Enabling manager...
-[03:12:07] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Enabled manager in 3.779ms!
-[03:12:07] [Server thread/INFO]: [[38;5;11m⚡[0m] (UpdaterManager) -> Enabling manager...
-[03:12:07] [Server thread/INFO]: [[38;5;11m⚡[0m] (UpdaterManager) -> Enabled manager in 6.537ms!
-[03:12:07] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[03:12:07] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Enabling manager...
-[03:12:07] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module RedstoneLimiter in 5.237ms!
-[03:12:07] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module InstantLeafDecay in 1.766ms!
-[03:12:07] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module WorldCleaner in 5.612ms!
-[03:12:07] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module LagShield in 5.039ms!
-[03:12:07] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module ExplosionOptimizer in 3.42ms!
-[03:12:08] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module ConsoleFilter in 2.851ms!
-[03:12:08] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module MobAiReducer in 17.202ms!
-[03:12:08] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module EntityLimiter in 3.571ms!
-[03:12:08] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module AbilityLimiter in 2.321ms!
-[03:12:08] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Enabled manager in 102.03ms!
-[03:12:08] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Enabling manager...
-[03:12:08] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Enabled manager in 42.156ms!
-[03:12:08] [Server thread/INFO]: [[38;5;11m⚡[0m] Remember to leave a rating! ★ ★ ★ ★ ★
-[03:12:08] [Server thread/INFO]: [[38;5;11m⚡[0m] ❤ Support us https://ko-fi.com/lajczik
-[03:12:08] [Server thread/INFO]: [spark] Starting background profiler...
-[03:12:08] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[03:12:08] [Server thread/INFO]: [Geyser-Spigot] 
-[03:12:08] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.10.0-b1162 (git-master-689f4d7)
-[03:12:08] [Server thread/INFO]: [Geyser-Spigot] 
-[03:12:08] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[03:12:11] [Server thread/WARN]: [Geyser-Spigot] Geyser is configured to use proxy protocol when connecting to the Java server.
-[03:12:11] [Server thread/WARN]: [Geyser-Spigot] If you do not know what this is, open the Geyser config, and set "use-haproxy-protocol" under the  "advanced/java" section to "false".
-[03:12:11] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 5610
-[03:12:11] [Server thread/INFO]: [Geyser-Spigot] Done (2.828s)! Run /geyser help for help!
-[03:12:11] [Server thread/INFO]: [FreezeHibernate] Server is frozen until a player joins.
-[03:12:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[03:12:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[03:12:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[03:12:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[03:12:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03:12:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[03:12:11] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[03:12:11] [Server thread/INFO]: Running delayed init tasks
-[03:12:11] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[03:12:11] [Server thread/INFO]: Done (30.341s)! For help, type "help"
-[03:12:11] [Craft Scheduler Thread - 8 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 0 ImageMaps!
-[03:12:11] [Craft Scheduler Thread - 0 - JustTPA/WARN]: [JustTPA] Failed to check for updates
-[03:12:13] [User Authenticator #0/INFO]: UUID of player FewerSteak1914 is edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8
-[03:12:13] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
-[03:12:13] [Craft Scheduler Thread - 6 - HoloMobHealth/INFO]: [HoloMobHealth] Loaded all 1 languages!
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] ViaVersion supported protocols:
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.7.2-1.7.5(4)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.7.6-1.7.10(5)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.8.x(47)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.9(107)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.9.1(108)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.9.2(109)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.9.3-1.9.4(110)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.10.x(210)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.11(315)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.11.1-1.11.2(316)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.12(335)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.12.1(338)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.12.2(340)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.13(393)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.13.1(401)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.13.2(404)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.14(477)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.14.1(480)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.14.2(485)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.14.3(490)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.14.4(498)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.15(573)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.15.1(575)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.15.2(578)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.16(735)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.16.1(736)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.16.2(751)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.16.3(753)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.16.4-1.16.5(754)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.17(755)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.17.1(756)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.18-1.18.1(757)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.18.2(758)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.19(759)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.19.1-1.19.2(760)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.19.3(761)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.19.4(762)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.20-1.20.1(763)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.20.2(764)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.20.3-1.20.4(765)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.20.5-1.20.6(766)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.21-1.21.1(767)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.21.2-1.21.3(768)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.21.4(769)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.21.5(770)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.21.6(771)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.21.7-1.21.8(772)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.21.9-1.21.10(773)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 1.21.11(774)
-[03:12:16] [Server thread/INFO]: [ViaVersionStatus] 26.1-26.1.2(775)
-[03:12:28] [Paper Common Worker #0/ERROR]: [ChunkTaskScheduler] Chunk system error at chunk (171,-635), holder: NewChunkHolder{world=minecraft:overworld, chunkX=171, chunkZ=-635, entityChunkFromDisk=false, lastChunkCompletion={chunk_class=net.minecraft.world.level.chunk.ProtoChunk,status=minecraft:carvers}, currentGenStatus=minecraft:carvers, requestedGenStatus=minecraft:full, generationTask=ChunkProgressionTask{class: ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask, for world: minecraft:overworld, chunk: (171,-635), hashcode: 1000281740, priority: COMPLETING, status: minecraft:features, scheduled: true}, generationTaskStatus=minecraft:features, priority=HIGH, priorityLocked=false, neighbourRequestedPriority=HIGH, effective_priority=HIGH, oldTicketLevel=33, currentTicketLevel=33, totalNeighboursUsingThisChunk=33, fullNeighbourChunksLoadedBitset=0, currentChunkStatus=INACCESSIBLE, pendingChunkStatus=INACCESSIBLE, is_unload_safe=ticket_level, killed=false}, exception:
-java.lang.Throwable: net.minecraft.ReportedException: Feature placement
-	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkTaskScheduler.unrecoverableChunkSystemFailure(ChunkTaskScheduler.java:304) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.NewChunkHolder.lambda$setGenerationTask$0(NewChunkHolder.java:1594) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkProgressionTask.complete0(ChunkProgressionTask.java:91) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkProgressionTask.complete(ChunkProgressionTask.java:74) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask.run(ChunkUpgradeGenericStatusTask.java:114) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at ca.spottedleaf.concurrentutil.executor.queue.AreaDependentQueue$QueuedTask.run(AreaDependentQueue.java:1154) ~[concurrentutil-0.0.10.jar:?]
-	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$OrderedStreamGroup$Queue.lambda$createTask$0(BalancedPrioritisedThreadPool.java:467) ~[concurrentutil-0.0.10.jar:?]
-	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue$PrioritisedQueuedTask.execute(PrioritisedTaskQueue.java:345) ~[concurrentutil-0.0.10.jar:?]
-	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$OrderedStreamGroup.executeTask(BalancedPrioritisedThreadPool.java:344) ~[concurrentutil-0.0.10.jar:?]
-	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$WorkerThread.pollTasks(BalancedPrioritisedThreadPool.java:630) ~[concurrentutil-0.0.10.jar:?]
-	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.mainLoop(QueueExecutorRunnable.java:74) ~[concurrentutil-0.0.10.jar:?]
-	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.doRun(QueueExecutorRunnable.java:115) ~[concurrentutil-0.0.10.jar:?]
-	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.run(QueueExecutorRunnable.java:42) ~[concurrentutil-0.0.10.jar:?]
-	at ca.spottedleaf.concurrentutil.util.LazyRunnable.run(LazyRunnable.java:25) ~[concurrentutil-0.0.10.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1516) ~[?:?]
-Caused by: net.minecraft.ReportedException: Feature placement
-	at net.minecraft.world.level.chunk.ChunkGenerator.addVanillaDecorations(ChunkGenerator.java:442) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at net.minecraft.world.level.chunk.ChunkGenerator.applyBiomeDecoration(ChunkGenerator.java:455) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at net.minecraft.world.level.chunk.ChunkGenerator.applyBiomeDecoration(ChunkGenerator.java:448) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at net.minecraft.world.level.chunk.status.ChunkStatusTasks.generateFeatures(ChunkStatusTasks.java:147) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at net.minecraft.world.level.chunk.status.ChunkStep.apply(ChunkStep.java:65) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask.run(ChunkUpgradeGenericStatusTask.java:97) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	... 10 more
-Caused by: java.lang.IllegalStateException: Tried to biome check an unregistered feature, or a feature that should not restrict the biome
-	at net.minecraft.world.level.levelgen.placement.BiomeFilter.lambda$shouldPlace$0(BiomeFilter.java:23) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at java.base/java.util.Optional.orElseThrow(Optional.java:407) ~[?:?]
-	at net.minecraft.world.level.levelgen.placement.BiomeFilter.shouldPlace(BiomeFilter.java:23) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at net.minecraft.world.level.levelgen.placement.PlacementFilter.getPositions(PlacementFilter.java:10) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at net.minecraft.world.level.levelgen.placement.PlacedFeature.lambda$placeWithContext$0(PlacedFeature.java:49) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:288) ~[?:?]
-	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
-	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
-	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
-	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
-	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
-	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
-	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
-	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
-	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186) ~[?:?]
-	at java.base/java.util.stream.IntPipeline$1$1.accept(IntPipeline.java:180) ~[?:?]
-	at java.base/java.util.stream.Streams$RangeIntSpliterator.forEachRemaining(Streams.java:104) ~[?:?]
-	at java.base/java.util.Spliterator$OfInt.forEachRemaining(Spliterator.java:710) ~[?:?]
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[?:?]
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[?:?]
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) ~[?:?]
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) ~[?:?]
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[?:?]
-	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632) ~[?:?]
-	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
-	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[?:?]
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[?:?]
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) ~[?:?]
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) ~[?:?]
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[?:?]
-	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632) ~[?:?]
-	at net.minecraft.world.level.levelgen.placement.PlacedFeature.placeWithContext(PlacedFeature.java:54) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at net.minecraft.world.level.levelgen.placement.PlacedFeature.place(PlacedFeature.java:38) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at net.minecraft.world.level.levelgen.structure.pools.FeaturePoolElement.place(FeaturePoolElement.java:94) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.place(PoolElementStructurePiece.java:113) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.postProcess(PoolElementStructurePiece.java:100) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at net.minecraft.world.level.levelgen.structure.StructureStart.placeInChunk(StructureStart.java:111) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at net.minecraft.world.level.chunk.ChunkGenerator.lambda$addVanillaDecorations$3(ChunkGenerator.java:375) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:421) ~[guava-33.5.0-jre.jar:?]
-	at net.minecraft.world.level.chunk.ChunkGenerator.addVanillaDecorations(ChunkGenerator.java:375) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	... 15 more
-[03:12:28] [Server thread/ERROR]: Encountered an unexpected exception
-java.lang.RuntimeException: Chunk system crash propagated from unrecoverableChunkSystemFailure
-	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkTaskScheduler.lambda$unrecoverableChunkSystemFailure$0(ChunkTaskScheduler.java:327) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue$PrioritisedQueuedTask.execute(PrioritisedTaskQueue.java:345) ~[concurrentutil-0.0.10.jar:?]
-	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue.executeTask(PrioritisedTaskQueue.java:126) ~[concurrentutil-0.0.10.jar:?]
-	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkTaskScheduler.executeAllRecentlyQueuedMainThreadTasks(ChunkTaskScheduler.java:349) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at net.minecraft.server.MinecraftServer.runAllTasksAtTickStart(MinecraftServer.java:1234) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1702) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1373) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at java.base/java.lang.Thread.run(Thread.java:1516) ~[?:?]
-Caused by: net.minecraft.ReportedException: Feature placement
-	at net.minecraft.world.level.chunk.ChunkGenerator.addVanillaDecorations(ChunkGenerator.java:442) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at net.minecraft.world.level.chunk.ChunkGenerator.applyBiomeDecoration(ChunkGenerator.java:455) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at net.minecraft.world.level.chunk.ChunkGenerator.applyBiomeDecoration(ChunkGenerator.java:448) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at net.minecraft.world.level.chunk.status.ChunkStatusTasks.generateFeatures(ChunkStatusTasks.java:147) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at net.minecraft.world.level.chunk.status.ChunkStep.apply(ChunkStep.java:65) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkUpgradeGenericStatusTask.run(ChunkUpgradeGenericStatusTask.java:97) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at ca.spottedleaf.concurrentutil.executor.queue.AreaDependentQueue$QueuedTask.run(AreaDependentQueue.java:1154) ~[concurrentutil-0.0.10.jar:?]
-	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$OrderedStreamGroup$Queue.lambda$createTask$0(BalancedPrioritisedThreadPool.java:467) ~[concurrentutil-0.0.10.jar:?]
-	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue$PrioritisedQueuedTask.execute(PrioritisedTaskQueue.java:345) ~[concurrentutil-0.0.10.jar:?]
-	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$OrderedStreamGroup.executeTask(BalancedPrioritisedThreadPool.java:344) ~[concurrentutil-0.0.10.jar:?]
-	at ca.spottedleaf.concurrentutil.executor.thread.BalancedPrioritisedThreadPool$WorkerThread.pollTasks(BalancedPrioritisedThreadPool.java:630) ~[concurrentutil-0.0.10.jar:?]
-	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.mainLoop(QueueExecutorRunnable.java:74) ~[concurrentutil-0.0.10.jar:?]
-	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.doRun(QueueExecutorRunnable.java:115) ~[concurrentutil-0.0.10.jar:?]
-	at ca.spottedleaf.concurrentutil.executor.QueueExecutorRunnable.run(QueueExecutorRunnable.java:42) ~[concurrentutil-0.0.10.jar:?]
-	at ca.spottedleaf.concurrentutil.util.LazyRunnable.run(LazyRunnable.java:25) ~[concurrentutil-0.0.10.jar:?]
-	... 1 more
-Caused by: java.lang.IllegalStateException: Tried to biome check an unregistered feature, or a feature that should not restrict the biome
-	at net.minecraft.world.level.levelgen.placement.BiomeFilter.lambda$shouldPlace$0(BiomeFilter.java:23) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at java.base/java.util.Optional.orElseThrow(Optional.java:407) ~[?:?]
-	at net.minecraft.world.level.levelgen.placement.BiomeFilter.shouldPlace(BiomeFilter.java:23) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at net.minecraft.world.level.levelgen.placement.PlacementFilter.getPositions(PlacementFilter.java:10) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at net.minecraft.world.level.levelgen.placement.PlacedFeature.lambda$placeWithContext$0(PlacedFeature.java:49) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:288) ~[?:?]
-	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
-	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
-	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
-	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
-	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
-	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
-	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
-	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
-	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186) ~[?:?]
-	at java.base/java.util.stream.IntPipeline$1$1.accept(IntPipeline.java:180) ~[?:?]
-	at java.base/java.util.stream.Streams$RangeIntSpliterator.forEachRemaining(Streams.java:104) ~[?:?]
-	at java.base/java.util.Spliterator$OfInt.forEachRemaining(Spliterator.java:710) ~[?:?]
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[?:?]
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[?:?]
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) ~[?:?]
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) ~[?:?]
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[?:?]
-	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632) ~[?:?]
-	at java.base/java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:293) ~[?:?]
-	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411) ~[?:?]
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[?:?]
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[?:?]
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) ~[?:?]
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) ~[?:?]
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[?:?]
-	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632) ~[?:?]
-	at net.minecraft.world.level.levelgen.placement.PlacedFeature.placeWithContext(PlacedFeature.java:54) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at net.minecraft.world.level.levelgen.placement.PlacedFeature.place(PlacedFeature.java:38) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at net.minecraft.world.level.levelgen.structure.pools.FeaturePoolElement.place(FeaturePoolElement.java:94) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.place(PoolElementStructurePiece.java:113) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at net.minecraft.world.level.levelgen.structure.PoolElementStructurePiece.postProcess(PoolElementStructurePiece.java:100) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at net.minecraft.world.level.levelgen.structure.StructureStart.placeInChunk(StructureStart.java:111) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at net.minecraft.world.level.chunk.ChunkGenerator.lambda$addVanillaDecorations$3(ChunkGenerator.java:375) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:421) ~[guava-33.5.0-jre.jar:?]
-	at net.minecraft.world.level.chunk.ChunkGenerator.addVanillaDecorations(ChunkGenerator.java:375) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
-	... 15 more
-[03:12:28] [Server thread/ERROR]: This crash report has been saved to: /home/runner/work/myserver/myserver/crash-reports/crash-2026-06-07_03.12.28-server.txt
-[03:12:28] [Server thread/INFO]: Stopping server
-[03:12:28] [Server thread/INFO]: [[38;5;11m⚡[0m] Disabling LagFixer v1.6.1 [build 143]
-[03:12:28] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Disabling manager...
-[03:12:28] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Disabled manager in 0.062ms!
-[03:12:28] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Disabling manager...
-[03:12:28] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Disabled manager in 0.002ms!
-[03:12:28] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Disabling manager...
-[03:12:28] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Disabled manager in 0.744ms!
-[03:12:28] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Disabling manager...
-[03:12:28] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Disabled manager in 0.02ms!
-[03:12:28] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Disabling manager...
-[03:12:28] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Disabled manager in 0.045ms!
-[03:12:28] [Server thread/INFO]: [[38;5;11m⚡[0m] (UpdaterManager) -> Disabling manager...
-[03:12:28] [Server thread/INFO]: [[38;5;11m⚡[0m] (UpdaterManager) -> Disabled manager in 2.178ms!
-[03:12:28] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Disabling manager...
-[03:12:28] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module RedstoneLimiter in 0.426ms!
-[03:12:28] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module InstantLeafDecay in 1.765ms!
-[03:12:28] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module WorldCleaner in 0.196ms!
-[03:12:28] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module LagShield in 0.093ms!
-[03:12:28] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module ExplosionOptimizer in 0.089ms!
-[03:12:28] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Error with disabling module ConsoleFilter, reason: null
-[03:12:28] [Server thread/WARN]: [[38;5;11m⚡[0m] LagFixer error message:
-
--------------------------------
-
-An error occurred in lagfixer:
- -> EOFException: null
- | ConsoleFilterModule.java -> disable() at 141 line
- | ModuleManager.java -> disable() at 96 line
- | LagFixer.java -> onDisable() at 49 line
-
-Our support has been informed about it, it will be fixed soon.
-Make sure the LagFixer configuration is done correctly.
-If you have any doubts, contact support: https://discord.gg/CFmzJjgZdu
-
--------------------------------
-
-[03:12:28] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module MobAiReducer in 0.098ms!
-[03:12:28] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module EntityLimiter in 0.07ms!
-[03:12:28] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module AbilityLimiter in 0.07ms!
-[03:12:28] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Disabled manager in 8.904ms!
-[03:12:28] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Disabling manager...
-[03:12:28] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Disabled manager in 2.074ms!
-[03:12:28] [Server thread/INFO]: [Clumps] Disabling Clumps v5.0
-[03:12:28] [Server thread/INFO]: [FreezeHibernate] Disabling FreezeHibernate v1.0
-[03:12:28] [Server thread/INFO]: [Reactify] Disabling Reactify v1.4.b1
-[03:12:28] [Server thread/INFO]: [TradeCycle] Disabling TradeCycle v2.0.1
-[03:12:28] [Server thread/INFO]: [DirectionHUD] Disabling DirectionHUD v1.8.2.0+1.20-1.21.8
-[03:12:28] [Server thread/INFO]: [DirectionHUD] Safely shutdown DirectionHUD server!
-[03:12:28] [Server thread/INFO]: [OpenInv] Disabling OpenInv v5.3.2
-[03:12:28] [Server thread/INFO]: [ViaVersionStatus] Disabling ViaVersionStatus v4.01
-[03:12:28] [Server thread/INFO]: [SmartSpawner] Disabling SmartSpawner v1.6.7
-[03:12:28] [Server thread/INFO]: [SmartSpawner] SmartSpawner has been disabled!
-[03:12:28] [Server thread/INFO]: [DeathBack] Disabling DeathBack v1.0
-[03:12:28] [Server thread/INFO]: [DeathBack] Plugin unloaded!
-[03:12:28] [Server thread/INFO]: [DeathBack] Thank you to use my plugin!
-[03:12:28] [Server thread/INFO]: [TabListPing] Disabling TabListPing v2.03
-[03:12:28] [Server thread/INFO]: [FokusAPI] Disabling FokusAPI v4.4
-[03:12:28] [Server thread/INFO]: [HoloMobHealth] Disabling HoloMobHealth v2026.1.1.0
-[03:12:28] [Server thread/INFO]: [HoloMobHealth] HoloMobHealth has been Disabled!
-[03:12:28] [Server thread/INFO]: [AxGraves] Disabling AxGraves v1.28.1
-[03:12:28] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.12.2
-[03:12:28] [Server thread/INFO]: [Not-Too-Expensive] Disabling Not-Too-Expensive v1.1
-[03:12:28] [Server thread/INFO]: [ImageFrame] Disabling ImageFrame v2026.1.2.0
-[03:12:28] [Server thread/INFO]: [ImageFrame] ImageFrame has been Disabled!
-[03:12:28] [Server thread/INFO]: [Brutal_Nightmare_-_Insane_Difficulty] Disabling Brutal_Nightmare_-_Insane_Difficulty v6.1
-[03:12:28] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.53
-[03:12:28] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[03:12:28] [Server thread/INFO]: [LuckPerms] Closing storage...
-[03:12:28] [Server thread/INFO]: [LuckPerms] Goodbye!
-[03:12:28] [Server thread/INFO]: [SetHomePlugin] Disabling SetHomePlugin v1.0.0
-[03:12:28] [Server thread/INFO]: [SleepVote] Disabling SleepVote v1.0.0
-[03:12:28] [Server thread/INFO]: [SleepVote] SleepVote has been disabled.
-[03:12:28] [Server thread/INFO]: [JustTPA] Disabling JustTPA v20250220c
-[03:12:28] [Server thread/INFO]: [JustTPA] JustTPA disabled
-[03:12:28] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.1.1
-[03:12:28] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.10.0-SNAPSHOT
-[03:12:28] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[03:12:28] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[03:12:28] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.5.0-SNAPSHOT-b723ff3
-[03:12:28] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.9.1
-[03:12:28] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.9.1
-[03:12:28] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[03:12:28] [Server thread/INFO]: Saving players
-[03:12:28] [Server thread/INFO]: Saving worlds
-[03:12:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[03:12:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'
-[03:12:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'
-[03:12:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'
-[03:12:29] [Server thread/INFO]: [ChunkHolderManager] Saved 625 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:overworld' in 0.66s
-[03:12:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:overworld'
-[03:12:29] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:overworld'
-[03:12:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[03:12:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'
-[03:12:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'
-[03:12:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'
-[03:12:29] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0.00s
-[03:12:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_nether'
-[03:12:29] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_nether'
-[03:12:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[03:12:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_end'
-[03:12:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_end'
-[03:12:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_end'
-[03:12:29] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_end' in 0.00s
-[03:12:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_end'
-[03:12:29] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_end'
-[03:12:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[03:12:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03:12:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[03:12:29] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[03:12:29] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[03:12:29] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[03:12:29] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[03:12:29] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Enabling manager...
+[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Started listening console for LagFixer errors!
+[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Enabled manager in 3.483ms!
+[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Enabling manager...
+[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Enabled manager in 62.959ms!
+[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Enabling manager...
+[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Loaded fork support ~ xyz.lychee.lagfixer.support.PaperSupport
+[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Loaded nms support ~ xyz.lychee.lagfixer.nms.v26_1.SupportNms
+[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Enabled manager in 18.413ms!
+[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Enabling manager...
+[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Enabled manager in 0.055ms!
+[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Enabling manager...
+[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Enabled manager in 3.131ms!
+[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] (UpdaterManager) -> Enabling manager...
+[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] (UpdaterManager) -> Enabled manager in 3.434ms!
+[03:18:34] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Enabling manager...
+[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module RedstoneLimiter in 7.271ms!
+[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module InstantLeafDecay in 2.772ms!
+[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module WorldCleaner in 9.786ms!
+[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module LagShield in 6.472ms!
+[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module ExplosionOptimizer in 4.4ms!
+[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module ConsoleFilter in 3.364ms!
+[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module MobAiReducer in 9.496ms!
+[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module EntityLimiter in 4.067ms!
+[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module AbilityLimiter in 2.784ms!
+[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Enabled manager in 113.801ms!
+[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Enabling manager...
+[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Enabled manager in 52.389ms!
+[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] Remember to leave a rating! ★ ★ ★ ★ ★
+[03:18:34] [Server thread/INFO]: [[38;5;11m⚡[0m] ❤ Support us https://ko-fi.com/lajczik
+[03:18:35] [Server thread/INFO]: [spark] Starting background profiler...
+[03:18:35] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[03:18:35] [Server thread/INFO]: [Geyser-Spigot] 
+[03:18:35] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.10.0-b1162 (git-master-689f4d7)
+[03:18:35] [Server thread/INFO]: [Geyser-Spigot] 
+[03:18:35] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[03:18:38] [Server thread/WARN]: [Geyser-Spigot] Geyser is configured to use proxy protocol when connecting to the Java server.
+[03:18:38] [Server thread/WARN]: [Geyser-Spigot] If you do not know what this is, open the Geyser config, and set "use-haproxy-protocol" under the  "advanced/java" section to "false".
+[03:18:38] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 5610
+[03:18:38] [Server thread/INFO]: [Geyser-Spigot] Done (3.038s)! Run /geyser help for help!
+[03:18:38] [Server thread/INFO]: [FreezeHibernate] Server is frozen until a player joins.
+[03:18:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:18:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:18:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03:18:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:18:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:18:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:18:38] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:18:38] [Server thread/INFO]: Running delayed init tasks
+[03:18:38] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[03:18:38] [Server thread/INFO]: Done (31.548s)! For help, type "help"
+[03:18:38] [Craft Scheduler Thread - 2 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 0 ImageMaps!
+[03:18:39] [Craft Scheduler Thread - 0 - JustTPA/WARN]: [JustTPA] Failed to check for updates
+[03:18:41] [Craft Scheduler Thread - 5 - HoloMobHealth/INFO]: [HoloMobHealth] Loaded all 1 languages!
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] ViaVersion supported protocols:
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.7.2-1.7.5(4)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.7.6-1.7.10(5)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.8.x(47)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.9(107)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.9.1(108)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.9.2(109)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.9.3-1.9.4(110)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.10.x(210)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.11(315)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.11.1-1.11.2(316)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.12(335)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.12.1(338)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.12.2(340)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.13(393)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.13.1(401)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.13.2(404)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.14(477)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.14.1(480)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.14.2(485)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.14.3(490)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.14.4(498)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.15(573)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.15.1(575)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.15.2(578)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.16(735)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.16.1(736)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.16.2(751)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.16.3(753)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.16.4-1.16.5(754)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.17(755)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.17.1(756)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.18-1.18.1(757)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.18.2(758)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.19(759)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.19.1-1.19.2(760)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.19.3(761)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.19.4(762)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.20-1.20.1(763)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.20.2(764)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.20.3-1.20.4(765)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.20.5-1.20.6(766)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.21-1.21.1(767)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.21.2-1.21.3(768)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.21.4(769)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.21.5(770)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.21.6(771)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.21.7-1.21.8(772)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.21.9-1.21.10(773)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 1.21.11(774)
+[03:18:43] [Server thread/INFO]: [ViaVersionStatus] 26.1-26.1.2(775)
+[03:18:46] [User Authenticator #0/INFO]: UUID of player FewerSteak1914 is edc6da0c-d07d-3ac0-a19e-74a2f0f3e7a8
+[03:18:46] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
+[03:18:49] [Server thread/INFO]: [FreezeHibernate] A player joined. Server is now unfrozen.
+[03:18:49] [Server thread/INFO]: FewerSteak1914 joined the game
+[03:18:49] [Server thread/INFO]: FewerSteak1914[/127.114.58.236:39297] logged in with entity id 1 at ([minecraft:overworld]-543.5, 77.0, 0.5)
