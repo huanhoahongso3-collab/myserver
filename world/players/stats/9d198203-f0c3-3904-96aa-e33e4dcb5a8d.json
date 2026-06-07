@@ -1,27 +1,27 @@
 {
   "stats": {
     "minecraft:custom": {
-      "minecraft:time_since_rest": 18091,
-      "minecraft:walk_one_cm": 143776,
+      "minecraft:time_since_rest": 2686,
+      "minecraft:walk_one_cm": 175336,
       "minecraft:leave_game": 5,
       "minecraft:mob_kills": 3,
-      "minecraft:damage_taken": 1817,
+      "minecraft:damage_taken": 1847,
       "minecraft:damage_dealt": 896,
-      "minecraft:play_time": 36315,
-      "minecraft:jump": 161,
-      "minecraft:time_since_death": 18009,
+      "minecraft:play_time": 42315,
+      "minecraft:jump": 185,
+      "minecraft:time_since_death": 24009,
       "minecraft:drop": 5,
       "minecraft:bell_ring": 1,
       "minecraft:interact_with_furnace": 1,
       "minecraft:sprint_one_cm": 5123,
       "minecraft:open_chest": 12,
-      "minecraft:sleep_in_bed": 1,
-      "minecraft:fall_one_cm": 2025,
-      "minecraft:total_world_time": 36315,
+      "minecraft:sleep_in_bed": 2,
+      "minecraft:fall_one_cm": 2675,
+      "minecraft:total_world_time": 42315,
       "minecraft:fly_one_cm": 688,
       "minecraft:crouch_one_cm": 876,
       "minecraft:sneak_time": 520,
-      "minecraft:climb_one_cm": 7558,
+      "minecraft:climb_one_cm": 8125,
       "minecraft:deaths": 5,
       "minecraft:player_kills": 5,
       "minecraft:interact_with_loom": 1
@@ -40,15 +40,20 @@
     "minecraft:mined": {
       "minecraft:fire": 1
     },
-    "minecraft:used": {
-      "minecraft:cooked_beef": 5,
-      "minecraft:diamond_sword": 20,
-      "minecraft:bow": 2
-    },
     "minecraft:killed_by": {
       "minecraft:player": 1,
       "minecraft:wolf": 1,
       "minecraft:spider": 1
+    },
+    "minecraft:used": {
+      "minecraft:cooked_beef": 6,
+      "minecraft:bone_meal": 6,
+      "minecraft:rooted_dirt": 1,
+      "minecraft:lantern": 4,
+      "minecraft:diamond_sword": 20,
+      "minecraft:torch": 3,
+      "minecraft:bow": 3,
+      "minecraft:cherry_sapling": 1
     },
     "minecraft:killed": {
       "minecraft:zombified_piglin": 1,
