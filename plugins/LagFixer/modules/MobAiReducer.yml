@@ -1,6 +1,6 @@
 # A server restart is required to apply changes.
 MobAiReducer:
-  enabled: true
+  enabled: false
   worlds: # Use '*' to enable for all worlds.
     - '*'
   values:

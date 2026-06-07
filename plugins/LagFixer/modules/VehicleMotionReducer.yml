@@ -1,7 +1,7 @@
 # A server restart is required to apply changes.
 # Optimizes collisions by replacing them with new, optimized objects.
 VehicleMotionReducer:
-  enabled: false
+  enabled: true
   worlds: # Use '*' to enable for all worlds.
     - '*'
   values:
