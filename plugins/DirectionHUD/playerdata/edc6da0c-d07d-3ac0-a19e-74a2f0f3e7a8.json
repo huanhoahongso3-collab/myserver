@@ -1,0 +1,167 @@
+{
+  "name": "FewerSteak1914",
+  "inbox": [],
+  "version": 2.3,
+  "hud": {
+    "modules": [
+      {
+        "module": "COORDINATES",
+        "order": 1,
+        "state": true,
+        "settings": [
+          {
+            "id": "coordinates_xyz-display",
+            "value": true
+          }
+        ]
+      },
+      {
+        "module": "DESTINATION",
+        "order": 2,
+        "state": true,
+        "settings": [
+          {
+            "id": "destination_show-name",
+            "value": true
+          }
+        ]
+      },
+      {
+        "module": "DISTANCE",
+        "order": 3,
+        "state": true,
+        "settings": []
+      },
+      {
+        "module": "DIRECTION",
+        "order": 4,
+        "state": true,
+        "settings": []
+      },
+      {
+        "module": "WEATHER",
+        "order": 5,
+        "state": true,
+        "settings": []
+      },
+      {
+        "module": "TIME",
+        "order": 6,
+        "state": true,
+        "settings": [
+          {
+            "id": "time_24hr",
+            "value": false
+          }
+        ]
+      },
+      {
+        "module": "TRACKING",
+        "state": false,
+        "settings": [
+          {
+            "id": "tracking_target",
+            "value": "player"
+          },
+          {
+            "id": "tracking_show-elevation",
+            "value": false
+          },
+          {
+            "id": "tracking_display",
+            "value": "simple"
+          },
+          {
+            "id": "tracking_hybrid",
+            "value": true
+          }
+        ]
+      },
+      {
+        "module": "ANGLE",
+        "state": false,
+        "settings": [
+          {
+            "id": "angle_display",
+            "value": "both"
+          }
+        ]
+      },
+      {
+        "module": "SPEED",
+        "state": false,
+        "settings": [
+          {
+            "id": "speed_display-pattern",
+            "value": "0.00"
+          },
+          {
+            "id": "speed_2d-calculation",
+            "value": false
+          }
+        ]
+      },
+      {
+        "module": "LIGHT",
+        "state": false,
+        "settings": [
+          {
+            "id": "light_target",
+            "value": "eye"
+          },
+          {
+            "id": "light_display",
+            "value": "block"
+          }
+        ]
+      }
+    ],
+    "setting": {
+      "bossbar": {
+        "color": "white",
+        "distance": true,
+        "distance_max": 0
+      },
+      "state": true,
+      "type": "actionbar"
+    },
+    "primary": {
+      "color": "#ef9125",
+      "bold": false,
+      "italics": false,
+      "rainbow": false
+    },
+    "secondary": {
+      "color": "#ffffff",
+      "bold": false,
+      "italics": false,
+      "rainbow": false
+    }
+  },
+  "destination": {
+    "saved": [],
+    "dest": {},
+    "lastdeath": [],
+    "setting": {
+      "ylevel": false,
+      "autoclear": true,
+      "autoclear_rad": 2,
+      "autoconvert": false,
+      "features": {
+        "track": true,
+        "track_request_mode": "request",
+        "send": true,
+        "lastdeath": true
+      },
+      "particles": {
+        "dest": true,
+        "dest_color": "#ef9125",
+        "line": true,
+        "line_color": "#ffee35",
+        "tracking": true,
+        "tracking_color": "#ff6426"
+      }
+    }
+  },
+  "color_presets": []
+}
