@@ -2210,3 +2210,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [13:13:02] [Server thread/WARN]: [TabListPing] Exception injecting FewerSteak1914 (This is likely harmless).
 [13:13:02] [Server thread/INFO]: FewerSteak1914 joined the game
 [13:13:02] [Server thread/INFO]: FewerSteak1914[/127.114.58.236:0] logged in with entity id 9269 at ([minecraft:overworld]-22.30000001192093, 114.0, 6215.512499988079)
+[13:13:40] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] FewerSteak1914 has disconnected from the Java server because of Bedrock client disconnected
+[13:13:40] [Server thread/INFO]: FewerSteak1914 lost connection: Disconnected
+[13:13:40] [Server thread/INFO]: [FreezeHibernate] Last player disconnected. Server is now frozen.
+[13:13:40] [Server thread/INFO]: FewerSteak1914 left the game
