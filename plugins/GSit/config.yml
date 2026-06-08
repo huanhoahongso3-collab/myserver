@@ -22,7 +22,7 @@ Options:
   get-up-break: true
 
   # Allow sitting or posing in unsafe locations
-  allow-unsafe: false
+  allow-unsafe: true
 
   # Allow only one player per block to sit or pose
   same-block-rest: false
