@@ -1,13 +1,13 @@
-[05:18:44] [ServerMain/INFO]: [bootstrap] Running Java 26 (OpenJDK 64-Bit Server VM 26.0.1+8; Eclipse Adoptium Temurin-26.0.1+8) on Linux 6.17.0-1015-azure (amd64)
-[05:18:44] [ServerMain/INFO]: [bootstrap] Loading Paper 26.1.2-69-main@76d2ac7 (2026-06-03T17:32:02Z) for Minecraft 26.1.2
-[05:18:45] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[05:18:45] [ServerMain/INFO]: [PluginInitializerManager] Initialized 26 plugins
-[05:18:45] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
+[05:30:11] [ServerMain/INFO]: [bootstrap] Running Java 26 (OpenJDK 64-Bit Server VM 26.0.1+8; Eclipse Adoptium Temurin-26.0.1+8) on Linux 6.17.0-1015-azure (amd64)
+[05:30:11] [ServerMain/INFO]: [bootstrap] Loading Paper 26.1.2-69-main@76d2ac7 (2026-06-03T17:32:02Z) for Minecraft 26.1.2
+[05:30:12] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[05:30:12] [ServerMain/INFO]: [PluginInitializerManager] Initialized 26 plugins
+[05:30:12] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
  - SmartSpawner (1.6.7), Veinminer (2.10.1)
-[05:18:45] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (24):
+[05:30:12] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (24):
  - AxGraves (1.28.1), Clumps (5.0), DeathBack (1.0), DirectionHUD (1.8.2.0+1.20-1.21.8), FreezeHibernate (1.0), Geyser-Spigot (2.10.0-SNAPSHOT), HoloMobHealth (2026.1.1.0), ImageFrame (2026.1.2.0), JustTPA (20250220c), LagFixer (1.6.1 [build 143]), LimitedCreative (2.0.1), LuckPerms (5.5.53), Not-Too-Expensive (1.1), OpenInv (5.3.2), ProtocolLib (5.5.0-SNAPSHOT-b723ff3), SetHomePlugin (1.0.0), SkinsRestorer (15.12.2), SleepVote (1.0.0), TabListPing (2.03), TradeCycle (2.0.1), ViaBackwards (5.9.1), ViaRewind (4.1.1), ViaVersion (5.9.1), ViaVersionStatus (4.01)
-[05:18:49] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[05:18:49] [ServerMain/WARN]: Error reading pack metadata, attempting fallback type
+[05:30:16] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[05:30:16] [ServerMain/WARN]: Error reading pack metadata, attempting fallback type
 com.google.gson.JsonParseException: Pack declared support for versions 16 to 81 but declared main format is 15
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-9.0.19.jar:?]
 	at net.minecraft.server.packs.resources.ResourceMetadata$2.getSection(ResourceMetadata.java:38) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
@@ -29,13 +29,13 @@ com.google.gson.JsonParseException: Pack declared support for versions 16 to 81 
 	at org.bukkit.craftbukkit.Main.main(Main.java:204) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[?:?]
 	at java.base/java.lang.Thread.run(Thread.java:1516) ~[?:?]
-[05:18:52] [Worker-Main-1/ERROR]: Couldn't parse data file 'fokus:is_night' from 'fokus:predicate/is_night.json': DataResult.Error['Failed to parse either. First: No key clock in MapLike[{"condition":"minecraft:time_check","value":{"min":12000,"max":22500},"period":24000}]; Second: Not a json array: {"condition":"minecraft:time_check","value":{"min":12000,"max":22500},"period":24000}']
-[05:18:53] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/parched@minecraft:loot_table}.pools[2].entries[0]: Missing element more_mob_heads:entities/parched of type minecraft:loot_table
-[05:18:53] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/wither@minecraft:loot_table}.pools[0].entries[0]: Missing element incendium:artifact/patron/warping_witherblade of type minecraft:loot_table
-[05:18:53] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/husk@minecraft:loot_table}.pools[2].entries[0]: Missing element more_mob_heads:entities/husk of type minecraft:loot_table
-[05:18:53] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/camel_husk@minecraft:loot_table}.pools[2].entries[0]: Missing element more_mob_heads:entities/camel_husk of type minecraft:loot_table
-[05:18:53] [ServerMain/INFO]: Loaded 2035 recipes
-[05:18:53] [ServerMain/ERROR]: Failed to load function fokus:nxf/_ignored_bz824v3p9
+[05:30:18] [Worker-Main-1/ERROR]: Couldn't parse data file 'fokus:is_night' from 'fokus:predicate/is_night.json': DataResult.Error['Failed to parse either. First: No key clock in MapLike[{"condition":"minecraft:time_check","value":{"min":12000,"max":22500},"period":24000}]; Second: Not a json array: {"condition":"minecraft:time_check","value":{"min":12000,"max":22500},"period":24000}']
+[05:30:18] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/parched@minecraft:loot_table}.pools[2].entries[0]: Missing element more_mob_heads:entities/parched of type minecraft:loot_table
+[05:30:18] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/wither@minecraft:loot_table}.pools[0].entries[0]: Missing element incendium:artifact/patron/warping_witherblade of type minecraft:loot_table
+[05:30:18] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/husk@minecraft:loot_table}.pools[2].entries[0]: Missing element more_mob_heads:entities/husk of type minecraft:loot_table
+[05:30:18] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/camel_husk@minecraft:loot_table}.pools[2].entries[0]: Missing element more_mob_heads:entities/camel_husk of type minecraft:loot_table
+[05:30:19] [ServerMain/INFO]: Loaded 2035 recipes
+[05:30:19] [ServerMain/ERROR]: Failed to load function fokus:nxf/_ignored_bz824v3p9
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command. See below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.wrapInCompletionException(CompletableFuture.java:323) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:359) ~[?:?]
@@ -54,7 +54,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$3(ServerFunctionLibrary.java:91) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789) ~[?:?]
 	... 8 more
-[05:18:54] [ServerMain/ERROR]: Failed to load function fokus:nxf/c7br
+[05:30:19] [ServerMain/ERROR]: Failed to load function fokus:nxf/c7br
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Can't find element 'fokus:is_night' in registry 'minecraft:predicate' at position 116: ...s:is_night<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.wrapInCompletionException(CompletableFuture.java:323) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:359) ~[?:?]
@@ -73,7 +73,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2:
 	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$3(ServerFunctionLibrary.java:91) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789) ~[?:?]
 	... 8 more
-[05:18:54] [ServerMain/ERROR]: Failed to load function fokus:nxf/rmphof36
+[05:30:19] [ServerMain/ERROR]: Failed to load function fokus:nxf/rmphof36
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Expected whitespace to end one argument, but found trailing data at position 18: ... function <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.wrapInCompletionException(CompletableFuture.java:323) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:359) ~[?:?]
@@ -92,7 +92,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$3(ServerFunctionLibrary.java:91) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789) ~[?:?]
 	... 8 more
-[05:18:54] [ServerMain/ERROR]: Failed to load function fokus:nxf/99lru
+[05:30:19] [ServerMain/ERROR]: Failed to load function fokus:nxf/99lru
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Can't find element 'fokus:is_night' in registry 'minecraft:predicate' at position 82: ...s:is_night<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.wrapInCompletionException(CompletableFuture.java:323) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:359) ~[?:?]
@@ -111,7 +111,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$3(ServerFunctionLibrary.java:91) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789) ~[?:?]
 	... 8 more
-[05:18:54] [ServerMain/ERROR]: Failed to load function fokus:nxf/cesvo9
+[05:30:19] [ServerMain/ERROR]: Failed to load function fokus:nxf/cesvo9
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown criterion 'minecraft.custom:minecraft.play_one_minute' at position 33: ...dd fk.ptm <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.wrapInCompletionException(CompletableFuture.java:323) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:359) ~[?:?]
@@ -130,188 +130,189 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$3(ServerFunctionLibrary.java:91) ~[paper-26.1.2.jar:26.1.2-69-76d2ac7]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789) ~[?:?]
 	... 8 more
-[05:18:54] [ServerMain/INFO]: Loaded 2107 advancements
-[05:18:54] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[05:18:54] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 256.8ms
-[05:18:54] [Server thread/INFO]: Starting minecraft server version 26.1.2
-[05:18:54] [Server thread/INFO]: Loading properties
-[05:18:54] [Server thread/INFO]: This server is running Paper version 26.1.2-69-main@76d2ac7 (2026-06-03T17:32:02Z) (Implementing API version 26.1.2.build.69-stable)
-[05:18:54] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[05:18:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[05:18:54] [Server thread/INFO]: Using 4 threads for Netty based IO
-[05:18:54] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[05:18:55] [Server thread/INFO]: Default game type: SURVIVAL
-[05:18:55] [Server thread/INFO]: Generating keypair
-[05:18:55] [Server thread/INFO]: Starting Minecraft server on *:5610
-[05:18:55] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[05:18:55] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[05:18:56] [Server thread/INFO]: [SpigotLibraryLoader] [OpenInv] Loading 1 libraries... please wait
-[05:18:56] [Server thread/INFO]: [SpigotLibraryLoader] [OpenInv] Loaded library /home/runner/work/myserver/myserver/libraries/org/xerial/sqlite-jdbc/3.49.1.0/sqlite-jdbc-3.49.1.0.jar
-[05:18:56] [Server thread/INFO]: [SpigotLibraryLoader] [DirectionHUD] Loading 1 libraries... please wait
-[05:18:56] [Server thread/INFO]: [SpigotLibraryLoader] [DirectionHUD] Loaded library /home/runner/work/myserver/myserver/libraries/org/apache/commons/commons-configuration2/2.11.0/commons-configuration2-2.11.0.jar
-[05:18:56] [Server thread/INFO]: [SpigotLibraryLoader] [DirectionHUD] Loaded library /home/runner/work/myserver/myserver/libraries/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar
-[05:18:56] [Server thread/INFO]: [SpigotLibraryLoader] [DirectionHUD] Loaded library /home/runner/work/myserver/myserver/libraries/org/apache/commons/commons-text/1.12.0/commons-text-1.12.0.jar
-[05:18:56] [Server thread/INFO]: [SpigotLibraryLoader] [DirectionHUD] Loaded library /home/runner/work/myserver/myserver/libraries/commons-logging/commons-logging/1.3.2/commons-logging-1.3.2.jar
-[05:18:56] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loading 1 libraries... please wait
-[05:18:56] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /home/runner/work/myserver/myserver/libraries/com/github/oshi/oshi-core/7.2.0/oshi-core-7.2.0.jar
-[05:18:56] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /home/runner/work/myserver/myserver/libraries/com/github/oshi/oshi-common/7.2.0/oshi-common-7.2.0.jar
-[05:18:56] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /home/runner/work/myserver/myserver/libraries/net/java/dev/jna/jna-jpms/5.18.1/jna-jpms-5.18.1.jar
-[05:18:56] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /home/runner/work/myserver/myserver/libraries/net/java/dev/jna/jna-platform-jpms/5.18.1/jna-platform-jpms-5.18.1.jar
-[05:18:56] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /home/runner/work/myserver/myserver/libraries/org/slf4j/slf4j-api/2.0.18/slf4j-api-2.0.18.jar
-[05:18:56] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.9.1
-[05:18:56] [Server thread/INFO]: [ViaVersion] ViaVersion 5.9.1 is now loaded. Registering protocol transformers and injecting...
-[05:18:56] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
-[05:18:57] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[05:18:57] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[05:18:57] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[05:18:57] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.9.1
-[05:18:57] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.5.0-SNAPSHOT-b723ff3
-[05:18:57] [Server thread/WARN]: [ProtocolLib] Version (MC: 26.1.2) has not yet been tested! Proceed with caution.
-[05:18:57] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.10.0-SNAPSHOT
-[05:18:58] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[05:18:58] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[05:18:58] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.1.1
-[05:18:58] [Server thread/INFO]: [JustTPA] Loading server plugin JustTPA v20250220c
-[05:18:58] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.10.1
-[05:18:58] [Server thread/INFO]: [Veinminer] Detected platform: Paper
-[05:18:58] [Server thread/INFO]: [SleepVote] Loading server plugin SleepVote v1.0.0
-[05:18:58] [Server thread/INFO]: [SetHomePlugin] Loading server plugin SetHomePlugin v1.0.0
-[05:18:58] [Server thread/INFO]: [LimitedCreative] Loading server plugin LimitedCreative v2.0.1
-[05:18:58] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.53
-[05:18:58] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[05:18:58] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v2026.1.2.0
-[05:18:58] [Server thread/INFO]: [Not-Too-Expensive] Loading server plugin Not-Too-Expensive v1.1
-[05:18:58] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.2
-[05:18:58] [Server thread/INFO]: [AxGraves] Loading server plugin AxGraves v1.28.1
-[05:18:58] [Server thread/INFO]: [HoloMobHealth] Loading server plugin HoloMobHealth v2026.1.1.0
-[05:18:58] [Server thread/INFO]: [TabListPing] Loading server plugin TabListPing v2.03
-[05:18:58] [Server thread/INFO]: [DeathBack] Loading server plugin DeathBack v1.0
-[05:18:58] [Server thread/INFO]: [SmartSpawner] Loading server plugin SmartSpawner v1.6.7
-[05:18:58] [Server thread/INFO]: [ViaVersionStatus] Loading server plugin ViaVersionStatus v4.01
-[05:18:58] [Server thread/INFO]: [OpenInv] Loading server plugin OpenInv v5.3.2
-[05:18:58] [Server thread/INFO]: [DirectionHUD] Loading server plugin DirectionHUD v1.8.2.0+1.20-1.21.8
-[05:18:58] [Server thread/INFO]: [TradeCycle] Loading server plugin TradeCycle v2.0.1
-[05:18:58] [Server thread/INFO]: [FreezeHibernate] Loading server plugin FreezeHibernate v1.0
-[05:18:58] [Server thread/INFO]: [Clumps] Loading server plugin Clumps v5.0
-[05:18:58] [Server thread/INFO]: [[38;5;11m⚡[0m] Loading server plugin LagFixer v1.6.1 [build 143]
-[05:18:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[05:18:58] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.5.0-SNAPSHOT-b723ff3
-[05:18:58] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.1.1
-[05:18:58] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.10.1
-[05:18:58] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.53
-[05:18:58] [DefaultDispatcher-worker-1/INFO]: [de.miraculixx.veinminer.Veinminer] veinminer is up to date
-[05:18:59] [Server thread/INFO]:         __    
-[05:18:59] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.53
-[05:18:59] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[05:18:59] [Server thread/INFO]: 
-[05:18:59] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[05:18:59] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[05:18:59] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[05:18:59] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1209ms)
-[05:18:59] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.2
-[05:19:00] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 26.1.2.
-[05:19:01] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[05:19:01] [Server thread/INFO]: [Clumps] Enabling Clumps v5.0
-[05:19:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[05:19:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[05:19:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[05:19:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[05:19:01] [Server thread/INFO]: Preparing level "world"
-[05:19:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[05:19:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
-[05:19:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer   |
-[05:19:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |-------------------|
-[05:19:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode  |
-[05:19:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
-[05:19:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[05:19:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.12.2
-[05:19:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 5872d07
-[05:19:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[05:19:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[05:19:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[05:19:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
-[05:19:02] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
-[05:19:02] [Server thread/INFO]: Prepared spawn area in 1 ms
-[05:19:02] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
-[05:19:02] [Server thread/INFO]: Prepared spawn area in 0 ms
-[05:19:02] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
-[05:19:02] [Server thread/INFO]: Prepared spawn area in 3 ms
-[05:19:02] [Server thread/INFO]: Done preparing level "world" (0.897s)
-[05:19:02] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.9.1
-[05:19:02] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.1-26.1.2 (775)
-[05:19:02] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.9.1
-[05:19:02] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.10.0-SNAPSHOT
-[05:19:03] [Server thread/INFO]: [JustTPA] Enabling JustTPA v20250220c
-[05:19:03] [Server thread/INFO]: [JustTPA] JustTPA initialized
-[05:19:03] [Server thread/INFO]: [JustTPA] bStats enabled
-[05:19:03] [Server thread/INFO]: [JustTPA] Checking for updates...
-[05:19:03] [Server thread/INFO]: [SleepVote] Enabling SleepVote v1.0.0
-[05:19:03] [Server thread/INFO]: [SleepVote] SleepVote has been enabled.
-[05:19:03] [Server thread/INFO]: [SetHomePlugin] Enabling SetHomePlugin v1.0.0
-[05:19:03] [Server thread/INFO]: [SetHomePlugin] SetHomePlugin enabled con sistema de permisos dinámicos
-[05:19:03] [Server thread/INFO]: [LimitedCreative] Enabling LimitedCreative v2.0.1
-[05:19:03] [Server thread/WARN]: Plugin 'LimitedCreative' is creating timing 'Commands' - this is deprecated behavior, please report it to the authors: Adelemphii
-[05:19:03] [Server thread/WARN]: Plugin 'LimitedCreative' is creating timing 'Command: limitedcreative' - this is deprecated behavior, please report it to the authors: Adelemphii
-[05:19:03] [Server thread/WARN]: Plugin 'LimitedCreative' is creating timing 'Command: limitedcreative reload' - this is deprecated behavior, please report it to the authors: Adelemphii
-[05:19:03] [Server thread/WARN]: Plugin 'LimitedCreative' is creating timing 'Command: limitedcreative give' - this is deprecated behavior, please report it to the authors: Adelemphii
-[05:19:03] [Server thread/WARN]: Plugin 'LimitedCreative' is creating timing 'Command: limitedcreative nightvision' - this is deprecated behavior, please report it to the authors: Adelemphii
-[05:19:03] [Server thread/WARN]: Plugin 'LimitedCreative' is creating timing 'Command: limitedcreative give nightvision' - this is deprecated behavior, please report it to the authors: Adelemphii
-[05:19:03] [Server thread/WARN]: Plugin 'LimitedCreative' is creating timing 'Command: limitedcreative info' - this is deprecated behavior, please report it to the authors: Adelemphii
-[05:19:03] [Server thread/WARN]: Plugin 'LimitedCreative' is creating timing 'Command: limitedcreative' - this is deprecated behavior, please report it to the authors: Adelemphii
-[05:19:03] [Server thread/WARN]: Plugin 'LimitedCreative' is creating timing 'Command: limitedcreative help' - this is deprecated behavior, please report it to the authors: Adelemphii
-[05:19:03] [Server thread/WARN]: Plugin 'LimitedCreative' is creating timing 'Command: limitedcreative self' - this is deprecated behavior, please report it to the authors: Adelemphii
-[05:19:03] [Server thread/WARN]: Plugin 'LimitedCreative' is creating timing 'Command: playerlist' - this is deprecated behavior, please report it to the authors: Adelemphii
-[05:19:03] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v2026.1.2.0
-[05:19:03] [Server thread/INFO]: [ImageFrame] ImageFrame has hooked into ViaVersion!
-[05:19:06] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_static
-[05:19:06] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_animated
-[05:19:06] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_static_overlay
-[05:19:06] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:non_updatable_static
-[05:19:06] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:gif_reader to ImageMapLoader imageframe:url_animated
-[05:19:06] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:imageio to ImageMapLoader imageframe:url_static
-[05:19:06] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:imageio to ImageMapLoader imageframe:url_static_overlay
-[05:19:06] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
-[05:19:06] [Server thread/INFO]: [Not-Too-Expensive] Enabling Not-Too-Expensive v1.1
-[05:19:06] [Server thread/INFO]: [AxGraves] Enabling AxGraves v1.28.1
-[05:19:07] [Server thread/INFO]: [HoloMobHealth] Enabling HoloMobHealth v2026.1.1.0
-[05:19:10] [Server thread/INFO]: [HoloMobHealth] No custom ProtocolProvider provided, using default ProtocolLib provider.
-[05:19:11] [Server thread/INFO]: [HoloMobHealth] Loading languages...
-[05:19:11] [Server thread/INFO]: [HoloMobHealth] Opened Sqlite database successfully
-[05:19:11] [Server thread/INFO]: [HoloMobHealth] HoloMobHealth has been Enabled!
-[05:19:11] [Server thread/INFO]: [TabListPing] Enabling TabListPing v2.03
-[05:19:11] [Server thread/INFO]: [TabListPing] Detected 26.1.2.build.69, using net.minecraft.network.protocol.common.ClientboundKeepAlivePacket & net.minecraft.network.protocol.common.ServerboundKeepAlivePacket
-[05:19:11] [Server thread/INFO]: [TabListPing] Metrics enabled if allowed by plugins/bStats/config.yml
-[05:19:11] [Server thread/INFO]: [DeathBack] Enabling DeathBack v1.0
-[05:19:11] [Server thread/INFO]: [DeathBack] Plugin loaded!
-[05:19:11] [Server thread/INFO]: [DeathBack] 
-[05:19:11] [Server thread/INFO]: [DeathBack] DeathBack
-[05:19:11] [Server thread/INFO]: [DeathBack] Made by p1xEL_mc
-[05:19:11] [Server thread/INFO]: [DeathBack] Thanks for using!
-[05:19:11] [Server thread/INFO]: [DeathBack] 
-[05:19:11] [Server thread/INFO]: [SmartSpawner] Enabling SmartSpawner v1.6.7
-[05:19:11] [Server thread/INFO]: [SmartSpawner] Server supports DataComponent API (Paper 1.21.5+)
-[05:19:11] [Server thread/INFO]: [SmartSpawner] Running on standard Paper server.
-[05:19:11] [Server thread/WARN]: [SmartSpawner] Vault not found! Selling items from spawner will be disabled.
-[05:19:11] [Server thread/INFO]: [SmartSpawner] No compatible shop plugins found. Shop integration is disabled.
-[05:19:11] [Server thread/INFO]: [SmartSpawner] Using YAML file storage mode.
-[05:19:11] [Server thread/INFO]: [SmartSpawner] Initial spawner load complete. Loaded: 0, Pending (missing worlds): 0
-[05:19:11] [Server thread/INFO]: [SmartSpawner] SmartSpawner has been enabled! (Loaded in 254ms)
-[05:19:11] [Server thread/INFO]: [ViaVersionStatus] Enabling ViaVersionStatus v4.01
-[05:19:11] [Server thread/INFO]: [ViaVersionStatus] Metrics enabled if allowed by plugins/bStats/config.yml
-[05:19:11] [Server thread/INFO]: [OpenInv] Enabling OpenInv v5.3.2
-[05:19:11] [Server thread/INFO]: [DirectionHUD] Enabling DirectionHUD v1.8.2.0+1.20-1.21.8
-[05:19:11] [ForkJoinPool.commonPool-worker-1/INFO]: [SmartSpawner] -----------------------------------------------------
-[05:19:11] [ForkJoinPool.commonPool-worker-1/INFO]: [SmartSpawner]   SmartSpawner - Update Available
-[05:19:11] [ForkJoinPool.commonPool-worker-1/INFO]: [SmartSpawner] -----------------------------------------------------
-[05:19:11] [ForkJoinPool.commonPool-worker-1/INFO]: [SmartSpawner]   Current version  :  1.6.7
-[05:19:11] [ForkJoinPool.commonPool-worker-1/INFO]: [SmartSpawner]   Latest version   :  1.6.8
-[05:19:11] [ForkJoinPool.commonPool-worker-1/INFO]: [SmartSpawner]   Download         :  https://modrinth.com/plugin/9tQwxSFr/version/1.6.8
-[05:19:11] [ForkJoinPool.commonPool-worker-1/INFO]: [SmartSpawner] -----------------------------------------------------
-[05:19:11] [Server thread/INFO]: [DirectionHUD] Started server!
-[05:19:11] [Server thread/INFO]: [TradeCycle] Enabling TradeCycle v2.0.1
-[05:19:11] [Server thread/INFO]: [FreezeHibernate] Enabling FreezeHibernate v1.0
-[05:19:11] [Server thread/INFO]: [[38;5;11m⚡[0m] Enabling LagFixer v1.6.1 [build 143]
-[05:19:11] [Server thread/INFO]: [[38;5;11m⚡[0m] 
+[05:30:19] [ServerMain/INFO]: Loaded 2107 advancements
+[05:30:19] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[05:30:19] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 209.6ms
+[05:30:19] [Server thread/INFO]: Starting minecraft server version 26.1.2
+[05:30:19] [Server thread/INFO]: Loading properties
+[05:30:19] [Server thread/INFO]: This server is running Paper version 26.1.2-69-main@76d2ac7 (2026-06-03T17:32:02Z) (Implementing API version 26.1.2.build.69-stable)
+[05:30:20] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[05:30:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:30:20] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:30:20] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[05:30:20] [Server thread/INFO]: Default game type: SURVIVAL
+[05:30:20] [Server thread/INFO]: Generating keypair
+[05:30:20] [Server thread/INFO]: Starting Minecraft server on *:5610
+[05:30:20] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[05:30:20] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[05:30:20] [Server thread/INFO]: [SpigotLibraryLoader] [OpenInv] Loading 1 libraries... please wait
+[05:30:20] [Server thread/INFO]: [SpigotLibraryLoader] [OpenInv] Loaded library /home/runner/work/myserver/myserver/libraries/org/xerial/sqlite-jdbc/3.49.1.0/sqlite-jdbc-3.49.1.0.jar
+[05:30:20] [Server thread/INFO]: [SpigotLibraryLoader] [DirectionHUD] Loading 1 libraries... please wait
+[05:30:20] [Server thread/INFO]: [SpigotLibraryLoader] [DirectionHUD] Loaded library /home/runner/work/myserver/myserver/libraries/org/apache/commons/commons-configuration2/2.11.0/commons-configuration2-2.11.0.jar
+[05:30:20] [Server thread/INFO]: [SpigotLibraryLoader] [DirectionHUD] Loaded library /home/runner/work/myserver/myserver/libraries/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar
+[05:30:20] [Server thread/INFO]: [SpigotLibraryLoader] [DirectionHUD] Loaded library /home/runner/work/myserver/myserver/libraries/org/apache/commons/commons-text/1.12.0/commons-text-1.12.0.jar
+[05:30:20] [Server thread/INFO]: [SpigotLibraryLoader] [DirectionHUD] Loaded library /home/runner/work/myserver/myserver/libraries/commons-logging/commons-logging/1.3.2/commons-logging-1.3.2.jar
+[05:30:20] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loading 1 libraries... please wait
+[05:30:21] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /home/runner/work/myserver/myserver/libraries/com/github/oshi/oshi-core/7.2.0/oshi-core-7.2.0.jar
+[05:30:21] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /home/runner/work/myserver/myserver/libraries/com/github/oshi/oshi-common/7.2.0/oshi-common-7.2.0.jar
+[05:30:21] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /home/runner/work/myserver/myserver/libraries/net/java/dev/jna/jna-jpms/5.18.1/jna-jpms-5.18.1.jar
+[05:30:21] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /home/runner/work/myserver/myserver/libraries/net/java/dev/jna/jna-platform-jpms/5.18.1/jna-platform-jpms-5.18.1.jar
+[05:30:21] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /home/runner/work/myserver/myserver/libraries/org/slf4j/slf4j-api/2.0.18/slf4j-api-2.0.18.jar
+[05:30:21] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.9.1
+[05:30:21] [Server thread/INFO]: [ViaVersion] ViaVersion 5.9.1 is now loaded. Registering protocol transformers and injecting...
+[05:30:21] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[05:30:21] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[05:30:21] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[05:30:21] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[05:30:21] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.9.1
+[05:30:21] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.5.0-SNAPSHOT-b723ff3
+[05:30:21] [Server thread/WARN]: [ProtocolLib] Version (MC: 26.1.2) has not yet been tested! Proceed with caution.
+[05:30:21] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.10.0-SNAPSHOT
+[05:30:22] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[05:30:22] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[05:30:22] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.1.1
+[05:30:22] [Server thread/INFO]: [JustTPA] Loading server plugin JustTPA v20250220c
+[05:30:22] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.10.1
+[05:30:22] [Server thread/INFO]: [Veinminer] Detected platform: Paper
+[05:30:22] [Server thread/INFO]: [SleepVote] Loading server plugin SleepVote v1.0.0
+[05:30:22] [Server thread/INFO]: [SetHomePlugin] Loading server plugin SetHomePlugin v1.0.0
+[05:30:22] [Server thread/INFO]: [LimitedCreative] Loading server plugin LimitedCreative v2.0.1
+[05:30:22] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.53
+[05:30:22] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[05:30:22] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v2026.1.2.0
+[05:30:22] [Server thread/INFO]: [Not-Too-Expensive] Loading server plugin Not-Too-Expensive v1.1
+[05:30:22] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.2
+[05:30:22] [Server thread/INFO]: [AxGraves] Loading server plugin AxGraves v1.28.1
+[05:30:22] [Server thread/INFO]: [HoloMobHealth] Loading server plugin HoloMobHealth v2026.1.1.0
+[05:30:22] [Server thread/INFO]: [TabListPing] Loading server plugin TabListPing v2.03
+[05:30:22] [Server thread/INFO]: [DeathBack] Loading server plugin DeathBack v1.0
+[05:30:22] [Server thread/INFO]: [SmartSpawner] Loading server plugin SmartSpawner v1.6.7
+[05:30:22] [Server thread/INFO]: [ViaVersionStatus] Loading server plugin ViaVersionStatus v4.01
+[05:30:22] [Server thread/INFO]: [OpenInv] Loading server plugin OpenInv v5.3.2
+[05:30:22] [Server thread/INFO]: [DirectionHUD] Loading server plugin DirectionHUD v1.8.2.0+1.20-1.21.8
+[05:30:22] [Server thread/INFO]: [TradeCycle] Loading server plugin TradeCycle v2.0.1
+[05:30:22] [Server thread/INFO]: [FreezeHibernate] Loading server plugin FreezeHibernate v1.0
+[05:30:22] [Server thread/INFO]: [Clumps] Loading server plugin Clumps v5.0
+[05:30:22] [Server thread/INFO]: [[38;5;11m⚡[0m] Loading server plugin LagFixer v1.6.1 [build 143]
+[05:30:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:30:22] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.5.0-SNAPSHOT-b723ff3
+[05:30:22] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.1.1
+[05:30:22] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.10.1
+[05:30:22] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.53
+[05:30:22] [DefaultDispatcher-worker-1/INFO]: [de.miraculixx.veinminer.Veinminer] veinminer is up to date
+[05:30:22] [Server thread/INFO]:         __    
+[05:30:22] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.53
+[05:30:22] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[05:30:22] [Server thread/INFO]: 
+[05:30:23] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[05:30:23] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[05:30:23] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[05:30:23] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 929ms)
+[05:30:23] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.2
+[05:30:24] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 26.1.2.
+[05:30:24] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[05:30:24] [Server thread/INFO]: [Clumps] Enabling Clumps v5.0
+[05:30:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:30:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:30:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:30:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:30:24] [Server thread/INFO]: Preparing level "world"
+[05:30:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:30:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[05:30:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer   |
+[05:30:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |-------------------|
+[05:30:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode  |
+[05:30:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[05:30:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:30:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.12.2
+[05:30:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 5872d07
+[05:30:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[05:30:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:30:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[05:30:24] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
+[05:30:25] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[05:30:25] [Server thread/INFO]: Preparing spawn area: 100%
+[05:30:25] [Server thread/INFO]: Prepared spawn area in 1 ms
+[05:30:25] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[05:30:25] [Server thread/INFO]: Prepared spawn area in 0 ms
+[05:30:25] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[05:30:25] [Server thread/INFO]: Prepared spawn area in 0 ms
+[05:30:25] [Server thread/INFO]: Done preparing level "world" (0.662s)
+[05:30:25] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.9.1
+[05:30:25] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.1-26.1.2 (775)
+[05:30:25] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.9.1
+[05:30:25] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.10.0-SNAPSHOT
+[05:30:26] [Server thread/INFO]: [JustTPA] Enabling JustTPA v20250220c
+[05:30:26] [Server thread/INFO]: [JustTPA] JustTPA initialized
+[05:30:26] [Server thread/INFO]: [JustTPA] bStats enabled
+[05:30:26] [Server thread/INFO]: [JustTPA] Checking for updates...
+[05:30:26] [Server thread/INFO]: [SleepVote] Enabling SleepVote v1.0.0
+[05:30:26] [Server thread/INFO]: [SleepVote] SleepVote has been enabled.
+[05:30:26] [Server thread/INFO]: [SetHomePlugin] Enabling SetHomePlugin v1.0.0
+[05:30:26] [Server thread/INFO]: [SetHomePlugin] SetHomePlugin enabled con sistema de permisos dinámicos
+[05:30:26] [Server thread/INFO]: [LimitedCreative] Enabling LimitedCreative v2.0.1
+[05:30:26] [Server thread/WARN]: Plugin 'LimitedCreative' is creating timing 'Commands' - this is deprecated behavior, please report it to the authors: Adelemphii
+[05:30:26] [Server thread/WARN]: Plugin 'LimitedCreative' is creating timing 'Command: limitedcreative' - this is deprecated behavior, please report it to the authors: Adelemphii
+[05:30:26] [Server thread/WARN]: Plugin 'LimitedCreative' is creating timing 'Command: limitedcreative reload' - this is deprecated behavior, please report it to the authors: Adelemphii
+[05:30:26] [Server thread/WARN]: Plugin 'LimitedCreative' is creating timing 'Command: limitedcreative give' - this is deprecated behavior, please report it to the authors: Adelemphii
+[05:30:26] [Server thread/WARN]: Plugin 'LimitedCreative' is creating timing 'Command: limitedcreative nightvision' - this is deprecated behavior, please report it to the authors: Adelemphii
+[05:30:26] [Server thread/WARN]: Plugin 'LimitedCreative' is creating timing 'Command: limitedcreative give nightvision' - this is deprecated behavior, please report it to the authors: Adelemphii
+[05:30:26] [Server thread/WARN]: Plugin 'LimitedCreative' is creating timing 'Command: limitedcreative info' - this is deprecated behavior, please report it to the authors: Adelemphii
+[05:30:26] [Server thread/WARN]: Plugin 'LimitedCreative' is creating timing 'Command: limitedcreative' - this is deprecated behavior, please report it to the authors: Adelemphii
+[05:30:26] [Server thread/WARN]: Plugin 'LimitedCreative' is creating timing 'Command: limitedcreative help' - this is deprecated behavior, please report it to the authors: Adelemphii
+[05:30:26] [Server thread/WARN]: Plugin 'LimitedCreative' is creating timing 'Command: limitedcreative self' - this is deprecated behavior, please report it to the authors: Adelemphii
+[05:30:26] [Server thread/WARN]: Plugin 'LimitedCreative' is creating timing 'Command: playerlist' - this is deprecated behavior, please report it to the authors: Adelemphii
+[05:30:26] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v2026.1.2.0
+[05:30:26] [Server thread/INFO]: [ImageFrame] ImageFrame has hooked into ViaVersion!
+[05:30:28] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_static
+[05:30:28] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_animated
+[05:30:28] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:url_static_overlay
+[05:30:28] [Server thread/INFO]: [ImageFrame] Registered ImageMapLoader imageframe:non_updatable_static
+[05:30:28] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:gif_reader to ImageMapLoader imageframe:url_animated
+[05:30:28] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:imageio to ImageMapLoader imageframe:url_static
+[05:30:28] [Server thread/INFO]: [ImageFrame] Registered MediaLoader imageframe:imageio to ImageMapLoader imageframe:url_static_overlay
+[05:30:28] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
+[05:30:28] [Server thread/INFO]: [Not-Too-Expensive] Enabling Not-Too-Expensive v1.1
+[05:30:28] [Server thread/INFO]: [AxGraves] Enabling AxGraves v1.28.1
+[05:30:29] [Server thread/INFO]: [HoloMobHealth] Enabling HoloMobHealth v2026.1.1.0
+[05:30:31] [Server thread/INFO]: [HoloMobHealth] No custom ProtocolProvider provided, using default ProtocolLib provider.
+[05:30:32] [Server thread/INFO]: [HoloMobHealth] Loading languages...
+[05:30:32] [Server thread/INFO]: [HoloMobHealth] Opened Sqlite database successfully
+[05:30:32] [Server thread/INFO]: [HoloMobHealth] HoloMobHealth has been Enabled!
+[05:30:32] [Server thread/INFO]: [TabListPing] Enabling TabListPing v2.03
+[05:30:32] [Server thread/INFO]: [TabListPing] Detected 26.1.2.build.69, using net.minecraft.network.protocol.common.ClientboundKeepAlivePacket & net.minecraft.network.protocol.common.ServerboundKeepAlivePacket
+[05:30:32] [Server thread/INFO]: [TabListPing] Metrics enabled if allowed by plugins/bStats/config.yml
+[05:30:32] [Server thread/INFO]: [DeathBack] Enabling DeathBack v1.0
+[05:30:32] [Server thread/INFO]: [DeathBack] Plugin loaded!
+[05:30:32] [Server thread/INFO]: [DeathBack] 
+[05:30:32] [Server thread/INFO]: [DeathBack] DeathBack
+[05:30:32] [Server thread/INFO]: [DeathBack] Made by p1xEL_mc
+[05:30:32] [Server thread/INFO]: [DeathBack] Thanks for using!
+[05:30:32] [Server thread/INFO]: [DeathBack] 
+[05:30:32] [Server thread/INFO]: [SmartSpawner] Enabling SmartSpawner v1.6.7
+[05:30:32] [Server thread/INFO]: [SmartSpawner] Server supports DataComponent API (Paper 1.21.5+)
+[05:30:32] [Server thread/INFO]: [SmartSpawner] Running on standard Paper server.
+[05:30:32] [Server thread/WARN]: [SmartSpawner] Vault not found! Selling items from spawner will be disabled.
+[05:30:32] [Server thread/INFO]: [SmartSpawner] No compatible shop plugins found. Shop integration is disabled.
+[05:30:32] [Server thread/INFO]: [SmartSpawner] Using YAML file storage mode.
+[05:30:32] [Server thread/INFO]: [SmartSpawner] Initial spawner load complete. Loaded: 0, Pending (missing worlds): 0
+[05:30:32] [Server thread/INFO]: [SmartSpawner] SmartSpawner has been enabled! (Loaded in 225ms)
+[05:30:32] [Server thread/INFO]: [ViaVersionStatus] Enabling ViaVersionStatus v4.01
+[05:30:32] [Server thread/INFO]: [ViaVersionStatus] Metrics enabled if allowed by plugins/bStats/config.yml
+[05:30:32] [Server thread/INFO]: [OpenInv] Enabling OpenInv v5.3.2
+[05:30:32] [ForkJoinPool.commonPool-worker-1/INFO]: [SmartSpawner] -----------------------------------------------------
+[05:30:32] [ForkJoinPool.commonPool-worker-1/INFO]: [SmartSpawner]   SmartSpawner - Update Available
+[05:30:32] [ForkJoinPool.commonPool-worker-1/INFO]: [SmartSpawner] -----------------------------------------------------
+[05:30:32] [ForkJoinPool.commonPool-worker-1/INFO]: [SmartSpawner]   Current version  :  1.6.7
+[05:30:32] [ForkJoinPool.commonPool-worker-1/INFO]: [SmartSpawner]   Latest version   :  1.6.8
+[05:30:32] [ForkJoinPool.commonPool-worker-1/INFO]: [SmartSpawner]   Download         :  https://modrinth.com/plugin/9tQwxSFr/version/1.6.8
+[05:30:32] [ForkJoinPool.commonPool-worker-1/INFO]: [SmartSpawner] -----------------------------------------------------
+[05:30:32] [Server thread/INFO]: [DirectionHUD] Enabling DirectionHUD v1.8.2.0+1.20-1.21.8
+[05:30:32] [Server thread/INFO]: [DirectionHUD] Started server!
+[05:30:32] [Server thread/INFO]: [TradeCycle] Enabling TradeCycle v2.0.1
+[05:30:32] [Server thread/INFO]: [FreezeHibernate] Enabling FreezeHibernate v1.0
+[05:30:32] [Server thread/INFO]: [[38;5;11m⚡[0m] Enabling LagFixer v1.6.1 [build 143]
+[05:30:32] [Server thread/INFO]: [[38;5;11m⚡[0m] 
 
 LagFixer 1.6.1 [build 143] - Best Performance Solution!
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
@@ -325,108 +326,107 @@ LagFixer 1.6.1 [build 143] - Best Performance Solution!
 Remember to leave a rating! ★ ★ ★ ★ ★
 
 
-[05:19:11] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Enabling manager...
-[05:19:11] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Started listening console for LagFixer errors!
-[05:19:11] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Enabled manager in 1.026ms!
-[05:19:11] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Enabling manager...
-[05:19:11] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Enabled manager in 54.414ms!
-[05:19:11] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Enabling manager...
-[05:19:11] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Loaded fork support ~ xyz.lychee.lagfixer.support.PaperSupport
-[05:19:11] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Loaded nms support ~ xyz.lychee.lagfixer.nms.v26_1.SupportNms
-[05:19:11] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Enabled manager in 9.532ms!
-[05:19:11] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Enabling manager...
-[05:19:11] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Enabled manager in 0.044ms!
-[05:19:11] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Enabling manager...
-[05:19:11] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Enabled manager in 2.661ms!
-[05:19:11] [Server thread/INFO]: [[38;5;11m⚡[0m] (UpdaterManager) -> Enabling manager...
-[05:19:11] [Server thread/INFO]: [[38;5;11m⚡[0m] (UpdaterManager) -> Enabled manager in 3.661ms!
-[05:19:11] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[05:19:11] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Enabling manager...
-[05:19:11] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module RedstoneLimiter in 5.268ms!
-[05:19:12] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module InstantLeafDecay in 3.156ms!
-[05:19:12] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module WorldCleaner in 6.241ms!
-[05:19:12] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module LagShield in 5.547ms!
-[05:19:12] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module ExplosionOptimizer in 3.4ms!
-[05:19:12] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module ConsoleFilter in 2.913ms!
-[05:19:12] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module AbilityLimiter in 2.173ms!
-[05:19:12] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module VehicleMotionReducer in 8.247ms!
-[05:19:12] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Enabled manager in 88.746ms!
-[05:19:12] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Enabling manager...
-[05:19:12] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Enabled manager in 46.464ms!
-[05:19:12] [Server thread/INFO]: [[38;5;11m⚡[0m] Remember to leave a rating! ★ ★ ★ ★ ★
-[05:19:12] [Server thread/INFO]: [[38;5;11m⚡[0m] ❤ Support us https://ko-fi.com/lajczik
-[05:19:12] [Server thread/INFO]: [spark] Starting background profiler...
-[05:19:12] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[05:19:12] [Server thread/INFO]: [Geyser-Spigot] 
-[05:19:12] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.10.0-b1162 (git-master-689f4d7)
-[05:19:12] [Server thread/INFO]: [Geyser-Spigot] 
-[05:19:12] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[05:19:15] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 7410
-[05:19:15] [Server thread/INFO]: [Geyser-Spigot] Done (3s)! Run /geyser help for help!
-[05:19:16] [Server thread/INFO]: [FreezeHibernate] Server is frozen until a player joins.
-[05:19:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[05:19:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[05:19:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[05:19:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[05:19:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[05:19:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[05:19:16] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[05:19:16] [Server thread/INFO]: Running delayed init tasks
-[05:19:16] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[05:19:16] [Craft Scheduler Thread - 1 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 0 ImageMaps!
-[05:19:16] [Server thread/INFO]: [de.miraculixx.veinminer.Veinminer] All events enabled!
-[05:19:16] [Server thread/INFO]: Done (32.204s)! For help, type "help"
-[05:19:16] [Craft Scheduler Thread - 0 - JustTPA/WARN]: [JustTPA] Failed to check for updates
-[05:19:18] [Craft Scheduler Thread - 5 - HoloMobHealth/INFO]: [HoloMobHealth] Loaded all 1 languages!
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] ViaVersion supported protocols:
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.7.2-1.7.5(4)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.7.6-1.7.10(5)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.8.x(47)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.9(107)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.9.1(108)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.9.2(109)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.9.3-1.9.4(110)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.10.x(210)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.11(315)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.11.1-1.11.2(316)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.12(335)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.12.1(338)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.12.2(340)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.13(393)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.13.1(401)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.13.2(404)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.14(477)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.14.1(480)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.14.2(485)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.14.3(490)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.14.4(498)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.15(573)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.15.1(575)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.15.2(578)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.16(735)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.16.1(736)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.16.2(751)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.16.3(753)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.16.4-1.16.5(754)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.17(755)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.17.1(756)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.18-1.18.1(757)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.18.2(758)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.19(759)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.19.1-1.19.2(760)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.19.3(761)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.19.4(762)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.20-1.20.1(763)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.20.2(764)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.20.3-1.20.4(765)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.20.5-1.20.6(766)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.21-1.21.1(767)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.21.2-1.21.3(768)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.21.4(769)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.21.5(770)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.21.6(771)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.21.7-1.21.8(772)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.21.9-1.21.10(773)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 1.21.11(774)
-[05:19:21] [Server thread/INFO]: [ViaVersionStatus] 26.1-26.1.2(775)
-[05:20:16] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[05:30:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Enabling manager...
+[05:30:32] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Started listening console for LagFixer errors!
+[05:30:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Enabled manager in 2.995ms!
+[05:30:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Enabling manager...
+[05:30:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Enabled manager in 43.427ms!
+[05:30:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Enabling manager...
+[05:30:32] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Loaded fork support ~ xyz.lychee.lagfixer.support.PaperSupport
+[05:30:32] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Loaded nms support ~ xyz.lychee.lagfixer.nms.v26_1.SupportNms
+[05:30:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Enabled manager in 7.394ms!
+[05:30:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Enabling manager...
+[05:30:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Enabled manager in 0.036ms!
+[05:30:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Enabling manager...
+[05:30:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Enabled manager in 2.114ms!
+[05:30:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (UpdaterManager) -> Enabling manager...
+[05:30:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (UpdaterManager) -> Enabled manager in 3.066ms!
+[05:30:32] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[05:30:32] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Enabling manager...
+[05:30:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module RedstoneLimiter in 3.931ms!
+[05:30:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module InstantLeafDecay in 1.551ms!
+[05:30:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module WorldCleaner in 5.091ms!
+[05:30:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module LagShield in 4.322ms!
+[05:30:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module ExplosionOptimizer in 3.03ms!
+[05:30:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module ConsoleFilter in 2.462ms!
+[05:30:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module AbilityLimiter in 1.875ms!
+[05:30:33] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module VehicleMotionReducer in 6.723ms!
+[05:30:33] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Enabled manager in 69.994ms!
+[05:30:33] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Enabling manager...
+[05:30:33] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Enabled manager in 43.486ms!
+[05:30:33] [Server thread/INFO]: [[38;5;11m⚡[0m] Remember to leave a rating! ★ ★ ★ ★ ★
+[05:30:33] [Server thread/INFO]: [[38;5;11m⚡[0m] ❤ Support us https://ko-fi.com/lajczik
+[05:30:33] [Server thread/INFO]: [spark] Starting background profiler...
+[05:30:33] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[05:30:33] [Server thread/INFO]: [Geyser-Spigot] 
+[05:30:33] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.10.0-b1162 (git-master-689f4d7)
+[05:30:33] [Server thread/INFO]: [Geyser-Spigot] 
+[05:30:33] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[05:30:36] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 7410
+[05:30:36] [Server thread/INFO]: [Geyser-Spigot] Done (2.34s)! Run /geyser help for help!
+[05:30:36] [Server thread/INFO]: [FreezeHibernate] Server is frozen until a player joins.
+[05:30:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05:30:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[05:30:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[05:30:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:30:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:30:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:30:36] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[05:30:36] [Server thread/INFO]: Running delayed init tasks
+[05:30:36] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[05:30:36] [Craft Scheduler Thread - 8 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 0 ImageMaps!
+[05:30:36] [Server thread/INFO]: [de.miraculixx.veinminer.Veinminer] All events enabled!
+[05:30:36] [Server thread/INFO]: Done (25.097s)! For help, type "help"
+[05:30:36] [Craft Scheduler Thread - 0 - JustTPA/WARN]: [JustTPA] Failed to check for updates
+[05:30:37] [Craft Scheduler Thread - 7 - HoloMobHealth/INFO]: [HoloMobHealth] Loaded all 1 languages!
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] ViaVersion supported protocols:
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.7.2-1.7.5(4)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.7.6-1.7.10(5)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.8.x(47)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.9(107)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.9.1(108)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.9.2(109)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.9.3-1.9.4(110)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.10.x(210)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.11(315)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.11.1-1.11.2(316)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.12(335)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.12.1(338)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.12.2(340)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.13(393)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.13.1(401)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.13.2(404)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.14(477)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.14.1(480)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.14.2(485)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.14.3(490)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.14.4(498)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.15(573)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.15.1(575)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.15.2(578)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.16(735)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.16.1(736)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.16.2(751)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.16.3(753)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.16.4-1.16.5(754)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.17(755)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.17.1(756)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.18-1.18.1(757)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.18.2(758)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.19(759)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.19.1-1.19.2(760)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.19.3(761)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.19.4(762)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.20-1.20.1(763)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.20.2(764)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.20.3-1.20.4(765)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.20.5-1.20.6(766)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.21-1.21.1(767)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.21.2-1.21.3(768)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.21.4(769)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.21.5(770)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.21.6(771)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.21.7-1.21.8(772)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.21.9-1.21.10(773)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 1.21.11(774)
+[05:30:41] [Server thread/INFO]: [ViaVersionStatus] 26.1-26.1.2(775)
