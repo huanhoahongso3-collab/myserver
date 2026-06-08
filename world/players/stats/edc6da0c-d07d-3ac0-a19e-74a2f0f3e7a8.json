@@ -1,7 +1,8 @@
 {
   "stats": {
     "minecraft:broken": {
-      "minecraft:iron_helmet": 1
+      "minecraft:iron_helmet": 1,
+      "minecraft:iron_boots": 1
     },
     "minecraft:mined": {
       "minecraft:cherry_log": 24,
@@ -17,7 +18,7 @@
       "minecraft:decorated_pot": 6,
       "minecraft:potted_pink_tulip": 1,
       "minecraft:deepslate": 2,
-      "minecraft:fire": 7,
+      "minecraft:fire": 8,
       "minecraft:stone_brick_stairs": 2,
       "minecraft:cherry_door": 1,
       "minecraft:dried_kelp_block": 17,
@@ -54,7 +55,7 @@
     },
     "minecraft:killed_by": {
       "minecraft:skeleton": 1,
-      "minecraft:player": 4,
+      "minecraft:player": 5,
       "minecraft:creeper": 2,
       "minecraft:spider": 1,
       "minecraft:zombie": 11
@@ -131,10 +132,10 @@
       "minecraft:tube_coral_fan": 1,
       "minecraft:cherry_log": 6,
       "minecraft:lectern": 1,
-      "minecraft:cooked_beef": 20,
+      "minecraft:cooked_beef": 22,
       "minecraft:pink_bed": 3,
       "minecraft:stone_brick_stairs": 12,
-      "minecraft:flint_and_steel": 12,
+      "minecraft:flint_and_steel": 13,
       "minecraft:chest": 39,
       "minecraft:cornflower": 1,
       "minecraft:iron_helmet": 1,
@@ -219,38 +220,38 @@
       "minecraft:iron_leggings": 1
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 2919,
+      "minecraft:time_since_rest": 5203,
       "minecraft:talked_to_villager": 8,
       "minecraft:leave_game": 16,
-      "minecraft:damage_taken": 8460,
+      "minecraft:damage_taken": 8862,
       "minecraft:mob_kills": 30,
-      "minecraft:time_since_death": 2756,
+      "minecraft:time_since_death": 5156,
       "minecraft:interact_with_furnace": 12,
       "minecraft:sleep_in_bed": 5,
       "minecraft:swim_one_cm": 36308,
-      "minecraft:total_world_time": 220275,
-      "minecraft:crouch_one_cm": 23464,
+      "minecraft:total_world_time": 226275,
+      "minecraft:crouch_one_cm": 30127,
       "minecraft:pot_flower": 3,
-      "minecraft:deaths": 22,
-      "minecraft:climb_one_cm": 20686,
+      "minecraft:deaths": 23,
+      "minecraft:climb_one_cm": 21086,
       "minecraft:player_kills": 1,
       "minecraft:animals_bred": 2,
       "minecraft:traded_with_villager": 1,
       "minecraft:damage_blocked_by_shield": 3456,
       "minecraft:interact_with_crafting_table": 17,
-      "minecraft:walk_one_cm": 701137,
+      "minecraft:walk_one_cm": 710205,
       "minecraft:walk_under_water_one_cm": 9926,
       "minecraft:damage_dealt": 5936,
-      "minecraft:play_time": 220275,
-      "minecraft:jump": 1679,
+      "minecraft:play_time": 226275,
+      "minecraft:jump": 1706,
       "minecraft:drop": 15,
       "minecraft:sprint_one_cm": 180701,
       "minecraft:open_chest": 23,
-      "minecraft:fall_one_cm": 43319,
-      "minecraft:fly_one_cm": 369354,
+      "minecraft:fall_one_cm": 43520,
+      "minecraft:fly_one_cm": 369651,
       "minecraft:interact_with_anvil": 1,
       "minecraft:walk_on_water_one_cm": 19448,
-      "minecraft:sneak_time": 11409
+      "minecraft:sneak_time": 14652
     }
   },
   "DataVersion": 4790
