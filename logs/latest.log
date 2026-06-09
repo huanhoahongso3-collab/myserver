@@ -470,3 +470,119 @@ Remember to leave a rating! ★ ★ ★ ★ ★
 [02:43:52] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Creative Mode]
 [02:44:44] [Server thread/INFO]: [FewerSteak1914: Set own game mode to Survival Mode]
 [02:44:59] [Server thread/INFO]: FewerSteak1914 issued server command: /lc
+[02:48:39] [Server thread/INFO]: FewerSteak1914 issued server command: /save-all
+[02:48:39] [Server thread/INFO]: [FewerSteak1914: Saved the game]
+[02:48:40] [Server thread/INFO]: FewerSteak1914 issued server command: /stop
+[02:48:40] [Server thread/INFO]: [FewerSteak1914: Stopping the server]
+[02:48:40] [Server thread/INFO]: Stopping server
+[02:48:40] [Server thread/INFO]: [[38;5;11m⚡[0m] Disabling LagFixer v1.6.1 [build 143]
+[02:48:40] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Disabling manager...
+[02:48:40] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Disabled manager in 0.058ms!
+[02:48:40] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Disabling manager...
+[02:48:40] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Disabled manager in 0.002ms!
+[02:48:40] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Disabling manager...
+[02:48:40] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Disabled manager in 0.823ms!
+[02:48:40] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Disabling manager...
+[02:48:40] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Disabled manager in 0.018ms!
+[02:48:40] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Disabling manager...
+[02:48:40] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Disabled manager in 0.035ms!
+[02:48:40] [Server thread/INFO]: [[38;5;11m⚡[0m] (UpdaterManager) -> Disabling manager...
+[02:48:40] [Server thread/INFO]: [[38;5;11m⚡[0m] (UpdaterManager) -> Disabled manager in 0.884ms!
+[02:48:40] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Disabling manager...
+[02:48:40] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module RedstoneLimiter in 0.348ms!
+[02:48:40] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module InstantLeafDecay in 0.088ms!
+[02:48:40] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module WorldCleaner in 0.251ms!
+[02:48:40] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module LagShield in 0.105ms!
+[02:48:40] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module ExplosionOptimizer in 0.106ms!
+[02:48:40] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Error with disabling module ConsoleFilter, reason: null
+[02:48:40] [Server thread/WARN]: [[38;5;11m⚡[0m] LagFixer error message:
+
+-------------------------------
+
+An error occurred in lagfixer:
+ -> EOFException: null
+ | ConsoleFilterModule.java -> disable() at 141 line
+ | ModuleManager.java -> disable() at 96 line
+ | LagFixer.java -> onDisable() at 49 line
+
+Our support has been informed about it, it will be fixed soon.
+Make sure the LagFixer configuration is done correctly.
+If you have any doubts, contact support: https://discord.gg/CFmzJjgZdu
+
+-------------------------------
+
+[02:48:40] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module AbilityLimiter in 0.077ms!
+[02:48:40] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module VehicleMotionReducer in 0.054ms!
+[02:48:40] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Disabled manager in 5.192ms!
+[02:48:40] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Disabling manager...
+[02:48:40] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Disabled manager in 0.803ms!
+[02:48:40] [Server thread/INFO]: [Clumps] Disabling Clumps v5.0
+[02:48:40] [Server thread/INFO]: [FreezeHibernate] Disabling FreezeHibernate v1.0
+[02:48:40] [Server thread/INFO]: [TradeCycle] Disabling TradeCycle v2.0.1
+[02:48:40] [Server thread/INFO]: [GSit] Disabling GSit v3.4.2
+[02:48:40] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
+[02:48:40] [Server thread/INFO]: [OpenInv] Disabling OpenInv v5.3.2
+[02:48:40] [Server thread/INFO]: [ViaVersionStatus] Disabling ViaVersionStatus v4.01
+[02:48:40] [Server thread/INFO]: [SmartSpawner] Disabling SmartSpawner v1.6.7
+[02:48:40] [Server thread/INFO]: [SmartSpawner] SmartSpawner has been disabled!
+[02:48:40] [Server thread/INFO]: [DeathBack] Disabling DeathBack v1.0
+[02:48:40] [Server thread/INFO]: [DeathBack] Plugin unloaded!
+[02:48:40] [Server thread/INFO]: [DeathBack] Thank you to use my plugin!
+[02:48:40] [Server thread/INFO]: [TabListPing] Disabling TabListPing v2.03
+[02:48:40] [Server thread/INFO]: [HoloMobHealth] Disabling HoloMobHealth v2026.1.1.0
+[02:48:40] [Server thread/INFO]: [HoloMobHealth] HoloMobHealth has been Disabled!
+[02:48:40] [Server thread/INFO]: [AxGraves] Disabling AxGraves v1.28.1
+[02:48:40] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.12.2
+[02:48:40] [Server thread/INFO]: [Not-Too-Expensive] Disabling Not-Too-Expensive v1.1
+[02:48:40] [Server thread/INFO]: [ImageFrame] Disabling ImageFrame v2026.1.2.0
+[02:48:40] [Server thread/INFO]: [ImageFrame] ImageFrame has been Disabled!
+[02:48:40] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.53
+[02:48:40] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[02:48:40] [Server thread/INFO]: [LuckPerms] Closing storage...
+[02:48:40] [Server thread/INFO]: [LuckPerms] Goodbye!
+[02:48:40] [Server thread/INFO]: [LimitedCreative] Disabling LimitedCreative v2.0.1
+[02:48:40] [Server thread/INFO]: [SetHomePlugin] Disabling SetHomePlugin v1.0.0
+[02:48:40] [Server thread/INFO]: [SleepVote] Disabling SleepVote v1.0.0
+[02:48:40] [Server thread/INFO]: [SleepVote] SleepVote has been disabled.
+[02:48:40] [Server thread/INFO]: [Veinminer] Disabling Veinminer v2.10.1
+[02:48:40] [Server thread/INFO]: [JustTPA] Disabling JustTPA v20250220c
+[02:48:40] [Server thread/INFO]: [JustTPA] JustTPA disabled
+[02:48:40] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.1.1
+[02:48:40] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.10.0-SNAPSHOT
+[02:48:40] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[02:48:40] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[02:48:40] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.5.0-SNAPSHOT-b723ff3
+[02:48:40] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.9.1
+[02:48:40] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.9.1
+[02:48:40] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[02:48:40] [Server thread/INFO]: Saving players
+[02:48:40] [Server thread/INFO]: Saving worlds
+[02:48:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:48:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'
+[02:48:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'
+[02:48:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'
+[02:48:40] [Server thread/INFO]: [ChunkHolderManager] Saved 3 block chunks, 151 entity chunks, 0 poi chunks in world 'minecraft:overworld' in 0.03s
+[02:48:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:overworld'
+[02:48:40] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:overworld'
+[02:48:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[02:48:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'
+[02:48:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'
+[02:48:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'
+[02:48:40] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0.00s
+[02:48:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_nether'
+[02:48:40] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_nether'
+[02:48:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[02:48:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_end'
+[02:48:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_end'
+[02:48:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_end'
+[02:48:40] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_end' in 0.00s
+[02:48:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_end'
+[02:48:40] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_end'
+[02:48:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:48:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:48:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:48:40] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02:48:40] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[02:48:40] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[02:48:40] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[02:48:40] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
