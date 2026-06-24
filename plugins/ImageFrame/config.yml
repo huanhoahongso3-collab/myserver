@@ -102,12 +102,14 @@ InvisibleFrame:
 Storage:
   # Supported storage systems: file (Default), jdbc
   Type: file
+  # Options are only used if the storage system type requires it, such as jdbc
   Options:
     JdbcUrl: jdbc:mysql://localhost:3306/imageframe
     Username: imageframe
     Password: imageframe
     # In Seconds
     ActivePollInterval: 5
+
 Hooks:
   ViaVersion:
     # Enable this if your players below 1.13 is having network issues
