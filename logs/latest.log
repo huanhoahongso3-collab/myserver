@@ -436,3 +436,33 @@ Remember to leave a rating! ★ ★ ★ ★ ★
 [07:54:47] [Craft Scheduler Thread - 0 - HoloMobHealth/INFO]: [HoloMobHealth] A new version is available on SpigotMC: 2026.1.2
 [07:54:47] [Craft Scheduler Thread - 0 - HoloMobHealth/INFO]: Download: https://www.spigotmc.org/resources/75975
 [07:55:42] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[07:56:42] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] Player connected with username quynhanh4187 (924)
+[07:56:42] [localSession-7-2/INFO]: [Geyser-Spigot] quynhanh4187 (logged in as: quynhanh4187) has connected to the Java server
+[07:56:42] [User Authenticator #0/INFO]: UUID of player quynhanh4187 is 9d198203-f0c3-3904-96aa-e33e4dcb5a8d
+[07:56:42] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
+[07:56:44] [Server thread/INFO]: [FreezeHibernate] A player joined. Server is now unfrozen.
+[07:56:44] [Server thread/INFO]: [LimitedCreative] [ACF] Can't read players locale, you will be unable to automatically detect players language. Only Bukkit 1.7+ is supported for this.
+[07:56:44] [Server thread/INFO]: [LimitedCreative] [ACF] java.lang.NoSuchFieldException: locale
+[07:56:44] [Server thread/INFO]: [LimitedCreative] [ACF] 	at java.base/java.lang.Class.getDeclaredField(Class.java:2382)
+[07:56:44] [Server thread/INFO]: [LimitedCreative] [ACF] 	at LimitedCreative.jar//co.aikar.commands.BukkitCommandManager.readPlayerLocale(BukkitCommandManager.java:318)
+[07:56:44] [Server thread/INFO]: [LimitedCreative] [ACF] 	at LimitedCreative.jar//co.aikar.commands.ACFBukkitListener.onPlayerJoin(ACFBukkitListener.java:57)
+[07:56:44] [Server thread/INFO]: [LimitedCreative] [ACF] 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+[07:56:44] [Server thread/INFO]: [LimitedCreative] [ACF] 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71)
+[07:56:44] [Server thread/INFO]: [LimitedCreative] [ACF] 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[07:56:44] [Server thread/INFO]: [LimitedCreative] [ACF] 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131)
+[07:56:44] [Server thread/INFO]: [LimitedCreative] [ACF] 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628)
+[07:56:44] [Server thread/INFO]: [LimitedCreative] [ACF] 	at net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:242)
+[07:56:44] [Server thread/INFO]: [LimitedCreative] [ACF] 	at net.minecraft.server.network.config.PrepareSpawnTask$Ready.spawn(PrepareSpawnTask.java:312)
+[07:56:44] [Server thread/INFO]: [LimitedCreative] [ACF] 	at net.minecraft.server.network.config.PrepareSpawnTask.spawnPlayer(PrepareSpawnTask.java:137)
+[07:56:44] [Server thread/INFO]: [LimitedCreative] [ACF] 	at net.minecraft.server.network.ServerConfigurationPacketListenerImpl.handleConfigurationFinished(ServerConfigurationPacketListenerImpl.java:205)
+[07:56:44] [Server thread/INFO]: [LimitedCreative] [ACF] 	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:22)
+[07:56:44] [Server thread/INFO]: [LimitedCreative] [ACF] 	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:8)
+[07:56:44] [Server thread/INFO]: [LimitedCreative] [ACF] 	at net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:97)
+[07:56:44] [Server thread/INFO]: [LimitedCreative] [ACF] 	at net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33)
+[07:56:44] [Server thread/INFO]: [LimitedCreative] [ACF] 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1533)
+[07:56:44] [Server thread/INFO]: [LimitedCreative] [ACF] 	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1263)
+[07:56:44] [Server thread/INFO]: [LimitedCreative] [ACF] 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1379)
+[07:56:44] [Server thread/INFO]: [LimitedCreative] [ACF] 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304)
+[07:56:44] [Server thread/INFO]: [LimitedCreative] [ACF] 	at java.base/java.lang.Thread.run(Thread.java:1516)
+[07:56:44] [Server thread/INFO]: quynhanh4187 joined the game
+[07:56:44] [Server thread/INFO]: quynhanh4187[/127.27.36.45:0] logged in with entity id 5 at ([minecraft:overworld]-16.684008, 113.0, 6217.4326)
